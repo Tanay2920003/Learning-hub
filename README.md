@@ -1,10 +1,14 @@
-#  Learning Hub
+# Learning Hub
+![Learning Hub Banner](public/banner.png)
 📚🎓🏫👨🏻‍🎓🎒🏛️
 
 ![Project Badge](https://img.shields.io/badge/Status-Active-success)
 ![Next.js](https://img.shields.io/badge/Next.js-15.0-black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
+[![CI](https://github.com/Tanay2920003/Learning-hub/actions/workflows/ci.yml/badge.svg)](https://github.com/Tanay2920003/Learning-hub/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/Tanay2920003/Learning-hub/actions/workflows/codeql.yml/badge.svg)](https://github.com/Tanay2920003/Learning-hub/actions/workflows/codeql.yml)
+[![Release](https://github.com/Tanay2920003/Learning-hub/actions/workflows/release.yml/badge.svg)](https://github.com/Tanay2920003/Learning-hub/actions/workflows/release.yml)
 
 A stunning, responsive directory of premium developer learning resources. Learning Hub aggregates top-tier platforms like Roadmap.sh, W3Schools, Web.dev, and Microsoft Learn into a beautiful, unified interface with a card-based design.
 
