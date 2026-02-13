@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import styles from './page.module.css';
 
@@ -26,6 +26,42 @@ interface TopicData {
 export default function TutorialsView({ topics }: { topics: TopicData[] }) {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
     const [searchQuery, setSearchQuery] = useState('');
+    const [showSuggestions, setShowSuggestions] = useState(false);
+    const searchContainerRef = useRef<HTMLDivElement>(null);
+
+    // Close suggestions when clicking outside
+    useEffect(() => {
+        const handleClickOutside = (event: MouseEvent) => {
+            if (searchContainerRef.current && !searchContainerRef.current.contains(event.target as Node)) {
+                setShowSuggestions(false);
+            }
+        };
+
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, []);
+
+    // Generate suggestions
+    const suggestions = searchQuery.length > 0 ? (() => {
+        const allSuggestions: { type: 'topic' | 'playlist', item: TopicData | Playlist, icon?: string }[] = [];
+        
+        topics.forEach(topic => {
+            // Check topic matches
+            if (topic.name.toLowerCase().includes(searchQuery.toLowerCase())) {
+                allSuggestions.push({ type: 'topic', item: topic, icon: topic.icon });
+            }
+            // Check playlist matches
+            topic.playlists.forEach(playlist => {
+                if (playlist.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
+                    playlist.creator.toLowerCase().includes(searchQuery.toLowerCase())) {
+                    allSuggestions.push({ type: 'playlist', item: playlist, icon: '📺' });
+                }
+            });
+        });
+        return allSuggestions.slice(0, 5);
+    })() : [];
 
     const filteredTopics = topics.map(topic => {
         const filteredPlaylists = topic.playlists.filter(playlist =>
@@ -89,15 +125,62 @@ export default function TutorialsView({ topics }: { topics: TopicData[] }) {
                         <p>Curated video playlists for every developer skill level</p>
                         
                         {/* Search Bar */}
-                        <div className={styles.searchContainer}>
+                        <div className={styles.searchContainer} ref={searchContainerRef}>
                             <input
                                 type="text"
                                 placeholder="Search tutorials, creators, or topics..."
                                 value={searchQuery}
-                                onChange={(e) => setSearchQuery(e.target.value)}
+                                onChange={(e) => {
+                                    setSearchQuery(e.target.value);
+                                    setShowSuggestions(true);
+                                }}
+                                onFocus={() => setShowSuggestions(true)}
                                 className={styles.searchInput}
                             />
                             <span className={styles.searchIcon}>🔍</span>
+
+                            {/* Autocomplete Dropdown */}
+                            {showSuggestions && searchQuery.length > 0 && (
+                                <div className={styles.suggestionsDropdown}>
+                                    {suggestions.map((suggestion, index) => {
+                                        const title = suggestion.type === 'topic' 
+                                            ? (suggestion.item as TopicData).name 
+                                            : (suggestion.item as Playlist).title;
+                                        const subtitle = suggestion.type === 'topic'
+                                            ? 'Topic'
+                                            : `Playlist • ${(suggestion.item as Playlist).creator}`;
+                                            
+                                        return (
+                                            <div 
+                                                key={`${suggestion.type}-${index}`} 
+                                                className={styles.suggestionItem}
+                                                onClick={() => {
+                                                    if (suggestion.type === 'topic') {
+                                                        const element = document.getElementById((suggestion.item as TopicData).slug);
+                                                        if (element) element.scrollIntoView({ behavior: 'smooth' });
+                                                    } else {
+                                                        window.open((suggestion.item as Playlist).url, '_blank');
+                                                    }
+                                                    setSearchQuery(title);
+                                                    setShowSuggestions(false);
+                                                }}
+                                            >
+                                                <span className={styles.suggestionIcon}>{suggestion.icon}</span>
+                                                <div className={styles.suggestionContent}>
+                                                    <span className={styles.suggestionTitle}>{title}</span>
+                                                    <span className={styles.suggestionMeta}>{subtitle}</span>
+                                                </div>
+                                            </div>
+                                        );
+                                    })}
+                                    {suggestions.length === 0 && (
+                                        <div className={styles.suggestionItem} style={{ cursor: 'default' }}>
+                                            <span className={styles.suggestionIcon}>🚫</span>
+                                            <span className={styles.suggestionTitle}>No results found</span>
+                                        </div>
+                                    )}
+                                </div>
+                            )}
                         </div>
                     </div>
                 </div>

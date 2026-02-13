@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import styles from './page.module.css';
 
 interface LearningResource {
@@ -131,6 +131,22 @@ const resources: LearningResource[] = [
 export default function Home() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
+  const [showSuggestions, setShowSuggestions] = useState(false);
+  const searchContainerRef = useRef<HTMLDivElement>(null);
+
+  // Close suggestions when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (searchContainerRef.current && !searchContainerRef.current.contains(event.target as Node)) {
+        setShowSuggestions(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
 
   // Filter resources based on search query
   const filteredResources = resources.filter(resource =>
@@ -213,15 +229,56 @@ export default function Home() {
             <p>Choose a platform to start your learning journey</p>
             
             {/* Search Bar */}
-            <div className={styles.searchContainer}>
+            {/* Search Bar */}
+            <div className={styles.searchContainer} ref={searchContainerRef}>
                 <input
                     type="text"
                     placeholder="Search resources, categories, or descriptions..."
                     value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
+                    onChange={(e) => {
+                      setSearchQuery(e.target.value);
+                      setShowSuggestions(true);
+                    }}
+                    onFocus={() => setShowSuggestions(true)}
                     className={styles.searchInput}
                 />
                 <span className={styles.searchIcon}>🔍</span>
+                
+                {/* Autocomplete Dropdown */}
+                {showSuggestions && searchQuery.length > 0 && (
+                  <div className={styles.suggestionsDropdown}>
+                    {filteredResources.slice(0, 5).map((resource) => (
+                      <div 
+                        key={resource.id} 
+                        className={styles.suggestionItem}
+                        onClick={() => {
+                          const element = document.getElementById(resource.id.startsWith('http') ? '' : resource.category);
+                          if (element) {
+                            element.scrollIntoView({ behavior: 'smooth' });
+                          } else if (resource.url) {
+                            window.open(resource.url, resource.url.startsWith('/') ? '_self' : '_blank');
+                          } else if (resource.urls && resource.urls.length > 0) {
+                             window.open(resource.urls[0].url, '_blank');
+                          }
+                          setSearchQuery(resource.name);
+                          setShowSuggestions(false);
+                        }}
+                      >
+                        <span className={styles.suggestionIcon}>{resource.icon}</span>
+                        <div className={styles.suggestionContent}>
+                          <span className={styles.suggestionTitle}>{resource.name}</span>
+                          <span className={styles.suggestionCategory}>{resource.category}</span>
+                        </div>
+                      </div>
+                    ))}
+                    {filteredResources.length === 0 && (
+                      <div className={styles.suggestionItem} style={{ cursor: 'default' }}>
+                        <span className={styles.suggestionIcon}>🚫</span>
+                        <span className={styles.suggestionTitle}>No results found</span>
+                      </div>
+                    )}
+                  </div>
+                )}
             </div>
           </div>
         </div>
