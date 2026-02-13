@@ -38,13 +38,13 @@
 .hamburger span {
   width: 28px;
   height: 3px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--gradient-primary);
   border-radius: 3px;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hamburger:hover span {
-  background: linear-gradient(135deg, #818cf8 0%, #a78bfa 100%);
+  background: var(--gradient-secondary);
 }
 
 /* ===== SIDEBAR ===== */
@@ -53,9 +53,9 @@
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
-  background: rgba(30, 30, 45, 0.7);
+  background: var(--bg-card);
   backdrop-filter: blur(16px);
-  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: 1px solid var(--border);
   overflow-y: auto;
   z-index: 100;
   scroll-behavior: smooth;
@@ -63,7 +63,7 @@
 
 .sidebarHeader {
   padding: 2rem 1.5rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid var(--border);
 }
 
 .sidebarTitleLink {
@@ -73,13 +73,26 @@
 
 .sidebarHeader h1 {
   margin-bottom: 0.5rem;
-  font-size: 2rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  font-size: 1.5rem;
+  background: var(--gradient-primary);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   font-weight: 700;
-  margin: 0 0 0.5rem 0;
+  margin: 0;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.logo {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
 }
 
 .sidebarHeader p {
@@ -162,7 +175,64 @@
 
 .header p {
   font-size: 1rem;
-  color: var(--text-secondary);
+  color: #a1a1aa;
+  margin-bottom: 2rem;
+}
+
+/* ===== SEARCH BAR ===== */
+.searchContainer {
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  padding-right: 3rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.searchInput:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.1);
+  border-color: var(--primary);
+  box-shadow: 0 0 0 4px rgba(14, 145, 248, 0.1);
+}
+
+.searchInput::placeholder {
+  color: #71717a;
+}
+
+.searchIcon {
+  position: absolute;
+  right: 1.25rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.25rem;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.noResults {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 4rem 2rem;
+  color: #a1a1aa;
+  background: rgba(30, 30, 45, 0.4);
+  border-radius: 20px;
+  border: 1px dashed rgba(255, 255, 255, 0.1);
+}
+
+.noResults p {
+  font-size: 1.1rem;
 }
 
 /* ===== CARDS GRID ===== */
@@ -182,9 +252,9 @@
 
 /* ===== CARD STYLES (MATCHING YOUTUBE TUTORIALS) ===== */
 .card {
-  background: rgba(30, 30, 45, 0.7);
+  background: var(--bg-card);
   backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--border);
   border-radius: 20px;
   padding: 1.5rem;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -198,9 +268,9 @@
 
 .card:hover {
   transform: translateY(-8px);
-  border-color: rgba(99, 102, 241, 0.5);
-  box-shadow: 0 12px 40px rgba(99, 102, 241, 0.25);
-  background: rgba(30, 30, 45, 0.9);
+  border-color: var(--primary);
+  box-shadow: 0 12px 40px rgba(14, 145, 248, 0.25);
+  background: rgba(15, 23, 42, 0.9);
 }
 
 .cardHeader {
@@ -251,8 +321,8 @@
   justify-content: space-between;
   align-items: center;
   font-size: 0.85rem;
-  color: #666;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: #94a3b8;
+  border-top: 1px solid var(--border);
   padding-top: 1rem;
 }
 
@@ -340,9 +410,9 @@
 }
 
 .activeSidebarLink {
-  background: rgba(99, 102, 241, 0.1);
+  background: rgba(14, 145, 248, 0.1);
   color: #ffffff;
-  border: 1px solid rgba(99, 102, 241, 0.2);
+  border: 1px solid rgba(14, 145, 248, 0.2);
 }
 
 /* ===== OVERLAY ===== */
@@ -466,6 +536,9 @@
     margin-top: 0;
     padding: 1.5rem 1.25rem;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .header h2 {

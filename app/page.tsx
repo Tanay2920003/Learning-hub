@@ -130,9 +130,17 @@ const resources: LearningResource[] = [
 
 export default function Home() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
+
+  // Filter resources based on search query
+  const filteredResources = resources.filter(resource =>
+    resource.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    resource.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    resource.category.toLowerCase().includes(searchQuery.toLowerCase())
+  );
 
   // Group resources by category
-  const groupedResources = resources.reduce((acc, resource) => {
+  const groupedResources = filteredResources.reduce((acc, resource) => {
     if (!acc[resource.category]) {
       acc[resource.category] = [];
     }
@@ -170,7 +178,10 @@ export default function Home() {
       {/* Sidebar Navigation */}
       <aside className={`${styles.sidebar} ${isSidebarOpen ? styles.sidebarOpen : ''}`}>
         <div className={styles.sidebarHeader}>
-          <h1>Learning Hub</h1>
+          <div className={styles.logoContainer}>
+            <img src="/logo.svg" alt="Learning Hub Logo" className={styles.logo} />
+            <h1>Learning Hub</h1>
+          </div>
           <p>Premium Resources</p>
         </div>
 
@@ -200,12 +211,25 @@ export default function Home() {
           <div className={styles.headerContent}>
             <h2>Explore Learning Resources</h2>
             <p>Choose a platform to start your learning journey</p>
+            
+            {/* Search Bar */}
+            <div className={styles.searchContainer}>
+                <input
+                    type="text"
+                    placeholder="Search resources, categories, or descriptions..."
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    className={styles.searchInput}
+                />
+                <span className={styles.searchIcon}>🔍</span>
+            </div>
           </div>
         </div>
 
         <div className={styles.cardsGrid}>
-          {categories.flatMap((category) =>
-            groupedResources[category].map((resource, index) => {
+          {categories.length > 0 ? (
+            categories.flatMap((category) =>
+              groupedResources[category].map((resource, index) => {
               const navId = index === 0 ? category : undefined;
               const hasMultipleUrls = resource.urls && resource.urls.length > 0;
               const singleUrl = resource.url || '';
@@ -311,11 +335,15 @@ export default function Home() {
                   </div>
                 </CardWrapper>
               );
-            })
+            }))
+          ) : (
+            <div className={styles.noResults}>
+                <p>No resources found matching "{searchQuery}"</p>
+            </div>
           )}
         </div>
       </main>
-
+        
       {/* Overlay for mobile */}
       {isSidebarOpen && (
         <div

@@ -25,6 +25,21 @@ interface TopicData {
 
 export default function TutorialsView({ topics }: { topics: TopicData[] }) {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+    const [searchQuery, setSearchQuery] = useState('');
+
+    const filteredTopics = topics.map(topic => {
+        const filteredPlaylists = topic.playlists.filter(playlist =>
+            playlist.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+            playlist.creator.toLowerCase().includes(searchQuery.toLowerCase()) ||
+            playlist.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
+            topic.name.toLowerCase().includes(searchQuery.toLowerCase())
+        );
+
+        return {
+            ...topic,
+            playlists: filteredPlaylists
+        };
+    }).filter(topic => topic.playlists.length > 0);
 
     return (
         <div className={styles.container}>
@@ -43,7 +58,10 @@ export default function TutorialsView({ topics }: { topics: TopicData[] }) {
             <aside className={`${styles.sidebar} ${isSidebarOpen ? styles.sidebarOpen : ''}`}>
                 <div className={styles.sidebarHeader}>
                     <Link href="/" className={styles.sidebarTitleLink}>
-                        <h1>Learning Hub</h1>
+                        <div className={styles.logoContainer}>
+                            <img src="/logo.svg" alt="Learning Hub Logo" className={styles.logo} />
+                            <h1>Learning Hub</h1>
+                        </div>
                     </Link>
                     <p>YouTube Tutorials</p>
                 </div>
@@ -69,60 +87,78 @@ export default function TutorialsView({ topics }: { topics: TopicData[] }) {
                     <div className={styles.headerContent}>
                         <h2>YouTube Tutorials</h2>
                         <p>Curated video playlists for every developer skill level</p>
+                        
+                        {/* Search Bar */}
+                        <div className={styles.searchContainer}>
+                            <input
+                                type="text"
+                                placeholder="Search tutorials, creators, or topics..."
+                                value={searchQuery}
+                                onChange={(e) => setSearchQuery(e.target.value)}
+                                className={styles.searchInput}
+                            />
+                            <span className={styles.searchIcon}>🔍</span>
+                        </div>
                     </div>
                 </div>
 
                 <div className={styles.cardsGrid}>
-                    {topics.map((topic) => (
-                        <section key={topic.slug} id={topic.slug} className={styles.categorySection}>
-                            <div className={styles.categoryHeader}>
-                                <span className={styles.categoryIcon}>{topic.icon}</span>
-                                <h2 className={styles.categoryTitle}>{topic.name}</h2>
-                                <p className={styles.categoryDescription}>{topic.description}</p>
-                            </div>
+                    {filteredTopics.length > 0 ? (
+                        filteredTopics.map((topic) => (
+                            <section key={topic.slug} id={topic.slug} className={styles.categorySection}>
+                                <div className={styles.categoryHeader}>
+                                    <span className={styles.categoryIcon}>{topic.icon}</span>
+                                    <h2 className={styles.categoryTitle}>{topic.name}</h2>
+                                    <p className={styles.categoryDescription}>{topic.description}</p>
+                                </div>
 
-                            <div className={styles.grid}>
-                                {topic.playlists.map((playlist, index) => (
-                                    <a
-                                        key={`${topic.slug}-${index}`}
-                                        href={playlist.url}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className={styles.card}
-                                    >
-                                        <div className={styles.cardHeader}>
-                                            <span className={`${styles.difficultyBadge} ${styles[playlist.difficulty]}`}>
-                                                {playlist.difficulty}
-                                            </span>
-                                            <span className={styles.languageBadge}>
-                                                {playlist.language === 'Hindi' ? '🇮🇳 Hindi' : '🇬🇧 English'}
-                                            </span>
-                                        </div>
-
-                                        <h3 className={styles.cardTitle}>{playlist.title}</h3>
-                                        <div className={styles.creator}>
-                                            <span>By {playlist.creator}</span>
-                                            <span>•</span>
-                                            <span>{playlist.year}</span>
-                                        </div>
-
-                                        <p className={styles.description}>{playlist.description}</p>
-
-                                        <div className={styles.cardFooter}>
-                                            <div className={styles.stats}>
-                                                <span className={styles.statItem}>
-                                                    📺 {playlist.videoCount} videos
+                                <div className={styles.grid}>
+                                    {topic.playlists.map((playlist, index) => (
+                                        <a
+                                            key={`${topic.slug}-${index}`}
+                                            href={playlist.url}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className={styles.card}
+                                        >
+                                            <div className={styles.cardHeader}>
+                                                <span className={`${styles.difficultyBadge} ${styles[playlist.difficulty]}`}>
+                                                    {playlist.difficulty}
+                                                </span>
+                                                <span className={styles.languageBadge}>
+                                                    {playlist.language === 'Hindi' ? '🇮🇳 Hindi' : '🇬🇧 English'}
                                                 </span>
                                             </div>
-                                            <span className={styles.watchButton}>
-                                                Watch Now
-                                            </span>
-                                        </div>
-                                    </a>
-                                ))}
-                            </div>
-                        </section>
-                    ))}
+
+                                            <h3 className={styles.cardTitle}>{playlist.title}</h3>
+                                            <div className={styles.creator}>
+                                                <span>By {playlist.creator}</span>
+                                                <span>•</span>
+                                                <span>{playlist.year}</span>
+                                            </div>
+
+                                            <p className={styles.description}>{playlist.description}</p>
+
+                                            <div className={styles.cardFooter}>
+                                                <div className={styles.stats}>
+                                                    <span className={styles.statItem}>
+                                                        📺 {playlist.videoCount} videos
+                                                    </span>
+                                                </div>
+                                                <span className={styles.watchButton}>
+                                                    Watch Now
+                                                </span>
+                                            </div>
+                                        </a>
+                                    ))}
+                                </div>
+                            </section>
+                        ))
+                    ) : (
+                        <div className={styles.noResults}>
+                            <p>No tutorials found matching "{searchQuery}"</p>
+                        </div>
+                    )}
                 </div>
             </main>
 

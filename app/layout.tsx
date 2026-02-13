@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Learning Hub - Premium Learning Resources",
   description: "Access the best learning resources in one beautiful interface - Roadmap.sh, W3Schools, Web.dev, and Microsoft Learn",
   keywords: ["learning", "development", "programming", "tutorials", "courses"],
+  icons: {
+    icon: '/logo.svg',
+  },
 };
 
 export default function RootLayout({
