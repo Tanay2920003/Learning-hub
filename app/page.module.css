@@ -61,6 +61,7 @@
   padding: 2rem 2rem 1.5rem;
   background: var(--bg-card);
   backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--border);
   position: relative;
   z-index: 50;
@@ -97,6 +98,7 @@
   display: inline-block;
   box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
   backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   position: relative;
   overflow: hidden;
   animation: pulse 2s infinite;
@@ -112,6 +114,39 @@
   background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
   animation: shine 3s infinite;
 }
+
+@media (max-width: 768px) {
+
+  .pill,
+  .pill::before {
+    animation: none;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    box-shadow: none;
+  }
+
+  .header {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    background: rgba(15, 23, 42, 0.98);
+  }
+
+  .card,
+  .videoCard {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    background: rgba(15, 23, 42, 0.95) !important;
+    box-shadow: none !important;
+    animation: none !important;
+  }
+
+  .hamburger {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    background: rgba(30, 30, 45, 0.98);
+  }
+}
+
 
 @keyframes pulse {
   0% {
