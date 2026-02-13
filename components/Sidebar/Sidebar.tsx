@@ -78,7 +78,7 @@ const Sidebar: React.FC<SidebarProps> = ({
 
      const mainLinks = navigationLinks.filter(link => ['Home', 'All Categories'].includes(link.name));
      const exploreLinks = navigationLinks.filter(link => ['YouTube Tutorials', 'Game Development'].includes(link.name));
-     const footerLinks = navigationLinks.filter(link => ['GitHub Repository', 'Contribute'].includes(link.name));
+     const footerLinks = navigationLinks.filter(link => ['GitHub Repository', 'Open Source', 'Contribute'].includes(link.name));
 
      return (
           <aside className={`${styles.sidebar} ${isSidebarOpen ? styles.sidebarOpen : ''}`}>

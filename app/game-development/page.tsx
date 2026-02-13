@@ -47,8 +47,8 @@ export default function GameDevelopment() {
                          { name: 'All Categories', url: '/', icon: '📁' },
                          { name: 'YouTube Tutorials', url: '/youtube-tutorials', icon: 'https://img.icons8.com/fluency/48/play-button-circled.png' },
                          { name: 'Game Development', url: '/game-development', icon: 'https://img.icons8.com/fluency/48/controller.png' },
-                         { name: 'GitHub Repository', url: 'https://github.com/Tanay2920003/Learning-hub', icon: 'https://img.icons8.com/fluency/48/folder-invoices.png' },
-                         { name: 'Contribute', url: 'https://github.com/Tanay2920003/Learning-hub/blob/main/CONTRIBUTING.md', icon: 'https://img.icons8.com/fluency/48/handshake.png' },
+                         { name: 'Contribute', url: '/contributors', icon: 'https://img.icons8.com/fluency/48/handshake.png' },
+                         { name: 'Open Source', url: 'https://github.com/Tanay2920003/Learning-hub', icon: 'https://img.icons8.com/fluency/48/github.png' },
                     ]}
                     categories={[
                          { name: 'Game Engines', icon: '⚙️', slug: 'engines' }
