@@ -3,7 +3,10 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { getFilesWithMetadata, getFileContent, saveFileContent, createFile } from './actions';
 import styles from './page.module.css';
+import Image from 'next/image';
 import Link from 'next/link';
+
+import { Playlist } from './schema';
 
 // --- Types ---
 interface FileMetadata {
@@ -17,7 +20,7 @@ interface CategoryData {
      slug: string;
      description: string;
      icon: string;
-     playlists: any[];
+     playlists: Playlist[];
 }
 
 const DEFAULT_CATEGORY: CategoryData = {
@@ -28,7 +31,7 @@ const DEFAULT_CATEGORY: CategoryData = {
      playlists: []
 };
 
-const PLAYLIST_TEMPLATE = {
+const PLAYLIST_TEMPLATE: Playlist = {
      title: "New Playlist",
      creator: "Creator",
      url: "",
@@ -41,7 +44,7 @@ const PLAYLIST_TEMPLATE = {
 
 // --- Sub-Components (Internal for now for cohesion) ---
 
-const FloatingInput = ({ label, value, onChange, hint, type = "text" }: { label: string, value: string | number, onChange: (val: any) => void, hint?: string, type?: string }) => (
+const FloatingInput = ({ label, value, onChange, hint, type = "text" }: { label: string, value: string | number, onChange: (val: string | number) => void, hint?: string, type?: string }) => (
      <div className={styles.formGroup}>
           <input
                className={styles.inputField}
@@ -56,8 +59,8 @@ const FloatingInput = ({ label, value, onChange, hint, type = "text" }: { label:
 );
 
 const MetadataPanel = ({ data, onChange }: { data: CategoryData, onChange: (d: CategoryData) => void }) => {
-     const handleChange = (field: keyof CategoryData, value: any) => {
-          onChange({ ...data, [field]: value });
+     const handleChange = (field: keyof CategoryData, value: string | Playlist[]) => {
+          onChange({ ...data, [field]: value } as CategoryData);
      };
 
      return (
@@ -65,16 +68,16 @@ const MetadataPanel = ({ data, onChange }: { data: CategoryData, onChange: (d: C
                <div className={styles.panelTitle}>
                     <span>✏️</span> Metadata
                </div>
-               <FloatingInput label="Category Name" value={data.name} onChange={(v) => handleChange('name', v)} hint="Displayed in Sidebar & Home" />
-               <FloatingInput label="Slug (ID)" value={data.slug} onChange={(v) => handleChange('slug', v)} hint="URL-friendly ID (e.g., web-dev)" />
-               <FloatingInput label="Description" value={data.description} onChange={(v) => handleChange('description', v)} />
-               <FloatingInput label="Icon (Emoji/URL)" value={data.icon} onChange={(v) => handleChange('icon', v)} hint="e.g. ⚛️ or https://..." />
+               <FloatingInput label="Category Name" value={data.name} onChange={(v) => handleChange('name', v as string)} hint="Displayed in Sidebar & Home" />
+               <FloatingInput label="Slug (ID)" value={data.slug} onChange={(v) => handleChange('slug', v as string)} hint="URL-friendly ID (e.g., web-dev)" />
+               <FloatingInput label="Description" value={data.description} onChange={(v) => handleChange('description', v as string)} />
+               <FloatingInput label="Icon (Emoji/URL)" value={data.icon} onChange={(v) => handleChange('icon', v as string)} hint="e.g. ⚛️ or https://..." />
           </div>
      );
 };
 
-const PlaylistCard = ({ playlist, onChange, onDelete }: { playlist: any, onChange: (val: any) => void, onDelete: () => void }) => {
-     const handleChange = (field: string, value: any) => {
+const PlaylistCard = ({ playlist, onChange, onDelete }: { playlist: Playlist, onChange: (val: Playlist) => void, onDelete: () => void }) => {
+     const handleChange = <K extends keyof Playlist>(field: K, value: Playlist[K]) => {
           onChange({ ...playlist, [field]: value });
      };
 
@@ -104,7 +107,7 @@ const PlaylistCard = ({ playlist, onChange, onDelete }: { playlist: any, onChang
                          <select
                               className={styles.metaInput}
                               value={playlist.difficulty}
-                              onChange={(e) => handleChange('difficulty', e.target.value)}
+                              onChange={(e) => handleChange('difficulty', e.target.value as Playlist['difficulty'])}
                          >
                               <option value="beginner">Beginner</option>
                               <option value="intermediate">Intermediate</option>
@@ -161,7 +164,7 @@ const GitReminderOverlay = ({ isOpen, onClose }: { isOpen: boolean, onClose: () 
                               </li>
                          </ul>
                          <div className={styles.gitHint}>
-                              You can use VS Code's Source Control tab or the GitHub Desktop UI.
+                              You can use VS Code&apos;s Source Control tab or the GitHub Desktop UI.
                          </div>
                     </div>
                     <button className={styles.btnPrimary} onClick={onClose} style={{ width: '100%', marginTop: '1rem' }}>Okay, Understood</button>
@@ -185,7 +188,7 @@ const GuideOverlay = ({ isOpen, onClose }: { isOpen: boolean, onClose: () => voi
 
                     <div className={styles.guideSection}>
                          <h3>2. Save to Filesystem</h3>
-                         <p>Click **"Save Changes"**. This writes your updates to the local JSON files in the `data/` folder.</p>
+                         <p>Click &quot;Save Changes&quot;. This writes your updates to the local JSON files in the `data/` folder.</p>
                     </div>
 
                     <div className={styles.guideSection}>
@@ -225,7 +228,7 @@ const UnsavedChangesModal = ({ isOpen, onClose, onConfirm }: { isOpen: boolean, 
 const DiffModal = ({ isOpen, onClose, currentData, initialData }: { isOpen: boolean, onClose: () => void, currentData: CategoryData, initialData: CategoryData | null }) => {
      if (!initialData || !isOpen) return null;
 
-     const metadataDiff: { label: string, old: any, new: any }[] = [];
+     const metadataDiff: { label: string, old: string | number | Playlist[], new: string | number | Playlist[] }[] = [];
      const fields: (keyof CategoryData)[] = ['name', 'slug', 'description', 'icon'];
      fields.forEach(f => {
           if (currentData[f] !== initialData[f]) {
@@ -246,9 +249,9 @@ const DiffModal = ({ isOpen, onClose, currentData, initialData }: { isOpen: bool
                               <div key={d.label} className={styles.diffItem}>
                                    <span className={styles.diffLabel}>{d.label}</span>
                                    <div className={styles.diffValues}>
-                                        <span className={styles.diffOld}>{d.old || '(empty)'}</span>
+                                        <span className={styles.diffOld}>{Array.isArray(d.old) ? `${d.old.length} items` : (d.old || '(empty)')}</span>
                                         <span className={styles.diffArrow}>→</span>
-                                        <span className={styles.diffNew}>{d.new}</span>
+                                        <span className={styles.diffNew}>{Array.isArray(d.new) ? `${d.new.length} items` : d.new}</span>
                                    </div>
                               </div>
                          ))}
@@ -347,7 +350,7 @@ const InputModal = ({ isOpen, onClose, onSubmit, title, placeholder, buttonText 
      );
 };
 
-const JsonModal = ({ isOpen, onClose, data }: { isOpen: boolean, onClose: () => void, data: any }) => (
+const JsonModal = ({ isOpen, onClose, data }: { isOpen: boolean, onClose: () => void, data: CategoryData | null }) => (
      <Modal
           isOpen={isOpen}
           onClose={onClose}
@@ -373,7 +376,6 @@ export default function EditDataPage() {
      const [categoryData, setCategoryData] = useState<CategoryData | null>(null);
      const [initialData, setInitialData] = useState<CategoryData | null>(null);
      const [sidebarSearch, setSidebarSearch] = useState('');
-     const [loading, setLoading] = useState(false);
 
      // Polish States
      const [toasts, setToasts] = useState<Toast[]>([]);
@@ -408,7 +410,10 @@ export default function EditDataPage() {
      }
 
      useEffect(() => {
-          loadFiles();
+          const init = async () => {
+               await loadFiles();
+          };
+          init();
      }, []);
 
      const handleFileSelect = async (filename: string) => {
@@ -417,7 +422,6 @@ export default function EditDataPage() {
                setShowUnsavedModal(true);
                return;
           }
-          setLoading(true);
           setSelectedFile(filename);
           const content = await getFileContent(filename);
           if (content) {
@@ -425,12 +429,11 @@ export default function EditDataPage() {
                     const parsed = JSON.parse(content);
                     setCategoryData(parsed);
                     setInitialData(parsed);
-               } catch (e) {
-                    console.error("Failed to parse file");
+               } catch (error) {
+                    console.error("Failed to parse file", error);
                     addToast("Failed to parse file content", 'error');
                }
           }
-          setLoading(false);
      };
 
      const confirmNavigation = () => {
@@ -476,7 +479,7 @@ export default function EditDataPage() {
           return files.filter(f => f.name.toLowerCase().includes(sidebarSearch.toLowerCase()) || f.filename.includes(sidebarSearch));
      }, [files, sidebarSearch]);
 
-     const handlePlaylistChange = (index: number, newPlaylist: any) => {
+     const handlePlaylistChange = (index: number, newPlaylist: Playlist) => {
           if (!categoryData) return;
           const newPlaylists = [...categoryData.playlists];
           newPlaylists[index] = newPlaylist;
@@ -485,7 +488,7 @@ export default function EditDataPage() {
 
      const addPlaylist = () => {
           if (!categoryData) return;
-          setCategoryData({ ...categoryData, playlists: [...categoryData.playlists, { ...PLAYLIST_TEMPLATE }] });
+          setCategoryData({ ...categoryData, playlists: [...categoryData.playlists, PLAYLIST_TEMPLATE] });
      };
 
      const deletePlaylist = (index: number) => {
@@ -495,7 +498,7 @@ export default function EditDataPage() {
      };
 
      const renderIcon = (iconStr: string) => {
-          if (iconStr?.startsWith('http')) return <img src={iconStr} alt="" style={{ width: 18, height: 18, objectFit: 'contain' }} />;
+          if (iconStr?.startsWith('http')) return <Image src={iconStr} alt="" width={18} height={18} objectFit="contain" unoptimized />;
           return iconStr;
      };
 

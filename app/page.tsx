@@ -3,8 +3,7 @@
 import { useState, useEffect, useRef, useMemo } from 'react';
 import { getAllCategories, TopicData } from './actions/get-data';
 import Image from 'next/image';
-import Link from 'next/link';
-import Sidebar, { SidebarCategory } from '@/components/Sidebar/Sidebar';
+import Sidebar from '@/components/Sidebar/Sidebar';
 import styles from './page.module.css';
 
 interface LearningResource {
@@ -327,7 +326,16 @@ export default function Home() {
 
   const renderIcon = (icon: string) => {
     if (icon.startsWith('http')) {
-      return <img src={icon} alt="" width={24} height={24} style={{ objectFit: 'contain' }} />;
+      return (
+        <Image
+          src={icon}
+          alt=""
+          width={24}
+          height={24}
+          style={{ objectFit: 'contain' }}
+          unoptimized={icon.startsWith('http')}
+        />
+      );
     }
     return icon;
   };
@@ -385,6 +393,7 @@ export default function Home() {
             <div className={styles.searchContainer} ref={searchContainerRef}>
               <input
                 type="text"
+                role="combobox"
                 placeholder="Search resources, categories, or descriptions..."
                 value={searchQuery}
                 onChange={(e) => {
@@ -441,7 +450,7 @@ export default function Home() {
                   {filteredResources.length === 0 && (
                     <div className={styles.suggestionItem} style={{ cursor: 'default' }}>
                       <span className={styles.suggestionIcon}>
-                        <img src="https://img.icons8.com/fluency/48/cancel.png" alt="" width={20} height={20} />
+                        <Image src="https://img.icons8.com/fluency/48/cancel.png" alt="" width={20} height={20} unoptimized />
                       </span>
                       <span className={styles.suggestionTitle}>No results found</span>
                     </div>
@@ -578,7 +587,7 @@ export default function Home() {
                           CONTRIBUTE
                         </span>
                         <span className={styles.languageBadge} style={{ background: 'rgba(255,255,255,0.05)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                          <img src="https://img.icons8.com/fluency/48/handshake.png" alt="" width={24} height={24} />
+                          <Image src="https://img.icons8.com/fluency/48/handshake.png" alt="" width={24} height={24} unoptimized />
                         </span>
                       </div>
                       <h3 className={styles.cardTitle}>Add Resources</h3>

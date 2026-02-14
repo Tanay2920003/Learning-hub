@@ -22,6 +22,6 @@ export const CategorySchema = z.object({
 export type Category = z.infer<typeof CategorySchema>;
 export type Playlist = z.infer<typeof PlaylistSchema>;
 
-export function validateCategory(data: any) {
+export function validateCategory(data: unknown) {
      return CategorySchema.safeParse(data);
 }

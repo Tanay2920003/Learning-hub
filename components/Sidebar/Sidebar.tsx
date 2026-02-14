@@ -71,7 +71,7 @@ const Sidebar: React.FC<SidebarProps> = ({
 
      const renderIcon = (icon: string) => {
           if (icon.startsWith('http')) {
-               return <img src={icon} alt="" className={styles.iconImage} style={{ width: '20px', height: '20px', objectFit: 'contain' }} />;
+               return <Image src={icon} alt="" width={20} height={20} className={styles.iconImage} style={{ objectFit: 'contain' }} unoptimized />;
           }
           return <span>{icon}</span>;
      };
@@ -164,7 +164,7 @@ const Sidebar: React.FC<SidebarProps> = ({
                                    style={{ marginBottom: '0.5rem' }}
                               >
                                    <span className={styles.iconWrapper}>
-                                        <img src="https://img.icons8.com/fluency/48/edit-property.png" alt="" style={{ width: '20px', height: '20px' }} />
+                                        <Image src="https://img.icons8.com/fluency/48/edit-property.png" alt="" width={20} height={20} unoptimized />
                                    </span>
                                    <span>Edit Data</span>
                               </Link>
@@ -189,7 +189,7 @@ const Sidebar: React.FC<SidebarProps> = ({
                          <div className={styles.footerInfo}>
                               <span>✨ Built with Next.js</span>
                               <div className={styles.nextLogo}>
-                                   <img src="https://img.icons8.com/fluent-systems-filled/40/ffffff/nextjs.png" alt="Next.js" />
+                                   <Image src="https://img.icons8.com/fluent-systems-filled/40/ffffff/nextjs.png" alt="Next.js" width={16} height={16} unoptimized />
                               </div>
                          </div>
                          <a href="#Categories" className={styles.resourceCount} onClick={handleAction}>

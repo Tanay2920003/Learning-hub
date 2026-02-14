@@ -1,11 +1,10 @@
-'use client';
-
 import React, { useState } from 'react';
 import styles from './page.module.css';
+import { Playlist } from './schema';
 
 interface JsonEditorProps {
-     data: any;
-     onChange: (newData: any) => void;
+     data: unknown;
+     onChange: (newData: unknown) => void;
      depth?: number;
      propertyName?: string; // The key of this data in the parent
 }
@@ -31,13 +30,6 @@ const FIELD_HINTS: Record<string, string> = {
      language: "e.g., English, Hindi, Spanish"
 };
 
-const PLACEHOLDERS: Record<string, string> = {
-     title: "Enter title...",
-     creator: "Enter creator...",
-     url: "https://...",
-     description: "Enter description..."
-};
-
 // --- Sub-components ---
 
 const FloatingInput = ({ label, value, onChange, hint }: { label: string, value: string, onChange: (val: string) => void, hint?: string }) => {
@@ -55,11 +47,11 @@ const FloatingInput = ({ label, value, onChange, hint }: { label: string, value:
      );
 };
 
-const PlaylistCard = ({ data, onChange, onDelete }: { data: any, onChange: (d: any) => void, onDelete: () => void }) => {
+const PlaylistCard = ({ data, onChange, onDelete }: { data: Playlist, onChange: (d: Playlist) => void, onDelete: () => void }) => {
      const [expanded, setExpanded] = useState(false);
 
-     const handleChange = (key: string, val: any) => {
-          onChange({ ...data, [key]: val });
+     const handleChange = (key: string, val: string | number) => {
+          onChange({ ...data, [key]: val } as Playlist);
      };
 
      return (
@@ -115,15 +107,15 @@ const PlaylistCard = ({ data, onChange, onDelete }: { data: any, onChange: (d: a
 // --- Main Recursive Editor ---
 
 const JsonEditor: React.FC<JsonEditorProps> = ({ data, onChange, depth = 0, propertyName }) => {
-     const getType = (val: any) => {
+     const getType = (val: unknown) => {
           if (Array.isArray(val)) return 'array';
           if (val === null) return 'null';
           return typeof val;
      };
 
-     const handleUpdate = (key: string | number, value: any) => {
-          const newData = Array.isArray(data) ? [...data] : { ...data };
-          newData[key] = value;
+     const handleUpdate = (key: string | number, value: unknown) => {
+          const newData = Array.isArray(data) ? [...data] : { ...(data as Record<string, unknown>) };
+          (newData as Record<string | number, unknown>)[key] = value;
           onChange(newData);
      };
 
@@ -167,7 +159,7 @@ const JsonEditor: React.FC<JsonEditorProps> = ({ data, onChange, depth = 0, prop
      if (getType(data) === 'object') {
           return (
                <div className={styles.jsonObj} style={{ marginLeft: depth === 0 ? 0 : 10, paddingLeft: depth === 0 ? 0 : '1rem', borderLeft: depth === 0 ? 'none' : undefined }}>
-                    {Object.entries(data).map(([key, value]) => {
+                    {Object.entries(data as Record<string, unknown>).map(([key, value]) => {
                          // For top-level fields (depth 0), show FloatingInputs directly
                          if (depth === 0 && typeof value !== 'object') {
                               return (
@@ -204,9 +196,10 @@ const JsonEditor: React.FC<JsonEditorProps> = ({ data, onChange, depth = 0, prop
 
      // Regular Array Rendering (Fallback for non-playlist arrays)
      if (getType(data) === 'array') {
+          const dataArray = data as unknown[];
           return (
                <div className={styles.jsonArray}>
-                    {data.map((value: any, index: number) => (
+                    {dataArray.map((value, index) => (
                          <div key={index} className={styles.jsonRow} style={{ alignItems: 'center' }}>
                               <span className={styles.indexLabel}>{index}:</span>
                               <div className={styles.valueContainer}>
