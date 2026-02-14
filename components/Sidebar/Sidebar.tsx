@@ -163,7 +163,9 @@ const Sidebar: React.FC<SidebarProps> = ({
                                    onClick={handleAction}
                                    style={{ marginBottom: '0.5rem' }}
                               >
-                                   <span className={styles.iconWrapper}>📝</span>
+                                   <span className={styles.iconWrapper}>
+                                        <img src="https://img.icons8.com/fluency/48/edit-property.png" alt="" style={{ width: '20px', height: '20px' }} />
+                                   </span>
                                    <span>Edit Data</span>
                               </Link>
                          )}
@@ -182,9 +184,17 @@ const Sidebar: React.FC<SidebarProps> = ({
                               </Link>
                          ))}
                     </div>
-                    <div className={styles.footerInfo}>
-                         <p>✨ Built with Next.js</p>
-                         <p className={styles.resourceCount}>{categories.length} Categories</p>
+
+                    <div className={styles.footerBottom}>
+                         <div className={styles.footerInfo}>
+                              <span>✨ Built with Next.js</span>
+                              <div className={styles.nextLogo}>
+                                   <img src="https://img.icons8.com/fluent-systems-filled/40/ffffff/nextjs.png" alt="Next.js" />
+                              </div>
+                         </div>
+                         <a href="#Categories" className={styles.resourceCount} onClick={handleAction}>
+                              {categories.length} Categories
+                         </a>
                     </div>
                </div>
           </aside>

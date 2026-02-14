@@ -452,7 +452,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className={styles.cardsGrid}>
+        <div className={styles.cardsGrid} id="Categories">
           {categories.length > 0 ? (
             categories.map((category) => (
               <section key={category} id={category} className={styles.categorySection}>
