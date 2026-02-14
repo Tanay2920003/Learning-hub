@@ -6,12 +6,24 @@ import { validateCategory } from './schema';
 
 const DATA_DIR = path.join(process.cwd(), 'data');
 
+function validateFilename(filename: string): string {
+     if (!filename || typeof filename !== 'string') {
+          throw new Error('Invalid filename');
+     }
+     // path.basename removes any directory components, preventing traversal
+     const sanitized = path.basename(filename);
+     if (sanitized === '.' || sanitized === '..' || sanitized.startsWith('.')) {
+          throw new Error('Invalid filename access');
+     }
+     return sanitized;
+}
+
 export async function getFiles() {
      try {
           const files = await fs.readdir(DATA_DIR);
           return files.filter(file => file.endsWith('.json'));
      } catch (error) {
-          console.error('Error reading data directory:', error);
+          console.error('Error reading data directory', error);
           return [];
      }
 }
@@ -23,14 +35,16 @@ export async function getFilesWithMetadata() {
 
           const metadataList = await Promise.all(jsonFiles.map(async (file) => {
                try {
-                    const content = await fs.readFile(path.join(DATA_DIR, file), 'utf-8');
+                    const sanitizedFile = validateFilename(file);
+                    const content = await fs.readFile(path.join(DATA_DIR, sanitizedFile), 'utf-8');
                     const data = JSON.parse(content);
                     return {
-                         filename: file,
-                         name: data.name || file.replace('.json', ''),
+                         filename: sanitizedFile,
+                         name: data.name || sanitizedFile.replace('.json', ''),
                          icon: data.icon || '📄'
                     };
                } catch (e) {
+                    console.error('Error reading file metadata', { file, error: e });
                     return {
                          filename: file,
                          name: file.replace('.json', ''),
@@ -41,25 +55,27 @@ export async function getFilesWithMetadata() {
 
           return metadataList.sort((a, b) => a.name.localeCompare(b.name));
      } catch (error) {
-          console.error('Error reading data directory:', error);
+          console.error('Error reading data directory with metadata', error);
           return [];
      }
 }
 
 export async function getFileContent(filename: string) {
      try {
-          const filePath = path.join(DATA_DIR, filename);
+          const sanitizedFilename = validateFilename(filename);
+          const filePath = path.join(DATA_DIR, sanitizedFilename);
           const content = await fs.readFile(filePath, 'utf-8');
           return content;
      } catch (error) {
-          console.error(`Error reading file ${filename}:`, error);
+          console.error('Error reading file content', { filename, error });
           return null;
      }
 }
 
 export async function saveFileContent(filename: string, content: string) {
      try {
-          const filePath = path.join(DATA_DIR, filename);
+          const sanitizedFilename = validateFilename(filename);
+          const filePath = path.join(DATA_DIR, sanitizedFilename);
           const jsonData = JSON.parse(content);
 
           const validation = validateCategory(jsonData);
@@ -70,17 +86,21 @@ export async function saveFileContent(filename: string, content: string) {
           await fs.writeFile(filePath, JSON.stringify(jsonData, null, 4), 'utf-8');
           return { success: true };
      } catch (error) {
-          console.error(`Error saving file ${filename}:`, error);
+          console.error('Error saving file content', { filename, error });
           return { success: false, error: 'Invalid JSON or write error' };
      }
 }
 
 export async function createFile(filename: string, content: string) {
      try {
-          if (!filename.endsWith('.json')) {
-               filename += '.json';
+          let sanitizedFilename = validateFilename(filename);
+          if (!sanitizedFilename.endsWith('.json')) {
+               sanitizedFilename += '.json';
           }
-          const filePath = path.join(DATA_DIR, filename);
+          // Re-validate after adding extension to be safe
+          sanitizedFilename = validateFilename(sanitizedFilename);
+
+          const filePath = path.join(DATA_DIR, sanitizedFilename);
 
           // Check if file exists
           try {
@@ -99,7 +119,7 @@ export async function createFile(filename: string, content: string) {
           await fs.writeFile(filePath, JSON.stringify(jsonData, null, 4), 'utf-8');
           return { success: true };
      } catch (error) {
-          console.error(`Error creating file ${filename}:`, error);
+          console.error('Error creating file', { filename, error });
           return { success: false, error: 'Failed to create file' };
      }
 }
