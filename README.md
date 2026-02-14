@@ -78,6 +78,7 @@ We welcome contributions! You don't need to be a terminal expert to help out.
 
 1. **Run Locally**: Clone and run `npm run dev`.
 2. **Access Editor**: Click the **"Edit Data"** button in the sidebar (only visible in dev mode).
+   ![Edit Data Button](https://github.com/user-attachments/assets/abc3ad5c-3f5e-4609-81b0-4ed2d5e5d6f6)
 3. **Modify Content**: Use the GUI to update metadata or playlists.
 4. **Save & PR**: Click **"Save Changes"**, then commit and open a Pull Request.
 
