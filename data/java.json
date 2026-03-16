@@ -1,0 +1,18 @@
+{
+    "name": "Java",
+    "slug": "java",
+    "description": "Java Development",
+    "icon": "https://img.icons8.com/?size=100&id=Pd2x9GWu9ovX&format=png&color=000000",
+    "playlists": [
+        {
+            "title": "Java OneShot in 2 Hours",
+            "creator": "Apna College",
+            "url": "https://youtu.be/UmnCZ7-9yDY?si=FlK5apLkPP35JwdL",
+            "language": "English,Hindi",
+            "difficulty": "beginner",
+            "videoCount": 2,
+            "description": "",
+            "year": 2026
+        }
+    ]
+}

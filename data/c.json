@@ -1,0 +1,18 @@
+{
+    "name": "C",
+    "slug": "c",
+    "description": "C Complete Course",
+    "icon": "https://img.icons8.com/?size=100&id=40670&format=png&color=000000",
+    "playlists": [
+        {
+            "title": "C Language Tutorial for Beginners",
+            "creator": "Apna College",
+            "url": "https://youtu.be/irqbmMNs2Bo?si=jiTnQMVjYwJnaEYI",
+            "language": "English,Hindi",
+            "difficulty": "beginner",
+            "videoCount": 10,
+            "description": "",
+            "year": 2026
+        }
+    ]
+}
