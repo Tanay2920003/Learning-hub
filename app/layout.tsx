@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
-import { Inter, Geist } from "next/font/google";
+import { Geist } from "next/font/google";
 import "./globals.css";
 
-import ClientLayout from "@/components/ClientLayout/ClientLayout";
 import { cn } from "@/lib/utils";
 
-const geist = Geist({subsets:['latin'],variable:'--font-sans'});
-
-const inter = Inter({ subsets: ["latin"] });
+const geist = Geist({
+  subsets: ["latin"],
+  variable: "--font-sans",
+});
 
 export const metadata: Metadata = {
   title: "Learning Hub - Premium Learning Resources",
@@ -27,11 +27,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={cn("font-sans", geist.variable)}>
-      <body className={inter.className}>
-        <ClientLayout>
+    <html lang="en" className={cn("dark", geist.variable)} suppressHydrationWarning>
+      <body className="font-sans antialiased min-h-screen bg-background text-foreground selection:bg-blue-500/30">
           {children}
-        </ClientLayout>
       </body>
     </html>
   );
