@@ -53,7 +53,7 @@ export function PathSwitcher({ currentSlug, paths }: { currentSlug: string; path
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="w-56 bg-zinc-950 border-zinc-800 text-slate-200">
-        <DropdownMenuLabel className="text-xs text-slate-500 font-normal">Switch Roadmap</DropdownMenuLabel>
+        <DropdownMenuLabel className="text-xs text-slate-500 font-normal">Switch Menu</DropdownMenuLabel>
         <DropdownMenuSeparator className="bg-zinc-800" />
         
         {paths.map((path) => (

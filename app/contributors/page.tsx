@@ -69,7 +69,11 @@ export default function ContributorsPage() {
             ...c,
             isNew: recentAuthors.has(c.login) && c.contributions <= 5,
           }))
-          .sort((a: Contributor, b: Contributor) => b.contributions - a.contributions);
+          .sort((a: Contributor, b: Contributor) => {
+            if (a.login === REPO_OWNER) return 1;
+            if (b.login === REPO_OWNER) return -1;
+            return b.contributions - a.contributions;
+          });
 
         setContributors(processed);
       } catch (err) {

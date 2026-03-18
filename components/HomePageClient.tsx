@@ -1,20 +1,14 @@
 "use client";
 
-import { useState } from "react";
-import { Search } from "lucide-react";
+import { Search, Sparkles } from "lucide-react";
 import { Navbar } from "@/components/Navbar";
 import { PathCard } from "@/components/PathCard";
-import { Input } from "@/components/ui/input";
 import type { LearningPathSummary } from "@/lib/learning-paths";
 
 export function HomePageClient({ learningPaths }: { learningPaths: LearningPathSummary[] }) {
-  const [searchQuery, setSearchQuery] = useState("");
-
-  const filteredLearningPaths = learningPaths.filter((path) =>
-    path.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    path.slug.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    path.description.toLowerCase().includes(searchQuery.toLowerCase()),
-  );
+  const openGlobalSearch = () => {
+    window.dispatchEvent(new CustomEvent("global-search:open"));
+  };
 
   return (
     <div className="min-h-screen bg-background selection:bg-blue-500/30">
@@ -36,30 +30,30 @@ export function HomePageClient({ learningPaths }: { learningPaths: LearningPathS
             Choose your path, follow our guided sequences, and build real-world projects. High-quality learning resources, completely open-source.
           </p>
 
-          <div className="relative w-full max-w-md px-4 sm:px-0">
-            <Search className="absolute left-7 sm:left-4 top-1/2 -translate-y-1/2 h-4 w-4 text-slate-500" />
-            <Input
-              type="text"
-              placeholder="Search for various paths..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              className="pl-11 bg-zinc-900/50 border-zinc-800 text-slate-200 placeholder:text-slate-500 h-12 rounded-full focus-visible:ring-zinc-700 focus-visible:border-zinc-700 transition-all w-full"
-            />
-          </div>
+          <button
+            type="button"
+            onClick={openGlobalSearch}
+            className="group relative flex w-full max-w-xl items-center gap-3 rounded-2xl border border-zinc-800 bg-zinc-900/55 px-4 py-3.5 text-left transition-all hover:border-zinc-700 hover:bg-zinc-900/85 focus:outline-none focus-visible:border-zinc-700 focus-visible:ring-2 focus-visible:ring-zinc-700/60"
+          >
+            <Search className="h-4 w-4 shrink-0 text-slate-500 transition-colors group-hover:text-slate-300" />
+            <div className="min-w-0 flex-1">
+              <div className="truncate text-sm text-slate-200 sm:text-base">Search for various paths...</div>
+              <div className="mt-0.5 hidden text-xs text-slate-500 sm:block">
+                Categories, articles, playlists, and quick suggestions
+              </div>
+            </div>
+            <span className="hidden items-center gap-1 rounded-full border border-zinc-800 bg-zinc-950 px-2 py-1 text-[11px] uppercase tracking-[0.18em] text-slate-500 md:inline-flex">
+              <Sparkles className="h-3 w-3" />
+              Suggestions
+            </span>
+          </button>
         </div>
 
-        {filteredLearningPaths.length > 0 ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
-            {filteredLearningPaths.map((path) => (
-              <PathCard key={path.slug} {...path} />
-            ))}
-          </div>
-        ) : (
-          <div className="flex flex-col items-center justify-center py-20 text-slate-500">
-            <Search className="h-10 w-10 text-slate-700 mb-4" />
-            <p className="text-lg">No path found for &quot;{searchQuery}&quot;</p>
-          </div>
-        )}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
+          {learningPaths.map((path) => (
+            <PathCard key={path.slug} {...path} />
+          ))}
+        </div>
       </main>
     </div>
   );
