@@ -19,7 +19,7 @@ const LEARNING_PATHS = [
   { title: "Database Management", slug: "dbms", icon: Database, color: "text-orange-400" },
   { title: "Operating Systems", slug: "os", icon: Cpu, color: "text-rose-400" },
   { title: "System Design", slug: "system-design", icon: Server, color: "text-cyan-400" },
-  { title: "Game Development", slug: "game-development", icon: Gamepad2, colorClass: "text-green-400" }
+  { title: "Game Development", slug: "game-development", icon: Gamepad2, color: "text-green-400" }
 ];
 
 export function PathSwitcher({ currentSlug }: { currentSlug: string }) {
