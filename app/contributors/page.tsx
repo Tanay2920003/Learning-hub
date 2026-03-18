@@ -7,6 +7,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 
 import { ContributorCard } from "@/components/ContributorCard";
+import BookLoader from "@/components/BookLoader/BookLoader";
 import type { LucideIcon } from "lucide-react";
 
 interface Contributor {
@@ -68,7 +69,11 @@ export default function ContributorsPage() {
             ...c,
             isNew: recentAuthors.has(c.login) && c.contributions <= 5,
           }))
-          .sort((a: Contributor, b: Contributor) => b.contributions - a.contributions);
+          .sort((a: Contributor, b: Contributor) => {
+            if (a.login === REPO_OWNER) return 1;
+            if (b.login === REPO_OWNER) return -1;
+            return b.contributions - a.contributions;
+          });
 
         setContributors(processed);
       } catch (err) {
@@ -110,7 +115,7 @@ export default function ContributorsPage() {
               Open Source <span className="text-green-500">Contributors</span>
             </h1>
             <p className="text-lg text-slate-400 font-light">
-              Meet the amazing people building the best open-source learning resource.
+              Meet the contributors helping grow this open-source hub for learning, tools, and community projects. Want to be featured here too? Open a GitHub contribution and join the list.
             </p>
           </div>
           
@@ -149,10 +154,8 @@ export default function ContributorsPage() {
         </div>
 
         {loading ? (
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 animate-pulse">
-            {[1, 2, 3, 4, 5, 6].map((i) => (
-              <div key={i} className="h-64 bg-slate-900 rounded-xl border border-slate-800"></div>
-            ))}
+          <div className="flex min-h-[320px] items-center justify-center">
+            <BookLoader />
           </div>
         ) : (
           <>
