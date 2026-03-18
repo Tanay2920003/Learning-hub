@@ -6,7 +6,7 @@ import styles from './page.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { Playlist } from './schema';
+import { Article, Playlist } from './schema';
 
 // --- Types ---
 interface FileMetadata {
@@ -21,6 +21,7 @@ interface CategoryData {
      description: string;
      icon: string;
      playlists: Playlist[];
+     articles?: Article[];
 }
 
 const DEFAULT_CATEGORY: CategoryData = {
@@ -28,7 +29,8 @@ const DEFAULT_CATEGORY: CategoryData = {
      slug: "new-category",
      description: "Description",
      icon: "📁",
-     playlists: []
+     playlists: [],
+     articles: []
 };
 
 const PLAYLIST_TEMPLATE: Playlist = {
@@ -40,6 +42,11 @@ const PLAYLIST_TEMPLATE: Playlist = {
      videoCount: 0,
      description: "",
      year: new Date().getFullYear()
+};
+
+const ARTICLE_TEMPLATE: Article = {
+     title: "New Article",
+     url: "",
 };
 
 // --- Sub-Components (Internal for now for cohesion) ---
@@ -59,7 +66,7 @@ const FloatingInput = ({ label, value, onChange, hint, type = "text" }: { label:
 );
 
 const MetadataPanel = ({ data, onChange }: { data: CategoryData, onChange: (d: CategoryData) => void }) => {
-     const handleChange = (field: keyof CategoryData, value: string | Playlist[]) => {
+     const handleChange = (field: keyof CategoryData, value: string | Playlist[] | Article[] | undefined) => {
           onChange({ ...data, [field]: value } as CategoryData);
      };
 
@@ -72,6 +79,37 @@ const MetadataPanel = ({ data, onChange }: { data: CategoryData, onChange: (d: C
                <FloatingInput label="Slug (ID)" value={data.slug} onChange={(v) => handleChange('slug', v as string)} hint="URL-friendly ID (e.g., web-dev)" />
                <FloatingInput label="Description" value={data.description} onChange={(v) => handleChange('description', v as string)} />
                <FloatingInput label="Icon (Emoji/URL)" value={data.icon} onChange={(v) => handleChange('icon', v as string)} hint="e.g. ⚛️ or https://..." />
+          </div>
+     );
+};
+
+const ArticleCard = ({ article, onChange, onDelete }: { article: Article, onChange: (val: Article) => void, onDelete: () => void }) => {
+     const handleChange = <K extends keyof Article>(field: K, value: Article[K]) => {
+          onChange({ ...article, [field]: value });
+     };
+
+     return (
+          <div className={styles.playlistCard}>
+               <div className={styles.cardPreview}>
+                    <span className={styles.cardIcon}>📄</span>
+                    <button className={styles.deleteCardBtn} onClick={onDelete} title="Delete Article">×</button>
+               </div>
+               <div className={styles.cardContent}>
+                    <input
+                         className={styles.cardTitleInput}
+                         value={article.title}
+                         onChange={(e) => handleChange('title', e.target.value)}
+                         placeholder="Article Title"
+                    />
+                    <div style={{ marginTop: '10px' }}>
+                         <input
+                              className={styles.metaInput}
+                              value={article.url}
+                              onChange={(e) => handleChange('url', e.target.value)}
+                              placeholder="Article URL..."
+                         />
+                    </div>
+               </div>
           </div>
      );
 };
@@ -183,7 +221,7 @@ const GuideOverlay = ({ isOpen, onClose }: { isOpen: boolean, onClose: () => voi
 
                     <div className={styles.guideSection}>
                          <h3>1. Edit Your Content</h3>
-                         <p>Select a category from the sidebar. You can update titles, descriptions, and add or remove playlists directly in the GUI.</p>
+                         <p>Select a category from the sidebar. You can update titles, descriptions, and add or remove playlists and articles directly in the GUI.</p>
                     </div>
 
                     <div className={styles.guideSection}>
@@ -228,7 +266,7 @@ const UnsavedChangesModal = ({ isOpen, onClose, onConfirm }: { isOpen: boolean, 
 const DiffModal = ({ isOpen, onClose, currentData, initialData }: { isOpen: boolean, onClose: () => void, currentData: CategoryData, initialData: CategoryData | null }) => {
      if (!initialData || !isOpen) return null;
 
-     const metadataDiff: { label: string, old: string | number | Playlist[], new: string | number | Playlist[] }[] = [];
+     const metadataDiff: { label: string, old: string | number | Playlist[] | Article[] | undefined, new: string | number | Playlist[] | Article[] | undefined }[] = [];
      const fields: (keyof CategoryData)[] = ['name', 'slug', 'description', 'icon'];
      fields.forEach(f => {
           if (currentData[f] !== initialData[f]) {
@@ -239,6 +277,8 @@ const DiffModal = ({ isOpen, onClose, currentData, initialData }: { isOpen: bool
      // Simple playlist diffing
      const initialPlaylists = initialData.playlists || [];
      const currentPlaylists = currentData.playlists || [];
+     const initialArticles = initialData.articles || [];
+     const currentArticles = currentData.articles || [];
 
      const diffView = (
           <div className={styles.diffList}>
@@ -273,6 +313,25 @@ const DiffModal = ({ isOpen, onClose, currentData, initialData }: { isOpen: bool
                     {currentPlaylists.length === initialPlaylists.length && (
                          <div className={styles.diffItem}>
                               <span className={`${styles.diffTag} ${styles.tagMod}`}>Playlists content modified</span>
+                         </div>
+                    )}
+               </div>
+
+               <div>
+                    <span className={styles.diffLabel}>Article Changes</span>
+                    {currentArticles.length > initialArticles.length && (
+                         <div className={styles.diffItem}>
+                              <span className={`${styles.diffTag} ${styles.tagAdd}`}>+ {currentArticles.length - initialArticles.length} New Articles Added</span>
+                         </div>
+                    )}
+                    {currentArticles.length < initialArticles.length && (
+                         <div className={styles.diffItem}>
+                              <span className={`${styles.diffTag} ${styles.tagRem}`}>- {initialArticles.length - currentArticles.length} Articles Removed</span>
+                         </div>
+                    )}
+                    {currentArticles.length === initialArticles.length && (
+                         <div className={styles.diffItem}>
+                              <span className={`${styles.diffTag} ${styles.tagMod}`}>Articles content modified</span>
                          </div>
                     )}
                </div>
@@ -427,8 +486,9 @@ export default function EditDataPage() {
           if (content) {
                try {
                     const parsed = JSON.parse(content);
-                    setCategoryData(parsed);
-                    setInitialData(parsed);
+                    const normalized = { ...parsed, articles: parsed.articles || [] };
+                    setCategoryData(normalized);
+                    setInitialData(normalized);
                } catch (error) {
                     console.error("Failed to parse file", error);
                     addToast("Failed to parse file content", 'error');
@@ -489,6 +549,24 @@ export default function EditDataPage() {
      const addPlaylist = () => {
           if (!categoryData) return;
           setCategoryData({ ...categoryData, playlists: [...categoryData.playlists, PLAYLIST_TEMPLATE] });
+     };
+
+     const handleArticleChange = (index: number, newArticle: Article) => {
+          if (!categoryData) return;
+          const newArticles = [...(categoryData.articles || [])];
+          newArticles[index] = newArticle;
+          setCategoryData({ ...categoryData, articles: newArticles });
+     };
+
+     const addArticle = () => {
+          if (!categoryData) return;
+          setCategoryData({ ...categoryData, articles: [...(categoryData.articles || []), ARTICLE_TEMPLATE] });
+     };
+
+     const deleteArticle = (index: number) => {
+          if (!categoryData) return;
+          const newArticles = (categoryData.articles || []).filter((_, i) => i !== index);
+          setCategoryData({ ...categoryData, articles: newArticles });
      };
 
      const deletePlaylist = (index: number) => {
@@ -600,6 +678,32 @@ export default function EditDataPage() {
                                                   <button className={styles.btnSecondary} style={{ marginTop: '1rem' }} onClick={addPlaylist}>Create One</button>
                                              </div>
                                         )}
+
+                                        <div className={styles.secondarySection}>
+                                             <div className={styles.sectionHeader}>
+                                                  <div className={styles.sectionTitle}>Articles ({categoryData.articles?.length || 0})</div>
+                                                  <button className={styles.btnSecondary} onClick={addArticle}>+ Add Article</button>
+                                             </div>
+
+                                             <div className={styles.playlistGrid}>
+                                                  {categoryData.articles?.map((article, idx) => (
+                                                       <ArticleCard
+                                                            key={`${article.title}-${idx}`}
+                                                            article={article}
+                                                            onChange={(a) => handleArticleChange(idx, a)}
+                                                            onDelete={() => deleteArticle(idx)}
+                                                       />
+                                                  ))}
+                                             </div>
+
+                                             {(!categoryData.articles || categoryData.articles.length === 0) && (
+                                                  <div className={styles.emptyState}>
+                                                       <span className={styles.emptyIcon}>📰</span>
+                                                       <p>No articles yet.</p>
+                                                       <button className={styles.btnSecondary} style={{ marginTop: '1rem' }} onClick={addArticle}>Create One</button>
+                                                  </div>
+                                             )}
+                                        </div>
                                    </div>
                               </div>
                          </>
