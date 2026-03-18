@@ -1,22 +1,16 @@
-'use client';
+"use client"
 
-import { useState, useEffect, useRef, useMemo } from 'react';
-import { getAllCategories, TopicData } from './actions/get-data';
-import Image from 'next/image';
-import Sidebar from '@/components/Sidebar/Sidebar';
-import styles from './page.module.css';
+import { Navbar } from "@/components/Navbar";
+import { PathCard } from "@/components/PathCard";
+import { LEARNING_PATHS } from "@/lib/constants";
+import { Input } from "@/components/ui/input";
+import { Search } from "lucide-react";
+import { useState } from "react";
 
-interface LearningResource {
-  id: string;
-  name: string;
-  url?: string; // Single URL (optional if urls is provided)
-  urls?: { label: string; url: string }[]; // Multiple URLs with labels
-  description: string;
-  icon: string;
-  color: string;
-  category: string;
-}
+export default function HomePage() {
+  const [searchQuery, setSearchQuery] = useState("");
 
+<<<<<<< HEAD
 interface CategoryData {
   playlists: LearningResource[];
   articles?: { title: string; url: string }[];
@@ -361,114 +355,52 @@ export default function Home() {
       });
     }
   };
+=======
+  const filteredLearningPaths = LEARNING_PATHS.filter((path) =>
+    path.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    path.slug.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    path.description.toLowerCase().includes(searchQuery.toLowerCase())
+  )
+>>>>>>> pr-34
 
   return (
-    <div className={styles.container}>
-      {/* Mobile Hamburger */}
-      <button
-        className={styles.hamburger}
-        onClick={() => setIsSidebarOpen(!isSidebarOpen)}
-        aria-label="Toggle menu"
-      >
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
+    <div className="min-h-screen bg-background selection:bg-blue-500/30">
+      <Navbar />
 
-      {/* Sidebar Navigation */}
-      <Sidebar
-        navigationLinks={navigationLinks}
-        categories={categories.map(cat => ({
-          name: cat,
-          icon: getCategoryIcon(cat),
-          slug: cat
-        }))}
-        isSidebarOpen={isSidebarOpen}
-        setIsSidebarOpen={setIsSidebarOpen}
-        currentPage="All Categories"
-        onAction={() => setSearchQuery('')}
-      />
+      <main className="container mx-auto px-4 pt-16 md:pt-24 pb-24">
 
-      {/* Main Content */}
-      <main className={styles.main}>
-        <div className={styles.header}>
-          <div className={styles.headerContent}>
-            <span className={styles.pill}>Premium Resources</span>
-            <h2>Explore Learning Resources</h2>
-            <p>Choose a platform to start your learning journey</p>
+        <div className="flex flex-col items-center text-center max-w-4xl mx-auto mb-16 mt-10">
 
-            {/* Search Bar */}
-            <div className={styles.searchContainer} ref={searchContainerRef}>
-              <input
-                type="text"
-                role="combobox"
-                placeholder="Search resources, categories, or descriptions..."
-                value={searchQuery}
-                onChange={(e) => {
-                  setSearchQuery(e.target.value);
-                  setShowSuggestions(true);
-                  setActiveSuggestionIndex(-1);
-                }}
-                onFocus={() => setShowSuggestions(true)}
-                onKeyDown={(e) => {
-                  if (e.key === 'ArrowDown') {
-                    e.preventDefault();
-                    setActiveSuggestionIndex(prev =>
-                      prev < Math.min(filteredResources.length, 5) - 1 ? prev + 1 : prev
-                    );
-                  } else if (e.key === 'ArrowUp') {
-                    e.preventDefault();
-                    setActiveSuggestionIndex(prev => prev > 0 ? prev - 1 : -1);
-                  } else if (e.key === 'Enter') {
-                    if (activeSuggestionIndex >= 0 && activeSuggestionIndex < Math.min(filteredResources.length, 5)) {
-                      const resource = filteredResources[activeSuggestionIndex];
-                      handleSuggestionClick(resource);
-                    }
-                  } else if (e.key === 'Escape') {
-                    setShowSuggestions(false);
-                    setActiveSuggestionIndex(-1);
-                  }
-                }}
-                className={styles.searchInput}
-                aria-label="Search resources"
-                aria-expanded={showSuggestions && filteredResources.length > 0}
-                aria-controls="search-results"
-                aria-autocomplete="list"
-              />
-              <span className={styles.searchIcon}>🔍</span>
-
-              {/* Autocomplete Dropdown */}
-              {showSuggestions && searchQuery.length > 0 && (
-                <div className={styles.suggestionsDropdown} id="search-results" role="listbox">
-                  {filteredResources.slice(0, 5).map((resource, index) => (
-                    <div
-                      key={resource.id}
-                      className={`${styles.suggestionItem} ${index === activeSuggestionIndex ? styles.activeSuggestion : ''}`}
-                      role="option"
-                      aria-selected={index === activeSuggestionIndex}
-                      onClick={() => handleSuggestionClick(resource)}
-                    >
-                      <span className={styles.suggestionIcon}>{renderIcon(resource.icon)}</span>
-                      <div className={styles.suggestionContent}>
-                        <span className={styles.suggestionTitle}>{resource.name}</span>
-                        <span className={styles.suggestionCategory}>{resource.category}</span>
-                      </div>
-                    </div>
-                  ))}
-                  {filteredResources.length === 0 && (
-                    <div className={styles.suggestionItem} style={{ cursor: 'default' }}>
-                      <span className={styles.suggestionIcon}>
-                        <Image src="https://img.icons8.com/fluency/48/cancel.png" alt="" width={20} height={20} unoptimized />
-                      </span>
-                      <span className={styles.suggestionTitle}>No results found</span>
-                    </div>
-                  )}
-                </div>
-              )}
-            </div>
+          <div className="inline-flex items-center justify-center rounded-full border border-slate-800 bg-slate-900/50 px-3 py-1.5 text-xs sm:text-sm font-medium text-slate-300 mb-8 backdrop-blur-sm">
+            <span className="flex h-2 w-2 rounded-full bg-emerald-500 mr-2"></span>
+            Premium Resources Directory
           </div>
+
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tighter text-white mb-6 leading-[1.15] sm:leading-[1.1]">
+            Master Your Craft with <br className="hidden sm:block" />
+            <span className="text-slate-200">
+              Curated Roadmaps.
+            </span>
+          </h1>
+
+          <p className="text-base sm:text-lg md:text-xl text-slate-400 mb-12 max-w-2xl font-light px-2">
+            Choose your path, follow our guided sequences, and build real-world projects. High-quality learning resources, completely open-source.
+          </p>
+
+          <div className="relative w-full max-w-md px-4 sm:px-0">
+            <Search className="absolute left-7 sm:left-4 top-1/2 -translate-y-1/2 h-4 w-4 text-slate-500" />
+            <Input
+              type="text"
+              placeholder="Search for various paths..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="pl-11 bg-zinc-900/50 border-zinc-800 text-slate-200 placeholder:text-slate-500 h-12 rounded-full focus-visible:ring-zinc-700 focus-visible:border-zinc-700 transition-all w-full"
+            />
+          </div>
+
         </div>
 
+<<<<<<< HEAD
         <div className={styles.cardsGrid} id="Categories">
           {categories.length > 0 ? (
             categories.map((category) => (
@@ -651,15 +583,22 @@ export default function Home() {
             </div>
           )}
         </div>
-      </main>
+=======
+        {filteredLearningPaths.length > 0 ? (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
+            {filteredLearningPaths.map((path) => (
+              <PathCard key={path.slug} {...path} />
+            ))}
+          </div>
+        ) : (
+          <div className="flex flex-col items-center justify-center py-20 text-slate-500">
+            <Search className="h-10 w-10 text-slate-700 mb-4" />
+            <p className="text-lg">No path found for "{searchQuery}"</p>
+          </div>
+        )}
 
-      {/* Overlay for mobile */}
-      {isSidebarOpen && (
-        <div
-          className={styles.overlay}
-          onClick={() => setIsSidebarOpen(false)}
-        />
-      )}
+>>>>>>> pr-34
+      </main>
     </div>
   );
 }
