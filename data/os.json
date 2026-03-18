@@ -1,38 +1,62 @@
 {
-    "name": "Operating Systems",
-    "slug": "os",
-    "description": "Understand how operating systems work under the hood",
-    "icon": "💻",
-    "playlists": [
+    "name": "Machine Learning",
+    "slug": "ml",
+    "description": "From ML fundamentals to deep learning and AI applications",
+    "icon": "🤖",
+    "articles": [
         {
-            "title": "Operating Systems",
-            "creator": "Neso Academy",
-            "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O",
-            "language": "English",
-            "difficulty": "beginner",
-            "videoCount": 102,
-            "description": "Complete OS course covering processes, memory, and file systems",
-            "year": 2020
+            "title": "Google Machine Learning Crash Course",
+            "url": "https://developers.google.com/machine-learning/crash-course"
         },
         {
-            "title": "Operating System (Hindi)",
-            "creator": "Gate Smashers",
-            "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiGz9donHRrE9I3Mwn6XdP8p",
-            "language": "Hindi",
+            "title": "3Blue1Brown Neural Networks",
+            "url": "https://www.3blue1brown.com/topics/neural-networks"
+        },
+        {
+            "title": "Scikit-learn User Guide",
+            "url": "https://scikit-learn.org/stable/user_guide.html"
+        }
+    ],
+    "playlists": [
+        {
+            "title": "Machine Learning Specialization",
+            "creator": "Andrew Ng (Stanford)",
+            "url": "https://www.youtube.com/playlist?list=PLkDaE6sCZn6FNC6YRfRQc_FbeQrF8BwGI",
+            "language": "English",
             "difficulty": "beginner",
-            "videoCount": 91,
-            "description": "GATE-focused OS concepts explained in Hindi",
+            "videoCount": 60,
+            "description": "The classic ML course by Andrew Ng, foundational knowledge",
+            "year": 2022
+        },
+        {
+            "title": "Deep Learning Specialization",
+            "creator": "Andrew Ng (DeepLearning.AI)",
+            "url": "https://www.youtube.com/playlist?list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0",
+            "language": "English",
+            "difficulty": "intermediate",
+            "videoCount": 175,
+            "description": "Comprehensive deep learning course covering neural networks",
             "year": 2021
         },
         {
-            "title": "MIT 6.S081 Operating System Engineering",
-            "creator": "MIT OpenCourseWare",
-            "url": "https://www.youtube.com/playlist?list=PLTsf9UeqkReZHXWY9yJvTwLJWYYPcKEqK",
+            "title": "Machine Learning with Python",
+            "creator": "Krish Naik",
+            "url": "https://www.youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe",
             "language": "English",
-            "difficulty": "advanced",
-            "videoCount": 23,
-            "description": "MIT's xv6 OS course with hands-on assignments",
+            "difficulty": "beginner",
+            "videoCount": 75,
+            "description": "Practical ML with Python, scikit-learn, and real datasets",
             "year": 2020
+        },
+        {
+            "title": "PyTorch Tutorial",
+            "creator": "Patrick Loeber",
+            "url": "https://www.youtube.com/playlist?list=PLqnslRFeH2UrcDBWF5mfPGpqQDSta6VK4",
+            "language": "English",
+            "difficulty": "intermediate",
+            "videoCount": 16,
+            "description": "Complete PyTorch deep learning framework tutorial",
+            "year": 2021
         }
     ]
 }
