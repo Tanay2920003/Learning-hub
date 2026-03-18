@@ -3,7 +3,7 @@ import path from "path";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ChevronLeft } from "lucide-react";
-import { TimelineView } from "@/components/TimelineView";
+import { PathContentView } from "@/components/PathContentView";
 import { PathSwitcher } from "@/components/PathSwitcher";
 
 interface CategoryData {
@@ -12,6 +12,7 @@ interface CategoryData {
     description: string;
     icon: string;
     playlists: any[];
+    articles: any[];
 }
 
 
@@ -63,7 +64,7 @@ export default async function RoadmapPage({ params }: { params: { slug: string }
                     </p>
                 </div>
 
-                <TimelineView playlists={data.playlists} />
+                <PathContentView playlists={data.playlists} articles={data.articles || []} />
 
             </main>
         </div>

@@ -3,6 +3,20 @@
     "slug": "webdev",
     "description": "Frontend, backend, and full-stack web development resources",
     "icon": "🌐",
+    "articles": [
+        {
+            "title": "MDN Web Docs - Learn Web Development",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn"
+        },
+        {
+            "title": "freeCodeCamp Responsive Web Design",
+            "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
+        },
+        {
+            "title": "JavaScript.info - Modern JavaScript Tutorial",
+            "url": "https://javascript.info/"
+        }
+    ],
     "playlists": [
         {
             "title": "HTML & CSS Full Course",
@@ -63,6 +77,16 @@
             "videoCount": 1,
             "description": "Modern Next.js 14 with App Router and Server Actions",
             "year": 2024
+        },
+        {
+            "title": "Advance Backend",
+            "creator": "Sriniously",
+            "url": "https://youtu.be/0Rwb4Xmlcwc?si=C2gzKbvExZtuwjei",
+            "language": "English",
+            "difficulty": "beginner",
+            "videoCount": 23,
+            "description": "",
+            "year": 2026
         }
     ]
 }

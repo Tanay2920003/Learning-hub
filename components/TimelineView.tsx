@@ -12,7 +12,7 @@ interface Playlist {
   creator: string;
   url: string;
   language: string;
-  difficulty: "beginner" | "intermediate" | "advanced";
+  difficulty: string;
   videoCount: number;
   description: string;
   year: number;
@@ -55,9 +55,11 @@ export function TimelineView({ playlists }: { playlists: Playlist[] }) {
                   <p className="text-slate-400 text-xs md:text-sm mb-3 md:mb-4">
                     By <span className="text-slate-300 font-medium">{playlist.creator}</span>
                   </p>
-                  <p className="text-slate-500 text-sm leading-relaxed max-w-2xl">
-                    {playlist.description}
-                  </p>
+                  {playlist.description && (
+                     <p className="text-slate-500 text-sm leading-relaxed max-w-2xl">
+                       {playlist.description}
+                     </p>
+                  )}
                 </div>
                 
                 <div className="flex flex-row sm:flex-col items-start gap-2 shrink-0 mt-2 sm:mt-0">
@@ -77,7 +79,7 @@ export function TimelineView({ playlists }: { playlists: Playlist[] }) {
                 </div>
                 
                 <Link href={playlist.url} target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
-                  <Button className="w-full bg-slate-100 text-slate-900 cursor-pointer hover:bg-white hover:scale-105 transition-all font-semibold rounded-full shadow-lg shadow-white/5">
+                  <Button className="w-full bg-slate-100 text-slate-900 hover:bg-white hover:scale-105 transition-all font-semibold rounded-full shadow-lg shadow-white/5">
                     <PlayCircle className="mr-2 h-4 w-4" /> Start Learning
                   </Button>
                 </Link>
