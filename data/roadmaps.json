@@ -2,7 +2,7 @@
     "name": "Roadmaps",
     "slug": "roadmaps",
     "description": "Explore structured developer learning paths and role-based guides from roadmap.sh.",
-    "icon": "🗺️",
+    "icon": "https://img.icons8.com/?size=100&id=JGsuQxA0kzAF&format=png&color=000000",
     "articles": [
         {
             "title": "roadmap.sh",

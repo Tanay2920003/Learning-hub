@@ -2,7 +2,7 @@
     "name": "Data Structures & Algorithms",
     "slug": "dsa",
     "description": "Master the fundamentals of computer science with curated DSA playlists",
-    "icon": "📊",
+    "icon": "https://img.icons8.com/?size=100&id=0S7sN3qwRXW9&format=png&color=000000",
     "articles": [
         {
             "title": "VisuAlgo - Visualizing Data Structures and Algorithms",

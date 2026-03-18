@@ -3,6 +3,7 @@
 import { Search, Sparkles } from "lucide-react";
 import { Navbar } from "@/components/Navbar";
 import { PathCard } from "@/components/PathCard";
+import { TypewriterEffect } from "@/components/TypewriterEffect";
 import type { LearningPathSummary } from "@/lib/learning-paths";
 
 export function HomePageClient({ learningPaths }: { learningPaths: LearningPathSummary[] }) {
@@ -22,7 +23,14 @@ export function HomePageClient({ learningPaths }: { learningPaths: LearningPathS
           </div>
 
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tighter text-white mb-6 leading-[1.15] sm:leading-[1.1]">
-            Learn, Build, and Explore <br className="hidden sm:block" />
+            <TypewriterEffect
+              words={["Learn", "Build", "Explore"]}
+              typingSpeed={150}
+              erasingSpeed={80}
+              pauseDuration={1500}
+              className="text-slate-200"
+            />
+            <br className="hidden sm:block" />
             <span className="text-slate-200">in One Open Hub.</span>
           </h1>
 

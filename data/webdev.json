@@ -2,7 +2,7 @@
     "name": "Web Development",
     "slug": "webdev",
     "description": "Frontend, backend, and full-stack web development resources",
-    "icon": "🌐",
+    "icon": "https://img.icons8.com/?size=100&id=t7mZ8HLsdcY4&format=png&color=000000",
     "articles": [
         {
             "title": "MDN Web Docs - Learn Web Development",
