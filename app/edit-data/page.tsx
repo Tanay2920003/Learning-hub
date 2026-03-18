@@ -24,6 +24,13 @@ interface CategoryData {
      articles?: Article[];
 }
 
+interface ResourceDraft {
+     title: string;
+     url: string;
+     creator: string;
+     description: string;
+}
+
 const DEFAULT_CATEGORY: CategoryData = {
      name: "New Category",
      slug: "new-category",
@@ -48,6 +55,15 @@ const ARTICLE_TEMPLATE: Article = {
      title: "New Article",
      url: "",
 };
+
+const RESOURCE_TEMPLATE: ResourceDraft = {
+     title: "New Resource",
+     url: "",
+     creator: "",
+     description: "",
+};
+
+const RESOURCE_CATEGORY_SLUGS = new Set(["tools", "community-sites-and-projects"]);
 
 // --- Sub-Components (Internal for now for cohesion) ---
 
@@ -107,6 +123,52 @@ const ArticleCard = ({ article, onChange, onDelete }: { article: Article, onChan
                               value={article.url}
                               onChange={(e) => handleChange('url', e.target.value)}
                               placeholder="Article URL..."
+                         />
+                    </div>
+               </div>
+          </div>
+     );
+};
+
+const ResourceCard = ({ resource, onChange, onDelete }: { resource: ResourceDraft, onChange: (val: ResourceDraft) => void, onDelete: () => void }) => {
+     const handleChange = <K extends keyof ResourceDraft>(field: K, value: ResourceDraft[K]) => {
+          onChange({ ...resource, [field]: value });
+     };
+
+     return (
+          <div className={styles.playlistCard}>
+               <div className={styles.cardPreview}>
+                    <span className={styles.cardIcon}>🛠️</span>
+                    <button className={styles.deleteCardBtn} onClick={onDelete} title="Delete Resource">×</button>
+               </div>
+               <div className={styles.cardContent}>
+                    <input
+                         className={styles.cardTitleInput}
+                         value={resource.title}
+                         onChange={(e) => handleChange('title', e.target.value)}
+                         placeholder="Resource Title"
+                    />
+                    <input
+                         className={styles.metaInput}
+                         style={{ marginBottom: '8px', border: 'none', background: 'transparent', padding: '0', color: '#a1a1aa' }}
+                         value={resource.creator}
+                         onChange={(e) => handleChange('creator', e.target.value)}
+                         placeholder="Creator / Owner"
+                    />
+                    <div style={{ marginTop: '10px' }}>
+                         <input
+                              className={styles.metaInput}
+                              value={resource.url}
+                              onChange={(e) => handleChange('url', e.target.value)}
+                              placeholder="Resource URL..."
+                         />
+                    </div>
+                    <div style={{ marginTop: '10px' }}>
+                         <input
+                              className={styles.metaInput}
+                              value={resource.description}
+                              onChange={(e) => handleChange('description', e.target.value)}
+                              placeholder="Short description..."
                          />
                     </div>
                </div>
@@ -427,6 +489,49 @@ const JsonModal = ({ isOpen, onClose, data }: { isOpen: boolean, onClose: () => 
      </Modal>
 );
 
+function buildResourcesFromCategory(data: CategoryData): ResourceDraft[] {
+     const playlistByUrl = new Map((data.playlists || []).map((playlist) => [playlist.url, playlist]));
+     const articleByUrl = new Map((data.articles || []).map((article) => [article.url, article]));
+     const orderedUrls = Array.from(new Set([
+          ...(data.playlists || []).map((playlist) => playlist.url),
+          ...(data.articles || []).map((article) => article.url),
+     ])).filter(Boolean);
+
+     return orderedUrls.map((url) => {
+          const playlist = playlistByUrl.get(url);
+          const article = articleByUrl.get(url);
+
+          return {
+               title: playlist?.title || article?.title || "Untitled Resource",
+               url,
+               creator: playlist?.creator || "",
+               description: playlist?.description || "",
+          };
+     });
+}
+
+function applyResourcesToCategory(data: CategoryData, resources: ResourceDraft[]): CategoryData {
+     const cleanedResources = resources.filter((resource) => resource.title.trim() || resource.url.trim());
+
+     return {
+          ...data,
+          playlists: cleanedResources.map((resource) => ({
+               ...PLAYLIST_TEMPLATE,
+               title: resource.title || "Untitled Resource",
+               creator: resource.creator || resource.title || "Unknown",
+               url: resource.url,
+               description: resource.description || "",
+               language: "English",
+               difficulty: "beginner",
+               videoCount: 1,
+          })),
+          articles: cleanedResources.map((resource) => ({
+               title: resource.title || "Untitled Resource",
+               url: resource.url,
+          })),
+     };
+}
+
 // --- Main Page Component ---
 
 export default function EditDataPage() {
@@ -450,6 +555,14 @@ export default function EditDataPage() {
           if (!categoryData || !initialData) return false;
           return JSON.stringify(categoryData) !== JSON.stringify(initialData);
      }, [categoryData, initialData]);
+
+     const isResourceCategory = useMemo(() => (
+          categoryData ? RESOURCE_CATEGORY_SLUGS.has(categoryData.slug) : false
+     ), [categoryData]);
+
+     const resourceDrafts = useMemo(() => (
+          categoryData ? buildResourcesFromCategory(categoryData) : []
+     ), [categoryData]);
 
      const addToast = (text: string, type: 'success' | 'error') => {
           const id = Date.now();
@@ -569,6 +682,24 @@ export default function EditDataPage() {
           setCategoryData({ ...categoryData, articles: newArticles });
      };
 
+     const handleResourceChange = (index: number, newResource: ResourceDraft) => {
+          if (!categoryData) return;
+          const updatedResources = [...resourceDrafts];
+          updatedResources[index] = newResource;
+          setCategoryData(applyResourcesToCategory(categoryData, updatedResources));
+     };
+
+     const addResource = () => {
+          if (!categoryData) return;
+          setCategoryData(applyResourcesToCategory(categoryData, [...resourceDrafts, RESOURCE_TEMPLATE]));
+     };
+
+     const deleteResource = (index: number) => {
+          if (!categoryData) return;
+          const updatedResources = resourceDrafts.filter((_, i) => i !== index);
+          setCategoryData(applyResourcesToCategory(categoryData, updatedResources));
+     };
+
      const deletePlaylist = (index: number) => {
           if (!categoryData) return;
           const newPlaylists = categoryData.playlists.filter((_, i) => i !== index);
@@ -653,57 +784,90 @@ export default function EditDataPage() {
                                    {/* Left: Metadata */}
                                    <MetadataPanel data={categoryData} onChange={setCategoryData} />
 
-                                   {/* Right: Content (Playlists) */}
+                                   {/* Right: Content */}
                                    <div className={styles.contentPanel}>
-                                        <div className={styles.sectionHeader}>
-                                             <div className={styles.sectionTitle}>Playlists ({categoryData.playlists?.length || 0})</div>
-                                             <button className={styles.btnSecondary} onClick={addPlaylist}>+ Add Playlist</button>
-                                        </div>
-
-                                        <div className={styles.playlistGrid}>
-                                             {categoryData.playlists?.map((playlist, idx) => (
-                                                  <PlaylistCard
-                                                       key={idx}
-                                                       playlist={playlist}
-                                                       onChange={(p) => handlePlaylistChange(idx, p)}
-                                                       onDelete={() => deletePlaylist(idx)}
-                                                  />
-                                             ))}
-                                        </div>
-
-                                        {(!categoryData.playlists || categoryData.playlists.length === 0) && (
-                                             <div className={styles.emptyState}>
-                                                  <span className={styles.emptyIcon}>📭</span>
-                                                  <p>No playlists yet.</p>
-                                                  <button className={styles.btnSecondary} style={{ marginTop: '1rem' }} onClick={addPlaylist}>Create One</button>
-                                             </div>
-                                        )}
-
-                                        <div className={styles.secondarySection}>
-                                             <div className={styles.sectionHeader}>
-                                                  <div className={styles.sectionTitle}>Articles ({categoryData.articles?.length || 0})</div>
-                                                  <button className={styles.btnSecondary} onClick={addArticle}>+ Add Article</button>
-                                             </div>
-
-                                             <div className={styles.playlistGrid}>
-                                                  {categoryData.articles?.map((article, idx) => (
-                                                       <ArticleCard
-                                                            key={`${article.title}-${idx}`}
-                                                            article={article}
-                                                            onChange={(a) => handleArticleChange(idx, a)}
-                                                            onDelete={() => deleteArticle(idx)}
-                                                       />
-                                                  ))}
-                                             </div>
-
-                                             {(!categoryData.articles || categoryData.articles.length === 0) && (
-                                                  <div className={styles.emptyState}>
-                                                       <span className={styles.emptyIcon}>📰</span>
-                                                       <p>No articles yet.</p>
-                                                       <button className={styles.btnSecondary} style={{ marginTop: '1rem' }} onClick={addArticle}>Create One</button>
+                                        {isResourceCategory ? (
+                                             <>
+                                                  <div className={styles.sectionHeader}>
+                                                       <div>
+                                                            <div className={styles.sectionTitle}>Resources ({resourceDrafts.length})</div>
+                                                            <div className={styles.headerBreadcrumbs} style={{ marginTop: '0.35rem', marginBottom: 0 }}>
+                                                                 Unified editor mode for resource-style categories
+                                                            </div>
+                                                       </div>
+                                                       <button className={styles.btnSecondary} onClick={addResource}>+ Add Resource</button>
                                                   </div>
-                                             )}
-                                        </div>
+                                                  <div className={styles.playlistGrid}>
+                                                       {resourceDrafts.map((resource, idx) => (
+                                                            <ResourceCard
+                                                                 key={`${resource.url}-${idx}`}
+                                                                 resource={resource}
+                                                                 onChange={(updated) => handleResourceChange(idx, updated)}
+                                                                 onDelete={() => deleteResource(idx)}
+                                                            />
+                                                       ))}
+                                                  </div>
+                                                  {resourceDrafts.length === 0 && (
+                                                       <div className={styles.emptyState}>
+                                                            <span className={styles.emptyIcon}>🛠️</span>
+                                                            <p>No resources yet.</p>
+                                                            <button className={styles.btnSecondary} style={{ marginTop: '1rem' }} onClick={addResource}>Create One</button>
+                                                       </div>
+                                                  )}
+                                             </>
+                                        ) : (
+                                             <>
+                                                  <div className={styles.sectionHeader}>
+                                                       <div className={styles.sectionTitle}>Playlists ({categoryData.playlists?.length || 0})</div>
+                                                       <button className={styles.btnSecondary} onClick={addPlaylist}>+ Add Playlist</button>
+                                                  </div>
+
+                                                  <div className={styles.playlistGrid}>
+                                                       {categoryData.playlists?.map((playlist, idx) => (
+                                                            <PlaylistCard
+                                                                 key={idx}
+                                                                 playlist={playlist}
+                                                                 onChange={(p) => handlePlaylistChange(idx, p)}
+                                                                 onDelete={() => deletePlaylist(idx)}
+                                                            />
+                                                       ))}
+                                                  </div>
+
+                                                  {(!categoryData.playlists || categoryData.playlists.length === 0) && (
+                                                       <div className={styles.emptyState}>
+                                                            <span className={styles.emptyIcon}>📭</span>
+                                                            <p>No playlists yet.</p>
+                                                            <button className={styles.btnSecondary} style={{ marginTop: '1rem' }} onClick={addPlaylist}>Create One</button>
+                                                       </div>
+                                                  )}
+
+                                                  <div className={styles.secondarySection}>
+                                                       <div className={styles.sectionHeader}>
+                                                            <div className={styles.sectionTitle}>Articles ({categoryData.articles?.length || 0})</div>
+                                                            <button className={styles.btnSecondary} onClick={addArticle}>+ Add Article</button>
+                                                       </div>
+
+                                                       <div className={styles.playlistGrid}>
+                                                            {categoryData.articles?.map((article, idx) => (
+                                                                 <ArticleCard
+                                                                      key={`${article.title}-${idx}`}
+                                                                      article={article}
+                                                                      onChange={(a) => handleArticleChange(idx, a)}
+                                                                      onDelete={() => deleteArticle(idx)}
+                                                                 />
+                                                            ))}
+                                                       </div>
+
+                                                       {(!categoryData.articles || categoryData.articles.length === 0) && (
+                                                            <div className={styles.emptyState}>
+                                                                 <span className={styles.emptyIcon}>📰</span>
+                                                                 <p>No articles yet.</p>
+                                                                 <button className={styles.btnSecondary} style={{ marginTop: '1rem' }} onClick={addArticle}>Create One</button>
+                                                            </div>
+                                                       )}
+                                                  </div>
+                                             </>
+                                        )}
                                    </div>
                               </div>
                          </>

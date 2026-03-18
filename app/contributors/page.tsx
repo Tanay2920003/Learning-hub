@@ -115,7 +115,7 @@ export default function ContributorsPage() {
               Open Source <span className="text-green-500">Contributors</span>
             </h1>
             <p className="text-lg text-slate-400 font-light">
-              Meet the amazing people building the best open-source learning resource.
+              Meet the contributors helping grow this open-source hub for learning, tools, and community projects. Want to be featured here too? Open a GitHub contribution and join the list.
             </p>
           </div>
           

@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { BookOpen, Eye, ExternalLink, Monitor, Search, Sparkles, Video, X } from "lucide-react";
+import { BookOpen, Eye, ExternalLink, Monitor, Search, Sparkles, Video, Wrench, X } from "lucide-react";
 import { TimelineView } from "./TimelineView";
 import { ArticleGridView } from "./ArticleGridView";
 import { Input } from "@/components/ui/input";
@@ -30,19 +30,26 @@ interface PathContentProps {
   categorySlug?: string;
 }
 
+interface ResourceItem {
+  title: string;
+  url: string;
+  description?: string;
+  creator?: string;
+}
+
 function CommunityProjectGrid({
-  articles,
+  resources,
   previewEnabled,
 }: {
-  articles: Article[];
+  resources: ResourceItem[];
   previewEnabled: boolean;
 }) {
-  const [selectedArticle, setSelectedArticle] = useState<Article | null>(null);
+  const [selectedArticle, setSelectedArticle] = useState<ResourceItem | null>(null);
 
   return (
     <>
       <div className="space-y-4 lg:grid lg:grid-cols-2 lg:gap-5 lg:space-y-0">
-        {articles.map((article, index) => (
+        {resources.map((article, index) => (
           <motion.div
             key={article.url}
             initial={{ opacity: 0, y: 10 }}
@@ -59,6 +66,14 @@ function CommunityProjectGrid({
                 <h3 className="text-lg font-semibold text-slate-100 transition-colors group-hover:text-white">
                   {article.title}
                 </h3>
+                {article.creator && (
+                  <p className="mt-2 text-sm text-slate-400">
+                    By <span className="font-medium text-slate-300">{article.creator}</span>
+                  </p>
+                )}
+                {article.description && (
+                  <p className="mt-2 text-sm leading-6 text-slate-500">{article.description}</p>
+                )}
                 <p className="mt-2 break-all text-sm text-slate-500">{article.url}</p>
               </div>
               <ExternalLink className="mt-1 h-4 w-4 shrink-0 text-slate-500 transition-colors group-hover:text-slate-300" />
@@ -154,8 +169,53 @@ function CommunityProjectGrid({
   );
 }
 
+function ResourceGrid({ resources }: { resources: ResourceItem[] }) {
+  return (
+    <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+      {resources.map((resource, index) => (
+        <motion.div
+          key={resource.url}
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: index * 0.04 }}
+          className="overflow-hidden rounded-2xl border border-slate-800/70 bg-slate-900/45"
+        >
+          <div className="p-5">
+            <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-slate-800 bg-slate-950 px-2.5 py-1 text-[11px] uppercase tracking-[0.18em] text-slate-500">
+              <Wrench className="h-3.5 w-3.5" />
+              Resource
+            </div>
+            <h3 className="text-lg font-semibold text-slate-100">{resource.title}</h3>
+            {resource.creator && (
+              <p className="mt-2 text-sm text-slate-400">
+                By <span className="font-medium text-slate-300">{resource.creator}</span>
+              </p>
+            )}
+            {resource.description && (
+              <p className="mt-2 text-sm leading-6 text-slate-500">{resource.description}</p>
+            )}
+            <p className="mt-3 break-all text-sm text-slate-500">{resource.url}</p>
+          </div>
+          <div className="border-t border-slate-800/70 bg-slate-950/60 p-4">
+            <a
+              href={resource.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex w-full items-center justify-center rounded-xl bg-blue-500 px-4 py-3 text-sm font-semibold text-white shadow-lg shadow-blue-500/20 transition-all hover:bg-blue-400"
+            >
+              <ExternalLink className="mr-2 h-4 w-4" />
+              Open in New Tab
+            </a>
+          </div>
+        </motion.div>
+      ))}
+    </div>
+  );
+}
+
 export function PathContentView({ playlists, articles, categorySlug }: PathContentProps) {
   const isCommunityProjects = categorySlug === "community-sites-and-projects";
+  const usesUnifiedResources = isCommunityProjects || categorySlug === "tools";
   const [activeTab, setActiveTab] = useState<"playlists" | "articles">(
     isCommunityProjects ? "articles" : "playlists",
   );
@@ -191,6 +251,26 @@ export function PathContentView({ playlists, articles, categorySlug }: PathConte
 
   const filteredArticles = articles.filter((article) =>
     article.title.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  const resourcesMap = new Map<string, ResourceItem>();
+  for (const article of articles) {
+    resourcesMap.set(article.url, {
+      title: article.title,
+      url: article.url,
+    });
+  }
+  for (const playlist of playlists) {
+    resourcesMap.set(playlist.url, {
+      title: playlist.title,
+      url: playlist.url,
+      creator: playlist.creator,
+      description: playlist.description,
+    });
+  }
+  const filteredResources = Array.from(resourcesMap.values()).filter((resource) =>
+    [resource.title, resource.url, resource.creator || "", resource.description || ""]
+      .some((value) => value.toLowerCase().includes(searchQuery.toLowerCase()))
   );
 
   return (
@@ -252,7 +332,7 @@ export function PathContentView({ playlists, articles, categorySlug }: PathConte
       
       <div className="flex flex-col items-center mb-12 md:mb-16 gap-6 md:gap-8 w-full">
         
-        {articles.length > 0 && (
+        {!usesUnifiedResources && articles.length > 0 && (
           <div className="inline-flex bg-zinc-900/50 p-1 rounded-full border border-zinc-800 backdrop-blur-sm relative">
             <motion.div
               className="absolute inset-y-1 bg-zinc-800 rounded-full shadow-sm"
@@ -287,11 +367,18 @@ export function PathContentView({ playlists, articles, categorySlug }: PathConte
           </div>
         )}
 
+        {usesUnifiedResources && (
+          <div className="inline-flex items-center gap-2 rounded-full border border-zinc-800 bg-zinc-900/50 px-4 py-2 text-sm font-medium text-slate-200 backdrop-blur-sm">
+            <Wrench className="h-4 w-4 text-slate-400" />
+            Resources
+          </div>
+        )}
+
         <div className="relative w-full max-w-md px-4 sm:px-0">
           <Search className="absolute left-7 sm:left-4 top-1/2 -translate-y-1/2 h-4 w-4 text-slate-500" />
           <Input
             type="text"
-            placeholder={activeTab === "playlists" ? "Search courses or creators..." : "Search articles..."}
+            placeholder={usesUnifiedResources ? "Search resources..." : activeTab === "playlists" ? "Search courses or creators..." : "Search articles..."}
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             className="pl-11 bg-zinc-900/50 border-zinc-800 text-slate-200 placeholder:text-slate-500 h-12 rounded-full focus-visible:ring-zinc-700 focus-visible:border-zinc-700 transition-all w-full"
@@ -319,6 +406,19 @@ export function PathContentView({ playlists, articles, categorySlug }: PathConte
         )}
       </div>
 
+      {usesUnifiedResources ? (
+        filteredResources.length > 0 ? (
+          isCommunityProjects ? (
+            <CommunityProjectGrid resources={filteredResources} previewEnabled={projectPreviewEnabled} />
+          ) : (
+            <ResourceGrid resources={filteredResources} />
+          )
+        ) : (
+          <div className="py-20 text-center text-slate-500">
+            No resources found for &quot;{searchQuery}&quot;
+          </div>
+        )
+      ) : (
       <AnimatePresence mode="wait">
         {activeTab === "playlists" ? (
           <motion.div
@@ -346,7 +446,7 @@ export function PathContentView({ playlists, articles, categorySlug }: PathConte
           >
             {filteredArticles.length > 0 ? (
               isCommunityProjects ? (
-                <CommunityProjectGrid articles={filteredArticles} previewEnabled={projectPreviewEnabled} />
+                <CommunityProjectGrid resources={filteredArticles} previewEnabled={projectPreviewEnabled} />
               ) : (
                 <ArticleGridView articles={filteredArticles} />
               )
@@ -358,6 +458,7 @@ export function PathContentView({ playlists, articles, categorySlug }: PathConte
           </motion.div>
         )}
       </AnimatePresence>
+      )}
     </div>
   );
 }

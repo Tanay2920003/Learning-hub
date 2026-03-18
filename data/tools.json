@@ -1,7 +1,7 @@
 {
     "name": "Tools",
     "slug": "tools",
-    "description": "Explore useful developer tools and utility websites for faster day-to-day work.",
+    "description": "Explore useful tools and utility websites shared by contributors. Want to feature one here? Submit it through a contribution and we can add it.",
     "icon": "🛠️",
     "articles": [
         {

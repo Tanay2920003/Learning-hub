@@ -22,12 +22,12 @@ export function HomePageClient({ learningPaths }: { learningPaths: LearningPathS
           </div>
 
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-tighter text-white mb-6 leading-[1.15] sm:leading-[1.1]">
-            Master Your Craft with <br className="hidden sm:block" />
-            <span className="text-slate-200">Curated Roadmaps.</span>
+            Learn, Build, and Explore <br className="hidden sm:block" />
+            <span className="text-slate-200">in One Open Hub.</span>
           </h1>
 
           <p className="text-base sm:text-lg md:text-xl text-slate-400 mb-12 max-w-2xl font-light px-2">
-            Choose your path, follow our guided sequences, and build real-world projects. High-quality learning resources, completely open-source.
+            Discover roadmaps, tools, learning resources, and community-built projects in one open-source place designed to help you keep growing.
           </p>
 
           <button
