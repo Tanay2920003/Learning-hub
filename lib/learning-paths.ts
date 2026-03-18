@@ -27,6 +27,8 @@ const LEGACY_ORDER = [
   "os",
   "system-design",
   "roadmaps",
+  "tools",
+  "community-sites-and-projects",
   "game-development",
 ];
 
