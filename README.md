@@ -74,8 +74,6 @@ We welcome contributions of all sizes. You do not need to be a terminal expert t
 
 ### 📝 Using Data Manager (Easiest for quick fixes)
 
-   
-
 1. **Run Locally**: Clone and run `npm run dev`.
 2. **Access Editor**: Click the **"Edit Data"** button in the navbar (only visible in dev mode).
    ![Edit Data Button](https://github.com/user-attachments/assets/abc3ad5c-3f5e-4609-81b0-4ed2d5e5d6f6)
@@ -123,10 +121,8 @@ Learning-hub/
 
 Thank you to everyone helping improve Learning Hub. Want to be listed here too? Open a GitHub contribution and become part of the project.
 
-> **Note**: The contributors image updates automatically when new contributors are added. It may take 5-10 minutes to refresh after a merge.
-
 <a href="https://github.com/Tanay2920003/Learning-hub/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Tanay2920003/Learning-hub&max=1000&refresh=1" alt="Contributors" />
+  <img src="https://contrib.rocks/image?repo=Tanay2920003/Learning-hub" alt="Contributors" />
 </a>
 
 ---

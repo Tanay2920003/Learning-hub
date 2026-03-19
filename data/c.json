@@ -27,6 +27,16 @@
             "videoCount": 10,
             "description": "",
             "year": 2026
+        },
+        {
+            "title": "Programming in C",
+            "creator": "Jenny's Lecture",
+            "url": "https://www.youtube.com/playlist?list=PLdo5W4Nhv31a8UcMN9-35ghv8qyFWD9_S",
+            "language": "English",
+            "difficulty": "beginner",
+            "videoCount": 150,
+            "description": "",
+            "year": 2022
         }
     ]
 }
