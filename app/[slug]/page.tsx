@@ -2,6 +2,7 @@ import { promises as fs } from "fs";
 import path from "path";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { ChevronLeft } from "lucide-react";
 import { PathContentView } from "@/components/PathContentView";
 import { PathSwitcher } from "@/components/PathSwitcher";
@@ -70,7 +71,18 @@ export default async function RoadmapPage({ params }: { params: { slug: string }
 
                     <div className="flex flex-col md:flex-row md:items-center gap-4 mb-4 md:mb-5">
                         <div className="inline-flex items-center justify-center w-16 h-16 md:w-auto md:h-auto md:bg-zinc-900 md:p-3 rounded-2xl border border-zinc-800 shadow-inner bg-zinc-900/80">
-                            <span className="text-4xl md:text-5xl">{data.icon}</span>
+                            {data.icon.startsWith('http') ? (
+                                <Image
+                                    src={data.icon}
+                                    alt={data.name}
+                                    width={64}
+                                    height={64}
+                                    className="w-16 h-16 md:w-auto md:h-auto"
+                                    unoptimized
+                                />
+                            ) : (
+                                <span className="text-4xl md:text-5xl">{data.icon}</span>
+                            )}
                         </div>
                         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white tracking-tight leading-[1.1]">
                             {data.name}

@@ -2,7 +2,7 @@
     "name": "Machine Learning",
     "slug": "ml",
     "description": "From ML fundamentals to deep learning and AI applications",
-    "icon": "🤖",
+    "icon": "https://img.icons8.com/?size=100&id=0LUWUOJk6Am4&format=png&color=000000",
     "articles": [
         {
             "title": "Google Machine Learning Crash Course",

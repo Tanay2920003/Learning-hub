@@ -31,8 +31,8 @@ export function TimelineView({ playlists }: { playlists: Playlist[] }) {
   return (
     <div className="relative border-l-2 border-slate-800 ml-4 md:ml-6 space-y-8 md:space-y-12 pb-10">
       {playlists.map((playlist, index) => (
-        <motion.div 
-          key={index} 
+        <motion.div
+          key={index}
           className="relative pl-6 md:pl-12"
           initial={{ opacity: 0, x: -20 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -43,49 +43,51 @@ export function TimelineView({ playlists }: { playlists: Playlist[] }) {
             <span className="text-slate-300 font-bold text-sm">{index + 1}</span>
           </div>
 
-          <Card className="group bg-card/40 border-slate-800/60 hover:scale-[1.02] md:hover:scale-105 transition-all hover:border-slate-500 hover:bg-card/60 duration-300 overflow-hidden">
-            <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
-            
-            <CardContent className="p-5 md:p-6 relative z-10">
-              <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-4 mb-4">
-                <div className="flex-1">
-                  <h3 className="text-lg md:text-xl font-semibold text-slate-100 group-hover:text-blue-400 transition-colors mb-1.5 md:mb-2">
-                    {playlist.title}
-                  </h3>
-                  <p className="text-slate-400 text-xs md:text-sm mb-3 md:mb-4">
-                    By <span className="text-slate-300 font-medium">{playlist.creator}</span>
-                  </p>
-                  {playlist.description && (
-                     <p className="text-slate-500 text-sm leading-relaxed max-w-2xl">
-                       {playlist.description}
-                     </p>
-                  )}
-                </div>
-                
-                <div className="flex flex-row sm:flex-col items-start gap-2 shrink-0 mt-2 sm:mt-0">
-                  <Badge variant="outline" className={`border-0 ${getDifficultyColor(playlist.difficulty)}`}>
-                    {playlist.difficulty.charAt(0).toUpperCase() + playlist.difficulty.slice(1)}
-                  </Badge>
-                  <Badge variant="outline" className="bg-slate-800/50 text-slate-300 border-slate-700">
-                    {playlist.language}
-                  </Badge>
-                </div>
-              </div>
+          <Link href={playlist.url} target="_blank" rel="noopener noreferrer" className="block group">
+            <Card className="group/card bg-card/40 border-slate-800/60 hover:scale-[1.02] md:hover:scale-105 transition-all hover:border-slate-500 hover:bg-card/60 duration-300 overflow-hidden cursor-pointer">
+              <div className="absolute inset-0 opacity-0 group-hover/card:opacity-100 transition-opacity duration-500 pointer-events-none" />
 
-              <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mt-6 pt-5 border-t border-zinc-800/50 gap-4">
-                <div className="flex items-center gap-4 text-xs font-medium text-slate-500 w-full sm:w-auto">
-                  <span className="flex items-center"><MonitorPlay className="h-4 w-4 mr-1.5" /> {playlist.videoCount} Videos</span>
-                  <span className="flex items-center"><Calendar className="h-4 w-4 mr-1.5" /> {playlist.year}</span>
+              <CardContent className="p-5 md:p-6 relative z-10">
+                <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-4 mb-4">
+                  <div className="flex-1">
+                    <h3 className="text-lg md:text-xl font-semibold text-slate-100 group-hover/card:text-blue-400 transition-colors mb-1.5 md:mb-2">
+                      {playlist.title}
+                    </h3>
+                    <p className="text-slate-400 text-xs md:text-sm mb-3 md:mb-4">
+                      By <span className="text-slate-300 font-medium">{playlist.creator}</span>
+                    </p>
+                    {playlist.description && (
+                       <p className="text-slate-500 text-sm leading-relaxed max-w-2xl">
+                         {playlist.description}
+                       </p>
+                    )}
+                  </div>
+
+                  <div className="flex flex-row sm:flex-col items-start gap-2 shrink-0 mt-2 sm:mt-0">
+                    <Badge variant="outline" className={`border-0 ${getDifficultyColor(playlist.difficulty)}`}>
+                      {playlist.difficulty.charAt(0).toUpperCase() + playlist.difficulty.slice(1)}
+                    </Badge>
+                    <Badge variant="outline" className="bg-slate-800/50 text-slate-300 border-slate-700">
+                      {playlist.language}
+                    </Badge>
+                  </div>
                 </div>
-                
-                <Link href={playlist.url} target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
-                  <Button className="w-full bg-slate-100 text-slate-900 hover:bg-white hover:scale-105 transition-all font-semibold rounded-full shadow-lg shadow-white/5">
-                    <PlayCircle className="mr-2 h-4 w-4" /> Start Learning
-                  </Button>
-                </Link>
-              </div>
-            </CardContent>
-          </Card>
+
+                <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mt-6 pt-5 border-t border-zinc-800/50 gap-4">
+                  <div className="flex items-center gap-4 text-xs font-medium text-slate-500 w-full sm:w-auto">
+                    <span className="flex items-center"><MonitorPlay className="h-4 w-4 mr-1.5" /> {playlist.videoCount} Videos</span>
+                    <span className="flex items-center"><Calendar className="h-4 w-4 mr-1.5" /> {playlist.year}</span>
+                  </div>
+
+                  <div className="w-full sm:w-auto">
+                    <Button className="w-full bg-slate-100 text-slate-900 hover:bg-white hover:scale-105 transition-all font-semibold rounded-full shadow-lg shadow-white/5 pointer-events-none">
+                      <PlayCircle className="mr-2 h-4 w-4" /> Start Learning
+                    </Button>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </Link>
         </motion.div>
       ))}
     </div>

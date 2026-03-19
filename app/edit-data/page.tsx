@@ -256,11 +256,11 @@ const GitReminderOverlay = ({ isOpen, onClose }: { isOpen: boolean, onClose: () 
                          <ul className={styles.gitSteps}>
                               <li>
                                    <span className={styles.stepNum}>1</span>
-                                   <span>Create a **git commit** of these changes.</span>
+                                   <span>Create a git commit of these changes.</span>
                               </li>
                               <li>
                                    <span className={styles.stepNum}>2</span>
-                                   <span>Push and open a **Pull Request** in GitHub.</span>
+                                   <span>Push and open a Pull Request in GitHub.</span>
                               </li>
                          </ul>
                          <div className={styles.gitHint}>

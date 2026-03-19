@@ -2,7 +2,7 @@
     "name": "Operating Systems",
     "slug": "os",
     "description": "Understand how operating systems work under the hood",
-    "icon": "💻",
+    "icon": "https://img.icons8.com/?size=100&id=sZb6d5M15YkZ&format=png&color=000000",
     "articles": [
         {
             "title": "Operating Systems: Three Easy Pieces (OSTEP)",

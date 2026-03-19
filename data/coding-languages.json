@@ -2,7 +2,7 @@
     "name": "Coding Languages",
     "slug": "coding-languages",
     "description": "Build strong programming fundamentals across popular languages like C, C++, Java, JavaScript, TypeScript, Python, Go, and Rust.",
-    "icon": "💻",
+    "icon": "https://img.icons8.com/?size=100&id=CaDHTq3bTEI9&format=png&color=000000",
     "articles": [
         {
             "title": "C: Learn-C.org Interactive Tutorial",

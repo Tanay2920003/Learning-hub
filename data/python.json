@@ -2,7 +2,7 @@
     "name": "Python",
     "slug": "python",
     "description": "Learn Python from basics to advanced topics with these hand-picked playlists",
-    "icon": "🐍",
+    "icon": "https://img.icons8.com/?size=100&id=1J9Ld8eO5va1&format=png&color=000000",
     "articles": [
         {
             "title": "Python Official Documentation Tutorial",
