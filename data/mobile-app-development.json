@@ -1,0 +1,86 @@
+{
+    "name": "Mobile App Development",
+    "slug": "mobile-app-development",
+    "description": "Build cross-platform mobile and desktop apps with React Native, Flutter, and Electron.",
+    "icon": "https://img.icons8.com/?size=100&id=8pgPko8YVE0N&format=png&color=000000",
+    "articles": [
+        {
+            "title": "React Native Docs",
+            "url": "https://reactnative.dev/docs/getting-started"
+        },
+        {
+            "title": "Flutter Docs",
+            "url": "https://docs.flutter.dev/"
+        },
+        {
+            "title": "Electron Docs",
+            "url": "https://www.electronjs.org/docs/latest/"
+        },
+        {
+            "title": "Expo Docs",
+            "url": "https://docs.expo.dev/"
+        }
+    ],
+    "playlists": [
+        {
+            "title": "React Native Course for Beginners",
+            "creator": "freeCodeCamp.org",
+            "url": "https://www.youtube.com/watch?v=obH0Po_RdWk",
+            "language": "English",
+            "difficulty": "beginner",
+            "videoCount": 1,
+            "description": "A beginner-friendly React Native course covering components, navigation, styling, and app fundamentals.",
+            "year": 2023
+        },
+        {
+            "title": "React Native Tutorial for Beginners",
+            "creator": "Programming with Mosh",
+            "url": "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+            "language": "English",
+            "difficulty": "beginner",
+            "videoCount": 1,
+            "description": "Learn React Native basics and build mobile UI with practical examples.",
+            "year": 2022
+        },
+        {
+            "title": "Flutter Course for Beginners",
+            "creator": "freeCodeCamp.org",
+            "url": "https://www.youtube.com/watch?v=VPvVD8t02U8",
+            "language": "English",
+            "difficulty": "beginner",
+            "videoCount": 1,
+            "description": "Comprehensive Flutter introduction covering Dart basics, widgets, layouts, and app building.",
+            "year": 2022
+        },
+        {
+            "title": "Flutter Tutorial for Beginners",
+            "creator": "The Net Ninja",
+            "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ",
+            "language": "English",
+            "difficulty": "beginner",
+            "videoCount": 47,
+            "description": "A step-by-step Flutter playlist that helps you build apps while learning core concepts.",
+            "year": 2021
+        },
+        {
+            "title": "Electron JS Crash Course",
+            "creator": "Traversy Media",
+            "url": "https://www.youtube.com/watch?v=kN1Czs0m1SU",
+            "language": "English",
+            "difficulty": "beginner",
+            "videoCount": 1,
+            "description": "A practical introduction to building desktop apps with Electron using web technologies.",
+            "year": 2022
+        },
+        {
+            "title": "Build a Desktop App with Electron",
+            "creator": "freeCodeCamp.org",
+            "url": "https://www.youtube.com/watch?v=3yqDxhR2XxE",
+            "language": "English",
+            "difficulty": "intermediate",
+            "videoCount": 1,
+            "description": "Learn the Electron workflow by building a desktop app with JavaScript and modern tooling.",
+            "year": 2021
+        }
+    ]
+}
