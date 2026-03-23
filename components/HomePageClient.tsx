@@ -31,7 +31,7 @@ export function HomePageClient({ learningPaths }: { learningPaths: LearningPathS
               className="text-slate-200"
             />
             <br className="hidden sm:block" />
-            <span className="text-slate-200">in Learning Hub</span>
+            <span className="text-slate-200"> in Learning Hub</span>
           </h1>
 
           <p className="text-base sm:text-lg md:text-xl text-slate-400 mb-12 max-w-2xl font-light px-2">
