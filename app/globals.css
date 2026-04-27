@@ -158,6 +158,15 @@
   background: linear-gradient(180deg, #7c3aed88, #4f46e588);
 }
 
+/* Hide scrollbar for horizontal scroll rows */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 /* Pulse animation for live indicator */
 @keyframes live-pulse {
   0%, 100% { opacity: 1; transform: scale(1); }
