@@ -42,24 +42,24 @@ export function PathSwitcher({ currentSlug, paths }: { currentSlug: string; path
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button 
-          variant="outline" 
+        <Button
+          variant="outline"
           size="sm"
-          className="h-9 max-w-[12rem] bg-zinc-900/50 px-2.5 text-xs text-slate-300 cursor-pointer transition-colors hover:bg-zinc-800 hover:text-white sm:h-10 sm:max-w-none sm:px-3 sm:text-sm border-zinc-800"
+          className="h-9 max-w-[12rem] bg-white/3 border-white/8 px-3 text-xs text-slate-300 cursor-pointer transition-all hover:bg-white/6 hover:text-white sm:h-10 sm:max-w-none sm:px-4 sm:text-sm rounded-full"
         >
           {renderIcon(currentPath.icon, `mr-2 h-4 w-4 ${currentPath.color}`)}
           <span className="truncate">{currentPath.title}</span>
-          <ChevronsUpDown className="ml-2 h-3 w-3 opacity-50 sm:h-3.5 sm:w-3.5" />
+          <ChevronsUpDown className="ml-2 h-3 w-3 opacity-40 sm:h-3.5 sm:w-3.5" />
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="end" className="w-56 bg-zinc-950 border-zinc-800 text-slate-200">
-        <DropdownMenuLabel className="text-xs text-slate-500 font-normal">Switch Menu</DropdownMenuLabel>
-        <DropdownMenuSeparator className="bg-zinc-800" />
-        
+      <DropdownMenuContent align="end" className="w-56 bg-[#0d0d0d] border-white/8 text-slate-200">
+        <DropdownMenuLabel className="text-xs text-slate-600 font-normal">Switch Path</DropdownMenuLabel>
+        <DropdownMenuSeparator className="bg-white/5" />
+
         {paths.map((path) => (
           <Link key={path.slug} href={`/${path.slug}`}>
-            <DropdownMenuItem 
-              className={`cursor-pointer focus:bg-zinc-800 focus:text-white ${currentSlug === path.slug ? 'bg-zinc-800/50' : ''}`}
+            <DropdownMenuItem
+              className={`cursor-pointer focus:bg-white/5 focus:text-white transition-colors ${currentSlug === path.slug ? "bg-white/5 text-white" : ""}`}
             >
               {renderIcon(path.icon, `mr-2 h-4 w-4 ${path.color}`)}
               <span>{path.title}</span>

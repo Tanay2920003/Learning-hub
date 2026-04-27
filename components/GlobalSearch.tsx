@@ -32,6 +32,13 @@ const ICONS: Record<SearchItemType, typeof Home> = {
   playlist: PlayCircle,
 };
 
+const TYPE_COLORS: Record<SearchItemType, { bg: string; text: string; border: string }> = {
+  page: { bg: "bg-violet-500/10", text: "text-violet-300", border: "border-violet-500/20" },
+  category: { bg: "bg-cyan-500/10", text: "text-cyan-300", border: "border-cyan-500/20" },
+  article: { bg: "bg-emerald-500/10", text: "text-emerald-300", border: "border-emerald-500/20" },
+  playlist: { bg: "bg-rose-500/10", text: "text-rose-300", border: "border-rose-500/20" },
+};
+
 function matchesQuery(item: GlobalSearchItem, query: string) {
   const normalized = query.trim().toLowerCase();
   if (!normalized) return true;
@@ -116,17 +123,17 @@ export function GlobalSearch({ items }: { items: GlobalSearchItem[] }) {
 
   return (
     <>
-      <div className="fixed bottom-4 right-4 z-[70] sm:bottom-6 sm:right-6">
+      {/* Floating search button */}
+      <div className="fixed bottom-5 right-5 z-[70] sm:bottom-7 sm:right-7">
         <Button
           type="button"
-          variant="outline"
           onClick={() => setOpen(true)}
-          className="h-11 rounded-full border-slate-700 bg-slate-950/90 px-3 text-sm text-slate-200 shadow-xl shadow-black/20 backdrop-blur-md hover:bg-slate-900 hover:text-white sm:h-12 sm:px-4"
+          className="h-12 rounded-full border-0 bg-gradient-to-r from-violet-600 to-indigo-600 px-4 text-sm font-semibold text-white shadow-xl shadow-violet-500/25 backdrop-blur-md hover:from-violet-500 hover:to-indigo-500 hover:shadow-violet-500/40 hover:scale-105 transition-all sm:h-13 sm:px-5 gap-2"
         >
-          <Search className="mr-2 h-4 w-4" />
+          <Search className="h-4 w-4" />
           <span className="hidden sm:inline">Search</span>
           <span className="sm:hidden">Find</span>
-          <span className="ml-3 hidden rounded-md border border-slate-700 bg-slate-900 px-1.5 py-0.5 text-[11px] text-slate-400 md:inline">
+          <span className="hidden rounded-md border border-white/20 bg-white/10 px-1.5 py-0.5 text-[11px] text-white/70 md:inline">
             Ctrl K
           </span>
         </Button>
@@ -134,68 +141,77 @@ export function GlobalSearch({ items }: { items: GlobalSearchItem[] }) {
 
       {open && (
         <div
-          className="fixed inset-0 z-[80] flex items-start justify-center bg-black/65 px-4 py-6 backdrop-blur-sm sm:py-12"
+          className="fixed inset-0 z-[80] flex items-start justify-center bg-black/70 px-4 py-8 backdrop-blur-md sm:py-16"
           onClick={closeSearch}
         >
           <div
-            className="w-full max-w-2xl overflow-hidden rounded-3xl border border-slate-800 bg-slate-950/95 shadow-2xl shadow-black/40"
+            className="w-full max-w-2xl overflow-hidden rounded-3xl border border-white/8 bg-[#0d0d0d]/98 shadow-2xl shadow-black/60"
             onClick={(event) => event.stopPropagation()}
           >
-            <div className="flex items-center gap-3 border-b border-slate-800 px-4 py-4 sm:px-5">
-              <Search className="h-5 w-5 text-slate-500" />
+            {/* Top accent */}
+            <div className="h-[2px] bg-gradient-to-r from-violet-600 via-cyan-500 to-emerald-500" />
+
+            {/* Search input row */}
+            <div className="flex items-center gap-3 border-b border-white/6 px-4 py-4 sm:px-5">
+              <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-violet-500/10 border border-violet-500/20">
+                <Search className="h-4 w-4 text-violet-400" />
+              </div>
               <Input
                 autoFocus
                 value={query}
                 onChange={(event) => setQuery(event.target.value)}
                 placeholder="Search categories, articles, playlists, and pages..."
-                className="h-11 border-0 bg-transparent px-0 text-sm text-slate-100 shadow-none focus-visible:ring-0"
+                className="h-10 border-0 bg-transparent px-0 text-sm text-slate-100 shadow-none focus-visible:ring-0 placeholder:text-slate-600"
               />
               <Button
                 type="button"
                 variant="ghost"
                 size="icon"
-                className="size-9 rounded-full text-slate-400 hover:bg-slate-900 hover:text-white"
+                className="size-8 rounded-full text-slate-500 hover:bg-white/5 hover:text-white"
                 onClick={closeSearch}
               >
                 <X className="h-4 w-4" />
               </Button>
             </div>
 
-            <div className="flex flex-wrap items-center gap-2 border-b border-slate-800/80 px-4 py-3 text-xs text-slate-500 sm:px-5">
-              <span className="inline-flex items-center gap-1 rounded-full border border-slate-800 bg-slate-900 px-2 py-1">
-                <Sparkles className="h-3 w-3" />
+            {/* Hint chips */}
+            <div className="flex flex-wrap items-center gap-2 border-b border-white/5 px-4 py-2.5 text-xs text-slate-600 sm:px-5">
+              <span className="inline-flex items-center gap-1 rounded-full border border-white/5 bg-white/3 px-2 py-1">
+                <Sparkles className="h-3 w-3 text-violet-400" />
                 Smart suggestions
               </span>
-              <span className="inline-flex items-center gap-1 rounded-full border border-slate-800 bg-slate-900 px-2 py-1">
+              <span className="inline-flex items-center gap-1 rounded-full border border-white/5 bg-white/3 px-2 py-1">
                 <Keyboard className="h-3 w-3" />
                 Esc to close
               </span>
               {topSuggestion && (
-                <span className="inline-flex items-center gap-1 rounded-full border border-slate-800 bg-slate-900 px-2 py-1 text-slate-400">
+                <span className="inline-flex items-center gap-1 rounded-full border border-white/5 bg-white/3 px-2 py-1 text-slate-500">
                   <CornerDownLeft className="h-3 w-3" />
-                  Top match: <span className="text-slate-300">{topSuggestion.title}</span>
+                  Top: <span className="text-slate-300 font-medium">{topSuggestion.title}</span>
                 </span>
               )}
             </div>
 
-            <div className="max-h-[65vh] overflow-y-auto p-3 sm:p-4">
+            {/* Results */}
+            <div className="max-h-[62vh] overflow-y-auto p-3 sm:p-4">
               {suggestions.length > 0 ? (
-                <div className="space-y-2">
-                  <div className="px-1 pb-1 text-xs font-medium uppercase tracking-[0.18em] text-slate-500">
+                <div className="space-y-1.5">
+                  <div className="px-2 pb-2 text-[10px] font-semibold uppercase tracking-[0.2em] text-slate-600">
                     {query.trim() ? `Results for "${query.trim()}"` : "Popular shortcuts"}
                   </div>
                   {suggestions.map((item) => {
                     const Icon = ICONS[item.type];
+                    const colors = TYPE_COLORS[item.type];
 
                     return (
                       <button
                         key={item.id}
                         type="button"
                         onClick={() => openItem(item)}
-                        className="flex w-full items-start gap-3 rounded-2xl border border-slate-800/70 bg-slate-900/50 px-3 py-3 text-left transition-colors hover:border-slate-700 hover:bg-slate-900"
+                        className="flex w-full items-start gap-3 rounded-2xl border border-white/4 bg-white/2 px-3 py-3 text-left transition-all hover:border-white/10 hover:bg-white/5"
                       >
-                        <div className="mt-0.5 flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-slate-800 bg-slate-950 text-slate-300">
-                          <Icon className="h-4 w-4" />
+                        <div className={`mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-xl border ${colors.border} ${colors.bg}`}>
+                          <Icon className={`h-4 w-4 ${colors.text}`} />
                         </div>
 
                         <div className="min-w-0 flex-1">
@@ -203,14 +219,13 @@ export function GlobalSearch({ items }: { items: GlobalSearchItem[] }) {
                             <p className="truncate text-sm font-medium text-slate-100">{item.title}</p>
                             {item.isExternal && <ArrowUpRight className="h-3.5 w-3.5 shrink-0 text-slate-500" />}
                           </div>
-                          <p className="mt-1 line-clamp-2 text-sm text-slate-400">{item.description}</p>
-                          <div className="mt-2 flex items-center gap-2">
-                            <span className="inline-flex items-center gap-1 rounded-full border border-slate-800 bg-slate-950 px-2 py-1 text-[11px] uppercase tracking-[0.18em] text-slate-500">
-                              <Sparkles className="h-3 w-3" />
-                              {item.group}
-                            </span>
-                            <span className="text-[11px] uppercase tracking-[0.18em] text-slate-600">
+                          <p className="mt-0.5 line-clamp-1 text-xs text-slate-500">{item.description}</p>
+                          <div className="mt-1.5 flex items-center gap-2">
+                            <span className={`inline-flex items-center gap-1 rounded-full border ${colors.border} ${colors.bg} px-2 py-0.5 text-[10px] uppercase tracking-[0.15em] ${colors.text} font-medium`}>
                               {item.type}
+                            </span>
+                            <span className="text-[10px] uppercase tracking-[0.15em] text-slate-600">
+                              {item.group}
                             </span>
                           </div>
                         </div>
@@ -219,14 +234,26 @@ export function GlobalSearch({ items }: { items: GlobalSearchItem[] }) {
                   })}
                 </div>
               ) : (
-                <div className="flex flex-col items-center justify-center py-14 text-center text-slate-500">
-                  <BookOpen className="mb-4 h-10 w-10 text-slate-700" />
-                  <p className="text-base text-slate-300">Nothing matched that search</p>
-                  <p className="mt-1 max-w-md text-sm text-slate-500">
+                <div className="flex flex-col items-center justify-center py-14 text-center">
+                  <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-2xl border border-white/5 bg-white/3">
+                    <BookOpen className="h-7 w-7 text-slate-600" />
+                  </div>
+                  <p className="text-base font-medium text-slate-300">Nothing matched that search</p>
+                  <p className="mt-1 max-w-md text-sm text-slate-600">
                     Try a broader keyword like a topic, article title, playlist name, or page.
                   </p>
                 </div>
               )}
+            </div>
+
+            {/* Bottom bar */}
+            <div className="border-t border-white/5 px-4 py-2.5 flex items-center gap-4 text-[10px] text-slate-600 sm:px-5">
+              {Object.entries(TYPE_COLORS).map(([type, colors]) => (
+                <span key={type} className={`inline-flex items-center gap-1 ${colors.text} opacity-70`}>
+                  <span className={`h-1.5 w-1.5 rounded-full ${colors.bg.replace("/10", "")} inline-block`} />
+                  {type}
+                </span>
+              ))}
             </div>
           </div>
         </div>
