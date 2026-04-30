@@ -111,6 +111,16 @@
             "videoCount": 1,
             "description": "A practical introduction to TypeScript syntax, types, and tooling.",
             "year": 2022
+        },
+        {
+            "title": "QuickReference all programming languages",
+            "creator": "quickref.me",
+            "url": "https://quickref.me/",
+            "language": "English",
+            "difficulty": "beginner",
+            "videoCount": 0,
+            "description": "",
+            "year": 2026
         }
     ]
 }
