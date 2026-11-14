@@ -44,7 +44,7 @@ export function LibraryDrawer({ isOpen, onClose }: LibraryDrawerProps) {
           {/* Header */}
           <div className="flex items-center justify-between border-b border-white/10 px-5 py-4 bg-[#141414]">
             <div className="flex items-center gap-2.5">
-              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#ff0000] text-white">
+              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#a855f7] text-white">
                 <Bookmark className="h-4 w-4 fill-white" />
               </div>
               <div>
@@ -96,7 +96,7 @@ export function LibraryDrawer({ isOpen, onClose }: LibraryDrawerProps) {
                     rel="noopener noreferrer"
                     className="flex flex-1 cursor-pointer items-center gap-3 min-w-0"
                   >
-                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-black/50 border border-white/10 text-white group-hover:bg-[#ff0000] transition-colors">
+                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-black/50 border border-white/10 text-white group-hover:bg-[#a855f7] transition-colors">
                       {item.type === "playlist" ? (
                         <Play className="h-4 w-4 fill-white" />
                       ) : (

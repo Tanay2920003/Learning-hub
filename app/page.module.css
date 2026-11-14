@@ -345,7 +345,7 @@
 
 .videoCard:hover {
   transform: translateY(-10px) scale(1.02) !important;
-  border-color: #ff0000 !important;
+  border-color: #a855f7 !important;
   box-shadow: 0 0 30px rgba(255, 0, 0, 0.3) !important;
 }
 
@@ -431,7 +431,7 @@
 }
 
 .watchButton {
-  background: #FF0000;
+  background: #a855f7;
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 8px;

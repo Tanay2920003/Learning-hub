@@ -36,7 +36,7 @@ const TYPE_COLORS: Record<SearchItemType, { bg: string; text: string; border: st
   page: { bg: "bg-[#2997ff]/15", text: "text-[#2997ff]", border: "border-[#2997ff]/30", dot: "bg-[#2997ff]" },
   category: { bg: "bg-[#bf5af2]/15", text: "text-[#bf5af2]", border: "border-[#bf5af2]/30", dot: "bg-[#bf5af2]" },
   article: { bg: "bg-[#30d158]/15", text: "text-[#30d158]", border: "border-[#30d158]/30", dot: "bg-[#30d158]" },
-  playlist: { bg: "bg-[#ff0000]/20", text: "text-[#ff4d4d]", border: "border-[#ff0000]/40", dot: "bg-[#ff0000]" },
+  playlist: { bg: "bg-[#a855f7]/20", text: "text-[#c084fc]", border: "border-[#a855f7]/40", dot: "bg-[#a855f7]" },
 };
 
 export function GlobalSearch({ items = [] }: { items?: GlobalSearchItem[] }) {
@@ -273,7 +273,7 @@ export function GlobalSearch({ items = [] }: { items?: GlobalSearchItem[] }) {
                             className={`flex h-10 w-10 sm:h-11 sm:w-11 shrink-0 items-center justify-center rounded-lg border ${colors.border} ${colors.bg}`}
                           >
                             {item.type === "playlist" ? (
-                              <Play className="h-4 w-4 fill-current text-[#ff4d4d]" />
+                              <Play className="h-4 w-4 fill-current text-[#c084fc]" />
                             ) : item.type === "category" ? (
                               <span className="h-5 w-5 inline-flex items-center justify-center">
                                 {getTrackIcon(item.href.replace(/^\//, ""), "h-5 w-5")}
@@ -332,7 +332,7 @@ export function GlobalSearch({ items = [] }: { items?: GlobalSearchItem[] }) {
             <div className="flex items-center justify-between border-t border-white/[0.08] bg-[#141414] px-4 py-2.5 text-[11px] text-white/40">
               <div className="flex items-center gap-3">
                 <span className="inline-flex items-center gap-1.5">
-                  <span className="h-2 w-2 rounded-full bg-[#ff0000]" />
+                  <span className="h-2 w-2 rounded-full bg-[#a855f7]" />
                   <span>7,203 verified resources</span>
                 </span>
               </div>

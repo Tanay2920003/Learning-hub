@@ -63,7 +63,7 @@ export function YouTubeBottomNav() {
           <div className="relative">
             <Bookmark className="h-5 w-5" />
             {savedCount > 0 && (
-              <span className="absolute -top-1 -right-2 flex h-4 w-4 items-center justify-center rounded-full bg-[#ff0000] text-[9px] font-bold text-white">
+              <span className="absolute -top-1 -right-2 flex h-4 w-4 items-center justify-center rounded-full bg-[#a855f7] text-[9px] font-bold text-white">
                 {savedCount}
               </span>
             )}

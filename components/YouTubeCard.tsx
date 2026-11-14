@@ -122,7 +122,7 @@ export function YouTubeCard({ item }: YouTubeCardProps) {
 
         {/* YouTube Hover Play Button Center Overlay */}
         <div className="pointer-events-none absolute inset-0 flex items-center justify-center opacity-0 transition-all duration-200 group-hover:opacity-100 group-hover:scale-105">
-          <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#ff0000] text-white shadow-xl shadow-red-950/60 ring-4 ring-black/40">
+          <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#a855f7] text-white shadow-xl shadow-purple-950/60 ring-4 ring-black/40">
             <Play className="ml-1 h-5 w-5 fill-white" />
           </div>
         </div>
@@ -146,7 +146,7 @@ export function YouTubeCard({ item }: YouTubeCardProps) {
             title={saved ? "Remove from Library" : "Save to Watch Later"}
             className={`flex h-8 w-8 items-center justify-center rounded-lg backdrop-blur-md transition-all ${
               saved
-                ? "bg-[#ff0000] text-white shadow-md shadow-red-900/40"
+                ? "bg-[#a855f7] text-white shadow-md shadow-purple-900/40"
                 : "bg-black/70 text-white/80 hover:bg-black hover:text-white"
             }`}
           >
@@ -257,7 +257,7 @@ export function YouTubeCard({ item }: YouTubeCardProps) {
                   }}
                   className="flex w-full items-center gap-2.5 rounded-lg px-3 py-2 text-xs text-white/80 hover:bg-white/10 hover:text-white"
                 >
-                  <Bookmark className={`h-3.5 w-3.5 ${saved ? "fill-[#ff0000] text-[#ff0000]" : ""}`} />
+                  <Bookmark className={`h-3.5 w-3.5 ${saved ? "fill-[#a855f7] text-[#a855f7]" : ""}`} />
                   <span>{saved ? "Remove from Library" : "Save to Watch Later"}</span>
                 </button>
 

@@ -152,7 +152,7 @@ export function Navbar() {
               <div className="relative">
                 <Bookmark className="h-4 w-4 fill-white/20 text-white" />
                 {savedCount > 0 && (
-                  <span className="absolute -top-1 -right-1.5 flex h-3.5 w-3.5 items-center justify-center rounded-full bg-[#ff0000] text-[9px] font-bold text-white">
+                  <span className="absolute -top-1 -right-1.5 flex h-3.5 w-3.5 items-center justify-center rounded-full bg-[#a855f7] text-[9px] font-bold text-white">
                     {savedCount}
                   </span>
                 )}

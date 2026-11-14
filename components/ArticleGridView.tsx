@@ -83,8 +83,8 @@ function YouTubeArticleCard({
 
       {/* Meta */}
       <div className="flex gap-2.5">
-        <div className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#ff0000]/15">
-          <Play className="h-3 w-3 text-[#ff0000] fill-[#ff0000]" />
+        <div className="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#a855f7]/15">
+          <Play className="h-3 w-3 text-[#a855f7] fill-[#a855f7]" />
         </div>
         <div className="min-w-0">
           <h3 className="text-sm font-medium text-white/90 group-hover:text-white transition-colors line-clamp-2 leading-snug">
