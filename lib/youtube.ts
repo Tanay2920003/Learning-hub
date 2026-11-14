@@ -1,5 +1,7 @@
 /**
- * Utilities to extract YouTube video & playlist IDs, embed URLs, and thumbnail assets.
+ * Detects YouTube links so they can be labelled. Learning Hub deliberately loads NOTHING
+ * from YouTube (no thumbnails, no embedded player): embedUrl/thumbnailUrl are always null,
+ * so users only contact YouTube if they click through to the link.
  */
 
 export interface YouTubeInfo {
@@ -30,10 +32,8 @@ export function parseYouTubeUrl(url: string): YouTubeInfo {
           isYouTube: true,
           type: listId ? "playlist" : "video",
           id: listId || vId,
-          embedUrl: listId
-            ? `https://www.youtube-nocookie.com/embed/videoseries?list=${encodeURIComponent(listId)}&autoplay=1`
-            : `https://www.youtube-nocookie.com/embed/${encodeURIComponent(vId)}?autoplay=1`,
-          thumbnailUrl: `https://img.youtube.com/vi/${vId}/hqdefault.jpg`,
+          embedUrl: null,
+          thumbnailUrl: null,
         };
       }
 
@@ -43,7 +43,7 @@ export function parseYouTubeUrl(url: string): YouTubeInfo {
           isYouTube: true,
           type: "playlist",
           id: listId,
-          embedUrl: `https://www.youtube-nocookie.com/embed/videoseries?list=${encodeURIComponent(listId)}&autoplay=1`,
+          embedUrl: null,
           thumbnailUrl: null,
         };
       }
@@ -56,8 +56,8 @@ export function parseYouTubeUrl(url: string): YouTubeInfo {
             isYouTube: true,
             type: "video",
             id,
-            embedUrl: `https://www.youtube-nocookie.com/embed/${encodeURIComponent(id)}?autoplay=1`,
-            thumbnailUrl: `https://img.youtube.com/vi/${id}/hqdefault.jpg`,
+            embedUrl: null,
+            thumbnailUrl: null,
           };
         }
       }

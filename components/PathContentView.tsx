@@ -145,6 +145,7 @@ function CommunityProjectGrid({
                     src={article.url}
                     title={`${article.title} preview`}
                     loading="lazy"
+                    referrerPolicy="no-referrer"
                     className="h-56 w-full bg-black"
                     sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
                   />
@@ -235,6 +236,7 @@ function CommunityProjectGrid({
                 src={selectedArticle.url}
                 title={`${selectedArticle.title} enlarged preview`}
                 loading="lazy"
+                referrerPolicy="no-referrer"
                 className="h-[72vh] w-full"
                 sandbox="allow-scripts allow-same-origin allow-popups allow-forms"
               />

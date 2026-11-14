@@ -38,7 +38,7 @@ export default function PrivacyPage() {
               <li>No location data</li>
               <li>No payment or financial information</li>
               <li>No usage analytics or telemetry (we do not use Google Analytics, Mixpanel, or similar services)</li>
-              <li>No cookies set by us</li>
+              <li>No cookies set by us (third-party content you choose to open may set its own; see Section 4)</li>
             </ul>
           </section>
 
@@ -48,7 +48,7 @@ export default function PrivacyPage() {
               The &ldquo;Saved Library&rdquo; (Watch Later / Bookmarks) feature stores your saved course and resource selections exclusively in your <strong className="text-white">device&rsquo;s local browser storage (localStorage)</strong>. This data:
             </p>
             <ul className="list-disc pl-5 space-y-1">
-              <li>Never leaves your device</li>
+              <li>Is not sent to us; it stays on your device</li>
               <li>Is never transmitted to our servers or any third party</li>
               <li>Can be cleared at any time by clearing your browser&rsquo;s site data or using the &ldquo;Clear Library&rdquo; button in the Library Drawer</li>
             </ul>
@@ -71,7 +71,21 @@ export default function PrivacyPage() {
               </li>
             </ul>
             <p>
-              We are not responsible for the privacy practices or content of third-party platforms.
+              <strong className="text-white">Third-party content.</strong> Learning Hub itself loads no third-party media. The following can contact third parties from your device:
+            </p>
+            <ul className="list-disc pl-5 space-y-2">
+              <li>
+                <strong className="text-white">Live previews</strong> — if you turn on website previews, the selected resource site is loaded in a sandboxed frame and may set its own cookies or collect data under its own policy. Previews are off by default.
+              </li>
+              <li>
+                <strong className="text-white">GitHub</strong> — the Contributors page requests public data from the GitHub API.
+              </li>
+            </ul>
+            <p>
+              We do not control and are not responsible for the privacy practices or content of third-party platforms. Learning Hub does not load YouTube thumbnails, embedded players or the YouTube API; YouTube links simply open on YouTube when you click them.
+            </p>
+            <p>
+              <strong className="text-white">Use inside the BBD Papers Android app.</strong> Learning Hub is also shown inside the BBD Papers app through a WebView. The app does not read what you do on this site. Data handling by the app itself is described in the BBD Papers privacy policy.
             </p>
           </section>
 
