@@ -1,7 +1,7 @@
 /**
- * Detects YouTube links so they can be labelled. Learning Hub deliberately loads NOTHING
- * from YouTube (no thumbnails, no embedded player): embedUrl/thumbnailUrl are always null,
- * so users only contact YouTube if they click through to the link.
+ * Detects YouTube links and derives their public thumbnail image.
+ * Thumbnails are shown unmodified and always link to the video on YouTube.
+ * No embedded player is used: embedUrl is always null (videos open on YouTube).
  */
 
 export interface YouTubeInfo {
@@ -33,7 +33,7 @@ export function parseYouTubeUrl(url: string): YouTubeInfo {
           type: listId ? "playlist" : "video",
           id: listId || vId,
           embedUrl: null,
-          thumbnailUrl: null,
+          thumbnailUrl: `https://img.youtube.com/vi/${encodeURIComponent(vId)}/hqdefault.jpg`,
         };
       }
 
@@ -57,7 +57,7 @@ export function parseYouTubeUrl(url: string): YouTubeInfo {
             type: "video",
             id,
             embedUrl: null,
-            thumbnailUrl: null,
+            thumbnailUrl: `https://img.youtube.com/vi/${encodeURIComponent(id)}/hqdefault.jpg`,
           };
         }
       }

@@ -15,7 +15,7 @@ export default function PrivacyPage() {
           <div>
             <h1 className="text-3xl font-bold tracking-tight">Privacy Policy</h1>
             <p className="mt-1 text-sm text-white/50">
-              Effective Date: November 14, 2026 · Last Updated: November 14, 2026
+              Effective Date: November 15, 2026 · Last Updated: November 15, 2026
             </p>
           </div>
         </div>
@@ -71,9 +71,13 @@ export default function PrivacyPage() {
               </li>
             </ul>
             <p>
-              <strong className="text-white">Third-party content.</strong> Learning Hub itself loads no third-party media. The following can contact third parties from your device:
+              <strong className="text-white">Third-party content.</strong> Some parts of Learning Hub load content from third parties, which means your device sends them its IP address and standard browser details:
             </p>
             <ul className="list-disc pl-5 space-y-2">
+              <li>
+                <strong className="text-white">YouTube thumbnails</strong> &mdash; video cards show preview images loaded directly from <code>img.youtube.com</code> (Google), governed by the{" "}
+                <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="text-[#2997ff] hover:underline">Google Privacy Policy</a>. Learning Hub does not embed the YouTube player; videos open on YouTube when you click them.
+              </li>
               <li>
                 <strong className="text-white">Live previews</strong> — if you turn on website previews, the selected resource site is loaded in a sandboxed frame and may set its own cookies or collect data under its own policy. Previews are off by default.
               </li>
@@ -82,7 +86,7 @@ export default function PrivacyPage() {
               </li>
             </ul>
             <p>
-              We do not control and are not responsible for the privacy practices or content of third-party platforms. Learning Hub does not load YouTube thumbnails, embedded players or the YouTube API; YouTube links simply open on YouTube when you click them.
+              We do not control and are not responsible for the privacy practices or content of third-party platforms. Learning Hub does not use the YouTube API or access any YouTube account data.
             </p>
             <p>
               <strong className="text-white">Use inside the BBD Papers Android app.</strong> Learning Hub is also shown inside the BBD Papers app through a WebView. The app does not read what you do on this site. Data handling by the app itself is described in the BBD Papers privacy policy.
