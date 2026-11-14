@@ -5,6 +5,10 @@
   "icon": "community-sites-and-projects",
   "articles": [
     {
+      "title": "BBD College Papers - Academic Resources & Student Community",
+      "url": "https://bbd-collegepapers-studio.vercel.app"
+    },
+    {
       "title": "AlgoViz",
       "url": "https://algovizvps.vercel.app"
     },

@@ -152,7 +152,7 @@ const ALL_ROUTES: RouteItem[] = [
     name: "Community Sites & Projects",
     href: "/community-sites-and-projects",
     category: "Tools & Community",
-    description: "Interactive projects like Electronics 101, AlgoViz, and GitHub Visualizer",
+    description: "Community platforms like BBD College Papers, Electronics 101, and AlgoViz",
     badge: "Interactive",
   },
   {
