@@ -1,32 +1,4396 @@
 {
-    "name": "Java",
-    "slug": "java",
-    "description": "Java Development",
-    "icon": "https://img.icons8.com/?size=100&id=YHPNcYehHuH9&format=png&color=000000",
-    "articles": [
-        {
-            "title": "W3Schools Java Tutorials",
-            "url": "https://www.w3schools.com/java/"
-        },
-        {
-            "title": "Baeldung - Java Tutorials",
-            "url": "https://www.baeldung.com/"
-        },
-        {
-            "title": "JavaTPoint - Java Tutorial",
-            "url": "https://www.javatpoint.com/java-tutorial"
-        }
-    ],
-    "playlists": [
-        {
-            "title": "Java OneShot in 2 Hours",
-            "creator": "Apna College",
-            "url": "https://youtu.be/UmnCZ7-9yDY?si=FlK5apLkPP35JwdL",
-            "language": "English,Hindi",
-            "difficulty": "beginner",
-            "videoCount": 2,
-            "description": "",
-            "year": 2026
-        }
-    ]
+  "name": "Java",
+  "slug": "java",
+  "description": "Java Development",
+  "icon": "java",
+  "articles": [
+    {
+      "title": "W3Schools Java Tutorials",
+      "url": "https://www.w3schools.com/java/"
+    },
+    {
+      "title": "Baeldung - Java Tutorials",
+      "url": "https://www.baeldung.com/"
+    },
+    {
+      "title": "MOOC.fi Java Programming (Part 1 & 2)",
+      "url": "https://java-programming.mooc.fi/"
+    },
+    {
+      "title": "Dev.java - Official Java Developers Portal",
+      "url": "https://dev.java/"
+    },
+    {
+      "title": "Java Almanac - Version History & Feature Matrix",
+      "url": "https://javaalmanac.io/"
+    },
+    {
+      "title": "Spring Boot Official Guides & Primers",
+      "url": "https://spring.io/guides"
+    },
+    {
+      "title": "GeeksforGeeks Complete Java Portal",
+      "url": "https://www.geeksforgeeks.org/java/"
+    },
+    {
+      "title": "Effective Java Key Concepts Summary",
+      "url": "https://github.com/HugoMatilla/Effective-JAVA-Summary"
+    },
+    {
+      "title": "Refactoring.Guru Java Design Patterns",
+      "url": "https://refactoring.guru/design-patterns/java"
+    },
+    {
+      "title": "Oracle Official Java Tutorials",
+      "url": "https://docs.oracle.com/javase/tutorial/"
+    },
+    {
+      "title": "Apache Maven Documentation & Getting Started",
+      "url": "https://maven.apache.org/guides/getting-started/"
+    },
+    {
+      "title": "Google Java Style Guide",
+      "url": "https://google.github.io/styleguide/javaguide.html"
+    },
+    {
+      "title": "Quarkus Supersonic Java Framework Guide",
+      "url": "https://quarkus.io/guides/"
+    },
+    {
+      "title": "Java Champion Thoughts on Modern Java",
+      "url": "https://inside.java/"
+    },
+    {
+      "title": "Spring Boot Official Reference Documentation",
+      "url": "https://docs.spring.io/spring-boot/docs/current/reference/html/"
+    },
+    {
+      "title": "Hibernate ORM User Guide",
+      "url": "https://hibernate.org/orm/documentation/6.4/"
+    },
+    {
+      "title": "Java Design Patterns - Open Source Catalog",
+      "url": "https://java-design-patterns.com/"
+    },
+    {
+      "title": "OpenSearch & Java High Performance Architecture",
+      "url": "https://opensearch.org/docs/latest/"
+    },
+    {
+      "title": "JUnit 5 Official User Guide",
+      "url": "https://junit.org/junit5/docs/current/user-guide/"
+    }
+  ],
+  "playlists": [
+    {
+      "title": "Java OneShot in 2 Hours",
+      "creator": "Apna College",
+      "url": "https://youtu.be/UmnCZ7-9yDY?si=FlK5apLkPP35JwdL",
+      "language": "English,Hindi",
+      "difficulty": "beginner",
+      "videoCount": 2,
+      "description": "",
+      "year": 2026
+    },
+    {
+      "title": "Java Programming Full Course 2023",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=BGTx91t8q50",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Comprehensive 12-hour masterclass covering Core Java, OOP, Collections, Streams, and JDBC.",
+      "year": 2023
+    },
+    {
+      "title": "Java Video Tutorial Series",
+      "creator": "Derek Banas",
+      "url": "https://www.youtube.com/playlist?list=PLE7E8B7F4856C9B19",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 25,
+      "description": "Fast-paced, thorough video guides covering design patterns, OOP principles, and data structures in Java.",
+      "year": 2020
+    },
+    {
+      "title": "Java Full Course (12 Hours)",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=xk4_1vDrzzo",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "A beginner-friendly marathon covering everything from basic syntax to GUI development with Swing.",
+      "year": 2022
+    },
+    {
+      "title": "Java & DSA Complete Bootcamp",
+      "creator": "Kunal Kushwaha",
+      "url": "https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 60,
+      "description": "Hands-on bootcamp teaching Java fundamentals along with problem solving, algorithmic complexity, and interview prep.",
+      "year": 2022
+    },
+    {
+      "title": "Step-by-step: learn JAVA in 2024",
+      "creator": "Sajjaad Khader",
+      "url": "https://www.youtube.com/watch?v=JZXzCHnigcQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Step-by-step: learn JAVA in 2024 - Complete guide by Sajjaad Khader.",
+      "year": 2024
+    },
+    {
+      "title": "Java Programming for Beginners – Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=A74TOX803D0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Java Programming for Beginners – Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Intro to Java Programming - Course for Absolute Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=GoXwIVyNvX0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Intro to Java Programming - Course for Absolute Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Functional Programming in Java - Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=rPSL1alFIjI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Functional Programming in Java - Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "#2 Java Development Kit (JDK) Setup",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=WRISYpKhIrc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#2 Java Development Kit (JDK) Setup - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Write Your First JAVA Program | JVM, JDK & JRE Explained | JSE vs JEE vs JME | JAVA Full Course #2",
+      "creator": "Coder Army",
+      "url": "https://www.youtube.com/watch?v=pdS8_smlsXA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Write Your First JAVA Program | JVM, JDK & JRE Explained | JSE vs JEE vs JME | JAVA Full Course #2 - Complete guide by Coder Army.",
+      "year": 2024
+    },
+    {
+      "title": "Java Full Course for free ☕",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=xTtL8E4LzTQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Full Course for free ☕ - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "JAVA Full Course | Introduction to JAVA | Java Full Course for Beginners in 2026",
+      "creator": "Coder Army",
+      "url": "https://www.youtube.com/watch?v=LBqE4YOvhyc",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "JAVA Full Course | Introduction to JAVA | Java Full Course for Beginners in 2026 - Complete guide by Coder Army.",
+      "year": 2024
+    },
+    {
+      "title": "Java- programming with mosh || C- Bro Code || Full stack development - freecodeCamp.org|| AWS-Amazon",
+      "creator": "with_siri",
+      "url": "https://www.youtube.com/watch?v=rCCVFIZREh4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java- programming with mosh || C- Bro Code || Full stack development - freecodeCamp.org|| AWS-Amazon - Complete guide by with_siri.",
+      "year": 2024
+    },
+    {
+      "title": "Basic Structure of a Java Program: Understanding our First Java Hello World Program",
+      "creator": "CodeWithHarry",
+      "url": "https://www.youtube.com/watch?v=zIdg7hkqNE0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Basic Structure of a Java Program: Understanding our First Java Hello World Program - Complete guide by CodeWithHarry.",
+      "year": 2024
+    },
+    {
+      "title": "3 FREE Courses to learn JAVA in 2026 | JAVA Free Resources",
+      "creator": "The Geek Monk",
+      "url": "https://www.youtube.com/watch?v=tRmyPlJQCdw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "3 FREE Courses to learn JAVA in 2026 | JAVA Free Resources - Complete guide by The Geek Monk.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Java + Installing Java JDK and IntelliJ IDEA for Java",
+      "creator": "CodeWithHarry",
+      "url": "https://www.youtube.com/watch?v=ntLJmHOJ0ME",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to Java + Installing Java JDK and IntelliJ IDEA for Java - Complete guide by CodeWithHarry.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Java 8 - Full Tutorial for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=grEKMHGYyns",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn Java 8 - Full Tutorial for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Top 3 Best Java Playlists to Learn Java in 2025 | Beginners to Advanced 🤷‍♂️",
+      "creator": "Sancoding",
+      "url": "https://www.youtube.com/watch?v=vriy-yAJfTQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Top 3 Best Java Playlists to Learn Java in 2025 | Beginners to Advanced 🤷‍♂️ - Complete guide by Sancoding.",
+      "year": 2024
+    },
+    {
+      "title": "#1 Java Introduction",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=bm0OyhwFDuY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#1 Java Introduction - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Huge🔥Become Java developer in 30Days❤️",
+      "creator": "Curious Freaks",
+      "url": "https://www.youtube.com/watch?v=5UWL0v8NjpA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Huge🔥Become Java developer in 30Days❤️ - Complete guide by Curious Freaks.",
+      "year": 2024
+    },
+    {
+      "title": "Java roadmap 2025: Beginner to Mastery",
+      "creator": "Code With Nishant",
+      "url": "https://www.youtube.com/watch?v=Dd_832z-kGg",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Java roadmap 2025: Beginner to Mastery - Complete guide by Code With Nishant.",
+      "year": 2024
+    },
+    {
+      "title": "Master Java for Free: Top YouTube Channels for Learning Java",
+      "creator": "Sanjay kumar",
+      "url": "https://www.youtube.com/watch?v=44gIhuQlFv4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Master Java for Free: Top YouTube Channels for Learning Java - Complete guide by Sanjay kumar.",
+      "year": 2024
+    },
+    {
+      "title": "New Java Full Stack Developer Batch 2027 | Admissions Open | 5-Star Google-Rated Institute in Pune",
+      "creator": "Full Stack Java Developer",
+      "url": "https://www.youtube.com/watch?v=dCVqM6-Ca6M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "New Java Full Stack Developer Batch 2027 | Admissions Open | 5-Star Google-Rated Institute in Pune - Complete guide by Full Stack Java Developer.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Java in 30 Days with FREE Courses✅  | #java #shorts",
+      "creator": "Last moment tuitions",
+      "url": "https://www.youtube.com/watch?v=l_bz2JZyFbs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Java in 30 Days with FREE Courses✅  | #java #shorts - Complete guide by Last moment tuitions.",
+      "year": 2024
+    },
+    {
+      "title": "Start coding with JAVA in 10 minutes! ☕",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=23HFxAPyJ9U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Start coding with JAVA in 10 minutes! ☕ - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "TOP 5 YOUTUBE CHANNEL TO LEARN JAVA | #java #coding #programming #webdevelopment",
+      "creator": "Devxilyas",
+      "url": "https://www.youtube.com/watch?v=Ya4WbP67qms",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "TOP 5 YOUTUBE CHANNEL TO LEARN JAVA | #java #coding #programming #webdevelopment - Complete guide by Devxilyas.",
+      "year": 2024
+    },
+    {
+      "title": "Java variables are easy! ❎",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=TGVLmr194DI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java variables are easy! ❎ - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "Java Programming Tutorial 1 - Introduction to Java",
+      "creator": "Caleb Curry",
+      "url": "https://www.youtube.com/watch?v=2dZiMBwX_5Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Programming Tutorial 1 - Introduction to Java - Complete guide by Caleb Curry.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Java for FREE in 2025",
+      "creator": "Sajjaad Khader",
+      "url": "https://www.youtube.com/watch?v=9oCncgpdNSQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Java for FREE in 2025 - Complete guide by Sajjaad Khader.",
+      "year": 2024
+    },
+    {
+      "title": "Free Java Programming Online Course : Complete Java Programming Bootcamp | Learn to Code in Java",
+      "creator": "Freshers Camp",
+      "url": "https://www.youtube.com/watch?v=1FE0rWSq52I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Free Java Programming Online Course : Complete Java Programming Bootcamp | Learn to Code in Java - Complete guide by Freshers Camp.",
+      "year": 2024
+    },
+    {
+      "title": "☕ First Java Program in 10 Seconds! 💻 | Hello World in Java | Java Programming for Beginners #Shorts",
+      "creator": "Java4School",
+      "url": "https://www.youtube.com/watch?v=vlmuhD9NyOA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "☕ First Java Program in 10 Seconds! 💻 | Hello World in Java | Java Programming for Beginners #Shorts - Complete guide by Java4School.",
+      "year": 2024
+    },
+    {
+      "title": "Free YouTube Channels to learn Java | Java Resources | Charan_techstudio",
+      "creator": "Charan_techstudio",
+      "url": "https://www.youtube.com/watch?v=-2ws536rZgM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Free YouTube Channels to learn Java | Java Resources | Charan_techstudio - Complete guide by Charan_techstudio.",
+      "year": 2024
+    },
+    {
+      "title": "Java Tutorial Free Online Course : Java Tutorial for Complete Beginners #shorts #freedcourse #course",
+      "creator": "Freshers Camp",
+      "url": "https://www.youtube.com/watch?v=Vo2wpJ1_Yf4",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Java Tutorial Free Online Course : Java Tutorial for Complete Beginners #shorts #freedcourse #course - Complete guide by Freshers Camp.",
+      "year": 2024
+    },
+    {
+      "title": "the power of #java🔥🔥👨‍💻🌍 #programming #software #engineering @brilq@freecodecamp",
+      "creator": "Brilliant Developer",
+      "url": "https://www.youtube.com/watch?v=iC6fiCNXCOA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "the power of #java🔥🔥👨‍💻🌍 #programming #software #engineering @brilq@freecodecamp - Complete guide by Brilliant Developer.",
+      "year": 2024
+    },
+    {
+      "title": "Full Stack Development with Java Spring Boot, React, and MongoDB – Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=5PdEmeopJVQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Full Stack Development with Java Spring Boot, React, and MongoDB – Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Java Basics – Crash Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=GdzRzWymT4c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Basics – Crash Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Java Data types #javaprogramming #javadeveloper #javadatatypes #dudububu #learnjava #java  #javadoc",
+      "creator": "Learn Java with Dudu and Bubu",
+      "url": "https://www.youtube.com/watch?v=hnt-00jznog",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Data types #javaprogramming #javadeveloper #javadatatypes #dudububu #learnjava #java  #javadoc - Complete guide by Learn Java with Dudu and Bubu.",
+      "year": 2024
+    },
+    {
+      "title": "Java Full Course for Beginners",
+      "creator": "Programming with Mosh",
+      "url": "https://www.youtube.com/watch?v=eIrMbAQSU34",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Java Full Course for Beginners - Complete guide by Programming with Mosh.",
+      "year": 2024
+    },
+    {
+      "title": "Java Programming for Beginners | Requirements, Installation & Your First Java Program!",
+      "creator": "Tech Trainer Pro",
+      "url": "https://www.youtube.com/watch?v=t7hijSUS7pQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Java Programming for Beginners | Requirements, Installation & Your First Java Program! - Complete guide by Tech Trainer Pro.",
+      "year": 2024
+    },
+    {
+      "title": "String in java @freecodecamp  #coding #code #programming #codeforworld #viralvideo #string #java",
+      "creator": "Code For World",
+      "url": "https://www.youtube.com/watch?v=heqsKPPw5tA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "String in java @freecodecamp  #coding #code #programming #codeforworld #viralvideo #string #java - Complete guide by Code For World.",
+      "year": 2024
+    },
+    {
+      "title": "Java Training Complete Free Course for Java Beginners All in One #shorts #shortvideo #freecourse",
+      "creator": "Freshers Camp",
+      "url": "https://www.youtube.com/watch?v=xkJpUotff8A",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Java Training Complete Free Course for Java Beginners All in One #shorts #shortvideo #freecourse - Complete guide by Freshers Camp.",
+      "year": 2024
+    },
+    {
+      "title": "Java Roadmap for Beginners! 🐍 Learn Java Programming Step-by-Step\" #java #coding",
+      "creator": "Mission Adda",
+      "url": "https://www.youtube.com/watch?v=T2c7nKmwex4",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Java Roadmap for Beginners! 🐍 Learn Java Programming Step-by-Step\" #java #coding - Complete guide by Mission Adda.",
+      "year": 2024
+    },
+    {
+      "title": "Best Free Coding course ! All free programming courses. #java #coding #mnc #jobs2024 #experience",
+      "creator": "Decode With Shubham",
+      "url": "https://www.youtube.com/watch?v=uaLNPUn58AA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Best Free Coding course ! All free programming courses. #java #coding #mnc #jobs2024 #experience - Complete guide by Decode With Shubham.",
+      "year": 2024
+    },
+    {
+      "title": "Java Programming Free Certificate Courses #udemyfreecourse #udemyfreecertificate #udemy",
+      "creator": "Gopi Blog Tech",
+      "url": "https://www.youtube.com/watch?v=A5HC38J20Pg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Programming Free Certificate Courses #udemyfreecourse #udemyfreecertificate #udemy - Complete guide by Gopi Blog Tech.",
+      "year": 2024
+    },
+    {
+      "title": "Java Tutorial for Beginners | Learn Java in 2 Hours",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=UmnCZ7-9yDY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Java Tutorial for Beginners | Learn Java in 2 Hours - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "Java Exception Handling Tutorial",
+      "creator": "Programming with Mosh",
+      "url": "https://www.youtube.com/watch?v=_nmm0nZqIIY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Exception Handling Tutorial - Complete guide by Programming with Mosh.",
+      "year": 2024
+    },
+    {
+      "title": "Java Beginner Course - Get Started Coding with Java!",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=7WiJGTPuVeU",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Java Beginner Course - Get Started Coding with Java! - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Master Java from 🚀🔥#learning #learning #skills #java",
+      "creator": "Codzayush ",
+      "url": "https://www.youtube.com/watch?v=eT132V6bzhE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Master Java from 🚀🔥#learning #learning #skills #java - Complete guide by Codzayush .",
+      "year": 2024
+    },
+    {
+      "title": "Java Testing with Selenium Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=QQliGCtqD2w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Testing with Selenium Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Java Collections Tutorial",
+      "creator": "Programming with Mosh",
+      "url": "https://www.youtube.com/watch?v=rH0winlka8A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Collections Tutorial - Complete guide by Programming with Mosh.",
+      "year": 2024
+    },
+    {
+      "title": "HTML Tutorial for Beginners: HTML Crash Course",
+      "creator": "Programming with Mosh",
+      "url": "https://www.youtube.com/watch?v=qz0aGYrrlhU",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "HTML Tutorial for Beginners: HTML Crash Course - Complete guide by Programming with Mosh.",
+      "year": 2024
+    },
+    {
+      "title": "Java Tutorial For Beginners 2 - Installing Eclipse IDE and Setting up Eclipse",
+      "creator": "ProgrammingKnowledge",
+      "url": "https://www.youtube.com/watch?v=gzlhm0jco0g",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Java Tutorial For Beginners 2 - Installing Eclipse IDE and Setting up Eclipse - Complete guide by ProgrammingKnowledge.",
+      "year": 2024
+    },
+    {
+      "title": "Learn CSS in 12 Minutes",
+      "creator": "Jake Wright",
+      "url": "https://www.youtube.com/watch?v=0afZj1G0BIE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn CSS in 12 Minutes - Complete guide by Jake Wright.",
+      "year": 2024
+    },
+    {
+      "title": "Java Interfaces Tutorial",
+      "creator": "Programming with Mosh",
+      "url": "https://www.youtube.com/watch?v=JFuMei9Wwk4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Interfaces Tutorial - Complete guide by Programming with Mosh.",
+      "year": 2024
+    },
+    {
+      "title": "Java Generics Tutorial",
+      "creator": "Programming with Mosh",
+      "url": "https://www.youtube.com/watch?v=7i3Rliqzquw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Generics Tutorial - Complete guide by Programming with Mosh.",
+      "year": 2024
+    },
+    {
+      "title": "Java Tutorial For Beginners 1 - Introduction and Installing the java (JDK) Step by Step Tutorial",
+      "creator": "ProgrammingKnowledge",
+      "url": "https://www.youtube.com/watch?v=r59xYe3Vyks",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Java Tutorial For Beginners 1 - Introduction and Installing the java (JDK) Step by Step Tutorial - Complete guide by ProgrammingKnowledge.",
+      "year": 2024
+    },
+    {
+      "title": "Roadmap for Learning SQL",
+      "creator": "ByteByteGo",
+      "url": "https://www.youtube.com/watch?v=yMqldbY2AAg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Roadmap for Learning SQL - Complete guide by ByteByteGo.",
+      "year": 2024
+    },
+    {
+      "title": "C++ Tutorial for Beginners - Learn C++ in 1 Hour",
+      "creator": "Programming with Mosh",
+      "url": "https://www.youtube.com/watch?v=ZzaPdXTrSb8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "C++ Tutorial for Beginners - Learn C++ in 1 Hour - Complete guide by Programming with Mosh.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Queries with MySQL Workbench  & Sakila Sample Database",
+      "creator": "Matt Macarty",
+      "url": "https://www.youtube.com/watch?v=WzMjd3AOX8U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to Queries with MySQL Workbench  & Sakila Sample Database - Complete guide by Matt Macarty.",
+      "year": 2024
+    },
+    {
+      "title": "C# Tutorial For Beginners - Learn C# Basics in 1 Hour",
+      "creator": "Programming with Mosh",
+      "url": "https://www.youtube.com/watch?v=gfkTfcpWqAY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "C# Tutorial For Beginners - Learn C# Basics in 1 Hour - Complete guide by Programming with Mosh.",
+      "year": 2024
+    },
+    {
+      "title": "🚀🔥 JAVA Complete Course Part-2 (2024) | 100+ Programming Challenges",
+      "creator": "Complete Coding by Prashant Sir",
+      "url": "https://www.youtube.com/watch?v=nNLqygSI-rE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🚀🔥 JAVA Complete Course Part-2 (2024) | 100+ Programming Challenges - Complete guide by Complete Coding by Prashant Sir.",
+      "year": 2024
+    },
+    {
+      "title": "🚀🔥 JAVA Complete Course Part-1 (2024) | 100+ Programming Challenges",
+      "creator": "Complete Coding by Prashant Sir",
+      "url": "https://www.youtube.com/watch?v=PymbRTMb4hY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🚀🔥 JAVA Complete Course Part-1 (2024) | 100+ Programming Challenges - Complete guide by Complete Coding by Prashant Sir.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Java Language | Lecture 1 | Complete Placement Course",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=yRpLlJmRo2w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to Java Language | Lecture 1 | Complete Placement Course - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "Debugging C# Code in Visual Studio | Mosh",
+      "creator": "Programming with Mosh",
+      "url": "https://www.youtube.com/watch?v=u-HdLtqEOog",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Debugging C# Code in Visual Studio | Mosh - Complete guide by Programming with Mosh.",
+      "year": 2024
+    },
+    {
+      "title": "Java Full Course [NEW]",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=Qgl81fPcLc8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Full Course [NEW] - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Java Tutorial For Beginners 2023",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=j9VNCI9Xo80",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Java Tutorial For Beginners 2023 - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Constructors in Java | Constructor Chaining, Overloading & this | Java Full Course #13",
+      "creator": "Coder Army",
+      "url": "https://www.youtube.com/watch?v=RADpqk79IzQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Constructors in Java | Constructor Chaining, Overloading & this | Java Full Course #13 - Complete guide by Coder Army.",
+      "year": 2024
+    },
+    {
+      "title": "Java Full Stack Development  Course in Hindi  #java #javafullstack #course",
+      "creator": "Hum aur Code",
+      "url": "https://www.youtube.com/watch?v=Js4FlB0zTbg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Full Stack Development  Course in Hindi  #java #javafullstack #course - Complete guide by Hum aur Code.",
+      "year": 2024
+    },
+    {
+      "title": "Java Functional Programming | Full Course",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=VRpHdSFWGPs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Functional Programming | Full Course - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "How To Master Java - Java for Beginners Roadmap",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=TE3LyYW-AHQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "How To Master Java - Java for Beginners Roadmap - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot Tutorial | Spring Data JPA | 2021",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=8SGI_XS5OPw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring Boot Tutorial | Spring Data JPA | 2021 - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "JUnit 5 Tutorial by Hyder Abbas",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=laPmEW913_k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "JUnit 5 Tutorial by Hyder Abbas - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot Tutorial | Full Course [2023] [NEW]",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=9SGDpanrc8U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring Boot Tutorial | Full Course [2023] [NEW] - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Java introduction Tutorial | Java Full Stack Tutorial in Hindi | lecture 1",
+      "creator": "Hum aur Code",
+      "url": "https://www.youtube.com/watch?v=WWWxAzNjAfQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java introduction Tutorial | Java Full Stack Tutorial in Hindi | lecture 1 - Complete guide by Hum aur Code.",
+      "year": 2024
+    },
+    {
+      "title": "Java vs C++ for Data Structures & Algorithms",
+      "creator": "Kunal Kushwaha",
+      "url": "https://www.youtube.com/watch?v=Nckx9qMy_kw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java vs C++ for Data Structures & Algorithms - Complete guide by Kunal Kushwaha.",
+      "year": 2024
+    },
+    {
+      "title": "Best Data Structures & Algorithms (DSA) Course - Clear Any FAANG Interview!",
+      "creator": "Kunal Kushwaha",
+      "url": "https://www.youtube.com/watch?v=rZ41y93P2Qo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Best Data Structures & Algorithms (DSA) Course - Clear Any FAANG Interview! - Complete guide by Kunal Kushwaha.",
+      "year": 2024
+    },
+    {
+      "title": "Java ROADMAP - 1 Week Left 👀...",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=3QaHh1NhwuU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java ROADMAP - 1 Week Left 👀... - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Why You NEED to Learn Java",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=yobtQUXCnPs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why You NEED to Learn Java - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Variables in Java | Input Output | Complete Placement Course | Lecture 2",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=LusTv0RlnSU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Variables in Java | Input Output | Complete Placement Course | Lecture 2 - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "Learning THIS Got Me A Job In 2025 (Copy Me)",
+      "creator": "Erik Cupsa",
+      "url": "https://www.youtube.com/watch?v=UZfmPl1-jSI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learning THIS Got Me A Job In 2025 (Copy Me) - Complete guide by Erik Cupsa.",
+      "year": 2024
+    },
+    {
+      "title": "Still Writing 35 Lines to Hold Two Values? Java Records",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=U3YLFaB7yb0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Still Writing 35 Lines to Hold Two Values? Java Records - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "This transaction just lost $100 #java #codinginterview #programming",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=8NRu4t-LwrA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "This transaction just lost $100 #java #codinginterview #programming - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "What does this print?  #java #codinginterview  #programming",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=iOH9vjDcWhc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What does this print?  #java #codinginterview  #programming - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Mutable state will break your app #java #codinginterview #programming",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=G8J2Zmw0z3Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Mutable state will break your app #java #codinginterview #programming - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "What is the problem here? #java #codinginterview  #programming",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=p43JWVty674",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is the problem here? #java #codinginterview  #programming - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Java... Reviving or Dying?",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=8sL2MyXZmE0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java... Reviving or Dying? - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Object Oriented Programming  in Java | Classes, Objects, new Keyword | Java Full Course #12",
+      "creator": "Coder Army",
+      "url": "https://www.youtube.com/watch?v=tmXD7Kzun54",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Object Oriented Programming  in Java | Classes, Objects, new Keyword | Java Full Course #12 - Complete guide by Coder Army.",
+      "year": 2024
+    },
+    {
+      "title": "Feedback from Senior Developer after Peer Programming",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=YhZa5KTBnw4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Feedback from Senior Developer after Peer Programming - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Java Basics in Just 90 Seconds, Everything You Need to Know! #coding #shorts",
+      "creator": "GeeksforGeeks",
+      "url": "https://www.youtube.com/watch?v=jEp17Ik3YLI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Basics in Just 90 Seconds, Everything You Need to Know! #coding #shorts - Complete guide by GeeksforGeeks.",
+      "year": 2024
+    },
+    {
+      "title": "Java Virtual Threads #java #multithreading #programming",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=OWLOhbFAmt4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Virtual Threads #java #multithreading #programming - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "What is Java?",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=AmEhZGjXMqU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Java? - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Java's Power: Why It's a Solid Language to Learn #java #programming #coding",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=zpEzn4ofbzc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java's Power: Why It's a Solid Language to Learn #java #programming #coding - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Stop Python,Java🔴Master this to get Job easily🤯",
+      "creator": "Curious Freaks",
+      "url": "https://www.youtube.com/watch?v=5J0x2a32I9c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Stop Python,Java🔴Master this to get Job easily🤯 - Complete guide by Curious Freaks.",
+      "year": 2024
+    },
+    {
+      "title": "This String bug fails 90% of devs #java #codinginterview #programming",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=vLjNRkKfgcc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "This String bug fails 90% of devs #java #codinginterview #programming - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Data Types in Java by Deepak (Hindi)",
+      "creator": "Smart Programming",
+      "url": "https://www.youtube.com/watch?v=cDd-eUtbm2k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data Types in Java by Deepak (Hindi) - Complete guide by Smart Programming.",
+      "year": 2024
+    },
+    {
+      "title": "Sit & Watch ☕ #code #java #tech #fyp",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=d6notKQsvFg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Sit & Watch ☕ #code #java #tech #fyp - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Records + sealed interfaces = pattern power #java #codinginterview #programming",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=fFiQl7aOCHk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Records + sealed interfaces = pattern power #java #codinginterview #programming - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Java Roadmap 🛣",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=YQwNoFjDPfg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Roadmap 🛣 - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Java's Integer cache will fool you #java #codinginterview #programming",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=5V9SKzRFHSA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java's Integer cache will fool you #java #codinginterview #programming - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "This is why you dont improve",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=Ol-BLPrL6H4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "This is why you dont improve - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Session 20 -  Collections in Java | ArrayList | HashSet | HashMap",
+      "creator": "SDET- QA",
+      "url": "https://www.youtube.com/watch?v=Byb0sw9dFzc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Session 20 -  Collections in Java | ArrayList | HashSet | HashMap - Complete guide by SDET- QA.",
+      "year": 2024
+    },
+    {
+      "title": "Variables in Java by Deepak (Hindi) - Part 1",
+      "creator": "Smart Programming",
+      "url": "https://www.youtube.com/watch?v=aI5zJoiw8nw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Variables in Java by Deepak (Hindi) - Part 1 - Complete guide by Smart Programming.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot & Spring Data JPA – Complete Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=5rNk7m_zlAg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring Boot & Spring Data JPA – Complete Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Session 19 - Type Casting in Java | Up Casting & Down Casting in Java",
+      "creator": "SDET- QA",
+      "url": "https://www.youtube.com/watch?v=jj-FpParGJk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Session 19 - Type Casting in Java | Up Casting & Down Casting in Java - Complete guide by SDET- QA.",
+      "year": 2024
+    },
+    {
+      "title": "Building web applications in Java with Spring Boot 3 – Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=31KTdfRH6nY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Building web applications in Java with Spring Boot 3 – Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot Tutorial for Beginners | Full Course 2025",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=Cw0J6jYJtzw",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Spring Boot Tutorial for Beginners | Full Course 2025 - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Build Your First Spring Boot Application | REST API | Spring Boot Full Course #2",
+      "creator": "Coder Army",
+      "url": "https://www.youtube.com/watch?v=PVreyET_Q6I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build Your First Spring Boot Application | REST API | Spring Boot Full Course #2 - Complete guide by Coder Army.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot Tutorial for Beginners (Java Framework)",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=vtPkZShrvXQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Spring Boot Tutorial for Beginners (Java Framework) - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot & Spring Framework Full Course | Spring Boot Full Course #1",
+      "creator": "Coder Army",
+      "url": "https://www.youtube.com/watch?v=Q04sTEwC7Kg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring Boot & Spring Framework Full Course | Spring Boot Full Course #1 - Complete guide by Coder Army.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot, Spring Security, JWT Course – Shopping Cart Backend Java Project",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=oGhc5Z-WJSw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring Boot, Spring Security, JWT Course – Shopping Cart Backend Java Project - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Everything you need to learn Java and Spring Boot",
+      "creator": "Sukhad Anand",
+      "url": "https://www.youtube.com/watch?v=ztOTDc81Neo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Everything you need to learn Java and Spring Boot - Complete guide by Sukhad Anand.",
+      "year": 2024
+    },
+    {
+      "title": "Can I learn Spring Boot in 30 days ?",
+      "creator": "in28minutes",
+      "url": "https://www.youtube.com/watch?v=OfR1gWionQc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Can I learn Spring Boot in 30 days ? - Complete guide by in28minutes.",
+      "year": 2024
+    },
+    {
+      "title": "#2  Project for Spring Tutorial",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=Ia90r-SrKZk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#2  Project for Spring Tutorial - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Java Development: Spring Boot, Microservices, Spring AI ",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=q6z_UCBM5Ek",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete Java Development: Spring Boot, Microservices, Spring AI  - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "#1 What is Spring Framework?",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=Zxwq3aW9ctU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#1 What is Spring Framework? - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Mastering Java and Spring Boot - Live Course",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=jkJJB20eO_Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Mastering Java and Spring Boot - Live Course - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Industry-Ready Spring Boot, React & Gen AI -Live Course | TELUSKO",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=Drk7m3jvE10",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Industry-Ready Spring Boot, React & Gen AI -Live Course | TELUSKO - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "99% Of Devs Don't Understand Spring Boot",
+      "creator": "CodeHead",
+      "url": "https://www.youtube.com/watch?v=HL5XucT21Zg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "99% Of Devs Don't Understand Spring Boot - Complete guide by CodeHead.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot Top 3 Best Playlists 2026 🔥 | Complete Beginner to Advanced Roadmap",
+      "creator": "Sancoding",
+      "url": "https://www.youtube.com/watch?v=VuHG8YDueU0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Spring Boot Top 3 Best Playlists 2026 🔥 | Complete Beginner to Advanced Roadmap - Complete guide by Sancoding.",
+      "year": 2024
+    },
+    {
+      "title": "Spring vs Spring Boot Explained 🚀 #shorts #java  #programming",
+      "creator": "Rancho Fullstack",
+      "url": "https://www.youtube.com/watch?v=s2iP-G7Ith8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring vs Spring Boot Explained 🚀 #shorts #java  #programming - Complete guide by Rancho Fullstack.",
+      "year": 2024
+    },
+    {
+      "title": "Java spring boot roadmap | #springframework #springboot #job #placement #engineering",
+      "creator": "Genie Ashwani",
+      "url": "https://www.youtube.com/watch?v=UoR6PtWEpxY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java spring boot roadmap | #springframework #springboot #job #placement #engineering - Complete guide by Genie Ashwani.",
+      "year": 2024
+    },
+    {
+      "title": "FREE Spring Boot Course 🔥 | Java Developers Must Watch",
+      "creator": "Zacks Software Academy",
+      "url": "https://www.youtube.com/watch?v=kSVGijKlO9c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "FREE Spring Boot Course 🔥 | Java Developers Must Watch - Complete guide by Zacks Software Academy.",
+      "year": 2024
+    },
+    {
+      "title": "New Java Spring Boot AI Live Course",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=oz3LeWncvyc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "New Java Spring Boot AI Live Course - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "13 lines of code, a real web server. How? #springboot #shorts",
+      "creator": "Tech Skribble",
+      "url": "https://www.youtube.com/watch?v=WjwFxgIIqso",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "13 lines of code, a real web server. How? #springboot #shorts - Complete guide by Tech Skribble.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot Interview Questions for Freshers (Answer These 3) #shorts",
+      "creator": "Vivek Gupta",
+      "url": "https://www.youtube.com/watch?v=4o6J1gpa-rQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring Boot Interview Questions for Freshers (Answer These 3) #shorts - Complete guide by Vivek Gupta.",
+      "year": 2024
+    },
+    {
+      "title": "Spring vs Spring Boot for programmers",
+      "creator": "Creative Tim Tutorials",
+      "url": "https://www.youtube.com/watch?v=IX2ajCWoOJ4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring vs Spring Boot for programmers - Complete guide by Creative Tim Tutorials.",
+      "year": 2024
+    },
+    {
+      "title": "Whole Spring Boot Learn ? #springboot #java #interview #mockinterview",
+      "creator": "Aadi and Java",
+      "url": "https://www.youtube.com/watch?v=PypSgByljS8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Whole Spring Boot Learn ? #springboot #java #interview #mockinterview - Complete guide by Aadi and Java.",
+      "year": 2024
+    },
+    {
+      "title": "Master Spring Boot with This 8 Weeks Roadmap",
+      "creator": "Faisal Memon",
+      "url": "https://www.youtube.com/watch?v=Hz6aNhXyD1E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Master Spring Boot with This 8 Weeks Roadmap - Complete guide by Faisal Memon.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot startup… sponsored by Slow Motion 🎥🐌",
+      "creator": "JVL code",
+      "url": "https://www.youtube.com/watch?v=XjbKeHJWDJ0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring Boot startup… sponsored by Slow Motion 🎥🐌 - Complete guide by JVL code.",
+      "year": 2024
+    },
+    {
+      "title": "5 Free Resources for learning programming | Codeiyapa #Shorts",
+      "creator": "Codeiyapa",
+      "url": "https://www.youtube.com/watch?v=1FmDTMznzDI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "5 Free Resources for learning programming | Codeiyapa #Shorts - Complete guide by Codeiyapa.",
+      "year": 2024
+    },
+    {
+      "title": "✅ Best resource to learn Spring & Spring Boot #javadevelopment #javaframework",
+      "creator": "Learn Code With Durgesh",
+      "url": "https://www.youtube.com/watch?v=k2k7uIfbs8E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "✅ Best resource to learn Spring & Spring Boot #javadevelopment #javaframework - Complete guide by Learn Code With Durgesh.",
+      "year": 2024
+    },
+    {
+      "title": "Stop Hardcoding Configs! Use Spring Boot Profiles 🚀 #Springboot #Java #Shorts",
+      "creator": "Tech Daliy",
+      "url": "https://www.youtube.com/watch?v=4dYbVHk4I24",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Stop Hardcoding Configs! Use Spring Boot Profiles 🚀 #Springboot #Java #Shorts - Complete guide by Tech Daliy.",
+      "year": 2024
+    },
+    {
+      "title": "SpringBoot Java Framework #SpringBoot #Java #SpringBootTutorial #short #trending #viral",
+      "creator": "JILASFER",
+      "url": "https://www.youtube.com/watch?v=6avkIpsXwZU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SpringBoot Java Framework #SpringBoot #Java #SpringBootTutorial #short #trending #viral - Complete guide by JILASFER.",
+      "year": 2024
+    },
+    {
+      "title": "🤯 Why Spring Boot Is So Popular? #webdevelopment #fullstack #coding #fullstackdevelopment  #frontend",
+      "creator": "Develop With Me",
+      "url": "https://www.youtube.com/watch?v=0_SugUkmgfY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🤯 Why Spring Boot Is So Popular? #webdevelopment #fullstack #coding #fullstackdevelopment  #frontend - Complete guide by Develop With Me.",
+      "year": 2024
+    },
+    {
+      "title": "I spent 1000hr on java + spring boot | so you don't have to",
+      "creator": "Genie Ashwani",
+      "url": "https://www.youtube.com/watch?v=CxEzvnb6MlE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I spent 1000hr on java + spring boot | so you don't have to - Complete guide by Genie Ashwani.",
+      "year": 2024
+    },
+    {
+      "title": "FREE Resources To Learn Full Stack Development #software #coding #programming #code #resources",
+      "creator": "Life of Coder",
+      "url": "https://www.youtube.com/watch?v=uR8WL-2sbhs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "FREE Resources To Learn Full Stack Development #software #coding #programming #code #resources - Complete guide by Life of Coder.",
+      "year": 2024
+    },
+    {
+      "title": "Hibernate Tutorial | Full Course",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=JR7-EdxDSf0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Hibernate Tutorial | Full Course - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Spring AI Full Course with Projects – Build Smarter Spring Boot Applications",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=9Crrhz0pm8s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring AI Full Course with Projects – Build Smarter Spring Boot Applications - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot Tutorial for Beginners [2025]",
+      "creator": "Programming with Mosh",
+      "url": "https://www.youtube.com/watch?v=gJrjgg1KVL4",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Spring Boot Tutorial for Beginners [2025] - Complete guide by Programming with Mosh.",
+      "year": 2024
+    },
+    {
+      "title": "हिंदी Complete Spring Boot Backend Course 12 Hours | Spring Framework + REST API + Database | Hindi",
+      "creator": "Faisal Memon",
+      "url": "https://www.youtube.com/watch?v=kYZTMy7ndl8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "हिंदी Complete Spring Boot Backend Course 12 Hours | Spring Framework + REST API + Database | Hindi - Complete guide by Faisal Memon.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot OVERVIEW",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=mg3zrMQr6vk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring Boot OVERVIEW - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Java and Spring Boot Microservices | 10 Hour Full Course",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=1aWhYEynZQw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java and Spring Boot Microservices | 10 Hour Full Course - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot Tutorial For Beginners",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=r-6BwGW4Sr8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Spring Boot Tutorial For Beginners - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "The ULTIMATE Guide to Spring Boot: Spring Boot for Beginners",
+      "creator": "Devtiro",
+      "url": "https://www.youtube.com/watch?v=Nv2DERaMx-4",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "The ULTIMATE Guide to Spring Boot: Spring Boot for Beginners - Complete guide by Devtiro.",
+      "year": 2024
+    },
+    {
+      "title": "The Ultimate Spring Boot Roadmap for Java Developers (2025 Update)",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=tmL2IniRgCo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Ultimate Spring Boot Roadmap for Java Developers (2025 Update) - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Microservices Using Spring Boot and Spring Cloud #1",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=p485kUNpPvE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Microservices Using Spring Boot and Spring Cloud #1 - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Amigoscode – Professional Full Stack Developer Course Download #tutorial #programming #springboot",
+      "creator": "Course Canon",
+      "url": "https://www.youtube.com/watch?v=ASm4xdSGJec",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Amigoscode – Professional Full Stack Developer Course Download #tutorial #programming #springboot - Complete guide by Course Canon.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot - Getting started with Spring Boot (EASY)",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=Ke7Tr4RgRTs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring Boot - Getting started with Spring Boot (EASY) - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot and Angular Full Stack Development | 4 Hour Course",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=8ZPsZBcue50",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring Boot and Angular Full Stack Development | 4 Hour Course - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Microservices using Spring Boot and Spring Cloud - HTTP Communication #2",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=QWOgkI4DuE8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Microservices using Spring Boot and Spring Cloud - HTTP Communication #2 - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot Full Stack and Angular | Full Course",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=Gx4iBLKLVHk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring Boot Full Stack and Angular | Full Course - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Stuck for 3 days fixing a bug",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=NKN-yCrhjy4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Stuck for 3 days fixing a bug - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "How to became a Successful Java developer  🤔 | EES | #ees #shorts",
+      "creator": "Eternal Engineers Solutions",
+      "url": "https://www.youtube.com/watch?v=ml0c1SgL-Vg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to became a Successful Java developer  🤔 | EES | #ees #shorts - Complete guide by Eternal Engineers Solutions.",
+      "year": 2024
+    },
+    {
+      "title": "A Little SpringBoot Action",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=I_KAsCp9eCM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "A Little SpringBoot Action - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Difference b/w Spring Framework & Spring Boot",
+      "creator": "Tech by V",
+      "url": "https://www.youtube.com/watch?v=7hn-HpWQtss",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Difference b/w Spring Framework & Spring Boot - Complete guide by Tech by V.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot Project Overview",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=N2GING1in08",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring Boot Project Overview - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Spring AOP Explained in 60 Seconds 🔥 | Java Spring Boot Interview Questions #shorts  #coding #viral",
+      "creator": "Binary Brain Lab",
+      "url": "https://www.youtube.com/watch?v=iDFYYjzQklA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring AOP Explained in 60 Seconds 🔥 | Java Spring Boot Interview Questions #shorts  #coding #viral - Complete guide by Binary Brain Lab.",
+      "year": 2024
+    },
+    {
+      "title": "Junior Developer Preparing for JOB Interview",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=de5ljHiMsyA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Junior Developer Preparing for JOB Interview - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Your Test Charged a Real Card? Dependency Injection Fixes It",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=F1hehE-tITs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Your Test Charged a Real Card? Dependency Injection Fixes It - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot Project | Student Class part 2",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=QAhw5BKID6U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring Boot Project | Student Class part 2 - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "8. Learn SpringBoot Concept in 1 minutes | CodeMyth #shorts #springboot #in1minute #learn #java",
+      "creator": "Code Myth",
+      "url": "https://www.youtube.com/watch?v=yCIEv7iK7xE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "8. Learn SpringBoot Concept in 1 minutes | CodeMyth #shorts #springboot #in1minute #learn #java - Complete guide by Code Myth.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot API 404 to 400",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=oI8MDaUYQX4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring Boot API 404 to 400 - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot - Learn Spring Boot 3 (2 Hours)",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=-mwpoE0x0JQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring Boot - Learn Spring Boot 3 (2 Hours) - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Java Full Stack: AWS, Spring Boot, Microservices",
+      "creator": "Lovepreet Singh",
+      "url": "https://www.youtube.com/watch?v=fmX84zu-5gs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete Java Full Stack: AWS, Spring Boot, Microservices - Complete guide by Lovepreet Singh.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot 3 + Spring Security 6 - JWT Authentication and Authorisation [NEW] [2023]",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=KxqlJblhzfI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring Boot 3 + Spring Security 6 - JWT Authentication and Authorisation [NEW] [2023] - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot Tutorial | Spring Boot Full Stack with React.js | Full Course | 2021",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=i-hoSg8iRG0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring Boot Tutorial | Spring Boot Full Stack with React.js | Full Course | 2021 - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Security | FULL COURSE",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=her_7pa0vrg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring Security | FULL COURSE - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot, React.js & AWS S3 Full Stack Development",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=9i1gQ7w2V24",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring Boot, React.js & AWS S3 Full Stack Development - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "The Bro Code #shorts #ytshorts #viralshorts",
+      "creator": "Oye Bora",
+      "url": "https://www.youtube.com/watch?v=bdK2yjN_GbI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Bro Code #shorts #ytshorts #viralshorts - Complete guide by Oye Bora.",
+      "year": 2024
+    },
+    {
+      "title": "What is Class in java #java #coding #programming #new #learning #ytshorts #run",
+      "creator": "Code Journey With VR",
+      "url": "https://www.youtube.com/watch?v=MV-5k9oKcPM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Class in java #java #coding #programming #new #learning #ytshorts #run - Complete guide by Code Journey With VR.",
+      "year": 2024
+    },
+    {
+      "title": "Python Full Course for free 🐍",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Python Full Course for free 🐍 - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "One line fix that prevents NullPointer #java #codinginterview #programming",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=Ji4ZE6ZON5o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "One line fix that prevents NullPointer #java #codinginterview #programming - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Java if / else if / else Explained: Make Decisions in Code",
+      "creator": "BrewByte",
+      "url": "https://www.youtube.com/watch?v=EQ9caJW38tc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java if / else if / else Explained: Make Decisions in Code - Complete guide by BrewByte.",
+      "year": 2024
+    },
+    {
+      "title": "Polymorphism in Java (Same Call, Different Result)  #46 #coding  #Java",
+      "creator": "The Lazy Engineer",
+      "url": "https://www.youtube.com/watch?v=hzh08YjXPuA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Polymorphism in Java (Same Call, Different Result)  #46 #coding  #Java - Complete guide by The Lazy Engineer.",
+      "year": 2024
+    },
+    {
+      "title": "🚀JAVA Best YouTube channels to learn in 2026 #coding #java #javaprogramming #bestchannel #btech",
+      "creator": "techwithakshaya ",
+      "url": "https://www.youtube.com/watch?v=EcyTSk9v1fM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🚀JAVA Best YouTube channels to learn in 2026 #coding #java #javaprogramming #bestchannel #btech - Complete guide by techwithakshaya .",
+      "year": 2024
+    },
+    {
+      "title": "Java Gotchas: = vs ==, Pass-by-Value & Chapter 1 Recap",
+      "creator": "BrewByte",
+      "url": "https://www.youtube.com/watch?v=ZmOpwkwaFv0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Gotchas: = vs ==, Pass-by-Value & Chapter 1 Recap - Complete guide by BrewByte.",
+      "year": 2024
+    },
+    {
+      "title": "\"4 Years of Coding? You Still Need These 3 Videos | Bro Code, Fireship & The Primeagen\"",
+      "creator": "Kushal Kode",
+      "url": "https://www.youtube.com/watch?v=RD9vtCkH0bk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "\"4 Years of Coding? You Still Need These 3 Videos | Bro Code, Fireship & The Primeagen\" - Complete guide by Kushal Kode.",
+      "year": 2024
+    },
+    {
+      "title": "Finally I complete java course || Code with Harry || Be Coder 2.0",
+      "creator": "Trendroid",
+      "url": "https://www.youtube.com/watch?v=b68T1cjf650",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Finally I complete java course || Code with Harry || Be Coder 2.0 - Complete guide by Trendroid.",
+      "year": 2024
+    },
+    {
+      "title": "Bro Code #foryou #trending #brocode",
+      "creator": "Bro Code Empire ",
+      "url": "https://www.youtube.com/watch?v=3fan2y8yiQg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Bro Code #foryou #trending #brocode - Complete guide by Bro Code Empire .",
+      "year": 2024
+    },
+    {
+      "title": "Top 5 Youtube Channel To Learn Java @javaregion @DurgaSoftwareSolutions @CodeWithHarry",
+      "creator": "Java Region ",
+      "url": "https://www.youtube.com/watch?v=XU_bZ66gHgI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top 5 Youtube Channel To Learn Java @javaregion @DurgaSoftwareSolutions @CodeWithHarry - Complete guide by Java Region .",
+      "year": 2024
+    },
+    {
+      "title": "Do you know Bro Code?",
+      "creator": "Sambucha",
+      "url": "https://www.youtube.com/watch?v=g982g2ddcAs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Do you know Bro Code? - Complete guide by Sambucha.",
+      "year": 2024
+    },
+    {
+      "title": "Why people HATE JAVA 😡☕️  #coding #programming",
+      "creator": "Aaron Jack",
+      "url": "https://www.youtube.com/watch?v=U5RYnQ-fVTg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why people HATE JAVA 😡☕️  #coding #programming - Complete guide by Aaron Jack.",
+      "year": 2024
+    },
+    {
+      "title": "which one you write first? ||c/c++/java...",
+      "creator": "Bro code. ",
+      "url": "https://www.youtube.com/watch?v=lYgUVs0Ipjs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "which one you write first? ||c/c++/java... - Complete guide by Bro code. .",
+      "year": 2024
+    },
+    {
+      "title": "Best JS Tutorials #coding #programming #apnacollege #brocode #supersimpledev #javascript #education",
+      "creator": "helpWithCoding",
+      "url": "https://www.youtube.com/watch?v=68PoLvbFMBE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Best JS Tutorials #coding #programming #apnacollege #brocode #supersimpledev #javascript #education - Complete guide by helpWithCoding.",
+      "year": 2024
+    },
+    {
+      "title": "Top 5 Youtube Channel To Learn Java @BroCodez @Java.Brains @SimplilearnOfficial @javaregion",
+      "creator": "Java Region ",
+      "url": "https://www.youtube.com/watch?v=Z4xjPoqAgTY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top 5 Youtube Channel To Learn Java @BroCodez @Java.Brains @SimplilearnOfficial @javaregion - Complete guide by Java Region .",
+      "year": 2024
+    },
+    {
+      "title": "Java Developer Roadmap 2025 – Skills, Topics & Subtopics to Master Java Programming",
+      "creator": "TechE",
+      "url": "https://www.youtube.com/watch?v=P_wT1ELP9NA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Developer Roadmap 2025 – Skills, Topics & Subtopics to Master Java Programming - Complete guide by TechE.",
+      "year": 2024
+    },
+    {
+      "title": "#Java Full Course #Java Course For Beginners",
+      "creator": "your_resource_dosth",
+      "url": "https://www.youtube.com/watch?v=AONMRDvbIl8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "#Java Full Course #Java Course For Beginners - Complete guide by your_resource_dosth.",
+      "year": 2024
+    },
+    {
+      "title": "Does Java SUCK!? 👩‍💻 #programming #technology #software #tech #code #career #java",
+      "creator": "Coding with Lewis",
+      "url": "https://www.youtube.com/watch?v=HMMQkvKqqXQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Does Java SUCK!? 👩‍💻 #programming #technology #software #tech #code #career #java - Complete guide by Coding with Lewis.",
+      "year": 2024
+    },
+    {
+      "title": "JavaScript tutorial for beginners 🌐",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=Ihy0QziLDf0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "JavaScript tutorial for beginners 🌐 - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "JavaScript VARIABLES are easy! 📦",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=nbX0MIV7-Ek",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "JavaScript VARIABLES are easy! 📦 - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "Replace a Year of Coding with These Videos–Algorithm,C++,Java #shorts#ytshorts #coding  #engineering",
+      "creator": "Code Leos",
+      "url": "https://www.youtube.com/watch?v=pbWyms7Ghvk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Replace a Year of Coding with These Videos–Algorithm,C++,Java #shorts#ytshorts #coding  #engineering - Complete guide by Code Leos.",
+      "year": 2024
+    },
+    {
+      "title": "Java objects (OOP) ☕",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=kd3dr39rgrk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java objects (OOP) ☕ - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "Java methods explained in 10+ minutes! 📞",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=v5p_SUfi710",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java methods explained in 10+ minutes! 📞 - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "HTML & CSS Full Course for free 🌎",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=HGTJBPNC-Gw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "HTML & CSS Full Course for free 🌎 - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "What are data structures and algorithms? 📈",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=xX5iOYCJmBI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What are data structures and algorithms? 📈 - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "Java Swing GUI Full Course ☕",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=Kmgo00avvEw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Swing GUI Full Course ☕ - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Stack data structures in 10 minutes 📚",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=KInG04mAjO0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Stack data structures in 10 minutes 📚 - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "Java tutorial for beginners ☕",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=NBIUbTddde4",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Java tutorial for beginners ☕ - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "Java Programming Full Tutorial in One Video (2024) | Java full course",
+      "creator": "CoDing SeeKho ",
+      "url": "https://www.youtube.com/watch?v=32DLasxoOiM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Programming Full Tutorial in One Video (2024) | Java full course - Complete guide by CoDing SeeKho .",
+      "year": 2024
+    },
+    {
+      "title": "JavaFX GUI Full Course for free ☕",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=9XJicRt_FaI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "JavaFX GUI Full Course for free ☕ - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "Multithreading for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=gvQGKRlgop4",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Multithreading for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "#1 Odd-Even Printer with Threads | Memory Management/sharing in Explained | Multithreading in Java",
+      "creator": "Bits of Code by Anand",
+      "url": "https://www.youtube.com/watch?v=Wj55vwjjuPw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#1 Odd-Even Printer with Threads | Memory Management/sharing in Explained | Multithreading in Java - Complete guide by Bits of Code by Anand.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Multithreading in Java | Process vs Thread  | Java Full Course #47",
+      "creator": "Coder Army",
+      "url": "https://www.youtube.com/watch?v=fyAW0W526RM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to Multithreading in Java | Process vs Thread  | Java Full Course #47 - Complete guide by Coder Army.",
+      "year": 2024
+    },
+    {
+      "title": "Java Threads - Creating, starting and stopping threads in Java",
+      "creator": "Jakob Jenkov",
+      "url": "https://www.youtube.com/watch?v=eQk5AWcTS8w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Threads - Creating, starting and stopping threads in Java - Complete guide by Jakob Jenkov.",
+      "year": 2024
+    },
+    {
+      "title": "Java Thread Creation & Lifecycle Explained from Scratch | Java Full Course #48",
+      "creator": "Coder Army",
+      "url": "https://www.youtube.com/watch?v=cVRdeQFP5IM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Thread Creation & Lifecycle Explained from Scratch | Java Full Course #48 - Complete guide by Coder Army.",
+      "year": 2024
+    },
+    {
+      "title": "Java Concurrency and Multithreading - Introduction",
+      "creator": "Jakob Jenkov",
+      "url": "https://www.youtube.com/watch?v=mTGdtC9f4EU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Concurrency and Multithreading - Introduction - Complete guide by Jakob Jenkov.",
+      "year": 2024
+    },
+    {
+      "title": "How JVM haldles multithreading ?",
+      "creator": "Engineering Digest",
+      "url": "https://www.youtube.com/watch?v=OxXhqOJ-o30",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How JVM haldles multithreading ? - Complete guide by Engineering Digest.",
+      "year": 2024
+    },
+    {
+      "title": "Multithreading Basics: CPU, Core, Program, Process, Thread & much more",
+      "creator": "Engineering Digest",
+      "url": "https://www.youtube.com/watch?v=091vJWjl1A4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Multithreading Basics: CPU, Core, Program, Process, Thread & much more - Complete guide by Engineering Digest.",
+      "year": 2024
+    },
+    {
+      "title": "🧵 Concurrency & Multithreading COMPLETE Crash Course | All you need to know for any LLD Rounds ‼️",
+      "creator": "codeWithAryan",
+      "url": "https://www.youtube.com/watch?v=Rot2QnaUqBU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🧵 Concurrency & Multithreading COMPLETE Crash Course | All you need to know for any LLD Rounds ‼️ - Complete guide by codeWithAryan.",
+      "year": 2024
+    },
+    {
+      "title": "Java Multithreading & CompletableFuture Interview Questions That Fail 9/10 Senior Devs",
+      "creator": "MJ's Codeverse",
+      "url": "https://www.youtube.com/watch?v=SYCrSojYSeQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Multithreading & CompletableFuture Interview Questions That Fail 9/10 Senior Devs - Complete guide by MJ's Codeverse.",
+      "year": 2024
+    },
+    {
+      "title": "Lock-Free Concurrency in Java | AtomicVariables & CAS Explained | Java Full Course #54",
+      "creator": "Coder Army",
+      "url": "https://www.youtube.com/watch?v=ujF2gNsCfBE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lock-Free Concurrency in Java | AtomicVariables & CAS Explained | Java Full Course #54 - Complete guide by Coder Army.",
+      "year": 2024
+    },
+    {
+      "title": "Java Multithreading Crash Course – Quick Revision for Interviews | Important Interview Topics!",
+      "creator": "Coding with Aman",
+      "url": "https://www.youtube.com/watch?v=F2nuvXJHYxQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Multithreading Crash Course – Quick Revision for Interviews | Important Interview Topics! - Complete guide by Coding with Aman.",
+      "year": 2024
+    },
+    {
+      "title": "Java Multithreading & Concurrency Simplified - Quick Overview for SDE Interviews, FAANG",
+      "creator": "Design Sprint",
+      "url": "https://www.youtube.com/watch?v=fU_61XzzfnU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Multithreading & Concurrency Simplified - Quick Overview for SDE Interviews, FAANG - Complete guide by Design Sprint.",
+      "year": 2024
+    },
+    {
+      "title": "Core Java with OCJP/SCJP: Multi Threading Part-2 || The ways of defining a Thread Part-1",
+      "creator": "Durga Software Solutions",
+      "url": "https://www.youtube.com/watch?v=fd3TAYCHRfw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Core Java with OCJP/SCJP: Multi Threading Part-2 || The ways of defining a Thread Part-1 - Complete guide by Durga Software Solutions.",
+      "year": 2024
+    },
+    {
+      "title": "Core Java with OCJP/SCJP: Multi Threading Part-1 || Introduction",
+      "creator": "Durga Software Solutions",
+      "url": "https://www.youtube.com/watch?v=Hysb7hXp8B0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Core Java with OCJP/SCJP: Multi Threading Part-1 || Introduction - Complete guide by Durga Software Solutions.",
+      "year": 2024
+    },
+    {
+      "title": "Java Concurrency & Multithreading Complete Course in 2 Hours | Zero to Hero",
+      "creator": "Riddhi Dutta",
+      "url": "https://www.youtube.com/watch?v=WldMTtUWqTg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Concurrency & Multithreading Complete Course in 2 Hours | Zero to Hero - Complete guide by Riddhi Dutta.",
+      "year": 2024
+    },
+    {
+      "title": "Java Concurrency: A Beginner's Guide to Thread Creation and Java Memory Model",
+      "creator": "Coding with Aman",
+      "url": "https://www.youtube.com/watch?v=j8at5Ne8bts",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Java Concurrency: A Beginner's Guide to Thread Creation and Java Memory Model - Complete guide by Coding with Aman.",
+      "year": 2024
+    },
+    {
+      "title": "Understanding Race Condition: Difference between Atomic, Volatile, and Synchronized",
+      "creator": "Coding with Aman",
+      "url": "https://www.youtube.com/watch?v=FIKmJj5NBr0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Understanding Race Condition: Difference between Atomic, Volatile, and Synchronized - Complete guide by Coding with Aman.",
+      "year": 2024
+    },
+    {
+      "title": "AtomicInteger in Java Multithreading",
+      "creator": "CodeKia",
+      "url": "https://www.youtube.com/watch?v=Gfwf2RxMvEY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AtomicInteger in Java Multithreading - Complete guide by CodeKia.",
+      "year": 2024
+    },
+    {
+      "title": "What is Concurrency in Java? Threads Explained Simply | Part 1",
+      "creator": "The Introvert Developer",
+      "url": "https://www.youtube.com/watch?v=9k82Vu0jYbw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Concurrency in Java? Threads Explained Simply | Part 1 - Complete guide by The Introvert Developer.",
+      "year": 2024
+    },
+    {
+      "title": "Multithreading in Java Explained in 10 Minutes",
+      "creator": "Coding with John",
+      "url": "https://www.youtube.com/watch?v=r_MbozD32eo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Multithreading in Java Explained in 10 Minutes - Complete guide by Coding with John.",
+      "year": 2024
+    },
+    {
+      "title": "Ways to Achieve Synchronization in Java |Multithreading & Concurrency #java #coding #multithreading",
+      "creator": "Abhishek CodeLab",
+      "url": "https://www.youtube.com/watch?v=mv2K6Y9jfiY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ways to Achieve Synchronization in Java |Multithreading & Concurrency #java #coding #multithreading - Complete guide by Abhishek CodeLab.",
+      "year": 2024
+    },
+    {
+      "title": "Java Multithreading and Concurrency Explained | Thread Safety Tips for Interviews #interviewprep",
+      "creator": "Dev Dood",
+      "url": "https://www.youtube.com/watch?v=ZE5bHQbDzSs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Multithreading and Concurrency Explained | Thread Safety Tips for Interviews #interviewprep - Complete guide by Dev Dood.",
+      "year": 2024
+    },
+    {
+      "title": "How can you model a concurrent task in Java? - Cracking the Java Coding Interview",
+      "creator": "Java",
+      "url": "https://www.youtube.com/watch?v=FiH1qzoXtmM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How can you model a concurrent task in Java? - Cracking the Java Coding Interview - Complete guide by Java.",
+      "year": 2024
+    },
+    {
+      "title": "Java Multithreading Bootcamp",
+      "creator": "Engineering Digest",
+      "url": "https://www.youtube.com/watch?v=AOCSeu_SLL0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Multithreading Bootcamp - Complete guide by Engineering Digest.",
+      "year": 2024
+    },
+    {
+      "title": "40+ Java Multithreading Interview Questions Asked in MNCs | 2–7 Yrs Experience | Real & Tricky",
+      "creator": "GenZ Career",
+      "url": "https://www.youtube.com/watch?v=VezFEL0Pr9k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "40+ Java Multithreading Interview Questions Asked in MNCs | 2–7 Yrs Experience | Real & Tricky - Complete guide by GenZ Career.",
+      "year": 2024
+    },
+    {
+      "title": "How Java Multithreading Splits Execution #Java #Multithreading #JavaProgramming #Coding #Shorts",
+      "creator": "P E A C E ",
+      "url": "https://www.youtube.com/watch?v=NriC25e3Vtw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Java Multithreading Splits Execution #Java #Multithreading #JavaProgramming #Coding #Shorts - Complete guide by P E A C E .",
+      "year": 2024
+    },
+    {
+      "title": "Java Multithreading Explained! 🐙⚡ #Java #Coding #shorts",
+      "creator": "Code Objects",
+      "url": "https://www.youtube.com/watch?v=1SkZ7YqnAo0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Multithreading Explained! 🐙⚡ #Java #Coding #shorts - Complete guide by Code Objects.",
+      "year": 2024
+    },
+    {
+      "title": "Java Threads Explained: Lifecycle, States & Multithreading Basics",
+      "creator": "WebNestStudio",
+      "url": "https://www.youtube.com/watch?v=SZHLXClJ2yU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Threads Explained: Lifecycle, States & Multithreading Basics - Complete guide by WebNestStudio.",
+      "year": 2024
+    },
+    {
+      "title": "Java Concurrency Interview Questions | Top Multithreading Questions for Java Developers: 7887575991",
+      "creator": "Full Stack Java Developer",
+      "url": "https://www.youtube.com/watch?v=h0nQVaHf2So",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Concurrency Interview Questions | Top Multithreading Questions for Java Developers: 7887575991 - Complete guide by Full Stack Java Developer.",
+      "year": 2024
+    },
+    {
+      "title": "Can we start same thread again?? #ytshorts #shorts #multithreading #java #interview #freshers",
+      "creator": "Code With Roy",
+      "url": "https://www.youtube.com/watch?v=eQt6wcpLc4k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Can we start same thread again?? #ytshorts #shorts #multithreading #java #interview #freshers - Complete guide by Code With Roy.",
+      "year": 2024
+    },
+    {
+      "title": "🔥 Java Multithreading Rapid Fire | Can You Answer These Interview Questions? #shorts",
+      "creator": "The Curious Coder",
+      "url": "https://www.youtube.com/watch?v=1YBzRy70DcE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🔥 Java Multithreading Rapid Fire | Can You Answer These Interview Questions? #shorts - Complete guide by The Curious Coder.",
+      "year": 2024
+    },
+    {
+      "title": "Multithreading and Concurrency #java #education #softwareengineer",
+      "creator": "Code Lounge",
+      "url": "https://www.youtube.com/watch?v=Tfup5lzFgmk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Multithreading and Concurrency #java #education #softwareengineer - Complete guide by Code Lounge.",
+      "year": 2024
+    },
+    {
+      "title": "Future vs CompletableFuture in Java Multithreading | What's the Difference?",
+      "creator": "CodeKia",
+      "url": "https://www.youtube.com/watch?v=hN13OprzOx4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Future vs CompletableFuture in Java Multithreading | What's the Difference? - Complete guide by CodeKia.",
+      "year": 2024
+    },
+    {
+      "title": "Java Multithreading Quiz in 30 seconds🔥💻🚀 #shorts #interview #coding #multithreadinginjava #java",
+      "creator": "Mohit Chhabra",
+      "url": "https://www.youtube.com/watch?v=DkAzDcActHs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Multithreading Quiz in 30 seconds🔥💻🚀 #shorts #interview #coding #multithreadinginjava #java - Complete guide by Mohit Chhabra.",
+      "year": 2024
+    },
+    {
+      "title": "Java ConcurrentHashMap Explained in Simple Words | Multithreading in Java | Ranjit Sir",
+      "creator": "RM Daily Life 🎥💻",
+      "url": "https://www.youtube.com/watch?v=7pKktmKTquw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java ConcurrentHashMap Explained in Simple Words | Multithreading in Java | Ranjit Sir - Complete guide by RM Daily Life 🎥💻.",
+      "year": 2024
+    },
+    {
+      "title": "5 THREAD CONCEPTS JAVA DEVELOPER SHOULD KNOW #Shorts #Viral #Threadstates #Threadpriorityandname",
+      "creator": "Javarevisited",
+      "url": "https://www.youtube.com/watch?v=GTsQNLE23w4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "5 THREAD CONCEPTS JAVA DEVELOPER SHOULD KNOW #Shorts #Viral #Threadstates #Threadpriorityandname - Complete guide by Javarevisited.",
+      "year": 2024
+    },
+    {
+      "title": "Why Do We Need Threads in Java? Multithreading Explained from Zero | Core Java",
+      "creator": "WebNestStudio",
+      "url": "https://www.youtube.com/watch?v=qWKGXy3sZrI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why Do We Need Threads in Java? Multithreading Explained from Zero | Core Java - Complete guide by WebNestStudio.",
+      "year": 2024
+    },
+    {
+      "title": "Java Multithreading Basics",
+      "creator": "Java SIP",
+      "url": "https://www.youtube.com/watch?v=X35lyBbJDPI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Multithreading Basics - Complete guide by Java SIP.",
+      "year": 2024
+    },
+    {
+      "title": "Stop making this rookie Java multithreading mistake. #java #coding",
+      "creator": "Maansplaining",
+      "url": "https://www.youtube.com/watch?v=8JQAtGYqnw4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Stop making this rookie Java multithreading mistake. #java #coding - Complete guide by Maansplaining.",
+      "year": 2024
+    },
+    {
+      "title": "What is ReadWriteLock in Java Multithreading and why do we need it?",
+      "creator": "CodeKia",
+      "url": "https://www.youtube.com/watch?v=1mh4L2cfk-U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is ReadWriteLock in Java Multithreading and why do we need it? - Complete guide by CodeKia.",
+      "year": 2024
+    },
+    {
+      "title": "Multithreading in Java 🔥 | One Advantage of Multithreading | BCA 5th Sem 2026 #shorts #usa #java",
+      "creator": "CODING USA ",
+      "url": "https://www.youtube.com/watch?v=c3Gx8y331j0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Multithreading in Java 🔥 | One Advantage of Multithreading | BCA 5th Sem 2026 #shorts #usa #java - Complete guide by CODING USA .",
+      "year": 2024
+    },
+    {
+      "title": "☕ ExecutorService vs CompletableFuture in Java! 🤖",
+      "creator": "Java2web",
+      "url": "https://www.youtube.com/watch?v=ywT5n6SxBgY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "☕ ExecutorService vs CompletableFuture in Java! 🤖 - Complete guide by Java2web.",
+      "year": 2024
+    },
+    {
+      "title": "Course Preview: Java Fundamentals - Concurrency with Multithreading",
+      "creator": "Pluralsight",
+      "url": "https://www.youtube.com/watch?v=vWq0M5LouA8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Course Preview: Java Fundamentals - Concurrency with Multithreading - Complete guide by Pluralsight.",
+      "year": 2024
+    },
+    {
+      "title": "What is the difference between Runnable and Thread? - Cracking the Java Coding Interview",
+      "creator": "Java",
+      "url": "https://www.youtube.com/watch?v=Q5rcoCl6anQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is the difference between Runnable and Thread? - Cracking the Java Coding Interview - Complete guide by Java.",
+      "year": 2024
+    },
+    {
+      "title": "Multithreading in Java (hindi) | Multitasking vs Multithreading",
+      "creator": "Learn Coding",
+      "url": "https://www.youtube.com/watch?v=FWaz24t-qfU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Multithreading in Java (hindi) | Multitasking vs Multithreading - Complete guide by Learn Coding.",
+      "year": 2024
+    },
+    {
+      "title": "New in Java 25 Structured Concurrency and UncaughtExceptionHandler #java #advancedjava #javatutorial",
+      "creator": "Nehil Parashar",
+      "url": "https://www.youtube.com/watch?v=JqiQiaMiU5A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "New in Java 25 Structured Concurrency and UncaughtExceptionHandler #java #advancedjava #javatutorial - Complete guide by Nehil Parashar.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Multithreading in Java | Learn Coding",
+      "creator": "Learn Coding",
+      "url": "https://www.youtube.com/watch?v=jmZfuI3lDK0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to Multithreading in Java | Learn Coding - Complete guide by Learn Coding.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Java, Spring, and Microservices course",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=4XTsAAHW_Tc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete Java, Spring, and Microservices course - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Servlet & JSP Tutorial | Full Course",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=OuBUUkQfBYM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Servlet & JSP Tutorial | Full Course - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Framework and Spring Boot Tutorial with Project",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=-Fe0zk-F4OA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring Framework and Spring Boot Tutorial with Project - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Java For Programmers in 2 hours",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=A0pu92-pYhE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java For Programmers in 2 hours - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Java Tutorial for Beginners | Full Course",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=8cm1x4bC610",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Java Tutorial for Beginners | Full Course - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "#21 Class And Object Theory in Java",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=Znmz_WxMxp4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#21 Class And Object Theory in Java - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "1.1.2 Prerequisites to Learn Java",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=9_CJYK47d6M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1.1.2 Prerequisites to Learn Java - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "1.1 How to be a Java Programmer | What is Java",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=WOUpjal8ee4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1.1 How to be a Java Programmer | What is Java - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "#23 JDK JRE JVM in Java",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=s7UgQ7_1KQY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#23 JDK JRE JVM in Java - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Claude Code One Shot",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=thcZa8BIRf8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Claude Code One Shot - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Data Structures and Algorithms (DSA) in Java 2024",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=4_HOnhB64Dg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data Structures and Algorithms (DSA) in Java 2024 - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot and Spring Security with JWT",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=VFVI1svmy04",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring Boot and Spring Security with JWT - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "#0 Java Tutorial | How to use Eclipse",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=HmF3yQ_nj5Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#0 Java Tutorial | How to use Eclipse - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "How to learn Java? | Java Learning Path",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=1kkvalOcSog",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to learn Java? | Java Learning Path - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Java Struggles #trend #trending #shorts #reels #stories #java #telusko #salar #npr #spring",
+      "creator": "All Rounder Praveen Nagilla",
+      "url": "https://www.youtube.com/watch?v=-wDh2UJTd6k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Struggles #trend #trending #shorts #reels #stories #java #telusko #salar #npr #spring - Complete guide by All Rounder Praveen Nagilla.",
+      "year": 2024
+    },
+    {
+      "title": "System Design One Shot Full Course",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=Vnm-ycSfJx4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design One Shot Full Course - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Java Developer Course Batch-3",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=3Rv2CHG9hxk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete Java Developer Course Batch-3 - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "One Java video of 63 hours going on YouTube.",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=1g5i1Bikw-0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "One Java video of 63 hours going on YouTube. - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Framework and Microservices Full Course",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=Jl9OKQ92SJU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring Framework and Microservices Full Course - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Agentic AI with Java : Live Cohort",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=2gLHiQsbI80",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Agentic AI with Java : Live Cohort - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Docker for Java Developers",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=lpKwgOpxpqg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Docker for Java Developers - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Big Update in Java for Learners and Trainers",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=DPDeWzMHrzs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Big Update in Java for Learners and Trainers - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Master Java and Spring , including Project",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=AAEKnm1gfXE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Master Java and Spring , including Project - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "To all Programmers #java #code #stackoverflow",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=B5GyKuljTd4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "To all Programmers #java #code #stackoverflow - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Java Full Course in Telugu  | Java in Telugu",
+      "creator": "PythonLife",
+      "url": "https://www.youtube.com/watch?v=Q_utH4h2YWw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Full Course in Telugu  | Java in Telugu - Complete guide by PythonLife.",
+      "year": 2024
+    },
+    {
+      "title": "Industry-Ready Java Spring Boot, React & Gen AI Live Course",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=4g2VqWLJL04",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Industry-Ready Java Spring Boot, React & Gen AI Live Course - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "1 tip to improve your programming skills",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=y193EGxpX0E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1 tip to improve your programming skills - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Java Full course in Telugu by KiranSagar",
+      "creator": "PythonLife",
+      "url": "https://www.youtube.com/watch?v=t8C2QKbBngE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Full course in Telugu by KiranSagar - Complete guide by PythonLife.",
+      "year": 2024
+    },
+    {
+      "title": "🔥Salary of Java Full Stack Developer #shorts  #simplilearn",
+      "creator": "Simplilearn",
+      "url": "https://www.youtube.com/watch?v=J6LgnkeqnEA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🔥Salary of Java Full Stack Developer #shorts  #simplilearn - Complete guide by Simplilearn.",
+      "year": 2024
+    },
+    {
+      "title": "Coding Sikhna hai aajao Sikha dunga (Hindi)",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=ENq3PegD-k0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Coding Sikhna hai aajao Sikha dunga (Hindi) - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Ep 12: Full Stack Java Developer Interview Experience 🔥#fullstackinterview",
+      "creator": "9to5 Hustlers",
+      "url": "https://www.youtube.com/watch?v=nMFiQMIx7mg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ep 12: Full Stack Java Developer Interview Experience 🔥#fullstackinterview - Complete guide by 9to5 Hustlers.",
+      "year": 2024
+    },
+    {
+      "title": "Master Agentic AI with Java Live Course",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=-Co-BZHMx5Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Master Agentic AI with Java Live Course - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Mastering Agentic AI with Java: Spring AI, LangChain4j, MCP & ADK",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=8c2ndb7NbJ8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Mastering Agentic AI with Java: Spring AI, LangChain4j, MCP & ADK - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Java Full Stack Developer Salary | Java Developer Salary & Skills Needed | Intellipaat #shorts #java",
+      "creator": "Intellipaat",
+      "url": "https://www.youtube.com/watch?v=NnQM0z4Nwzs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Full Stack Developer Salary | Java Developer Salary & Skills Needed | Intellipaat #shorts #java - Complete guide by Intellipaat.",
+      "year": 2024
+    },
+    {
+      "title": "Basic Java - Class and Objects",
+      "creator": "TechnoKemy",
+      "url": "https://www.youtube.com/watch?v=qcNxWtOXhwI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Basic Java - Class and Objects - Complete guide by TechnoKemy.",
+      "year": 2024
+    },
+    {
+      "title": "Data Structure and Algorithm Patterns for LeetCode Interviews – Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=Z_c4byLrNBU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data Structure and Algorithm Patterns for LeetCode Interviews – Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Data Structures Easy to Advanced Course - Full Tutorial from a Google Engineer",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=RBSGKlAvoiM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data Structures Easy to Advanced Course - Full Tutorial from a Google Engineer - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Data Structures and Algorithms Mega Course – Master Technical Interviews in 49 Hours",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=xwI5OBEnsZU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data Structures and Algorithms Mega Course – Master Technical Interviews in 49 Hours - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Graph Algorithms for Technical Interviews - Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=tWVWeAqZ0WU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Graph Algorithms for Technical Interviews - Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Algorithms and Data Structures Tutorial - Full Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=8hly31xKli0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Algorithms and Data Structures Tutorial - Full Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "DSA Patterns! #tech #coding",
+      "creator": "Anu Sharma",
+      "url": "https://www.youtube.com/watch?v=Jya4o7eUenA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DSA Patterns! #tech #coding - Complete guide by Anu Sharma.",
+      "year": 2024
+    },
+    {
+      "title": "LeetCode Vs CodeForces - Which is better for DSA? 🔥 #dsa #leetcode #codeforces #cp #coding",
+      "creator": "Kumar K [Amazon]",
+      "url": "https://www.youtube.com/watch?v=kZwy2GTckB8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "LeetCode Vs CodeForces - Which is better for DSA? 🔥 #dsa #leetcode #codeforces #cp #coding - Complete guide by Kumar K [Amazon].",
+      "year": 2024
+    },
+    {
+      "title": "DSA Was Hard Until I Learned These 15 Patterns",
+      "creator": "Data Tutorial",
+      "url": "https://www.youtube.com/watch?v=0UbB7zx5ukk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DSA Was Hard Until I Learned These 15 Patterns - Complete guide by Data Tutorial.",
+      "year": 2024
+    },
+    {
+      "title": "DSA in Java #coding #python #leetcode #java",
+      "creator": "CS IITIAN - DSA",
+      "url": "https://www.youtube.com/watch?v=PFqlg4gNUX4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DSA in Java #coding #python #leetcode #java - Complete guide by CS IITIAN - DSA.",
+      "year": 2024
+    },
+    {
+      "title": "DSA is all you need? #tech #coding",
+      "creator": "Anu Sharma",
+      "url": "https://www.youtube.com/watch?v=ux5WuEnYC0g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DSA is all you need? #tech #coding - Complete guide by Anu Sharma.",
+      "year": 2024
+    },
+    {
+      "title": "Java Multithreading Series Begins 🚀 | Learn Step-by-Step | Learn by Solving Problems",
+      "creator": "Bits of Code by Anand",
+      "url": "https://www.youtube.com/watch?v=7jfRcK62DME",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Multithreading Series Begins 🚀 | Learn Step-by-Step | Learn by Solving Problems - Complete guide by Bits of Code by Anand.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Data Structures and Algorithms Visually – Crash Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=RpLnQnurpLY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Data Structures and Algorithms Visually – Crash Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Congratulations to the AlgoSteps Team on an Incredible Launch! 🚀",
+      "creator": "Dinesh Varyani",
+      "url": "https://www.youtube.com/watch?v=Mkph4zbA-MI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Congratulations to the AlgoSteps Team on an Incredible Launch! 🚀 - Complete guide by Dinesh Varyani.",
+      "year": 2024
+    },
+    {
+      "title": "Data Structures and Algorithms with Visualizations – Full Course (Java)",
+      "creator": "Dinesh Varyani",
+      "url": "https://www.youtube.com/watch?v=6iCHf7OZn6c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data Structures and Algorithms with Visualizations – Full Course (Java) - Complete guide by Dinesh Varyani.",
+      "year": 2024
+    },
+    {
+      "title": "Happy Diwali Get My DSA With Java Udemy Course FREE 100 Coupons #dsa #java #interviewpreparation",
+      "creator": "CodeWithShalu 🚀",
+      "url": "https://www.youtube.com/watch?v=XZUJ8tkyEFo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Happy Diwali Get My DSA With Java Udemy Course FREE 100 Coupons #dsa #java #interviewpreparation - Complete guide by CodeWithShalu 🚀.",
+      "year": 2024
+    },
+    {
+      "title": "How I mastered Data Structures and Algorithms in 6 months",
+      "creator": "Swati Jha",
+      "url": "https://www.youtube.com/watch?v=xUk2o-ZNMeM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How I mastered Data Structures and Algorithms in 6 months - Complete guide by Swati Jha.",
+      "year": 2024
+    },
+    {
+      "title": "DSA using C++ 🆚 DSA using Java #dsa #dsaforbeginners #dsaguide #coding",
+      "creator": "Abhishek Goyal",
+      "url": "https://www.youtube.com/watch?v=58iNuoZP_DA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "DSA using C++ 🆚 DSA using Java #dsa #dsaforbeginners #dsaguide #coding - Complete guide by Abhishek Goyal.",
+      "year": 2024
+    },
+    {
+      "title": "DSA in Java or C++ ? | Which language is for what?",
+      "creator": "GeeksforGeeks",
+      "url": "https://www.youtube.com/watch?v=aSCTfRiuoi0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DSA in Java or C++ ? | Which language is for what? - Complete guide by GeeksforGeeks.",
+      "year": 2024
+    },
+    {
+      "title": "The Best Language for DSA 👨‍💻",
+      "creator": "CodeWithHarry",
+      "url": "https://www.youtube.com/watch?v=sJtgDXBu1is",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Best Language for DSA 👨‍💻 - Complete guide by CodeWithHarry.",
+      "year": 2024
+    },
+    {
+      "title": "848 Java algorithms you can read for FREE 🤯 #shorts",
+      "creator": "StackWhiz",
+      "url": "https://www.youtube.com/watch?v=N9HB82XmKUY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "848 Java algorithms you can read for FREE 🤯 #shorts - Complete guide by StackWhiz.",
+      "year": 2024
+    },
+    {
+      "title": "Learn DSA with these resources 📚",
+      "creator": "GradByte",
+      "url": "https://www.youtube.com/watch?v=6-4hpiNjNwE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn DSA with these resources 📚 - Complete guide by GradByte.",
+      "year": 2024
+    },
+    {
+      "title": "BEST Way To Learn Data Structures And Algorithms (for beginners)",
+      "creator": "Erik Cupsa",
+      "url": "https://www.youtube.com/watch?v=7VqSmf_sPHI",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "BEST Way To Learn Data Structures And Algorithms (for beginners) - Complete guide by Erik Cupsa.",
+      "year": 2024
+    },
+    {
+      "title": "GCD finally visualized.Euclidean Algorithm.#DSA #GCD #LeetCode #Coding #Java #Programming#shorts",
+      "creator": "LeetVision",
+      "url": "https://www.youtube.com/watch?v=NXgzxwTO4I8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GCD finally visualized.Euclidean Algorithm.#DSA #GCD #LeetCode #Coding #Java #Programming#shorts - Complete guide by LeetVision.",
+      "year": 2024
+    },
+    {
+      "title": "5 Steps to Learn DSA - Complete Roadmap To Learn DSA",
+      "creator": "CareerRide",
+      "url": "https://www.youtube.com/watch?v=9KeE_uDsOI8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "5 Steps to Learn DSA - Complete Roadmap To Learn DSA - Complete guide by CareerRide.",
+      "year": 2024
+    },
+    {
+      "title": "Learn DSA Using Projects",
+      "creator": "GeeksforGeeks",
+      "url": "https://www.youtube.com/watch?v=Ve0muiObnrY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn DSA Using Projects - Complete guide by GeeksforGeeks.",
+      "year": 2024
+    },
+    {
+      "title": "What is DSA? 🤔 Explained in 60s! #dsa  #datastructures #Coding #algorithms #shorts",
+      "creator": "Rancho Fullstack",
+      "url": "https://www.youtube.com/watch?v=YZ-IHpZN_b8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is DSA? 🤔 Explained in 60s! #dsa  #datastructures #Coding #algorithms #shorts - Complete guide by Rancho Fullstack.",
+      "year": 2024
+    },
+    {
+      "title": "Top 5 Free Websites to Practice Coding! 🚀💻",
+      "creator": "TechWithSaumya",
+      "url": "https://www.youtube.com/watch?v=xYmpNhhHG98",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top 5 Free Websites to Practice Coding! 🚀💻 - Complete guide by TechWithSaumya.",
+      "year": 2024
+    },
+    {
+      "title": "Learn DSA for FREEE : Best FREE Resource for DSA",
+      "creator": "Coding for All ",
+      "url": "https://www.youtube.com/watch?v=U1ECJUMQvF4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn DSA for FREEE : Best FREE Resource for DSA - Complete guide by Coding for All .",
+      "year": 2024
+    },
+    {
+      "title": "Best language to learn DSA | coding #placement",
+      "creator": "The Innovative education ",
+      "url": "https://www.youtube.com/watch?v=zFvXtPg8IZU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Best language to learn DSA | coding #placement - Complete guide by The Innovative education .",
+      "year": 2024
+    },
+    {
+      "title": "Want to begin your coding journey but have no idea where to start? Give @freecodecamp a try",
+      "creator": "Keith Can Code",
+      "url": "https://www.youtube.com/watch?v=z6lwnZKXdlE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Want to begin your coding journey but have no idea where to start? Give @freecodecamp a try - Complete guide by Keith Can Code.",
+      "year": 2024
+    },
+    {
+      "title": "Best Order to Learn Algorithms & Data Structures",
+      "creator": "NeetCodeIO",
+      "url": "https://www.youtube.com/watch?v=LcL_op0eBKs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Best Order to Learn Algorithms & Data Structures - Complete guide by NeetCodeIO.",
+      "year": 2024
+    },
+    {
+      "title": "DSA In Java | Basics | Java in One Shot | Output, Input, Variables, Operators | Java Course",
+      "creator": "GeeksforGeeks",
+      "url": "https://www.youtube.com/watch?v=m3fg2PRY1u4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DSA In Java | Basics | Java in One Shot | Output, Input, Variables, Operators | Java Course - Complete guide by GeeksforGeeks.",
+      "year": 2024
+    },
+    {
+      "title": "Sets (data structure) - Beau teaches JavaScript",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=wl8u02IdVxo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Sets (data structure) - Beau teaches JavaScript - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Stacks (Data Structure) - Beau teaches JavaScript",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=Gj5qBheGOEo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Stacks (Data Structure) - Beau teaches JavaScript - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "DSA In Java | If Else | Java in One Shot | If Else in Java | Java Course",
+      "creator": "GeeksforGeeks",
+      "url": "https://www.youtube.com/watch?v=D96vIVeRQhk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DSA In Java | If Else | Java in One Shot | If Else in Java | Java Course - Complete guide by GeeksforGeeks.",
+      "year": 2024
+    },
+    {
+      "title": "I Wasted 6 Months on DSA Playlists... Here's What Actually Works",
+      "creator": "Harshita Verma",
+      "url": "https://www.youtube.com/watch?v=wkxZFLkVBvI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I Wasted 6 Months on DSA Playlists... Here's What Actually Works - Complete guide by Harshita Verma.",
+      "year": 2024
+    },
+    {
+      "title": "Increment a Number with JavaScript - Free Code Camp Help - Basic Javascript - Algorithms & Data Stru",
+      "creator": "Reboot",
+      "url": "https://www.youtube.com/watch?v=qvSG4aSkvDU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Increment a Number with JavaScript - Free Code Camp Help - Basic Javascript - Algorithms & Data Stru - Complete guide by Reboot.",
+      "year": 2024
+    },
+    {
+      "title": "Graph Algorithms Crash Course (with Java)",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=dS44jZyj5gU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Graph Algorithms Crash Course (with Java) - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Comment Your Javascript Code - Free Code Camp - Basic Javascript - Algorithms and Data Structures",
+      "creator": "Reboot",
+      "url": "https://www.youtube.com/watch?v=0fEm9GRAF5s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Comment Your Javascript Code - Free Code Camp - Basic Javascript - Algorithms and Data Structures - Complete guide by Reboot.",
+      "year": 2024
+    },
+    {
+      "title": "Sliding Window Algorithm for Tech Interviews - Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=tLsoelNl3To",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Sliding Window Algorithm for Tech Interviews - Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Data Structures & Algorithms | Course  Details & Prerequisites",
+      "creator": "Simple Snippets",
+      "url": "https://www.youtube.com/watch?v=XCyuHSJS7XE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to Data Structures & Algorithms | Course  Details & Prerequisites - Complete guide by Simple Snippets.",
+      "year": 2024
+    },
+    {
+      "title": "What is Data Structures? & Why we need them? DS Real World Example",
+      "creator": "Simple Snippets",
+      "url": "https://www.youtube.com/watch?v=NzUVn8Y9deQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Data Structures? & Why we need them? DS Real World Example - Complete guide by Simple Snippets.",
+      "year": 2024
+    },
+    {
+      "title": "freeCodeCamp solutions - Basic Data Structures (1 - 11)",
+      "creator": "aksonai",
+      "url": "https://www.youtube.com/watch?v=dBB0dRHn7yI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "freeCodeCamp solutions - Basic Data Structures (1 - 11) - Complete guide by aksonai.",
+      "year": 2024
+    },
+    {
+      "title": "What are Microservices?",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=3WqDbU_Xnu4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What are Microservices? - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot Microservices Project Example - Part 1 | Building Services",
+      "creator": "Programming Techie",
+      "url": "https://www.youtube.com/watch?v=lh1oQHXVSc0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring Boot Microservices Project Example - Part 1 | Building Services - Complete guide by Programming Techie.",
+      "year": 2024
+    },
+    {
+      "title": "What is Cloud Computing?",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=pidVLkQQom8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Cloud Computing? - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot Microservices Project Example - Part 2 | Inter Service Communication",
+      "creator": "Programming Techie",
+      "url": "https://www.youtube.com/watch?v=D_XxZU72yMw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring Boot Microservices Project Example - Part 2 | Inter Service Communication - Complete guide by Programming Techie.",
+      "year": 2024
+    },
+    {
+      "title": "🚀 Spring Boot Microservices Roadmap (2026) | Complete Guide for Developers",
+      "creator": "CodeSnippet by Chetan",
+      "url": "https://www.youtube.com/watch?v=b7lqqCK9tHo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🚀 Spring Boot Microservices Roadmap (2026) | Complete Guide for Developers - Complete guide by CodeSnippet by Chetan.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot MicroServices  Tutorial - Project Based Learning",
+      "creator": "SivaLabs",
+      "url": "https://www.youtube.com/watch?v=Ygraiu4hDJE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring Boot MicroServices  Tutorial - Project Based Learning - Complete guide by SivaLabs.",
+      "year": 2024
+    },
+    {
+      "title": "Top 5 Must Know Concepts In Microservices ✅ #springboot",
+      "creator": "CodeSnippet by Chetan",
+      "url": "https://www.youtube.com/watch?v=qXyVxTHfLoI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top 5 Must Know Concepts In Microservices ✅ #springboot - Complete guide by CodeSnippet by Chetan.",
+      "year": 2024
+    },
+    {
+      "title": "1 Agenda and prerequisites - Spring Boot Microservices Level 2",
+      "creator": "Java Brains",
+      "url": "https://www.youtube.com/watch?v=o8RO38KbWvA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1 Agenda and prerequisites - Spring Boot Microservices Level 2 - Complete guide by Java Brains.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot MicroServices  Tutorial - Introduction to Microservices Architecture",
+      "creator": "SivaLabs",
+      "url": "https://www.youtube.com/watch?v=Kr4d4kcpizI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring Boot MicroServices  Tutorial - Introduction to Microservices Architecture - Complete guide by SivaLabs.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot Microservices in 1 Minute 🤯 Eureka + API Gateway #shorts",
+      "creator": "Hetish",
+      "url": "https://www.youtube.com/watch?v=oCzeOOE-uzc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring Boot Microservices in 1 Minute 🤯 Eureka + API Gateway #shorts - Complete guide by Hetish.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot - Microservices Interview Questions #shorts #microservice",
+      "creator": "Interview Preparation",
+      "url": "https://www.youtube.com/watch?v=qw59OWUgM9U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring Boot - Microservices Interview Questions #shorts #microservice - Complete guide by Interview Preparation.",
+      "year": 2024
+    },
+    {
+      "title": "2 Fault tolerance vs resilience - Spring Boot Microservices Level 2",
+      "creator": "Java Brains",
+      "url": "https://www.youtube.com/watch?v=A6HR9AyrpgM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "2 Fault tolerance vs resilience - Spring Boot Microservices Level 2 - Complete guide by Java Brains.",
+      "year": 2024
+    },
+    {
+      "title": "🔥Spring MVC Interview Questions | Spring Boot Vs Spring MVC | Intellipaat #Shorts #SpringMVC",
+      "creator": "Intellipaat",
+      "url": "https://www.youtube.com/watch?v=2l1rs81kucM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🔥Spring MVC Interview Questions | Spring Boot Vs Spring MVC | Intellipaat #Shorts #SpringMVC - Complete guide by Intellipaat.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot Microservice Project Full Course in 6 Hours 🔥🔥🔥",
+      "creator": "Programming Techie",
+      "url": "https://www.youtube.com/watch?v=mPPhcU7oWDU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring Boot Microservice Project Full Course in 6 Hours 🔥🔥🔥 - Complete guide by Programming Techie.",
+      "year": 2024
+    },
+    {
+      "title": "springboot 🔥Microservices new video update #springboot #coding #javascript #java #microservice",
+      "creator": "Vijay kumar",
+      "url": "https://www.youtube.com/watch?v=u-Dt6rmMIjc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "springboot 🔥Microservices new video update #springboot #coding #javascript #java #microservice - Complete guide by Vijay kumar.",
+      "year": 2024
+    },
+    {
+      "title": "Microservices in Spring Boot 🔥 #springboot #microservices #microservicesarchitecture #java",
+      "creator": "Aadi and Java",
+      "url": "https://www.youtube.com/watch?v=gsRafgVMG7w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Microservices in Spring Boot 🔥 #springboot #microservices #microservicesarchitecture #java - Complete guide by Aadi and Java.",
+      "year": 2024
+    },
+    {
+      "title": "🚀 Node.js vs. Spring Boot – Which One’s Faster? | 💡 Node.js vs Spring Boot – Best for Scalable Apps?",
+      "creator": "CODECRAFT",
+      "url": "https://www.youtube.com/watch?v=JVyDZXautN0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🚀 Node.js vs. Spring Boot – Which One’s Faster? | 💡 Node.js vs Spring Boot – Best for Scalable Apps? - Complete guide by CODECRAFT.",
+      "year": 2024
+    },
+    {
+      "title": "Node JS or Spring Boot ? 😎",
+      "creator": "Akshay Saini",
+      "url": "https://www.youtube.com/watch?v=xSXyD25cSOE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Node JS or Spring Boot ? 😎 - Complete guide by Akshay Saini.",
+      "year": 2024
+    },
+    {
+      "title": "How to Switch from Service-Based to Product-Based MNCs in 2027 | Java Developer Career Guide",
+      "creator": "Full Stack Java Developer",
+      "url": "https://www.youtube.com/watch?v=hFSv5-8d4O0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Switch from Service-Based to Product-Based MNCs in 2027 | Java Developer Career Guide - Complete guide by Full Stack Java Developer.",
+      "year": 2024
+    },
+    {
+      "title": "What is Microservices Architecture? | Spring Boot Interview Question #interview #microservices #java",
+      "creator": "Codeshub",
+      "url": "https://www.youtube.com/watch?v=yP3YP0bXcqE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Microservices Architecture? | Spring Boot Interview Question #interview #microservices #java - Complete guide by Codeshub.",
+      "year": 2024
+    },
+    {
+      "title": "Micro Services | Service Registry | NETFLIX Eureka Server Implementation #springboot #microservices",
+      "creator": "Dilip IT Academy",
+      "url": "https://www.youtube.com/watch?v=5pW3D_9KdzA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Micro Services | Service Registry | NETFLIX Eureka Server Implementation #springboot #microservices - Complete guide by Dilip IT Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Microservices Scenario Interview Question 🔥 Kafka to  REST API | Java Spring Boot",
+      "creator": "Java Full Stack Interview Questions & Answers ",
+      "url": "https://www.youtube.com/watch?v=jHUjUb3_ugs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Microservices Scenario Interview Question 🔥 Kafka to  REST API | Java Spring Boot - Complete guide by Java Full Stack Interview Questions & Answers .",
+      "year": 2024
+    },
+    {
+      "title": "Microservices Should Not Communicate Directly with Each Other #shorts #microservices",
+      "creator": "campbelltech",
+      "url": "https://www.youtube.com/watch?v=8yVdcWS8EMA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Microservices Should Not Communicate Directly with Each Other #shorts #microservices - Complete guide by campbelltech.",
+      "year": 2024
+    },
+    {
+      "title": "🔥Master Microservices using Spring Boot 3.X  |  Hindi",
+      "creator": "Learn Code With Durgesh",
+      "url": "https://www.youtube.com/watch?v=Nb2PPuqtL2g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🔥Master Microservices using Spring Boot 3.X  |  Hindi - Complete guide by Learn Code With Durgesh.",
+      "year": 2024
+    },
+    {
+      "title": "🔥 Microservices Tutorial using Spring Boot in One Video | Microservices Tutorial in Hindi",
+      "creator": "Learn Code With Durgesh",
+      "url": "https://www.youtube.com/watch?v=ubHa5I3yP70",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🔥 Microservices Tutorial using Spring Boot in One Video | Microservices Tutorial in Hindi - Complete guide by Learn Code With Durgesh.",
+      "year": 2024
+    },
+    {
+      "title": "API Gateway Explained | Spring Boot Microservices | System Design",
+      "creator": "EzzLearn",
+      "url": "https://www.youtube.com/watch?v=InPwpLSTmfI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "API Gateway Explained | Spring Boot Microservices | System Design - Complete guide by EzzLearn.",
+      "year": 2024
+    },
+    {
+      "title": "Build & Deploy a Production-Ready Patient Management System with Microservices: Java Spring Boot AWS",
+      "creator": "Chris Blakely",
+      "url": "https://www.youtube.com/watch?v=tseqdcFfTUY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build & Deploy a Production-Ready Patient Management System with Microservices: Java Spring Boot AWS - Complete guide by Chris Blakely.",
+      "year": 2024
+    },
+    {
+      "title": "Hibernate & JPA Tutorial - Crash Course",
+      "creator": "Marco Codes",
+      "url": "https://www.youtube.com/watch?v=xHminZ9Dxm4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Hibernate & JPA Tutorial - Crash Course - Complete guide by Marco Codes.",
+      "year": 2024
+    },
+    {
+      "title": "#1.  What is hibernate Framework | ORM Tool |  Hibernate is ORM Tool",
+      "creator": "Learn Code With Durgesh",
+      "url": "https://www.youtube.com/watch?v=ScirB_AxbZo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#1.  What is hibernate Framework | ORM Tool |  Hibernate is ORM Tool - Complete guide by Learn Code With Durgesh.",
+      "year": 2024
+    },
+    {
+      "title": "JPA/Hibernate Fundamentals 2023 - Lesson 2 - The context",
+      "creator": "Laur Spilca",
+      "url": "https://www.youtube.com/watch?v=BkhGRpozJ5Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "JPA/Hibernate Fundamentals 2023 - Lesson 2 - The context - Complete guide by Laur Spilca.",
+      "year": 2024
+    },
+    {
+      "title": "#0. Hibernate Tutorial  | Course Overview | Prerequisite of hibernate course | hindi",
+      "creator": "Learn Code With Durgesh",
+      "url": "https://www.youtube.com/watch?v=KqzLEKHtLlw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#0. Hibernate Tutorial  | Course Overview | Prerequisite of hibernate course | hindi - Complete guide by Learn Code With Durgesh.",
+      "year": 2024
+    },
+    {
+      "title": "JPA/Hibernate Fundamentals 2023 - Lesson 1 - Entities",
+      "creator": "Laur Spilca",
+      "url": "https://www.youtube.com/watch?v=t6n1NwMM8a8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "JPA/Hibernate Fundamentals 2023 - Lesson 1 - Entities - Complete guide by Laur Spilca.",
+      "year": 2024
+    },
+    {
+      "title": "#1 Hibernate Tutorial | Introduction",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=PMR0ld5h938",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#1 Hibernate Tutorial | Introduction - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "#2 Hibernate Tutorial | Prerequisites",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=YQRzVFvYTOA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#2 Hibernate Tutorial | Prerequisites - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Hibernate Tutorial: Complete Hibernate Framework Course | Announcement & Meri Kahani | Hindi",
+      "creator": "CoderX Ankit",
+      "url": "https://www.youtube.com/watch?v=lZB9uM4W07k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Hibernate Tutorial: Complete Hibernate Framework Course | Announcement & Meri Kahani | Hindi - Complete guide by CoderX Ankit.",
+      "year": 2024
+    },
+    {
+      "title": "Understanding ORM, JPA, and Spring Data JPA: A Step-by-Step Tutorial",
+      "creator": "Engineering Digest",
+      "url": "https://www.youtube.com/watch?v=ddrCOI0buBA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Understanding ORM, JPA, and Spring Data JPA: A Step-by-Step Tutorial - Complete guide by Engineering Digest.",
+      "year": 2024
+    },
+    {
+      "title": "Hibernate Tutorial: Why we should learn Hibernate Framework / ORM tool? | Hindi",
+      "creator": "CoderX Ankit",
+      "url": "https://www.youtube.com/watch?v=m_wRmtDtCKI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Hibernate Tutorial: Why we should learn Hibernate Framework / ORM tool? | Hindi - Complete guide by CoderX Ankit.",
+      "year": 2024
+    },
+    {
+      "title": "Hibernate Fundamentals with Spring Boot | CRUD & Entity Mapping | Spring Boot Full Course #28",
+      "creator": "Coder Army",
+      "url": "https://www.youtube.com/watch?v=XVQ27D8IIWU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Hibernate Fundamentals with Spring Boot | CRUD & Entity Mapping | Spring Boot Full Course #28 - Complete guide by Coder Army.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Data JPA Tutorial | Full In-depth Course",
+      "creator": "Daily Code Buffer",
+      "url": "https://www.youtube.com/watch?v=XszpXoII9Sg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spring Data JPA Tutorial | Full In-depth Course - Complete guide by Daily Code Buffer.",
+      "year": 2024
+    },
+    {
+      "title": "Hibernate for beginners",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=qF20cAHKrXA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Hibernate for beginners - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "#1 Hibernate Tutorial in Hindi | Introduction, Purpose & Hibernate vs JPA | CodeHunt",
+      "creator": "CodeHunt",
+      "url": "https://www.youtube.com/watch?v=IbBySRNcGuM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#1 Hibernate Tutorial in Hindi | Introduction, Purpose & Hibernate vs JPA | CodeHunt - Complete guide by CodeHunt.",
+      "year": 2024
+    },
+    {
+      "title": "#2 Hibernate Tutorial in Hindi | Connection Explained | EntityManagerFactory & EntityManager",
+      "creator": "CodeHunt",
+      "url": "https://www.youtube.com/watch?v=efMnADDw6vY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#2 Hibernate Tutorial in Hindi | Connection Explained | EntityManagerFactory & EntityManager - Complete guide by CodeHunt.",
+      "year": 2024
+    },
+    {
+      "title": "Hibernate and JPA in 1 Minute",
+      "creator": "in28minutes",
+      "url": "https://www.youtube.com/watch?v=yRlkCuN07c8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Hibernate and JPA in 1 Minute - Complete guide by in28minutes.",
+      "year": 2024
+    },
+    {
+      "title": "Java Full Course 2026",
+      "creator": "Coder Army",
+      "url": "https://www.youtube.com/playlist?list=PLQEaRBV9gAFsR15tNo2QLF9d2qc-c018p",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Java Full Course 2026 - Complete guide by Coder Army.",
+      "year": 2024
+    },
+    {
+      "title": "Hibernate Tutorial [Hindi] | JPA | @OneToMany Unidirectional Mapping | JoinColumn | #14",
+      "creator": "ProgRank",
+      "url": "https://www.youtube.com/watch?v=2iOIpaSO__g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Hibernate Tutorial [Hindi] | JPA | @OneToMany Unidirectional Mapping | JoinColumn | #14 - Complete guide by ProgRank.",
+      "year": 2024
+    },
+    {
+      "title": "Java Tutorials",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbnRT_hue-3zyiuIYj0OlpyG",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Java Tutorials - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Master Spring Data JPA In One Video | Hindi",
+      "creator": "Anuj Kumar Sharma",
+      "url": "https://www.youtube.com/watch?v=8SxJNqeq_zc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Master Spring Data JPA In One Video | Hindi - Complete guide by Anuj Kumar Sharma.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Spring Data JPA | Complete Guide with Internal Working (Hindi)",
+      "creator": "Anuj Kumar Sharma",
+      "url": "https://www.youtube.com/watch?v=gkGkFE0IH1Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to Spring Data JPA | Complete Guide with Internal Working (Hindi) - Complete guide by Anuj Kumar Sharma.",
+      "year": 2024
+    },
+    {
+      "title": "Java Tutorials For Beginners In Hindi",
+      "creator": "CodeWithHarry",
+      "url": "https://www.youtube.com/playlist?list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Java Tutorials For Beginners In Hindi - Complete guide by CodeWithHarry.",
+      "year": 2024
+    },
+    {
+      "title": "Java Tutorial For beginners",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/playlist?list=PLsyeobzWxl7pe_IiTfNyr55kwJPWbgxB5",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Java Tutorial For beginners - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "The ULTIMATE Guide for Spring Data JPA & Hibernate | 5 Hours Tutorial",
+      "creator": "Ali Bouali",
+      "url": "https://www.youtube.com/watch?v=mcl_nibV39s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The ULTIMATE Guide for Spring Data JPA & Hibernate | 5 Hours Tutorial - Complete guide by Ali Bouali.",
+      "year": 2024
+    },
+    {
+      "title": "Java Tutorials",
+      "creator": "Programming with Mosh",
+      "url": "https://www.youtube.com/playlist?list=PLTjRvDozrdlyjm_nKyYt4b5C1zx4Xdaut",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Java Tutorials - Complete guide by Programming with Mosh.",
+      "year": 2024
+    },
+    {
+      "title": "Java tutorial for beginners ☕",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/playlist?list=PLZPZq0r_RZOOj_NOZYq_R2PECIMglLemc",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Java tutorial for beginners ☕ - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "JAVA FREECODECAMP.ORG",
+      "creator": "Ibrahim Sorie Kamara",
+      "url": "https://www.youtube.com/playlist?list=PLSraP_KTSUNEkK0tWHJmnULdMbPlm1M1W",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "JAVA FREECODECAMP.ORG - Complete guide by Ibrahim Sorie Kamara.",
+      "year": 2024
+    },
+    {
+      "title": "Java Full Course for Beginners (Programming with Mosh) and others",
+      "creator": "pedrogps08",
+      "url": "https://www.youtube.com/playlist?list=PLTL-OvPFSczhZWMk_hpojbzIqOFjoSV8r",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Java Full Course for Beginners (Programming with Mosh) and others - Complete guide by pedrogps08.",
+      "year": 2024
+    },
+    {
+      "title": "Java Tutorial For Beginners (Step by Step tutorial)",
+      "creator": "ProgrammingKnowledge",
+      "url": "https://www.youtube.com/playlist?list=PLS1QulWo1RIbfTjQvTdj8Y6yyq4R7g-Al",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Java Tutorial For Beginners (Step by Step tutorial) - Complete guide by ProgrammingKnowledge.",
+      "year": 2024
+    },
+    {
+      "title": "\"C++ Tutorial for Beginners - Learn C++ in 1 Hour\" (Programming with Mosh) and more",
+      "creator": "christytheslayer",
+      "url": "https://www.youtube.com/playlist?list=PL0orXlrJWBR8cF1cmwy94XrkPpI2duFNm",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "\"C++ Tutorial for Beginners - Learn C++ in 1 Hour\" (Programming with Mosh) and more - Complete guide by christytheslayer.",
+      "year": 2024
+    },
+    {
+      "title": "Java Complete Basics to Advanced with 100+ Programming Challenges",
+      "creator": "Complete Coding by Prashant Sir",
+      "url": "https://www.youtube.com/playlist?list=PL78RhpUUKSweClRi_l05UgfE3053-zkRf",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Java Complete Basics to Advanced with 100+ Programming Challenges - Complete guide by Complete Coding by Prashant Sir.",
+      "year": 2024
+    },
+    {
+      "title": "SQL Course for Beginners [Full Course] by Programming with Mosh, ...",
+      "creator": "makeusscene0",
+      "url": "https://www.youtube.com/playlist?list=PLabiKnOYljyDzjooxiH_pOxqfVX-9ek3x",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "SQL Course for Beginners [Full Course] by Programming with Mosh, ... - Complete guide by makeusscene0.",
+      "year": 2024
+    },
+    {
+      "title": "HTML Tutorial for Beginners: HTML Crash Course (Programming with Mosh), etc",
+      "creator": "liberal216",
+      "url": "https://www.youtube.com/playlist?list=PLJzIXbSTwYIJeutN5H8Y5audWZCYg0xL5",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "HTML Tutorial for Beginners: HTML Crash Course (Programming with Mosh), etc - Complete guide by liberal216.",
+      "year": 2024
+    },
+    {
+      "title": "'Java Collections Tutorial' by Programming with Mosh and more",
+      "creator": "luvlimoni",
+      "url": "https://www.youtube.com/playlist?list=PLRJ8zBax5RHihBAI8Ivge-zKv-D8VALwU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "'Java Collections Tutorial' by Programming with Mosh and more - Complete guide by luvlimoni.",
+      "year": 2024
+    },
+    {
+      "title": "Java Full Stack Developer Course",
+      "creator": "Hum aur Code",
+      "url": "https://www.youtube.com/playlist?list=PLq0IPBF63Mw2zVkPrucUoIAWNzh9tN4Nm",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Java Full Stack Developer Course - Complete guide by Hum aur Code.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Java, Spring, and Microservices course",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/playlist?list=PLsyeobzWxl7q6oUFts2erdot6jxF_lisP",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Complete Java, Spring, and Microservices course - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Spring & Spring Boot",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/playlist?list=PLwvrYc43l1MzeA2bBYQhCWr2gvWLs9A7S",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Spring & Spring Boot - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "Java Tutorials for Beginners || Full Course",
+      "creator": "Smart Programming",
+      "url": "https://www.youtube.com/playlist?list=PLlhM4lkb2sEhfuXL-2BDrJ67WkUdQ2v9b",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Java Tutorials for Beginners || Full Course - Complete guide by Smart Programming.",
+      "year": 2024
+    },
+    {
+      "title": "Core Java For Testers",
+      "creator": "SDET- QA",
+      "url": "https://www.youtube.com/playlist?list=PLUDwpEzHYYLviMUSmqDyLly0wESzt7BfR",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Core Java For Testers - Complete guide by SDET- QA.",
+      "year": 2024
+    },
+    {
+      "title": "C#.NET Tutorials",
+      "creator": "Programming with Mosh",
+      "url": "https://www.youtube.com/playlist?list=PLTjRvDozrdlz3_FPXwb6lX_HoGXa09Yef",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "C#.NET Tutorials - Complete guide by Programming with Mosh.",
+      "year": 2024
+    },
+    {
+      "title": "Java & DSA in 30 days : Course for Placement",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/playlist?list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Java & DSA in 30 days : Course for Placement - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "Spring 6 and Spring Boot Tutorial for Beginners",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/playlist?list=PLsyeobzWxl7qbKoSgR5ub6jolI8-ocxCF",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Spring 6 and Spring Boot Tutorial for Beginners - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "FreeCodeCamp Spring Boot Tutorials",
+      "creator": "Abishek Raju",
+      "url": "https://www.youtube.com/playlist?list=PL3OfStMxGIxIXcEy26iAhgyuucZCx_vuU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "FreeCodeCamp Spring Boot Tutorials - Complete guide by Abishek Raju.",
+      "year": 2024
+    },
+    {
+      "title": "Intro to Coding Courses 👨‍💻",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/playlist?list=PLZPZq0r_RZON03iKBjYOsOKr1-TD7z2lH",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Intro to Coding Courses 👨‍💻 - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "Web Development Courses 🗺️",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/playlist?list=PLZPZq0r_RZOPP5Yjt6IqgytMRY5uLt4y3",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Web Development Courses 🗺️ - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "Microservices",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/playlist?list=PLwvrYc43l1Mwqpf9i-1B1gXfMeHOm6DeY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Microservices - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "JavaScript tutorial for beginners 🌐",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/playlist?list=PLZPZq0r_RZOO1zkgO4bIdfuLpizCeHYKv",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "JavaScript tutorial for beginners 🌐 - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot (AmigosCode)",
+      "creator": "Grisha Pipoyan",
+      "url": "https://www.youtube.com/playlist?list=PLoluDykrK8UnWiG0fHIayA099eQwbr-oL",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Spring Boot (AmigosCode) - Complete guide by Grisha Pipoyan.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot Tutorial - FreeCodeCamp",
+      "creator": "dsw33",
+      "url": "https://www.youtube.com/playlist?list=PLRujfXEG5VVNpHQ75D-kQSx_3yP-VafnT",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Spring Boot Tutorial - FreeCodeCamp - Complete guide by dsw33.",
+      "year": 2024
+    },
+    {
+      "title": "OOP bro code",
+      "creator": "Pvenje",
+      "url": "https://www.youtube.com/playlist?list=PLxuuH5GnCIlcGnesYMkGQOqokyI2Fwu3g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "OOP bro code - Complete guide by Pvenje.",
+      "year": 2024
+    },
+    {
+      "title": "Data Structures and Algorithms 📈",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/playlist?list=PLZPZq0r_RZON1eaqfafTnEexRzuHbfZX8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Data Structures and Algorithms 📈 - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "Best Youtube Channels to Master DSA | @freeCodeCamp.org | @Abdul Bari |  G1 Geeks",
+      "creator": "G1 Geeks",
+      "url": "https://www.youtube.com/watch?v=KdOA72j3lqc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Best Youtube Channels to Master DSA | @freeCodeCamp.org | @Abdul Bari |  G1 Geeks - Complete guide by G1 Geeks.",
+      "year": 2024
+    },
+    {
+      "title": "Java Multithreading & Concurrency: Complete Course (Basic to Advanced) - Problems & Concepts",
+      "creator": "Bits of Code by Anand",
+      "url": "https://www.youtube.com/playlist?list=PLp5xrQBgWON4JZzPOcF1JVhJ13RasA5Kt",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Java Multithreading & Concurrency: Complete Course (Basic to Advanced) - Problems & Concepts - Complete guide by Bits of Code by Anand.",
+      "year": 2024
+    },
+    {
+      "title": "Java Concurrency and Multithreading",
+      "creator": "Jakob Jenkov",
+      "url": "https://www.youtube.com/playlist?list=PLL8woMHwr36EDxjUoCzboZjedsnhLP1j4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Java Concurrency and Multithreading - Complete guide by Jakob Jenkov.",
+      "year": 2024
+    },
+    {
+      "title": "multithreading in java",
+      "creator": "Durga Software Solutions",
+      "url": "https://www.youtube.com/playlist?list=PLd3UqWTnYXOkWZUcbW68CbN9fyPFQ0LDk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "multithreading in java - Complete guide by Durga Software Solutions.",
+      "year": 2024
+    },
+    {
+      "title": "Java MultiThreading Zero to Hero Masterclass 2026 🚀",
+      "creator": "Engineering Digest",
+      "url": "https://www.youtube.com/playlist?list=PLA3GkZPtsafYhmrZR_1nmQqfFSnkftOud",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Java MultiThreading Zero to Hero Masterclass 2026 🚀 - Complete guide by Engineering Digest.",
+      "year": 2024
+    },
+    {
+      "title": "Java Tutorial",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/playlist?list=PLsyeobzWxl7pSqMzPF_SlvQ0IdcGA-XI2",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Java Tutorial - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Java Multithreading",
+      "creator": "Coding with Aman",
+      "url": "https://www.youtube.com/playlist?list=PLFdpEvGo4EEqMnSaZ90sGoJn0rC1iQn-S",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Java Multithreading - Complete guide by Coding with Aman.",
+      "year": 2024
+    },
+    {
+      "title": "Java Multithreading",
+      "creator": "Learn Coding",
+      "url": "https://www.youtube.com/playlist?list=PLqleLpAMfxGARB5Xa4Baa0lpRlUvZVJH8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Java Multithreading - Complete guide by Learn Coding.",
+      "year": 2024
+    },
+    {
+      "title": "Java Tutorial For Beginners",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/playlist?list=PLsyeobzWxl7oZ-fxDYkOToURHhMuWD1BK",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Java Tutorial For Beginners - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Java Programming Tutorial",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/playlist?list=PLsyeobzWxl7pFZoGT1NbZJpywedeyzyaf",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Java Programming Tutorial - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Data Structures and Algorithms in Java",
+      "creator": "Dinesh Varyani",
+      "url": "https://www.youtube.com/playlist?list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Data Structures and Algorithms in Java - Complete guide by Dinesh Varyani.",
+      "year": 2024
+    },
+    {
+      "title": "Freecodecamp DSA and Problem solving",
+      "creator": "CIBI P",
+      "url": "https://www.youtube.com/playlist?list=PLUzvZMEoR0KvEthotRQR3qoJ5FJxkhvaP",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Freecodecamp DSA and Problem solving - Complete guide by CIBI P.",
+      "year": 2024
+    },
+    {
+      "title": "Data Structures and Algorithms - Beau teaches JavaScript",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbkso-IbgiiP48n-O-JQA9PJ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Data Structures and Algorithms - Beau teaches JavaScript - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "OOP in Java",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/playlist?list=PLsyeobzWxl7oa1WO9n4cP3OY9nOtUcZIg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "OOP in Java - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "DSA In Java | Java In One Shot | Complete DSA In Java | DSA By Raghav Sir | Java Course | DSA | Java",
+      "creator": "GeeksforGeeks",
+      "url": "https://www.youtube.com/playlist?list=PLqM7alHXFySGwOTADxwHrgH8m_XpgrB-k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "DSA In Java | Java In One Shot | Complete DSA In Java | DSA By Raghav Sir | Java Course | DSA | Java - Complete guide by GeeksforGeeks.",
+      "year": 2024
+    },
+    {
+      "title": "FreeCodeCamp - 1 Basic JavaScript - Javascript Algorithms & Data Structures",
+      "creator": "Reboot",
+      "url": "https://www.youtube.com/playlist?list=PLUvKRKFIL7gt3hvh5SZJ9TrlcIRaM_AfJ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "FreeCodeCamp - 1 Basic JavaScript - Javascript Algorithms & Data Structures - Complete guide by Reboot.",
+      "year": 2024
+    },
+    {
+      "title": "Microservice Tutorial using Java",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/playlist?list=PLsyeobzWxl7rRyGcqgZ3MP5pWGPwUvprI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Microservice Tutorial using Java - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot Microservices Full Course",
+      "creator": "Programming Techie",
+      "url": "https://www.youtube.com/playlist?list=PLSVW22jAG8pBnhAdq9S8BpLnZ0_jVBj0c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Spring Boot Microservices Full Course - Complete guide by Programming Techie.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot MicroServices Complete Tutorial",
+      "creator": "SivaLabs",
+      "url": "https://www.youtube.com/playlist?list=PLuNxlOYbv61g_ytin-wgkecfWDKVCEDmB",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Spring Boot MicroServices Complete Tutorial - Complete guide by SivaLabs.",
+      "year": 2024
+    },
+    {
+      "title": "Spring Boot Microservices Level 2: Fault Tolerance and Resilience",
+      "creator": "Java Brains",
+      "url": "https://www.youtube.com/playlist?list=PLqq-6Pq4lTTbXZY_elyGv7IkKrfkSrX5e",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Spring Boot Microservices Level 2: Fault Tolerance and Resilience - Complete guide by Java Brains.",
+      "year": 2024
+    },
+    {
+      "title": "Hibernate Tutorial for beginners in hindi",
+      "creator": "Learn Code With Durgesh",
+      "url": "https://www.youtube.com/playlist?list=PL0zysOflRCekX8OO7V7pGQ9kxZ28JyJlk",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Hibernate Tutorial for beginners in hindi - Complete guide by Learn Code With Durgesh.",
+      "year": 2024
+    },
+    {
+      "title": "Hibernate Tutorial for Beginners",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/playlist?list=PLsyeobzWxl7qBZtsEvp_n2A7sJs2MpF3r",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Hibernate Tutorial for Beginners - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "JPA/Hibernate Fundamentals 2023",
+      "creator": "Laur Spilca",
+      "url": "https://www.youtube.com/playlist?list=PLEocw3gLFc8UYNv0uRG399GSggi8icTL6",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "JPA/Hibernate Fundamentals 2023 - Complete guide by Laur Spilca.",
+      "year": 2024
+    },
+    {
+      "title": "Hibernate JPA | Gamma Batch Live🔊",
+      "creator": "CodeHunt",
+      "url": "https://www.youtube.com/playlist?list=PL0P9REiGk_zabcoLlZd3bmuj5VyhM4v6Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Hibernate JPA | Gamma Batch Live🔊 - Complete guide by CodeHunt.",
+      "year": 2024
+    },
+    {
+      "title": "Hibernate Tutorial [Full Course]: Complete Hibernate with JPA Tutorial #Framework #Course | Hands on Tutorials | Hindi",
+      "creator": "CoderX Ankit",
+      "url": "https://www.youtube.com/playlist?list=PLiOIhBfKi8ALInmVt467EzwwQpszSgzBK",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Hibernate Tutorial [Full Course]: Complete Hibernate with JPA Tutorial #Framework #Course | Hands on Tutorials | Hindi - Complete guide by CoderX Ankit.",
+      "year": 2024
+    },
+    {
+      "title": "Data Structures & Algorithms in C++ – Full Course (2026 Edition | Beginner to Advanced)",
+      "creator": "Simple Snippets",
+      "url": "https://www.youtube.com/playlist?list=PLIY8eNdw5tW_zX3OCzX7NJ8bL1p6pWfgG",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Data Structures & Algorithms in C++ – Full Course (2026 Edition | Beginner to Advanced) - Complete guide by Simple Snippets.",
+      "year": 2024
+    }
+  ]
 }

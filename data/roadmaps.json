@@ -1,44 +1,2100 @@
 {
-    "name": "Roadmaps",
-    "slug": "roadmaps",
-    "description": "Explore structured developer learning paths and role-based guides from roadmap.sh.",
-    "icon": "https://img.icons8.com/?size=100&id=JGsuQxA0kzAF&format=png&color=000000",
-    "articles": [
-        {
-            "title": "roadmap.sh",
-            "url": "https://roadmap.sh/"
-        },
-        {
-            "title": "W3Schools",
-            "url": "https://www.w3schools.com/"
-        },
-        {
-            "title": "GeeksforGeeks",
-            "url": "https://www.geeksforgeeks.org/"
-        },
-        {
-            "title": "Frontend Roadmap",
-            "url": "https://roadmap.sh/frontend"
-        },
-        {
-            "title": "Backend Roadmap",
-            "url": "https://roadmap.sh/backend"
-        },
-        {
-            "title": "DevOps Roadmap",
-            "url": "https://roadmap.sh/devops"
-        }
-    ],
-    "playlists": [
-        {
-            "title": "roadmap.sh Website Guide",
-            "creator": "roadmap.sh",
-            "url": "https://roadmap.sh/",
-            "language": "English",
-            "difficulty": "beginner",
-            "videoCount": 1,
-            "description": "Use roadmap.sh to choose a path, track topics, and navigate structured developer roadmaps.",
-            "year": 2026
-        }
-    ]
+  "name": "Roadmaps",
+  "slug": "roadmaps",
+  "description": "Explore structured developer learning paths and role-based guides from roadmap.sh.",
+  "icon": "roadmaps",
+  "articles": [
+    {
+      "title": "roadmap.sh",
+      "url": "https://roadmap.sh/"
+    },
+    {
+      "title": "W3Schools",
+      "url": "https://www.w3schools.com/"
+    },
+    {
+      "title": "GeeksforGeeks",
+      "url": "https://www.geeksforgeeks.org/"
+    },
+    {
+      "title": "Frontend Roadmap",
+      "url": "https://roadmap.sh/frontend"
+    },
+    {
+      "title": "Backend Roadmap",
+      "url": "https://roadmap.sh/backend"
+    },
+    {
+      "title": "DevOps Roadmap",
+      "url": "https://roadmap.sh/devops"
+    },
+    {
+      "title": "The Odin Project - Full Stack Curriculum",
+      "url": "https://www.theodinproject.com/"
+    },
+    {
+      "title": "Full Stack Open - Deep Dive into Modern Web",
+      "url": "https://fullstackopen.com/en/"
+    },
+    {
+      "title": "OSSU Open Source Society University CS Curriculum",
+      "url": "https://github.com/ossu/computer-science"
+    },
+    {
+      "title": "System Design Roadmap on roadmap.sh",
+      "url": "https://roadmap.sh/system-design"
+    },
+    {
+      "title": "AI & Data Scientist Roadmap on roadmap.sh",
+      "url": "https://roadmap.sh/ai-data-scientist"
+    },
+    {
+      "title": "Cyber Security Roadmap on roadmap.sh",
+      "url": "https://roadmap.sh/cyber-security"
+    },
+    {
+      "title": "Software Architect Career Roadmap",
+      "url": "https://roadmap.sh/software-architect"
+    },
+    {
+      "title": "Teach Yourself Computer Science Guide",
+      "url": "https://teachyourselfcs.com/"
+    },
+    {
+      "title": "FreeCodeCamp Full Interactive Curriculum",
+      "url": "https://www.freecodecamp.org/learn"
+    }
+  ],
+  "playlists": [
+    {
+      "title": "roadmap.sh Website Guide",
+      "creator": "roadmap.sh",
+      "url": "https://roadmap.sh/",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Use roadmap.sh to choose a path, track topics, and navigate structured developer roadmaps.",
+      "year": 2026
+    },
+    {
+      "title": "Harvard CS50 Comprehensive Program",
+      "creator": "David J. Malan (Harvard)",
+      "url": "https://cs50.harvard.edu/x/",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "The quintessential open-course roadmap covering C, algorithms, memory, Python, SQL, and web technologies.",
+      "year": 2024
+    },
+    {
+      "title": "How To Become A Software Developer ? | How To Learn Coding ? | Simplilearn #Shorts",
+      "creator": "Simplilearn",
+      "url": "https://www.youtube.com/watch?v=25X9vmDKTaE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How To Become A Software Developer ? | How To Learn Coding ? | Simplilearn #Shorts - Complete guide by Simplilearn.",
+      "year": 2024
+    },
+    {
+      "title": "The More You Code, The More You Know",
+      "creator": "Kevin Naughton Jr.",
+      "url": "https://www.youtube.com/watch?v=sbXsigoucJE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The More You Code, The More You Know - Complete guide by Kevin Naughton Jr..",
+      "year": 2024
+    },
+    {
+      "title": "Failed C Programming in 1st Semester… Now a Software Engineer at Disney! 😮 #shorts",
+      "creator": "Sharmaji Ka Codecast",
+      "url": "https://www.youtube.com/watch?v=gmzCmfupwT0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Failed C Programming in 1st Semester… Now a Software Engineer at Disney! 😮 #shorts - Complete guide by Sharmaji Ka Codecast.",
+      "year": 2024
+    },
+    {
+      "title": "First developer job at age 38 with lawyer turned software engineer Zubin Pratap [Podcast #203]",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=DzVm161M4Kk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "First developer job at age 38 with lawyer turned software engineer Zubin Pratap [Podcast #203] - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "How I Learned to Code in 4 Months & Got a Job! (No CS Degree, No Bootcamp)",
+      "creator": "Tim Kim",
+      "url": "https://www.youtube.com/watch?v=WR1ydijTx5E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How I Learned to Code in 4 Months & Got a Job! (No CS Degree, No Bootcamp) - Complete guide by Tim Kim.",
+      "year": 2024
+    },
+    {
+      "title": "71% of coding bootcamp graduates end up getting a job",
+      "creator": "Jameel | Full Stack Developer",
+      "url": "https://www.youtube.com/watch?v=DcuSIKRGdts",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "71% of coding bootcamp graduates end up getting a job - Complete guide by Jameel | Full Stack Developer.",
+      "year": 2024
+    },
+    {
+      "title": "How to Become a Software Engineer: Skills Required for Software Engineer | Software Engineer Roadmap",
+      "creator": "upGrad",
+      "url": "https://www.youtube.com/watch?v=qZpp4VejSbE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Become a Software Engineer: Skills Required for Software Engineer | Software Engineer Roadmap - Complete guide by upGrad.",
+      "year": 2024
+    },
+    {
+      "title": "Cost to Become an AI Engineer in 2026 (7 Free Courses)",
+      "creator": "Shruti Mishra",
+      "url": "https://www.youtube.com/watch?v=EZEAiZ6EYK4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Cost to Become an AI Engineer in 2026 (7 Free Courses) - Complete guide by Shruti Mishra.",
+      "year": 2024
+    },
+    {
+      "title": "Free courses to become an Engineer! #shorts",
+      "creator": "Sho Dewan",
+      "url": "https://www.youtube.com/watch?v=jgDx1v_UsGY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Free courses to become an Engineer! #shorts - Complete guide by Sho Dewan.",
+      "year": 2024
+    },
+    {
+      "title": "Everything I learned to get a job as a software engineer #codingbootcamp #softwareengineer #coding",
+      "creator": "The BlackFemale Engineer",
+      "url": "https://www.youtube.com/watch?v=YLkw-3t2oW0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Everything I learned to get a job as a software engineer #codingbootcamp #softwareengineer #coding - Complete guide by The BlackFemale Engineer.",
+      "year": 2024
+    },
+    {
+      "title": "how to become a Software engineer Stepbystep CareerOpportunity#freecodecamp#codenewbie#careergrowth",
+      "creator": "Experiment ",
+      "url": "https://www.youtube.com/watch?v=d9TSJMdYdbk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "how to become a Software engineer Stepbystep CareerOpportunity#freecodecamp#codenewbie#careergrowth - Complete guide by Experiment .",
+      "year": 2024
+    },
+    {
+      "title": "How to Get a Developer Job – Even in This Economy [Full Course]",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=6nz8GXjxiHg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Get a Developer Job – Even in This Economy [Full Course] - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Study Schedule To Become A Software Engineer In 6 Months #codingbootcamp #codingcourse",
+      "creator": "The BlackFemale Engineer",
+      "url": "https://www.youtube.com/watch?v=sPIqUYvjZbE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Study Schedule To Become A Software Engineer In 6 Months #codingbootcamp #codingcourse - Complete guide by The BlackFemale Engineer.",
+      "year": 2024
+    },
+    {
+      "title": "The Blueprint to Becoming a Robust Engineer #freecodecamp #codingroadmap #softwareengineering",
+      "creator": "CodeCut ",
+      "url": "https://www.youtube.com/watch?v=bWeaPXHVb9c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Blueprint to Becoming a Robust Engineer #freecodecamp #codingroadmap #softwareengineering - Complete guide by CodeCut .",
+      "year": 2024
+    },
+    {
+      "title": "how I became a software engineer after doing so many other things 👩🏻‍💻 #softwareengineer",
+      "creator": "Ale Thomas",
+      "url": "https://www.youtube.com/watch?v=cXR7cxQwdRQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "how I became a software engineer after doing so many other things 👩🏻‍💻 #softwareengineer - Complete guide by Ale Thomas.",
+      "year": 2024
+    },
+    {
+      "title": "Should you still learn to code? 🤨",
+      "creator": "Alberta Tech",
+      "url": "https://www.youtube.com/watch?v=oLHP9ETXWQo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Should you still learn to code? 🤨 - Complete guide by Alberta Tech.",
+      "year": 2024
+    },
+    {
+      "title": "How To Get A Software Engineering Job In 2026",
+      "creator": "Erik Cupsa",
+      "url": "https://www.youtube.com/watch?v=GLSrSNxb8Xk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How To Get A Software Engineering Job In 2026 - Complete guide by Erik Cupsa.",
+      "year": 2024
+    },
+    {
+      "title": "Grinding code everyday until I get an internship — Day 4",
+      "creator": "tmTech",
+      "url": "https://www.youtube.com/watch?v=xThoIJBpQ18",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Grinding code everyday until I get an internship — Day 4 - Complete guide by tmTech.",
+      "year": 2024
+    },
+    {
+      "title": "COMPLETE Software Engineer Roadmap",
+      "creator": "Sajjaad Khader",
+      "url": "https://www.youtube.com/watch?v=ZM4dCNkaMbg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "COMPLETE Software Engineer Roadmap - Complete guide by Sajjaad Khader.",
+      "year": 2024
+    },
+    {
+      "title": "What Courses Should I Prioritize on freeCodeCamp?",
+      "creator": "Dors Coding School",
+      "url": "https://www.youtube.com/watch?v=J3IB1BCKwUU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What Courses Should I Prioritize on freeCodeCamp? - Complete guide by Dors Coding School.",
+      "year": 2024
+    },
+    {
+      "title": "How to start a coding YouTube channel (with tips from a bunch of successful creators!)",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=AsTagX5tG4E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to start a coding YouTube channel (with tips from a bunch of successful creators!) - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "The life of a software developer after work hours",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=gpm1hRv6WL8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The life of a software developer after work hours - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Tips for beginners in programming 👩🏻‍💻 #softwaredeveloper #programming #coding",
+      "creator": "Khris Sheer",
+      "url": "https://www.youtube.com/watch?v=AFQ4Z-4W5vI",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Tips for beginners in programming 👩🏻‍💻 #softwaredeveloper #programming #coding - Complete guide by Khris Sheer.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Programming for Free & Get Rich!",
+      "creator": "Kseniia McTech",
+      "url": "https://www.youtube.com/watch?v=lfnfKSDHyrc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Programming for Free & Get Rich! - Complete guide by Kseniia McTech.",
+      "year": 2024
+    },
+    {
+      "title": "How to Become a Developer",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=lo4BSraYvc8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Become a Developer - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "It took me 6 months to become a software developer 👩🏻‍💻 #softwareengineer #programming",
+      "creator": "Khris Sheer",
+      "url": "https://www.youtube.com/watch?v=_8acvsMc0jE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "It took me 6 months to become a software developer 👩🏻‍💻 #softwareengineer #programming - Complete guide by Khris Sheer.",
+      "year": 2024
+    },
+    {
+      "title": "Career Change to Code - The Complete Guide [Full Course for Aspiring Developers]",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=YdWkUdMxMvM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Career Change to Code - The Complete Guide [Full Course for Aspiring Developers] - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "“How to become a software engineer” in 2026",
+      "creator": "JOEL MIRUNI",
+      "url": "https://www.youtube.com/watch?v=KU_8yFNYRXw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "“How to become a software engineer” in 2026 - Complete guide by JOEL MIRUNI.",
+      "year": 2024
+    },
+    {
+      "title": "If I Wanted to Become a Software Engineer in 2026, This is What I’d Do [FULL BLUEPRINT]",
+      "creator": "Sajjaad Khader",
+      "url": "https://www.youtube.com/watch?v=avdDEZCcluo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "If I Wanted to Become a Software Engineer in 2026, This is What I’d Do [FULL BLUEPRINT] - Complete guide by Sajjaad Khader.",
+      "year": 2024
+    },
+    {
+      "title": "How to ACTUALLY Become a Software Engineer in 2025",
+      "creator": "Sajjaad Khader",
+      "url": "https://www.youtube.com/watch?v=qWkPeLahpnw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to ACTUALLY Become a Software Engineer in 2025 - Complete guide by Sajjaad Khader.",
+      "year": 2024
+    },
+    {
+      "title": "Become a Great Engineering Manager – Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=kZdFRXeuCuY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Become a Great Engineering Manager – Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Basics 2: More Computer Hardware",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=xj9mFD71Vfc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Computer Basics 2: More Computer Hardware - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Software Engineering Job Interview – Full Mock Interview",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=1qw5ITr3k9E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Software Engineering Job Interview – Full Mock Interview - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Learn fewer skills but go deeper - the Caleb Curry interview [Podcast #163]",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=JKwbPZU-FV0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn fewer skills but go deeper - the Caleb Curry interview [Podcast #163] - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "One weird trick to becoming a better software developer 😉",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=mZdznKc5ZaM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "One weird trick to becoming a better software developer 😉 - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "AI Full Stack Roadmap: Become Job Ready in 2027",
+      "creator": "Engineering Digest",
+      "url": "https://www.youtube.com/watch?v=bCq9k7M9drc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AI Full Stack Roadmap: Become Job Ready in 2027 - Complete guide by Engineering Digest.",
+      "year": 2024
+    },
+    {
+      "title": "Full Stack Developer Roadmap 2026! #coding #webdevelopment #codingtips #learntocode #python #aitools",
+      "creator": "itsrohitdev",
+      "url": "https://www.youtube.com/watch?v=GLEHPiE-wYc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Full Stack Developer Roadmap 2026! #coding #webdevelopment #codingtips #learntocode #python #aitools - Complete guide by itsrohitdev.",
+      "year": 2024
+    },
+    {
+      "title": "Full Stack Developer in 6 Months",
+      "creator": "CareerRide",
+      "url": "https://www.youtube.com/watch?v=aIy46jQsDLM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Full Stack Developer in 6 Months - Complete guide by CareerRide.",
+      "year": 2024
+    },
+    {
+      "title": "Fullstack development Roadmap - https://roadmap.sh/full-stack",
+      "creator": "ezSnippet",
+      "url": "https://www.youtube.com/watch?v=xQaBOY4WvUA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Fullstack development Roadmap - https://roadmap.sh/full-stack - Complete guide by ezSnippet.",
+      "year": 2024
+    },
+    {
+      "title": "Full Stack Developer Roadmap 2026 (Beginner to Job-Ready)",
+      "creator": "Love Babbar",
+      "url": "https://www.youtube.com/watch?v=KGnafdKBWbQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Full Stack Developer Roadmap 2026 (Beginner to Job-Ready) - Complete guide by Love Babbar.",
+      "year": 2024
+    },
+    {
+      "title": "Full Stack Web Development Full Course (2025) | Web Development Full Course FREE | Intellipaat",
+      "creator": "Intellipaat",
+      "url": "https://www.youtube.com/watch?v=F4zr1aMevB4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Full Stack Web Development Full Course (2025) | Web Development Full Course FREE | Intellipaat - Complete guide by Intellipaat.",
+      "year": 2024
+    },
+    {
+      "title": "How to Become a Full Stack Developer in 2026 🚀 | Complete Roadmap #shorts #youtubeshorts",
+      "creator": "Algo Magnet",
+      "url": "https://www.youtube.com/watch?v=lP5i1bRXnr8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Become a Full Stack Developer in 2026 🚀 | Complete Roadmap #shorts #youtubeshorts - Complete guide by Algo Magnet.",
+      "year": 2024
+    },
+    {
+      "title": "Fastest Way to Become a Full Stack Web Developer! 🚀 Roadmap 2025 – Must Watch! 🔥 #shorts #coding #ai",
+      "creator": "A2P",
+      "url": "https://www.youtube.com/watch?v=g1jZliVTwoI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Fastest Way to Become a Full Stack Web Developer! 🚀 Roadmap 2025 – Must Watch! 🔥 #shorts #coding #ai - Complete guide by A2P.",
+      "year": 2024
+    },
+    {
+      "title": "Roadmap to become a Full Stack Developer.",
+      "creator": "julián Vélez",
+      "url": "https://www.youtube.com/watch?v=8ZzkJBwt_FE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Roadmap to become a Full Stack Developer. - Complete guide by julián Vélez.",
+      "year": 2024
+    },
+    {
+      "title": "Full-Stack .NET AI Developer Roadmap 2026",
+      "creator": "ScholarHat",
+      "url": "https://www.youtube.com/watch?v=SIOq1upyOlI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Full-Stack .NET AI Developer Roadmap 2026 - Complete guide by ScholarHat.",
+      "year": 2024
+    },
+    {
+      "title": "How to become Full Stack Web Developer in 2024! 💻 #coding #programming",
+      "creator": "Tom Shaw",
+      "url": "https://www.youtube.com/watch?v=OSKHF0fep98",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to become Full Stack Web Developer in 2024! 💻 #coding #programming - Complete guide by Tom Shaw.",
+      "year": 2024
+    },
+    {
+      "title": "Mern vs fullstack",
+      "creator": "ezSnippet",
+      "url": "https://www.youtube.com/watch?v=Ew1eP3u9mNw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Mern vs fullstack - Complete guide by ezSnippet.",
+      "year": 2024
+    },
+    {
+      "title": "What skills do you need to be a full stack developer? \"Only coding\"",
+      "creator": "the blueprint",
+      "url": "https://www.youtube.com/watch?v=AVimtkj8B4w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What skills do you need to be a full stack developer? \"Only coding\" - Complete guide by the blueprint.",
+      "year": 2024
+    },
+    {
+      "title": "Full Stack Developer Roadmap 🚀  🧑‍💻  #fullstack #frontend #backend #coding",
+      "creator": "CodingBangladesh",
+      "url": "https://www.youtube.com/watch?v=9FiaVLvzAJI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Full Stack Developer Roadmap 🚀  🧑‍💻  #fullstack #frontend #backend #coding - Complete guide by CodingBangladesh.",
+      "year": 2024
+    },
+    {
+      "title": "PYTHON FULLSTACK 🗿",
+      "creator": "ezSnippet",
+      "url": "https://www.youtube.com/watch?v=M6OSt26qANU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PYTHON FULLSTACK 🗿 - Complete guide by ezSnippet.",
+      "year": 2024
+    },
+    {
+      "title": "A full stack developer on AI: faster work now, \"some cut-off\" later",
+      "creator": "the blueprint",
+      "url": "https://www.youtube.com/watch?v=K1R3_kHkZfA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "A full stack developer on AI: faster work now, \"some cut-off\" later - Complete guide by the blueprint.",
+      "year": 2024
+    },
+    {
+      "title": "🚀 Full Stack Developer Roadmap 2024 | Step-by-Step Guide to Becoming a Full Stack Developer 💻✨",
+      "creator": "Yashwant Harikishan",
+      "url": "https://www.youtube.com/watch?v=RzBskahxIqQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🚀 Full Stack Developer Roadmap 2024 | Step-by-Step Guide to Becoming a Full Stack Developer 💻✨ - Complete guide by Yashwant Harikishan.",
+      "year": 2024
+    },
+    {
+      "title": "Full Stack Developer Roadmap 2026 🚀 | Step-by-Step Guide #Shorts #FullStackDeveloper",
+      "creator": "Tinitiate AI Solutions",
+      "url": "https://www.youtube.com/watch?v=3jY-Tm3mDPg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Full Stack Developer Roadmap 2026 🚀 | Step-by-Step Guide #Shorts #FullStackDeveloper - Complete guide by Tinitiate AI Solutions.",
+      "year": 2024
+    },
+    {
+      "title": "Become a Fullstack Developer in 2024 with these tips |",
+      "creator": "GeeksforGeeks",
+      "url": "https://www.youtube.com/watch?v=WmAkKza3nck",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Become a Fullstack Developer in 2024 with these tips | - Complete guide by GeeksforGeeks.",
+      "year": 2024
+    },
+    {
+      "title": "Full Stack React Developer Course with Appwrite",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=Bvwq_S0n2pk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Full Stack React Developer Course with Appwrite - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Use ChatGPT to Code a Full Stack App – Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=GizsSo-EevA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Use ChatGPT to Code a Full Stack App – Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Placement Preparation: AI Full Stack Web Development + DSA + Aptitude | New SigmaX 2.0",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=6euYV6q3I5U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete Placement Preparation: AI Full Stack Web Development + DSA + Aptitude | New SigmaX 2.0 - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "Learn HTML, CSS and JavaScript in Single Video | Basics of MERN Stack Development",
+      "creator": "Sheryians Coding School",
+      "url": "https://www.youtube.com/watch?v=kkOuRJ69BRY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn HTML, CSS and JavaScript in Single Video | Basics of MERN Stack Development - Complete guide by Sheryians Coding School.",
+      "year": 2024
+    },
+    {
+      "title": "Web Development Complete RoadMap | from Basics to Advanced",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=ktoYUycRXTA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Web Development Complete RoadMap | from Basics to Advanced - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "Want to learn \"Python\" Before 2027💀 🎯Roadmap",
+      "creator": "Kushal Kode",
+      "url": "https://www.youtube.com/watch?v=AFtHfBs5tco",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Want to learn \"Python\" Before 2027💀 🎯Roadmap - Complete guide by Kushal Kode.",
+      "year": 2024
+    },
+    {
+      "title": "You should probably still learn how to code.",
+      "creator": "Y Combinator",
+      "url": "https://www.youtube.com/watch?v=esvgwME4NyI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "You should probably still learn how to code. - Complete guide by Y Combinator.",
+      "year": 2024
+    },
+    {
+      "title": "Coding in class 11th ? Gyaan-E made it possible #fyp #trend #ytshorts",
+      "creator": "PW Gyaan-E",
+      "url": "https://www.youtube.com/watch?v=xrhOEwQVVaM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Coding in class 11th ? Gyaan-E made it possible #fyp #trend #ytshorts - Complete guide by PW Gyaan-E.",
+      "year": 2024
+    },
+    {
+      "title": "8 Free Courses That Replace a Computer Science Degree  #coding #ComputerScience #softwareengineering",
+      "creator": "Anurag Builds",
+      "url": "https://www.youtube.com/watch?v=n1Hk4SoLXbE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "8 Free Courses That Replace a Computer Science Degree  #coding #ComputerScience #softwareengineering - Complete guide by Anurag Builds.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Science Courses Roadmap 🎓 #computerscience #coding #programming #students #shorts #python",
+      "creator": "Code Leos",
+      "url": "https://www.youtube.com/watch?v=G6HU0WMZtIw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Computer Science Courses Roadmap 🎓 #computerscience #coding #programming #students #shorts #python - Complete guide by Code Leos.",
+      "year": 2024
+    },
+    {
+      "title": "Don't Learn to Code in 2026 Nvidia's CEO Explains Why",
+      "creator": "Money Unlocked",
+      "url": "https://www.youtube.com/watch?v=dhgMpt-lTfE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Don't Learn to Code in 2026 Nvidia's CEO Explains Why - Complete guide by Money Unlocked.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Computer Science Roadmap (Basics to Career) 🎓⚡ #coding#roadmap2026#programmingfundamentals",
+      "creator": "Code City",
+      "url": "https://www.youtube.com/watch?v=i4f05WnOV88",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete Computer Science Roadmap (Basics to Career) 🎓⚡ #coding#roadmap2026#programmingfundamentals - Complete guide by Code City.",
+      "year": 2024
+    },
+    {
+      "title": "Did you know - Harvard's CS50 isn't just a coding course. There are many variants...",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=tPeyD3ELDHw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Did you know - Harvard's CS50 isn't just a coding course. There are many variants... - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Science Roadmap by Semester 🎓 #shorts #computerscience #coding #programming #datastructures",
+      "creator": "Code Leos",
+      "url": "https://www.youtube.com/watch?v=XIRK1mPdEJE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Computer Science Roadmap by Semester 🎓 #shorts #computerscience #coding #programming #datastructures - Complete guide by Code Leos.",
+      "year": 2024
+    },
+    {
+      "title": "How to study DSA EFFECTIVELY #dsa #coding #computerscience",
+      "creator": "UNQ CODER",
+      "url": "https://www.youtube.com/watch?v=b6fUi1KC9UU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to study DSA EFFECTIVELY #dsa #coding #computerscience - Complete guide by UNQ CODER.",
+      "year": 2024
+    },
+    {
+      "title": "free coding certification platform #freeitcourses #certification #freecertificatecourses #itcourses",
+      "creator": "Learnfullstack",
+      "url": "https://www.youtube.com/watch?v=a31xAdND9NI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "free coding certification platform #freeitcourses #certification #freecertificatecourses #itcourses - Complete guide by Learnfullstack.",
+      "year": 2024
+    },
+    {
+      "title": "Full list below 👇 Computer Science students and programmers need to save this! #youtubeshorts",
+      "creator": "CashFlow Genius",
+      "url": "https://www.youtube.com/watch?v=yJyyGLmU_F8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Full list below 👇 Computer Science students and programmers need to save this! #youtubeshorts - Complete guide by CashFlow Genius.",
+      "year": 2024
+    },
+    {
+      "title": "Getting into computer science thanks to a supportive teacher and skipping a favorite class",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=xMrOFhk6Rng",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Getting into computer science thanks to a supportive teacher and skipping a favorite class - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "If you suddenly lost all your programming knowledge, what should you focus on learning today?",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=yG-bGpD38Rw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "If you suddenly lost all your programming knowledge, what should you focus on learning today? - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Science Roadmap 2026  #coders",
+      "creator": "FineGap",
+      "url": "https://www.youtube.com/watch?v=gtrfqrapn1g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Computer Science Roadmap 2026  #coders - Complete guide by FineGap.",
+      "year": 2024
+    },
+    {
+      "title": "freeCodeCamp.org Curriculum Expansion: Math + Machine Learning + Data Science",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=xZbU6bCZFYo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "freeCodeCamp.org Curriculum Expansion: Math + Machine Learning + Data Science - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "freeCodeCamp Turns 10 & Major Certification Updates",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=1fZ0hTX-ut4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "freeCodeCamp Turns 10 & Major Certification Updates - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "taking the hardest course I can as a senior software engineer #computerscience",
+      "creator": "ConnieCodes",
+      "url": "https://www.youtube.com/watch?v=9MXbCqZQC5U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "taking the hardest course I can as a senior software engineer #computerscience - Complete guide by ConnieCodes.",
+      "year": 2024
+    },
+    {
+      "title": "How to ACTUALLY learn to code... 7 Roadmaps for 2023",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=66tfvFeALBQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to ACTUALLY learn to code... 7 Roadmaps for 2023 - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "Intro to Computer Networks - Crash Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=WO6P92v61y4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Intro to Computer Networks - Crash Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Data Science Hands-On Crash Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=XU5pw3QRYjQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data Science Hands-On Crash Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "The Complete Data Science Roadmap",
+      "creator": "Programming with Mosh",
+      "url": "https://www.youtube.com/watch?v=9R3X0JoCLyU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Complete Data Science Roadmap - Complete guide by Programming with Mosh.",
+      "year": 2024
+    },
+    {
+      "title": "Become a Front-End Developer in 100 Days !",
+      "creator": "Shweta",
+      "url": "https://www.youtube.com/watch?v=ZUXKG3JFszc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Become a Front-End Developer in 100 Days ! - Complete guide by Shweta.",
+      "year": 2024
+    },
+    {
+      "title": "Frontend Developer Roadmap 2026 🚀 (Complete Guide)",
+      "creator": "WsCube AI & Tech School",
+      "url": "https://www.youtube.com/watch?v=xSZcTFak678",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Frontend Developer Roadmap 2026 🚀 (Complete Guide) - Complete guide by WsCube AI & Tech School.",
+      "year": 2024
+    },
+    {
+      "title": "Harvard CS50 (2023) – Full Computer Science University Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=LfaMVlDaQ24",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Harvard CS50 (2023) – Full Computer Science University Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Frontend Developer Roadmap 2026 🚀 | Zero to Job-Ready in 60 Seconds #Shorts",
+      "creator": "Sujal Sharma",
+      "url": "https://www.youtube.com/watch?v=Rc_zwpA_sIg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Frontend Developer Roadmap 2026 🚀 | Zero to Job-Ready in 60 Seconds #Shorts - Complete guide by Sujal Sharma.",
+      "year": 2024
+    },
+    {
+      "title": "Frontend Roadmap - Key Topics | Web Developer 2024 @TechnicalSuneja",
+      "creator": "Technical Suneja",
+      "url": "https://www.youtube.com/watch?v=LGC2AR0fsGo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Frontend Roadmap - Key Topics | Web Developer 2024 @TechnicalSuneja - Complete guide by Technical Suneja.",
+      "year": 2024
+    },
+    {
+      "title": "Free Frontend Development Course with Certification",
+      "creator": "DesignWithRehana",
+      "url": "https://www.youtube.com/watch?v=MvuOlvkcHCQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Free Frontend Development Course with Certification - Complete guide by DesignWithRehana.",
+      "year": 2024
+    },
+    {
+      "title": "Front-End development RoadMap 🚀",
+      "creator": "Hunger For Knowledge",
+      "url": "https://www.youtube.com/watch?v=cG9RgdFEkfM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Front-End development RoadMap 🚀 - Complete guide by Hunger For Knowledge.",
+      "year": 2024
+    },
+    {
+      "title": "Learn frontend development from scratch with this roadmap, tools, and project guide! 🚀#Frontend",
+      "creator": "Web development for H",
+      "url": "https://www.youtube.com/watch?v=iRcqJ89oOuk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn frontend development from scratch with this roadmap, tools, and project guide! 🚀#Frontend - Complete guide by Web development for H.",
+      "year": 2024
+    },
+    {
+      "title": "Frontend Developer with AI in 2026 ! What to Learn beyond React?",
+      "creator": "CodeHelp - by Babbar",
+      "url": "https://www.youtube.com/watch?v=emMT7qSBPts",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Frontend Developer with AI in 2026 ! What to Learn beyond React? - Complete guide by CodeHelp - by Babbar.",
+      "year": 2024
+    },
+    {
+      "title": "Frontend Developer Roadmap 2026 - Must Watch #shorts #jobs",
+      "creator": "Technical Suneja",
+      "url": "https://www.youtube.com/watch?v=LgVnGT0pWEo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Frontend Developer Roadmap 2026 - Must Watch #shorts #jobs - Complete guide by Technical Suneja.",
+      "year": 2024
+    },
+    {
+      "title": "60 Days RoadMap To Become Frontend Developer  - HTPMR @High_Tech_PM_Raja",
+      "creator": "High Tech PM Raja",
+      "url": "https://www.youtube.com/watch?v=3xqsNVGrKq8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "60 Days RoadMap To Become Frontend Developer  - HTPMR @High_Tech_PM_Raja - Complete guide by High Tech PM Raja.",
+      "year": 2024
+    },
+    {
+      "title": "Frontend Development Complete Roadmap",
+      "creator": "CodingDelhi",
+      "url": "https://www.youtube.com/watch?v=-oq5dSM7xC4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Frontend Development Complete Roadmap - Complete guide by CodingDelhi.",
+      "year": 2024
+    },
+    {
+      "title": "4 FREE websites to learn coding (save this) #programming #coding",
+      "creator": "BuildWithFafa",
+      "url": "https://www.youtube.com/watch?v=LffvPmYUtxM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "4 FREE websites to learn coding (save this) #programming #coding - Complete guide by BuildWithFafa.",
+      "year": 2024
+    },
+    {
+      "title": "FREE Frontend Development Courses with Certificate 🥳 #frontenddevelopment #onlinecourses #shorts",
+      "creator": "DesignWithRehana",
+      "url": "https://www.youtube.com/watch?v=FNwL_syEZhI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "FREE Frontend Development Courses with Certificate 🥳 #frontenddevelopment #onlinecourses #shorts - Complete guide by DesignWithRehana.",
+      "year": 2024
+    },
+    {
+      "title": "How to be a Frontend Developer?",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=cSiWWNs85_w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to be a Frontend Developer? - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "Unbiased Website Review! Best & Worst Designs Explained | Coding with WFE #freecodecamp #devlife",
+      "creator": "Stryn Enterprises",
+      "url": "https://www.youtube.com/watch?v=AYlaFmsoO1s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Unbiased Website Review! Best & Worst Designs Explained | Coding with WFE #freecodecamp #devlife - Complete guide by Stryn Enterprises.",
+      "year": 2024
+    },
+    {
+      "title": "Frontend Development Libraries 🔥 #coding",
+      "creator": "DesignWithRehana",
+      "url": "https://www.youtube.com/watch?v=rqTrf59ApKk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Frontend Development Libraries 🔥 #coding - Complete guide by DesignWithRehana.",
+      "year": 2024
+    },
+    {
+      "title": "WEB DEVELOPMENT COMPLETE ROADMAP FOR BEGINNERS 🔥",
+      "creator": "Neeraj Walia",
+      "url": "https://www.youtube.com/watch?v=voXYG17rhQA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "WEB DEVELOPMENT COMPLETE ROADMAP FOR BEGINNERS 🔥 - Complete guide by Neeraj Walia.",
+      "year": 2024
+    },
+    {
+      "title": "Learn CSS In One Video - تعلم CSS في فيديو واحد كورس كامل",
+      "creator": "Elzero Web School",
+      "url": "https://www.youtube.com/watch?v=qyVkLebgfzY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn CSS In One Video - تعلم CSS في فيديو واحد كورس كامل - Complete guide by Elzero Web School.",
+      "year": 2024
+    },
+    {
+      "title": "Front End Developer RoadMap - for Jobs",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=DbRXv5TXMEE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Front End Developer RoadMap - for Jobs - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "3 FREE Websites to Learn Frontend Development",
+      "creator": "Thom Code",
+      "url": "https://www.youtube.com/watch?v=oWeb-6JLEis",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "3 FREE Websites to Learn Frontend Development - Complete guide by Thom Code.",
+      "year": 2024
+    },
+    {
+      "title": "How to be a backend Developer?",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=iEyA1dXZs_M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to be a backend Developer? - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "front-end developer vs backend developer| #developer #frontenddeveloper #backenddeveloper #backend",
+      "creator": "coding with krishna",
+      "url": "https://www.youtube.com/watch?v=YxvtH0_tJJY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "front-end developer vs backend developer| #developer #frontenddeveloper #backenddeveloper #backend - Complete guide by coding with krishna.",
+      "year": 2024
+    },
+    {
+      "title": "Python Backend Developer Roadmap 2026 (Step-by-Step)",
+      "creator": "Tech With Swathi",
+      "url": "https://www.youtube.com/watch?v=-ObQ-TIi3Rk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Python Backend Developer Roadmap 2026 (Step-by-Step) - Complete guide by Tech With Swathi.",
+      "year": 2024
+    },
+    {
+      "title": "Is Backend Development Dead in 2026? The Reality of AI in Tech!",
+      "creator": "Love Babbar",
+      "url": "https://www.youtube.com/watch?v=NUBvw0lKcGU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Is Backend Development Dead in 2026? The Reality of AI in Tech! - Complete guide by Love Babbar.",
+      "year": 2024
+    },
+    {
+      "title": "2026 Backend Engineer Roadmap",
+      "creator": "Arjay McCandless",
+      "url": "https://www.youtube.com/watch?v=JOV_nLWAKrg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "2026 Backend Engineer Roadmap - Complete guide by Arjay McCandless.",
+      "year": 2024
+    },
+    {
+      "title": "✨Backend Development Roadmap 2026 🚀 #coding #programming #backenddevelopment  #codewithmustafa26",
+      "creator": "Mustafa Raza",
+      "url": "https://www.youtube.com/watch?v=0KzNXYftNjE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "✨Backend Development Roadmap 2026 🚀 #coding #programming #backenddevelopment  #codewithmustafa26 - Complete guide by Mustafa Raza.",
+      "year": 2024
+    },
+    {
+      "title": "Frontend Developer vs Backend Developer vs Fullstack Developer",
+      "creator": "Deorwine Infotech",
+      "url": "https://www.youtube.com/watch?v=uTVaTJ_-B-4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Frontend Developer vs Backend Developer vs Fullstack Developer - Complete guide by Deorwine Infotech.",
+      "year": 2024
+    },
+    {
+      "title": "Backend Development Roadmap #coding #developer",
+      "creator": "Devslopes",
+      "url": "https://www.youtube.com/watch?v=-N2APGrkOPk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Backend Development Roadmap #coding #developer - Complete guide by Devslopes.",
+      "year": 2024
+    },
+    {
+      "title": "Web Development Roadmap 2026 🚀 | Frontend vs Backend vs Full Stack #thedevlore #coding",
+      "creator": "DEVLORE",
+      "url": "https://www.youtube.com/watch?v=UXoTB92Be3A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Web Development Roadmap 2026 🚀 | Frontend vs Backend vs Full Stack #thedevlore #coding - Complete guide by DEVLORE.",
+      "year": 2024
+    },
+    {
+      "title": "Backend Developer Roadmap 2026 🚀 Complete Guide to Become a Backend Developer",
+      "creator": "TechE",
+      "url": "https://www.youtube.com/watch?v=NjuZjINEWVk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Backend Developer Roadmap 2026 🚀 Complete Guide to Become a Backend Developer - Complete guide by TechE.",
+      "year": 2024
+    },
+    {
+      "title": "Average backend developer 🙃",
+      "creator": "Alberta Tech",
+      "url": "https://www.youtube.com/watch?v=j5l_hmD1LXU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Average backend developer 🙃 - Complete guide by Alberta Tech.",
+      "year": 2024
+    },
+    {
+      "title": "Acha backend dev kaise bane? 🔥",
+      "creator": "ezSnippet",
+      "url": "https://www.youtube.com/watch?v=h6BZYzOaGbU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Acha backend dev kaise bane? 🔥 - Complete guide by ezSnippet.",
+      "year": 2024
+    },
+    {
+      "title": "Backend Developer Roadmap 2026 🔥 Start Here  #coding #programming",
+      "creator": "Android Alchemy",
+      "url": "https://www.youtube.com/watch?v=F9QdIJxUJpw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Backend Developer Roadmap 2026 🔥 Start Here  #coding #programming - Complete guide by Android Alchemy.",
+      "year": 2024
+    },
+    {
+      "title": "Java Developer Roadmap 2026 🚀 | How to Become Java Backend Developer (Step-by-Step)",
+      "creator": "Sancoding",
+      "url": "https://www.youtube.com/watch?v=4inVBQ2zLos",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Developer Roadmap 2026 🚀 | How to Become Java Backend Developer (Step-by-Step) - Complete guide by Sancoding.",
+      "year": 2024
+    },
+    {
+      "title": "Backend Development Roadmap",
+      "creator": "decode_leox",
+      "url": "https://www.youtube.com/watch?v=sWyvWX81lGs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Backend Development Roadmap - Complete guide by decode_leox.",
+      "year": 2024
+    },
+    {
+      "title": "The Complete Backend Developer Roadmap",
+      "creator": "Programming with Mosh",
+      "url": "https://www.youtube.com/watch?v=OeEHJgzqS1k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Complete Backend Developer Roadmap - Complete guide by Programming with Mosh.",
+      "year": 2024
+    },
+    {
+      "title": "Backend Developer Roadmap 2026 | Complete 90-Day Learning Plan #backend #developer",
+      "creator": "Kode with Khan",
+      "url": "https://www.youtube.com/watch?v=k2AXJadBEp0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Backend Developer Roadmap 2026 | Complete 90-Day Learning Plan #backend #developer - Complete guide by Kode with Khan.",
+      "year": 2024
+    },
+    {
+      "title": "How to Become a Backend Developer in 2026 | Complete Roadmap",
+      "creator": "Intellipaat",
+      "url": "https://www.youtube.com/watch?v=0d9KWaU9Y0o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Become a Backend Developer in 2026 | Complete Roadmap - Complete guide by Intellipaat.",
+      "year": 2024
+    },
+    {
+      "title": "Domain Driven Design: What You Need To Know",
+      "creator": "Alex Hyett",
+      "url": "https://www.youtube.com/watch?v=4rhzdZIDX_k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Domain Driven Design: What You Need To Know - Complete guide by Alex Hyett.",
+      "year": 2024
+    },
+    {
+      "title": "Backend Development Roadmap 2025 | Become Job-Ready!",
+      "creator": "GeeksforGeeks",
+      "url": "https://www.youtube.com/watch?v=nuRKzG0Pkjg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Backend Development Roadmap 2025 | Become Job-Ready! - Complete guide by GeeksforGeeks.",
+      "year": 2024
+    },
+    {
+      "title": "Web Development Roadmap 2026 (No BS Guide!)",
+      "creator": "CodeWithHarry",
+      "url": "https://www.youtube.com/watch?v=-4e3ewcTupM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Web Development Roadmap 2026 (No BS Guide!) - Complete guide by CodeWithHarry.",
+      "year": 2024
+    },
+    {
+      "title": "If you're struggling to learn back end development, you're not alone...",
+      "creator": "freeCodeCamp Shorts",
+      "url": "https://www.youtube.com/watch?v=PYkrzyNWRq0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "If you're struggling to learn back end development, you're not alone... - Complete guide by freeCodeCamp Shorts.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Backend Development in 5 minutes (NO PRIOR KNOWLEDGE)",
+      "creator": "CodeHead",
+      "url": "https://www.youtube.com/watch?v=69Js7sUocf8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Backend Development in 5 minutes (NO PRIOR KNOWLEDGE) - Complete guide by CodeHead.",
+      "year": 2024
+    },
+    {
+      "title": "🚀 Complete Roadmap to DevOps in 2025 | Step-by-Step Guide",
+      "creator": "App Developer 707",
+      "url": "https://www.youtube.com/watch?v=5roUv47FfCo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🚀 Complete Roadmap to DevOps in 2025 | Step-by-Step Guide - Complete guide by App Developer 707.",
+      "year": 2024
+    },
+    {
+      "title": "Devops Roadmap 🔥",
+      "creator": "ezSnippet",
+      "url": "https://www.youtube.com/watch?v=zclmsRz01pg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Devops Roadmap 🔥 - Complete guide by ezSnippet.",
+      "year": 2024
+    },
+    {
+      "title": "FASTEST WAY To Become A DevOps Engineer In 2026!",
+      "creator": "Vishakha Sadhwani",
+      "url": "https://www.youtube.com/watch?v=jVrITfuOKO4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "FASTEST WAY To Become A DevOps Engineer In 2026! - Complete guide by Vishakha Sadhwani.",
+      "year": 2024
+    },
+    {
+      "title": "02 Start a Working Express Server - FreeCodeCamp Solution -Basic Node & Express Back End Development",
+      "creator": "Reboot",
+      "url": "https://www.youtube.com/watch?v=2bxUqqR2Q0U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "02 Start a Working Express Server - FreeCodeCamp Solution -Basic Node & Express Back End Development - Complete guide by Reboot.",
+      "year": 2024
+    },
+    {
+      "title": "01 Meet the Node console - FreeCodeCamp Solution - Basic Node and Express -Back End Development",
+      "creator": "Reboot",
+      "url": "https://www.youtube.com/watch?v=_bxNMR1eMZw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "01 Meet the Node console - FreeCodeCamp Solution - Basic Node and Express -Back End Development - Complete guide by Reboot.",
+      "year": 2024
+    },
+    {
+      "title": "DevOps Roadmap 2026 [For Absolute Beginners] | Top 5 DevOps Skills",
+      "creator": "Vishakha Sadhwani",
+      "url": "https://www.youtube.com/watch?v=giIWBuu9GAk",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "DevOps Roadmap 2026 [For Absolute Beginners] | Top 5 DevOps Skills - Complete guide by Vishakha Sadhwani.",
+      "year": 2024
+    },
+    {
+      "title": "DevOps Roadmap 2026 🚀 | Learn DevOps from Beginner to Cloud Native",
+      "creator": "TechE",
+      "url": "https://www.youtube.com/watch?v=xHIHydy1sOs",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "DevOps Roadmap 2026 🚀 | Learn DevOps from Beginner to Cloud Native - Complete guide by TechE.",
+      "year": 2024
+    },
+    {
+      "title": "DevOps Complete Guide for 2026-27",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=RRBF2YWXFtY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DevOps Complete Guide for 2026-27 - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "DevOps Engineering Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=j5Zsa_eOXeY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "DevOps Engineering Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "DevOps Roadmap Beginners♾️🚀",
+      "creator": "BashOps",
+      "url": "https://www.youtube.com/watch?v=Lay3pQF3I3c",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "DevOps Roadmap Beginners♾️🚀 - Complete guide by BashOps.",
+      "year": 2024
+    },
+    {
+      "title": "The Ultimate DevOps Engineer Roadmap 2026 | Step-by-Step Guide #DevOps #Roadmap #softwareengineering",
+      "creator": "CydexCode",
+      "url": "https://www.youtube.com/watch?v=CYV8L55Psp0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Ultimate DevOps Engineer Roadmap 2026 | Step-by-Step Guide #DevOps #Roadmap #softwareengineering - Complete guide by CydexCode.",
+      "year": 2024
+    },
+    {
+      "title": "Learn HTML In One Video - تعلم HTML في فيديو واحد كورس كامل",
+      "creator": "Elzero Web School",
+      "url": "https://www.youtube.com/watch?v=qfPUMV9J5yw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn HTML In One Video - تعلم HTML في فيديو واحد كورس كامل - Complete guide by Elzero Web School.",
+      "year": 2024
+    },
+    {
+      "title": "Is DevOps an Entry-Level Career? | Should a Fresher Do DevOps Course🤔 | Intellipaat #Shorts",
+      "creator": "Intellipaat",
+      "url": "https://www.youtube.com/watch?v=aH7RIr7iqp8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Is DevOps an Entry-Level Career? | Should a Fresher Do DevOps Course🤔 | Intellipaat #Shorts - Complete guide by Intellipaat.",
+      "year": 2024
+    },
+    {
+      "title": "DevOps - What is the Fastest Way To Learn ?",
+      "creator": "in28minutes",
+      "url": "https://www.youtube.com/watch?v=GM2KRFhi-6w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DevOps - What is the Fastest Way To Learn ? - Complete guide by in28minutes.",
+      "year": 2024
+    },
+    {
+      "title": "DevOps Engineer 3-Step Formula for Fresher Non-IT #devopsengineer #career",
+      "creator": "TrainWithShubham",
+      "url": "https://www.youtube.com/watch?v=sRXvKJkcj1Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DevOps Engineer 3-Step Formula for Fresher Non-IT #devopsengineer #career - Complete guide by TrainWithShubham.",
+      "year": 2024
+    },
+    {
+      "title": "No coding in DevOps? |  Devops Roadmap 2024 | Savinder Puri",
+      "creator": "Savinder Puri",
+      "url": "https://www.youtube.com/watch?v=sj_zXNs9WDU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "No coding in DevOps? |  Devops Roadmap 2024 | Savinder Puri - Complete guide by Savinder Puri.",
+      "year": 2024
+    },
+    {
+      "title": "DevOps Roadmap for Beginners (2025)",
+      "creator": "KodeKloud",
+      "url": "https://www.youtube.com/watch?v=qqQF6MsH8B4",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "DevOps Roadmap for Beginners (2025) - Complete guide by KodeKloud.",
+      "year": 2024
+    },
+    {
+      "title": "What is DevOps? In a nutshell.",
+      "creator": "freeCodeCamp Shorts",
+      "url": "https://www.youtube.com/watch?v=v8WTDY3r9XI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is DevOps? In a nutshell. - Complete guide by freeCodeCamp Shorts.",
+      "year": 2024
+    },
+    {
+      "title": "DevOps Engineer Kaise Bane? | DevOps Engineer Roadmap For 2025 | Intellipaat #Shorts #DevOps",
+      "creator": "Intellipaat",
+      "url": "https://www.youtube.com/watch?v=jk1I5e1bzAg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DevOps Engineer Kaise Bane? | DevOps Engineer Roadmap For 2025 | Intellipaat #Shorts #DevOps - Complete guide by Intellipaat.",
+      "year": 2024
+    },
+    {
+      "title": "Learn DevOps in 10 Steps 🔥 | Complete DevOps Roadmap for 2025 - 2026 🧑‍💻♾️",
+      "creator": "VictoryDeveloper",
+      "url": "https://www.youtube.com/watch?v=OldIkho5v2A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn DevOps in 10 Steps 🔥 | Complete DevOps Roadmap for 2025 - 2026 🧑‍💻♾️ - Complete guide by VictoryDeveloper.",
+      "year": 2024
+    },
+    {
+      "title": "DevOps seekhne se pehle Linux kyun zaroori hai? | DevOps Roadmap 2026 in Hindi",
+      "creator": "Talha Yameen",
+      "url": "https://www.youtube.com/watch?v=1u_7HLuof_I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DevOps seekhne se pehle Linux kyun zaroori hai? | DevOps Roadmap 2026 in Hindi - Complete guide by Talha Yameen.",
+      "year": 2024
+    },
+    {
+      "title": "DevOps Roadmap 2026 🚀 | Complete Beginner to Advanced Career Guide | Learn DevOps Step by Step",
+      "creator": "DevOps Simplified",
+      "url": "https://www.youtube.com/watch?v=oYZe9-Ypw1M",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "DevOps Roadmap 2026 🚀 | Complete Beginner to Advanced Career Guide | Learn DevOps Step by Step - Complete guide by DevOps Simplified.",
+      "year": 2024
+    },
+    {
+      "title": "Devops Roadmap 2026 #codes #devops #engineering #cloudcomputing #programming",
+      "creator": "TechwithR",
+      "url": "https://www.youtube.com/watch?v=pz_B92CNvuY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Devops Roadmap 2026 #codes #devops #engineering #cloudcomputing #programming - Complete guide by TechwithR.",
+      "year": 2024
+    },
+    {
+      "title": "💻 Web Development Skills Roadmap Master the essential Frontend, Backend, Databases & DevOps",
+      "creator": "julián Vélez",
+      "url": "https://www.youtube.com/watch?v=s0qZ4xpH0_Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "💻 Web Development Skills Roadmap Master the essential Frontend, Backend, Databases & DevOps - Complete guide by julián Vélez.",
+      "year": 2024
+    },
+    {
+      "title": "Advice for getting into DevOps as a fresher",
+      "creator": "Chai aur Code",
+      "url": "https://www.youtube.com/watch?v=TVW2--r9jLU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Advice for getting into DevOps as a fresher - Complete guide by Chai aur Code.",
+      "year": 2024
+    },
+    {
+      "title": "📱Data Engineering Roadmap 2026 🚀 Learn Data Engineering FREE from Scratch!💻#dataeng #tech #trending",
+      "creator": "techvlogs",
+      "url": "https://www.youtube.com/watch?v=DbVIQrUvBOA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "📱Data Engineering Roadmap 2026 🚀 Learn Data Engineering FREE from Scratch!💻#dataeng #tech #trending - Complete guide by techvlogs.",
+      "year": 2024
+    },
+    {
+      "title": "The Complete DevOps Roadmap",
+      "creator": "Programming with Mosh",
+      "url": "https://www.youtube.com/watch?v=6GQRb4fGvtk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Complete DevOps Roadmap - Complete guide by Programming with Mosh.",
+      "year": 2024
+    },
+    {
+      "title": "The DevOps Roadmap: Why Learning Tools Isn’t Enough",
+      "creator": "Korio Labs",
+      "url": "https://www.youtube.com/watch?v=slEOHgi1y3Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The DevOps Roadmap: Why Learning Tools Isn’t Enough - Complete guide by Korio Labs.",
+      "year": 2024
+    },
+    {
+      "title": "How to Become a DevOps Engineer in 2026 🚀 | Complete Roadmap",
+      "creator": "CloudFabric",
+      "url": "https://www.youtube.com/watch?v=Jk0BQER_0p4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Become a DevOps Engineer in 2026 🚀 | Complete Roadmap - Complete guide by CloudFabric.",
+      "year": 2024
+    },
+    {
+      "title": "DevOps Bootcamp Announcement",
+      "creator": "Kunal Kushwaha",
+      "url": "https://www.youtube.com/watch?v=ZbG0c87wcM8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DevOps Bootcamp Announcement - Complete guide by Kunal Kushwaha.",
+      "year": 2024
+    },
+    {
+      "title": "You are learning DevOps WRONG!❌ #devops #roadmap",
+      "creator": "Cloud Champ",
+      "url": "https://www.youtube.com/watch?v=9fXD0aQ0apE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "You are learning DevOps WRONG!❌ #devops #roadmap - Complete guide by Cloud Champ.",
+      "year": 2024
+    },
+    {
+      "title": "Should You Learn AWS, DevOps & Cloud Computing in 2025?",
+      "creator": "CodeWithHarry",
+      "url": "https://www.youtube.com/watch?v=lENeZmjD2zc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Should You Learn AWS, DevOps & Cloud Computing in 2025? - Complete guide by CodeWithHarry.",
+      "year": 2024
+    },
+    {
+      "title": "DevOps from Zero to Hero: Build and Deploy a Production API",
+      "creator": "JavaScript Mastery",
+      "url": "https://www.youtube.com/watch?v=H5FAxTBuNM8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DevOps from Zero to Hero: Build and Deploy a Production API - Complete guide by JavaScript Mastery.",
+      "year": 2024
+    },
+    {
+      "title": "DON'T Become a DevOps Engineer - Do THIS Instead",
+      "creator": "AI With Soleyman",
+      "url": "https://www.youtube.com/watch?v=395udE-nPAg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DON'T Become a DevOps Engineer - Do THIS Instead - Complete guide by AI With Soleyman.",
+      "year": 2024
+    },
+    {
+      "title": "Devops Full Course (2025) | DevOps Course FREE | Intellipaat",
+      "creator": "Intellipaat",
+      "url": "https://www.youtube.com/watch?v=saWZQr0RMpw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Devops Full Course (2025) | DevOps Course FREE | Intellipaat - Complete guide by Intellipaat.",
+      "year": 2024
+    },
+    {
+      "title": "The Only DevOps Roadmap You Need For 2026 (In-Depth) | Josh 🔥",
+      "creator": "TrainWithShubham",
+      "url": "https://www.youtube.com/watch?v=h-xaWRGBxC4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Only DevOps Roadmap You Need For 2026 (In-Depth) | Josh 🔥 - Complete guide by TrainWithShubham.",
+      "year": 2024
+    },
+    {
+      "title": "Ai & ML Roadmap | FREE 😲",
+      "creator": "Neeraj Walia",
+      "url": "https://www.youtube.com/watch?v=tiplN2Qc_ws",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ai & ML Roadmap | FREE 😲 - Complete guide by Neeraj Walia.",
+      "year": 2024
+    },
+    {
+      "title": "AI Engineer Roadmap 2026 | 6 Free Playlists In Hindi",
+      "creator": "Data Logic With Shivam",
+      "url": "https://www.youtube.com/watch?v=eT5448N5pSo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AI Engineer Roadmap 2026 | 6 Free Playlists In Hindi - Complete guide by Data Logic With Shivam.",
+      "year": 2024
+    },
+    {
+      "title": "10-week AI Engineer Roadmap | Free resources | Link in description 🚀",
+      "creator": "Shivanjali",
+      "url": "https://www.youtube.com/watch?v=CEJ6cdUX1s0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "10-week AI Engineer Roadmap | Free resources | Link in description 🚀 - Complete guide by Shivanjali.",
+      "year": 2024
+    },
+    {
+      "title": "10-week AI Engineer Roadmap | Free YouTube Videos and Courses 🚀",
+      "creator": "Shivanjali",
+      "url": "https://www.youtube.com/watch?v=--Ol-ABv6Yc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "10-week AI Engineer Roadmap | Free YouTube Videos and Courses 🚀 - Complete guide by Shivanjali.",
+      "year": 2024
+    },
+    {
+      "title": "How to become an AI engineer for 0 dollars #aiengineering #ai",
+      "creator": "Anu Sharma",
+      "url": "https://www.youtube.com/watch?v=Tvqrv81tzV4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to become an AI engineer for 0 dollars #aiengineering #ai - Complete guide by Anu Sharma.",
+      "year": 2024
+    },
+    {
+      "title": "6-month AI Engineer Roadmap | Link in description",
+      "creator": "Shivanjali",
+      "url": "https://www.youtube.com/watch?v=Rz-XLECDNeA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "6-month AI Engineer Roadmap | Link in description - Complete guide by Shivanjali.",
+      "year": 2024
+    },
+    {
+      "title": "The Complete AI Engineer Roadmap 2026 | From Beginner to Expert | AI, ML, DL, LLM, Agents, Projects",
+      "creator": "Tartull education ",
+      "url": "https://www.youtube.com/watch?v=ASJwiqb-OGo",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "The Complete AI Engineer Roadmap 2026 | From Beginner to Expert | AI, ML, DL, LLM, Agents, Projects - Complete guide by Tartull education .",
+      "year": 2024
+    },
+    {
+      "title": "AI Engineer Roadmap 2026 🤖 | Complete Beginner to AI Engineer in 6 Months 🚀",
+      "creator": "Coding Bytes",
+      "url": "https://www.youtube.com/watch?v=QK1_qGH4Rcc",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "AI Engineer Roadmap 2026 🤖 | Complete Beginner to AI Engineer in 6 Months 🚀 - Complete guide by Coding Bytes.",
+      "year": 2024
+    },
+    {
+      "title": "A Practical Guide To Becoming An AI Engineer (2026)",
+      "creator": "CodeHead",
+      "url": "https://www.youtube.com/watch?v=oHu_xWe0agI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "A Practical Guide To Becoming An AI Engineer (2026) - Complete guide by CodeHead.",
+      "year": 2024
+    },
+    {
+      "title": "How To Become An AI Engineer In 2026",
+      "creator": "Erik Cupsa",
+      "url": "https://www.youtube.com/watch?v=qVMdwstXVHY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How To Become An AI Engineer In 2026 - Complete guide by Erik Cupsa.",
+      "year": 2024
+    },
+    {
+      "title": "Do you need maths for AI? 👀 #ai #aiengineer #coding",
+      "creator": "Anu Sharma",
+      "url": "https://www.youtube.com/watch?v=JLppH1wV4lw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Do you need maths for AI? 👀 #ai #aiengineer #coding - Complete guide by Anu Sharma.",
+      "year": 2024
+    },
+    {
+      "title": "🔥How to Become an AI Engineer | Beginner Roadmap 2026 | Intellipaat",
+      "creator": "Intellipaat",
+      "url": "https://www.youtube.com/watch?v=pFyVJeUYtUg",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "🔥How to Become an AI Engineer | Beginner Roadmap 2026 | Intellipaat - Complete guide by Intellipaat.",
+      "year": 2024
+    },
+    {
+      "title": "what's an FDE? ( from ex FDE at Palantir) #aiengineering #ai",
+      "creator": "Anu Sharma",
+      "url": "https://www.youtube.com/watch?v=lAsGfDeB6aI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "what's an FDE? ( from ex FDE at Palantir) #aiengineering #ai - Complete guide by Anu Sharma.",
+      "year": 2024
+    },
+    {
+      "title": "Gen AI Roadmap: 6 Steps to Become AI-Ready",
+      "creator": "Coding Ninjas",
+      "url": "https://www.youtube.com/watch?v=le7Qd3kXF_8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Gen AI Roadmap: 6 Steps to Become AI-Ready - Complete guide by Coding Ninjas.",
+      "year": 2024
+    },
+    {
+      "title": "6 Weeks Roadmap = Forward Deployed Engineer",
+      "creator": "Coding Vyrl",
+      "url": "https://www.youtube.com/watch?v=_pReTvcBZdA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "6 Weeks Roadmap = Forward Deployed Engineer - Complete guide by Coding Vyrl.",
+      "year": 2024
+    },
+    {
+      "title": "AI Engineering Roadmap 2026",
+      "creator": "Gaurav Sen",
+      "url": "https://www.youtube.com/watch?v=dPPK24FaOyw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AI Engineering Roadmap 2026 - Complete guide by Gaurav Sen.",
+      "year": 2024
+    },
+    {
+      "title": "AI Engineer Roadmap 2026 From Python to AI Agents in 6 Months [Full Guide]",
+      "creator": "Rohi Tech Code",
+      "url": "https://www.youtube.com/watch?v=TNK1saVY82o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AI Engineer Roadmap 2026 From Python to AI Agents in 6 Months [Full Guide] - Complete guide by Rohi Tech Code.",
+      "year": 2024
+    },
+    {
+      "title": "AI Engineer Roadmap (20-30LPA) #tech #coding #ai #ml",
+      "creator": "Anu Sharma",
+      "url": "https://www.youtube.com/watch?v=121utQtFcK8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AI Engineer Roadmap (20-30LPA) #tech #coding #ai #ml - Complete guide by Anu Sharma.",
+      "year": 2024
+    },
+    {
+      "title": "AI Automation Engineer Roadmap 2026 | Skills, Tools & Career Path | #Shorts | #Simplilearn",
+      "creator": "Simplilearn",
+      "url": "https://www.youtube.com/watch?v=MRQwTb4VH_A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AI Automation Engineer Roadmap 2026 | Skills, Tools & Career Path | #Shorts | #Simplilearn - Complete guide by Simplilearn.",
+      "year": 2024
+    },
+    {
+      "title": "🔥Gen AI Engineer Roadmap 2026 | Intellipaat",
+      "creator": "Intellipaat",
+      "url": "https://www.youtube.com/watch?v=kbqmvhIi_n4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🔥Gen AI Engineer Roadmap 2026 | Intellipaat - Complete guide by Intellipaat.",
+      "year": 2024
+    },
+    {
+      "title": "AI Engineer Roadmap 2023 !",
+      "creator": "Shweta",
+      "url": "https://www.youtube.com/watch?v=bWOozHQtnY0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AI Engineer Roadmap 2023 ! - Complete guide by Shweta.",
+      "year": 2024
+    },
+    {
+      "title": "The Only AI Engineer Roadmap",
+      "creator": "SKILLORS",
+      "url": "https://www.youtube.com/watch?v=bilsKX5cDkc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Only AI Engineer Roadmap - Complete guide by SKILLORS.",
+      "year": 2024
+    },
+    {
+      "title": "How to Become an AI Engineer in 2026",
+      "creator": "Tech With Tim",
+      "url": "https://www.youtube.com/watch?v=xPI2Dw0y4yU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Become an AI Engineer in 2026 - Complete guide by Tech With Tim.",
+      "year": 2024
+    },
+    {
+      "title": "90 Days AI Engineer FREE Roadmap from Scratch #aiengineering #ai #coding",
+      "creator": "Kushal Vijay",
+      "url": "https://www.youtube.com/watch?v=3VbFp-c5zUs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "90 Days AI Engineer FREE Roadmap from Scratch #aiengineering #ai #coding - Complete guide by Kushal Vijay.",
+      "year": 2024
+    },
+    {
+      "title": "I Tried 35 AI Engineer Courses - Here are top 5",
+      "creator": "Anu Sharma",
+      "url": "https://www.youtube.com/watch?v=YcMUHg8knw0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I Tried 35 AI Engineer Courses - Here are top 5 - Complete guide by Anu Sharma.",
+      "year": 2024
+    },
+    {
+      "title": "AI Learning Path  For 2026- Data Science, Generative and Agentic AI Roadmap",
+      "creator": "Krish Naik",
+      "url": "https://www.youtube.com/watch?v=uaRKRE8oDZ4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AI Learning Path  For 2026- Data Science, Generative and Agentic AI Roadmap - Complete guide by Krish Naik.",
+      "year": 2024
+    },
+    {
+      "title": "AI & Machine Learning Roadmap (No Fluff)",
+      "creator": "CodeWithHarry",
+      "url": "https://www.youtube.com/watch?v=t1h5vHJ0mCQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AI & Machine Learning Roadmap (No Fluff) - Complete guide by CodeWithHarry.",
+      "year": 2024
+    },
+    {
+      "title": "AI Engineer Roadmap | How I'd Learn AI in 2026",
+      "creator": "codebasics",
+      "url": "https://www.youtube.com/watch?v=zwUSZD3t_BU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AI Engineer Roadmap | How I'd Learn AI in 2026 - Complete guide by codebasics.",
+      "year": 2024
+    },
+    {
+      "title": "Learn AI in 6 Months? Complete AI Engineer Roadmap 2027",
+      "creator": "RisingBrain",
+      "url": "https://www.youtube.com/watch?v=HW9qAI39gI4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn AI in 6 Months? Complete AI Engineer Roadmap 2027 - Complete guide by RisingBrain.",
+      "year": 2024
+    },
+    {
+      "title": "How to Become an AI Engineer FAST (2026) | AI Engineering Roadmap",
+      "creator": "Sajjaad Khader",
+      "url": "https://www.youtube.com/watch?v=aAItDrJ8-rE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Become an AI Engineer FAST (2026) | AI Engineering Roadmap - Complete guide by Sajjaad Khader.",
+      "year": 2024
+    },
+    {
+      "title": "AI Engineer Complete RoadMap for 2026 | from basics to AI/ML Advanced",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=t9MJ1gxcJ4w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AI Engineer Complete RoadMap for 2026 | from basics to AI/ML Advanced - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "AI Engineering: A Realistic Roadmap for Beginners",
+      "creator": "Tech With Tim",
+      "url": "https://www.youtube.com/watch?v=d_LbQwoWI7I",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "AI Engineering: A Realistic Roadmap for Beginners - Complete guide by Tech With Tim.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Science and Software Engineering Theory with Briana",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbmfoj2Th9fvxhHIeqFO7wOy",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Computer Science and Software Engineering Theory with Briana - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "(NEW) MERN Stack Full Course | Complete Full Stack Developer Roadmap🚀",
+      "creator": "Sheryians Coding School",
+      "url": "https://www.youtube.com/playlist?list=PLbtI3_MArDOk_A-GnYHPOiHSxlK2Vd3Zn",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "(NEW) MERN Stack Full Course | Complete Full Stack Developer Roadmap🚀 - Complete guide by Sheryians Coding School.",
+      "year": 2024
+    },
+    {
+      "title": "Front End Web Development",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAblKO_wHAvlpZwAYvYPbHKOp",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Front End Web Development - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Front-End Developer Roadmap",
+      "creator": "Elzero Web School",
+      "url": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAzhFD3niPAa1C1gXG4cs14J",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Front-End Developer Roadmap - Complete guide by Elzero Web School.",
+      "year": 2024
+    },
+    {
+      "title": "\"Back End Developer Roadmap 2024\" by freeCodeCamp.org, etc",
+      "creator": "fedekun",
+      "url": "https://www.youtube.com/playlist?list=PLQVo-LjZckOH1d0Kn9gS8tUA2U17Wpgwe",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "\"Back End Developer Roadmap 2024\" by freeCodeCamp.org, etc - Complete guide by fedekun.",
+      "year": 2024
+    },
+    {
+      "title": "FreeCodeCamp - 2 Basic Node & Express - Backend Development and APIs",
+      "creator": "Reboot",
+      "url": "https://www.youtube.com/playlist?list=PLUvKRKFIL7gulsPOezFqEC79m7oK6QUes",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "FreeCodeCamp - 2 Basic Node & Express - Backend Development and APIs - Complete guide by Reboot.",
+      "year": 2024
+    },
+    {
+      "title": "DEVOPS ZERO TO HERO COURSE",
+      "creator": "Abhishek.Veeramalla",
+      "url": "https://www.youtube.com/playlist?list=PLdpzxOOAlwvIKMhk8WhzN1pYoJ1YU8Csa",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "DEVOPS ZERO TO HERO COURSE - Complete guide by Abhishek.Veeramalla.",
+      "year": 2024
+    },
+    {
+      "title": "DevOps Bootcamp",
+      "creator": "Kunal Kushwaha",
+      "url": "https://www.youtube.com/playlist?list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "DevOps Bootcamp - Complete guide by Kunal Kushwaha.",
+      "year": 2024
+    }
+  ]
 }

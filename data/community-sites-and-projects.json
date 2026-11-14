@@ -1,38 +1,1022 @@
 {
-    "name": "Community Sites and Projects",
-    "slug": "community-sites-and-projects",
-    "description": "Explore community-built sites and projects shared by contributors. Want to feature yours too? Submit it through a contribution and we can add it here.",
-    "icon": "https://img.icons8.com/?size=100&id=P4Nt9THXTFyv&format=png&color=000000",
-    "articles": [
-        {
-            "title": "GitHub Visualizer",
-            "url": "https://github-visualizer-olive.vercel.app/"
-        },
-        {
-            "title": "AlgoViz",
-            "url": "https://algovizvps.vercel.app"
-        }
-    ],
-    "playlists": [
-        {
-            "title": "GitHub Visualizer",
-            "creator": "Veer Pratap Singh",
-            "url": "https://github-visualizer-olive.vercel.app/",
-            "language": "English",
-            "difficulty": "beginner",
-            "videoCount": 1,
-            "description": "A community project by Veer Pratap Singh. Explore it, get inspired, and add yours too by contributing to Learning Hub.",
-            "year": 2026
-        },
-        {
-            "title": "AlgoViz",
-            "creator": "Veer Pratap Singh",
-            "url": "https://algovizvps.vercel.app",
-            "language": "English",
-            "difficulty": "beginner",
-            "videoCount": 1,
-            "description": "A community project by Veer Pratap Singh focused on algorithm visualization and learning.",
-            "year": 2026
-        }
-    ]
+  "name": "Community Sites and Projects",
+  "slug": "community-sites-and-projects",
+  "description": "Explore community-built sites and projects shared by contributors. Want to feature yours too? Submit it through a contribution and we can add it here.",
+  "icon": "community-sites-and-projects",
+  "articles": [
+    {
+      "title": "AlgoViz",
+      "url": "https://algovizvps.vercel.app"
+    },
+    {
+      "title": "Electronics 101",
+      "url": "https://electronics-101-six.vercel.app/"
+    },
+    {
+      "title": "Codecrafters - Build Your Own Redis, Git, and Docker",
+      "url": "https://codecrafters.io/"
+    },
+    {
+      "title": "Exercism - 100% Free Coding Practice & Mentorship",
+      "url": "https://exercism.org/"
+    },
+    {
+      "title": "Project Euler - Math & Algorithmic Challenges",
+      "url": "https://projecteuler.net/"
+    },
+    {
+      "title": "CSS Battle - Gamified Code Golf for CSS",
+      "url": "https://cssbattle.dev/"
+    },
+    {
+      "title": "Codewars - Community Code Katas and Challenges",
+      "url": "https://www.codewars.com/"
+    },
+    {
+      "title": "Frontend Practice - Recreate Real Web Applications",
+      "url": "https://www.frontendpractice.com/"
+    },
+    {
+      "title": "Shadcn UI Accessible Component Showcase",
+      "url": "https://ui.shadcn.com/"
+    },
+    {
+      "title": "DevDocs Offline Unified API Documentation",
+      "url": "https://devdocs.io/"
+    },
+    {
+      "title": "LeetCode Algorithmic Problem Solving Platform",
+      "url": "https://leetcode.com/"
+    },
+    {
+      "title": "HackerRank Software Engineering Challenges",
+      "url": "https://www.hackerrank.com/"
+    },
+    {
+      "title": "Build Your Own X - Learn By Recreating Technologies",
+      "url": "https://github.com/codecrafters-io/build-your-own-x"
+    }
+  ],
+  "playlists": [
+    {
+      "title": "AlgoViz",
+      "creator": "Veer Pratap Singh",
+      "url": "https://algovizvps.vercel.app",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "A community project by Veer Pratap Singh focused on algorithm visualization and learning.",
+      "year": 2026
+    },
+    {
+      "title": "Electronics 101",
+      "creator": "Dilum Sanjaya",
+      "url": "https://electronics-101-six.vercel.app/",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "An interactive, browser-based 3D learning platform to learn electronics from scratch with virtual workbenches, circuits, and real-time simulations.",
+      "year": 2026
+    },
+    {
+      "title": "Codecrafters Interactive Platform",
+      "creator": "Codecrafters Inc.",
+      "url": "https://codecrafters.io/",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Recreate complex systems like Redis, Git, SQLite, and Docker from scratch with automated test feedback.",
+      "year": 2024
+    },
+    {
+      "title": "Exercism Community Mentorship Walkthrough",
+      "creator": "Exercism Team",
+      "url": "https://exercism.org/",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Solve test-driven programming exercises with automated feedback and free volunteer human mentoring.",
+      "year": 2024
+    },
+    {
+      "title": "19 Web Dev Projects – HTML, CSS, JavaScript Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=BiA08jfr4RU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "19 Web Dev Projects – HTML, CSS, JavaScript Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "4 Coding Projects Every Beginner Developer Should Build (Not To-Do Apps!)",
+      "creator": "Harshit Yadav",
+      "url": "https://www.youtube.com/watch?v=ztD11KFHzlY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "4 Coding Projects Every Beginner Developer Should Build (Not To-Do Apps!) - Complete guide by Harshit Yadav.",
+      "year": 2024
+    },
+    {
+      "title": "Build 15 JavaScript Projects - Vanilla JavaScript Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=3PHXvlpOkf4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build 15 JavaScript Projects - Vanilla JavaScript Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Three.js by Building 5 Projects",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=UMqNHi1GDAE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Three.js by Building 5 Projects - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "10 JavaScript Projects in 10 Hours - Coding Challenge 🔥",
+      "creator": "Florin Pop",
+      "url": "https://www.youtube.com/watch?v=dtKciwk_si4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "10 JavaScript Projects in 10 Hours - Coding Challenge 🔥 - Complete guide by Florin Pop.",
+      "year": 2024
+    },
+    {
+      "title": "Build and Deploy 3 Modern UI/UX Websites and Get Hired as a Frontend Developer | Full 10-Hour Course",
+      "creator": "JavaScript Mastery",
+      "url": "https://www.youtube.com/watch?v=RbxHZwFtRT4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build and Deploy 3 Modern UI/UX Websites and Get Hired as a Frontend Developer | Full 10-Hour Course - Complete guide by JavaScript Mastery.",
+      "year": 2024
+    },
+    {
+      "title": "10 projects in 3 mins ft JavaScript and Flutter  @PG-LAB #coding #programming #freecodecamp #js",
+      "creator": "ProgrammingLab",
+      "url": "https://www.youtube.com/watch?v=YAfdZ6hkDyE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "10 projects in 3 mins ft JavaScript and Flutter  @PG-LAB #coding #programming #freecodecamp #js - Complete guide by ProgrammingLab.",
+      "year": 2024
+    },
+    {
+      "title": "Build a Rock Paper Scissors Game with HTML, CSS & JavaScript | Beginner to Pro!",
+      "creator": "Code with Me ",
+      "url": "https://www.youtube.com/watch?v=0EQjoRLe1EU",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Build a Rock Paper Scissors Game with HTML, CSS & JavaScript | Beginner to Pro! - Complete guide by Code with Me .",
+      "year": 2024
+    },
+    {
+      "title": "JavaScript Tutorial with Three.js – 5 Projects for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=tPkJLnDqAKk",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "JavaScript Tutorial with Three.js – 5 Projects for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Learn JavaScript by Building 7 Games - Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=ec8vSKJuZTk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn JavaScript by Building 7 Games - Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "\"Tic Tac Toe Game Using HTML, CSS & JavaScript | Mobile Friendly | Free Source Code!",
+      "creator": "Harsh X Code",
+      "url": "https://www.youtube.com/watch?v=cvDGMBhIwh4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "\"Tic Tac Toe Game Using HTML, CSS & JavaScript | Mobile Friendly | Free Source Code! - Complete guide by Harsh X Code.",
+      "year": 2024
+    },
+    {
+      "title": "Build and Deploy a Full AI-Powered Applicant Tracking System",
+      "creator": "JavaScript Mastery",
+      "url": "https://www.youtube.com/watch?v=iYOz165wGkQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build and Deploy a Full AI-Powered Applicant Tracking System - Complete guide by JavaScript Mastery.",
+      "year": 2024
+    },
+    {
+      "title": "10 Must-Try JavaScript Projects for Every Beginner",
+      "creator": "CodeWithSamir",
+      "url": "https://www.youtube.com/watch?v=csaSRCoR6R0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "10 Must-Try JavaScript Projects for Every Beginner - Complete guide by CodeWithSamir.",
+      "year": 2024
+    },
+    {
+      "title": "Son Jump JavaScript Game from Son of Batch 15 | Uplift Code Camp",
+      "creator": "Uplift Code Camp",
+      "url": "https://www.youtube.com/watch?v=gOwem8unCXg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Son Jump JavaScript Game from Son of Batch 15 | Uplift Code Camp - Complete guide by Uplift Code Camp.",
+      "year": 2024
+    },
+    {
+      "title": "Build and Deploy a RAG Chatbot with JavaScript, LangChain.js, Next.js, Vercel, OpenAI",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=d-VKYF4Zow0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build and Deploy a RAG Chatbot with JavaScript, LangChain.js, Next.js, Vercel, OpenAI - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "20 HTML CSS & JavaScript Projects with Source Code",
+      "creator": "DesignWithRehana",
+      "url": "https://www.youtube.com/watch?v=hQtw0LXWPZk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "20 HTML CSS & JavaScript Projects with Source Code - Complete guide by DesignWithRehana.",
+      "year": 2024
+    },
+    {
+      "title": "JavaScript Practice Ke Liye 4 MUFT Free APIs | Bina Key, Bina Signup — Code Scope",
+      "creator": "Code Scope",
+      "url": "https://www.youtube.com/watch?v=seoe0aO7dHc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "JavaScript Practice Ke Liye 4 MUFT Free APIs | Bina Key, Bina Signup — Code Scope - Complete guide by Code Scope.",
+      "year": 2024
+    },
+    {
+      "title": "Building a MathBot Step 1 - freeCodeCamp JavaScript Certification  #programming #coding",
+      "creator": "The Code Zone Skool",
+      "url": "https://www.youtube.com/watch?v=dduBIbKl67o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Building a MathBot Step 1 - freeCodeCamp JavaScript Certification  #programming #coding - Complete guide by The Code Zone Skool.",
+      "year": 2024
+    },
+    {
+      "title": "Build a Neumorphic Fitness App with HTML, CSS & JavaScript 🚀 #shorts #devziaul",
+      "creator": "DevZiaul",
+      "url": "https://www.youtube.com/watch?v=-vmjdrFE5Pc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build a Neumorphic Fitness App with HTML, CSS & JavaScript 🚀 #shorts #devziaul - Complete guide by DevZiaul.",
+      "year": 2024
+    },
+    {
+      "title": "TOP 3 FREE OPEN SOURCE WEBSITES TO LEARN HOW TO CODE👨🏽‍💻",
+      "creator": "IASAPPS",
+      "url": "https://www.youtube.com/watch?v=SGaFscido50",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "TOP 3 FREE OPEN SOURCE WEBSITES TO LEARN HOW TO CODE👨🏽‍💻 - Complete guide by IASAPPS.",
+      "year": 2024
+    },
+    {
+      "title": "Day 020 - 🤯Micro Css order button animation #coding #webdevelopment #freecodecamp #frontend #css",
+      "creator": "Bharath",
+      "url": "https://www.youtube.com/watch?v=3yRw2LOrPZY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Day 020 - 🤯Micro Css order button animation #coding #webdevelopment #freecodecamp #frontend #css - Complete guide by Bharath.",
+      "year": 2024
+    },
+    {
+      "title": "Emoji Rating App Development HTML CSS JavaScript Project",
+      "creator": "Just For Code",
+      "url": "https://www.youtube.com/watch?v=t2oi-HchHKc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Emoji Rating App Development HTML CSS JavaScript Project - Complete guide by Just For Code.",
+      "year": 2024
+    },
+    {
+      "title": "FREE Me Coding Seekho: 2026 Roadmap 🚀",
+      "creator": "Anubhav gupta",
+      "url": "https://www.youtube.com/watch?v=nFVs8qrCs1c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "FREE Me Coding Seekho: 2026 Roadmap 🚀 - Complete guide by Anubhav gupta.",
+      "year": 2024
+    },
+    {
+      "title": "free code camp survey form project #shorts #youtubeshorts #education #freecodecamp",
+      "creator": "ode to study",
+      "url": "https://www.youtube.com/watch?v=Tkry2xNskYU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "free code camp survey form project #shorts #youtubeshorts #education #freecodecamp - Complete guide by ode to study.",
+      "year": 2024
+    },
+    {
+      "title": "HTML, CSS & JavaScript Full Course - Build 15 Projects",
+      "creator": "Codesistency",
+      "url": "https://www.youtube.com/watch?v=kAiX0itnonM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "HTML, CSS & JavaScript Full Course - Build 15 Projects - Complete guide by Codesistency.",
+      "year": 2024
+    },
+    {
+      "title": "Day 10: Form Validation Project | 10 Days, 10 Projects 🚀 #JavaScript #WebDevelopment",
+      "creator": "Code With Mubashir 💻",
+      "url": "https://www.youtube.com/watch?v=f_ITFC1BJjY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Day 10: Form Validation Project | 10 Days, 10 Projects 🚀 #JavaScript #WebDevelopment - Complete guide by Code With Mubashir 💻.",
+      "year": 2024
+    },
+    {
+      "title": "how to create a counter app using javascript in mobile#javascript#freecodecamp#codewithharry#shorts",
+      "creator": "Manali Jadhav @2003",
+      "url": "https://www.youtube.com/watch?v=EG1yEZDR2gw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "how to create a counter app using javascript in mobile#javascript#freecodecamp#codewithharry#shorts - Complete guide by Manali Jadhav @2003.",
+      "year": 2024
+    },
+    {
+      "title": "Animated Tabs with HTML, CSS and JavaScript",
+      "creator": "FredCode",
+      "url": "https://www.youtube.com/watch?v=dTG0FrR2jKA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Animated Tabs with HTML, CSS and JavaScript - Complete guide by FredCode.",
+      "year": 2024
+    },
+    {
+      "title": "How To Master JavaScript",
+      "creator": "ThePrimeagen",
+      "url": "https://www.youtube.com/watch?v=I5_Gx3JNho8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How To Master JavaScript - Complete guide by ThePrimeagen.",
+      "year": 2024
+    },
+    {
+      "title": "3 JavaScript Projects That Get You Hired in 2026 - $110k Salary",
+      "creator": "BuildWithMK",
+      "url": "https://www.youtube.com/watch?v=tHBWEJRuqGA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "3 JavaScript Projects That Get You Hired in 2026 - $110k Salary - Complete guide by BuildWithMK.",
+      "year": 2024
+    },
+    {
+      "title": "Build a Full Stack Book Store App Using React, Node, MongoDB",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=pgw2KPfgK1E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build a Full Stack Book Store App Using React, Node, MongoDB - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "JavaScript Tutorial (2024) for Beginners to Pro (with Notes, Projects & Practice Questions)",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=VlPiVmYuoqw",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "JavaScript Tutorial (2024) for Beginners to Pro (with Notes, Projects & Practice Questions) - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "#1.1 LIFE  TIMER |  10 HTML CSS JAVASCRIPT Practice Projects for Beginners | HINDI",
+      "creator": "Do Some Coding",
+      "url": "https://www.youtube.com/watch?v=5zV-wLkhTto",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "#1.1 LIFE  TIMER |  10 HTML CSS JAVASCRIPT Practice Projects for Beginners | HINDI - Complete guide by Do Some Coding.",
+      "year": 2024
+    },
+    {
+      "title": "Blazor Course - Use ASP.NET Core to Build Full-Stack C# Web Apps",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=4G_BzLxa9Nw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Blazor Course - Use ASP.NET Core to Build Full-Stack C# Web Apps - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "10 JavaScript Projects for Beginners | Learn JS by Building Real Apps | Javascript Full Course #16",
+      "creator": "Coder Army",
+      "url": "https://www.youtube.com/watch?v=dQDteO0RXrc",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "10 JavaScript Projects for Beginners | Learn JS by Building Real Apps | Javascript Full Course #16 - Complete guide by Coder Army.",
+      "year": 2024
+    },
+    {
+      "title": "Build a Full Stack AI Note Taking App with Next.js and Supabase – Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=6ChzCaljcaI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build a Full Stack AI Note Taking App with Next.js and Supabase – Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Full Stack React & Firebase Tutorial - Build a social media app",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=m_u6P5k0vP0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Full Stack React & Firebase Tutorial - Build a social media app - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Python Projects for Beginners – Master Problem-Solving! 🚀",
+      "creator": "Programming with Mosh",
+      "url": "https://www.youtube.com/watch?v=yVl_G-F7m8c",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Python Projects for Beginners – Master Problem-Solving! 🚀 - Complete guide by Programming with Mosh.",
+      "year": 2024
+    },
+    {
+      "title": "Build a Shopping Cart with JavaScript – Project Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=cT_ZYrS3tKc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build a Shopping Cart with JavaScript – Project Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "TUTO 25: I Built a Project Idea Board in JavaScript! (FreeCodeCamp Challenge)",
+      "creator": "Alain Dev",
+      "url": "https://www.youtube.com/watch?v=ksljQsCf99E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "TUTO 25: I Built a Project Idea Board in JavaScript! (FreeCodeCamp Challenge) - Complete guide by Alain Dev.",
+      "year": 2024
+    },
+    {
+      "title": "Python Project Tutorial - Your First Python Project",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=_ZqAVck-WeM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Python Project Tutorial - Your First Python Project - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "TUTO 24: I Built a Voting Poll App with JavaScript! (FreeCodeCamp Challenge)",
+      "creator": "Alain Dev",
+      "url": "https://www.youtube.com/watch?v=2ZLKNfH_-0Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "TUTO 24: I Built a Voting Poll App with JavaScript! (FreeCodeCamp Challenge) - Complete guide by Alain Dev.",
+      "year": 2024
+    },
+    {
+      "title": "12 Beginner Python Projects - Coding Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=8ext9G7xspg",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "12 Beginner Python Projects - Coding Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Full Stack Instagram Clone with Laravel and MongoDB – Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=VK-2j5CNsvM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Full Stack Instagram Clone with Laravel and MongoDB – Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "#1.2 Life Timer | 10 HTML CSS JAVASCRIPT Practice Projects for Beginners | HINDI",
+      "creator": "Do Some Coding",
+      "url": "https://www.youtube.com/watch?v=7j4Cjawfxp8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "#1.2 Life Timer | 10 HTML CSS JAVASCRIPT Practice Projects for Beginners | HINDI - Complete guide by Do Some Coding.",
+      "year": 2024
+    },
+    {
+      "title": "Day 7 - Is FreeCodeCamp good? | Learning Python",
+      "creator": "Dipta Jyoti Pal",
+      "url": "https://www.youtube.com/watch?v=jvSI32iZOdg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Day 7 - Is FreeCodeCamp good? | Learning Python - Complete guide by Dipta Jyoti Pal.",
+      "year": 2024
+    },
+    {
+      "title": "Top 3 Real-World Python Projects You MUST Build in 2026! 🐍🔥 | AI + Robotics + Automation #codingbat",
+      "creator": "LearnWithZahid",
+      "url": "https://www.youtube.com/watch?v=MIiwjqRWnxI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top 3 Real-World Python Projects You MUST Build in 2026! 🐍🔥 | AI + Robotics + Automation #codingbat - Complete guide by LearnWithZahid.",
+      "year": 2024
+    },
+    {
+      "title": "Junior vs senior python developer 🐍 | #python #coding #programming #shorts  @Codingknowledge-yt",
+      "creator": "Coding knowledge ",
+      "url": "https://www.youtube.com/watch?v=Mf9GCn_LsUI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Junior vs senior python developer 🐍 | #python #coding #programming #shorts  @Codingknowledge-yt - Complete guide by Coding knowledge .",
+      "year": 2024
+    },
+    {
+      "title": "20 Beginner Python Projects",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=pdy3nh1tn6I",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "20 Beginner Python Projects - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Top 4 Python Project Ideas",
+      "creator": "LIVEWIRE India",
+      "url": "https://www.youtube.com/watch?v=DSVRjq0oi2Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top 4 Python Project Ideas - Complete guide by LIVEWIRE India.",
+      "year": 2024
+    },
+    {
+      "title": "How to start coding | Start Coding with These 3 Beginner Projects #freecodecamp #devcommunity",
+      "creator": "DeCodeWithSam",
+      "url": "https://www.youtube.com/watch?v=R9s_QZAnSMI",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "How to start coding | Start Coding with These 3 Beginner Projects #freecodecamp #devcommunity - Complete guide by DeCodeWithSam.",
+      "year": 2024
+    },
+    {
+      "title": "Build a Report Card Printer - FCC Python Course",
+      "creator": "mycodeguide",
+      "url": "https://www.youtube.com/watch?v=PwAZvTecWJM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build a Report Card Printer - FCC Python Course - Complete guide by mycodeguide.",
+      "year": 2024
+    },
+    {
+      "title": "FreeCodeCamp - Python Project - Full Course - Step 1 through 19 - Pin Extractor",
+      "creator": "Learning All About Coding",
+      "url": "https://www.youtube.com/watch?v=4Fs-rMtN_mA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "FreeCodeCamp - Python Project - Full Course - Step 1 through 19 - Pin Extractor - Complete guide by Learning All About Coding.",
+      "year": 2024
+    },
+    {
+      "title": "Make Your Own Calculator in Python🐍",
+      "creator": "Croma Campus",
+      "url": "https://www.youtube.com/watch?v=YEki4V3wVnY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Make Your Own Calculator in Python🐍 - Complete guide by Croma Campus.",
+      "year": 2024
+    },
+    {
+      "title": "Python for Beginners with Hands-On Projects",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=oDOw5tB3Udw",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Python for Beginners with Hands-On Projects - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Build an Employee Profile Generator - FCC Python Course",
+      "creator": "mycodeguide",
+      "url": "https://www.youtube.com/watch?v=rRx3XwN7y0g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build an Employee Profile Generator - FCC Python Course - Complete guide by mycodeguide.",
+      "year": 2024
+    },
+    {
+      "title": "Build a Strong Portfolio Projects in Python and JavaScript - Part 2 - Materials",
+      "creator": "Tech Studio For Beginners",
+      "url": "https://www.youtube.com/watch?v=NislMj6gLfo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build a Strong Portfolio Projects in Python and JavaScript - Part 2 - Materials - Complete guide by Tech Studio For Beginners.",
+      "year": 2024
+    },
+    {
+      "title": "Build a Strong Portfolio Projects in Python and JavaScript - Part 1 - Materials",
+      "creator": "Tech Studio For Beginners",
+      "url": "https://www.youtube.com/watch?v=TimFKQwSem4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build a Strong Portfolio Projects in Python and JavaScript - Part 1 - Materials - Complete guide by Tech Studio For Beginners.",
+      "year": 2024
+    },
+    {
+      "title": "Python tips and tricks 07 | python for beginners #sorts  @CodeWithHarry  #programming  @freecodecamp",
+      "creator": "OHAS TECH",
+      "url": "https://www.youtube.com/watch?v=wajo-F8VTEU",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Python tips and tricks 07 | python for beginners #sorts  @CodeWithHarry  #programming  @freecodecamp - Complete guide by OHAS TECH.",
+      "year": 2024
+    },
+    {
+      "title": "FreeCodeCamp - Python Project - Step 19 of 19 - Pin Extractor",
+      "creator": "Learning All About Coding",
+      "url": "https://www.youtube.com/watch?v=1ARacHTQ-Dw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "FreeCodeCamp - Python Project - Step 19 of 19 - Pin Extractor - Complete guide by Learning All About Coding.",
+      "year": 2024
+    },
+    {
+      "title": "Angular vs React Funny Video | VueJS | Solid JS",
+      "creator": "Programming with Rakesh",
+      "url": "https://www.youtube.com/watch?v=LLbMm17MwBs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Angular vs React Funny Video | VueJS | Solid JS - Complete guide by Programming with Rakesh.",
+      "year": 2024
+    },
+    {
+      "title": "4 Projects to LEARN REACT ! | Beginners to Advance | #webdevelopment #reactjs",
+      "creator": "Dev Code",
+      "url": "https://www.youtube.com/watch?v=ds6_Gkr79rY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "4 Projects to LEARN REACT ! | Beginners to Advance | #webdevelopment #reactjs - Complete guide by Dev Code.",
+      "year": 2024
+    },
+    {
+      "title": "How to Learn React for FREE in 2025 ⚛️🔥",
+      "creator": "Syntax Lattice",
+      "url": "https://www.youtube.com/watch?v=Z_-G4jV_DII",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Learn React for FREE in 2025 ⚛️🔥 - Complete guide by Syntax Lattice.",
+      "year": 2024
+    },
+    {
+      "title": "Learn React With This ONE Project",
+      "creator": "Tech With Tim",
+      "url": "https://www.youtube.com/watch?v=G6D9cBaLViA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn React With This ONE Project - Complete guide by Tech With Tim.",
+      "year": 2024
+    },
+    {
+      "title": "Build a currency converter app and practice your React skills",
+      "creator": "freeCodeCamp Shorts",
+      "url": "https://www.youtube.com/watch?v=--dYXEQ_BqU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build a currency converter app and practice your React skills - Complete guide by freeCodeCamp Shorts.",
+      "year": 2024
+    },
+    {
+      "title": "Six Quick Python Projects",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=SqvVm3QiQVk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Six Quick Python Projects - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "React js weather app project for beginners",
+      "creator": "Nishant Singh Chandel",
+      "url": "https://www.youtube.com/watch?v=2rMGKTSPWkI",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "React js weather app project for beginners - Complete guide by Nishant Singh Chandel.",
+      "year": 2024
+    },
+    {
+      "title": "Build 25 React Projects – Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=5ZdHfJVAY-s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build 25 React Projects – Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Use the Lifecycle Method componentDidMount|freecodecamp basic React |React tutorial for beginners",
+      "creator": "edtech by meera",
+      "url": "https://www.youtube.com/watch?v=NxP6AhYSJdE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Use the Lifecycle Method componentDidMount|freecodecamp basic React |React tutorial for beginners - Complete guide by edtech by meera.",
+      "year": 2024
+    },
+    {
+      "title": "Access props using this.props - Basic React freeCodeCamp",
+      "creator": "edtech by meera",
+      "url": "https://www.youtube.com/watch?v=882QeRqwfq4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Access props using this.props - Basic React freeCodeCamp - Complete guide by edtech by meera.",
+      "year": 2024
+    },
+    {
+      "title": "4 Beginner-friendly React Js Projects To Make Learning Easier",
+      "creator": "Code Design Lab",
+      "url": "https://www.youtube.com/watch?v=JgzERyyYU-I",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "4 Beginner-friendly React Js Projects To Make Learning Easier - Complete guide by Code Design Lab.",
+      "year": 2024
+    },
+    {
+      "title": "React Fundamentals - Full Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=6Ied4aZxUzc",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "React Fundamentals - Full Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "3 Projects To Learn ReactJS #coding",
+      "creator": "Kodaps Academy",
+      "url": "https://www.youtube.com/watch?v=faV4ab1C5jM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "3 Projects To Learn ReactJS #coding - Complete guide by Kodaps Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Code 15 React Projects - Complete Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=a_7Z7C_JCyo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Code 15 React Projects - Complete Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "React JS Tutorial – Build a Weather App With Cities Autocomplete",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=Reny0cTTv24",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "React JS Tutorial – Build a Weather App With Cities Autocomplete - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "MERN Stack Tutorial - Book Store Project",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=-42K44A1oMA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MERN Stack Tutorial - Book Store Project - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "🚀🔥 React & Redux Complete Course (2024) with Projects | Notes | Free Certification",
+      "creator": "Complete Coding by Prashant Sir",
+      "url": "https://www.youtube.com/watch?v=eILUmCJhl64",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🚀🔥 React & Redux Complete Course (2024) with Projects | Notes | Free Certification - Complete guide by Complete Coding by Prashant Sir.",
+      "year": 2024
+    },
+    {
+      "title": "React JavaScript Framework for Beginners – Project-Based Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=u6gSSpfsoOQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "React JavaScript Framework for Beginners – Project-Based Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Learn React by Building an eCommerce Site - Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=1DklrGoAxDE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn React by Building an eCommerce Site - Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Build and Deploy an Instagram Clone with React and Firebase – Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=RMScMwY2B6Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build and Deploy an Instagram Clone with React and Firebase – Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Build a LinkedIn Clone with React and Firebase – Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=HimR8Xtz17U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build a LinkedIn Clone with React and Firebase – Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Full Stack Next.js & Supabase Twitter Clone – Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=QdxUZhLHZiA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Full Stack Next.js & Supabase Twitter Clone – Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Yii2 PHP Framework - Full Course (Build a YouTube Clone)",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=whuIf33v2Ug",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Yii2 PHP Framework - Full Course (Build a YouTube Clone) - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Build and Deploy a LeetCode Clone with React, Next JS, TypeScript, Tailwind CSS, Firebase",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=GnodscC2p-A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build and Deploy a LeetCode Clone with React, Next JS, TypeScript, Tailwind CSS, Firebase - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Build and Deploy Notion Clone – Full Stack Tutorial (NextJS 13, DALL•E, DrizzleORM, OpenAI, Vercel)",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=qDunJ0wVIec",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build and Deploy Notion Clone – Full Stack Tutorial (NextJS 13, DALL•E, DrizzleORM, OpenAI, Vercel) - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Code a Minecraft Clone with JavaScript, React, Three.js – Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=qpOZup_3P_A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Code a Minecraft Clone with JavaScript, React, Three.js – Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter App Development Course – Build a Twitter Clone with Appwrite and Riverpod",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=njLEDvoDjtk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Flutter App Development Course – Build a Twitter Clone with Appwrite and Riverpod - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Master React JS by Building Real Projects",
+      "creator": "JavaScript Mastery",
+      "url": "https://www.youtube.com/playlist?list=PL6QREj8te1P6wX9m5KnicnDVEucbOPsqR",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Master React JS by Building Real Projects - Complete guide by JavaScript Mastery.",
+      "year": 2024
+    },
+    {
+      "title": "Build Real JavaScript Projects (FreeCodeCamp Challenges)",
+      "creator": "Alain Dev",
+      "url": "https://www.youtube.com/playlist?list=PLPbILVuc6xlR04ICAkVn8g01w-HP4c5SR",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Build Real JavaScript Projects (FreeCodeCamp Challenges) - Complete guide by Alain Dev.",
+      "year": 2024
+    },
+    {
+      "title": "10 HTML CSS JAVASCRIPT Practice Projects for beginners - Practice and Learn | Hindi | Playlist",
+      "creator": "Do Some Coding",
+      "url": "https://www.youtube.com/playlist?list=PLPppPPmk0i3gRIXCO2e1nEYyU-WMA_MDJ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "10 HTML CSS JAVASCRIPT Practice Projects for beginners - Practice and Learn | Hindi | Playlist - Complete guide by Do Some Coding.",
+      "year": 2024
+    },
+    {
+      "title": "FreeCodeCamp - Python Couse (Full-stack developer)",
+      "creator": "mycodeguide",
+      "url": "https://www.youtube.com/playlist?list=PL3kFYvFg__ypsOofPfUVXPZhMLpijndeA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "FreeCodeCamp - Python Couse (Full-stack developer) - Complete guide by mycodeguide.",
+      "year": 2024
+    },
+    {
+      "title": "FreeCodeCamp - Python Project - Pin Extractor",
+      "creator": "Learning All About Coding",
+      "url": "https://www.youtube.com/playlist?list=PL9Og5eFkOa3Lc9B_AnJKu5kdlNLRW5Qc4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "FreeCodeCamp - Python Project - Pin Extractor - Complete guide by Learning All About Coding.",
+      "year": 2024
+    }
+  ]
 }

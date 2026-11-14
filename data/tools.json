@@ -1,24 +1,3300 @@
 {
-    "name": "Tools",
-    "slug": "tools",
-    "description": "Explore useful tools and utility websites shared by contributors. Want to feature one here? Submit it through a contribution and we can add it.",
-    "icon": "https://img.icons8.com/?size=100&id=ISeBB5SFp53c&format=png&color=000000",
-    "articles": [
-        {
-            "title": "ImageLocal",
-            "url": "https://imagelocal.site/"
-        }
-    ],
-    "playlists": [
-        {
-            "title": "ImageLocal",
-            "creator": "ImageLocal",
-            "url": "https://imagelocal.site/",
-            "language": "English",
-            "difficulty": "beginner",
-            "videoCount": 1,
-            "description": "A useful web tool you can add to your developer toolkit.",
-            "year": 2026
-        }
-    ]
+  "name": "Tools",
+  "slug": "tools",
+  "description": "Explore useful tools and utility websites shared by contributors. Want to feature one here? Submit it through a contribution and we can add it.",
+  "icon": "tools",
+  "articles": [
+    {
+      "title": "ImageLocal",
+      "url": "https://imagelocal.site/"
+    },
+    {
+      "title": "Regex101 - Interactive Regex Tester and Debugger",
+      "url": "https://regex101.com/"
+    },
+    {
+      "title": "Can I Use - Browser Web API Compatibility Tables",
+      "url": "https://caniuse.com/"
+    },
+    {
+      "title": "DevDocs Fast Searchable API Documentation",
+      "url": "https://devdocs.io/"
+    },
+    {
+      "title": "Bundlephobia - Check Javascript Package Costs",
+      "url": "https://bundlephobia.com/"
+    },
+    {
+      "title": "CyberChef - The Cyber Swiss Army Knife",
+      "url": "https://gchq.github.io/CyberChef/"
+    },
+    {
+      "title": "Ray.so - Beautiful Code Snippet Screenshots",
+      "url": "https://ray.so/"
+    },
+    {
+      "title": "Carbon - Create and Share Code Images",
+      "url": "https://carbon.now.sh/"
+    },
+    {
+      "title": "Transform Tools - Polyglot Code Converters",
+      "url": "https://transform.tools/"
+    },
+    {
+      "title": "Excalidraw - Virtual Hand-Drawn Whiteboard",
+      "url": "https://excalidraw.com/"
+    },
+    {
+      "title": "Crontab Guru - The Cron Schedule Expression Editor",
+      "url": "https://crontab.guru/"
+    },
+    {
+      "title": "JSON Crack - Visualize JSON into Interactive Graphs",
+      "url": "https://jsoncrack.com/"
+    },
+    {
+      "title": "HTTPie - Modern Human-Friendly HTTP Client",
+      "url": "https://httpie.io/"
+    },
+    {
+      "title": "Kubernetes Official Documentation & Interactive Tutorials",
+      "url": "https://kubernetes.io/docs/home/"
+    },
+    {
+      "title": "Terraform Official Documentation & Tutorials",
+      "url": "https://developer.hashicorp.com/terraform/docs"
+    },
+    {
+      "title": "Docker Official Documentation & Guides",
+      "url": "https://docs.docker.com/"
+    },
+    {
+      "title": "OverAPI - Collected Cheatsheets for Developers",
+      "url": "https://overapi.com/"
+    },
+    {
+      "title": "Postman Learning Center & API Testing Guides",
+      "url": "https://learning.postman.com/docs/getting-started/overview/"
+    },
+    {
+      "title": "NGINX Official Documentation & Beginner's Guide",
+      "url": "https://nginx.org/en/docs/beginners_guide.html"
+    },
+    {
+      "title": "Vim Adventures - Learn Vim While Playing a Game",
+      "url": "https://vim-adventures.com/"
+    }
+  ],
+  "playlists": [
+    {
+      "title": "ImageLocal",
+      "creator": "ImageLocal",
+      "url": "https://imagelocal.site/",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "A useful web tool you can add to your developer toolkit.",
+      "year": 2026
+    },
+    {
+      "title": "Regex101 and Regular Expressions Masterclass",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=rhzKDrUiJVk",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn regular expression syntax, flags, groups, quantifiers, and test them with online debuggers.",
+      "year": 2022
+    },
+    {
+      "title": "Git and GitHub for Beginners",
+      "creator": "Kevin Stratvert",
+      "url": "https://www.youtube.com/watch?v=mJ-qvsxPHpY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Step-by-step introduction to installing Git, commits, branches, pushing to GitHub, and pull requests.",
+      "year": 2022
+    },
+    {
+      "title": "Chrome DevTools Crash Course for Developers",
+      "creator": "Traversy Media",
+      "url": "https://www.youtube.com/watch?v=x4q86IjJFag",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Master elements inspection, network waterfall tabs, console debugging, storage inspection, and performance profiling.",
+      "year": 2021
+    },
+    {
+      "title": "Postman API Testing and Development Crash Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=VywxIQ2ZXw4",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn HTTP requests, headers, query parameters, authentication tokens, and automated test collections in Postman.",
+      "year": 2022
+    },
+    {
+      "title": "Docker Tutorial for Beginners",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=3c-iBn73dDE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Practical introduction to containerization, Dockerfiles, images, containers, networks, and Docker Compose.",
+      "year": 2022
+    },
+    {
+      "title": "Terminal Productivity & Modern CLI Tools",
+      "creator": "Dreams of Code",
+      "url": "https://www.youtube.com/watch?v=DzNmUNvnB04",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Supercharge your terminal workflow with zsh, tmux, ripgrep, fzf, and modern command line developer utilities.",
+      "year": 2023
+    },
+    {
+      "title": "Ultimate Docker Compose Tutorial",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=SXwC9fSwct8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ultimate Docker Compose Tutorial - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "What is CICD Pipeline? CICD process explained with Hands On Project",
+      "creator": "Cloud Champ",
+      "url": "https://www.youtube.com/watch?v=G1u4WBdlWgU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is CICD Pipeline? CICD process explained with Hands On Project - Complete guide by Cloud Champ.",
+      "year": 2024
+    },
+    {
+      "title": "HashiCorp Vault Installation - Part 1 | HashiCorp Vault tutorial series",
+      "creator": "Rahul Wagh",
+      "url": "https://www.youtube.com/watch?v=-sU0O82fdZs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "HashiCorp Vault Installation - Part 1 | HashiCorp Vault tutorial series - Complete guide by Rahul Wagh.",
+      "year": 2024
+    },
+    {
+      "title": "ChatGPT Tutorial - Use ChatGPT for DevOps tasks to 10x Your Productivity",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=l-kE11fhfaQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "ChatGPT Tutorial - Use ChatGPT for DevOps tasks to 10x Your Productivity - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Docker & Kubernetes EXPLAINED | DevOps Brainrot",
+      "creator": "Vishakha Sadhwani",
+      "url": "https://www.youtube.com/watch?v=WEf2X7Ai2bg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Docker & Kubernetes EXPLAINED | DevOps Brainrot - Complete guide by Vishakha Sadhwani.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Docker in 2026 - Complete Roadmap Beginner to Pro",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=zFa9_K8BS8I",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn Docker in 2026 - Complete Roadmap Beginner to Pro - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "What is a Docker Container? Docker Demo || Docker Tutorial 2",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=GeqaTjKMWeY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is a Docker Container? Docker Demo || Docker Tutorial 2 - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "STOP Learning Kubernetes (Do This First)",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=keZN3i23qXs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "STOP Learning Kubernetes (Do This First) - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Docker Crash Course for Absolute Beginners [NEW]",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=pg19Z8LL06w",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Docker Crash Course for Absolute Beginners [NEW] - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "What is Ansible | Ansible Playbook explained | Ansible Tutorial for Beginners",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=1id6ERvfozo",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "What is Ansible | Ansible Playbook explained | Ansible Tutorial for Beginners - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "What is Docker? | Docker Explained in 60 Seconds | Intellipaat #shorts",
+      "creator": "Intellipaat",
+      "url": "https://www.youtube.com/watch?v=mPuT-xlWfs8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Docker? | Docker Explained in 60 Seconds | Intellipaat #shorts - Complete guide by Intellipaat.",
+      "year": 2024
+    },
+    {
+      "title": "Piyush Garg's Docker Course  Mastering Containerization #docker #dockercontainer #kubernetes #devops",
+      "creator": "Piyush Garg",
+      "url": "https://www.youtube.com/watch?v=9oFke-nA0Jk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Piyush Garg's Docker Course  Mastering Containerization #docker #dockercontainer #kubernetes #devops - Complete guide by Piyush Garg.",
+      "year": 2024
+    },
+    {
+      "title": "Docker vs Kubernetes explained simply",
+      "creator": "NextWork",
+      "url": "https://www.youtube.com/watch?v=As1oifdNWB4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Docker vs Kubernetes explained simply - Complete guide by NextWork.",
+      "year": 2024
+    },
+    {
+      "title": "What is Docker? Docker container concept explained || Docker Tutorial 1",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=jPdIRX6q4jA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Docker? Docker container concept explained || Docker Tutorial 1 - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Class - 1 What is Docker Container? | In-depth discussion about Docker technology | By Ram Sir",
+      "creator": "Linux Wale Guruji",
+      "url": "https://www.youtube.com/watch?v=MzhD6ZzC9UM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Class - 1 What is Docker Container? | In-depth discussion about Docker technology | By Ram Sir - Complete guide by Linux Wale Guruji.",
+      "year": 2024
+    },
+    {
+      "title": "Docker explained for dummies 🤪",
+      "creator": "Sajjaad Khader",
+      "url": "https://www.youtube.com/watch?v=NRVFXiVIBHE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Docker explained for dummies 🤪 - Complete guide by Sajjaad Khader.",
+      "year": 2024
+    },
+    {
+      "title": "Docker kaise kaam karta hai? Dockerfile, layers, cache, registry aur container | Hindi",
+      "creator": "tech how it works",
+      "url": "https://www.youtube.com/watch?v=CxuZfzPTpM0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Docker kaise kaam karta hai? Dockerfile, layers, cache, registry aur container | Hindi - Complete guide by tech how it works.",
+      "year": 2024
+    },
+    {
+      "title": "How a work week of a Tech CEO looks like | Vlog #2",
+      "creator": "Nana Janashia",
+      "url": "https://www.youtube.com/watch?v=LVATqGQOJfU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How a work week of a Tech CEO looks like | Vlog #2 - Complete guide by Nana Janashia.",
+      "year": 2024
+    },
+    {
+      "title": "Docker Container vs Virtual Machine | Visually Explained #docker #systemdesign",
+      "creator": "StackBit ",
+      "url": "https://www.youtube.com/watch?v=BmhQzoujb10",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Docker Container vs Virtual Machine | Visually Explained #docker #systemdesign - Complete guide by StackBit .",
+      "year": 2024
+    },
+    {
+      "title": "Class - 2 Docker Training - Container Architecture",
+      "creator": "Linux Wale Guruji",
+      "url": "https://www.youtube.com/watch?v=qmyf5jxN5Iw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Class - 2 Docker Training - Container Architecture - Complete guide by Linux Wale Guruji.",
+      "year": 2024
+    },
+    {
+      "title": "Docker",
+      "creator": "QTN Innovation ",
+      "url": "https://www.youtube.com/watch?v=eUejlzzr7dE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Docker - Complete guide by QTN Innovation .",
+      "year": 2024
+    },
+    {
+      "title": "4 LEVELS Of Docker 🐳👩🏻‍💻⚙️",
+      "creator": "Vishakha Sadhwani",
+      "url": "https://www.youtube.com/watch?v=TCXTPBYWKRc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "4 LEVELS Of Docker 🐳👩🏻‍💻⚙️ - Complete guide by Vishakha Sadhwani.",
+      "year": 2024
+    },
+    {
+      "title": "Docker Tutorial for beginners - Complete One Shot",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=exmSJpJvIPs",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Docker Tutorial for beginners - Complete One Shot - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "Docker Tutorial for Beginners: Complete Setup to Compose #shorts",
+      "creator": "Works On First Try",
+      "url": "https://www.youtube.com/watch?v=Hn0OCvZDJro",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Docker Tutorial for Beginners: Complete Setup to Compose #shorts - Complete guide by Works On First Try.",
+      "year": 2024
+    },
+    {
+      "title": "Docker Logs Explained 🔥 Troubleshoot Containers Like a DevOps Engineer #Docker",
+      "creator": "Innocent Coder",
+      "url": "https://www.youtube.com/watch?v=70-d7H4YYYE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Docker Logs Explained 🔥 Troubleshoot Containers Like a DevOps Engineer #Docker - Complete guide by Innocent Coder.",
+      "year": 2024
+    },
+    {
+      "title": "you need to learn Docker RIGHT NOW!! // Docker Containers 101",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/watch?v=eGz9DS-aIeY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "you need to learn Docker RIGHT NOW!! // Docker Containers 101 - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "Docker explained in 45 seconds 📦 #Shorts",
+      "creator": "Tech IT with Maharramli",
+      "url": "https://www.youtube.com/watch?v=vIPJ__zCFe8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Docker explained in 45 seconds 📦 #Shorts - Complete guide by Tech IT with Maharramli.",
+      "year": 2024
+    },
+    {
+      "title": "Docker behind the scenes explained #devops #docker #kubernetes #tech #job #interview #explained",
+      "creator": "TechWorld with Sandesh",
+      "url": "https://www.youtube.com/watch?v=21GmGQAqUoo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Docker behind the scenes explained #devops #docker #kubernetes #tech #job #interview #explained - Complete guide by TechWorld with Sandesh.",
+      "year": 2024
+    },
+    {
+      "title": "Docker explained in easiest way possible! VM (Virtual Machines) Vs Docker? Understand the difference",
+      "creator": "Keerti Purswani",
+      "url": "https://www.youtube.com/watch?v=3D-Bhpd6dxw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Docker explained in easiest way possible! VM (Virtual Machines) Vs Docker? Understand the difference - Complete guide by Keerti Purswani.",
+      "year": 2024
+    },
+    {
+      "title": "It works on my machine.\" Docker kills this sentence 🐳",
+      "creator": "Techyzncode",
+      "url": "https://www.youtube.com/watch?v=xfVpu1bTDDc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "It works on my machine.\" Docker kills this sentence 🐳 - Complete guide by Techyzncode.",
+      "year": 2024
+    },
+    {
+      "title": "👨‍💻 3 minutes on whether AI will eat DevOps jobs",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=krG1iDQMGKA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "👨‍💻 3 minutes on whether AI will eat DevOps jobs - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Docker with this free Project",
+      "creator": "NextWork",
+      "url": "https://www.youtube.com/watch?v=LoxwcsawZCM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Docker with this free Project - Complete guide by NextWork.",
+      "year": 2024
+    },
+    {
+      "title": "Docker 🐳 vs Kubernetes ☸️  Must-Know Differences for DevOps! ⚡",
+      "creator": "CODECRAFT",
+      "url": "https://www.youtube.com/watch?v=1xfR0xpSWME",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Docker 🐳 vs Kubernetes ☸️  Must-Know Differences for DevOps! ⚡ - Complete guide by CODECRAFT.",
+      "year": 2024
+    },
+    {
+      "title": "Docker Health Check vs Restart Policy Explained! #Docker #DevOps",
+      "creator": "Innocent Coder",
+      "url": "https://www.youtube.com/watch?v=fvVT3-F52Gs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Docker Health Check vs Restart Policy Explained! #Docker #DevOps - Complete guide by Innocent Coder.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Docker – Full DevOps Course for Deploying Containerized Apps",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=rjjES5IsPdg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Docker – Full DevOps Course for Deploying Containerized Apps - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Docker on Linux in 60 Seconds: Run, Compose, Clean Up #docker",
+      "creator": "DeciusAc",
+      "url": "https://www.youtube.com/watch?v=dbT6Lr4mPJo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Docker on Linux in 60 Seconds: Run, Compose, Clean Up #docker - Complete guide by DeciusAc.",
+      "year": 2024
+    },
+    {
+      "title": "What is Docker? #container #java #python #javascript",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=QjgLo7K2eMI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Docker? #container #java #python #javascript - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "What is Docker & How Does It Work? 🤔",
+      "creator": "StacheOps",
+      "url": "https://www.youtube.com/watch?v=P1e2_Jhj6NM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Docker & How Does It Work? 🤔 - Complete guide by StacheOps.",
+      "year": 2024
+    },
+    {
+      "title": "What is DOCKER? (Explained in 1 Minute) #shorts #docker",
+      "creator": "TutorialsPoint",
+      "url": "https://www.youtube.com/watch?v=CIR6mZENrvE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is DOCKER? (Explained in 1 Minute) #shorts #docker - Complete guide by TutorialsPoint.",
+      "year": 2024
+    },
+    {
+      "title": "Docker Crash Course #1 - What is Docker?",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/watch?v=31ieHmcTUOk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Docker Crash Course #1 - What is Docker? - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "Docker Crash Course #2 - Installing Docker",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/watch?v=8Ev1aXl7TGY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Docker Crash Course #2 - Installing Docker - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes StatefulSet simply explained | Deployment vs StatefulSet",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=pPQKAR1pA9U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kubernetes StatefulSet simply explained | Deployment vs StatefulSet - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes Components explained! Pods, Services, Secrets, ConfigMap | Kubernetes Tutorial 14",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=Krpb44XR0bk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kubernetes Components explained! Pods, Services, Secrets, ConfigMap | Kubernetes Tutorial 14 - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "What is Kubernetes | Kubernetes explained in 15 mins",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=VnvRFRk_51k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Kubernetes | Kubernetes explained in 15 mins - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "FREE Kubernetes Full Course (Day 0/40) | Certified Kubernetes Administrator (CKA) Tutorial + Roadmap",
+      "creator": "Tech Tutorials with Piyush",
+      "url": "https://www.youtube.com/watch?v=6_gMoe7Ik8k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "FREE Kubernetes Full Course (Day 0/40) | Certified Kubernetes Administrator (CKA) Tutorial + Roadmap - Complete guide by Tech Tutorials with Piyush.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes Operator simply explained in 10 mins",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=ha3LjlD6g7g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kubernetes Operator simply explained in 10 mins - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes Crash Course for Absolute Beginners [NEW]",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=s_o8dwzRlu4",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Kubernetes Crash Course for Absolute Beginners [NEW] - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Docker In One Shot with 2 Live DevOps Projects (Hindi)",
+      "creator": "TrainWithShubham",
+      "url": "https://www.youtube.com/watch?v=9bSbNNH4Nqw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Docker In One Shot with 2 Live DevOps Projects (Hindi) - Complete guide by TrainWithShubham.",
+      "year": 2024
+    },
+    {
+      "title": "DevOps Tutorial #38: Docker: What is Docker & Why We Use It? | Docker Introduction 2025",
+      "creator": "The Techzeen",
+      "url": "https://www.youtube.com/watch?v=4xwyMVWDJ7o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DevOps Tutorial #38: Docker: What is Docker & Why We Use It? | Docker Introduction 2025 - Complete guide by The Techzeen.",
+      "year": 2024
+    },
+    {
+      "title": "Day 1/40 - Docker Tutorial For Beginners - Docker Fundamentals - CKA Full Course 2025",
+      "creator": "Tech Tutorials with Piyush",
+      "url": "https://www.youtube.com/watch?v=ul96dslvVwY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Day 1/40 - Docker Tutorial For Beginners - Docker Fundamentals - CKA Full Course 2025 - Complete guide by Tech Tutorials with Piyush.",
+      "year": 2024
+    },
+    {
+      "title": "Run Jenkins in Docker Container - Jenkins Pipeline Tutorial for Beginners 1/4",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=pMO26j2OUME",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Run Jenkins in Docker Container - Jenkins Pipeline Tutorial for Beginners 1/4 - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Create Multibranch Pipeline with Git - Jenkins Pipeline Tutorial for Beginners 2/4",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=tuxO7ZXplRE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Create Multibranch Pipeline with Git - Jenkins Pipeline Tutorial for Beginners 2/4 - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "DevOps Tutorial #39: Docker: Installation of Docker Desktop on Windows | (Hindi/Urdu)",
+      "creator": "The Techzeen",
+      "url": "https://www.youtube.com/watch?v=NUAMutxc9sE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DevOps Tutorial #39: Docker: Installation of Docker Desktop on Windows | (Hindi/Urdu) - Complete guide by The Techzeen.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes - Simplest, Most Crisp Explanation Ever!",
+      "creator": "Keerti Purswani",
+      "url": "https://www.youtube.com/watch?v=p8eHJg7SJSo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kubernetes - Simplest, Most Crisp Explanation Ever! - Complete guide by Keerti Purswani.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes Interview Reality: Concepts → YAML → Troubleshooting",
+      "creator": "TechWorld with Sahana ",
+      "url": "https://www.youtube.com/watch?v=r4f2Klyxhxc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kubernetes Interview Reality: Concepts → YAML → Troubleshooting - Complete guide by TechWorld with Sahana .",
+      "year": 2024
+    },
+    {
+      "title": "@TechWorldwithNana How did you get started with #kubernetes",
+      "creator": "Jon Myer Show Powered by Myer Media",
+      "url": "https://www.youtube.com/watch?v=dtNeuZRcyB8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "@TechWorldwithNana How did you get started with #kubernetes - Complete guide by Jon Myer Show Powered by Myer Media.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes in 15 Min | Interview Q&A Crash Course (Chapter 1)",
+      "creator": "TechWorld with Sahana ",
+      "url": "https://www.youtube.com/watch?v=FBgQOy4ZR4w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kubernetes in 15 Min | Interview Q&A Crash Course (Chapter 1) - Complete guide by TechWorld with Sahana .",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes Simply Explained",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=Xv9dnKHO8tg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kubernetes Simply Explained - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "tutorial 😱#tamil #tutorial #magic  kubernetes full tutorial,rork max tutorial,python program",
+      "creator": "Hashir Jhor TV Hashir Jhor TV",
+      "url": "https://www.youtube.com/watch?v=fPZs7shZTiE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "tutorial 😱#tamil #tutorial #magic  kubernetes full tutorial,rork max tutorial,python program - Complete guide by Hashir Jhor TV Hashir Jhor TV.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Kubernetes explained in 1 Minute #devops #kubernetes #job #interview #cicd",
+      "creator": "TechWorld with Sandesh",
+      "url": "https://www.youtube.com/watch?v=ZMN4AvNQm2Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete Kubernetes explained in 1 Minute #devops #kubernetes #job #interview #cicd - Complete guide by TechWorld with Sandesh.",
+      "year": 2024
+    },
+    {
+      "title": "I Made a FREE 30-Hour Kubernetes Course (Code + Notes) #shorts",
+      "creator": "Shubham gour",
+      "url": "https://www.youtube.com/watch?v=1f-j_5YhgLg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I Made a FREE 30-Hour Kubernetes Course (Code + Notes) #shorts - Complete guide by Shubham gour.",
+      "year": 2024
+    },
+    {
+      "title": "You Will Never Struggle With Kubernetes Again 🚀 #coding #docker #kubernetes #devops #programming",
+      "creator": "Volkan Erdogan",
+      "url": "https://www.youtube.com/watch?v=hkxCVpDkTRw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "You Will Never Struggle With Kubernetes Again 🚀 #coding #docker #kubernetes #devops #programming - Complete guide by Volkan Erdogan.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes services simplest explanation #devops #kubernetes #k8s #docker #aws #cloud",
+      "creator": "TechWorld with Sandesh",
+      "url": "https://www.youtube.com/watch?v=Gb1mPijk_Jw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kubernetes services simplest explanation #devops #kubernetes #k8s #docker #aws #cloud - Complete guide by TechWorld with Sandesh.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes kaise kaam karta hai? Pods, scheduler, self-healing, rolling update aur rollback | Hindi",
+      "creator": "tech how it works",
+      "url": "https://www.youtube.com/watch?v=ZlbzVMtH4Do",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kubernetes kaise kaam karta hai? Pods, scheduler, self-healing, rolling update aur rollback | Hindi - Complete guide by tech how it works.",
+      "year": 2024
+    },
+    {
+      "title": "No Pod Creates after applying Kubernetes",
+      "creator": "TechWorld with Sahana ",
+      "url": "https://www.youtube.com/watch?v=tIvzlZ2WAoo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "No Pod Creates after applying Kubernetes - Complete guide by TechWorld with Sahana .",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes Architecture Explained in 15 Min | Chapter 2 ",
+      "creator": "TechWorld with Sahana ",
+      "url": "https://www.youtube.com/watch?v=WceShXPOWrY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kubernetes Architecture Explained in 15 Min | Chapter 2  - Complete guide by TechWorld with Sahana .",
+      "year": 2024
+    },
+    {
+      "title": "What is Kubernetes?  The Technology Powering Modern DevOps & Cloud Computing!",
+      "creator": "Priar Techworld",
+      "url": "https://www.youtube.com/watch?v=KCEz91CT8Vs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Kubernetes?  The Technology Powering Modern DevOps & Cloud Computing! - Complete guide by Priar Techworld.",
+      "year": 2024
+    },
+    {
+      "title": "Why 90% of developers struggle with deployments (and how to fix it)",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=rYrWRJgULwU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why 90% of developers struggle with deployments (and how to fix it) - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "You don’t need expensive DevOps courses to understand Docker, containers, and Kubernetes! #coding",
+      "creator": "Volkan Erdogan",
+      "url": "https://www.youtube.com/watch?v=xJE_rfc3F-w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "You don’t need expensive DevOps courses to understand Docker, containers, and Kubernetes! #coding - Complete guide by Volkan Erdogan.",
+      "year": 2024
+    },
+    {
+      "title": "Run Same Kubernetes Application In Dev Test And Prod",
+      "creator": "TechWorld with Sahana ",
+      "url": "https://www.youtube.com/watch?v=E_Raa5GQS0Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Run Same Kubernetes Application In Dev Test And Prod - Complete guide by TechWorld with Sahana .",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes in 3 words: Pod, Deployment, Service",
+      "creator": "Nafas ",
+      "url": "https://www.youtube.com/watch?v=N_LbtcATR8M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kubernetes in 3 words: Pod, Deployment, Service - Complete guide by Nafas .",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes Explained Simple ⚓",
+      "creator": "StacheOps",
+      "url": "https://www.youtube.com/watch?v=mv7AFwF2FuI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kubernetes Explained Simple ⚓ - Complete guide by StacheOps.",
+      "year": 2024
+    },
+    {
+      "title": "10 kubectl Commands Every DevOps Engineer Should Know 🚀",
+      "creator": "TechWorld with Sahana ",
+      "url": "https://www.youtube.com/watch?v=Euo9CLYQbHY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "10 kubectl Commands Every DevOps Engineer Should Know 🚀 - Complete guide by TechWorld with Sahana .",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes Cluster vs Node vs Pod Explained #devops #tech #kubernetes #docker #interview #job",
+      "creator": "TechWorld with Sandesh",
+      "url": "https://www.youtube.com/watch?v=ENAHYRxDM4I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kubernetes Cluster vs Node vs Pod Explained #devops #tech #kubernetes #docker #interview #job - Complete guide by TechWorld with Sandesh.",
+      "year": 2024
+    },
+    {
+      "title": "Stop Using Kubernetes for Everything 😳 #shorts #devops #kubernetes #docker #serverless",
+      "creator": "Grow With Bharat",
+      "url": "https://www.youtube.com/watch?v=AiTALO0xFzU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Stop Using Kubernetes for Everything 😳 #shorts #devops #kubernetes #docker #serverless - Complete guide by Grow With Bharat.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Application Deployment using Kubernetes Components | Kubernetes Tutorial 20",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=EQNO_kM96Mo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete Application Deployment using Kubernetes Components | Kubernetes Tutorial 20 - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes Statefulset explained #devops #kubernetes #job #docker #interview #terraform #aws #cloud",
+      "creator": "TechWorld with Sandesh",
+      "url": "https://www.youtube.com/watch?v=rWZGgxOhebU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kubernetes Statefulset explained #devops #kubernetes #job #docker #interview #terraform #aws #cloud - Complete guide by TechWorld with Sandesh.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes ConfigMap and Secret as Kubernetes Volumes | Demo",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=FAnQTgr04mU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kubernetes ConfigMap and Secret as Kubernetes Volumes | Demo - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Docker Containers and Kubernetes Fundamentals – Full Hands-On Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=kTp5xUtcalw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Docker Containers and Kubernetes Fundamentals – Full Hands-On Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=fqMOX6JJhGo",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Certified Cloud Practitioner Certification Course (CLF-C01) - Pass the Exam!",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=SOTamWNgDKc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AWS Certified Cloud Practitioner Certification Course (CLF-C01) - Pass the Exam! - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes Roadmap - Complete Step-by-Step Learning Path",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=S8eX0MxfnB4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kubernetes Roadmap - Complete Step-by-Step Learning Path - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "How a Software Developer Becomes DevOps in 6 Months",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=nGMpNxEqsGE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How a Software Developer Becomes DevOps in 6 Months - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Docker and Kubernetes - Full Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=Wf2eSG3owoA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Docker and Kubernetes - Full Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Ansible 101 - Episode 1 - Introduction to Ansible",
+      "creator": "Jeff Geerling",
+      "url": "https://www.youtube.com/watch?v=goclfp6a2IQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ansible 101 - Episode 1 - Introduction to Ansible - Complete guide by Jeff Geerling.",
+      "year": 2024
+    },
+    {
+      "title": "HashiCorp Terraform Associate Certification Course (003) - Pass the Exam!",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=SPcwo0Gq9T8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "HashiCorp Terraform Associate Certification Course (003) - Pass the Exam! - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Ultimate Docker Crash Course: Learn Docker within 30 Minutes!",
+      "creator": "CodeWithHarry",
+      "url": "https://www.youtube.com/watch?v=WNUCAPKa44Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ultimate Docker Crash Course: Learn Docker within 30 Minutes! - Complete guide by CodeWithHarry.",
+      "year": 2024
+    },
+    {
+      "title": "Docker Images vs Containers Explained 🐳 What's the Difference? #shorts",
+      "creator": "CodeWithRick",
+      "url": "https://www.youtube.com/watch?v=r4Cw4ydkNF8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Docker Images vs Containers Explained 🐳 What's the Difference? #shorts - Complete guide by CodeWithRick.",
+      "year": 2024
+    },
+    {
+      "title": "Master Full-Stack Docker & CI/CD – Build a Production-Ready Pipeline",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=lEcULR30-GM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Master Full-Stack Docker & CI/CD – Build a Production-Ready Pipeline - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Docker Course - From BEGINNER to PRO! (Learn Containers)",
+      "creator": "DevOps Directive",
+      "url": "https://www.youtube.com/watch?v=RqTEHSBrYFw",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Complete Docker Course - From BEGINNER to PRO! (Learn Containers) - Complete guide by DevOps Directive.",
+      "year": 2024
+    },
+    {
+      "title": "Docker Security: Why You Should Never Run Containers as Root! #Docker #DevSecOps",
+      "creator": "Innocent Coder",
+      "url": "https://www.youtube.com/watch?v=bZqQzaU1wG8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Docker Security: Why You Should Never Run Containers as Root! #Docker #DevSecOps - Complete guide by Innocent Coder.",
+      "year": 2024
+    },
+    {
+      "title": "Docker Explained with Cup Noodles | Stop Debugging & Start Understanding",
+      "creator": "Error Makes Clever",
+      "url": "https://www.youtube.com/watch?v=T6xOokSR8Vc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Docker Explained with Cup Noodles | Stop Debugging & Start Understanding - Complete guide by Error Makes Clever.",
+      "year": 2024
+    },
+    {
+      "title": "Docker for Machine Learning | Docker Crash Course | CampusX",
+      "creator": "CampusX",
+      "url": "https://www.youtube.com/watch?v=GToyQTGDOS4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Docker for Machine Learning | Docker Crash Course | CampusX - Complete guide by CampusX.",
+      "year": 2024
+    },
+    {
+      "title": "Fix Docker Exit Code 137 In 60 Seconds #docker #tutorial",
+      "creator": "Systems & Signals",
+      "url": "https://www.youtube.com/watch?v=rDqgDUO6sio",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Fix Docker Exit Code 137 In 60 Seconds #docker #tutorial - Complete guide by Systems & Signals.",
+      "year": 2024
+    },
+    {
+      "title": "What docker run ACTUALLY Starts",
+      "creator": "Bytecompass",
+      "url": "https://www.youtube.com/watch?v=i4GBWvSIwCU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What docker run ACTUALLY Starts - Complete guide by Bytecompass.",
+      "year": 2024
+    },
+    {
+      "title": "Dockerfile Explained for Beginners 🔥 | Full Example with Python App #dockerfile  #dockertutorials",
+      "creator": "Rishabh Mishra DevOps",
+      "url": "https://www.youtube.com/watch?v=HOsXUS1238s",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Dockerfile Explained for Beginners 🔥 | Full Example with Python App #dockerfile  #dockertutorials - Complete guide by Rishabh Mishra DevOps.",
+      "year": 2024
+    },
+    {
+      "title": "The Only Docker Tutorial You Need To Get Started",
+      "creator": "The Coding Sloth",
+      "url": "https://www.youtube.com/watch?v=DQdB7wFEygo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Only Docker Tutorial You Need To Get Started - Complete guide by The Coding Sloth.",
+      "year": 2024
+    },
+    {
+      "title": "What is Docker? 🚀 Explained in 60 Seconds | DevOps Basics | #Shorts #coding #devops #devlife #vps",
+      "creator": "Coded Mind",
+      "url": "https://www.youtube.com/watch?v=KVh52HNrATI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Docker? 🚀 Explained in 60 Seconds | DevOps Basics | #Shorts #coding #devops #devlife #vps - Complete guide by Coded Mind.",
+      "year": 2024
+    },
+    {
+      "title": "Stop Leaving Dead Docker Containers Behind #shorts #docker #devops #programming #devtips #shorts",
+      "creator": "1 Dev Shortcut Everyday",
+      "url": "https://www.youtube.com/watch?v=jEvIw4rrtfc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Stop Leaving Dead Docker Containers Behind #shorts #docker #devops #programming #devtips #shorts - Complete guide by 1 Dev Shortcut Everyday.",
+      "year": 2024
+    },
+    {
+      "title": "VMs vs Containers: Docker Explained Simply #Docker #Homelab",
+      "creator": "GameTechForge",
+      "url": "https://www.youtube.com/watch?v=KwTCDXVq0Dg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "VMs vs Containers: Docker Explained Simply #Docker #Homelab - Complete guide by GameTechForge.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes In One Shot | 3 Live DevOps Projects | Beginners to Advanced",
+      "creator": "TrainWithShubham",
+      "url": "https://www.youtube.com/watch?v=W04brGNgxN4",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Kubernetes In One Shot | 3 Live DevOps Projects | Beginners to Advanced - Complete guide by TrainWithShubham.",
+      "year": 2024
+    },
+    {
+      "title": "Docker Volume Backup and Restore",
+      "creator": "Jacar",
+      "url": "https://www.youtube.com/watch?v=XpF2EEEHoUA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Docker Volume Backup and Restore - Complete guide by Jacar.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes Course - Full Beginners Tutorial (Containerize Your Apps!)",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=d6WC5n9G_sM",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Kubernetes Course - Full Beginners Tutorial (Containerize Your Apps!) - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "DOCKER In ONE VIDEO For Beginners: Basic to Advance Tutorial 🔥 [HINDI] | MPrashant",
+      "creator": "M Prashant",
+      "url": "https://www.youtube.com/watch?v=OhnTMWmfTBE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "DOCKER In ONE VIDEO For Beginners: Basic to Advance Tutorial 🔥 [HINDI] | MPrashant - Complete guide by M Prashant.",
+      "year": 2024
+    },
+    {
+      "title": "Docker Tutorial for Beginners",
+      "creator": "Programming with Mosh",
+      "url": "https://www.youtube.com/watch?v=pTFZFxd4hOI",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Docker Tutorial for Beginners - Complete guide by Programming with Mosh.",
+      "year": 2024
+    },
+    {
+      "title": "Docker Containers Can't Find Each Other Until You Do This #dockercompose #shorts",
+      "creator": "Deploymentary",
+      "url": "https://www.youtube.com/watch?v=HlO-LRDN0lE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Docker Containers Can't Find Each Other Until You Do This #dockercompose #shorts - Complete guide by Deploymentary.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Kubernetes Course - From BEGINNER to PRO",
+      "creator": "DevOps Directive",
+      "url": "https://www.youtube.com/watch?v=2T86xAtR6Fo",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Complete Kubernetes Course - From BEGINNER to PRO - Complete guide by DevOps Directive.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Kubernetes in 6 Hours – Full Course with Real-World Project",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=_4uQI4ihGVU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Kubernetes in 6 Hours – Full Course with Real-World Project - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes Crash Course: Learn the Basics and Build a Microservice Application",
+      "creator": "KodeKloud",
+      "url": "https://www.youtube.com/watch?v=XuSQU5Grv1g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kubernetes Crash Course: Learn the Basics and Build a Microservice Application - Complete guide by KodeKloud.",
+      "year": 2024
+    },
+    {
+      "title": "Complete CKA Certification Course | Certified Kubernetes Administrator",
+      "creator": "Cloud With VarJosh",
+      "url": "https://www.youtube.com/watch?v=_LH5HdczZNc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete CKA Certification Course | Certified Kubernetes Administrator - Complete guide by Cloud With VarJosh.",
+      "year": 2024
+    },
+    {
+      "title": "Build Your Own Kubernetes Operators with Go and Kubebuilder – Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=odP153inZUo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build Your Own Kubernetes Operators with Go and Kubebuilder – Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes Course – Certified Kubernetes Administrator Exam Preparation (2026 Update)",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=l57xKN6OBhY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kubernetes Course – Certified Kubernetes Administrator Exam Preparation (2026 Update) - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "CNCF Kubernetes and Cloud Native Associate Certification Course (KCNA) - Pass the Exam!",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=AplluksKvzI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CNCF Kubernetes and Cloud Native Associate Certification Course (KCNA) - Pass the Exam! - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes Course – Certified Kubernetes Administrator Exam Preparation",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=Fr9GqFwl6NM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kubernetes Course – Certified Kubernetes Administrator Exam Preparation - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes and EKS for Beginners – Crash Course with Pulumi",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=hK8wf18SasY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Kubernetes and EKS for Beginners – Crash Course with Pulumi - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes for Beginners in One Video 🔥 [HINDI] | MPrashant",
+      "creator": "M Prashant",
+      "url": "https://www.youtube.com/watch?v=rBeyHDKLVqM",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Kubernetes for Beginners in One Video 🔥 [HINDI] | MPrashant - Complete guide by M Prashant.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes Tutorial for Beginners: Full Hands-On Series Announcement",
+      "creator": "Shubham gour",
+      "url": "https://www.youtube.com/watch?v=dlmbhY4RdrQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Kubernetes Tutorial for Beginners: Full Hands-On Series Announcement - Complete guide by Shubham gour.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes Explained Without the Jargon!",
+      "creator": "KodeKloud",
+      "url": "https://www.youtube.com/watch?v=f44s063zOrQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kubernetes Explained Without the Jargon! - Complete guide by KodeKloud.",
+      "year": 2024
+    },
+    {
+      "title": "Git and GitHub - Full Course",
+      "creator": "Boot dev",
+      "url": "https://www.youtube.com/watch?v=rH3zE7VlIMs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git and GitHub - Full Course - Complete guide by Boot dev.",
+      "year": 2024
+    },
+    {
+      "title": "Docker & Kubernetes Full Course in 5 Hours | Complete Beginner to Advanced Tutorial | Ashok IT",
+      "creator": "Ashok IT",
+      "url": "https://www.youtube.com/watch?v=2bg9MAtiHwo",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Docker & Kubernetes Full Course in 5 Hours | Complete Beginner to Advanced Tutorial | Ashok IT - Complete guide by Ashok IT.",
+      "year": 2024
+    },
+    {
+      "title": "CI/CD in Production with Jenkins – Complete DevOps Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=uHNOqKdqQas",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CI/CD in Production with Jenkins – Complete DevOps Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "From Hundreds to 100,000: The Insane Scale of Kubernetes 📈",
+      "creator": "Tech Field Day Plus",
+      "url": "https://www.youtube.com/watch?v=rjBwWP7s8ig",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "From Hundreds to 100,000: The Insane Scale of Kubernetes 📈 - Complete guide by Tech Field Day Plus.",
+      "year": 2024
+    },
+    {
+      "title": "🚨 I DELETED my Kubernetes Pods… but my LIVE WEBSITE stayed ONLINE! 😱🔥",
+      "creator": "Madhukar Reddy",
+      "url": "https://www.youtube.com/watch?v=o4BxfclP-ow",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🚨 I DELETED my Kubernetes Pods… but my LIVE WEBSITE stayed ONLINE! 😱🔥 - Complete guide by Madhukar Reddy.",
+      "year": 2024
+    },
+    {
+      "title": "Why Kubernetes? Docker vs Kubernetes Explained for Beginners",
+      "creator": "Shubham gour",
+      "url": "https://www.youtube.com/watch?v=bZhN8aPksWo",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Why Kubernetes? Docker vs Kubernetes Explained for Beginners - Complete guide by Shubham gour.",
+      "year": 2024
+    },
+    {
+      "title": "Fred on Kubernetes Deployment Strategies and Warm-up Dependencies",
+      "creator": "KubeFM",
+      "url": "https://www.youtube.com/watch?v=K8Po6XZsxz8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Fred on Kubernetes Deployment Strategies and Warm-up Dependencies - Complete guide by KubeFM.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes Zero to Hero: The Complete Beginner’s Guide (2025 Edition)",
+      "creator": "Alta3 Research",
+      "url": "https://www.youtube.com/watch?v=MTHGoGUFpvE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Kubernetes Zero to Hero: The Complete Beginner’s Guide (2025 Edition) - Complete guide by Alta3 Research.",
+      "year": 2024
+    },
+    {
+      "title": "Top KUBERNETES Certifications! #kubernetes #devops",
+      "creator": "Cloud Champ",
+      "url": "https://www.youtube.com/watch?v=tMesjjR2oBw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top KUBERNETES Certifications! #kubernetes #devops - Complete guide by Cloud Champ.",
+      "year": 2024
+    },
+    {
+      "title": "Docker In One Shot - Part 1",
+      "creator": "Piyush Garg",
+      "url": "https://www.youtube.com/watch?v=31k6AtW-b3Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Docker In One Shot - Part 1 - Complete guide by Piyush Garg.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes Architecture Overview",
+      "creator": "RK Tech",
+      "url": "https://www.youtube.com/watch?v=T2VjpqMW1lc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kubernetes Architecture Overview - Complete guide by RK Tech.",
+      "year": 2024
+    },
+    {
+      "title": "Autoscaling in Kubernetes in 60s! ☸️ | Lab 12 | K8s #Shorts",
+      "creator": "CloudDecoded",
+      "url": "https://www.youtube.com/watch?v=rLuqX1flNpE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Autoscaling in Kubernetes in 60s! ☸️ | Lab 12 | K8s #Shorts - Complete guide by CloudDecoded.",
+      "year": 2024
+    },
+    {
+      "title": "kubectl explain: The Kubernetes Manual You Already Have",
+      "creator": "OpenLume",
+      "url": "https://www.youtube.com/watch?v=9NCjaREtz9g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "kubectl explain: The Kubernetes Manual You Already Have - Complete guide by OpenLume.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes in 1 Minutes (What Beginners NEED to Know in 2025!)",
+      "creator": "K21Academy",
+      "url": "https://www.youtube.com/watch?v=Zwkbl0zhgT0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Kubernetes in 1 Minutes (What Beginners NEED to Know in 2025!) - Complete guide by K21Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Kubernetes Like Production (FREE Roadmap + Labs + Crash Game) ⚓ #learning  #devops #shorts",
+      "creator": "Naveed Kumbhar | DevOps & SRE",
+      "url": "https://www.youtube.com/watch?v=sz5IPydRJg8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Kubernetes Like Production (FREE Roadmap + Labs + Crash Game) ⚓ #learning  #devops #shorts - Complete guide by Naveed Kumbhar | DevOps & SRE.",
+      "year": 2024
+    },
+    {
+      "title": "What is Kubernetes? Explained in 40 Seconds ☸️ #shorts",
+      "creator": "Breakeven",
+      "url": "https://www.youtube.com/watch?v=lf4q0vcc208",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Kubernetes? Explained in 40 Seconds ☸️ #shorts - Complete guide by Breakeven.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes in 1 minute",
+      "creator": "TechWithSaumya",
+      "url": "https://www.youtube.com/watch?v=GxX7WcoBFdY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kubernetes in 1 minute - Complete guide by TechWithSaumya.",
+      "year": 2024
+    },
+    {
+      "title": "[Arabic] Learn Command Line #02 - Choosing Terminal And Test Commands",
+      "creator": "Elzero Web School",
+      "url": "https://www.youtube.com/watch?v=Db56nwDb--k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "[Arabic] Learn Command Line #02 - Choosing Terminal And Test Commands - Complete guide by Elzero Web School.",
+      "year": 2024
+    },
+    {
+      "title": "[Arabic] Learn Command Line #01 - Intro and What's Shell, Terminal, CMD",
+      "creator": "Elzero Web School",
+      "url": "https://www.youtube.com/watch?v=JVs2Ywy7wGQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "[Arabic] Learn Command Line #01 - Intro and What's Shell, Terminal, CMD - Complete guide by Elzero Web School.",
+      "year": 2024
+    },
+    {
+      "title": "Linux Commands for Beginners 01 - Introduction",
+      "creator": "Learn Linux TV",
+      "url": "https://www.youtube.com/watch?v=lvSoxOMg5_c",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Linux Commands for Beginners 01 - Introduction - Complete guide by Learn Linux TV.",
+      "year": 2024
+    },
+    {
+      "title": "Linux Commands for Beginners 02 - Setting up a Cloud Instance",
+      "creator": "Learn Linux TV",
+      "url": "https://www.youtube.com/watch?v=MxDvzSTl-xI",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Linux Commands for Beginners 02 - Setting up a Cloud Instance - Complete guide by Learn Linux TV.",
+      "year": 2024
+    },
+    {
+      "title": "Part 1 | Power & Efficiency পরিচিতি ⚡ | Linux Command Line Pro Bangla Tutorial",
+      "creator": "Saiful Islam Khan",
+      "url": "https://www.youtube.com/watch?v=bRS3CmFV9xk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Part 1 | Power & Efficiency পরিচিতি ⚡ | Linux Command Line Pro Bangla Tutorial - Complete guide by Saiful Islam Khan.",
+      "year": 2024
+    },
+    {
+      "title": "Part 2 | What You Need & How to Get Started ⚙️ | Linux Command Line Pro Bangla Tutorial",
+      "creator": "Saiful Islam Khan",
+      "url": "https://www.youtube.com/watch?v=MSah1Famn7M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Part 2 | What You Need & How to Get Started ⚙️ | Linux Command Line Pro Bangla Tutorial - Complete guide by Saiful Islam Khan.",
+      "year": 2024
+    },
+    {
+      "title": "Linux Command Question and Answer Session with Ankush Sir | Rapid fire | Learnomate Technologies",
+      "creator": "Learnomate Technologies",
+      "url": "https://www.youtube.com/watch?v=r_2JravQqWc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Linux Command Question and Answer Session with Ankush Sir | Rapid fire | Learnomate Technologies - Complete guide by Learnomate Technologies.",
+      "year": 2024
+    },
+    {
+      "title": "Learning Linux, but make it a game 🎮🐧 (linux, learn linux, linux games, linux learning, linux",
+      "creator": "Chandsi Sarvaiya | TechBabeCodes",
+      "url": "https://www.youtube.com/watch?v=EWd9RuTZr_E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learning Linux, but make it a game 🎮🐧 (linux, learn linux, linux games, linux learning, linux - Complete guide by Chandsi Sarvaiya | TechBabeCodes.",
+      "year": 2024
+    },
+    {
+      "title": "Best way to Learn Linux! #linux #shorts",
+      "creator": "Cloud Champ",
+      "url": "https://www.youtube.com/watch?v=uosiOiZ3V5U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Best way to Learn Linux! #linux #shorts - Complete guide by Cloud Champ.",
+      "year": 2024
+    },
+    {
+      "title": "Free Courses to Learn Linux for Beginners | #freelinuxcourse #linux #learnlinux #freelinux #kalinux",
+      "creator": "I Am Kunal",
+      "url": "https://www.youtube.com/watch?v=603jv4FPKkQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Free Courses to Learn Linux for Beginners | #freelinuxcourse #linux #learnlinux #freelinux #kalinux - Complete guide by I Am Kunal.",
+      "year": 2024
+    },
+    {
+      "title": "Must know Linux resources 📚",
+      "creator": "GradByte",
+      "url": "https://www.youtube.com/watch?v=P7fYzD_I-vA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Must know Linux resources 📚 - Complete guide by GradByte.",
+      "year": 2024
+    },
+    {
+      "title": "Seven Testing Principles: Software Testing",
+      "creator": "Guru99",
+      "url": "https://www.youtube.com/watch?v=rFaWOw8bIMM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Seven Testing Principles: Software Testing - Complete guide by Guru99.",
+      "year": 2024
+    },
+    {
+      "title": "Postman API Test Automation for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=zp5Jh2FIpF0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Postman API Test Automation for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "5 Games That Teach You Linux FAST!",
+      "creator": "Smart Digital Learning",
+      "url": "https://www.youtube.com/watch?v=9FF-zgyOU3Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "5 Games That Teach You Linux FAST! - Complete guide by Smart Digital Learning.",
+      "year": 2024
+    },
+    {
+      "title": "Master the Linux Command Line Like a Pro",
+      "creator": "Begin Secure",
+      "url": "https://www.youtube.com/watch?v=RVgTpcKbfFg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Master the Linux Command Line Like a Pro - Complete guide by Begin Secure.",
+      "year": 2024
+    },
+    {
+      "title": "Postman API Testing Tutorial 🔥",
+      "creator": "Automate with Rakesh",
+      "url": "https://www.youtube.com/watch?v=I0RQaztZulA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Postman API Testing Tutorial 🔥 - Complete guide by Automate with Rakesh.",
+      "year": 2024
+    },
+    {
+      "title": "Requirements Traceability Matrix (RTM) In Software Testing",
+      "creator": "Automation Testing Insider",
+      "url": "https://www.youtube.com/watch?v=Hh3PhUVacQ0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Requirements Traceability Matrix (RTM) In Software Testing - Complete guide by Automation Testing Insider.",
+      "year": 2024
+    },
+    {
+      "title": "API Testing Using Postman Full Course in 5 hours",
+      "creator": "The Testing Academy",
+      "url": "https://www.youtube.com/watch?v=CGX6DRNfS-E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "API Testing Using Postman Full Course in 5 hours - Complete guide by The Testing Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Software Testing Course – Playwright, E2E, and AI Agents",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=jydYq7oAtD8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Software Testing Course – Playwright, E2E, and AI Agents - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "REST API concepts and examples",
+      "creator": "WebConcepts",
+      "url": "https://www.youtube.com/watch?v=7YcW25PHnAA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "REST API concepts and examples - Complete guide by WebConcepts.",
+      "year": 2024
+    },
+    {
+      "title": "Postman Full Course for Beginners | Learn API Testing Step by Step",
+      "creator": "SQA World",
+      "url": "https://www.youtube.com/watch?v=Q1p2ll7k3mc",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Postman Full Course for Beginners | Learn API Testing Step by Step - Complete guide by SQA World.",
+      "year": 2024
+    },
+    {
+      "title": "API Testing full course | Postman API testing tutorial",
+      "creator": "Automation Testing Insider",
+      "url": "https://www.youtube.com/watch?v=AsJbbYoKCGY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "API Testing full course | Postman API testing tutorial - Complete guide by Automation Testing Insider.",
+      "year": 2024
+    },
+    {
+      "title": "API Testing Using Postman: Complete Crash Course for Beginners",
+      "creator": "Mukesh otwani",
+      "url": "https://www.youtube.com/watch?v=BBQrv8RAG0Y",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "API Testing Using Postman: Complete Crash Course for Beginners - Complete guide by Mukesh otwani.",
+      "year": 2024
+    },
+    {
+      "title": "Postman Tutorial #1 - Introduction to Postman | Installing Postman",
+      "creator": "Software Testing Mentor",
+      "url": "https://www.youtube.com/watch?v=Qx0aIoz9Lxw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Postman Tutorial #1 - Introduction to Postman | Installing Postman - Complete guide by Software Testing Mentor.",
+      "year": 2024
+    },
+    {
+      "title": "API Testing Using Postman: Part 1 ( What is an API? )",
+      "creator": "The Testing Academy",
+      "url": "https://www.youtube.com/watch?v=ISjyXzkF-4w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "API Testing Using Postman: Part 1 ( What is an API? ) - Complete guide by The Testing Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Postman Beginner Tutorial 2026 | Complete GUI Tour (v12 Updated) + QUIZ",
+      "creator": "Automation Step by Step",
+      "url": "https://www.youtube.com/watch?v=N6_4Gt2qSrQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Postman Beginner Tutorial 2026 | Complete GUI Tour (v12 Updated) + QUIZ - Complete guide by Automation Step by Step.",
+      "year": 2024
+    },
+    {
+      "title": "How to Test APIs Without Building an Application? | Postman Explained",
+      "creator": "Pandu Reddy",
+      "url": "https://www.youtube.com/watch?v=aLVEIO67an0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Test APIs Without Building an Application? | Postman Explained - Complete guide by Pandu Reddy.",
+      "year": 2024
+    },
+    {
+      "title": "Postman Tutorial #2 - Postman Application Basics and Walkthrough",
+      "creator": "Software Testing Mentor",
+      "url": "https://www.youtube.com/watch?v=FB_4dACVtnc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Postman Tutorial #2 - Postman Application Basics and Walkthrough - Complete guide by Software Testing Mentor.",
+      "year": 2024
+    },
+    {
+      "title": "API Testing using Postman:  Part 2 ( Understanding HTTP Methods and Authentication )",
+      "creator": "The Testing Academy",
+      "url": "https://www.youtube.com/watch?v=YazDWUPh_xs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "API Testing using Postman:  Part 2 ( Understanding HTTP Methods and Authentication ) - Complete guide by The Testing Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Postman Beginner Tutorial 2026 | Install Postman, Workspace, Collection & First API Request + QUIZ",
+      "creator": "Automation Step by Step",
+      "url": "https://www.youtube.com/watch?v=T_PV6KDzq_Y",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Postman Beginner Tutorial 2026 | Install Postman, Workspace, Collection & First API Request + QUIZ - Complete guide by Automation Step by Step.",
+      "year": 2024
+    },
+    {
+      "title": "Postman Roadmap for Beginners | Learn API Testing Step by Step #softwaretesting #engineering",
+      "creator": "testavya",
+      "url": "https://www.youtube.com/watch?v=cm6K04MgO2E",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Postman Roadmap for Beginners | Learn API Testing Step by Step #softwaretesting #engineering - Complete guide by testavya.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Postman API Testing (Step-by-Step Tutorial)",
+      "creator": "Testing Funda by Zeeshan Asghar",
+      "url": "https://www.youtube.com/watch?v=M_SlFuBSSVk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Postman API Testing (Step-by-Step Tutorial) - Complete guide by Testing Funda by Zeeshan Asghar.",
+      "year": 2024
+    },
+    {
+      "title": "Postman API Testing Tutorial for Beginners 🚀 | HTTP Methods, Status Codes & REST API",
+      "creator": "TechE",
+      "url": "https://www.youtube.com/watch?v=wsV-oB0K-tk",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Postman API Testing Tutorial for Beginners 🚀 | HTTP Methods, Status Codes & REST API - Complete guide by TechE.",
+      "year": 2024
+    },
+    {
+      "title": "How To Learn Api Testing using Postman From Scratch For Free",
+      "creator": "TheTestingAcademy Hindi",
+      "url": "https://www.youtube.com/watch?v=siD-5rpl9dc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How To Learn Api Testing using Postman From Scratch For Free - Complete guide by TheTestingAcademy Hindi.",
+      "year": 2024
+    },
+    {
+      "title": "API Testing with POSTMAN In Hindi Part 2 (With Notes)",
+      "creator": "TheTestingAcademy Hindi",
+      "url": "https://www.youtube.com/watch?v=xSJvSxZu2kE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "API Testing with POSTMAN In Hindi Part 2 (With Notes) - Complete guide by TheTestingAcademy Hindi.",
+      "year": 2024
+    },
+    {
+      "title": "API Testing with POSTMAN In Hindi Part 1 (4+ LIVE Real Projects Download)",
+      "creator": "TheTestingAcademy Hindi",
+      "url": "https://www.youtube.com/watch?v=J570k8jAhwY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "API Testing with POSTMAN In Hindi Part 1 (4+ LIVE Real Projects Download) - Complete guide by TheTestingAcademy Hindi.",
+      "year": 2024
+    },
+    {
+      "title": "Postman - API Testing Tool  in Hindi Session#01- Basics of API testing",
+      "creator": "CodeStudio",
+      "url": "https://www.youtube.com/watch?v=379p47DCgdg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Postman - API Testing Tool  in Hindi Session#01- Basics of API testing - Complete guide by CodeStudio.",
+      "year": 2024
+    },
+    {
+      "title": "Free API Testing Practice Lab in Your Browser | No Postman, No Setup",
+      "creator": "Sreenidhi Rajakrishnan",
+      "url": "https://www.youtube.com/watch?v=kx2qAjXRooo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Free API Testing Practice Lab in Your Browser | No Postman, No Setup - Complete guide by Sreenidhi Rajakrishnan.",
+      "year": 2024
+    },
+    {
+      "title": "Postman - API Testing Tool  in Hindi Session#02- Basic Terminology And Postman Tool Installation",
+      "creator": "CodeStudio",
+      "url": "https://www.youtube.com/watch?v=yS6oiUx9t-w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Postman - API Testing Tool  in Hindi Session#02- Basic Terminology And Postman Tool Installation - Complete guide by CodeStudio.",
+      "year": 2024
+    },
+    {
+      "title": "Postman API Testing Interview Questions (Part 1) | STAD Solution | Software Testing",
+      "creator": "STAD Solution",
+      "url": "https://www.youtube.com/watch?v=HlVudkFKXwU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Postman API Testing Interview Questions (Part 1) | STAD Solution | Software Testing - Complete guide by STAD Solution.",
+      "year": 2024
+    },
+    {
+      "title": "Postman is Dead and Here is an alternative worth checking out 🔥",
+      "creator": "Piyush Garg",
+      "url": "https://www.youtube.com/watch?v=O6E3rqwkYF4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Postman is Dead and Here is an alternative worth checking out 🔥 - Complete guide by Piyush Garg.",
+      "year": 2024
+    },
+    {
+      "title": "Postman vs Rest Assured | Which One Should You Use for API Testing",
+      "creator": "Sreenidhi Rajakrishnan",
+      "url": "https://www.youtube.com/watch?v=qDvyW4xlBBE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Postman vs Rest Assured | Which One Should You Use for API Testing - Complete guide by Sreenidhi Rajakrishnan.",
+      "year": 2024
+    },
+    {
+      "title": "FREE API TESTING Courses |  API Testing with POSTMAN, Rest Assured.",
+      "creator": "The Testing Academy",
+      "url": "https://www.youtube.com/watch?v=myPcoKm3XEo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "FREE API TESTING Courses |  API Testing with POSTMAN, Rest Assured. - Complete guide by The Testing Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Learn API Testing with Postman in 60 Seconds | API Testing for Beginners! #api #apitesting",
+      "creator": "Apex Code",
+      "url": "https://www.youtube.com/watch?v=FgmQ4g9Ey9g",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn API Testing with Postman in 60 Seconds | API Testing for Beginners! #api #apitesting - Complete guide by Apex Code.",
+      "year": 2024
+    },
+    {
+      "title": "These Tools Gonna Used For API Testing | IM CSEIAN",
+      "creator": "IM CSEIAN",
+      "url": "https://www.youtube.com/watch?v=uhtiTu0pZKc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "These Tools Gonna Used For API Testing | IM CSEIAN - Complete guide by IM CSEIAN.",
+      "year": 2024
+    },
+    {
+      "title": "Postman API Testing Tutorial for Beginners 🔥",
+      "creator": "Test Karo🧐",
+      "url": "https://www.youtube.com/watch?v=2NbuFAMQizM",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Postman API Testing Tutorial for Beginners 🔥 - Complete guide by Test Karo🧐.",
+      "year": 2024
+    },
+    {
+      "title": "What is Postman and How is it Used for API Testing | Quality Assurance Interview Prep",
+      "creator": "CrioDo",
+      "url": "https://www.youtube.com/watch?v=lg3xX19wKnY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Postman and How is it Used for API Testing | Quality Assurance Interview Prep - Complete guide by CrioDo.",
+      "year": 2024
+    },
+    {
+      "title": "What does Postman actually do? #postman",
+      "creator": "Caleb King",
+      "url": "https://www.youtube.com/watch?v=Yb0kRmbD4_w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What does Postman actually do? #postman - Complete guide by Caleb King.",
+      "year": 2024
+    },
+    {
+      "title": "Postman Explained in 60 Seconds | API Testing Made Simple  #nikhil2k5 #postman #backend #api",
+      "creator": "NIKHIL",
+      "url": "https://www.youtube.com/watch?v=GwyE1qFV1ts",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Postman Explained in 60 Seconds | API Testing Made Simple  #nikhil2k5 #postman #backend #api - Complete guide by NIKHIL.",
+      "year": 2024
+    },
+    {
+      "title": "How to Use Postman for Performance Testing",
+      "creator": "The Testing Academy",
+      "url": "https://www.youtube.com/watch?v=mQwjage98Co",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Use Postman for Performance Testing - Complete guide by The Testing Academy.",
+      "year": 2024
+    },
+    {
+      "title": "How to test API in Postman? | What is API testing? #infysky #reactjs #laravel #razorpay #coding",
+      "creator": "Infy SKY - We Innovate Solutions",
+      "url": "https://www.youtube.com/watch?v=QDRhfsFyBNE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to test API in Postman? | What is API testing? #infysky #reactjs #laravel #razorpay #coding - Complete guide by Infy SKY - We Innovate Solutions.",
+      "year": 2024
+    },
+    {
+      "title": "How to test API in Postman? | What is API testing? Postman Api test #infysky #reactjs #shorts #short",
+      "creator": "Infy SKY - We Innovate Solutions",
+      "url": "https://www.youtube.com/watch?v=Fieppdw5vHs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to test API in Postman? | What is API testing? Postman Api test #infysky #reactjs #shorts #short - Complete guide by Infy SKY - We Innovate Solutions.",
+      "year": 2024
+    },
+    {
+      "title": "Learn API Testing with Postman 🔥 Beginner's Guide #postman #api",
+      "creator": "Coding Inspiration",
+      "url": "https://www.youtube.com/watch?v=aR7DQUEyHec",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn API Testing with Postman 🔥 Beginner's Guide #postman #api - Complete guide by Coding Inspiration.",
+      "year": 2024
+    },
+    {
+      "title": "Run Postman API Tests from the Command Line (Fast & Automated with Newman)",
+      "creator": "Scantling Datum",
+      "url": "https://www.youtube.com/watch?v=7cDq3N8vhnw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Run Postman API Tests from the Command Line (Fast & Automated with Newman) - Complete guide by Scantling Datum.",
+      "year": 2024
+    },
+    {
+      "title": "Postman API Testing Interview Questions | #accentureinterview #postman #api #testing",
+      "creator": "Learn Technocrats",
+      "url": "https://www.youtube.com/watch?v=eGtlbZNNIvA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Postman API Testing Interview Questions | #accentureinterview #postman #api #testing - Complete guide by Learn Technocrats.",
+      "year": 2024
+    },
+    {
+      "title": "What is Postman | How to use Postman",
+      "creator": "Dhananjay Sharma Officials",
+      "url": "https://www.youtube.com/watch?v=YxVjWzxuIgU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Postman | How to use Postman - Complete guide by Dhananjay Sharma Officials.",
+      "year": 2024
+    },
+    {
+      "title": "POSTMAN API Testing Roadmap 2026 for SDETs Interviews | Japneet Sachdeva",
+      "creator": "Japneet Sachdeva",
+      "url": "https://www.youtube.com/watch?v=GcJjOC_0wEs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "POSTMAN API Testing Roadmap 2026 for SDETs Interviews | Japneet Sachdeva - Complete guide by Japneet Sachdeva.",
+      "year": 2024
+    },
+    {
+      "title": "Postman తో API Testing Postman in Mobile  | IM CSEIAN #apitesting",
+      "creator": "IM CSEIAN",
+      "url": "https://www.youtube.com/watch?v=bmbIfowSprs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Postman తో API Testing Postman in Mobile  | IM CSEIAN #apitesting - Complete guide by IM CSEIAN.",
+      "year": 2024
+    },
+    {
+      "title": "NGINX Tutorial for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=9t9Mp0BGnyI",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "NGINX Tutorial for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Nginx Zero to Hero | Full Course with Hands-on",
+      "creator": "Abhishek.Veeramalla",
+      "url": "https://www.youtube.com/watch?v=9jZEfW8h5fQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Nginx Zero to Hero | Full Course with Hands-on - Complete guide by Abhishek.Veeramalla.",
+      "year": 2024
+    },
+    {
+      "title": "What is NGINX? #tech #stem",
+      "creator": "Tiff In Tech",
+      "url": "https://www.youtube.com/watch?v=5PKHTLv2PRM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is NGINX? #tech #stem - Complete guide by Tiff In Tech.",
+      "year": 2024
+    },
+    {
+      "title": "Postman Explained in Telugu 🔥 API Testing Basics for Beginners | Postman Tutorial 2025 #TeluguTech",
+      "creator": "Manoj Talks",
+      "url": "https://www.youtube.com/watch?v=isj5r5LVOYM",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Postman Explained in Telugu 🔥 API Testing Basics for Beginners | Postman Tutorial 2025 #TeluguTech - Complete guide by Manoj Talks.",
+      "year": 2024
+    },
+    {
+      "title": "Nginx reverse proxy",
+      "creator": "The Full Stack Dev",
+      "url": "https://www.youtube.com/watch?v=t2kIZ1wLX_s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Nginx reverse proxy - Complete guide by The Full Stack Dev.",
+      "year": 2024
+    },
+    {
+      "title": "How to Set Up an NGINX Reverse Proxy with Free SSL",
+      "creator": "ScanderLoud",
+      "url": "https://www.youtube.com/watch?v=QZHHhEU56WM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Set Up an NGINX Reverse Proxy with Free SSL - Complete guide by ScanderLoud.",
+      "year": 2024
+    },
+    {
+      "title": "Full NGINX Tutorial - Demo Project with Node.js, Docker",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=q8OleYuqntY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Full NGINX Tutorial - Demo Project with Node.js, Docker - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Nginx crash course in Hindi | Coders Gyan 🚀🔥",
+      "creator": "Coder's Gyan",
+      "url": "https://www.youtube.com/watch?v=FziEhnIpln4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Nginx crash course in Hindi | Coders Gyan 🚀🔥 - Complete guide by Coder's Gyan.",
+      "year": 2024
+    },
+    {
+      "title": "NGINX Explained in 100 Seconds",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=JKxlsvZXG7c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "NGINX Explained in 100 Seconds - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "What is Nginx? Reverse Proxy Explained in Hindi | Web Server Basics",
+      "creator": "CareerKit - Placement & Interview Prep",
+      "url": "https://www.youtube.com/watch?v=pZEBl3ku9H0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Nginx? Reverse Proxy Explained in Hindi | Web Server Basics - Complete guide by CareerKit - Placement & Interview Prep.",
+      "year": 2024
+    },
+    {
+      "title": "Why 30% of the web runs on Nginx | How Nginx took the web",
+      "creator": "Understand Tech",
+      "url": "https://www.youtube.com/watch?v=o2PlIFRPVpg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why 30% of the web runs on Nginx | How Nginx took the web - Complete guide by Understand Tech.",
+      "year": 2024
+    },
+    {
+      "title": "What Is NGINX? 🚀 The Secret Behind Fast Websites",
+      "creator": "Calm Programmer",
+      "url": "https://www.youtube.com/watch?v=ZZzqqSwmaoY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What Is NGINX? 🚀 The Secret Behind Fast Websites - Complete guide by Calm Programmer.",
+      "year": 2024
+    },
+    {
+      "title": "Linux Server Hardening & Nginx Reverse Proxy Setup for Web Developers",
+      "creator": "Bite Technology",
+      "url": "https://www.youtube.com/watch?v=zgPHp0HUMq0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Linux Server Hardening & Nginx Reverse Proxy Setup for Web Developers - Complete guide by Bite Technology.",
+      "year": 2024
+    },
+    {
+      "title": "Nginx Has Competition! #code #programming #tips",
+      "creator": "Better Stack",
+      "url": "https://www.youtube.com/watch?v=n451bHUwM2Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Nginx Has Competition! #code #programming #tips - Complete guide by Better Stack.",
+      "year": 2024
+    },
+    {
+      "title": "Nginx Explained in 60 Seconds | The Waiter of the Internet 🍽️",
+      "creator": "Hardeep Mohanty ",
+      "url": "https://www.youtube.com/watch?v=3yg8if3f0do",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Nginx Explained in 60 Seconds | The Waiter of the Internet 🍽️ - Complete guide by Hardeep Mohanty .",
+      "year": 2024
+    },
+    {
+      "title": "What is Nginx & How Does It Work? 🤔",
+      "creator": "StacheOps",
+      "url": "https://www.youtube.com/watch?v=hAZncWWig-8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Nginx & How Does It Work? 🤔 - Complete guide by StacheOps.",
+      "year": 2024
+    },
+    {
+      "title": "#258  🚀 What is NGINX? Load Balancer, Reverse Proxy & More! 🌐🔥 #codewithkg",
+      "creator": "codewithkg",
+      "url": "https://www.youtube.com/watch?v=cxfMaoN7gPA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#258  🚀 What is NGINX? Load Balancer, Reverse Proxy & More! 🌐🔥 #codewithkg - Complete guide by codewithkg.",
+      "year": 2024
+    },
+    {
+      "title": "Reverse Proxy kya hai? Nginx se 1 Server pe 3 Apps | Day 14",
+      "creator": "Devops way",
+      "url": "https://www.youtube.com/watch?v=SR4MyP5hbXY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Reverse Proxy kya hai? Nginx se 1 Server pe 3 Apps | Day 14 - Complete guide by Devops way.",
+      "year": 2024
+    },
+    {
+      "title": "Nginx tutorial for absolute beginner | Ultahost",
+      "creator": "6 Pack Programmer",
+      "url": "https://www.youtube.com/watch?v=QkbPPAnC5dg",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Nginx tutorial for absolute beginner | Ultahost - Complete guide by 6 Pack Programmer.",
+      "year": 2024
+    },
+    {
+      "title": "How NGINX Was Developed? The Origin Story of NGINX",
+      "creator": "Tech Tutorials with Piyush",
+      "url": "https://www.youtube.com/watch?v=hQOj8SwpRhA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How NGINX Was Developed? The Origin Story of NGINX - Complete guide by Tech Tutorials with Piyush.",
+      "year": 2024
+    },
+    {
+      "title": "Nginx Server Complete Course",
+      "creator": "Science Course",
+      "url": "https://www.youtube.com/watch?v=tMtFZdaaIhk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Nginx Server Complete Course - Complete guide by Science Course.",
+      "year": 2024
+    },
+    {
+      "title": "NGINX For Beginners | NGINX Tutorial | KodeKloud",
+      "creator": "KodeKloud",
+      "url": "https://www.youtube.com/watch?v=Hfg7_y0fGTg",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "NGINX For Beginners | NGINX Tutorial | KodeKloud - Complete guide by KodeKloud.",
+      "year": 2024
+    },
+    {
+      "title": "NGINX Complete Course: Reverse Proxy, Load Balancing, HTTPS & Docker",
+      "creator": "Sarvin Style Coding",
+      "url": "https://www.youtube.com/watch?v=-sY9OBgohX0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "NGINX Complete Course: Reverse Proxy, Load Balancing, HTTPS & Docker - Complete guide by Sarvin Style Coding.",
+      "year": 2024
+    },
+    {
+      "title": "How to Deploy, Secure, and Automate Full-Stack Web Apps – Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=wY5pQOTsGaA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "How to Deploy, Secure, and Automate Full-Stack Web Apps – Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Devops bootcamp (Beginner friendly) | EC2 Servers, S3, CDNs, nginx & VMs - Cohort Preview",
+      "creator": "Harkirat Singh",
+      "url": "https://www.youtube.com/watch?v=sSRaakd95Nk",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Complete Devops bootcamp (Beginner friendly) | EC2 Servers, S3, CDNs, nginx & VMs - Cohort Preview - Complete guide by Harkirat Singh.",
+      "year": 2024
+    },
+    {
+      "title": "NginX Crash Course",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=hcw-NjOh8r0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "NginX Crash Course - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Complete NGINX Tutorial | Web Server, Reverse Proxy & Load Balancer",
+      "creator": "Best Tutorial",
+      "url": "https://www.youtube.com/watch?v=NwijBVfiK_o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete NGINX Tutorial | Web Server, Reverse Proxy & Load Balancer - Complete guide by Best Tutorial.",
+      "year": 2024
+    },
+    {
+      "title": "Vim Tutorial",
+      "creator": "Ben Awad",
+      "url": "https://www.youtube.com/watch?v=IiwGbcd8S7I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Vim Tutorial - Complete guide by Ben Awad.",
+      "year": 2024
+    },
+    {
+      "title": "Vim Tutorial for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=RZ4p-saaQkc",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Vim Tutorial for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Neovim in 100 Seconds",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=c4OyfL5o7DU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Neovim in 100 Seconds - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "How to MASTER Vim quickly👩‍💻 #software #developer #programming #tech #opensource #code #technology",
+      "creator": "Warp",
+      "url": "https://www.youtube.com/watch?v=9cODLyHC6aE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to MASTER Vim quickly👩‍💻 #software #developer #programming #tech #opensource #code #technology - Complete guide by Warp.",
+      "year": 2024
+    },
+    {
+      "title": "2024: Learn Vim",
+      "creator": "The PrimeTime",
+      "url": "https://www.youtube.com/watch?v=qFnVZtvylIU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "2024: Learn Vim - Complete guide by The PrimeTime.",
+      "year": 2024
+    },
+    {
+      "title": "How to Use Vim - Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=g-XsXEsd6xA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Use Vim - Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Give Me 20 Minutes and I’ll Make You a Vim Motions Expert",
+      "creator": "DevOps Toolbox",
+      "url": "https://www.youtube.com/watch?v=z4eA2eC28qg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Give Me 20 Minutes and I’ll Make You a Vim Motions Expert - Complete guide by DevOps Toolbox.",
+      "year": 2024
+    },
+    {
+      "title": "VIM Essentials Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=JYNA9j8SXs4",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "VIM Essentials Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Vim in 100 Seconds",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=-txKSRn0qeA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Vim in 100 Seconds - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "Vim Tutorial for Beginners Lesson 1",
+      "creator": "Mental Outlaw",
+      "url": "https://www.youtube.com/watch?v=jyhYW0qZ6oA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Vim Tutorial for Beginners Lesson 1 - Complete guide by Mental Outlaw.",
+      "year": 2024
+    },
+    {
+      "title": "God Tier Vim Macro",
+      "creator": "The PrimeTime",
+      "url": "https://www.youtube.com/watch?v=rgW9JNLwKrE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "God Tier Vim Macro - Complete guide by The PrimeTime.",
+      "year": 2024
+    },
+    {
+      "title": "Vim Tutorial Part 2 - How to Find and Replace text in Vim",
+      "creator": "Mental Outlaw",
+      "url": "https://www.youtube.com/watch?v=hYvGpFB6ZkY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Vim Tutorial Part 2 - How to Find and Replace text in Vim - Complete guide by Mental Outlaw.",
+      "year": 2024
+    },
+    {
+      "title": "Terraform Course - Automate your AWS cloud infrastructure",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=SLB_c_ayRMo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Terraform Course - Automate your AWS cloud infrastructure - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Day 0—Learn AWS With Terraform in 30 Days (with real-time projects)",
+      "creator": "Tech Tutorials with Piyush",
+      "url": "https://www.youtube.com/watch?v=xUtGqC-NXJE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Day 0—Learn AWS With Terraform in 30 Days (with real-time projects) - Complete guide by Tech Tutorials with Piyush.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Terraform with Azure by Building a Dev Environment – Full Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=V53AHWun17s",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn Terraform with Azure by Building a Dev Environment – Full Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Day 0/28 - Azure Terraform Full Course | Terraform Zero To Hero ( in 28 days)",
+      "creator": "Tech Tutorials with Piyush",
+      "url": "https://www.youtube.com/watch?v=j0mfH_7sR7k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Day 0/28 - Azure Terraform Full Course | Terraform Zero To Hero ( in 28 days) - Complete guide by Tech Tutorials with Piyush.",
+      "year": 2024
+    },
+    {
+      "title": "HashiCorp Terraform Associate Certification Course - Pass the Exam!",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=V4waklkBC38",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "HashiCorp Terraform Associate Certification Course - Pass the Exam! - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "1/30 - How Does Terraform Work | Intro to IAC",
+      "creator": "Tech Tutorials with Piyush",
+      "url": "https://www.youtube.com/watch?v=s5fwSG_00P8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1/30 - How Does Terraform Work | Intro to IAC - Complete guide by Tech Tutorials with Piyush.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Terraform with Google Cloud Platform – Infrastructure as Code Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=VCayKl82Lt8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Terraform with Google Cloud Platform – Infrastructure as Code Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes 101 workshop - complete hands-on",
+      "creator": "Kubesimplify",
+      "url": "https://www.youtube.com/watch?v=PN3VqbZqmD8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kubernetes 101 workshop - complete hands-on - Complete guide by Kubesimplify.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Terraform Course - From BEGINNER to PRO! (Learn Infrastructure as Code)",
+      "creator": "DevOps Directive",
+      "url": "https://www.youtube.com/watch?v=7xngnjfIlK4",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Complete Terraform Course - From BEGINNER to PRO! (Learn Infrastructure as Code) - Complete guide by DevOps Directive.",
+      "year": 2024
+    },
+    {
+      "title": "Day 1/28 - What Is Infrastructure as Code | Terraform Tutorial For Beginners",
+      "creator": "Tech Tutorials with Piyush",
+      "url": "https://www.youtube.com/watch?v=x7EvkQMfZCg",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Day 1/28 - What Is Infrastructure as Code | Terraform Tutorial For Beginners - Complete guide by Tech Tutorials with Piyush.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Terraform (and AWS) by Building a Dev Environment – Full Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=iRaai1IBlB0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn Terraform (and AWS) by Building a Dev Environment – Full Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Day 1 :  Terraform explained | Terraform Tutorial for Beginners",
+      "creator": "Cloud Champ",
+      "url": "https://www.youtube.com/watch?v=IyfdN5_fB1I",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Day 1 :  Terraform explained | Terraform Tutorial for Beginners - Complete guide by Cloud Champ.",
+      "year": 2024
+    },
+    {
+      "title": "Day 2: Master HCL syntax and Learn how to write Terraform Code",
+      "creator": "Cloud Champ",
+      "url": "https://www.youtube.com/watch?v=UR665AHN9yE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Day 2: Master HCL syntax and Learn how to write Terraform Code - Complete guide by Cloud Champ.",
+      "year": 2024
+    },
+    {
+      "title": "Terraform Explained | Infrastructure as Code",
+      "creator": "SysMinu",
+      "url": "https://www.youtube.com/watch?v=haB8TErpAdg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Terraform Explained | Infrastructure as Code - Complete guide by SysMinu.",
+      "year": 2024
+    },
+    {
+      "title": "🔥What Is Terraform? | Terraform Explained in 100 seconds For BEGINNERS | Intellipaat #shorts",
+      "creator": "Intellipaat",
+      "url": "https://www.youtube.com/watch?v=iJ77jZY8aqs",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "🔥What Is Terraform? | Terraform Explained in 100 seconds For BEGINNERS | Intellipaat #shorts - Complete guide by Intellipaat.",
+      "year": 2024
+    },
+    {
+      "title": "How I Would Learn Terraform (if I could start over)",
+      "creator": "Homebrew Henry",
+      "url": "https://www.youtube.com/watch?v=wVmS7T7P3YM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How I Would Learn Terraform (if I could start over) - Complete guide by Homebrew Henry.",
+      "year": 2024
+    },
+    {
+      "title": "Terraform vs Ansible! #devops #iac",
+      "creator": "Cloud Champ",
+      "url": "https://www.youtube.com/watch?v=AEStHHZm0Ok",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Terraform vs Ansible! #devops #iac - Complete guide by Cloud Champ.",
+      "year": 2024
+    },
+    {
+      "title": "Everything you need to know about Terraform Associate Exam! #terraform #devops",
+      "creator": "Cloud Champ",
+      "url": "https://www.youtube.com/watch?v=bzYtmcIV2JQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Everything you need to know about Terraform Associate Exam! #terraform #devops - Complete guide by Cloud Champ.",
+      "year": 2024
+    },
+    {
+      "title": "Terraform in 30 seconds",
+      "creator": "akashcodeofficial",
+      "url": "https://www.youtube.com/watch?v=3Wbsbz5-lzk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Terraform in 30 seconds - Complete guide by akashcodeofficial.",
+      "year": 2024
+    },
+    {
+      "title": "Terraform in 100 Seconds",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=tomUWcQ0P3k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Terraform in 100 Seconds - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "Terraform for Beginners: AWS Infrastructure as Code",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=wAwVOFf0Xq4",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Terraform for Beginners: AWS Infrastructure as Code - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Infrastructure as Code - Crash Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=EtEb40LE5zQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Infrastructure as Code - Crash Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "The ULTIMATE Roadmap to Master Terraform and AWS in 30 Days (A FREE Challenge)",
+      "creator": "Tech Tutorials with Piyush",
+      "url": "https://www.youtube.com/watch?v=2kUb2FCulXg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The ULTIMATE Roadmap to Master Terraform and AWS in 30 Days (A FREE Challenge) - Complete guide by Tech Tutorials with Piyush.",
+      "year": 2024
+    },
+    {
+      "title": "How Terraform Works?",
+      "creator": "ByteMonk",
+      "url": "https://www.youtube.com/watch?v=mhJaoyx-afs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Terraform Works? - Complete guide by ByteMonk.",
+      "year": 2024
+    },
+    {
+      "title": "Terraform Explained in 60 seconds",
+      "creator": "NextWork",
+      "url": "https://www.youtube.com/watch?v=iTG9kD390BA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Terraform Explained in 60 seconds - Complete guide by NextWork.",
+      "year": 2024
+    },
+    {
+      "title": "Terraform Modules - Why to pass version argument. #aws #amazon #terraform #argument #version #module",
+      "creator": "Himanshi Kapoor",
+      "url": "https://www.youtube.com/watch?v=zUbUNbduFL8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Terraform Modules - Why to pass version argument. #aws #amazon #terraform #argument #version #module - Complete guide by Himanshi Kapoor.",
+      "year": 2024
+    },
+    {
+      "title": "Terraform made simple! 🚀 Understand 9 essential Terraform concepts in just 60 seconds",
+      "creator": "Chandsi Sarvaiya | TechBabeCodes",
+      "url": "https://www.youtube.com/watch?v=chEpDcIyEoo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Terraform made simple! 🚀 Understand 9 essential Terraform concepts in just 60 seconds - Complete guide by Chandsi Sarvaiya | TechBabeCodes.",
+      "year": 2024
+    },
+    {
+      "title": "How to Clear the HashiCorp Terraform Exam in 2024! 🚀#terraform #hashicorp #devops #examprep #iac",
+      "creator": "Cloud with Shruti",
+      "url": "https://www.youtube.com/watch?v=Z3F94J8ezdQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Clear the HashiCorp Terraform Exam in 2024! 🚀#terraform #hashicorp #devops #examprep #iac - Complete guide by Cloud with Shruti.",
+      "year": 2024
+    },
+    {
+      "title": "terraform for devops job #devops #devopsengineering #programming #coding",
+      "creator": "IT Training Classes",
+      "url": "https://www.youtube.com/watch?v=b9vLPwMnwvY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "terraform for devops job #devops #devopsengineering #programming #coding - Complete guide by IT Training Classes.",
+      "year": 2024
+    },
+    {
+      "title": "HashiCorp Certified Terraform Associate 004",
+      "creator": "Whizlabs",
+      "url": "https://www.youtube.com/watch?v=i9Jm3pNaDW4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "HashiCorp Certified Terraform Associate 004 - Complete guide by Whizlabs.",
+      "year": 2024
+    },
+    {
+      "title": "Stop Corrupting Your Infrastructure Using Terraform Remote Backend",
+      "creator": "Tech Tutorials with Piyush",
+      "url": "https://www.youtube.com/watch?v=FQX6fuWbHJQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Stop Corrupting Your Infrastructure Using Terraform Remote Backend - Complete guide by Tech Tutorials with Piyush.",
+      "year": 2024
+    },
+    {
+      "title": "Terraform 101 🌍This is how I use Infrastructure as Code to deploy an EC2 instance on AWS || DevOps",
+      "creator": "TechTitans Academy",
+      "url": "https://www.youtube.com/watch?v=nmff0Wx77ys",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Terraform 101 🌍This is how I use Infrastructure as Code to deploy an EC2 instance on AWS || DevOps - Complete guide by TechTitans Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Someone Deleted Your Terraform-Managed EC2 Instance. What Happens Next?",
+      "creator": "DevOps4Solutions",
+      "url": "https://www.youtube.com/watch?v=bCZL9fuXjz0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Someone Deleted Your Terraform-Managed EC2 Instance. What Happens Next? - Complete guide by DevOps4Solutions.",
+      "year": 2024
+    },
+    {
+      "title": "DevOps Commands (AWS, Terraform, Kubernetes, Ansible, Git, Docker, Linux)",
+      "creator": "AWS with Jaymit",
+      "url": "https://www.youtube.com/watch?v=rcGrRfWo65Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DevOps Commands (AWS, Terraform, Kubernetes, Ansible, Git, Docker, Linux) - Complete guide by AWS with Jaymit.",
+      "year": 2024
+    },
+    {
+      "title": "Creating AWS Instances using Terraform",
+      "creator": "MergeToMaster",
+      "url": "https://www.youtube.com/watch?v=gq4bM00AVCs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Creating AWS Instances using Terraform - Complete guide by MergeToMaster.",
+      "year": 2024
+    },
+    {
+      "title": "Docker and Kubernetes Tutorial for Beginners",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/playlist?list=PLy7NrYWoggjwPggqtFsI_zMAwvG0SqYCb",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Docker and Kubernetes Tutorial for Beginners - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Docker Tutorial for Beginners",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/playlist?list=PLy7NrYWoggjzfAHlUusx2wuDwfCrmJYcs",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Docker Tutorial for Beginners - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "DevOps Tools",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/playlist?list=PLy7NrYWoggjxKDRWLqkd4Kbt84XEerHhB",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "DevOps Tools - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Terraform Certification 100% | Free Course #terraform  #cloud  #devops  #education",
+      "creator": "A Cloud Hero",
+      "url": "https://www.youtube.com/watch?v=lGAVmbI1LgI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Terraform Certification 100% | Free Course #terraform  #cloud  #devops  #education - Complete guide by A Cloud Hero.",
+      "year": 2024
+    },
+    {
+      "title": "I removed ONE name and Terraform destroyed 2 storage accounts 😳 | How Terraform Actually Works",
+      "creator": "SK Platforms",
+      "url": "https://www.youtube.com/watch?v=Yjcx6JFngrI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I removed ONE name and Terraform destroyed 2 storage accounts 😳 | How Terraform Actually Works - Complete guide by SK Platforms.",
+      "year": 2024
+    },
+    {
+      "title": "Terraform Crash Course - Infrastructure as Code",
+      "creator": "NeuralNine",
+      "url": "https://www.youtube.com/watch?v=pnzlqoYNuQc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Terraform Crash Course - Infrastructure as Code - Complete guide by NeuralNine.",
+      "year": 2024
+    },
+    {
+      "title": "Jenkins Zero to Hero",
+      "creator": "Abhishek.Veeramalla",
+      "url": "https://www.youtube.com/playlist?list=PLdpzxOOAlwvJDIAQZtMjUUbiVUDfGaCIX",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Jenkins Zero to Hero - Complete guide by Abhishek.Veeramalla.",
+      "year": 2024
+    },
+    {
+      "title": "AI Tutorials",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/playlist?list=PLy7NrYWoggjwaatYXUpRgJSVvT1cmHuct",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "AI Tutorials - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "HashiCorp Vault",
+      "creator": "Rahul Wagh",
+      "url": "https://www.youtube.com/playlist?list=PL7iMyoQPMtAP7XeXabzWnNKGkCex1C_3C",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "HashiCorp Vault - Complete guide by Rahul Wagh.",
+      "year": 2024
+    },
+    {
+      "title": "'Ultimate Docker Compose Tutorial' by TechWorld with Nana, ...",
+      "creator": "misslalalauren",
+      "url": "https://www.youtube.com/playlist?list=PLpm99KpnMKpY_TlyFbQPaG6RSnGGDEKbR",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "'Ultimate Docker Compose Tutorial' by TechWorld with Nana, ... - Complete guide by misslalalauren.",
+      "year": 2024
+    },
+    {
+      "title": "\"Docker Tutorial for Beginners [FULL COURSE in 3 Hours]\" by TechWorld with Nana and more",
+      "creator": "snjurado",
+      "url": "https://www.youtube.com/playlist?list=PLzXd-O_B0g40HQX8H_xMC1E1B-Ks_B9ID",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "\"Docker Tutorial for Beginners [FULL COURSE in 3 Hours]\" by TechWorld with Nana and more - Complete guide by snjurado.",
+      "year": 2024
+    },
+    {
+      "title": "Docker Crash Course Tutorial",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Docker Crash Course Tutorial - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "Docker",
+      "creator": "Abhishek.Veeramalla",
+      "url": "https://www.youtube.com/playlist?list=PLdpzxOOAlwvLjb0vTD9BXLOwwLD_GWCmC",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Docker - Complete guide by Abhishek.Veeramalla.",
+      "year": 2024
+    },
+    {
+      "title": "Jenkins Tutorial for Beginners",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/playlist?list=PLy7NrYWoggjw_LIiDK1LXdNN82uYuuuiC",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Jenkins Tutorial for Beginners - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Docker - Container Training (Complete Crash Course)",
+      "creator": "Linux Wale Guruji",
+      "url": "https://www.youtube.com/playlist?list=PLYEK_dHOjwtMxKufouGs2QGLH1qhJw0T-",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Docker - Container Training (Complete Crash Course) - Complete guide by Linux Wale Guruji.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Kubernetes Tutorial for Beginners",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/playlist?list=PLy7NrYWoggjziYQIDorlXjTvvwweTYoNC",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Complete Kubernetes Tutorial for Beginners - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "\"Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours]\" (TechWorld with Nana), ...",
+      "creator": "shiftydiskogirl",
+      "url": "https://www.youtube.com/playlist?list=PLqOjzdlzis21pgDQlbc-_dbLnuQrdpr-R",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "\"Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours]\" (TechWorld with Nana), ... - Complete guide by shiftydiskogirl.",
+      "year": 2024
+    },
+    {
+      "title": "Docker & Kubernetes - Explained in under 15 minutes",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/playlist?list=PLy7NrYWoggjw0OMxUDIImjWQjM7qZWn_R",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Docker & Kubernetes - Explained in under 15 minutes - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Certified Kubernetes Administrator Full Course For beginners | CKA 2026",
+      "creator": "Tech Tutorials with Piyush",
+      "url": "https://www.youtube.com/playlist?list=PLl4APkPHzsUUOkOv3i62UidrLmSB8DcGC",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Certified Kubernetes Administrator Full Course For beginners | CKA 2026 - Complete guide by Tech Tutorials with Piyush.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes | Zero to Interview Hero",
+      "creator": "TechWorld with Sahana ",
+      "url": "https://www.youtube.com/playlist?list=PL8h_iS3fGq0KYUn8JfXF86pAzssaH_Frn",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Kubernetes | Zero to Interview Hero - Complete guide by TechWorld with Sahana .",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes Demo",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/playlist?list=PLy7NrYWoggjy3urR5g7BLJiNjLtQcVckT",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Kubernetes Demo - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes Crash Course for Absolute Beginners [NEW] (TechWorld with Nana), etc",
+      "creator": "Nathallica",
+      "url": "https://www.youtube.com/playlist?list=PLKnP1-N2wSiloE0cMpg50ppKJKdTyC7qO",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Kubernetes Crash Course for Absolute Beginners [NEW] (TechWorld with Nana), etc - Complete guide by Nathallica.",
+      "year": 2024
+    },
+    {
+      "title": "'Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours]' (TechWorld with Nana) and more",
+      "creator": "acrid24",
+      "url": "https://www.youtube.com/playlist?list=PLF_WMW5YJZrjDHlz-uVKLTvuR8D44mpgR",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "'Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours]' (TechWorld with Nana) and more - Complete guide by acrid24.",
+      "year": 2024
+    },
+    {
+      "title": "DevOps Courses",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbkzvvpY12KkfiIGso9A_Ixs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "DevOps Courses - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "\"Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours]\" (TechWorld with Nana) and more",
+      "creator": "xoxpunchkid",
+      "url": "https://www.youtube.com/playlist?list=PLvBAkVohDNQLE9tlgl0iSmxiDEUfZPxMR",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "\"Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours]\" (TechWorld with Nana) and more - Complete guide by xoxpunchkid.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes Course - Full Beginners Tutorial (Containerize Your Apps!) (freeCodeCamp.org) and more",
+      "creator": "huayeye",
+      "url": "https://www.youtube.com/playlist?list=PL9KUWieiqtec4zwnuJcNZha8y2X-FBwNX",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Kubernetes Course - Full Beginners Tutorial (Containerize Your Apps!) (freeCodeCamp.org) and more - Complete guide by huayeye.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes Tutorial for Beginners | Complete Hands-On Course",
+      "creator": "Shubham gour",
+      "url": "https://www.youtube.com/playlist?list=PLBr8obKbpkYvNosYrgzEayOCe1d_MY5n-",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Kubernetes Tutorial for Beginners | Complete Hands-On Course - Complete guide by Shubham gour.",
+      "year": 2024
+    },
+    {
+      "title": "Linux Commands for Beginners",
+      "creator": "Learn Linux TV",
+      "url": "https://www.youtube.com/playlist?list=PLT98CRl2KxKHaKA9-4_I38sLzK134p4GJ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Linux Commands for Beginners - Complete guide by Learn Linux TV.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Command Line",
+      "creator": "Elzero Web School",
+      "url": "https://www.youtube.com/playlist?list=PLDoPjvoNmBAxzNO8ixW83Sf8FnLy_MkUT",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Learn Command Line - Complete guide by Elzero Web School.",
+      "year": 2024
+    },
+    {
+      "title": "Linux Command Line Pro Bangla Course 🐧 | Advanced Linux Terminal Tutorial",
+      "creator": "Saiful Islam Khan",
+      "url": "https://www.youtube.com/playlist?list=PLjBCkQopeW5E7tVu264S0QDaN0AzaOwVr",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Linux Command Line Pro Bangla Course 🐧 | Advanced Linux Terminal Tutorial - Complete guide by Saiful Islam Khan.",
+      "year": 2024
+    },
+    {
+      "title": "'APIs for Beginners - How to use an API (Full Course / Tutorial)' (freeCodeCamp.org) and others",
+      "creator": "whisper00",
+      "url": "https://www.youtube.com/playlist?list=PLn2ZdC_bGxXV5LPWgf0R6x-oJYXWbWF1_",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "'APIs for Beginners - How to use an API (Full Course / Tutorial)' (freeCodeCamp.org) and others - Complete guide by whisper00.",
+      "year": 2024
+    },
+    {
+      "title": "Postman Beginner's Course - API Testing by freeCodeCamp.org and others",
+      "creator": "jannebopp",
+      "url": "https://www.youtube.com/playlist?list=PLO1AgQ3GC_gWjWPcU38kgBibhN1EZKjVh",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Postman Beginner's Course - API Testing by freeCodeCamp.org and others - Complete guide by jannebopp.",
+      "year": 2024
+    },
+    {
+      "title": "'Postman Beginner's Course - API Testing' by freeCodeCamp.org, etc",
+      "creator": "Ethyron",
+      "url": "https://www.youtube.com/playlist?list=PL972LIgdUXgrIeO8tO6-U5Kvs3GJnDUKf",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "'Postman Beginner's Course - API Testing' by freeCodeCamp.org, etc - Complete guide by Ethyron.",
+      "year": 2024
+    },
+    {
+      "title": "APIs for Beginners - How to use an API (Full Course / Tutorial) by freeCodeCamp.org, ...",
+      "creator": "nyergesn",
+      "url": "https://www.youtube.com/playlist?list=PLwc4P8yaIiarvhKZF39bdWDFuFnq3WW1D",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "APIs for Beginners - How to use an API (Full Course / Tutorial) by freeCodeCamp.org, ... - Complete guide by nyergesn.",
+      "year": 2024
+    },
+    {
+      "title": "Docker Full Course 2026 🔥 Beginner to Advanced in Hindi/Urdu | Master Containers, Volumes & Docker Compose",
+      "creator": "The Techzeen",
+      "url": "https://www.youtube.com/playlist?list=PL5OhSdfH4uDv0M-wOEYDLKpz3i6uk7tOC",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Docker Full Course 2026 🔥 Beginner to Advanced in Hindi/Urdu | Master Containers, Volumes & Docker Compose - Complete guide by The Techzeen.",
+      "year": 2024
+    },
+    {
+      "title": "POSTMAN TUTORIAL - Complete API Testing and API Test Automation Course using Postman Tool",
+      "creator": "Software Testing Mentor",
+      "url": "https://www.youtube.com/playlist?list=PLL34mf651faNJ6Wm8elGZl5mr9Zf14dWH",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "POSTMAN TUTORIAL - Complete API Testing and API Test Automation Course using Postman Tool - Complete guide by Software Testing Mentor.",
+      "year": 2024
+    },
+    {
+      "title": "POSTMAN - API TESTING TOOL",
+      "creator": "CodeStudio",
+      "url": "https://www.youtube.com/playlist?list=PLnNg6KqJ3HGiMMhPYMqzRUrJu_hvgy4Eo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "POSTMAN - API TESTING TOOL - Complete guide by CodeStudio.",
+      "year": 2024
+    },
+    {
+      "title": "Full Courses in One Video",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbnupwRFOq9zGOWjdvPRtCmO",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Full Courses in One Video - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "API Testing Using Postman: Mastering API Testing using POSTMAN - [Complete Course]",
+      "creator": "The Testing Academy",
+      "url": "https://www.youtube.com/playlist?list=PL8VbCbavWfeEvyUo5qCEw96LNjPR5rR2k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "API Testing Using Postman: Mastering API Testing using POSTMAN - [Complete Course] - Complete guide by The Testing Academy.",
+      "year": 2024
+    },
+    {
+      "title": "API Testing with POSTMAN(In Hindi)",
+      "creator": "TheTestingAcademy Hindi",
+      "url": "https://www.youtube.com/playlist?list=PLwbMf8x0S9vDIvIHubBo-0BtG3YaQdqUy",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "API Testing with POSTMAN(In Hindi) - Complete guide by TheTestingAcademy Hindi.",
+      "year": 2024
+    },
+    {
+      "title": "Vim Tutorials",
+      "creator": "Mental Outlaw",
+      "url": "https://www.youtube.com/playlist?list=PL3cu45aM3C2DJVGfCjSBB1yD9YkC7q27-",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Vim Tutorials - Complete guide by Mental Outlaw.",
+      "year": 2024
+    },
+    {
+      "title": "Postman Tutorial for Beginners 2026 | Step-by-Step Hands-On | Complete API Testing Course",
+      "creator": "Automation Step by Step",
+      "url": "https://www.youtube.com/playlist?list=PLhW3qG5bs-L9bT4CL6lzCTjo82k42hbmu",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Postman Tutorial for Beginners 2026 | Step-by-Step Hands-On | Complete API Testing Course - Complete guide by Automation Step by Step.",
+      "year": 2024
+    },
+    {
+      "title": "'HashiCorp Terraform Associate Certification Course (003) - Pass the Exam!' by freeCodeCamp.org and",
+      "creator": "andreazeta",
+      "url": "https://www.youtube.com/playlist?list=PLfY7UD_S2MOKVR09LsboJ5FpkYoiLsPJJ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "'HashiCorp Terraform Associate Certification Course (003) - Pass the Exam!' by freeCodeCamp.org and - Complete guide by andreazeta.",
+      "year": 2024
+    },
+    {
+      "title": "Azure Terraform Full Course For Beginners",
+      "creator": "Tech Tutorials with Piyush",
+      "url": "https://www.youtube.com/playlist?list=PLl4APkPHzsUUHlbhuq9V02n9AMLPySoEQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Azure Terraform Full Course For Beginners - Complete guide by Tech Tutorials with Piyush.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Terraform Full Course - #30daysofAWSTerraform",
+      "creator": "Tech Tutorials with Piyush",
+      "url": "https://www.youtube.com/playlist?list=PLl4APkPHzsUXcfBSJDExYR-a4fQiZGmMp",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "AWS Terraform Full Course - #30daysofAWSTerraform - Complete guide by Tech Tutorials with Piyush.",
+      "year": 2024
+    },
+    {
+      "title": "Terraform Full Course: Basics to Advanc",
+      "creator": "Cloud Champ",
+      "url": "https://www.youtube.com/playlist?list=PLOa-edppsqFm10V0vh-szO7YffAKcW5K-",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Terraform Full Course: Basics to Advanc - Complete guide by Cloud Champ.",
+      "year": 2024
+    },
+    {
+      "title": "Terraform Course - Automate your AWS cloud infrastructure (freeCodeCamp.org), ...",
+      "creator": "olliebenjamin",
+      "url": "https://www.youtube.com/playlist?list=PLZUPzLAhiB_1IOZlgsWKcP4KRmeeuTTlW",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Terraform Course - Automate your AWS cloud infrastructure (freeCodeCamp.org), ... - Complete guide by olliebenjamin.",
+      "year": 2024
+    }
+  ]
 }

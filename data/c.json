@@ -1,32 +1,3150 @@
 {
-    "name": "C",
-    "slug": "c",
-    "description": "C Complete Course",
-    "icon": "https://img.icons8.com/?size=100&id=mfkStOwP4EC0&format=png&color=000000",
-    "articles": [
-        {
-            "title": "Learn-C.org - Interactive C Tutorial",
-            "url": "https://www.learn-c.org/"
-        },
-        {
-            "title": "C Programming Tutorial for Beginners",
-            "url": "https://www.programiz.com/c-programming"
-        },
-        {
-            "title": "C Reference (GNU)",
-            "url": "https://www.gnu.org/software/c-intro-and-ref/manual/"
-        }
-    ],
-    "playlists": [
-        {
-            "title": "C Language Tutorial for Beginners",
-            "creator": "Apna College",
-            "url": "https://youtu.be/irqbmMNs2Bo?si=jiTnQMVjYwJnaEYI",
-            "language": "English,Hindi",
-            "difficulty": "beginner",
-            "videoCount": 10,
-            "description": "",
-            "year": 2026
-        }
-    ]
+  "name": "C",
+  "slug": "c",
+  "description": "C Complete Course",
+  "icon": "c",
+  "articles": [
+    {
+      "title": "Learn-C.org - Interactive C Tutorial",
+      "url": "https://www.learn-c.org/"
+    },
+    {
+      "title": "C Programming Tutorial for Beginners",
+      "url": "https://www.programiz.com/c-programming"
+    },
+    {
+      "title": "Beej's Guide to C Programming",
+      "url": "https://beej.us/guide/bgc/"
+    },
+    {
+      "title": "C Pointers In-Depth Guide",
+      "url": "https://www.geeksforgeeks.org/c-pointers/"
+    },
+    {
+      "title": "C Programming Wikibooks Open Textbook",
+      "url": "https://en.wikibooks.org/wiki/C_Programming"
+    },
+    {
+      "title": "Harvard CS50 C Language Notes",
+      "url": "https://cs50.harvard.edu/x/"
+    },
+    {
+      "title": "C Programming Frequently Asked Questions (FAQ)",
+      "url": "https://c-faq.com/"
+    },
+    {
+      "title": "Google C++ Style Guide",
+      "url": "https://google.github.io/styleguide/cppguide.html"
+    },
+    {
+      "title": "C++ Core Guidelines by Bjarne Stroustrup",
+      "url": "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines"
+    },
+    {
+      "title": "CppReference.com - C and C++ Standard Reference",
+      "url": "https://en.cppreference.com/w/"
+    },
+    {
+      "title": "Compiler Explorer (Godbolt) Interactive C/C++ Assembly",
+      "url": "https://godbolt.org/"
+    },
+    {
+      "title": "ISO C++ Official FAQ & Guidelines",
+      "url": "https://isocpp.org/faq"
+    },
+    {
+      "title": "CMake Official Tutorial & Guide",
+      "url": "https://cmake.org/cmake/help/latest/guide/tutorial/index.html"
+    },
+    {
+      "title": "Valgrind Memory Debugger Documentation",
+      "url": "https://valgrind.org/docs/manual/quick-start.html"
+    },
+    {
+      "title": "Beej's Guide to Network Programming (Sockets in C)",
+      "url": "https://beej.us/guide/bgnet/"
+    }
+  ],
+  "playlists": [
+    {
+      "title": "C Language Tutorial for Beginners",
+      "creator": "Apna College",
+      "url": "https://youtu.be/irqbmMNs2Bo?si=jiTnQMVjYwJnaEYI",
+      "language": "English,Hindi",
+      "difficulty": "beginner",
+      "videoCount": 10,
+      "description": "",
+      "year": 2026
+    },
+    {
+      "title": "C Programming Full Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=KJgsSFOSQv0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Complete beginner tutorial covering variables, arrays, functions, structs, pointers, and memory management.",
+      "year": 2021
+    },
+    {
+      "title": "Pointers in C and C++ Deep Dive",
+      "creator": "mycodeschool",
+      "url": "https://www.youtube.com/playlist?list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "The quintessential video series explaining pointers, pointer arithmetic, memory addresses, and dynamic allocation.",
+      "year": 2020
+    },
+    {
+      "title": "Low Level Learning - Modern C Systems Programming",
+      "creator": "Low Level Learning",
+      "url": "https://www.youtube.com/playlist?list=PLmxT2pVYo5LB5EzTPZGfFN0c2GDiSXgQe",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 20,
+      "description": "Practical systems programming in C exploring registers, stack vs heap, buffer overflows, and assembly interfaces.",
+      "year": 2023
+    },
+    {
+      "title": "#2: C Variables and Print Output | [2025] C Programming for Beginners",
+      "creator": "Programiz",
+      "url": "https://www.youtube.com/watch?v=h4VBpylsjJc",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "#2: C Variables and Print Output | [2025] C Programming for Beginners - Complete guide by Programiz.",
+      "year": 2024
+    },
+    {
+      "title": "C Programming in One Shot | Part 1 | Variables, Operators and Input/ Output | C Complete Course",
+      "creator": "College Wallah",
+      "url": "https://www.youtube.com/watch?v=rQoqCP7LX60",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C Programming in One Shot | Part 1 | Variables, Operators and Input/ Output | C Complete Course - Complete guide by College Wallah.",
+      "year": 2024
+    },
+    {
+      "title": "C Language Tutorial for Beginners (with Notes & Practice Questions)",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=irqbmMNs2Bo",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "C Language Tutorial for Beginners (with Notes & Practice Questions) - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "Learn C Programming and OOP with Dr. Chuck [feat. classic book by Kernighan and Ritchie]",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=PaPN51Mm5qQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn C Programming and OOP with Dr. Chuck [feat. classic book by Kernighan and Ritchie] - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Pointers in C / C++ [Full Course]",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=zuegQmMdy8M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Pointers in C / C++ [Full Course] - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "So why should you still learn C programming in 2025 and beyond? Dr. David J. Malan has an answer.",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=Fi8vnYgMiHA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "So why should you still learn C programming in 2025 and beyond? Dr. David J. Malan has an answer. - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "What Is Coding & C Programming Language? : C Tutorial In Hindi #2",
+      "creator": "CodeWithHarry",
+      "url": "https://www.youtube.com/watch?v=Wa-kgmSLls4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What Is Coding & C Programming Language? : C Tutorial In Hindi #2 - Complete guide by CodeWithHarry.",
+      "year": 2024
+    },
+    {
+      "title": "#1: Getting Started with C Programming [2025] | C Programming for Beginners",
+      "creator": "Programiz",
+      "url": "https://www.youtube.com/watch?v=KnvbUiSxvbM",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "#1: Getting Started with C Programming [2025] | C Programming for Beginners - Complete guide by Programiz.",
+      "year": 2024
+    },
+    {
+      "title": "C Programming – Features & The First C Program",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/watch?v=rLf3jnHxSmU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C Programming – Features & The First C Program - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Why Learn C Programming Language? : C Tutorial In Hindi #1",
+      "creator": "CodeWithHarry",
+      "url": "https://www.youtube.com/watch?v=7Dh73z3icd8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why Learn C Programming Language? : C Tutorial In Hindi #1 - Complete guide by CodeWithHarry.",
+      "year": 2024
+    },
+    {
+      "title": "If Else in 1 Video | C Programming | Lecture 2 | Complete C Course",
+      "creator": "College Wallah",
+      "url": "https://www.youtube.com/watch?v=7PSfRdeY5qE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "If Else in 1 Video | C Programming | Lecture 2 | Complete C Course - Complete guide by College Wallah.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Variables",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/watch?v=fO4FwJOShdc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to Variables - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Programming and Computer Science - Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=zOjov-2OZ0E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to Programming and Computer Science - Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Learn C Programming for FREE! 🚀 | Zero to Hero C Language Course | Programming Classes",
+      "creator": "Programming Classes",
+      "url": "https://www.youtube.com/watch?v=9fVCvJlF69A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn C Programming for FREE! 🚀 | Zero to Hero C Language Course | Programming Classes - Complete guide by Programming Classes.",
+      "year": 2024
+    },
+    {
+      "title": "Pointers in C for Absolute Beginners – Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=MIL2BK02X8A",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Pointers in C for Absolute Beginners – Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "C language best YouTube channels to learn fast 🚀",
+      "creator": "Vamsi Journey ",
+      "url": "https://www.youtube.com/watch?v=N6tsxgKHouc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C language best YouTube channels to learn fast 🚀 - Complete guide by Vamsi Journey .",
+      "year": 2024
+    },
+    {
+      "title": "5 Best YouTube Videos for C Language 🔥🤯| Programming | Coding | BTech",
+      "creator": "NextStep",
+      "url": "https://www.youtube.com/watch?v=9kYgd-vZlyw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "5 Best YouTube Videos for C Language 🔥🤯| Programming | Coding | BTech - Complete guide by NextStep.",
+      "year": 2024
+    },
+    {
+      "title": "Only FREE CODING COURSES to master coding🔴🔥",
+      "creator": "Curious Freaks",
+      "url": "https://www.youtube.com/watch?v=_p1NsV6Yh-8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Only FREE CODING COURSES to master coding🔴🔥 - Complete guide by Curious Freaks.",
+      "year": 2024
+    },
+    {
+      "title": "Learn C Programming in 30 Days with FREE Courses✅  | #cprogramming  #shorts",
+      "creator": "Last moment tuitions",
+      "url": "https://www.youtube.com/watch?v=Oo-Gi6grUNs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn C Programming in 30 Days with FREE Courses✅  | #cprogramming  #shorts - Complete guide by Last moment tuitions.",
+      "year": 2024
+    },
+    {
+      "title": "C Programming Tutorial For Beginners: Learn C In Hindi",
+      "creator": "CodeWithHarry",
+      "url": "https://www.youtube.com/watch?v=YXcgD8hRHYY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "C Programming Tutorial For Beginners: Learn C In Hindi - Complete guide by CodeWithHarry.",
+      "year": 2024
+    },
+    {
+      "title": "C Language Day 21: Recursion | C in 30 Days (Hindi)",
+      "creator": "Bijay Kumar",
+      "url": "https://www.youtube.com/watch?v=LJIOOBA77Hs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C Language Day 21: Recursion | C in 30 Days (Hindi) - Complete guide by Bijay Kumar.",
+      "year": 2024
+    },
+    {
+      "title": "c programming | c language for beginners #tutorial programming | c programming for beginners",
+      "creator": "Munkashif Shaikh",
+      "url": "https://www.youtube.com/watch?v=yle0_MA-_g0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "c programming | c language for beginners #tutorial programming | c programming for beginners - Complete guide by Munkashif Shaikh.",
+      "year": 2024
+    },
+    {
+      "title": "Top 3 Programming Languages 💻",
+      "creator": "CodeWithHarry",
+      "url": "https://www.youtube.com/watch?v=AeNs18WuN_A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top 3 Programming Languages 💻 - Complete guide by CodeWithHarry.",
+      "year": 2024
+    },
+    {
+      "title": "C Language Day 20: Parameters & Return | C in 30 Days (Hindi)",
+      "creator": "Bijay Kumar",
+      "url": "https://www.youtube.com/watch?v=pOgLaBhOe88",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C Language Day 20: Parameters & Return | C in 30 Days (Hindi) - Complete guide by Bijay Kumar.",
+      "year": 2024
+    },
+    {
+      "title": "Try this with C language| C Full course |C language for beginners #shortsfeed #shorts #codewithharry",
+      "creator": "Programs Hub 10.8M",
+      "url": "https://www.youtube.com/watch?v=jGdjzrQLMFg",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Try this with C language| C Full course |C language for beginners #shortsfeed #shorts #codewithharry - Complete guide by Programs Hub 10.8M.",
+      "year": 2024
+    },
+    {
+      "title": "C Language Tutorial for Beginners (with Notes & Practice Questions)",
+      "creator": "CodeWithHarry",
+      "url": "https://www.youtube.com/watch?v=aZb0iu4uGwA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "C Language Tutorial for Beginners (with Notes & Practice Questions) - Complete guide by CodeWithHarry.",
+      "year": 2024
+    },
+    {
+      "title": "C Programming Language - Intro to Computer Science - Harvard's CS50 (2018)",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=ix5jPkxsr7M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C Programming Language - Intro to Computer Science - Harvard's CS50 (2018) - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Free Free Free C Language Full Course Basic to Advance by Vikas Singh #joboriented",
+      "creator": "CoDing SeeKho ",
+      "url": "https://www.youtube.com/watch?v=McJ9z0vBqVI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Free Free Free C Language Full Course Basic to Advance by Vikas Singh #joboriented - Complete guide by CoDing SeeKho .",
+      "year": 2024
+    },
+    {
+      "title": "C Programming: The Best First Language for Every Student! How to Start Learning Your 1st Programming",
+      "creator": "Faizan BCA",
+      "url": "https://www.youtube.com/watch?v=_YnUZ8bdfIQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C Programming: The Best First Language for Every Student! How to Start Learning Your 1st Programming - Complete guide by Faizan BCA.",
+      "year": 2024
+    },
+    {
+      "title": "From Scratch to C - CS50 #Reels",
+      "creator": "CS50",
+      "url": "https://www.youtube.com/watch?v=23aHGJ0btbI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "From Scratch to C - CS50 #Reels - Complete guide by CS50.",
+      "year": 2024
+    },
+    {
+      "title": "Start C programming in 15 minutes! ⚙️",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=2ciUcosJFBc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Start C programming in 15 minutes! ⚙️ - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "C# Tutorial - Full Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=GhQdlIFylQ8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "C# Tutorial - Full Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "C++ Programming Course - Beginner to Advanced",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=8jLOx1hD3_o",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "C++ Programming Course - Beginner to Advanced - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "C Programming Full Course for free ⚙️",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=xND0t1pr3KY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C Programming Full Course for free ⚙️ - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "For Loop in C in 30 Seconds 🔁 #shorts",
+      "creator": "Lambda Coder",
+      "url": "https://www.youtube.com/watch?v=h0KgBzflY-8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "For Loop in C in 30 Seconds 🔁 #shorts - Complete guide by Lambda Coder.",
+      "year": 2024
+    },
+    {
+      "title": "C , C++ programming be like...😎💻💀 #coding #codingmeme #memes #funny #daily #programming #relatable",
+      "creator": "Dark Programming",
+      "url": "https://www.youtube.com/watch?v=xolmgT-uJ2U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C , C++ programming be like...😎💻💀 #coding #codingmeme #memes #funny #daily #programming #relatable - Complete guide by Dark Programming.",
+      "year": 2024
+    },
+    {
+      "title": "Interview Question | C Programming Language",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=W_pc29_PJYw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Interview Question | C Programming Language - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "C Programming Full Course for free ⚙️",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=87SH2Cn0s9A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C Programming Full Course for free ⚙️ - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "Learn C programming variables easy! ❎",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=WrFEtUzVcnw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn C programming variables easy! ❎ - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "C Programming Basics in 1 Page | C Language Notes for Beginners",
+      "creator": "Study Site",
+      "url": "https://www.youtube.com/watch?v=0_FvQcEQIgo",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "C Programming Basics in 1 Page | C Language Notes for Beginners - Complete guide by Study Site.",
+      "year": 2024
+    },
+    {
+      "title": "Dr. Chuck reads C Programming (the classic book by Kernigan and Ritchie)",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=j-_s8f5K30I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Dr. Chuck reads C Programming (the classic book by Kernigan and Ritchie) - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Why Is C SO Dangerous?  #programming #coding #lowcode",
+      "creator": "Low Level",
+      "url": "https://www.youtube.com/watch?v=L2UMyb9PIHI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why Is C SO Dangerous?  #programming #coding #lowcode - Complete guide by Low Level.",
+      "year": 2024
+    },
+    {
+      "title": "C Programming with Raylib – Match3 Game Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=P7PMA3X1tf8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C Programming with Raylib – Match3 Game Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Harvard CS50 – Full Computer Science University Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=8mAITcNt710",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Harvard CS50 – Full Computer Science University Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Best Platform to Learn Coding (Tamil) | learn to code for beginners",
+      "creator": "HR_Navin",
+      "url": "https://www.youtube.com/watch?v=Mre0csilNI8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Best Platform to Learn Coding (Tamil) | learn to code for beginners - Complete guide by HR_Navin.",
+      "year": 2024
+    },
+    {
+      "title": "🚀🔥 C Complete Course with Certification | 2 Projects, 100+ Programming Challenges, Notes, Beginner",
+      "creator": "Complete Coding by Prashant Sir",
+      "url": "https://www.youtube.com/watch?v=p0QUmC2WJwM",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "🚀🔥 C Complete Course with Certification | 2 Projects, 100+ Programming Challenges, Notes, Beginner - Complete guide by Complete Coding by Prashant Sir.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to C++, Installing VS Code, g++ & more | C++ Tutorials for Beginners #1",
+      "creator": "CodeWithHarry",
+      "url": "https://www.youtube.com/watch?v=j8nAHeVKL08",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Introduction to C++, Installing VS Code, g++ & more | C++ Tutorials for Beginners #1 - Complete guide by CodeWithHarry.",
+      "year": 2024
+    },
+    {
+      "title": "Top 5 YouTube Playlist 🤘To Learn C Programming #shorts #coding",
+      "creator": "SPgyan {NITS}",
+      "url": "https://www.youtube.com/watch?v=lTzqbd7ieAE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top 5 YouTube Playlist 🤘To Learn C Programming #shorts #coding - Complete guide by SPgyan {NITS}.",
+      "year": 2024
+    },
+    {
+      "title": "🚀🔥 100+ C Programming Challenges 💯 for Beginners (2024) | Hindi | Notes | GitHub | Certification",
+      "creator": "Complete Coding by Prashant Sir",
+      "url": "https://www.youtube.com/watch?v=vLhaqQLj6KQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "🚀🔥 100+ C Programming Challenges 💯 for Beginners (2024) | Hindi | Notes | GitHub | Certification - Complete guide by Complete Coding by Prashant Sir.",
+      "year": 2024
+    },
+    {
+      "title": "Basic Structure of a C++ Program | C++ Tutorials for Beginners #2",
+      "creator": "CodeWithHarry",
+      "url": "https://www.youtube.com/watch?v=oW2r0r_i5Ps",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Basic Structure of a C++ Program | C++ Tutorials for Beginners #2 - Complete guide by CodeWithHarry.",
+      "year": 2024
+    },
+    {
+      "title": "C# output 💬",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=b8BUFfgyjK4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C# output 💬 - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "💥Best Tips To Master C Programming 2025 | BCA Coding Roadmap #shorts #bca #clanguage #cprogramming",
+      "creator": "BCA Fundas by Sunstone",
+      "url": "https://www.youtube.com/watch?v=maECqPNpuAw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "💥Best Tips To Master C Programming 2025 | BCA Coding Roadmap #shorts #bca #clanguage #cprogramming - Complete guide by BCA Fundas by Sunstone.",
+      "year": 2024
+    },
+    {
+      "title": "C# tutorial for beginners 🎵♯",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=r3CExhZgZV8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "C# tutorial for beginners 🎵♯ - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "Learn C Programming from Zero! | Complete C Language Masterclass | Bytespark PK",
+      "creator": "ByteSparkPK",
+      "url": "https://www.youtube.com/watch?v=UKm1sPYw_OA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn C Programming from Zero! | Complete C Language Masterclass | Bytespark PK - Complete guide by ByteSparkPK.",
+      "year": 2024
+    },
+    {
+      "title": "printing \"Hi bro, watsup ?' in C3 #shorts  #coding",
+      "creator": "hibrowatsup",
+      "url": "https://www.youtube.com/watch?v=z_tEP18ncO8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "printing \"Hi bro, watsup ?' in C3 #shorts  #coding - Complete guide by hibrowatsup.",
+      "year": 2024
+    },
+    {
+      "title": "Variables and basic data types ✗",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=4psGUiKacPQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Variables and basic data types ✗ - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "#bro c #brocode",
+      "creator": "Ashish@up.",
+      "url": "https://www.youtube.com/watch?v=kZLRLtFO28w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#bro c #brocode - Complete guide by Ashish@up..",
+      "year": 2024
+    },
+    {
+      "title": "C++ tutorial for beginners 👨‍💻",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=S3nx34WFXjI",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "C++ tutorial for beginners 👨‍💻 - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "C# Full Course for free 🎵",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=wxznTygnRfQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C# Full Course for free 🎵 - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "Lec-1: C++ Full Course Roadmap | From Basics to Advanced C++ programming @GateSmashers",
+      "creator": "Gate Smashers",
+      "url": "https://www.youtube.com/watch?v=yAfdQGyrYeo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lec-1: C++ Full Course Roadmap | From Basics to Advanced C++ programming @GateSmashers - Complete guide by Gate Smashers.",
+      "year": 2024
+    },
+    {
+      "title": "C++ Full Course for free ⚡️",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=-TkoO8Z07hI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C++ Full Course for free ⚡️ - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "C++ Full Course  for Beginners to Advanced | Master C++ in 2025 |@GateSmashers",
+      "creator": "Gate Smashers",
+      "url": "https://www.youtube.com/watch?v=05LLyH15ZWU",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "C++ Full Course  for Beginners to Advanced | Master C++ in 2025 |@GateSmashers - Complete guide by Gate Smashers.",
+      "year": 2024
+    },
+    {
+      "title": "Why learning C Programming Language is a must Part-2 | Why C Language in Hindi",
+      "creator": "DataFlair",
+      "url": "https://www.youtube.com/watch?v=04lDZyABADI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why learning C Programming Language is a must Part-2 | Why C Language in Hindi - Complete guide by DataFlair.",
+      "year": 2024
+    },
+    {
+      "title": "C++ Tutorial For Beginners: Learn C Plus Plus In Hindi",
+      "creator": "CodeWithHarry",
+      "url": "https://www.youtube.com/watch?v=yGB9jhsEsr8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "C++ Tutorial For Beginners: Learn C Plus Plus In Hindi - Complete guide by CodeWithHarry.",
+      "year": 2024
+    },
+    {
+      "title": "Complete C++ Tutorial in 1 Video || With Notes && Practice Problems",
+      "creator": "CodeHelp - by Babbar",
+      "url": "https://www.youtube.com/watch?v=Z2oxGj36vZk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete C++ Tutorial in 1 Video || With Notes && Practice Problems - Complete guide by CodeHelp - by Babbar.",
+      "year": 2024
+    },
+    {
+      "title": "C++ in One Shot | Complete C++ Programming Tutorial for Beginners",
+      "creator": "College Wallah",
+      "url": "https://www.youtube.com/watch?v=e7sAf4SbS_g",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "C++ in One Shot | Complete C++ Programming Tutorial for Beginners - Complete guide by College Wallah.",
+      "year": 2024
+    },
+    {
+      "title": "Learn C++ in 2025 🔥 4 Playlists to Master C++ Programming #codegames",
+      "creator": "Kushal Kode",
+      "url": "https://www.youtube.com/watch?v=3_WrpMNi3YA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn C++ in 2025 🔥 4 Playlists to Master C++ Programming #codegames - Complete guide by Kushal Kode.",
+      "year": 2024
+    },
+    {
+      "title": "Lec 1: How to Install and Set Visual Studio Code and MinGW Compiler for C and C++ | C++ Tutorials",
+      "creator": "Jenny's Lectures CS IT",
+      "url": "https://www.youtube.com/watch?v=KYxLEDF6kjs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lec 1: How to Install and Set Visual Studio Code and MinGW Compiler for C and C++ | C++ Tutorials - Complete guide by Jenny's Lectures CS IT.",
+      "year": 2024
+    },
+    {
+      "title": "The Path to C# in 2024",
+      "creator": "IAmTimCorey",
+      "url": "https://www.youtube.com/watch?v=YErrKU1dq0g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Path to C# in 2024 - Complete guide by IAmTimCorey.",
+      "year": 2024
+    },
+    {
+      "title": "Why you should learn C programming language | Why C Programming | Free C Course in Hindi",
+      "creator": "DataFlair",
+      "url": "https://www.youtube.com/watch?v=YmgI8Rq7F0E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why you should learn C programming language | Why C Programming | Free C Course in Hindi - Complete guide by DataFlair.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 1 : Flowchart & Pseudocode + Installation | DSA Series by Shradha Khapra Ma'am | C++",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=VTLCoHnyACE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 1 : Flowchart & Pseudocode + Installation | DSA Series by Shradha Khapra Ma'am | C++ - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "Complete C++ Tutorial for Beginners. | NYC",
+      "creator": "Not Your College",
+      "url": "https://www.youtube.com/watch?v=LAK-VFr9rFc",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Complete C++ Tutorial for Beginners. | NYC - Complete guide by Not Your College.",
+      "year": 2024
+    },
+    {
+      "title": "1. Introduction to C++ | Data Structures and Algorithms | College Placement Course | Lecture 1",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=z9bZufPHFLU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1. Introduction to C++ | Data Structures and Algorithms | College Placement Course | Lecture 1 - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "What is C++ and Why C++ [Hindi]",
+      "creator": "DataFlair",
+      "url": "https://www.youtube.com/watch?v=7EW297QuJl0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is C++ and Why C++ [Hindi] - Complete guide by DataFlair.",
+      "year": 2024
+    },
+    {
+      "title": "Static in C++",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=f3FVU-iwNuA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Static in C++ - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "How to Setup C++ on Windows",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=1OsGXuNA5cc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Setup C++ on Windows - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "Welcome to C++",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=18c3MTX0PK0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Welcome to C++ - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "Introducing the GAME ENGINE series!",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=JxIZbV_XjAs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introducing the GAME ENGINE series! - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "How to Setup C++ on Mac",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=1E_kBSka_ec",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Setup C++ on Mac - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "Static for Classes and Structs in C++",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=V-BFlMrBtqQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Static for Classes and Structs in C++ - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Unreal Engine (with C++) - Full Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=LsNW4FPHuZE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn Unreal Engine (with C++) - Full Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Setting up OpenGL and Creating a Window in C++",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=OR4fNpBjmq8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Setting up OpenGL and Creating a Window in C++ - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "Welcome to OpenGL",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=W3gAzLwfIP0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Welcome to OpenGL - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "How to REALLY learn C++",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=_zQqN5OYCCM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to REALLY learn C++ - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "\"Hello World\" has CHANGED in C++!",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=k4F2V_BXMlI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "\"Hello World\" has CHANGED in C++! - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "What is a GAME ENGINE?",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=vtWdgtMo1T4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is a GAME ENGINE? - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "Lec 00: C++ complete course | Content Overview | C++ tutorials for Beginners",
+      "creator": "Jenny's Lectures CS IT",
+      "url": "https://www.youtube.com/watch?v=oOmbSpOzvYg",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Lec 00: C++ complete course | Content Overview | C++ tutorials for Beginners - Complete guide by Jenny's Lectures CS IT.",
+      "year": 2024
+    },
+    {
+      "title": "Logging is FINALLY good in C++! 🎉",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=JDfQ5eUf4zQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Logging is FINALLY good in C++! 🎉 - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "Templates in C++",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=I-hZkUa9mIs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Templates in C++ - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "CLASSES in C++",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=2BP8NhxjrO0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CLASSES in C++ - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "How Assets/3D Meshes Work in my Game Engine #Hazel #GameEngine #Shorts",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=9IFYSfghIgc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Assets/3D Meshes Work in my Game Engine #Hazel #GameEngine #Shorts - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "I HATE \"premature optimization is the root of all evil\" (sometimes)",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=9X0fJAaJgNI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I HATE \"premature optimization is the root of all evil\" (sometimes) - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "Welcome to Ray Tracing",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=gfW1Fhd9u9Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Welcome to Ray Tracing - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "DON'T MESS WITH THE MAIN LOOP!",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=SELP8EcngxQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DON'T MESS WITH THE MAIN LOOP! - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "Worst Implicit Casting in C++",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=hVjvo_cXHrU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Worst Implicit Casting in C++ - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "INSTANT ASSET RELOADING  #gamedev",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=hY6gw6jHW2w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "INSTANT ASSET RELOADING  #gamedev - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "Rays and Spheres: The MATH! // Ray Tracing series",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=4NshnkzOdI0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Rays and Spheres: The MATH! // Ray Tracing series - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "How to Handle Errors in C++",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=4-YLCSGEoUk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Handle Errors in C++ - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "Fix This Code #shorts",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=xn8QpkUOEio",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Fix This Code #shorts - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "Over-engineering software is... good?",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=N_oc0fXoaGI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Over-engineering software is... good? - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "Why Separate Code Into Libraries?",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=eXmMMuATJA0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why Separate Code Into Libraries? - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "Thumbnail Driven Development",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=PNS2ftEKRac",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Thumbnail Driven Development - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "🚀 Best 4 YouTube Playlists to Master C++ in 2026!#coding #programming #learncoding#shorts",
+      "creator": "𝐁𝐭𝐞𝐜𝐡 𝐠𝐮𝐢𝐝𝐞 𝐭𝐢𝐩𝐬",
+      "url": "https://www.youtube.com/watch?v=bR6AEHqxRQ0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🚀 Best 4 YouTube Playlists to Master C++ in 2026!#coding #programming #learncoding#shorts - Complete guide by 𝐁𝐭𝐞𝐜𝐡 𝐠𝐮𝐢𝐝𝐞 𝐭𝐢𝐩𝐬.",
+      "year": 2024
+    },
+    {
+      "title": "The One Checkbox for C++ in Visual Studio ✅ #Shorts",
+      "creator": "PixelCode Academy",
+      "url": "https://www.youtube.com/watch?v=FHLxvFB6_SA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The One Checkbox for C++ in Visual Studio ✅ #Shorts - Complete guide by PixelCode Academy.",
+      "year": 2024
+    },
+    {
+      "title": "MAKING A GAME IN MY GAME ENGINE TO OPTIMIZE IT! #shorts",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=KYGE6oWbX24",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MAKING A GAME IN MY GAME ENGINE TO OPTIMIZE IT! #shorts - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "C++ Challenge Day 1 : Introduction to C++ | Speed + Power + perpermance",
+      "creator": "ZabihCodeLab ",
+      "url": "https://www.youtube.com/watch?v=wc_0sobFpLI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C++ Challenge Day 1 : Introduction to C++ | Speed + Power + perpermance - Complete guide by ZabihCodeLab .",
+      "year": 2024
+    },
+    {
+      "title": "Features of C++ #cplusplus #viralshort #shorts #shortsvideo #tutorial #featuresofcplusplus #ytshorts",
+      "creator": "Learn by Dibya",
+      "url": "https://www.youtube.com/watch?v=YlQ5WxjdEyw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Features of C++ #cplusplus #viralshort #shorts #shortsvideo #tutorial #featuresofcplusplus #ytshorts - Complete guide by Learn by Dibya.",
+      "year": 2024
+    },
+    {
+      "title": "What is the const correctness principle | C++ interview #cplusplus #viralshort #shorts #shortsvideo",
+      "creator": "Learn by Dibya",
+      "url": "https://www.youtube.com/watch?v=A3_Q3i6_oaw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is the const correctness principle | C++ interview #cplusplus #viralshort #shorts #shortsvideo - Complete guide by Learn by Dibya.",
+      "year": 2024
+    },
+    {
+      "title": "Stop Learning C++ Wrong ❌",
+      "creator": "Delta Mechanics",
+      "url": "https://www.youtube.com/watch?v=NGocVp_dRds",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Stop Learning C++ Wrong ❌ - Complete guide by Delta Mechanics.",
+      "year": 2024
+    },
+    {
+      "title": "Welcome to the Cherno Region | Prof Rukie Intro | Subscriber Journey Start!",
+      "creator": "Jaden",
+      "url": "https://www.youtube.com/watch?v=QkQR3DI2XGU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Welcome to the Cherno Region | Prof Rukie Intro | Subscriber Journey Start! - Complete guide by Jaden.",
+      "year": 2024
+    },
+    {
+      "title": "What is a constructor? #cplusplus #viralshort #shorts #shortsvideo #ytshorts #constructor #training",
+      "creator": "Learn by Dibya",
+      "url": "https://www.youtube.com/watch?v=FtgkpPy5UX8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is a constructor? #cplusplus #viralshort #shorts #shortsvideo #ytshorts #constructor #training - Complete guide by Learn by Dibya.",
+      "year": 2024
+    },
+    {
+      "title": "What are the differences between C and C++? #cplusplus #viralshort #shorts #shortsvideo #tutorial",
+      "creator": "Learn by Dibya",
+      "url": "https://www.youtube.com/watch?v=C4eM8k_Krwo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What are the differences between C and C++? #cplusplus #viralshort #shorts #shortsvideo #tutorial - Complete guide by Learn by Dibya.",
+      "year": 2024
+    },
+    {
+      "title": "The SECRET to UNLIMITED SOFTWARE PERFORMANCE",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=Z2-PCLAoMyw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The SECRET to UNLIMITED SOFTWARE PERFORMANCE - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "What is C++? | C++ Programming #cplusplus #viralshort #shorts #shortsvideo #tutorial #besttutorial",
+      "creator": "Learn by Dibya",
+      "url": "https://www.youtube.com/watch?v=cQZ1UZZEZNw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is C++? | C++ Programming #cplusplus #viralshort #shorts #shortsvideo #tutorial #besttutorial - Complete guide by Learn by Dibya.",
+      "year": 2024
+    },
+    {
+      "title": "C++ Isn't as Complicated as You Think 👀 | Modern C++",
+      "creator": "Lowendpcs",
+      "url": "https://www.youtube.com/watch?v=eB30uT3dAVY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C++ Isn't as Complicated as You Think 👀 | Modern C++ - Complete guide by Lowendpcs.",
+      "year": 2024
+    },
+    {
+      "title": "Remaking My First Game in C++",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=Lq2vRXMWCis",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Remaking My First Game in C++ - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "MY FIRST EVER GAME! // Code Review",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=BPLGeSBA9_I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MY FIRST EVER GAME! // Code Review - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "Pong Clone in C++ // Code Review",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=jhH4z-f-B9o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Pong Clone in C++ // Code Review - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "How the C++ Compiler Works",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=3tIqpEmWMLI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How the C++ Compiler Works - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "2D Game Engine by 13-YEAR-OLD! // Code Review",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=9HCboZHTyrw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "2D Game Engine by 13-YEAR-OLD! // Code Review - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "POINTERS in C++",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=DTxHyVn0ODg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "POINTERS in C++ - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "Threads in C++",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=wXBcwHwIt_I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Threads in C++ - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "Copying and Copy Constructors in C++",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=BvR1Pgzzr38",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Copying and Copy Constructors in C++ - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "C++ Application Architecture - A Mini-Series",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=rUxZ5N77M5E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C++ Application Architecture - A Mini-Series - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "Data Structures - Full Course Using C and C++",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=B31LgI4Y4DQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data Structures - Full Course Using C and C++ - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Inheritance in C++",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=X8nYM8wdNRE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Inheritance in C++ - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "Reference Counting in C++",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/watch?v=FP27I7v0BeM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Reference Counting in C++ - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 2 : Variable, Data Types & Operators | DSA Series by Shradha Ma'am | C++",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=Dxu7GKtdbnA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 2 : Variable, Data Types & Operators | DSA Series by Shradha Ma'am | C++ - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "1.1: Introduction to Data Structures & Algorithms (DSA) [Abdul Bari] DSA Course",
+      "creator": "Hacktrickz",
+      "url": "https://www.youtube.com/watch?v=59ojR6G_vOk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1.1: Introduction to Data Structures & Algorithms (DSA) [Abdul Bari] DSA Course - Complete guide by Hacktrickz.",
+      "year": 2024
+    },
+    {
+      "title": "C++ Data Types | C++ Basics",
+      "creator": "ZabihCodeLab ",
+      "url": "https://www.youtube.com/watch?v=OhML-DPOEg0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C++ Data Types | C++ Basics - Complete guide by ZabihCodeLab .",
+      "year": 2024
+    },
+    {
+      "title": "Hobbyist c++ dev succeeds where 400K FAANG dev failed",
+      "creator": "Coding Jesus (getcracked.io)",
+      "url": "https://www.youtube.com/watch?v=5gvCErWMXHA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Hobbyist c++ dev succeeds where 400K FAANG dev failed - Complete guide by Coding Jesus (getcracked.io).",
+      "year": 2024
+    },
+    {
+      "title": "Data Structures & Algorithms is ♥️ #shorts #ytshorts #entertainment #jennyslectures #viralshorts",
+      "creator": "Jenny's Lectures CS IT",
+      "url": "https://www.youtube.com/watch?v=pXwwXC0DzLM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data Structures & Algorithms is ♥️ #shorts #ytshorts #entertainment #jennyslectures #viralshorts - Complete guide by Jenny's Lectures CS IT.",
+      "year": 2024
+    },
+    {
+      "title": "Is python the right choice for DSA? 🤔 | Python | Data Structures | GFG",
+      "creator": "GeeksforGeeks",
+      "url": "https://www.youtube.com/watch?v=Y5DhZTNR4kQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Is python the right choice for DSA? 🤔 | Python | Data Structures | GFG - Complete guide by GeeksforGeeks.",
+      "year": 2024
+    },
+    {
+      "title": "C++ explained in Just 2 Minutes 🚀",
+      "creator": "GeeksforGeeks",
+      "url": "https://www.youtube.com/watch?v=lsO3dfjSXX4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C++ explained in Just 2 Minutes 🚀 - Complete guide by GeeksforGeeks.",
+      "year": 2024
+    },
+    {
+      "title": "2.1: Arrays, Structures & Pointers in C & C++ for DSA [Abdul Bari] DSA Course",
+      "creator": "Hacktrickz",
+      "url": "https://www.youtube.com/watch?v=WStLKjv7ee4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "2.1: Arrays, Structures & Pointers in C & C++ for DSA [Abdul Bari] DSA Course - Complete guide by Hacktrickz.",
+      "year": 2024
+    },
+    {
+      "title": "Data Structures - Computer Science Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=zg9ih6SVACc",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Data Structures - Computer Science Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "The Ultimate DSA Learning Channel: The Best Picks for 2024. #datastructures #dsa #programming",
+      "creator": "Proto Coders Point",
+      "url": "https://www.youtube.com/watch?v=fsX33OMfCEY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Ultimate DSA Learning Channel: The Best Picks for 2024. #datastructures #dsa #programming - Complete guide by Proto Coders Point.",
+      "year": 2024
+    },
+    {
+      "title": "Let's learn C++!",
+      "creator": "Google for Developers",
+      "url": "https://www.youtube.com/watch?v=70MBChsATV4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Let's learn C++! - Complete guide by Google for Developers.",
+      "year": 2024
+    },
+    {
+      "title": "Easiest way to do Hashmaps in DSA 🔥  | #Shorts #PhysicsWallah #DataStructure #Programming",
+      "creator": "College Wallah",
+      "url": "https://www.youtube.com/watch?v=ZaAKEZZRPgM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Easiest way to do Hashmaps in DSA 🔥  | #Shorts #PhysicsWallah #DataStructure #Programming - Complete guide by College Wallah.",
+      "year": 2024
+    },
+    {
+      "title": "Best Language for DSA | GeeksforGeeks",
+      "creator": "GeeksforGeeks",
+      "url": "https://www.youtube.com/watch?v=H6KLFn8ScSs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Best Language for DSA | GeeksforGeeks - Complete guide by GeeksforGeeks.",
+      "year": 2024
+    },
+    {
+      "title": "I Learned C++ In 24 Hours",
+      "creator": "Neel Banga",
+      "url": "https://www.youtube.com/watch?v=C4btqWgYCx4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I Learned C++ In 24 Hours - Complete guide by Neel Banga.",
+      "year": 2024
+    },
+    {
+      "title": "C++ programming|| Short Video ||speed coding ||u can try #codecamp #speed_code #studywithme",
+      "creator": "Code Camp",
+      "url": "https://www.youtube.com/watch?v=UsE39EZCKQU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C++ programming|| Short Video ||speed coding ||u can try #codecamp #speed_code #studywithme - Complete guide by Code Camp.",
+      "year": 2024
+    },
+    {
+      "title": "Probability |FreeCodeCamp | Datacamp  | Veronika Adane Kurfiya | Seyfu on EBS | Eshetu Melese",
+      "creator": "Epython Lab",
+      "url": "https://www.youtube.com/watch?v=OVVYqHW3p9I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Probability |FreeCodeCamp | Datacamp  | Veronika Adane Kurfiya | Seyfu on EBS | Eshetu Melese - Complete guide by Epython Lab.",
+      "year": 2024
+    },
+    {
+      "title": "PROBLEM OF THE DAY GFG Common Nodes in Two BSTs WITH C++ 13-11-2026 #codeprep #coding #correctcoding",
+      "creator": "Coding with Niket",
+      "url": "https://www.youtube.com/watch?v=Yz0wrw-bjaw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PROBLEM OF THE DAY GFG Common Nodes in Two BSTs WITH C++ 13-11-2026 #codeprep #coding #correctcoding - Complete guide by Coding with Niket.",
+      "year": 2024
+    },
+    {
+      "title": "why do void* pointers even exist?",
+      "creator": "Low Level",
+      "url": "https://www.youtube.com/watch?v=t7CUti_7d7c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "why do void* pointers even exist? - Complete guide by Low Level.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to pointers in C/C++",
+      "creator": "mycodeschool",
+      "url": "https://www.youtube.com/watch?v=h-HBipu_1P0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to pointers in C/C++ - Complete guide by mycodeschool.",
+      "year": 2024
+    },
+    {
+      "title": "JavaScript Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=Zi-Q0t4gMC8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "JavaScript Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Single Linked List (Inserting a Node at the Beginning)",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/watch?v=jgqg6Qw68_Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Single Linked List (Inserting a Node at the Beginning) - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Working with pointers",
+      "creator": "mycodeschool",
+      "url": "https://www.youtube.com/watch?v=X1DcpcgSUXw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Working with pointers - Complete guide by mycodeschool.",
+      "year": 2024
+    },
+    {
+      "title": "Internal pointer variable , C/C++ programming meme #coding #cprogramming #codinglife #devlife #meme",
+      "creator": "C/C++ Unlocked",
+      "url": "https://www.youtube.com/watch?v=m-ATIKdKhQ4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Internal pointer variable , C/C++ programming meme #coding #cprogramming #codinglife #devlife #meme - Complete guide by C/C++ Unlocked.",
+      "year": 2024
+    },
+    {
+      "title": "C# Fundamentals for Beginners",
+      "creator": "Microsoft Developer",
+      "url": "https://www.youtube.com/watch?v=0QUgvfuKvWU",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "C# Fundamentals for Beginners - Complete guide by Microsoft Developer.",
+      "year": 2024
+    },
+    {
+      "title": "C++ Vs Java 😁 #coding #dsa #cpp #java",
+      "creator": "Binary Tech - Software Developer ",
+      "url": "https://www.youtube.com/watch?v=YVFD0UL9WaU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C++ Vs Java 😁 #coding #dsa #cpp #java - Complete guide by Binary Tech - Software Developer .",
+      "year": 2024
+    },
+    {
+      "title": "Installing Source Code Editor and Compiler",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/watch?v=cnMziyeusQk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Installing Source Code Editor and Compiler - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Me after understanding Pointers in C++ 💀📈 #coding#cpp #google #microsoft#viralshorts#relatable #fypシ",
+      "creator": "SlayVidya",
+      "url": "https://www.youtube.com/watch?v=z1iHX7o_V1k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Me after understanding Pointers in C++ 💀📈 #coding#cpp #google #microsoft#viralshorts#relatable #fypシ - Complete guide by SlayVidya.",
+      "year": 2024
+    },
+    {
+      "title": "Quant dev candidate REALLY understands smart pointers #coding #quant",
+      "creator": "Coding Jesus (getcracked.io)",
+      "url": "https://www.youtube.com/watch?v=fW2dmByfryo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Quant dev candidate REALLY understands smart pointers #coding #quant - Complete guide by Coding Jesus (getcracked.io).",
+      "year": 2024
+    },
+    {
+      "title": "C++ POINTERS FULL COURSE Beginner to Advanced (Learn C++ Pointers in 2,5 hours)",
+      "creator": "CodeBeauty",
+      "url": "https://www.youtube.com/watch?v=kiUGf_Z08RQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "C++ POINTERS FULL COURSE Beginner to Advanced (Learn C++ Pointers in 2,5 hours) - Complete guide by CodeBeauty.",
+      "year": 2024
+    },
+    {
+      "title": "Definition of Array",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/watch?v=55l-aZ7_F24",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Definition of Array - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Declaration of Array",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/watch?v=Bqud0_ozgcc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Declaration of Array - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Pointers in C, explained in 30 seconds #cprogramming",
+      "creator": "Coding Beginner",
+      "url": "https://www.youtube.com/watch?v=mxWh8bsQnsA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Pointers in C, explained in 30 seconds #cprogramming - Complete guide by Coding Beginner.",
+      "year": 2024
+    },
+    {
+      "title": "C++ Pointers vs. References #shorts #programming #knowledge",
+      "creator": "Curiosity Pending",
+      "url": "https://www.youtube.com/watch?v=jkyeZj6MAkg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C++ Pointers vs. References #shorts #programming #knowledge - Complete guide by Curiosity Pending.",
+      "year": 2024
+    },
+    {
+      "title": "What Is a NULL Pointer? (C in 30 Seconds) #shorts",
+      "creator": " 40-sec preparation",
+      "url": "https://www.youtube.com/watch?v=R_q3MAM0oWw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What Is a NULL Pointer? (C in 30 Seconds) #shorts - Complete guide by  40-sec preparation.",
+      "year": 2024
+    },
+    {
+      "title": "C++ Pointers",
+      "creator": "Kevin Wood | Robotics & AI",
+      "url": "https://www.youtube.com/watch?v=bo3eJAr1t-w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C++ Pointers - Complete guide by Kevin Wood | Robotics & AI.",
+      "year": 2024
+    },
+    {
+      "title": "Explaining File Systems: NTFS, exFAT, FAT32, ext4 & More",
+      "creator": "ExplainingComputers",
+      "url": "https://www.youtube.com/watch?v=_h30HBYxtws",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Explaining File Systems: NTFS, exFAT, FAT32, ext4 & More - Complete guide by ExplainingComputers.",
+      "year": 2024
+    },
+    {
+      "title": "Two Pointers: Half a Trillion Checks, or One Pass",
+      "creator": "Off By One",
+      "url": "https://www.youtube.com/watch?v=gETYWnj3n3M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Two Pointers: Half a Trillion Checks, or One Pass - Complete guide by Off By One.",
+      "year": 2024
+    },
+    {
+      "title": "99% of C++ Developers Miss THIS Memory Leak! 😱",
+      "creator": "Adarsh AGI",
+      "url": "https://www.youtube.com/watch?v=dSWlVnNCNcs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "99% of C++ Developers Miss THIS Memory Leak! 😱 - Complete guide by Adarsh AGI.",
+      "year": 2024
+    },
+    {
+      "title": "C++ Pointers Are EASY",
+      "creator": "Tech By Ralph",
+      "url": "https://www.youtube.com/watch?v=i0YD4WQT7pg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C++ Pointers Are EASY - Complete guide by Tech By Ralph.",
+      "year": 2024
+    },
+    {
+      "title": "Pointers Explained in 45 Seconds #cpp",
+      "creator": "Truly Coding",
+      "url": "https://www.youtube.com/watch?v=W0KTsslmmAk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Pointers Explained in 45 Seconds #cpp - Complete guide by Truly Coding.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to C++ for beginners | C++ Placement Course [Hindi]",
+      "creator": "DataFlair",
+      "url": "https://www.youtube.com/watch?v=Cyha_W_gPdg",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Introduction to C++ for beginners | C++ Placement Course [Hindi] - Complete guide by DataFlair.",
+      "year": 2024
+    },
+    {
+      "title": "Does assigning a reference change its target? | C++ with Nora",
+      "creator": "Pointers With Proof",
+      "url": "https://www.youtube.com/watch?v=rD8XP5qXsuM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Does assigning a reference change its target? | C++ with Nora - Complete guide by Pointers With Proof.",
+      "year": 2024
+    },
+    {
+      "title": "Pointer Arithmetic #cpp",
+      "creator": "Truly Coding",
+      "url": "https://www.youtube.com/watch?v=jTq4F5sdMYk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Pointer Arithmetic #cpp - Complete guide by Truly Coding.",
+      "year": 2024
+    },
+    {
+      "title": "just remember : Internal Pointer Variable",
+      "creator": "Atask Technology",
+      "url": "https://www.youtube.com/watch?v=fUdFR_TtC-c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "just remember : Internal Pointer Variable - Complete guide by Atask Technology.",
+      "year": 2024
+    },
+    {
+      "title": "Array of pointers vs pointer to an array #mysirg",
+      "creator": "MySirG.com",
+      "url": "https://www.youtube.com/watch?v=_4tbLgZTfQM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Array of pointers vs pointer to an array #mysirg - Complete guide by MySirG.com.",
+      "year": 2024
+    },
+    {
+      "title": "Why Pointers are used in C/C++ ? #cprogramming #cpp #cplusplus #dsa #coding #code #datastructures",
+      "creator": "cppjournal",
+      "url": "https://www.youtube.com/watch?v=dFOpfxkaJq0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why Pointers are used in C/C++ ? #cprogramming #cpp #cplusplus #dsa #coding #code #datastructures - Complete guide by cppjournal.",
+      "year": 2024
+    },
+    {
+      "title": "The C++ Dangling Pointer Trap in 31 Seconds! #Shorts #cpp",
+      "creator": "CodeWithHeart",
+      "url": "https://www.youtube.com/watch?v=cwxMhl6SDj0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The C++ Dangling Pointer Trap in 31 Seconds! #Shorts #cpp - Complete guide by CodeWithHeart.",
+      "year": 2024
+    },
+    {
+      "title": "What Is a Pointer in C?",
+      "creator": "Byte & Circuit",
+      "url": "https://www.youtube.com/watch?v=ub82tHbleuA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What Is a Pointer in C? - Complete guide by Byte & Circuit.",
+      "year": 2024
+    },
+    {
+      "title": "Two Pointers Approach | Two Sum Problem",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=GlA9UcY_ntk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Two Pointers Approach | Two Sum Problem - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "C Pointers Explained in 20 Seconds!  | C Programming #shorts",
+      "creator": "Embedded Hub",
+      "url": "https://www.youtube.com/watch?v=lpsay1zOx6s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C Pointers Explained in 20 Seconds!  | C Programming #shorts - Complete guide by Embedded Hub.",
+      "year": 2024
+    },
+    {
+      "title": "Famous interview question on Pointers | Coding challenge for Campus Interviews",
+      "creator": "DataFlair",
+      "url": "https://www.youtube.com/watch?v=ZS_g5J5OVIg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Famous interview question on Pointers | Coding challenge for Campus Interviews - Complete guide by DataFlair.",
+      "year": 2024
+    },
+    {
+      "title": "The Pointer - C & C++ Programming Explained!",
+      "creator": "Proceu Tech",
+      "url": "https://www.youtube.com/watch?v=5J0ECgj9bIY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Pointer - C & C++ Programming Explained! - Complete guide by Proceu Tech.",
+      "year": 2024
+    },
+    {
+      "title": "Pointers in C++ | C++ Tutorials for Beginners #12",
+      "creator": "CodeWithHarry",
+      "url": "https://www.youtube.com/watch?v=EvYmTCx9BFs",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Pointers in C++ | C++ Tutorials for Beginners #12 - Complete guide by CodeWithHarry.",
+      "year": 2024
+    },
+    {
+      "title": "Pointers in Deep and Easiest Way | C/C++ | Competitive Programming Course | EP 8",
+      "creator": "Luv",
+      "url": "https://www.youtube.com/watch?v=v_qm2Sce7as",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Pointers in Deep and Easiest Way | C/C++ | Competitive Programming Course | EP 8 - Complete guide by Luv.",
+      "year": 2024
+    },
+    {
+      "title": "you will never ask about pointers again after watching this video",
+      "creator": "Low Level",
+      "url": "https://www.youtube.com/watch?v=2ybLD6_2gKM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "you will never ask about pointers again after watching this video - Complete guide by Low Level.",
+      "year": 2024
+    },
+    {
+      "title": "C++ POINTERS (2025) - Introduction to C++ pointers (for beginners) PROGRAMMING TUTORIAL",
+      "creator": "CodeBeauty",
+      "url": "https://www.youtube.com/watch?v=eNofmKYzje4",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "C++ POINTERS (2025) - Introduction to C++ pointers (for beginners) PROGRAMMING TUTORIAL - Complete guide by CodeBeauty.",
+      "year": 2024
+    },
+    {
+      "title": "Pointers in C++ | In Detail | DSA Series by Shradha Ma'am",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=qYEjR6M0wSk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Pointers in C++ | In Detail | DSA Series by Shradha Ma'am - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "C++ pointers explained easy 👈",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=slzcWKWCMBg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C++ pointers explained easy 👈 - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 25: Pointers in C++ || Part-1 || DSA Placement Course - Love Babbar",
+      "creator": "CodeHelp - by Babbar",
+      "url": "https://www.youtube.com/watch?v=YHwEIfrXZgE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 25: Pointers in C++ || Part-1 || DSA Placement Course - Love Babbar - Complete guide by CodeHelp - by Babbar.",
+      "year": 2024
+    },
+    {
+      "title": "Modern C++: The Basics (Lecture 0, I. Vizzo, 2020)",
+      "creator": "Cyrill Stachniss",
+      "url": "https://www.youtube.com/watch?v=2xlk4bSPG38",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Modern C++: The Basics (Lecture 0, I. Vizzo, 2020) - Complete guide by Cyrill Stachniss.",
+      "year": 2024
+    },
+    {
+      "title": "Start Coding C++ Like A Pro Today!",
+      "creator": "Erarnitox",
+      "url": "https://www.youtube.com/watch?v=2O3r5qqjyiY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Start Coding C++ Like A Pro Today! - Complete guide by Erarnitox.",
+      "year": 2024
+    },
+    {
+      "title": "Modern C++: Welcome to the Course (Lectures and Tutorials, 2020 Edition)",
+      "creator": "Cyrill Stachniss",
+      "url": "https://www.youtube.com/watch?v=sZK6ouwREXA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Modern C++: Welcome to the Course (Lectures and Tutorials, 2020 Edition) - Complete guide by Cyrill Stachniss.",
+      "year": 2024
+    },
+    {
+      "title": "Setup Clang on Windows (for C++ in Visual Studio Code)",
+      "creator": "Erarnitox",
+      "url": "https://www.youtube.com/watch?v=ClpmrxDnqjw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Setup Clang on Windows (for C++ in Visual Studio Code) - Complete guide by Erarnitox.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 00: Course Outline",
+      "creator": "NPTEL IIT Kharagpur",
+      "url": "https://www.youtube.com/watch?v=mMswJnSDepc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 00: Course Outline - Complete guide by NPTEL IIT Kharagpur.",
+      "year": 2024
+    },
+    {
+      "title": "#0 C++ Roadmap: Learn Modern C++ Efficiently (Hindi)",
+      "creator": "CodeMite",
+      "url": "https://www.youtube.com/watch?v=GZr8USsgU7w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#0 C++ Roadmap: Learn Modern C++ Efficiently (Hindi) - Complete guide by CodeMite.",
+      "year": 2024
+    },
+    {
+      "title": "C++ Course: Build an Audio Plugin",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=G4A5T3y5bJM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C++ Course: Build an Audio Plugin - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Modern C++ Course: Hands-on Tutorial: Working with Linux (2021)",
+      "creator": "Cyrill Stachniss",
+      "url": "https://www.youtube.com/watch?v=seW8wn4-EfI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Modern C++ Course: Hands-on Tutorial: Working with Linux (2021) - Complete guide by Cyrill Stachniss.",
+      "year": 2024
+    },
+    {
+      "title": "Quick Recap 01: Recap of C/1",
+      "creator": "NPTEL IIT Kharagpur",
+      "url": "https://www.youtube.com/watch?v=tl0k5J0LANE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Quick Recap 01: Recap of C/1 - Complete guide by NPTEL IIT Kharagpur.",
+      "year": 2024
+    },
+    {
+      "title": "Modern C++ Course, Lecture 0: Course Introduction, Organization, Hello World (2021)",
+      "creator": "Cyrill Stachniss",
+      "url": "https://www.youtube.com/watch?v=NEBRJth_NXE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Modern C++ Course, Lecture 0: Course Introduction, Organization, Hello World (2021) - Complete guide by Cyrill Stachniss.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Modern C++ by Building an Audio Plugin (w/ JUCE Framework) - Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=i_Iq4_Kd7Rc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Modern C++ by Building an Audio Plugin (w/ JUCE Framework) - Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "C++ Setup and Installation Tools – CMake, vcpkg, Docker & Copilot",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=0ffwhxW-uyw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C++ Setup and Installation Tools – CMake, vcpkg, Docker & Copilot - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "#1 Setup Mac & Linux for C++ Programming (Hindi)",
+      "creator": "CodeMite",
+      "url": "https://www.youtube.com/watch?v=aIOmadLRnJs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#1 Setup Mac & Linux for C++ Programming (Hindi) - Complete guide by CodeMite.",
+      "year": 2024
+    },
+    {
+      "title": "C++ A complete and modern course for beginners",
+      "creator": "Hitesh Choudhary",
+      "url": "https://www.youtube.com/watch?v=FpfHmAkRVK4",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "C++ A complete and modern course for beginners - Complete guide by Hitesh Choudhary.",
+      "year": 2024
+    },
+    {
+      "title": "C++ on courses.mshah.io | Modern Cpp Series",
+      "creator": "Mike Shah",
+      "url": "https://www.youtube.com/watch?v=YMYRZ8061V8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C++ on courses.mshah.io | Modern Cpp Series - Complete guide by Mike Shah.",
+      "year": 2024
+    },
+    {
+      "title": "C++ Tutorial for Beginners 1 - Installing CodeBlocks and Getting Started (For Absolute Beginners)",
+      "creator": "ProgrammingKnowledge",
+      "url": "https://www.youtube.com/watch?v=e1YafrxYOWw",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "C++ Tutorial for Beginners 1 - Installing CodeBlocks and Getting Started (For Absolute Beginners) - Complete guide by ProgrammingKnowledge.",
+      "year": 2024
+    },
+    {
+      "title": "C++ Video Series Introduction | Modern Cpp Series Ep. 1",
+      "creator": "Mike Shah",
+      "url": "https://www.youtube.com/watch?v=LGOgNqkRMs0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C++ Video Series Introduction | Modern Cpp Series Ep. 1 - Complete guide by Mike Shah.",
+      "year": 2024
+    },
+    {
+      "title": "C++ Tutorial for Beginners 2 - Understanding C++ Program Structure",
+      "creator": "ProgrammingKnowledge",
+      "url": "https://www.youtube.com/watch?v=XWE3hA4PAoI",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "C++ Tutorial for Beginners 2 - Understanding C++ Program Structure - Complete guide by ProgrammingKnowledge.",
+      "year": 2024
+    },
+    {
+      "title": "C vs C++ vs C#",
+      "creator": "conaticus",
+      "url": "https://www.youtube.com/watch?v=sNMtjs_wQiE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C vs C++ vs C# - Complete guide by conaticus.",
+      "year": 2024
+    },
+    {
+      "title": "How to Create Classes And Object in OOP using  C++ (Urdu/Hindi)| OOP Full Tutorial  Lecute 02",
+      "creator": "Safdar Dogar",
+      "url": "https://www.youtube.com/watch?v=tvajT_XDJyU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Create Classes And Object in OOP using  C++ (Urdu/Hindi)| OOP Full Tutorial  Lecute 02 - Complete guide by Safdar Dogar.",
+      "year": 2024
+    },
+    {
+      "title": "C++ Introduction | C ++ Tutorial | Mr. Kishore",
+      "creator": "Naresh i Technologies",
+      "url": "https://www.youtube.com/watch?v=l0qvxPPISuY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C++ Introduction | C ++ Tutorial | Mr. Kishore - Complete guide by Naresh i Technologies.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Object Oriented Programming using c++ (Urdu/Hindi)| OOP Tutorial  Lecute 01",
+      "creator": "Safdar Dogar",
+      "url": "https://www.youtube.com/watch?v=HcgLqP-5vMo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to Object Oriented Programming using c++ (Urdu/Hindi)| OOP Tutorial  Lecute 01 - Complete guide by Safdar Dogar.",
+      "year": 2024
+    },
+    {
+      "title": "Object Oriented Programming Part 1 | C ++ Tutorial | Mr. Kishore",
+      "creator": "Naresh i Technologies",
+      "url": "https://www.youtube.com/watch?v=7BVt6OGfVfQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Object Oriented Programming Part 1 | C ++ Tutorial | Mr. Kishore - Complete guide by Naresh i Technologies.",
+      "year": 2024
+    },
+    {
+      "title": "Why C++ is so much better than Python 2023 #soft #programming",
+      "creator": "Real programming",
+      "url": "https://www.youtube.com/watch?v=iyiF8u7igAU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why C++ is so much better than Python 2023 #soft #programming - Complete guide by Real programming.",
+      "year": 2024
+    },
+    {
+      "title": "Where CPP is Used, Why Learn C++ Programming Language | Video Tutorial",
+      "creator": "LearningLad",
+      "url": "https://www.youtube.com/watch?v=brqRL_t0RmM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Where CPP is Used, Why Learn C++ Programming Language | Video Tutorial - Complete guide by LearningLad.",
+      "year": 2024
+    },
+    {
+      "title": "What is C++, Its Introduction and History | CPP Programming Video Tutorial",
+      "creator": "LearningLad",
+      "url": "https://www.youtube.com/watch?v=SQHREey_Yuc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is C++, Its Introduction and History | CPP Programming Video Tutorial - Complete guide by LearningLad.",
+      "year": 2024
+    },
+    {
+      "title": "Easiest Programming language to start with to earn money",
+      "creator": "ezSnippet",
+      "url": "https://www.youtube.com/watch?v=av83kx_YGa0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Easiest Programming language to start with to earn money - Complete guide by ezSnippet.",
+      "year": 2024
+    },
+    {
+      "title": "C Programming: Your First 'Hello, World!' Program Tutorial | Beginner's Guide",
+      "creator": "Hello Programmers",
+      "url": "https://www.youtube.com/watch?v=RDlFlEfs8vI",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "C Programming: Your First 'Hello, World!' Program Tutorial | Beginner's Guide - Complete guide by Hello Programmers.",
+      "year": 2024
+    },
+    {
+      "title": "Learn python after learning C language 😂  #python #c #programming  #coding #development #memes",
+      "creator": "Codespro",
+      "url": "https://www.youtube.com/watch?v=-tsDPDg-dmk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn python after learning C language 😂  #python #c #programming  #coding #development #memes - Complete guide by Codespro.",
+      "year": 2024
+    },
+    {
+      "title": "C Roadmap",
+      "creator": "CodexMehra",
+      "url": "https://www.youtube.com/watch?v=WBLmEeEz1Ko",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C Roadmap - Complete guide by CodexMehra.",
+      "year": 2024
+    },
+    {
+      "title": "C++ और C Sharp | upsc mock interview |#shortsfeed #drishti_ias",
+      "creator": "FEEDBACK",
+      "url": "https://www.youtube.com/watch?v=PX34F9vZSic",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C++ और C Sharp | upsc mock interview |#shortsfeed #drishti_ias - Complete guide by FEEDBACK.",
+      "year": 2024
+    },
+    {
+      "title": "Start Coding Today. For Free! #LearnToCode #CodingForBeginners #Coding #Programming #freecodecamp",
+      "creator": "Kamran Riyaz",
+      "url": "https://www.youtube.com/watch?v=P3LoHQtov68",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Start Coding Today. For Free! #LearnToCode #CodingForBeginners #Coding #Programming #freecodecamp - Complete guide by Kamran Riyaz.",
+      "year": 2024
+    },
+    {
+      "title": "C in 100 Seconds",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=U3aXWizDbQ4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C in 100 Seconds - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "C Programming for Beginners | Full Course",
+      "creator": "Portfolio Courses",
+      "url": "https://www.youtube.com/watch?v=ssJY5MDLjlo",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "C Programming for Beginners | Full Course - Complete guide by Portfolio Courses.",
+      "year": 2024
+    },
+    {
+      "title": "How can I learn C# and get certified as a beginner?",
+      "creator": "Microsoft Developer",
+      "url": "https://www.youtube.com/watch?v=641aSergr0s",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "How can I learn C# and get certified as a beginner? - Complete guide by Microsoft Developer.",
+      "year": 2024
+    },
+    {
+      "title": "C Programming Roadmap 🧑‍💻#shorts#viral#trending#shortsfeed#shorts#coding#clanguageinhindi#coding",
+      "creator": "Carrier with code ",
+      "url": "https://www.youtube.com/watch?v=UqK2JBsQPEI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C Programming Roadmap 🧑‍💻#shorts#viral#trending#shortsfeed#shorts#coding#clanguageinhindi#coding - Complete guide by Carrier with code .",
+      "year": 2024
+    },
+    {
+      "title": "Why C++ Rules Game Development",
+      "creator": "CodeXpert",
+      "url": "https://www.youtube.com/watch?v=zWqqFSLweZY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why C++ Rules Game Development - Complete guide by CodeXpert.",
+      "year": 2024
+    },
+    {
+      "title": "C++ Vs Python",
+      "creator": "Binary Tech - Software Developer ",
+      "url": "https://www.youtube.com/watch?v=DSshk8M-ZXE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C++ Vs Python - Complete guide by Binary Tech - Software Developer .",
+      "year": 2024
+    },
+    {
+      "title": "A day in the life of an indie game developer #indiegame #spacegame  #wearescrewed #gamedev",
+      "creator": "Rarebyte",
+      "url": "https://www.youtube.com/watch?v=vsUP85cgQcY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "A day in the life of an indie game developer #indiegame #spacegame  #wearescrewed #gamedev - Complete guide by Rarebyte.",
+      "year": 2024
+    },
+    {
+      "title": "This Language Might Replace C++ in Game Development...",
+      "creator": "CodeXpert",
+      "url": "https://www.youtube.com/watch?v=6c4h0PQjkeA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "This Language Might Replace C++ in Game Development... - Complete guide by CodeXpert.",
+      "year": 2024
+    },
+    {
+      "title": "Pong (with Lua) - CS50's Intro to Game Development",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=jZqYXSmgDuM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Pong (with Lua) - CS50's Intro to Game Development - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "COMP4300 - C++ Game Programming - Lecture 02 - Intro to C++ (1/2)",
+      "creator": "Dave Churchill",
+      "url": "https://www.youtube.com/watch?v=P_mgIDWpbms",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "COMP4300 - C++ Game Programming - Lecture 02 - Intro to C++ (1/2) - Complete guide by Dave Churchill.",
+      "year": 2024
+    },
+    {
+      "title": "COMP4300 - C++ Game Programming - Lecture 01 - Course Introduction",
+      "creator": "Dave Churchill",
+      "url": "https://www.youtube.com/watch?v=S7lXSihz0ac",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "COMP4300 - C++ Game Programming - Lecture 01 - Course Introduction - Complete guide by Dave Churchill.",
+      "year": 2024
+    },
+    {
+      "title": "Unreal Engine 5 – Full Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=6UlU_FsicK8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Unreal Engine 5 – Full Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Flappy Bird (with Lua) - CS50's Intro to Game Development",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=rBHusPevM5k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Flappy Bird (with Lua) - CS50's Intro to Game Development - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Game Dev vs Web Dev (ft. JetBrains!)",
+      "creator": "Alberta Tech",
+      "url": "https://www.youtube.com/watch?v=HIVm0-M-bP8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Game Dev vs Web Dev (ft. JetBrains!) - Complete guide by Alberta Tech.",
+      "year": 2024
+    },
+    {
+      "title": "Learning C++ in 2026 is a mistake.",
+      "creator": "Stefan Mischook",
+      "url": "https://www.youtube.com/watch?v=Vct0oEwJLFk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learning C++ in 2026 is a mistake. - Complete guide by Stefan Mischook.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Coding using Games",
+      "creator": "GeeksforGeeks",
+      "url": "https://www.youtube.com/watch?v=Eu9Q6y3-FFE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Coding using Games - Complete guide by GeeksforGeeks.",
+      "year": 2024
+    },
+    {
+      "title": "Coding a game in C++ #coding #linux #cpp #programming #gamedev #software #code #coder #nvim #python",
+      "creator": "darkmage of evildojo",
+      "url": "https://www.youtube.com/watch?v=gMcWW4T2XLI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Coding a game in C++ #coding #linux #cpp #programming #gamedev #software #code #coder #nvim #python - Complete guide by darkmage of evildojo.",
+      "year": 2024
+    },
+    {
+      "title": "programming language, speed compilation #c++ #golang #rust",
+      "creator": "Artem CYOU",
+      "url": "https://www.youtube.com/watch?v=DUm6U201o4w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "programming language, speed compilation #c++ #golang #rust - Complete guide by Artem CYOU.",
+      "year": 2024
+    },
+    {
+      "title": "Unreal C++ Programming | WASD Input",
+      "creator": "Ben Lesko GD",
+      "url": "https://www.youtube.com/watch?v=nEbCDKlFCXY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Unreal C++ Programming | WASD Input - Complete guide by Ben Lesko GD.",
+      "year": 2024
+    },
+    {
+      "title": "The Best Programming Language For High-end Game Development #shorts",
+      "creator": "DataFlair",
+      "url": "https://www.youtube.com/watch?v=e4TYa-r793k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Best Programming Language For High-end Game Development #shorts - Complete guide by DataFlair.",
+      "year": 2024
+    },
+    {
+      "title": "Dino game in C++ | Subscribe for source code | #coding #programming #dinosaur #game",
+      "creator": "Code with Coffee",
+      "url": "https://www.youtube.com/watch?v=J6hodPBsXPg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Dino game in C++ | Subscribe for source code | #coding #programming #dinosaur #game - Complete guide by Code with Coffee.",
+      "year": 2024
+    },
+    {
+      "title": "Game Development #coding",
+      "creator": "Devslopes",
+      "url": "https://www.youtube.com/watch?v=r0GjD8XLNRo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Game Development #coding - Complete guide by Devslopes.",
+      "year": 2024
+    },
+    {
+      "title": "C++ game in 10 Seconds",
+      "creator": "An Intellectual Being",
+      "url": "https://www.youtube.com/watch?v=DNys7j011kk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C++ game in 10 Seconds - Complete guide by An Intellectual Being.",
+      "year": 2024
+    },
+    {
+      "title": "Game I worked on a while ago in C++ and #SDL2 #CPP #gamedevelopment",
+      "creator": "Cmesias",
+      "url": "https://www.youtube.com/watch?v=KBLsWzjOzjA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Game I worked on a while ago in C++ and #SDL2 #CPP #gamedevelopment - Complete guide by Cmesias.",
+      "year": 2024
+    },
+    {
+      "title": "Top 5 Programming Languages For Game Development",
+      "creator": "Archangel Gaming",
+      "url": "https://www.youtube.com/watch?v=opc7Fc1xtFI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top 5 Programming Languages For Game Development - Complete guide by Archangel Gaming.",
+      "year": 2024
+    },
+    {
+      "title": "Stop Wasting Time! Master C++ for Epic Game Dev",
+      "creator": "Louis DeSimone | AI Game Dev Lab",
+      "url": "https://www.youtube.com/watch?v=65v-faiCG-4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Stop Wasting Time! Master C++ for Epic Game Dev - Complete guide by Louis DeSimone | AI Game Dev Lab.",
+      "year": 2024
+    },
+    {
+      "title": "C++ vs Java for Gamedev",
+      "creator": "Philip Mod Dev",
+      "url": "https://www.youtube.com/watch?v=sW-VSbKIMOs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C++ vs Java for Gamedev - Complete guide by Philip Mod Dev.",
+      "year": 2024
+    },
+    {
+      "title": "Godot Game Development for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=MiPkcTaRbfQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Godot Game Development for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "The Best Programming Language For Game Development: C++ or C#",
+      "creator": "Awesome Tuts - Anyone Can Learn To Make Games",
+      "url": "https://www.youtube.com/watch?v=PLFkULLDqF4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Best Programming Language For Game Development: C++ or C# - Complete guide by Awesome Tuts - Anyone Can Learn To Make Games.",
+      "year": 2024
+    },
+    {
+      "title": "Learning IF-ELSE in C++ has never been this funny! 🤣😂 #cpp #shorts",
+      "creator": "frustrated programmer",
+      "url": "https://www.youtube.com/watch?v=3ofA7XghHa0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learning IF-ELSE in C++ has never been this funny! 🤣😂 #cpp #shorts - Complete guide by frustrated programmer.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Unity - Beginner's Game Development Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=gB1F9G0JXOo",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn Unity - Beginner's Game Development Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "If you want to learn how to make games in C++ watch this (All the resources you need to get started)",
+      "creator": "Low Level Game Dev",
+      "url": "https://www.youtube.com/watch?v=7qm4OR3EmnQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "If you want to learn how to make games in C++ watch this (All the resources you need to get started) - Complete guide by Low Level Game Dev.",
+      "year": 2024
+    },
+    {
+      "title": "All about Game development | What to study, jobs, packages? Simply Explained",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=rJ1iA-33fss",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "All about Game development | What to study, jobs, packages? Simply Explained - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "Creating an RPG C++  / SFML - Part 1 - Hardware Architecture",
+      "creator": "Mustafa Sibai",
+      "url": "https://www.youtube.com/watch?v=keRIiXJoQP8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Creating an RPG C++  / SFML - Part 1 - Hardware Architecture - Complete guide by Mustafa Sibai.",
+      "year": 2024
+    },
+    {
+      "title": "Making Game Engines",
+      "creator": "Pirate Software",
+      "url": "https://www.youtube.com/watch?v=3OmaWv4eoq4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Making Game Engines - Complete guide by Pirate Software.",
+      "year": 2024
+    },
+    {
+      "title": "0 - Install Visual Studio 2019",
+      "creator": "Mustafa Sibai",
+      "url": "https://www.youtube.com/watch?v=esGMreLmed0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "0 - Install Visual Studio 2019 - Complete guide by Mustafa Sibai.",
+      "year": 2024
+    },
+    {
+      "title": "C Language Tutorials In Hindi",
+      "creator": "CodeWithHarry",
+      "url": "https://www.youtube.com/playlist?list=PLu0W_9lII9aiXlHcLx-mDH1Qul38wD3aR",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "C Language Tutorials In Hindi - Complete guide by CodeWithHarry.",
+      "year": 2024
+    },
+    {
+      "title": "C / C++",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbmUE5IqyfGYEYjrZBYzaT4m",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "C / C++ - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "C Programming",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRggZZgYpPMUxdY1CYkZtARR",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "C Programming - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "How To Learn C++ to make games: Step by step roadmap!",
+      "creator": "Low Level Game Dev",
+      "url": "https://www.youtube.com/watch?v=ARsQdKezFkQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How To Learn C++ to make games: Step by step roadmap! - Complete guide by Low Level Game Dev.",
+      "year": 2024
+    },
+    {
+      "title": "C Programming Course",
+      "creator": "College Wallah",
+      "url": "https://www.youtube.com/playlist?list=PLxgZQoSe9cg1drBnejUaDD9GEJBGQ5hMt",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "C Programming Course - Complete guide by College Wallah.",
+      "year": 2024
+    },
+    {
+      "title": "C Programming for Beginners",
+      "creator": "Programiz",
+      "url": "https://www.youtube.com/playlist?list=PL98qAXLA6aftD9ZlnjpLhdQAOFI8xIB6e",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "C Programming for Beginners - Complete guide by Programiz.",
+      "year": 2024
+    },
+    {
+      "title": "Unreal Engine & C++ Tutorial - Endless Runner Game 🏃🏽‍♀️",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=SOjZTmOMGcY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Unreal Engine & C++ Tutorial - Endless Runner Game 🏃🏽‍♀️ - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Popular Programming Courses",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAblfum5WiQblKPwIbqYXkDoC",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Popular Programming Courses - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "C tutorial for beginners ⚙️",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/playlist?list=PLZPZq0r_RZOOzY_vR4zJM32SqsSInGMwe",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "C tutorial for beginners ⚙️ - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "C++ Tutorials In Hindi",
+      "creator": "CodeWithHarry",
+      "url": "https://www.youtube.com/playlist?list=PLu0W_9lII9agpFUAlPFe_VNSlXW5uE0YL",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "C++ Tutorials In Hindi - Complete guide by CodeWithHarry.",
+      "year": 2024
+    },
+    {
+      "title": "Explaining Pointers with Anya 🌟 #computerscience #coding #softwareengineer #stem",
+      "creator": "Kira | AI for Education",
+      "url": "https://www.youtube.com/watch?v=kLYiysim3Jk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Explaining Pointers with Anya 🌟 #computerscience #coding #softwareengineer #stem - Complete guide by Kira | AI for Education.",
+      "year": 2024
+    },
+    {
+      "title": "🚀🔥 C Complete Course with Certification in 24 Hours | 2 Projects, 100+ Programming Challenges, Notes, Beginner",
+      "creator": "Complete Coding by Prashant Sir",
+      "url": "https://www.youtube.com/playlist?list=PL78RhpUUKSwcgBrlBtstLjBMEtQmCRbHp",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "🚀🔥 C Complete Course with Certification in 24 Hours | 2 Projects, 100+ Programming Challenges, Notes, Beginner - Complete guide by Complete Coding by Prashant Sir.",
+      "year": 2024
+    },
+    {
+      "title": "C Tutorial for Beginners [Hindi] | Programming in C | C Language Tutorial | C Full Course",
+      "creator": "DataFlair",
+      "url": "https://www.youtube.com/playlist?list=PLf0LpPWikpPf3XbvH3iSKq91vYvRfURir",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "C Tutorial for Beginners [Hindi] | Programming in C | C Language Tutorial | C Full Course - Complete guide by DataFlair.",
+      "year": 2024
+    },
+    {
+      "title": "C# tutorial for beginners 🎵",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/playlist?list=PLZPZq0r_RZOPNy28FDBys3GVP2LiaIyP_",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "C# tutorial for beginners 🎵 - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "C++ tutorial for beginners ⚡️",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/playlist?list=PLZPZq0r_RZOMHoXIcxze_lP97j2Ase2on",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "C++ tutorial for beginners ⚡️ - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "C++ Programming (Complete Course)",
+      "creator": "Gate Smashers",
+      "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiF6yRNI5OHQsnUJQfl7Geqj",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "C++ Programming (Complete Course) - Complete guide by Gate Smashers.",
+      "year": 2024
+    },
+    {
+      "title": "freeCodeCamp C++ courses",
+      "creator": "Unknow",
+      "url": "https://www.youtube.com/playlist?list=PLQgT9G4SVR-LQfix29B8zYvM-Pk-adPG_",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "freeCodeCamp C++ courses - Complete guide by Unknow.",
+      "year": 2024
+    },
+    {
+      "title": "'C++ Tutorial for Beginners - Full Course' (freeCodeCamp.org) and others",
+      "creator": "DANICHIBAN",
+      "url": "https://www.youtube.com/playlist?list=PLayUjLc2cbEsYxsKcOorD-JO1pLCulECb",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "'C++ Tutorial for Beginners - Full Course' (freeCodeCamp.org) and others - Complete guide by DANICHIBAN.",
+      "year": 2024
+    },
+    {
+      "title": "C++ Placement Course",
+      "creator": "Jenny's Lectures CS IT",
+      "url": "https://www.youtube.com/playlist?list=PLdo5W4Nhv31YU5Wx1dopka58teWP9aCee",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "C++ Placement Course - Complete guide by Jenny's Lectures CS IT.",
+      "year": 2024
+    },
+    {
+      "title": "C++ Full Course in Hindi | C++ Tutorial for Beginners",
+      "creator": "DataFlair",
+      "url": "https://www.youtube.com/playlist?list=PLf0LpPWikpPcNC9gaZVn3fygr1lAiN1Ih",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "C++ Full Course in Hindi | C++ Tutorial for Beginners - Complete guide by DataFlair.",
+      "year": 2024
+    },
+    {
+      "title": "C++",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "C++ - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "C++ Cherno",
+      "creator": "Suresh",
+      "url": "https://www.youtube.com/playlist?list=PL6QsGpwbUoXEtxpPdjQ0GQQgwoYX2zwim",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "C++ Cherno - Complete guide by Suresh.",
+      "year": 2024
+    },
+    {
+      "title": "The Cherno OOPs",
+      "creator": "Sumit Verma",
+      "url": "https://www.youtube.com/playlist?list=PLfpbHhCtKdVZ-svpwdGKIH8_n8ncJY9SQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "The Cherno OOPs - Complete guide by Sumit Verma.",
+      "year": 2024
+    },
+    {
+      "title": "Game Engine",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/playlist?list=PLlrATfBNZ98dC-V-N3m0Go4deliWHPFwT",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Game Engine - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "Remaking My First Game in C++",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/playlist?list=PLlrATfBNZ98f-worHS6hvHrYNrgp225c-",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Remaking My First Game in C++ - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "OpenGL",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/playlist?list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "OpenGL - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "Ray Tracing",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/playlist?list=PLlrATfBNZ98edc5GshdBtREv5asFW3yXl",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Ray Tracing - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "Complete C++ DSA Course | Data Structures & Algorithms Playlist",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/playlist?list=PLfqMhTWNBTe137I_EPQd34TsgV6IO55pt",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Complete C++ DSA Course | Data Structures & Algorithms Playlist - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "Code Review",
+      "creator": "The Cherno",
+      "url": "https://www.youtube.com/playlist?list=PLlrATfBNZ98f6Z1cDNeMLL3eXaRk1WCxK",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Code Review - Complete guide by The Cherno.",
+      "year": 2024
+    },
+    {
+      "title": "Data Structures & Algorithms Full Course [Abdul Bari] | DSA in C & C++",
+      "creator": "Hacktrickz",
+      "url": "https://www.youtube.com/playlist?list=PLsr8vTgyLdy_YndxNcI4WkH5Vorj5qvrv",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Data Structures & Algorithms Full Course [Abdul Bari] | DSA in C & C++ - Complete guide by Hacktrickz.",
+      "year": 2024
+    },
+    {
+      "title": "Data Structures - Full Course Using C and C++ (freeCodeCamp.org), ...",
+      "creator": "indievintage",
+      "url": "https://www.youtube.com/playlist?list=PLlux8aIbUJzRLr_XXWL0DhZTTIMQOnXgk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Data Structures - Full Course Using C and C++ (freeCodeCamp.org), ... - Complete guide by indievintage.",
+      "year": 2024
+    },
+    {
+      "title": "\"Pointers in C / C++ [Full Course]\" (freeCodeCamp.org) and more",
+      "creator": "griffwell",
+      "url": "https://www.youtube.com/playlist?list=PL-Gl5RA3qQVSQfzu0m_Q6dHAW_X3aMsez",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "\"Pointers in C / C++ [Full Course]\" (freeCodeCamp.org) and more - Complete guide by griffwell.",
+      "year": 2024
+    },
+    {
+      "title": "Arrays & Pointers in C",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRjoG6aJ4FvFU1tlXbjLBiOP",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Arrays & Pointers in C - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "\"Pointers in C / C++ [Full Course]\" by freeCodeCamp.org, etc",
+      "creator": "wandulando",
+      "url": "https://www.youtube.com/playlist?list=PLl2_zKxAchBR5BQLhTVZaca3mdHQPg9Vq",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "\"Pointers in C / C++ [Full Course]\" by freeCodeCamp.org, etc - Complete guide by wandulando.",
+      "year": 2024
+    },
+    {
+      "title": "\"Pointers in C / C++ [Full Course]\" by freeCodeCamp.org and others",
+      "creator": "stutpadge",
+      "url": "https://www.youtube.com/playlist?list=PLDdg_9XAMY2SRbNOgDd1a3Kv1VzemFglK",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "\"Pointers in C / C++ [Full Course]\" by freeCodeCamp.org and others - Complete guide by stutpadge.",
+      "year": 2024
+    },
+    {
+      "title": "\"Pointers in C / C++ [Full Course]\" (freeCodeCamp.org), etc",
+      "creator": "hattatch",
+      "url": "https://www.youtube.com/playlist?list=PLHE0J3NLfdX780QQq7izrEJhveWcA8LGu",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "\"Pointers in C / C++ [Full Course]\" (freeCodeCamp.org), etc - Complete guide by hattatch.",
+      "year": 2024
+    },
+    {
+      "title": "Pointers in C / C++ [Full Course] by freeCodeCamp.org, etc",
+      "creator": "squirtt7",
+      "url": "https://www.youtube.com/playlist?list=PLjXip30LFf5Wrg5UgcilM5Z2FH7Dn8yvE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Pointers in C / C++ [Full Course] by freeCodeCamp.org, etc - Complete guide by squirtt7.",
+      "year": 2024
+    },
+    {
+      "title": "Modern C++ (Lecture & Tutorials, 2020, Vizzo & Stachniss)",
+      "creator": "Cyrill Stachniss",
+      "url": "https://www.youtube.com/playlist?list=PLgnQpQtFTOGRM59sr3nSL8BmeMZR9GCIA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Modern C++ (Lecture & Tutorials, 2020, Vizzo & Stachniss) - Complete guide by Cyrill Stachniss.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Modern C++23 – Free Course",
+      "creator": "Erarnitox",
+      "url": "https://www.youtube.com/playlist?list=PLTjUlazALHSBQp4jdqHTCduTSSMU-cz5P",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Learn Modern C++23 – Free Course - Complete guide by Erarnitox.",
+      "year": 2024
+    },
+    {
+      "title": "Modern C++ Full Course (Hindi)",
+      "creator": "CodeMite",
+      "url": "https://www.youtube.com/playlist?list=PLt4rWC_3rBbVVQF3heb_HFkTQV903I-ZO",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Modern C++ Full Course (Hindi) - Complete guide by CodeMite.",
+      "year": 2024
+    },
+    {
+      "title": "Programming in Modern C++ | Nptel 2024",
+      "creator": "Dear Mahaveer ",
+      "url": "https://www.youtube.com/playlist?list=PL_DoKgG4I80pK0qSEyoO_56q05qHqlwJD",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Programming in Modern C++ | Nptel 2024 - Complete guide by Dear Mahaveer .",
+      "year": 2024
+    },
+    {
+      "title": "C++ Programming Tutorial for Beginners (For Absolute Beginners)",
+      "creator": "ProgrammingKnowledge",
+      "url": "https://www.youtube.com/playlist?list=PLS1QulWo1RIYSyC6w2-rDssprPrEsgtVK",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "C++ Programming Tutorial for Beginners (For Absolute Beginners) - Complete guide by ProgrammingKnowledge.",
+      "year": 2024
+    },
+    {
+      "title": "The C++ Programming Language",
+      "creator": "Mike Shah",
+      "url": "https://www.youtube.com/playlist?list=PLvv0ScY6vfd8j-tlhYVPYgiIyXduu6m-L",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "The C++ Programming Language - Complete guide by Mike Shah.",
+      "year": 2024
+    },
+    {
+      "title": "Object Oriented Programming (OOP) Using C++ [Full Course]",
+      "creator": "Safdar Dogar",
+      "url": "https://www.youtube.com/playlist?list=PLduM7bkxBdOekXfkEqIBAivzG99V2LrAS",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Object Oriented Programming (OOP) Using C++ [Full Course] - Complete guide by Safdar Dogar.",
+      "year": 2024
+    },
+    {
+      "title": "C++ Programming Language | C++ Tutorial",
+      "creator": "Naresh i Technologies",
+      "url": "https://www.youtube.com/playlist?list=PLVlQHNRLflP8_DGKcMoRw-TYJJALgGu4J",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "C++ Programming Language | C++ Tutorial - Complete guide by Naresh i Technologies.",
+      "year": 2024
+    },
+    {
+      "title": "Learn C++ Programming | Video Tutorial for Beginners",
+      "creator": "LearningLad",
+      "url": "https://www.youtube.com/playlist?list=PLfVsf4Bjg79Cu5MYkyJ-u4SyQmMhFeC1C",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Learn C++ Programming | Video Tutorial for Beginners - Complete guide by LearningLad.",
+      "year": 2024
+    },
+    {
+      "title": "COMP 4300 - Intro to C++ Game Programming (2022-09)",
+      "creator": "Dave Churchill",
+      "url": "https://www.youtube.com/playlist?list=PL_xRyXins848nDj2v-TJYahzvs-XW9sVV",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "COMP 4300 - Intro to C++ Game Programming (2022-09) - Complete guide by Dave Churchill.",
+      "year": 2024
+    },
+    {
+      "title": "CS50's Introduction to Game Development",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbluXJKKbCIb4xd7fcRkpzoz",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "CS50's Introduction to Game Development - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Game Development in C++ with SFML",
+      "creator": "Mustafa Sibai",
+      "url": "https://www.youtube.com/playlist?list=PLs6oRBoE2-Q_fX_rzraQekRoL7Kr7s5xi",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Game Development in C++ with SFML - Complete guide by Mustafa Sibai.",
+      "year": 2024
+    },
+    {
+      "title": "Modern C++ (2021 Lecture & Tutorials)",
+      "creator": "Cyrill Stachniss",
+      "url": "https://www.youtube.com/playlist?list=PLgnQpQtFTOGRv7VS6fYerEbT4ckBovKur",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Modern C++ (2021 Lecture & Tutorials) - Complete guide by Cyrill Stachniss.",
+      "year": 2024
+    }
+  ]
 }

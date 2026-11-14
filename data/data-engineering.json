@@ -1,0 +1,2992 @@
+{
+  "name": "Data Engineering",
+  "slug": "data-engineering",
+  "description": "Data pipelines, distributed computing, big data processing, Apache Spark, Kafka, Airflow, and warehousing.",
+  "icon": "data-engineering",
+  "playlists": [
+    {
+      "title": "Don't Become a Data Engineer if",
+      "creator": "Sundas Khalid",
+      "url": "https://www.youtube.com/watch?v=PUZ-Y3xcO-k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Don't Become a Data Engineer if - Complete guide by Sundas Khalid.",
+      "year": 2024
+    },
+    {
+      "title": "Data Engineering Roadmap for Freshers 2026 | Which Video to Watch When",
+      "creator": "Data Logic With Shivam",
+      "url": "https://www.youtube.com/watch?v=KB0fnd61d5E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data Engineering Roadmap for Freshers 2026 | Which Video to Watch When - Complete guide by Data Logic With Shivam.",
+      "year": 2024
+    },
+    {
+      "title": "20 Data Engineer Interview Questions You MUST Know! 💻🔥 #Shorts",
+      "creator": "Data Decoded",
+      "url": "https://www.youtube.com/watch?v=8P-jZwGsVm0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "20 Data Engineer Interview Questions You MUST Know! 💻🔥 #Shorts - Complete guide by Data Decoded.",
+      "year": 2024
+    },
+    {
+      "title": "Data Engineering Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=PHsC_t0j1dU",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Data Engineering Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Databricks Data Engineer Associate Certification Course – Pass the Exam!",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=0Hd5vYqin7w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Databricks Data Engineer Associate Certification Course – Pass the Exam! - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Data Engineering with Python and AI/LLMs – Data Loading Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=T23Bs75F7ZQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data Engineering with Python and AI/LLMs – Data Loading Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Data Engineer Salary | Data Engineer Skills | Salary of Data Engineers: Freshers & Experienced 2025",
+      "creator": "upGrad",
+      "url": "https://www.youtube.com/watch?v=c2HTGcWvO7s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data Engineer Salary | Data Engineer Skills | Salary of Data Engineers: Freshers & Experienced 2025 - Complete guide by upGrad.",
+      "year": 2024
+    },
+    {
+      "title": "free resource to learn Data Engineering #dataengineering #datascience #data #resources #ranking",
+      "creator": "Somadrita Halder",
+      "url": "https://www.youtube.com/watch?v=yuEAnvmWPPc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "free resource to learn Data Engineering #dataengineering #datascience #data #resources #ranking - Complete guide by Somadrita Halder.",
+      "year": 2024
+    },
+    {
+      "title": "Don't Become a Data Engineer!",
+      "creator": "Data with Baraa",
+      "url": "https://www.youtube.com/watch?v=cwySwSDP6VM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Don't Become a Data Engineer! - Complete guide by Data with Baraa.",
+      "year": 2024
+    },
+    {
+      "title": "How I’d Learn Python for Data Engineering in 2025 (Step-by-Step)",
+      "creator": "Data with Baraa",
+      "url": "https://www.youtube.com/watch?v=Vh0qcDerBMc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How I’d Learn Python for Data Engineering in 2025 (Step-by-Step) - Complete guide by Data with Baraa.",
+      "year": 2024
+    },
+    {
+      "title": "Is Data Engineer an Entry-Level Job?",
+      "creator": "Data with Baraa",
+      "url": "https://www.youtube.com/watch?v=TLQlFucHqK4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Is Data Engineer an Entry-Level Job? - Complete guide by Data with Baraa.",
+      "year": 2024
+    },
+    {
+      "title": "SQL for Data Engineering -  Full Course for Beginners",
+      "creator": "Luke Barousse",
+      "url": "https://www.youtube.com/watch?v=UjhFbq4uU2Y",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "SQL for Data Engineering -  Full Course for Beginners - Complete guide by Luke Barousse.",
+      "year": 2024
+    },
+    {
+      "title": "Will AI Replace Data Engineers? - 🤖 #dataengineering #ai #aitools #dataengineer",
+      "creator": "Data with Pranjal",
+      "url": "https://www.youtube.com/watch?v=mcl_khwY82w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Will AI Replace Data Engineers? - 🤖 #dataengineering #ai #aitools #dataengineer - Complete guide by Data with Pranjal.",
+      "year": 2024
+    },
+    {
+      "title": "How I Would Learn to be a Data Engineer",
+      "creator": "Luke Barousse",
+      "url": "https://www.youtube.com/watch?v=_-DzZeixu0w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How I Would Learn to be a Data Engineer - Complete guide by Luke Barousse.",
+      "year": 2024
+    },
+    {
+      "title": "Data Engineer Bootcamp (FREE 27+ Hour Course) - SQL, Python, Cloud, Bash, AI, Git & GitHub",
+      "creator": "Luke Barousse",
+      "url": "https://www.youtube.com/watch?v=ol9_NnC9-cc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data Engineer Bootcamp (FREE 27+ Hour Course) - SQL, Python, Cloud, Bash, AI, Git & GitHub - Complete guide by Luke Barousse.",
+      "year": 2024
+    },
+    {
+      "title": "What is the Future of Data Engineering?",
+      "creator": "Sundas Khalid",
+      "url": "https://www.youtube.com/watch?v=5KFjVuOtCek",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is the Future of Data Engineering? - Complete guide by Sundas Khalid.",
+      "year": 2024
+    },
+    {
+      "title": "How much does a Data Engineer make at PAYPAL? #ytshorts #youtubeshorts #techjobsin2minutes #paypal",
+      "creator": "Tech Stories in 2 Minutes",
+      "url": "https://www.youtube.com/watch?v=OeMJTV4z6d8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How much does a Data Engineer make at PAYPAL? #ytshorts #youtubeshorts #techjobsin2minutes #paypal - Complete guide by Tech Stories in 2 Minutes.",
+      "year": 2024
+    },
+    {
+      "title": "Top 5 Courses every Data Engineer must take to stay ahead in 2025 #dataengineering #dataengineers",
+      "creator": "Data with Pranjal",
+      "url": "https://www.youtube.com/watch?v=iA7VhITxO9w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top 5 Courses every Data Engineer must take to stay ahead in 2025 #dataengineering #dataengineers - Complete guide by Data with Pranjal.",
+      "year": 2024
+    },
+    {
+      "title": "How much does a Big Data Engineer make? | Big Data Engineer Salary |  #Shorts #Simplilearn",
+      "creator": "Simplilearn",
+      "url": "https://www.youtube.com/watch?v=4PRRsHa9Jec",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How much does a Big Data Engineer make? | Big Data Engineer Salary |  #Shorts #Simplilearn - Complete guide by Simplilearn.",
+      "year": 2024
+    },
+    {
+      "title": "Data Engineering Roadmap: You Don’t Need Every Tool",
+      "creator": "Ankit Bansal",
+      "url": "https://www.youtube.com/watch?v=gB0INXt_m5s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data Engineering Roadmap: You Don’t Need Every Tool - Complete guide by Ankit Bansal.",
+      "year": 2024
+    },
+    {
+      "title": "How I Would become a Data Engineer FAST(if I could start over in 2025) #dataengineering",
+      "creator": "Data with Baraa",
+      "url": "https://www.youtube.com/watch?v=MXf4EKQxN4E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How I Would become a Data Engineer FAST(if I could start over in 2025) #dataengineering - Complete guide by Data with Baraa.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Data Engineering Roadmap 2026 | Complete AWS Data Engineer Roadmap | Glorytecks",
+      "creator": "GloryTecks",
+      "url": "https://www.youtube.com/watch?v=8BeivC2zbrQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AWS Data Engineering Roadmap 2026 | Complete AWS Data Engineer Roadmap | Glorytecks - Complete guide by GloryTecks.",
+      "year": 2024
+    },
+    {
+      "title": "📚 Someone uploaded a full 9-week Data Engineering course to GitHub… for FREE 😳",
+      "creator": "LearnWithPeet",
+      "url": "https://www.youtube.com/watch?v=w1frxXsTpF0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "📚 Someone uploaded a full 9-week Data Engineering course to GitHub… for FREE 😳 - Complete guide by LearnWithPeet.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Data Engineering for Free (Best Resources)",
+      "creator": "Data Engineer Academy",
+      "url": "https://www.youtube.com/watch?v=TVz-wWIQGqw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Data Engineering for Free (Best Resources) - Complete guide by Data Engineer Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Data Engineering RoadMap",
+      "creator": "CodewithPrashant ",
+      "url": "https://www.youtube.com/watch?v=nFT0M7JJtsw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data Engineering RoadMap - Complete guide by CodewithPrashant .",
+      "year": 2024
+    },
+    {
+      "title": "Data Engineer Roadmap 2026 - Must Watch 🔥💯 #shorts #jobs",
+      "creator": "Technical Suneja",
+      "url": "https://www.youtube.com/watch?v=G7H6_ZCMhXQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data Engineer Roadmap 2026 - Must Watch 🔥💯 #shorts #jobs - Complete guide by Technical Suneja.",
+      "year": 2024
+    },
+    {
+      "title": "Data Engineer vs. Data Scientist ft. @eczachly_",
+      "creator": "Sundas Khalid",
+      "url": "https://www.youtube.com/watch?v=jZGWOUNeiFY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data Engineer vs. Data Scientist ft. @eczachly_ - Complete guide by Sundas Khalid.",
+      "year": 2024
+    },
+    {
+      "title": "3 Step DSA Roadmap for Data Engineers 🚀 #faang #coding #dataengineering #dsa",
+      "creator": "Jash Radia",
+      "url": "https://www.youtube.com/watch?v=6ubCFPOwFmk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "3 Step DSA Roadmap for Data Engineers 🚀 #faang #coding #dataengineering #dsa - Complete guide by Jash Radia.",
+      "year": 2024
+    },
+    {
+      "title": "6-week Free Data Engineering Boot Camp Launch Video | DataExpert.io",
+      "creator": "DataExpert",
+      "url": "https://www.youtube.com/watch?v=myhe0LXpCeo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "6-week Free Data Engineering Boot Camp Launch Video | DataExpert.io - Complete guide by DataExpert.",
+      "year": 2024
+    },
+    {
+      "title": "Stop Buying Bootcamps. Use This FREE Data Engineer Roadmap (2026)",
+      "creator": "Jash Radia",
+      "url": "https://www.youtube.com/watch?v=wZRtWvXZL3U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Stop Buying Bootcamps. Use This FREE Data Engineer Roadmap (2026) - Complete guide by Jash Radia.",
+      "year": 2024
+    },
+    {
+      "title": "I Tried 50 Data Engineer Courses. Here Are Top 5",
+      "creator": "Data with Baraa",
+      "url": "https://www.youtube.com/watch?v=I9DfCIqQbpc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I Tried 50 Data Engineer Courses. Here Are Top 5 - Complete guide by Data with Baraa.",
+      "year": 2024
+    },
+    {
+      "title": "Azure Data Engineer Full Course For Beginners (2026 Step-By-Step Guide)",
+      "creator": "Ansh Lamba",
+      "url": "https://www.youtube.com/watch?v=bSx3DbJNQk4",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Azure Data Engineer Full Course For Beginners (2026 Step-By-Step Guide) - Complete guide by Ansh Lamba.",
+      "year": 2024
+    },
+    {
+      "title": "How I would learn Data Engineering in 2026 (if I could start over) – Built by a Data Engineer",
+      "creator": "Jash Radia",
+      "url": "https://www.youtube.com/watch?v=iiV_O4Uqj9Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How I would learn Data Engineering in 2026 (if I could start over) – Built by a Data Engineer - Complete guide by Jash Radia.",
+      "year": 2024
+    },
+    {
+      "title": "I Tried 50 Data Engineering Courses. Here are Top 5",
+      "creator": "Jash Radia",
+      "url": "https://www.youtube.com/watch?v=8l_6JRwt3bA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I Tried 50 Data Engineering Courses. Here are Top 5 - Complete guide by Jash Radia.",
+      "year": 2024
+    },
+    {
+      "title": "6-week Data Engineering Boot Camp Kick off and Informational video | DataExpert.io",
+      "creator": "DataExpert",
+      "url": "https://www.youtube.com/watch?v=HU2T03ckAno",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "6-week Data Engineering Boot Camp Kick off and Informational video | DataExpert.io - Complete guide by DataExpert.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Roadmap to Learn DATA ENGINEERING & Get a Job",
+      "creator": "Anshul Gupta [IITD, IIMB]",
+      "url": "https://www.youtube.com/watch?v=aPzPqxdNuoI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete Roadmap to Learn DATA ENGINEERING & Get a Job - Complete guide by Anshul Gupta [IITD, IIMB].",
+      "year": 2024
+    },
+    {
+      "title": "PySpark Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=_C8kWso4ne4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PySpark Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "1. Introduction to Cloud | AWS Data Engineer",
+      "creator": "learn by doing it",
+      "url": "https://www.youtube.com/watch?v=FqfP4510F7w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1. Introduction to Cloud | AWS Data Engineer - Complete guide by learn by doing it.",
+      "year": 2024
+    },
+    {
+      "title": "Fastest Way to Become a Self Taught Data Engineer and Get a Job",
+      "creator": "Jash Radia",
+      "url": "https://www.youtube.com/watch?v=SDPKsYBBQD4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Fastest Way to Become a Self Taught Data Engineer and Get a Job - Complete guide by Jash Radia.",
+      "year": 2024
+    },
+    {
+      "title": "AWS DATA ENGINEER | AWS DATA ENGINEER PLAYLIST |  INTRODUCTION",
+      "creator": "learn by doing it",
+      "url": "https://www.youtube.com/watch?v=QPcvAM1OAlQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AWS DATA ENGINEER | AWS DATA ENGINEER PLAYLIST |  INTRODUCTION - Complete guide by learn by doing it.",
+      "year": 2024
+    },
+    {
+      "title": "The 2025 data engineering roadmap",
+      "creator": "DataExpert",
+      "url": "https://www.youtube.com/watch?v=aSHg22oEGIs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The 2025 data engineering roadmap - Complete guide by DataExpert.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Spark in 100 Seconds",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=IELMSD2kdmk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Apache Spark in 100 Seconds - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "How I’d Learn Data Engineering in 2026 From Zero to Senior (Built by a Data Engineer)",
+      "creator": "Data with Baraa",
+      "url": "https://www.youtube.com/watch?v=1nVGaNbvuXg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How I’d Learn Data Engineering in 2026 From Zero to Senior (Built by a Data Engineer) - Complete guide by Data with Baraa.",
+      "year": 2024
+    },
+    {
+      "title": "Why Data Engineers Use PySpark and Spark in Real Projects",
+      "creator": "TG117 Hindi",
+      "url": "https://www.youtube.com/watch?v=9mUeW-VG73c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why Data Engineers Use PySpark and Spark in Real Projects - Complete guide by TG117 Hindi.",
+      "year": 2024
+    },
+    {
+      "title": "PySpark Tutorial | Full Course (From Zero to Pro!)",
+      "creator": "Ansh Lamba",
+      "url": "https://www.youtube.com/watch?v=94w6hPk7nkM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PySpark Tutorial | Full Course (From Zero to Pro!) - Complete guide by Ansh Lamba.",
+      "year": 2024
+    },
+    {
+      "title": "1. What is PySpark?",
+      "creator": "WafaStudies",
+      "url": "https://www.youtube.com/watch?v=6MaZoOgJa84",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1. What is PySpark? - Complete guide by WafaStudies.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Iceberg Fundamentals: Training Course #1 - Introdcution | Dremio",
+      "creator": "Dremio",
+      "url": "https://www.youtube.com/watch?v=MSuT20EqnnM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Apache Iceberg Fundamentals: Training Course #1 - Introdcution | Dremio - Complete guide by Dremio.",
+      "year": 2024
+    },
+    {
+      "title": "Spark Architecture Basics Every Data Engineering Beginner Must Know",
+      "creator": "TG117 Hindi",
+      "url": "https://www.youtube.com/watch?v=Ks0a1NO8k5Y",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Spark Architecture Basics Every Data Engineering Beginner Must Know - Complete guide by TG117 Hindi.",
+      "year": 2024
+    },
+    {
+      "title": "Zomato AI Data Analytics | End-To-End AI Data Engineering Project",
+      "creator": "Darshil Parmar",
+      "url": "https://www.youtube.com/watch?v=kYwaNMQ3XT8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Zomato AI Data Analytics | End-To-End AI Data Engineering Project - Complete guide by Darshil Parmar.",
+      "year": 2024
+    },
+    {
+      "title": "01 PySpark Tutorial | PySpark Training | Learn from Basics to Advanced Performance Optimization",
+      "creator": "Ease With Data",
+      "url": "https://www.youtube.com/watch?v=wNRjR6Cds5s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "01 PySpark Tutorial | PySpark Training | Learn from Basics to Advanced Performance Optimization - Complete guide by Ease With Data.",
+      "year": 2024
+    },
+    {
+      "title": "02 How Spark Works - Driver & Executors | How Spark divide Job in Stages | What is Shuffle in Spark",
+      "creator": "Ease With Data",
+      "url": "https://www.youtube.com/watch?v=nKM4f1olwsI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "02 How Spark Works - Driver & Executors | How Spark divide Job in Stages | What is Shuffle in Spark - Complete guide by Ease With Data.",
+      "year": 2024
+    },
+    {
+      "title": "DP-700 Exam Prep: Course Intro | Microsoft Fabric Data Engineer",
+      "creator": "Aleksi Partanen - Master Microsoft Fabric",
+      "url": "https://www.youtube.com/watch?v=tynojQxL9WM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DP-700 Exam Prep: Course Intro | Microsoft Fabric Data Engineer - Complete guide by Aleksi Partanen - Master Microsoft Fabric.",
+      "year": 2024
+    },
+    {
+      "title": "Tutorial 1-Pyspark With Python-Pyspark Introduction and Installation",
+      "creator": "Krish Naik",
+      "url": "https://www.youtube.com/watch?v=WyZmM6K7ubc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Tutorial 1-Pyspark With Python-Pyspark Introduction and Installation - Complete guide by Krish Naik.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Kafka 101 for Beginners Course Trailer (2023)",
+      "creator": "Confluent, an IBM Company",
+      "url": "https://www.youtube.com/watch?v=j4bqyAMMb7o",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Apache Kafka 101 for Beginners Course Trailer (2023) - Complete guide by Confluent, an IBM Company.",
+      "year": 2024
+    },
+    {
+      "title": "Tutorial 2-Pyspark With Python-Pyspark DataFrames- Part 1",
+      "creator": "Krish Naik",
+      "url": "https://www.youtube.com/watch?v=7I4YZwaJgPs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Tutorial 2-Pyspark With Python-Pyspark DataFrames- Part 1 - Complete guide by Krish Naik.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Spark - The Ultimate Guide [From ZERO To PRO]",
+      "creator": "Ansh Lamba",
+      "url": "https://www.youtube.com/watch?v=FNJze2Ea780",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Apache Spark - The Ultimate Guide [From ZERO To PRO] - Complete guide by Ansh Lamba.",
+      "year": 2024
+    },
+    {
+      "title": "What Is Apache Spark? | Apache Spark Tutorial | Apache Spark For Beginners | Simplilearn",
+      "creator": "Simplilearn",
+      "url": "https://www.youtube.com/watch?v=znBa13Earms",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "What Is Apache Spark? | Apache Spark Tutorial | Apache Spark For Beginners | Simplilearn - Complete guide by Simplilearn.",
+      "year": 2024
+    },
+    {
+      "title": "Spark Tutorial For Beginners | Big Data Spark Tutorial | Apache Spark Tutorial | Simplilearn",
+      "creator": "Simplilearn",
+      "url": "https://www.youtube.com/watch?v=QaoJNXW6SQo",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Spark Tutorial For Beginners | Big Data Spark Tutorial | Apache Spark Tutorial | Simplilearn - Complete guide by Simplilearn.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Apache Spark in 10 Minutes | Step by Step Guide",
+      "creator": "Darshil Parmar",
+      "url": "https://www.youtube.com/watch?v=v_uodKAywXA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Apache Spark in 10 Minutes | Step by Step Guide - Complete guide by Darshil Parmar.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Spark Architecture - EXPLAINED!",
+      "creator": "Databricks For Professionals",
+      "url": "https://www.youtube.com/watch?v=iXVIPQEGZ9Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Apache Spark Architecture - EXPLAINED! - Complete guide by Databricks For Professionals.",
+      "year": 2024
+    },
+    {
+      "title": "Install Apache PySpark on Windows PC | Apache Spark Installation Guide",
+      "creator": "AmpCode",
+      "url": "https://www.youtube.com/watch?v=OmcSTQVkrvo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Install Apache PySpark on Windows PC | Apache Spark Installation Guide - Complete guide by AmpCode.",
+      "year": 2024
+    },
+    {
+      "title": "Do THIS Instead of Watching Endless Tutorials - How I'd Learn Spark FAST (2026)",
+      "creator": "Jash Radia",
+      "url": "https://www.youtube.com/watch?v=_ii08GBoIcY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Do THIS Instead of Watching Endless Tutorials - How I'd Learn Spark FAST (2026) - Complete guide by Jash Radia.",
+      "year": 2024
+    },
+    {
+      "title": "PySpark Course #2: What to Expect?",
+      "creator": "Philipp Brunenberg",
+      "url": "https://www.youtube.com/watch?v=IihIFC9D4vc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PySpark Course #2: What to Expect? - Complete guide by Philipp Brunenberg.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Spark/PySpark Tutorial: What is Apache Spark? | Lecture 1",
+      "creator": "AmpCode",
+      "url": "https://www.youtube.com/watch?v=XhjIJGsAMsQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Apache Spark/PySpark Tutorial: What is Apache Spark? | Lecture 1 - Complete guide by AmpCode.",
+      "year": 2024
+    },
+    {
+      "title": "02 | History of Spark, Databricks, Big Data & Hadoop",
+      "creator": "DataBeli",
+      "url": "https://www.youtube.com/watch?v=SIRf3kNytyg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "02 | History of Spark, Databricks, Big Data & Hadoop - Complete guide by DataBeli.",
+      "year": 2024
+    },
+    {
+      "title": "PySpark Course #1: Learn to Write High-Quality Spark Code",
+      "creator": "Philipp Brunenberg",
+      "url": "https://www.youtube.com/watch?v=i-87bLHNMKU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PySpark Course #1: Learn to Write High-Quality Spark Code - Complete guide by Philipp Brunenberg.",
+      "year": 2024
+    },
+    {
+      "title": "PySpark and Databricks - Complete Course | Beginner to Expert",
+      "creator": "DataBeli",
+      "url": "https://www.youtube.com/watch?v=FP_NGg6KtUs",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "PySpark and Databricks - Complete Course | Beginner to Expert - Complete guide by DataBeli.",
+      "year": 2024
+    },
+    {
+      "title": "What is Apache Spark?",
+      "creator": "codebasics",
+      "url": "https://www.youtube.com/watch?v=KAuIvccwbPY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Apache Spark? - Complete guide by codebasics.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Spark 4.3: Stateful Streaming Under 150 ms | Tech Over Coffee",
+      "creator": "Tech Over Coffee",
+      "url": "https://www.youtube.com/watch?v=9ARCFAtgVlg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Apache Spark 4.3: Stateful Streaming Under 150 ms | Tech Over Coffee - Complete guide by Tech Over Coffee.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Spark Explained 🔥 What Is Apache Spark? Complete Beginner Guide | Learnomate Technologies |",
+      "creator": "Learnomate Technologies",
+      "url": "https://www.youtube.com/watch?v=jllSRhgubPA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Apache Spark Explained 🔥 What Is Apache Spark? Complete Beginner Guide | Learnomate Technologies | - Complete guide by Learnomate Technologies.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Apache spark for Data Engineering 🔥#dataanalytics #dataengineering #apachespark #databricks",
+      "creator": "cloudwithsrikanth",
+      "url": "https://www.youtube.com/watch?v=Q_5gZmR8wNM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Apache spark for Data Engineering 🔥#dataanalytics #dataengineering #apachespark #databricks - Complete guide by cloudwithsrikanth.",
+      "year": 2024
+    },
+    {
+      "title": "Difference in Spark vs Pyspark",
+      "creator": "Code With Z",
+      "url": "https://www.youtube.com/watch?v=JfyLqRfzzR0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Difference in Spark vs Pyspark - Complete guide by Code With Z.",
+      "year": 2024
+    },
+    {
+      "title": "1.  Introduction to Spark | Apache Spark | PySpark Tutorial",
+      "creator": "learn by doing it",
+      "url": "https://www.youtube.com/watch?v=eeMuVSQ9B7I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1.  Introduction to Spark | Apache Spark | PySpark Tutorial - Complete guide by learn by doing it.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Spark Architecture Explained by Ankush Sir",
+      "creator": "Learnomate Technologies",
+      "url": "https://www.youtube.com/watch?v=h22EaFra8eI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Apache Spark Architecture Explained by Ankush Sir - Complete guide by Learnomate Technologies.",
+      "year": 2024
+    },
+    {
+      "title": "1. Introduction to Apache Spark in Tamil | What is Spark & Why Use It?",
+      "creator": "vijaquick",
+      "url": "https://www.youtube.com/watch?v=Bod1jiX8Gbc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1. Introduction to Apache Spark in Tamil | What is Spark & Why Use It? - Complete guide by vijaquick.",
+      "year": 2024
+    },
+    {
+      "title": "What is PySpark, and how is it different from Pandas?",
+      "creator": "Analytics With Rajat",
+      "url": "https://www.youtube.com/watch?v=ijUVF_pOsuo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is PySpark, and how is it different from Pandas? - Complete guide by Analytics With Rajat.",
+      "year": 2024
+    },
+    {
+      "title": "What is Apache Spark? Data Engineer Interview Answer #shorts",
+      "creator": "Mad about Fusion 360",
+      "url": "https://www.youtube.com/watch?v=bIS27k91V4w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Apache Spark? Data Engineer Interview Answer #shorts - Complete guide by Mad about Fusion 360.",
+      "year": 2024
+    },
+    {
+      "title": "Databricks, Spark, PySpark – Explained by Ankush Sir",
+      "creator": "Learnomate Technologies",
+      "url": "https://www.youtube.com/watch?v=Qwimjijoows",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Databricks, Spark, PySpark – Explained by Ankush Sir - Complete guide by Learnomate Technologies.",
+      "year": 2024
+    },
+    {
+      "title": "2. Apache Spark Architecture Explained in Tamil | Master Driver, Executor & Cluster Concepts",
+      "creator": "vijaquick",
+      "url": "https://www.youtube.com/watch?v=U8iuCqPfJ5o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "2. Apache Spark Architecture Explained in Tamil | Master Driver, Executor & Cluster Concepts - Complete guide by vijaquick.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Spark: 5 Features You NEED NOW ⚡",
+      "creator": "itversity",
+      "url": "https://www.youtube.com/watch?v=7mwD0PoqYrQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Apache Spark: 5 Features You NEED NOW ⚡ - Complete guide by itversity.",
+      "year": 2024
+    },
+    {
+      "title": "2.  Spark Architecture | PySpark Tutorial",
+      "creator": "learn by doing it",
+      "url": "https://www.youtube.com/watch?v=dIxpIt1BaKM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "2.  Spark Architecture | PySpark Tutorial - Complete guide by learn by doing it.",
+      "year": 2024
+    },
+    {
+      "title": "AutoCDC SCD Type 2 Support in Apache Spark 4.3 (History Tracking)",
+      "creator": "Apache Spark",
+      "url": "https://www.youtube.com/watch?v=5yOU16X-KhU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AutoCDC SCD Type 2 Support in Apache Spark 4.3 (History Tracking) - Complete guide by Apache Spark.",
+      "year": 2024
+    },
+    {
+      "title": "Pyspark Sessions - Apache Spark and it's components with real life example #pysparktutorial #pyspark",
+      "creator": "Azure World",
+      "url": "https://www.youtube.com/watch?v=Jckxbgpss8s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Pyspark Sessions - Apache Spark and it's components with real life example #pysparktutorial #pyspark - Complete guide by Azure World.",
+      "year": 2024
+    },
+    {
+      "title": "What is Apache Spark ? Explained in a 45 Seconds For Beginners | Learn architecture in 1 minute ⏱️",
+      "creator": "Rocky Bhatia",
+      "url": "https://www.youtube.com/watch?v=AdHT_qEVdts",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "What is Apache Spark ? Explained in a 45 Seconds For Beginners | Learn architecture in 1 minute ⏱️ - Complete guide by Rocky Bhatia.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Spark in 60 Seconds",
+      "creator": "IBM Technology",
+      "url": "https://www.youtube.com/watch?v=TbdRQ-TmtgI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Apache Spark in 60 Seconds - Complete guide by IBM Technology.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Spark in 30 Seconds #systemdesign #programming  #softwarearchitect",
+      "creator": "The Coding Camp",
+      "url": "https://www.youtube.com/watch?v=gwLeqXGDOBU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Apache Spark in 30 Seconds #systemdesign #programming  #softwarearchitect - Complete guide by The Coding Camp.",
+      "year": 2024
+    },
+    {
+      "title": "PySpark Developer Roadmap 2026 | How To Become A PySpark Developer In 2026? | #Shorts | #Simplilearn",
+      "creator": "Simplilearn",
+      "url": "https://www.youtube.com/watch?v=Lntj2gB5VqY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PySpark Developer Roadmap 2026 | How To Become A PySpark Developer In 2026? | #Shorts | #Simplilearn - Complete guide by Simplilearn.",
+      "year": 2024
+    },
+    {
+      "title": "Pyspark Developer Roadmap 2026 | How To Become A PySpark Developer In 2026 | #Shorts",
+      "creator": "Simplilearn",
+      "url": "https://www.youtube.com/watch?v=58VD-uGOGjk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Pyspark Developer Roadmap 2026 | How To Become A PySpark Developer In 2026 | #Shorts - Complete guide by Simplilearn.",
+      "year": 2024
+    },
+    {
+      "title": "Day2 - PySpark 𝐢𝐧 𝟔𝟎 Seconds! ⚡🐍\"",
+      "creator": "Data Engineering",
+      "url": "https://www.youtube.com/watch?v=7h9xHJZmRvY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Day2 - PySpark 𝐢𝐧 𝟔𝟎 Seconds! ⚡🐍\" - Complete guide by Data Engineering.",
+      "year": 2024
+    },
+    {
+      "title": "1. Introduction | Apache Kafka Fundamentals",
+      "creator": "Confluent, an IBM Company",
+      "url": "https://www.youtube.com/watch?v=-DyWhcX3Dpc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1. Introduction | Apache Kafka Fundamentals - Complete guide by Confluent, an IBM Company.",
+      "year": 2024
+    },
+    {
+      "title": "Apache spark vs Pyspark: 7 Key Differences Explained (Choose the Right Tool!)",
+      "creator": "itversity",
+      "url": "https://www.youtube.com/watch?v=r5MysGC-Yjc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Apache spark vs Pyspark: 7 Key Differences Explained (Choose the Right Tool!) - Complete guide by itversity.",
+      "year": 2024
+    },
+    {
+      "title": "Fault Tolerance in Apache Spark Explained in Marathi | RDD Lineage & Recomputation",
+      "creator": "The Data Engineer Girl",
+      "url": "https://www.youtube.com/watch?v=PNSK44mwVr0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Fault Tolerance in Apache Spark Explained in Marathi | RDD Lineage & Recomputation - Complete guide by The Data Engineer Girl.",
+      "year": 2024
+    },
+    {
+      "title": "Databricks vs Apache Spark | Ankush Sir Simplifies",
+      "creator": "Learnomate Technologies",
+      "url": "https://www.youtube.com/watch?v=G4yrYxJJqwg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Databricks vs Apache Spark | Ankush Sir Simplifies - Complete guide by Learnomate Technologies.",
+      "year": 2024
+    },
+    {
+      "title": "Read CSV File in PySpark | Beginner Tutorial #PySpark #ApacheSpark #BigData #python #DataEngineering",
+      "creator": "AshMeet Academy",
+      "url": "https://www.youtube.com/watch?v=QJkQJb142eg",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Read CSV File in PySpark | Beginner Tutorial #PySpark #ApacheSpark #BigData #python #DataEngineering - Complete guide by AshMeet Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Event Driven Architecture (EDA) Introduction",
+      "creator": "Concept && Coding - by Shrayansh",
+      "url": "https://www.youtube.com/watch?v=QNfIUIZQ9Vo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Event Driven Architecture (EDA) Introduction - Complete guide by Concept && Coding - by Shrayansh.",
+      "year": 2024
+    },
+    {
+      "title": "Top Spark Optimization Techniques 🔥 | Spark Interview Questions 2026 #dataengineer #youtube #spark",
+      "creator": "Data Engineering Insights with Nishchay",
+      "url": "https://www.youtube.com/watch?v=erv9238RSQo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top Spark Optimization Techniques 🔥 | Spark Interview Questions 2026 #dataengineer #youtube #spark - Complete guide by Data Engineering Insights with Nishchay.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Kafka Crash Course | What is Kafka?",
+      "creator": "Piyush Garg",
+      "url": "https://www.youtube.com/watch?v=ZJJHm_bd9Zo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Apache Kafka Crash Course | What is Kafka? - Complete guide by Piyush Garg.",
+      "year": 2024
+    },
+    {
+      "title": "2. Motivations and Customer Use Cases | Apache Kafka Fundamentals",
+      "creator": "Confluent, an IBM Company",
+      "url": "https://www.youtube.com/watch?v=BsojaA1XnpM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "2. Motivations and Customer Use Cases | Apache Kafka Fundamentals - Complete guide by Confluent, an IBM Company.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Kafka 101 is back! (2025 Edition ft. Tim Berglund)",
+      "creator": "Confluent Developer",
+      "url": "https://www.youtube.com/watch?v=hyfX3_RB5cw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Apache Kafka 101 is back! (2025 Edition ft. Tim Berglund) - Complete guide by Confluent Developer.",
+      "year": 2024
+    },
+    {
+      "title": "Kafka Architecture - Part1 | Event Driven Architecture",
+      "creator": "Concept && Coding - by Shrayansh",
+      "url": "https://www.youtube.com/watch?v=fsmhYmzU-2M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kafka Architecture - Part1 | Event Driven Architecture - Complete guide by Concept && Coding - by Shrayansh.",
+      "year": 2024
+    },
+    {
+      "title": "Topics | Apache Kafka 101 (2025 Edition)",
+      "creator": "Confluent Developer",
+      "url": "https://www.youtube.com/watch?v=mAg9tCztTjc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Topics | Apache Kafka 101 (2025 Edition) - Complete guide by Confluent Developer.",
+      "year": 2024
+    },
+    {
+      "title": "What is Kafka | Messaging System | Distributed Environment | Apache Kafka Tutorial in Hindi |Video 1",
+      "creator": "Brijesh Gupta",
+      "url": "https://www.youtube.com/watch?v=TGKUYoegrDY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Kafka | Messaging System | Distributed Environment | Apache Kafka Tutorial in Hindi |Video 1 - Complete guide by Brijesh Gupta.",
+      "year": 2024
+    },
+    {
+      "title": "What is Apache Kafka? Brief introduction",
+      "creator": "Stephane Maarek",
+      "url": "https://www.youtube.com/watch?v=XFqm_ILuhs0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Apache Kafka? Brief introduction - Complete guide by Stephane Maarek.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Kafka 101: Introduction (2023)",
+      "creator": "Confluent, an IBM Company",
+      "url": "https://www.youtube.com/watch?v=qu96DFXtbG4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Apache Kafka 101: Introduction (2023) - Complete guide by Confluent, an IBM Company.",
+      "year": 2024
+    },
+    {
+      "title": "Kafka Crash Course - Hands-On Project",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=B7CwU_tNYIE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kafka Crash Course - Hands-On Project - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Kafka® Components & Architecture Detailed Explanation in 15 min | Javatechie",
+      "creator": "Java Techie",
+      "url": "https://www.youtube.com/watch?v=HUAa1Yg9NlI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Apache Kafka® Components & Architecture Detailed Explanation in 15 min | Javatechie - Complete guide by Java Techie.",
+      "year": 2024
+    },
+    {
+      "title": "Kafka Architecture | Key terminologies | Kafka Features | Apache Kafka Tutorial in Hindi | Video 2",
+      "creator": "Brijesh Gupta",
+      "url": "https://www.youtube.com/watch?v=Y2coybua2A0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kafka Architecture | Key terminologies | Kafka Features | Apache Kafka Tutorial in Hindi | Video 2 - Complete guide by Brijesh Gupta.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Kafka® Tutorials for Beginners | What & Why Apache Kafka? Brief introduction | JavaTechie",
+      "creator": "Java Techie",
+      "url": "https://www.youtube.com/watch?v=xGwzuz8F9k0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Apache Kafka® Tutorials for Beginners | What & Why Apache Kafka? Brief introduction | JavaTechie - Complete guide by Java Techie.",
+      "year": 2024
+    },
+    {
+      "title": "Kafka Tutorial - Inaugural",
+      "creator": "Learning Journal",
+      "url": "https://www.youtube.com/watch?v=gg-VwXSRnmg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kafka Tutorial - Inaugural - Complete guide by Learning Journal.",
+      "year": 2024
+    },
+    {
+      "title": "Kafka Ecosystem Explained",
+      "creator": "Stephane Maarek",
+      "url": "https://www.youtube.com/watch?v=d3ZDUBFB91I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kafka Ecosystem Explained - Complete guide by Stephane Maarek.",
+      "year": 2024
+    },
+    {
+      "title": "Kafka Tutorial - Kafka 1.0 Update",
+      "creator": "Learning Journal",
+      "url": "https://www.youtube.com/watch?v=3Yt-AyI1aS8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kafka Tutorial - Kafka 1.0 Update - Complete guide by Learning Journal.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Apache Kafka with Conduktor Free Course - What will you learn?",
+      "creator": "Conduktor",
+      "url": "https://www.youtube.com/watch?v=q2N3gMhfjBs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Apache Kafka with Conduktor Free Course - What will you learn? - Complete guide by Conduktor.",
+      "year": 2024
+    },
+    {
+      "title": "🚀 Apache Kafka Crash Course With Spring Boot 3.0.x | @Javatechie",
+      "creator": "Java Techie",
+      "url": "https://www.youtube.com/watch?v=c7LPlWvxZcQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🚀 Apache Kafka Crash Course With Spring Boot 3.0.x | @Javatechie - Complete guide by Java Techie.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Apache Kafka in 90 Minutes 🔥 For Beginners [HINDI]",
+      "creator": "M Prashant",
+      "url": "https://www.youtube.com/watch?v=QI5WRCdp0vs",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn Apache Kafka in 90 Minutes 🔥 For Beginners [HINDI] - Complete guide by M Prashant.",
+      "year": 2024
+    },
+    {
+      "title": "Kafka in 100 Seconds",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=uvb00oaa3k8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kafka in 100 Seconds - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "What is Apache Kafka and how does it work?",
+      "creator": "Conduktor",
+      "url": "https://www.youtube.com/watch?v=QI_-vgwbF-o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Apache Kafka and how does it work? - Complete guide by Conduktor.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Apache Kafka in 60 Minutes! | Complete Beginner Tutorial",
+      "creator": "Sanket Singh",
+      "url": "https://www.youtube.com/watch?v=3b5YClTj6Dc",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn Apache Kafka in 60 Minutes! | Complete Beginner Tutorial - Complete guide by Sanket Singh.",
+      "year": 2024
+    },
+    {
+      "title": "Top 5 Apache Kafka Use Cases in 2026",
+      "creator": "AK Coding",
+      "url": "https://www.youtube.com/watch?v=UGL5t8i_WQY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top 5 Apache Kafka Use Cases in 2026 - Complete guide by AK Coding.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Kafka Explained in 5 Minutes | Kafka for Beginners + Interview Questions",
+      "creator": "Sravan kumar Ganga",
+      "url": "https://www.youtube.com/watch?v=gFWIR_0PWPY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Apache Kafka Explained in 5 Minutes | Kafka for Beginners + Interview Questions - Complete guide by Sravan kumar Ganga.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Kafka Fundamentals You Should Know",
+      "creator": "ByteByteGo",
+      "url": "https://www.youtube.com/watch?v=-RDyEFvnTXI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Apache Kafka Fundamentals You Should Know - Complete guide by ByteByteGo.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Kafka Full Tutorial for Beginners - Complete Guide!",
+      "creator": "CoreToSpring",
+      "url": "https://www.youtube.com/watch?v=w8Z7cg8QVGc",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Apache Kafka Full Tutorial for Beginners - Complete Guide! - Complete guide by CoreToSpring.",
+      "year": 2024
+    },
+    {
+      "title": "How Apache Kafka Works 🧠 | The Append-Only Log | Tech Explained",
+      "creator": "Learn Coding Visual",
+      "url": "https://www.youtube.com/watch?v=QJ3dh0b3rqU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Apache Kafka Works 🧠 | The Append-Only Log | Tech Explained - Complete guide by Learn Coding Visual.",
+      "year": 2024
+    },
+    {
+      "title": "Master Kafka — Zero to Advanced | Interview and job Oriented | 31+ LPA Roadmap",
+      "creator": "PathNex - Shaping Careers",
+      "url": "https://www.youtube.com/watch?v=PmDw2VXSNGw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Master Kafka — Zero to Advanced | Interview and job Oriented | 31+ LPA Roadmap - Complete guide by PathNex - Shaping Careers.",
+      "year": 2024
+    },
+    {
+      "title": "Kafka Full Course | Apache Kafka Tutorial for Beginners with Hands-On",
+      "creator": "The Curious Coder",
+      "url": "https://www.youtube.com/watch?v=sAU7p_ltpmA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Kafka Full Course | Apache Kafka Tutorial for Beginners with Hands-On - Complete guide by The Curious Coder.",
+      "year": 2024
+    },
+    {
+      "title": "Kafka in 3 Hours | System Design | Kafka vs Message Queue | Topic, Partition, Consumer Explained",
+      "creator": "Mohit Chhabra",
+      "url": "https://www.youtube.com/watch?v=JFPN-GwON9U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kafka in 3 Hours | System Design | Kafka vs Message Queue | Topic, Partition, Consumer Explained - Complete guide by Mohit Chhabra.",
+      "year": 2024
+    },
+    {
+      "title": "Watch my latest video on ‘What is Apache KAFKA’ #littleslaw #kafka #kafkaconnect #kafkastreams",
+      "creator": "Vasanth Tech Talk",
+      "url": "https://www.youtube.com/watch?v=wgF3tPX3Rjw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Watch my latest video on ‘What is Apache KAFKA’ #littleslaw #kafka #kafkaconnect #kafkastreams - Complete guide by Vasanth Tech Talk.",
+      "year": 2024
+    },
+    {
+      "title": "What the hell is APACHE KAFKA!? 🤔 | Stand Out in the Job Market with this Skill | Zomato's Example",
+      "creator": "GeeksforGeeks",
+      "url": "https://www.youtube.com/watch?v=RtV-y52tVXM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What the hell is APACHE KAFKA!? 🤔 | Stand Out in the Job Market with this Skill | Zomato's Example - Complete guide by GeeksforGeeks.",
+      "year": 2024
+    },
+    {
+      "title": "Kafka Topics Cheat Sheet 🚀 | Topics, Partitions, Replication & More | Apache Kafka",
+      "creator": "System Design Lab",
+      "url": "https://www.youtube.com/watch?v=xXNU1zxfh28",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kafka Topics Cheat Sheet 🚀 | Topics, Partitions, Replication & More | Apache Kafka - Complete guide by System Design Lab.",
+      "year": 2024
+    },
+    {
+      "title": "Run Apache Kafka on Your Laptop in 1 Command #kafka #docker",
+      "creator": "PingToPrompt",
+      "url": "https://www.youtube.com/watch?v=jvnTzAqlUH0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Run Apache Kafka on Your Laptop in 1 Command #kafka #docker - Complete guide by PingToPrompt.",
+      "year": 2024
+    },
+    {
+      "title": "Finally Learn Apache Kafka the Right Way! 💻🔥 Comment 'KAFKA' for Free Resources #2026 #developer",
+      "creator": "Coding Simplified",
+      "url": "https://www.youtube.com/watch?v=kqXYKZOdt1E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Finally Learn Apache Kafka the Right Way! 💻🔥 Comment 'KAFKA' for Free Resources #2026 #developer - Complete guide by Coding Simplified.",
+      "year": 2024
+    },
+    {
+      "title": "Kafka Explained  | Producer, Consumer, Topics & Consumer Groups 🚀 #shorts",
+      "creator": "The Curious Coder",
+      "url": "https://www.youtube.com/watch?v=7E8IEF4WaIs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kafka Explained  | Producer, Consumer, Topics & Consumer Groups 🚀 #shorts - Complete guide by The Curious Coder.",
+      "year": 2024
+    },
+    {
+      "title": "What is Apache Kafka? Simplified in 60 Seconds! | Master Kafka Basics in Just One Minute",
+      "creator": "Rocky Bhatia",
+      "url": "https://www.youtube.com/watch?v=7YdY53MVyFo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Apache Kafka? Simplified in 60 Seconds! | Master Kafka Basics in Just One Minute - Complete guide by Rocky Bhatia.",
+      "year": 2024
+    },
+    {
+      "title": "Kafka Explained in 2 mins, Even Beginners Can Understand",
+      "creator": "Amtul Saboor | Your DevOps bestie",
+      "url": "https://www.youtube.com/watch?v=RhwHi1eQbzY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Kafka Explained in 2 mins, Even Beginners Can Understand - Complete guide by Amtul Saboor | Your DevOps bestie.",
+      "year": 2024
+    },
+    {
+      "title": "Why Kafka Scales Better Than Your Database",
+      "creator": "Coding With Mr.M",
+      "url": "https://www.youtube.com/watch?v=M05KlWeGz04",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why Kafka Scales Better Than Your Database - Complete guide by Coding With Mr.M.",
+      "year": 2024
+    },
+    {
+      "title": "What is Kafka? Explained in 60 Seconds 💜 #shorts #dataengineering #techexplained #data",
+      "creator": "Data Engineering Life",
+      "url": "https://www.youtube.com/watch?v=PWmbE9JYxKY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Kafka? Explained in 60 Seconds 💜 #shorts #dataengineering #techexplained #data - Complete guide by Data Engineering Life.",
+      "year": 2024
+    },
+    {
+      "title": "👉 Kafka Architecture Simplified in 60s | Apache Kafka Explained for Beginners #kafka",
+      "creator": "Sarabjeet Singh (sarabs3)",
+      "url": "https://www.youtube.com/watch?v=ebaYo3To-7o",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "👉 Kafka Architecture Simplified in 60s | Apache Kafka Explained for Beginners #kafka - Complete guide by Sarabjeet Singh (sarabs3).",
+      "year": 2024
+    },
+    {
+      "title": "5 Real-World Apache Kafka Use Cases You Need to Know in 2026",
+      "creator": "AK Coding",
+      "url": "https://www.youtube.com/watch?v=llwhYb3cpw8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "5 Real-World Apache Kafka Use Cases You Need to Know in 2026 - Complete guide by AK Coding.",
+      "year": 2024
+    },
+    {
+      "title": "Kafka vs RabbitMQ ⚡ | Message Queue Explained | Most Asked SDE Interview Question #Shorts",
+      "creator": "Sneha Singh",
+      "url": "https://www.youtube.com/watch?v=wWxSLn9-9NM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kafka vs RabbitMQ ⚡ | Message Queue Explained | Most Asked SDE Interview Question #Shorts - Complete guide by Sneha Singh.",
+      "year": 2024
+    },
+    {
+      "title": "📌 Apache Kafka Explained | Part 1: Introduction to Kafka🚀",
+      "creator": "Grras Solutions Pvt Ltd",
+      "url": "https://www.youtube.com/watch?v=U3kEOZzbHFc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "📌 Apache Kafka Explained | Part 1: Introduction to Kafka🚀 - Complete guide by Grras Solutions Pvt Ltd.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Kafka Explained: What Is Kafka & Why Every Java Developer Should Learn It in 2026?:7887575991",
+      "creator": "Full Stack Java Developer",
+      "url": "https://www.youtube.com/watch?v=iU2S0hkFxU0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Apache Kafka Explained: What Is Kafka & Why Every Java Developer Should Learn It in 2026?:7887575991 - Complete guide by Full Stack Java Developer.",
+      "year": 2024
+    },
+    {
+      "title": "Why Modern Tech Runs on Apache Kafka",
+      "creator": "Screen Stack",
+      "url": "https://www.youtube.com/watch?v=e3skCls65wE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why Modern Tech Runs on Apache Kafka - Complete guide by Screen Stack.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Kafka in 40 Seconds 🚀 – High-Throughput Data Pipelines",
+      "creator": "KnowIt",
+      "url": "https://www.youtube.com/watch?v=bp0Cc8Q9Z8c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Apache Kafka in 40 Seconds 🚀 – High-Throughput Data Pipelines - Complete guide by KnowIt.",
+      "year": 2024
+    },
+    {
+      "title": "Stop Just Learning Kafka. Run It.",
+      "creator": "The Desi Architect",
+      "url": "https://www.youtube.com/watch?v=KlXZgYvCGCE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Stop Just Learning Kafka. Run It. - Complete guide by The Desi Architect.",
+      "year": 2024
+    },
+    {
+      "title": "css tricks #codewithharry #programming #freecodecamp #coding",
+      "creator": "zoha-coder-ib",
+      "url": "https://www.youtube.com/watch?v=Om99ukhVG2I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "css tricks #codewithharry #programming #freecodecamp #coding - Complete guide by zoha-coder-ib.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Apache Airflow in 10 Minutes | High-Paying Skills for Data Engineers",
+      "creator": "Darshil Parmar",
+      "url": "https://www.youtube.com/watch?v=5peQThvQmQk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Apache Airflow in 10 Minutes | High-Paying Skills for Data Engineers - Complete guide by Darshil Parmar.",
+      "year": 2024
+    },
+    {
+      "title": "What is Apache Airflow?",
+      "creator": "codebasics",
+      "url": "https://www.youtube.com/watch?v=P6gsMOoXFLU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Apache Airflow? - Complete guide by codebasics.",
+      "year": 2024
+    },
+    {
+      "title": "Kafka Explained in 60 seconds🔥💻🚀 #shorts #interview #coding #kafka #systemdesign #interview #job",
+      "creator": "Mohit Chhabra",
+      "url": "https://www.youtube.com/watch?v=_L5oDHn4pog",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kafka Explained in 60 seconds🔥💻🚀 #shorts #interview #coding #kafka #systemdesign #interview #job - Complete guide by Mohit Chhabra.",
+      "year": 2024
+    },
+    {
+      "title": "Airflow Tutorial for Beginners - Full Course in 2 Hours 2022",
+      "creator": "coder2j",
+      "url": "https://www.youtube.com/watch?v=K9AnJ9_ZAXE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Airflow Tutorial for Beginners - Full Course in 2 Hours 2022 - Complete guide by coder2j.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Airflow One Shot- Building End To End ETL Pipeline Using AirFlow And Astro",
+      "creator": "Krish Naik",
+      "url": "https://www.youtube.com/watch?v=Y_vQyMljDsE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Apache Airflow One Shot- Building End To End ETL Pipeline Using AirFlow And Astro - Complete guide by Krish Naik.",
+      "year": 2024
+    },
+    {
+      "title": "Airflow introduction and installation: Airflow Tutorial P1",
+      "creator": "coder2j",
+      "url": "https://www.youtube.com/watch?v=z7xyNOF8tak",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Airflow introduction and installation: Airflow Tutorial P1 - Complete guide by coder2j.",
+      "year": 2024
+    },
+    {
+      "title": "Why Airflow? The Top 5 Reasons To Use It!",
+      "creator": "Data with Marc",
+      "url": "https://www.youtube.com/watch?v=vEApEfa8HXk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why Airflow? The Top 5 Reasons To Use It! - Complete guide by Data with Marc.",
+      "year": 2024
+    },
+    {
+      "title": "Installing and Running Airflow on a small AWS EC2 Instance",
+      "creator": "Data with Marc",
+      "url": "https://www.youtube.com/watch?v=o88LNQDH2uI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Installing and Running Airflow on a small AWS EC2 Instance - Complete guide by Data with Marc.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Airflow For Data Engineers - Everything you should know",
+      "creator": "TG117 Hindi",
+      "url": "https://www.youtube.com/watch?v=2ROI9J5U6oA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Apache Airflow For Data Engineers - Everything you should know - Complete guide by TG117 Hindi.",
+      "year": 2024
+    },
+    {
+      "title": "Airflow tutorial 1: Introduction to Apache Airflow",
+      "creator": "Tuan Vu",
+      "url": "https://www.youtube.com/watch?v=AHMm1wfGuHE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Airflow tutorial 1: Introduction to Apache Airflow - Complete guide by Tuan Vu.",
+      "year": 2024
+    },
+    {
+      "title": "[हिन्दी] What is Apache Airflow?",
+      "creator": "codebasics Hindi",
+      "url": "https://www.youtube.com/watch?v=5HXXKfHDS_Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "[हिन्दी] What is Apache Airflow? - Complete guide by codebasics Hindi.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Apache Airflow in 8 Minutes (Explained Clearly)",
+      "creator": "Cloud X Berry",
+      "url": "https://www.youtube.com/watch?v=Cnxrb7d8RKw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Apache Airflow in 8 Minutes (Explained Clearly) - Complete guide by Cloud X Berry.",
+      "year": 2024
+    },
+    {
+      "title": "Airflow Tutorial For Beginners (2026) | Apache Airflow Full Course",
+      "creator": "Ansh Lamba",
+      "url": "https://www.youtube.com/watch?v=IiczxlbQb8s",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Airflow Tutorial For Beginners (2026) | Apache Airflow Full Course - Complete guide by Ansh Lamba.",
+      "year": 2024
+    },
+    {
+      "title": "How to build and automate a python ETL pipeline with airflow on AWS EC2 | Data Engineering Project",
+      "creator": "tuplespectra",
+      "url": "https://www.youtube.com/watch?v=uhQ54Dgp6To",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to build and automate a python ETL pipeline with airflow on AWS EC2 | Data Engineering Project - Complete guide by tuplespectra.",
+      "year": 2024
+    },
+    {
+      "title": "Airflow tutorial 2: Set up airflow environment with docker",
+      "creator": "Tuan Vu",
+      "url": "https://www.youtube.com/watch?v=vvr_WNzEXBE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Airflow tutorial 2: Set up airflow environment with docker - Complete guide by Tuan Vu.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Airflow in under 60 seconds",
+      "creator": "Airbyte",
+      "url": "https://www.youtube.com/watch?v=AT3b5gpbYfs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Apache Airflow in under 60 seconds - Complete guide by Airbyte.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Airflow : 16 - Pools and Concurrency: Limits, Waiting and Priority",
+      "creator": "Oddly Yogi",
+      "url": "https://www.youtube.com/watch?v=moznztcjtfI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Apache Airflow : 16 - Pools and Concurrency: Limits, Waiting and Priority - Complete guide by Oddly Yogi.",
+      "year": 2024
+    },
+    {
+      "title": "Use airflow to orchestrate a parallel processing ETL pipeline on AWS EC2 | Data Engineering Project",
+      "creator": "tuplespectra",
+      "url": "https://www.youtube.com/watch?v=DKsf88oCPWA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Use airflow to orchestrate a parallel processing ETL pipeline on AWS EC2 | Data Engineering Project - Complete guide by tuplespectra.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Apache Airflow | Apache Airflow Tutorial Series | Part - 1",
+      "creator": "ProjectPro",
+      "url": "https://www.youtube.com/watch?v=3HW_rQZAB8g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to Apache Airflow | Apache Airflow Tutorial Series | Part - 1 - Complete guide by ProjectPro.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Snowflake in 10 Minutes| High Paying Skills | Step by Step Hands-On Guide",
+      "creator": "Darshil Parmar",
+      "url": "https://www.youtube.com/watch?v=VIJH7TZXkaA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Snowflake in 10 Minutes| High Paying Skills | Step by Step Hands-On Guide - Complete guide by Darshil Parmar.",
+      "year": 2024
+    },
+    {
+      "title": "Snowflake Overview - Architecture, Features & Key Concepts",
+      "creator": "SleekData",
+      "url": "https://www.youtube.com/watch?v=-IHbWaxTkyA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Snowflake Overview - Architecture, Features & Key Concepts - Complete guide by SleekData.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Airflow Concepts and Components | Apache Airflow Tutorial Series | Part - 2",
+      "creator": "ProjectPro",
+      "url": "https://www.youtube.com/watch?v=zu3GUxcIx3U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Apache Airflow Concepts and Components | Apache Airflow Tutorial Series | Part - 2 - Complete guide by ProjectPro.",
+      "year": 2024
+    },
+    {
+      "title": "First Hands on Exercise | Lab Demo | Free trial account | Connectivity Options Snowsight snowSQL",
+      "creator": "SleekData",
+      "url": "https://www.youtube.com/watch?v=-JLqo2JhJIU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "First Hands on Exercise | Lab Demo | Free trial account | Connectivity Options Snowsight snowSQL - Complete guide by SleekData.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Snowflake in 2 Hours| High Paying Skills | Step by Step For Beginners",
+      "creator": "Data Engineer Academy",
+      "url": "https://www.youtube.com/watch?v=mP3QbYURT9k",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn Snowflake in 2 Hours| High Paying Skills | Step by Step For Beginners - Complete guide by Data Engineer Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Snowflake Tutorial Setup, AWS Integration",
+      "creator": "KnowHow Academy",
+      "url": "https://www.youtube.com/watch?v=Da0foVXsyTU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Snowflake Tutorial Setup, AWS Integration - Complete guide by KnowHow Academy.",
+      "year": 2024
+    },
+    {
+      "title": "#2 | Snowflake Free Trial Edition & Self Registration | Snowflake Tutorial for Beginners",
+      "creator": "Data Engineering Simplified",
+      "url": "https://www.youtube.com/watch?v=oLfAAtPBm70",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "#2 | Snowflake Free Trial Edition & Self Registration | Snowflake Tutorial for Beginners - Complete guide by Data Engineering Simplified.",
+      "year": 2024
+    },
+    {
+      "title": "🚀 Snowflake Full Course | Beginner to Advanced | 7+ Hours",
+      "creator": "learn by doing it",
+      "url": "https://www.youtube.com/watch?v=7lpp5N73V98",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "🚀 Snowflake Full Course | Beginner to Advanced | 7+ Hours - Complete guide by learn by doing it.",
+      "year": 2024
+    },
+    {
+      "title": "What is Snowflake? Learn Snowflake in 30 Minutes",
+      "creator": "codebasics",
+      "url": "https://www.youtube.com/watch?v=h78-o40MnRM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Snowflake? Learn Snowflake in 30 Minutes - Complete guide by codebasics.",
+      "year": 2024
+    },
+    {
+      "title": "Snowflake Interface Tutorial Roles, SQL Worksheets, Database",
+      "creator": "KnowHow Academy",
+      "url": "https://www.youtube.com/watch?v=51TbZbFiLME",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Snowflake Interface Tutorial Roles, SQL Worksheets, Database - Complete guide by KnowHow Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Databricks vs Snowflake vs Fabric: Which One to Learn?",
+      "creator": "Data with Baraa",
+      "url": "https://www.youtube.com/watch?v=2q0JdK6Kpec",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Databricks vs Snowflake vs Fabric: Which One to Learn? - Complete guide by Data with Baraa.",
+      "year": 2024
+    },
+    {
+      "title": "Masterclass on Snowflake 2026: Full Course for Beginners to Advanced",
+      "creator": "Data with Jay",
+      "url": "https://www.youtube.com/watch?v=JsIK6Z3XPOk",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Masterclass on Snowflake 2026: Full Course for Beginners to Advanced - Complete guide by Data with Jay.",
+      "year": 2024
+    },
+    {
+      "title": "Snowflake Data Engineering Components Complete Guide 2026",
+      "creator": "SQL School",
+      "url": "https://www.youtube.com/watch?v=F3lMX0vT33I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Snowflake Data Engineering Components Complete Guide 2026 - Complete guide by SQL School.",
+      "year": 2024
+    },
+    {
+      "title": "Databricks vs Snowflake: Which Is BETTER In 2025?",
+      "creator": "DecisionForest",
+      "url": "https://www.youtube.com/watch?v=1MvKWvj73l0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Databricks vs Snowflake: Which Is BETTER In 2025? - Complete guide by DecisionForest.",
+      "year": 2024
+    },
+    {
+      "title": "Snowflake Data Engineer Roadmap | How to Become a Snowflake Developer? | MindMajix #snowflake",
+      "creator": "MindMajix",
+      "url": "https://www.youtube.com/watch?v=LkVmFU7a4CQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Snowflake Data Engineer Roadmap | How to Become a Snowflake Developer? | MindMajix #snowflake - Complete guide by MindMajix.",
+      "year": 2024
+    },
+    {
+      "title": "What is snowflake 🤔? #shorts #snowflaketutorial",
+      "creator": "IT k Funde",
+      "url": "https://www.youtube.com/watch?v=5wIk-NEpL_Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is snowflake 🤔? #shorts #snowflaketutorial - Complete guide by IT k Funde.",
+      "year": 2024
+    },
+    {
+      "title": "Snowflake Full Course for Beginner to Advanced | Learn Snowflake in One Video |Job & Interview Ready",
+      "creator": "Cloudlearningyard",
+      "url": "https://www.youtube.com/watch?v=6nmvYrHEEkI",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Snowflake Full Course for Beginner to Advanced | Learn Snowflake in One Video |Job & Interview Ready - Complete guide by Cloudlearningyard.",
+      "year": 2024
+    },
+    {
+      "title": "Snowflake SQL Training | Learn SQL Functions & Querying Step by Step",
+      "creator": "Snowflake Masters",
+      "url": "https://www.youtube.com/watch?v=mTpUyEb_lwQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Snowflake SQL Training | Learn SQL Functions & Querying Step by Step - Complete guide by Snowflake Masters.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Snowflake – Full 1-Hour Crash Course for Complete Beginners",
+      "creator": "Tom Bailey",
+      "url": "https://www.youtube.com/watch?v=2t-ls6ekA8E",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn Snowflake – Full 1-Hour Crash Course for Complete Beginners - Complete guide by Tom Bailey.",
+      "year": 2024
+    },
+    {
+      "title": "What Is Snowflake?",
+      "creator": "Snowflake Developers",
+      "url": "https://www.youtube.com/watch?v=uxzxL2Bm7kk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What Is Snowflake? - Complete guide by Snowflake Developers.",
+      "year": 2024
+    },
+    {
+      "title": "Tutorial - Snowflake Full course | Snowflake Tutorial for beginners",
+      "creator": "NIC IT ACADEMY",
+      "url": "https://www.youtube.com/watch?v=SU9YM8Fm4Cg",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Tutorial - Snowflake Full course | Snowflake Tutorial for beginners - Complete guide by NIC IT ACADEMY.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Snowflake, DBT, ADF & Cortex Al in One Masterclass #snowflake #rajcloudtechnologies #ai #DBT",
+      "creator": "Raj Cloud Technologies Online Job-Based Training",
+      "url": "https://www.youtube.com/watch?v=SvDSnlkzUJg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Snowflake, DBT, ADF & Cortex Al in One Masterclass #snowflake #rajcloudtechnologies #ai #DBT - Complete guide by Raj Cloud Technologies Online Job-Based Training.",
+      "year": 2024
+    },
+    {
+      "title": "Why Snowflake?? Why it is Important for Data Analyst & Data Scientist?",
+      "creator": "Rajeev Kanth | BEPEC",
+      "url": "https://www.youtube.com/watch?v=1Lct4hdKudA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why Snowflake?? Why it is Important for Data Analyst & Data Scientist? - Complete guide by Rajeev Kanth | BEPEC.",
+      "year": 2024
+    },
+    {
+      "title": "Snowflake Simplified in under 60 seconds",
+      "creator": "Airbyte",
+      "url": "https://www.youtube.com/watch?v=vRtCB5uNySY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Snowflake Simplified in under 60 seconds - Complete guide by Airbyte.",
+      "year": 2024
+    },
+    {
+      "title": "What is Snowflake ? | Most Asked Interview Q&A",
+      "creator": "TecTute",
+      "url": "https://www.youtube.com/watch?v=iPJt8Q2GZms",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Snowflake ? | Most Asked Interview Q&A - Complete guide by TecTute.",
+      "year": 2024
+    },
+    {
+      "title": "Snowflake Job-Ready Roadmap 😊😊 #snowflake",
+      "creator": "Rajeev Kanth | BEPEC",
+      "url": "https://www.youtube.com/watch?v=R-3kF9-PfPM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Snowflake Job-Ready Roadmap 😊😊 #snowflake - Complete guide by Rajeev Kanth | BEPEC.",
+      "year": 2024
+    },
+    {
+      "title": "The Most In-Demand Tool in Data Engineering #snowflake #dataengineering #cloud",
+      "creator": "Jash Radia",
+      "url": "https://www.youtube.com/watch?v=W8whOOHnzhI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Most In-Demand Tool in Data Engineering #snowflake #dataengineering #cloud - Complete guide by Jash Radia.",
+      "year": 2024
+    },
+    {
+      "title": "🚀 Snowflake + dbt Explained in 5 Minutes | Real-Time Data Engineering Example",
+      "creator": "Eclasess EduTech",
+      "url": "https://www.youtube.com/watch?v=yRJ7PaZiCNQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🚀 Snowflake + dbt Explained in 5 Minutes | Real-Time Data Engineering Example - Complete guide by Eclasess EduTech.",
+      "year": 2024
+    },
+    {
+      "title": "What does Snowflake actually do? #snowflake #data",
+      "creator": "Caleb King",
+      "url": "https://www.youtube.com/watch?v=uLL16-dEUu0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What does Snowflake actually do? #snowflake #data - Complete guide by Caleb King.",
+      "year": 2024
+    },
+    {
+      "title": "Cloud Data Warehouses and ETL to ELT | How Did We Get Here | Ep 5",
+      "creator": "CRITHINK-DEV",
+      "url": "https://www.youtube.com/watch?v=ZT-MsEhAoNU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Cloud Data Warehouses and ETL to ELT | How Did We Get Here | Ep 5 - Complete guide by CRITHINK-DEV.",
+      "year": 2024
+    },
+    {
+      "title": "Click the link to watch the full video",
+      "creator": "ElevateMyCode",
+      "url": "https://www.youtube.com/watch?v=_8Hvo5gaZQs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Click the link to watch the full video - Complete guide by ElevateMyCode.",
+      "year": 2024
+    },
+    {
+      "title": "Snowflake virtual warehouses, explained | data engineering interview",
+      "creator": "The Data Round",
+      "url": "https://www.youtube.com/watch?v=-oTnhHINSQE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Snowflake virtual warehouses, explained | data engineering interview - Complete guide by The Data Round.",
+      "year": 2024
+    },
+    {
+      "title": "Master DBT + Snowflake | LIVE | 3 Months | Weekends Program | #snowflake | #dbt | #dataengineering",
+      "creator": "ANALYTICS📊WITH🕺ANAND",
+      "url": "https://www.youtube.com/watch?v=Mwm0zCtyFu0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Master DBT + Snowflake | LIVE | 3 Months | Weekends Program | #snowflake | #dbt | #dataengineering - Complete guide by ANALYTICS📊WITH🕺ANAND.",
+      "year": 2024
+    },
+    {
+      "title": "What is Snowflake? Real-World Use Cases Explained in 1 Minute | Cloud Data Warehouse",
+      "creator": "FrontLinesMedia",
+      "url": "https://www.youtube.com/watch?v=lw85vUTXT-U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Snowflake? Real-World Use Cases Explained in 1 Minute | Cloud Data Warehouse - Complete guide by FrontLinesMedia.",
+      "year": 2024
+    },
+    {
+      "title": "The Roles and Responsiblities of a Snowflake Data Engineer-HKR Trainings #snowflake #data #engineer",
+      "creator": "HKR Trainings ",
+      "url": "https://www.youtube.com/watch?v=wuZickuAh58",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Roles and Responsiblities of a Snowflake Data Engineer-HKR Trainings #snowflake #data #engineer - Complete guide by HKR Trainings .",
+      "year": 2024
+    },
+    {
+      "title": "Snowflake iceberg - Hindi",
+      "creator": "DataSkyMasters",
+      "url": "https://www.youtube.com/watch?v=kUYd-skPBI0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Snowflake iceberg - Hindi - Complete guide by DataSkyMasters.",
+      "year": 2024
+    },
+    {
+      "title": "5 Magical Skills for Data Engineer | Learnomate Technologies",
+      "creator": "Learnomate Technologies",
+      "url": "https://www.youtube.com/watch?v=bS7EOulauCw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "5 Magical Skills for Data Engineer | Learnomate Technologies - Complete guide by Learnomate Technologies.",
+      "year": 2024
+    },
+    {
+      "title": "Snowflake Full Course:Beginner to Advanced | Snowflake Tutorial:Zero to Hero | Job & Interview Ready",
+      "creator": "Data-2-Dollars",
+      "url": "https://www.youtube.com/watch?v=tpwOkgplZls",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Snowflake Full Course:Beginner to Advanced | Snowflake Tutorial:Zero to Hero | Job & Interview Ready - Complete guide by Data-2-Dollars.",
+      "year": 2024
+    },
+    {
+      "title": "1. SNOWFLAKE FULL COURSE || WHAT IS SNOWFLAKE? WHY SNOWFLAKE ? || LECTURE 1 ||",
+      "creator": "CodePro Career",
+      "url": "https://www.youtube.com/watch?v=5Doa34kuuE8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1. SNOWFLAKE FULL COURSE || WHAT IS SNOWFLAKE? WHY SNOWFLAKE ? || LECTURE 1 || - Complete guide by CodePro Career.",
+      "year": 2024
+    },
+    {
+      "title": "Data Warehouse || How data Warehouse works#coding#artificialintelligence#data#datawarehouse#warehous",
+      "creator": "Information hub",
+      "url": "https://www.youtube.com/watch?v=RaSMkneDqak",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data Warehouse || How data Warehouse works#coding#artificialintelligence#data#datawarehouse#warehous - Complete guide by Information hub.",
+      "year": 2024
+    },
+    {
+      "title": "Snowflake Architecture | Cloud Based Data Warehousing I KSR Datavizon |",
+      "creator": "KSR Datavizon ",
+      "url": "https://www.youtube.com/watch?v=nJ6Z-1pxTiM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Snowflake Architecture | Cloud Based Data Warehousing I KSR Datavizon | - Complete guide by KSR Datavizon .",
+      "year": 2024
+    },
+    {
+      "title": "2.HOW  TO CREATE SNOWFLAKE ACCOUNT || SNOWFLAKE FULL COURSE || LECTURE 2 ||",
+      "creator": "CodePro Career",
+      "url": "https://www.youtube.com/watch?v=x7Md6aVD2gE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "2.HOW  TO CREATE SNOWFLAKE ACCOUNT || SNOWFLAKE FULL COURSE || LECTURE 2 || - Complete guide by CodePro Career.",
+      "year": 2024
+    },
+    {
+      "title": "What is Features of Snowflake data ware housing.? - Snowflake - Snowflake Cloud - KSR Datavizon",
+      "creator": "KSR Datavizon ",
+      "url": "https://www.youtube.com/watch?v=sOLyqRgmutU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Features of Snowflake data ware housing.? - Snowflake - Snowflake Cloud - KSR Datavizon - Complete guide by KSR Datavizon .",
+      "year": 2024
+    },
+    {
+      "title": "What is Data Pipeline | How to design Data Pipeline ? - ETL vs Data pipeline (2025)",
+      "creator": "IT k Funde",
+      "url": "https://www.youtube.com/watch?v=VtzvF17ysbc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Data Pipeline | How to design Data Pipeline ? - ETL vs Data pipeline (2025) - Complete guide by IT k Funde.",
+      "year": 2024
+    },
+    {
+      "title": "Snowflake In 5 Minutes | What Is Snowflake | What Is Data Warehouse - MindMajix",
+      "creator": "MindMajix",
+      "url": "https://www.youtube.com/watch?v=A3KDEo4F4-E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Snowflake In 5 Minutes | What Is Snowflake | What Is Data Warehouse - MindMajix - Complete guide by MindMajix.",
+      "year": 2024
+    },
+    {
+      "title": "Snowflake Full Course | Snowflake Course For Data Engineering | Snowflake Tutorial | MindMajix",
+      "creator": "MindMajix",
+      "url": "https://www.youtube.com/watch?v=5rkHJQVBO54",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Snowflake Full Course | Snowflake Course For Data Engineering | Snowflake Tutorial | MindMajix - Complete guide by MindMajix.",
+      "year": 2024
+    },
+    {
+      "title": "Learn ETL Pipelines in Databricks in Under 1 Hour | Data Engineering in Databricks",
+      "creator": "Alex The Analyst",
+      "url": "https://www.youtube.com/watch?v=Vht4hoRHEek",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn ETL Pipelines in Databricks in Under 1 Hour | Data Engineering in Databricks - Complete guide by Alex The Analyst.",
+      "year": 2024
+    },
+    {
+      "title": "Snowflake with DBT & Cortex AI | Complete Data Engineering Course 2026",
+      "creator": "DataStack Academy",
+      "url": "https://www.youtube.com/watch?v=rOiP2yrsYKQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Snowflake with DBT & Cortex AI | Complete Data Engineering Course 2026 - Complete guide by DataStack Academy.",
+      "year": 2024
+    },
+    {
+      "title": "28.ETL Pipeline in detail | How to Extract , Transform and Load Data | Spring AI Course",
+      "creator": "Learn Code With Durgesh",
+      "url": "https://www.youtube.com/watch?v=bvNW9UNGtao",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "28.ETL Pipeline in detail | How to Extract , Transform and Load Data | Spring AI Course - Complete guide by Learn Code With Durgesh.",
+      "year": 2024
+    },
+    {
+      "title": "Data Pipeline Overview",
+      "creator": "ByteByteGo",
+      "url": "https://www.youtube.com/watch?v=Yj9qOWnipTQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data Pipeline Overview - Complete guide by ByteByteGo.",
+      "year": 2024
+    },
+    {
+      "title": "Roadmap to build good Data Pipelines!",
+      "creator": "Keerti Purswani",
+      "url": "https://www.youtube.com/watch?v=0eZQmBJ3Xq0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Roadmap to build good Data Pipelines! - Complete guide by Keerti Purswani.",
+      "year": 2024
+    },
+    {
+      "title": "Use Python to create a simple ETL data pipeline to extract, transform and load weather data from a R",
+      "creator": "Stephen | Data ",
+      "url": "https://www.youtube.com/watch?v=d3Q7czh-tqo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Use Python to create a simple ETL data pipeline to extract, transform and load weather data from a R - Complete guide by Stephen | Data .",
+      "year": 2024
+    },
+    {
+      "title": "Full Course for Snowflake SnowPro Core Tutorial (COF-C03)(UnOfficial):Pass Exam in 1 Video![7 Hours]",
+      "creator": "Data-2-Dollars",
+      "url": "https://www.youtube.com/watch?v=EpnptFl6Z4s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Full Course for Snowflake SnowPro Core Tutorial (COF-C03)(UnOfficial):Pass Exam in 1 Video![7 Hours] - Complete guide by Data-2-Dollars.",
+      "year": 2024
+    },
+    {
+      "title": "The Five Levels of Data Pipelines",
+      "creator": "DataExpert",
+      "url": "https://www.youtube.com/watch?v=MvN0rClJTY0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Five Levels of Data Pipelines - Complete guide by DataExpert.",
+      "year": 2024
+    },
+    {
+      "title": "What is ETL Pipeline? | ETL Pipeline Tutorial | How to Build ETL Pipeline | Simplilearn",
+      "creator": "Simplilearn",
+      "url": "https://www.youtube.com/watch?v=pGjQJmX_IfM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is ETL Pipeline? | ETL Pipeline Tutorial | How to Build ETL Pipeline | Simplilearn - Complete guide by Simplilearn.",
+      "year": 2024
+    },
+    {
+      "title": "What is Data Pipeline? | Why Is It So Popular?",
+      "creator": "ByteByteGo",
+      "url": "https://www.youtube.com/watch?v=kGT4PcTEPP8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Data Pipeline? | Why Is It So Popular? - Complete guide by ByteByteGo.",
+      "year": 2024
+    },
+    {
+      "title": "USAII® | Jimish Kadakia's Insight on From ETL to AI: The Future of Data Pipelines",
+      "creator": "United States Artificial Intelligence Institute",
+      "url": "https://www.youtube.com/watch?v=c-Co_-wtteA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "USAII® | Jimish Kadakia's Insight on From ETL to AI: The Future of Data Pipelines - Complete guide by United States Artificial Intelligence Institute.",
+      "year": 2024
+    },
+    {
+      "title": "What Are Data Pipelines?",
+      "creator": "IBM Technology",
+      "url": "https://www.youtube.com/watch?v=6kEGUCrBEU0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What Are Data Pipelines? - Complete guide by IBM Technology.",
+      "year": 2024
+    },
+    {
+      "title": "What is ETL Pipeline - Explained under 1-Minute | Intellipaat",
+      "creator": "Intellipaat",
+      "url": "https://www.youtube.com/watch?v=JvrokAmFx1Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is ETL Pipeline - Explained under 1-Minute | Intellipaat - Complete guide by Intellipaat.",
+      "year": 2024
+    },
+    {
+      "title": "Python vs SQL: Choose the Right Tool for Data Pipelines #shorts",
+      "creator": "FranksWorld of AI",
+      "url": "https://www.youtube.com/watch?v=xnnMWqOI3Bw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Python vs SQL: Choose the Right Tool for Data Pipelines #shorts - Complete guide by FranksWorld of AI.",
+      "year": 2024
+    },
+    {
+      "title": "System Design: ETL Pipeline",
+      "creator": "Arjay McCandless",
+      "url": "https://www.youtube.com/watch?v=f6fh6bH2G6Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design: ETL Pipeline - Complete guide by Arjay McCandless.",
+      "year": 2024
+    },
+    {
+      "title": "ETL Simplified for Beginners in 60 Seconds | Data Warehouse | Extract, Transform, Load Tools #shorts",
+      "creator": "SCALER",
+      "url": "https://www.youtube.com/watch?v=qh0VEuaZ358",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "ETL Simplified for Beginners in 60 Seconds | Data Warehouse | Extract, Transform, Load Tools #shorts - Complete guide by SCALER.",
+      "year": 2024
+    },
+    {
+      "title": "The Difference Between ETL & ELT (Part 1) #shorts",
+      "creator": "Airbyte",
+      "url": "https://www.youtube.com/watch?v=PxwVSmD0rGQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Difference Between ETL & ELT (Part 1) #shorts - Complete guide by Airbyte.",
+      "year": 2024
+    },
+    {
+      "title": "What's An ETL Pipeline?",
+      "creator": "Data Engineer Academy",
+      "url": "https://www.youtube.com/watch?v=ZXfvYv_URoU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What's An ETL Pipeline? - Complete guide by Data Engineer Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Data Pipelines, explained by cats #cat #code #datapipelines #etl #dataengineering",
+      "creator": "coding kitty",
+      "url": "https://www.youtube.com/watch?v=6d3zEYxrghc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data Pipelines, explained by cats #cat #code #datapipelines #etl #dataengineering - Complete guide by coding kitty.",
+      "year": 2024
+    },
+    {
+      "title": "Extract, Transform, Load (ETL) Pipelines Explained in Under 60 Seconds!",
+      "creator": "The Data and AI Guy",
+      "url": "https://www.youtube.com/watch?v=eL_UYvAcTcg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Extract, Transform, Load (ETL) Pipelines Explained in Under 60 Seconds! - Complete guide by The Data and AI Guy.",
+      "year": 2024
+    },
+    {
+      "title": "ETL vs ELT Explained in 60 Seconds | The Battle of Data Pipelines | #ETL #ELT #ai",
+      "creator": "Techzen IT Academy",
+      "url": "https://www.youtube.com/watch?v=0tmjgdlWtkU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "ETL vs ELT Explained in 60 Seconds | The Battle of Data Pipelines | #ETL #ELT #ai - Complete guide by Techzen IT Academy.",
+      "year": 2024
+    },
+    {
+      "title": "ETL vs ELT easiest explanation!",
+      "creator": "Data Rambling",
+      "url": "https://www.youtube.com/watch?v=sITCT9RvPqE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "ETL vs ELT easiest explanation! - Complete guide by Data Rambling.",
+      "year": 2024
+    },
+    {
+      "title": "Data pipeline #dataanlysis #dataanalytics #machinelearning #datascience #python #programming",
+      "creator": "Console Flare",
+      "url": "https://www.youtube.com/watch?v=IX6cZ7EJZEw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data pipeline #dataanlysis #dataanalytics #machinelearning #datascience #python #programming - Complete guide by Console Flare.",
+      "year": 2024
+    },
+    {
+      "title": "Data pipelines should be simple!",
+      "creator": "Matt Forrest",
+      "url": "https://www.youtube.com/watch?v=eym6ECgKklc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data pipelines should be simple! - Complete guide by Matt Forrest.",
+      "year": 2024
+    },
+    {
+      "title": "The Easiest Way to Understand Data Pipelines | Red9SysTech",
+      "creator": "Red9SysTech",
+      "url": "https://www.youtube.com/watch?v=2OHLwoaV5hs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Easiest Way to Understand Data Pipelines | Red9SysTech - Complete guide by Red9SysTech.",
+      "year": 2024
+    },
+    {
+      "title": "Learn ETL Data Pipeline Concepts using AWS,Azure, GCP, Spark to Crack Top MNC Companies #faang #mnc",
+      "creator": "Data Engineering Insights with Nishchay",
+      "url": "https://www.youtube.com/watch?v=_pmslCDtfDs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn ETL Data Pipeline Concepts using AWS,Azure, GCP, Spark to Crack Top MNC Companies #faang #mnc - Complete guide by Data Engineering Insights with Nishchay.",
+      "year": 2024
+    },
+    {
+      "title": "Building a Scalable Data Engineering Pipeline with Databricks, Snowflake and AWS S3. #shorts",
+      "creator": "Kinzorize",
+      "url": "https://www.youtube.com/watch?v=FUrkBCz_lW8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Building a Scalable Data Engineering Pipeline with Databricks, Snowflake and AWS S3. #shorts - Complete guide by Kinzorize.",
+      "year": 2024
+    },
+    {
+      "title": "Data Pipeline Overview | What is Data Pipeline",
+      "creator": "Rocky Bhatia",
+      "url": "https://www.youtube.com/watch?v=U8DIiSc2xGA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data Pipeline Overview | What is Data Pipeline - Complete guide by Rocky Bhatia.",
+      "year": 2024
+    },
+    {
+      "title": "Data pipeline overview",
+      "creator": "Vishwanath Akuthota",
+      "url": "https://www.youtube.com/watch?v=w-nJYn7BydM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data pipeline overview - Complete guide by Vishwanath Akuthota.",
+      "year": 2024
+    },
+    {
+      "title": "3 Data Engineering Projects | Build These 3 Data Pipelines to Showcase Your Skills",
+      "creator": "Manish Sharma",
+      "url": "https://www.youtube.com/watch?v=Vq-ChpUDeFk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "3 Data Engineering Projects | Build These 3 Data Pipelines to Showcase Your Skills - Complete guide by Manish Sharma.",
+      "year": 2024
+    },
+    {
+      "title": "Creating an ETL Data Pipeline on Google Cloud with Cloud Data Fusion & Airflow - Part 1",
+      "creator": "TechTrapture",
+      "url": "https://www.youtube.com/watch?v=lMaZnZldxcE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Creating an ETL Data Pipeline on Google Cloud with Cloud Data Fusion & Airflow - Part 1 - Complete guide by TechTrapture.",
+      "year": 2024
+    },
+    {
+      "title": "Build a Data Pipeline Using Python | Setup Project and Read Table List | Data Engineering",
+      "creator": "itversity",
+      "url": "https://www.youtube.com/watch?v=BxLTTuLlvH0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build a Data Pipeline Using Python | Setup Project and Read Table List | Data Engineering - Complete guide by itversity.",
+      "year": 2024
+    },
+    {
+      "title": "What the HECK is a “Data Pipeline”? 👩🏻‍🔧📊🪠",
+      "creator": "Luke Barousse",
+      "url": "https://www.youtube.com/watch?v=emB44aQTVhI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What the HECK is a “Data Pipeline”? 👩🏻‍🔧📊🪠 - Complete guide by Luke Barousse.",
+      "year": 2024
+    },
+    {
+      "title": "Build a Data Pipeline with Python | Transfer Data from MySQL to Postgres (ETL Tutorial)",
+      "creator": "itversity",
+      "url": "https://www.youtube.com/watch?v=czJ0j-9FK08",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build a Data Pipeline with Python | Transfer Data from MySQL to Postgres (ETL Tutorial) - Complete guide by itversity.",
+      "year": 2024
+    },
+    {
+      "title": "Data Pipelines for ETL | Build Your Data Engineering Skillset",
+      "creator": "DataCamp",
+      "url": "https://www.youtube.com/watch?v=BqVSs52B71o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data Pipelines for ETL | Build Your Data Engineering Skillset - Complete guide by DataCamp.",
+      "year": 2024
+    },
+    {
+      "title": "Building ETL Pipelines in Databricks | Data Engineering in Databricks",
+      "creator": "Alex The Analyst",
+      "url": "https://www.youtube.com/watch?v=rW8QT4OStXQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Building ETL Pipelines in Databricks | Data Engineering in Databricks - Complete guide by Alex The Analyst.",
+      "year": 2024
+    },
+    {
+      "title": "Code along - build an ELT Pipeline in 1 Hour (dbt, Snowflake, Airflow)",
+      "creator": "jayzern",
+      "url": "https://www.youtube.com/watch?v=OLXkGB7krGo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Code along - build an ELT Pipeline in 1 Hour (dbt, Snowflake, Airflow) - Complete guide by jayzern.",
+      "year": 2024
+    },
+    {
+      "title": "Data Pipelines in 8 minutes: Streaming, Batch, and on-demand",
+      "creator": "DataExpert",
+      "url": "https://www.youtube.com/watch?v=11lQbLQhIrM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data Pipelines in 8 minutes: Streaming, Batch, and on-demand - Complete guide by DataExpert.",
+      "year": 2024
+    },
+    {
+      "title": "Build Your First PySpark ETL Pipeline Step by Step",
+      "creator": "Ankit Bansal",
+      "url": "https://www.youtube.com/watch?v=vA5-s7jjofI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build Your First PySpark ETL Pipeline Step by Step - Complete guide by Ankit Bansal.",
+      "year": 2024
+    },
+    {
+      "title": "Data Pipeline Example for Beginners, No Code",
+      "creator": "Ternlux",
+      "url": "https://www.youtube.com/watch?v=LgE23GHhYpY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Data Pipeline Example for Beginners, No Code - Complete guide by Ternlux.",
+      "year": 2024
+    },
+    {
+      "title": "How to build an ETL pipeline with Python | Data pipeline | Export from SQL Server to PostgreSQL",
+      "creator": "BI Insights Inc",
+      "url": "https://www.youtube.com/watch?v=dfouoh9QdUw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to build an ETL pipeline with Python | Data pipeline | Export from SQL Server to PostgreSQL - Complete guide by BI Insights Inc.",
+      "year": 2024
+    },
+    {
+      "title": "Hadoop Introduction | What is Hadoop? | Big Data Analytics using Hadoop | Lecture 1",
+      "creator": "AmpCode",
+      "url": "https://www.youtube.com/watch?v=pqT4AgPuzZ0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Hadoop Introduction | What is Hadoop? | Big Data Analytics using Hadoop | Lecture 1 - Complete guide by AmpCode.",
+      "year": 2024
+    },
+    {
+      "title": "Hadoop Ecosystem Explained | Hadoop tools for handling Big Data | Hadoop Full Course | Lecture 2",
+      "creator": "AmpCode",
+      "url": "https://www.youtube.com/watch?v=rQNNdXkmjJ0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Hadoop Ecosystem Explained | Hadoop tools for handling Big Data | Hadoop Full Course | Lecture 2 - Complete guide by AmpCode.",
+      "year": 2024
+    },
+    {
+      "title": "Big Data & Hadoop Full Course - Learn Hadoop In 10 Hours | Hadoop Tutorial For Beginners | Edureka",
+      "creator": "edureka!",
+      "url": "https://www.youtube.com/watch?v=1vbXmCrkT3Y",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Big Data & Hadoop Full Course - Learn Hadoop In 10 Hours | Hadoop Tutorial For Beginners | Edureka - Complete guide by edureka!.",
+      "year": 2024
+    },
+    {
+      "title": "Build 12 Data Science Apps with Python and Streamlit - Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=JwSS70SZdyM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build 12 Data Science Apps with Python and Streamlit - Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Hadoop Tutorial for Beginners | Hadoop Tutorial | Big Data Hadoop Tutorial for Beginners | Hadoop",
+      "creator": "Great Learning",
+      "url": "https://www.youtube.com/watch?v=JK2MdJAWEGc",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Hadoop Tutorial for Beginners | Hadoop Tutorial | Big Data Hadoop Tutorial for Beginners | Hadoop - Complete guide by Great Learning.",
+      "year": 2024
+    },
+    {
+      "title": "Vector Search RAG Tutorial – Combine Your Data with LLMs with Advanced Search",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=JEBDfGqrAUA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Vector Search RAG Tutorial – Combine Your Data with LLMs with Advanced Search - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "AWS DATA ENGINEERING",
+      "creator": "learn by doing it",
+      "url": "https://www.youtube.com/playlist?list=PLOlK8ytA0MgjYGVrz0hS4w3UPQ1-VV2uX",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "AWS DATA ENGINEERING - Complete guide by learn by doing it.",
+      "year": 2024
+    },
+    {
+      "title": "Full Course - Spark / PySpark For Industry | Hindi",
+      "creator": "TG117 Hindi",
+      "url": "https://www.youtube.com/playlist?list=PLZLq2I6Y6m-kxL4kzDqOqEODixNO_fa3_",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Full Course - Spark / PySpark For Industry | Hindi - Complete guide by TG117 Hindi.",
+      "year": 2024
+    },
+    {
+      "title": "PySpark - Zero to Hero | PySpark Tutorial 2025 | Spark Tutorial 2025 | Learn from Basics to Advanced Performance Optimization",
+      "creator": "Ease With Data",
+      "url": "https://www.youtube.com/playlist?list=PL2IsFZBGM_IHCl9zhRVC1EXTomkEp_1zm",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "PySpark - Zero to Hero | PySpark Tutorial 2025 | Spark Tutorial 2025 | Learn from Basics to Advanced Performance Optimization - Complete guide by Ease With Data.",
+      "year": 2024
+    },
+    {
+      "title": "Data Engineering Boot camp",
+      "creator": "DataExpert",
+      "url": "https://www.youtube.com/playlist?list=PLwUdL9DpGWU0lhwp3WCxRsb1385KFTLYE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Data Engineering Boot camp - Complete guide by DataExpert.",
+      "year": 2024
+    },
+    {
+      "title": "Data Engineer Bootcamp: Zero to Hero",
+      "creator": "Luke Barousse",
+      "url": "https://www.youtube.com/playlist?list=PL_CkpxkuPiT9aSqaE7fTNJH5W2X0Ow8qf",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Data Engineer Bootcamp: Zero to Hero - Complete guide by Luke Barousse.",
+      "year": 2024
+    },
+    {
+      "title": "What is Big Data? Introduction to Big Data | Hadoop Tutorial for Beginners | Hadoop [Part 1]",
+      "creator": "Great Learning",
+      "url": "https://www.youtube.com/watch?v=5P9T08lDXbE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "What is Big Data? Introduction to Big Data | Hadoop Tutorial for Beginners | Hadoop [Part 1] - Complete guide by Great Learning.",
+      "year": 2024
+    },
+    {
+      "title": "PySpark Playlist",
+      "creator": "WafaStudies",
+      "url": "https://www.youtube.com/playlist?list=PLMWaZteqtEaJFiJ2FyIKK0YEuXwQ9YIS_",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "PySpark Playlist - Complete guide by WafaStudies.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Iceberg",
+      "creator": "Dremio",
+      "url": "https://www.youtube.com/playlist?list=PL-gIUf9e9CCtGr_zYdWieJhiqBG_5qSPa",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Apache Iceberg - Complete guide by Dremio.",
+      "year": 2024
+    },
+    {
+      "title": "8 End-To-End Data Engineering Projects in 2026",
+      "creator": "Darshil Parmar",
+      "url": "https://www.youtube.com/playlist?list=PLBJe2dFI4sgvQTNNkI3ETYJgNPR4CBpFd",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "8 End-To-End Data Engineering Projects in 2026 - Complete guide by Darshil Parmar.",
+      "year": 2024
+    },
+    {
+      "title": "Pyspark with Python",
+      "creator": "Krish Naik",
+      "url": "https://www.youtube.com/playlist?list=PLZoTAELRMXVNjiiawhzZ0afHcPvC8jpcg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Pyspark with Python - Complete guide by Krish Naik.",
+      "year": 2024
+    },
+    {
+      "title": "DP-700 Microsoft Certified: Fabric Data Engineer Associate | Free Course",
+      "creator": "Aleksi Partanen - Master Microsoft Fabric",
+      "url": "https://www.youtube.com/playlist?list=PLlqsZd11LpUES4AJG953GJWnqUksQf8x2",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "DP-700 Microsoft Certified: Fabric Data Engineer Associate | Free Course - Complete guide by Aleksi Partanen - Master Microsoft Fabric.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Kafka Tutorials | Kafka 101",
+      "creator": "Confluent, an IBM Company",
+      "url": "https://www.youtube.com/playlist?list=PLa7VYi0yPIH0KbnJQcMv5N9iW8HkZHztH",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Apache Kafka Tutorials | Kafka 101 - Complete guide by Confluent, an IBM Company.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Spark/PySpark Tutorial",
+      "creator": "AmpCode",
+      "url": "https://www.youtube.com/playlist?list=PL6UwySlcwEYKiC-EjEmN4f33c5fVpbzha",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Apache Spark/PySpark Tutorial - Complete guide by AmpCode.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Spark & Scala Step-by-Step Tutorial | Apache Spark and Scala Beginner Full Course 2027 | Simplilearn",
+      "creator": "Simplilearn",
+      "url": "https://www.youtube.com/playlist?list=PLEiEAq2VkUUK3tuBXyd01meHuDj7RLjHv",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Apache Spark & Scala Step-by-Step Tutorial | Apache Spark and Scala Beginner Full Course 2027 | Simplilearn - Complete guide by Simplilearn.",
+      "year": 2024
+    },
+    {
+      "title": "PySpark Course - Learn to Write High-Quality Spark Code",
+      "creator": "Philipp Brunenberg",
+      "url": "https://www.youtube.com/playlist?list=PLeEh_6coH9EpKzTz8mY9Qu-KlBSlpTc1s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "PySpark Course - Learn to Write High-Quality Spark Code - Complete guide by Philipp Brunenberg.",
+      "year": 2024
+    },
+    {
+      "title": "PySpark and Databricks Complete Course | Beginner to Expert | By Sr Data Architect",
+      "creator": "DataBeli",
+      "url": "https://www.youtube.com/playlist?list=PLlHuhl-cAAnEgsGlq2H_iV50jUhiFayN_",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "PySpark and Databricks Complete Course | Beginner to Expert | By Sr Data Architect - Complete guide by DataBeli.",
+      "year": 2024
+    },
+    {
+      "title": "Course | Apache Kafka Fundamentals",
+      "creator": "Confluent, an IBM Company",
+      "url": "https://www.youtube.com/playlist?list=PLa7VYi0yPIH2PelhRHoFR5iQgflg-y6JA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Course | Apache Kafka Fundamentals - Complete guide by Confluent, an IBM Company.",
+      "year": 2024
+    },
+    {
+      "title": "PySpark Full Course in Tamil",
+      "creator": "vijaquick",
+      "url": "https://www.youtube.com/playlist?list=PLYr1UdCIHUOtRUBjobFY_Keh66jxF0JgZ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "PySpark Full Course in Tamil - Complete guide by vijaquick.",
+      "year": 2024
+    },
+    {
+      "title": "Kafka (EDA) from Basics to Advanced",
+      "creator": "Concept && Coding - by Shrayansh",
+      "url": "https://www.youtube.com/playlist?list=PL6W8uoQQ2c62YCR2kkE-0tg3-y1QwaIWk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Kafka (EDA) from Basics to Advanced - Complete guide by Concept && Coding - by Shrayansh.",
+      "year": 2024
+    },
+    {
+      "title": "Pyspark Tutorial",
+      "creator": "learn by doing it",
+      "url": "https://www.youtube.com/playlist?list=PLOlK8ytA0MgjvOpd-088NRU_vTYw_aryH",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Pyspark Tutorial - Complete guide by learn by doing it.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Kafka Tutorial Series in Hindi",
+      "creator": "Brijesh Gupta",
+      "url": "https://www.youtube.com/playlist?list=PLxv3SnR5bZE82Cv4wozg2uZvaOlDEbO67",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Apache Kafka Tutorial Series in Hindi - Complete guide by Brijesh Gupta.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Kafka for Beginners",
+      "creator": "Stephane Maarek",
+      "url": "https://www.youtube.com/playlist?list=PLt1SIbA8guusxiHz9bveV-UHs_biWFegU",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Apache Kafka for Beginners - Complete guide by Stephane Maarek.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Kafka 101: Confluent's Flagship Course on Apache Kafka® Fundamentals ft. Tim Berglund",
+      "creator": "Confluent Developer",
+      "url": "https://www.youtube.com/playlist?list=PLf38f5LhQtheK16nwnCYFqH23WUUvZfSb",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Apache Kafka 101: Confluent's Flagship Course on Apache Kafka® Fundamentals ft. Tim Berglund - Complete guide by Confluent Developer.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Kafka Tutorials",
+      "creator": "Learning Journal",
+      "url": "https://www.youtube.com/playlist?list=PLkz1SCf5iB4enAR00Z46JwY9GGkaS2NON",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Apache Kafka Tutorials - Complete guide by Learning Journal.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Apache Kafka with Conduktor - Free 3 hours course",
+      "creator": "Conduktor",
+      "url": "https://www.youtube.com/playlist?list=PLYmXYyXCMsfMMhiKPw4k1FF7KWxOEajsA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Learn Apache Kafka with Conduktor - Free 3 hours course - Complete guide by Conduktor.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Airflow Tutorial for Beginners",
+      "creator": "coder2j",
+      "url": "https://www.youtube.com/playlist?list=PLwFJcsJ61oujAqYpMp1kdUBcPG0sE0QMT",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Apache Airflow Tutorial for Beginners - Complete guide by coder2j.",
+      "year": 2024
+    },
+    {
+      "title": "Kafka for beginners",
+      "creator": "Java Techie",
+      "url": "https://www.youtube.com/playlist?list=PLVz2XdJiJQxwpWGoNokohsSW2CysI6lDc",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Kafka for beginners - Complete guide by Java Techie.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Airflow Tutorials",
+      "creator": "Tuan Vu",
+      "url": "https://www.youtube.com/playlist?list=PLYizQ5FvN6pvIOcOd6dFZu3lQqc6zBGp2",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Apache Airflow Tutorials - Complete guide by Tuan Vu.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Airflow Tutorial Series",
+      "creator": "ProjectPro",
+      "url": "https://www.youtube.com/playlist?list=PLrGuQQxHHiDmqqO0pQwR3jsyK0AbrxZG9",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Apache Airflow Tutorial Series - Complete guide by ProjectPro.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Airflow for Beginners",
+      "creator": "Data with Marc",
+      "url": "https://www.youtube.com/playlist?list=PL79i7SgJCJ9hf7JgG3S-3lOpsk2QCpWkD",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Apache Airflow for Beginners - Complete guide by Data with Marc.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Airflow Tutorial",
+      "creator": "tuplespectra",
+      "url": "https://www.youtube.com/playlist?list=PLACD_PaYcVF1Hzzc1Ds56bD7oUkfiL_Lv",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Apache Airflow Tutorial - Complete guide by tuplespectra.",
+      "year": 2024
+    },
+    {
+      "title": "Snowflake Tutorial",
+      "creator": "Data Engineering Simplified",
+      "url": "https://www.youtube.com/playlist?list=PLba2xJ7yxHB7SWc4Sm-Sp3uGN74ulI4pS",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Snowflake Tutorial - Complete guide by Data Engineering Simplified.",
+      "year": 2024
+    },
+    {
+      "title": "Snowflake Complete Tutorial, Hands-on Course: Beginners and Advanced",
+      "creator": "SleekData",
+      "url": "https://www.youtube.com/playlist?list=PLc2EZr8W2QIBqETApuLNGGB8X_WL47AKb",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Snowflake Complete Tutorial, Hands-on Course: Beginners and Advanced - Complete guide by SleekData.",
+      "year": 2024
+    },
+    {
+      "title": "Snowflake Cloud Data Warehouse Tutorials",
+      "creator": "KnowHow Academy",
+      "url": "https://www.youtube.com/playlist?list=PLCTSa56BgGfm03DG56RAV9xyF95wVgjxK",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Snowflake Cloud Data Warehouse Tutorials - Complete guide by KnowHow Academy.",
+      "year": 2024
+    },
+    {
+      "title": "SNOWFLAKE DATABASE HINDI FULL COURSE",
+      "creator": "CodePro Career",
+      "url": "https://www.youtube.com/playlist?list=PLyaOoJN4EdM0OMuzDhNv0Btstdwn_9lWk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "SNOWFLAKE DATABASE HINDI FULL COURSE - Complete guide by CodePro Career.",
+      "year": 2024
+    },
+    {
+      "title": "Build a Data Engineering Pipeline using Python and Airflow",
+      "creator": "itversity",
+      "url": "https://www.youtube.com/playlist?list=PLf0swTFhTI8pRV9DDzae2o1m-cqe5PtJ2",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Build a Data Engineering Pipeline using Python and Airflow - Complete guide by itversity.",
+      "year": 2024
+    },
+    {
+      "title": "Big Data Hadoop Full Course",
+      "creator": "AmpCode",
+      "url": "https://www.youtube.com/playlist?list=PL6UwySlcwEYJ2hFuGIvr4VEHUAfl-GCNT",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Big Data Hadoop Full Course - Complete guide by AmpCode.",
+      "year": 2024
+    },
+    {
+      "title": "Snow Flake Data Warehousing Course",
+      "creator": "KSR Datavizon ",
+      "url": "https://www.youtube.com/playlist?list=PL2FK4C2mwjq0O8PG3Fc1_cX5iUDPRIVNI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Snow Flake Data Warehousing Course - Complete guide by KSR Datavizon .",
+      "year": 2024
+    },
+    {
+      "title": "Hadoop Tutorial for Beginners | Big Data Hadoop Tutorial for Beginners | Hadoop Tutorial",
+      "creator": "Great Learning",
+      "url": "https://www.youtube.com/playlist?list=PLlgLmuG_KgbasW0lpInSAIxYd2vqAEPit",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Hadoop Tutorial for Beginners | Big Data Hadoop Tutorial for Beginners | Hadoop Tutorial - Complete guide by Great Learning.",
+      "year": 2024
+    }
+  ],
+  "articles": [
+    {
+      "title": "dbt (Data Build Tool) Official Documentation",
+      "url": "https://docs.getdbt.com/docs/introduction"
+    },
+    {
+      "title": "Databricks Learning Guides & Lakehouse Architecture",
+      "url": "https://www.databricks.com/resources"
+    },
+    {
+      "title": "Apache Spark Official Documentation & Quickstart",
+      "url": "https://spark.apache.org/docs/latest/"
+    },
+    {
+      "title": "Apache Airflow Official Tutorial & Concepts",
+      "url": "https://airflow.apache.org/docs/apache-airflow/stable/tutorial/index.html"
+    },
+    {
+      "title": "Apache Kafka Official Documentation & Getting Started",
+      "url": "https://kafka.apache.org/documentation/"
+    },
+    {
+      "title": "Data Engineering Zoomcamp (Free Interactive Course)",
+      "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp"
+    },
+    {
+      "title": "Awesome Data Engineering Resource Index",
+      "url": "https://github.com/igorbarinov/awesome-data-engineering"
+    },
+    {
+      "title": "Snowflake Official Documentation & Guides",
+      "url": "https://docs.snowflake.com/"
+    }
+  ]
+}

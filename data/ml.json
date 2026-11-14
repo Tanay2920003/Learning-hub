@@ -1,62 +1,3924 @@
 {
-    "name": "Machine Learning",
-    "slug": "ml",
-    "description": "From ML fundamentals to deep learning and AI applications",
-    "icon": "https://img.icons8.com/?size=100&id=0LUWUOJk6Am4&format=png&color=000000",
-    "articles": [
-        {
-            "title": "Google Machine Learning Crash Course",
-            "url": "https://developers.google.com/machine-learning/crash-course"
-        },
-        {
-            "title": "3Blue1Brown Neural Networks",
-            "url": "https://www.3blue1brown.com/topics/neural-networks"
-        },
-        {
-            "title": "Scikit-learn User Guide",
-            "url": "https://scikit-learn.org/stable/user_guide.html"
-        }
-    ],
-    "playlists": [
-        {
-            "title": "Machine Learning Specialization",
-            "creator": "Andrew Ng (Stanford)",
-            "url": "https://www.youtube.com/playlist?list=PLkDaE6sCZn6FNC6YRfRQc_FbeQrF8BwGI",
-            "language": "English",
-            "difficulty": "beginner",
-            "videoCount": 60,
-            "description": "The classic ML course by Andrew Ng, foundational knowledge",
-            "year": 2022
-        },
-        {
-            "title": "Deep Learning Specialization",
-            "creator": "Andrew Ng (DeepLearning.AI)",
-            "url": "https://www.youtube.com/playlist?list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0",
-            "language": "English",
-            "difficulty": "intermediate",
-            "videoCount": 175,
-            "description": "Comprehensive deep learning course covering neural networks",
-            "year": 2021
-        },
-        {
-            "title": "Machine Learning with Python",
-            "creator": "Krish Naik",
-            "url": "https://www.youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe",
-            "language": "English",
-            "difficulty": "beginner",
-            "videoCount": 75,
-            "description": "Practical ML with Python, scikit-learn, and real datasets",
-            "year": 2020
-        },
-        {
-            "title": "PyTorch Tutorial",
-            "creator": "Patrick Loeber",
-            "url": "https://www.youtube.com/playlist?list=PLqnslRFeH2UrcDBWF5mfPGpqQDSta6VK4",
-            "language": "English",
-            "difficulty": "intermediate",
-            "videoCount": 16,
-            "description": "Complete PyTorch deep learning framework tutorial",
-            "year": 2021
-        }
-    ]
+  "name": "Machine Learning",
+  "slug": "ml",
+  "description": "From ML fundamentals to deep learning and AI applications",
+  "icon": "ml",
+  "articles": [
+    {
+      "title": "Google Machine Learning Crash Course",
+      "url": "https://developers.google.com/machine-learning/crash-course"
+    },
+    {
+      "title": "3Blue1Brown Neural Networks",
+      "url": "https://www.3blue1brown.com/topics/neural-networks"
+    },
+    {
+      "title": "Scikit-learn User Guide",
+      "url": "https://scikit-learn.org/stable/user_guide.html"
+    },
+    {
+      "title": "Fast.ai Practical Deep Learning for Coders",
+      "url": "https://course.fast.ai/"
+    },
+    {
+      "title": "Hugging Face Learn Hub & NLP Course",
+      "url": "https://huggingface.co/learn"
+    },
+    {
+      "title": "Deep Learning Book by Goodfellow & Bengio",
+      "url": "https://www.deeplearningbook.org/"
+    },
+    {
+      "title": "Distill.pub Visual ML Research Journal",
+      "url": "https://distill.pub/"
+    },
+    {
+      "title": "Papers With Code - Trends & Benchmarks",
+      "url": "https://paperswithcode.com/"
+    },
+    {
+      "title": "Stanford CS229 Machine Learning Lecture Notes",
+      "url": "https://cs229.stanford.edu/"
+    },
+    {
+      "title": "Kaggle Learn Hands-on Micro-Courses",
+      "url": "https://www.kaggle.com/learn"
+    },
+    {
+      "title": "Fast.ai - Practical Deep Learning for Coders",
+      "url": "https://www.fast.ai/"
+    },
+    {
+      "title": "LangChain Documentation & Quickstarts",
+      "url": "https://python.langchain.com/docs/get_started/introduction"
+    },
+    {
+      "title": "Scikit-Learn Machine Learning in Python Docs",
+      "url": "https://scikit-learn.org/stable/"
+    },
+    {
+      "title": "PyTorch Official Tutorials & Documentation",
+      "url": "https://pytorch.org/tutorials/"
+    },
+    {
+      "title": "OpenAI Documentation & API Reference",
+      "url": "https://platform.openai.com/docs/"
+    },
+    {
+      "title": "TensorFlow Official Guides & Quickstarts",
+      "url": "https://www.tensorflow.org/tutorials"
+    }
+  ],
+  "playlists": [
+    {
+      "title": "Machine Learning Specialization",
+      "creator": "Andrew Ng (Stanford)",
+      "url": "https://www.youtube.com/playlist?list=PLkDaE6sCZn6FNC6YRfRQc_FbeQrF8BwGI",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 60,
+      "description": "The classic ML course by Andrew Ng, foundational knowledge",
+      "year": 2022
+    },
+    {
+      "title": "Deep Learning Specialization",
+      "creator": "Andrew Ng (DeepLearning.AI)",
+      "url": "https://www.youtube.com/playlist?list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 175,
+      "description": "Comprehensive deep learning course covering neural networks",
+      "year": 2021
+    },
+    {
+      "title": "Machine Learning with Python",
+      "creator": "Krish Naik",
+      "url": "https://www.youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 75,
+      "description": "Practical ML with Python, scikit-learn, and real datasets",
+      "year": 2020
+    },
+    {
+      "title": "PyTorch Tutorial",
+      "creator": "Patrick Loeber",
+      "url": "https://www.youtube.com/playlist?list=PLqnslRFeH2UrcDBWF5mfPGpqQDSta6VK4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 16,
+      "description": "Complete PyTorch deep learning framework tutorial",
+      "year": 2021
+    },
+    {
+      "title": "Neural Networks: Zero to Hero",
+      "creator": "Andrej Karpathy",
+      "url": "https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 7,
+      "description": "Build micrograd, backpropagation, bigram models, MLP, and GPT language models from scratch in pure Python.",
+      "year": 2023
+    },
+    {
+      "title": "3Blue1Brown Neural Networks Series",
+      "creator": "3Blue1Brown",
+      "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 4,
+      "description": "Unrivaled visual intuition explaining gradient descent, backpropagation, and how artificial neural nets compute.",
+      "year": 2021
+    },
+    {
+      "title": "StatQuest Machine Learning Fundamentals",
+      "creator": "Josh Starmer",
+      "url": "https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 40,
+      "description": "Clearly illustrated, step-by-step videos explaining PCA, random forests, SVM, and cross-validation.",
+      "year": 2021
+    },
+    {
+      "title": "MIT 6.S191 Introduction to Deep Learning",
+      "creator": "Alexander Amini",
+      "url": "https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 12,
+      "description": "MIT's official deep learning bootcamp covering CNNs, transformers, generative models, and reinforcement learning.",
+      "year": 2023
+    },
+    {
+      "title": "Python Machine Learning and Data Science",
+      "creator": "Sentdex",
+      "url": "https://www.youtube.com/playlist?list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 72,
+      "description": "Practical coding tutorials applying Scikit-Learn, K-Nearest Neighbors, regression, and neural networks in Python.",
+      "year": 2020
+    },
+    {
+      "title": "What is Machine Learning? | 100 Days of Machine Learning",
+      "creator": "CampusX",
+      "url": "https://www.youtube.com/watch?v=ZftI2fEz0Fw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Machine Learning? | 100 Days of Machine Learning - Complete guide by CampusX.",
+      "year": 2024
+    },
+    {
+      "title": "TensorFlow 2.0 Complete Course - Python Neural Networks for Beginners Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=tPYj3fFJGjk",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "TensorFlow 2.0 Complete Course - Python Neural Networks for Beginners Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Machine Learning Course for Beginners | Part 1- Foundation | Sheryians AI School",
+      "creator": "Sheryians AI School",
+      "url": "https://www.youtube.com/watch?v=1L420xXpDTg",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Complete Machine Learning Course for Beginners | Part 1- Foundation | Sheryians AI School - Complete guide by Sheryians AI School.",
+      "year": 2024
+    },
+    {
+      "title": "Free Online Courses- AI Courses | Artificial Intelligence | Machine Learning | Data Science  #shorts",
+      "creator": "LeapScholar - Study Abroad Expert",
+      "url": "https://www.youtube.com/watch?v=BNSvxqjTot0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Free Online Courses- AI Courses | Artificial Intelligence | Machine Learning | Data Science  #shorts - Complete guide by LeapScholar - Study Abroad Expert.",
+      "year": 2024
+    },
+    {
+      "title": "Part 2 - Supervised Learning | Complete Machine Learning Course for Beginners | Sheryians AI School",
+      "creator": "Sheryians AI School",
+      "url": "https://www.youtube.com/watch?v=Lb0JzFtTmBs",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Part 2 - Supervised Learning | Complete Machine Learning Course for Beginners | Sheryians AI School - Complete guide by Sheryians AI School.",
+      "year": 2024
+    },
+    {
+      "title": "Essential Machine Learning and AI Concepts Animated",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=PcbuKRNtCUc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Essential Machine Learning and AI Concepts Animated - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Machine Learning for Everybody – Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=i_LwzRVP7bg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Machine Learning for Everybody – Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "AI Vs ML Vs DL for Beginners in Hindi",
+      "creator": "CampusX",
+      "url": "https://www.youtube.com/watch?v=1v3_AQ26jZ0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "AI Vs ML Vs DL for Beginners in Hindi - Complete guide by CampusX.",
+      "year": 2024
+    },
+    {
+      "title": "Machine Learning Tutorial Python -1: What is Machine Learning?",
+      "creator": "codebasics",
+      "url": "https://www.youtube.com/watch?v=gmvvaobm7eQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Machine Learning Tutorial Python -1: What is Machine Learning? - Complete guide by codebasics.",
+      "year": 2024
+    },
+    {
+      "title": "Free AI Engineering Videos: 7 Picks Better Than Bootcamps",
+      "creator": "Shruti Mishra",
+      "url": "https://www.youtube.com/watch?v=SoAee2KIwC8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Free AI Engineering Videos: 7 Picks Better Than Bootcamps - Complete guide by Shruti Mishra.",
+      "year": 2024
+    },
+    {
+      "title": "Machine Learning with Python and Scikit-Learn – Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=hDKCxebp88A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Machine Learning with Python and Scikit-Learn – Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "You Can Become an AI/ML Engineer for Free!",
+      "creator": "Full Disclosure",
+      "url": "https://www.youtube.com/watch?v=6B8djd-N9b0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "You Can Become an AI/ML Engineer for Free! - Complete guide by Full Disclosure.",
+      "year": 2024
+    },
+    {
+      "title": "Machine Learning Tutorial Python - 2: Linear Regression Single Variable",
+      "creator": "codebasics",
+      "url": "https://www.youtube.com/watch?v=8jazNUpO3lQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Machine Learning Tutorial Python - 2: Linear Regression Single Variable - Complete guide by codebasics.",
+      "year": 2024
+    },
+    {
+      "title": "Prerequisites for the Deep Learning Specialization  Math and Programming Background Explained",
+      "creator": "Learn Machine Learning",
+      "url": "https://www.youtube.com/watch?v=Coe4XTW1-eE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Prerequisites for the Deep Learning Specialization  Math and Programming Background Explained - Complete guide by Learn Machine Learning.",
+      "year": 2024
+    },
+    {
+      "title": "Machine Learning Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=NWONeJKn6kc",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Machine Learning Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Machine Learning Roadmap 2026 | Master Tree from Basics to GenAI 🚀",
+      "creator": "Kapil Joshi Tutorials",
+      "url": "https://www.youtube.com/watch?v=eKCM1EqgZeA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete Machine Learning Roadmap 2026 | Master Tree from Basics to GenAI 🚀 - Complete guide by Kapil Joshi Tutorials.",
+      "year": 2024
+    },
+    {
+      "title": "Machine Learning Roadmap in 50 Seconds",
+      "creator": "GeeksforGeeks",
+      "url": "https://www.youtube.com/watch?v=s8U0KSjNfRg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Machine Learning Roadmap in 50 Seconds - Complete guide by GeeksforGeeks.",
+      "year": 2024
+    },
+    {
+      "title": "#2 Machine Learning Specialization [Course 1, Week 1, Lesson 1]",
+      "creator": "DeepLearningAI",
+      "url": "https://www.youtube.com/watch?v=wiNXzydta4c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#2 Machine Learning Specialization [Course 1, Week 1, Lesson 1] - Complete guide by DeepLearningAI.",
+      "year": 2024
+    },
+    {
+      "title": "Top AI courses that you can take for free",
+      "creator": "Scholar Strategy by Nistha Tripathi",
+      "url": "https://www.youtube.com/watch?v=S5KUpTgoSco",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top AI courses that you can take for free - Complete guide by Scholar Strategy by Nistha Tripathi.",
+      "year": 2024
+    },
+    {
+      "title": "🔥Machine Learning Engineer Salary | How Much Do Machine Learning Engineer Make |Simplilearn #shorts",
+      "creator": "Simplilearn",
+      "url": "https://www.youtube.com/watch?v=KB-6eF2mnqY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🔥Machine Learning Engineer Salary | How Much Do Machine Learning Engineer Make |Simplilearn #shorts - Complete guide by Simplilearn.",
+      "year": 2024
+    },
+    {
+      "title": "How To Learn Machine Learning In 30 Days (for beginners)",
+      "creator": "Erik Cupsa",
+      "url": "https://www.youtube.com/watch?v=0ER5O5SA_OE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "How To Learn Machine Learning In 30 Days (for beginners) - Complete guide by Erik Cupsa.",
+      "year": 2024
+    },
+    {
+      "title": "FREE AI & Machine Learning Course by Alakh Sir #AI #ML #everythinglearning #mlcourse #learnanything",
+      "creator": "Faculties wallah",
+      "url": "https://www.youtube.com/watch?v=a4anTyYnaKw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "FREE AI & Machine Learning Course by Alakh Sir #AI #ML #everythinglearning #mlcourse #learnanything - Complete guide by Faculties wallah.",
+      "year": 2024
+    },
+    {
+      "title": "Machine Learning Full Course | Beginner to Advanced (FREE) 2026",
+      "creator": "The iScale",
+      "url": "https://www.youtube.com/watch?v=hR-tMLTMw0s",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Machine Learning Full Course | Beginner to Advanced (FREE) 2026 - Complete guide by The iScale.",
+      "year": 2024
+    },
+    {
+      "title": "5 Best Free Machine Learning Resources for Beginners (2026 Guide)",
+      "creator": "Haseeb Iqbal",
+      "url": "https://www.youtube.com/watch?v=9jj8wHCzVk0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "5 Best Free Machine Learning Resources for Beginners (2026 Guide) - Complete guide by Haseeb Iqbal.",
+      "year": 2024
+    },
+    {
+      "title": "Learn AI Engineering From Scratch 🚀 Build Prompts, AI Agents & MCP Servers | Free Open-Source Guide",
+      "creator": "Unminded coder",
+      "url": "https://www.youtube.com/watch?v=g1O1q2CEdBM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn AI Engineering From Scratch 🚀 Build Prompts, AI Agents & MCP Servers | Free Open-Source Guide - Complete guide by Unminded coder.",
+      "year": 2024
+    },
+    {
+      "title": "#1 Machine Learning Specialization [Course 1, Week 1, Lesson 1]",
+      "creator": "DeepLearningAI",
+      "url": "https://www.youtube.com/watch?v=vStJoetOxJg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#1 Machine Learning Specialization [Course 1, Week 1, Lesson 1] - Complete guide by DeepLearningAI.",
+      "year": 2024
+    },
+    {
+      "title": "Learn ML FAST: 3 YouTube Videos That Teach You Everything!🔥🚀 #shorts #ml #coding #students #python",
+      "creator": "Code Leos",
+      "url": "https://www.youtube.com/watch?v=5LArr8kWX6M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn ML FAST: 3 YouTube Videos That Teach You Everything!🔥🚀 #shorts #ml #coding #students #python - Complete guide by Code Leos.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Machine Learning Easily and For Free",
+      "creator": "Dors Coding School",
+      "url": "https://www.youtube.com/watch?v=5k7P3-5AaCg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Machine Learning Easily and For Free - Complete guide by Dors Coding School.",
+      "year": 2024
+    },
+    {
+      "title": "AI Foundations for Absolute Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=tchN4xa4pfg",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "AI Foundations for Absolute Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "How To Learn AI/ML For Free 🤝",
+      "creator": "Erik Cupsa",
+      "url": "https://www.youtube.com/watch?v=2cUDM-ow7DM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How To Learn AI/ML For Free 🤝 - Complete guide by Erik Cupsa.",
+      "year": 2024
+    },
+    {
+      "title": "Top Machine Learning Algorithms Explained | Supervised & Unsupervised Learning",
+      "creator": "Learn_Code Infinity by Mangesh Sambare (∞ AI)",
+      "url": "https://www.youtube.com/watch?v=2z-4pDFWsiE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top Machine Learning Algorithms Explained | Supervised & Unsupervised Learning - Complete guide by Learn_Code Infinity by Mangesh Sambare (∞ AI).",
+      "year": 2024
+    },
+    {
+      "title": "Learn Machine Learning from Scratch: Complete Roadmap",
+      "creator": "Sundas Khalid",
+      "url": "https://www.youtube.com/watch?v=RFwJtHvjPPo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Machine Learning from Scratch: Complete Roadmap - Complete guide by Sundas Khalid.",
+      "year": 2024
+    },
+    {
+      "title": "Harvard and Stanford's FREE A.I. courses!!!!",
+      "creator": "Broke Brothers",
+      "url": "https://www.youtube.com/watch?v=WFkqpAJFvw8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Harvard and Stanford's FREE A.I. courses!!!! - Complete guide by Broke Brothers.",
+      "year": 2024
+    },
+    {
+      "title": "Machine Learning in 2024 – Beginner's Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=bmmQA8A-yUA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Machine Learning in 2024 – Beginner's Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "AI vs ML vs Generative AI",
+      "creator": "Sajjaad Khader",
+      "url": "https://www.youtube.com/watch?v=FbtYxPUrhq8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AI vs ML vs Generative AI - Complete guide by Sajjaad Khader.",
+      "year": 2024
+    },
+    {
+      "title": "Every Machine Learning Model Explained in 60 seconds",
+      "creator": "SleepingDev",
+      "url": "https://www.youtube.com/watch?v=nTDoxx-8ATM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Every Machine Learning Model Explained in 60 seconds - Complete guide by SleepingDev.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Machine Learning from Scratch in 7 Days | Complete ML Roadmap for Beginners 🚀",
+      "creator": "Anoushka Das",
+      "url": "https://www.youtube.com/watch?v=DthKYRFKJ9M",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn Machine Learning from Scratch in 7 Days | Complete ML Roadmap for Beginners 🚀 - Complete guide by Anoushka Das.",
+      "year": 2024
+    },
+    {
+      "title": "Don't Waste 2 Years: The Ultimate ML Roadmap 📉 #shorts #ai #machinelearning",
+      "creator": "Your Path To Success ",
+      "url": "https://www.youtube.com/watch?v=U1hd7_-eB3g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Don't Waste 2 Years: The Ultimate ML Roadmap 📉 #shorts #ai #machinelearning - Complete guide by Your Path To Success .",
+      "year": 2024
+    },
+    {
+      "title": "3 Machine Learning Videos Every Beginner Should Watch",
+      "creator": "Volkan Erdogan",
+      "url": "https://www.youtube.com/watch?v=cbPX8yZHoJU",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "3 Machine Learning Videos Every Beginner Should Watch - Complete guide by Volkan Erdogan.",
+      "year": 2024
+    },
+    {
+      "title": "You Will Never Struggle With Machine Learning Again! #machinelearning",
+      "creator": "Volkan Erdogan",
+      "url": "https://www.youtube.com/watch?v=2pz2eTyMlCg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "You Will Never Struggle With Machine Learning Again! #machinelearning - Complete guide by Volkan Erdogan.",
+      "year": 2024
+    },
+    {
+      "title": "You Will Never Struggle With Machine Learning & AI Again",
+      "creator": "Tech Fathom",
+      "url": "https://www.youtube.com/watch?v=pcXICi5W6CA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "You Will Never Struggle With Machine Learning & AI Again - Complete guide by Tech Fathom.",
+      "year": 2024
+    },
+    {
+      "title": "Machine Learning Full Course with Scikit‑Learn | Math + Python + AI | Sagar Chouksey",
+      "creator": "Coding With Sagar",
+      "url": "https://www.youtube.com/watch?v=ie4oGI85SAE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Machine Learning Full Course with Scikit‑Learn | Math + Python + AI | Sagar Chouksey - Complete guide by Coding With Sagar.",
+      "year": 2024
+    },
+    {
+      "title": "Intro to Machine Learning featuring Generative AI",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=tmB5JIX3Lxk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Intro to Machine Learning featuring Generative AI - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "AI Foundations Course – Python, Machine Learning, Deep Learning, Data Science",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=0oyDqO8PjIg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AI Foundations Course – Python, Machine Learning, Deep Learning, Data Science - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Machine Learning Explained in 100 Seconds",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=PeMlggyqz0Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Machine Learning Explained in 100 Seconds - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "Vectors | Chapter 1, Essence of linear algebra",
+      "creator": "3Blue1Brown",
+      "url": "https://www.youtube.com/watch?v=fNk_zzaMoSs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Vectors | Chapter 1, Essence of linear algebra - Complete guide by 3Blue1Brown.",
+      "year": 2024
+    },
+    {
+      "title": "Maths Explained: 3Blue1Brown's Grant Sanderson on YouTube Success",
+      "creator": "ScenturyScience",
+      "url": "https://www.youtube.com/watch?v=ZyWp7lawz4s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Maths Explained: 3Blue1Brown's Grant Sanderson on YouTube Success - Complete guide by ScenturyScience.",
+      "year": 2024
+    },
+    {
+      "title": "But what is a neural network? | Deep learning chapter 1",
+      "creator": "3Blue1Brown",
+      "url": "https://www.youtube.com/watch?v=aircAruvnKk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "But what is a neural network? | Deep learning chapter 1 - Complete guide by 3Blue1Brown.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Machine Learning Like a GENIUS and Not Waste Time",
+      "creator": "Sahil & Sarra",
+      "url": "https://www.youtube.com/watch?v=2wTRQqoDM1A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Machine Learning Like a GENIUS and Not Waste Time - Complete guide by Sahil & Sarra.",
+      "year": 2024
+    },
+    {
+      "title": "Why do #neuralnetwork have layers? #deeplearning #machinelearning Credit:@3Blue1Brown",
+      "creator": "Giffah",
+      "url": "https://www.youtube.com/watch?v=PZL-f66-euE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why do #neuralnetwork have layers? #deeplearning #machinelearning Credit:@3Blue1Brown - Complete guide by Giffah.",
+      "year": 2024
+    },
+    {
+      "title": "Neural networks",
+      "creator": "Zara Dar",
+      "url": "https://www.youtube.com/watch?v=-LbtF2W3GIE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Neural networks - Complete guide by Zara Dar.",
+      "year": 2024
+    },
+    {
+      "title": "How do Neural Networks Learn? By 3blue1brown and aibutsimple",
+      "creator": "EllaAi",
+      "url": "https://www.youtube.com/watch?v=qxvKnLR-0jY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How do Neural Networks Learn? By 3blue1brown and aibutsimple - Complete guide by EllaAi.",
+      "year": 2024
+    },
+    {
+      "title": "Neural network and machine learning visualisation",
+      "creator": "AI & DevOps Updates",
+      "url": "https://www.youtube.com/watch?v=8j_7d-UeseI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Neural network and machine learning visualisation - Complete guide by AI & DevOps Updates.",
+      "year": 2024
+    },
+    {
+      "title": "The spelled-out intro to language modeling: building makemore",
+      "creator": "Andrej Karpathy",
+      "url": "https://www.youtube.com/watch?v=PaCmpygFfXo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The spelled-out intro to language modeling: building makemore - Complete guide by Andrej Karpathy.",
+      "year": 2024
+    },
+    {
+      "title": "The spelled-out intro to neural networks and backpropagation: building micrograd",
+      "creator": "Andrej Karpathy",
+      "url": "https://www.youtube.com/watch?v=VMj-3S1tku0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The spelled-out intro to neural networks and backpropagation: building micrograd - Complete guide by Andrej Karpathy.",
+      "year": 2024
+    },
+    {
+      "title": "The essence of calculus",
+      "creator": "3Blue1Brown",
+      "url": "https://www.youtube.com/watch?v=WUvTyaaNkzM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The essence of calculus - Complete guide by 3Blue1Brown.",
+      "year": 2024
+    },
+    {
+      "title": "Linear combinations, span, and basis vectors | Chapter 2, Essence of linear algebra",
+      "creator": "3Blue1Brown",
+      "url": "https://www.youtube.com/watch?v=k7RM-ot2NWY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Linear combinations, span, and basis vectors | Chapter 2, Essence of linear algebra - Complete guide by 3Blue1Brown.",
+      "year": 2024
+    },
+    {
+      "title": "Here Is How Neural Network Work... | #neuralnetworks #chatgpt #usa #newyork #physics #demo #science",
+      "creator": "Awareness",
+      "url": "https://www.youtube.com/watch?v=ar4bhD5Y910",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Here Is How Neural Network Work... | #neuralnetworks #chatgpt #usa #newyork #physics #demo #science - Complete guide by Awareness.",
+      "year": 2024
+    },
+    {
+      "title": "CNN vs RNN Explained | Deep Learning Made Simple",
+      "creator": "The Data Girl",
+      "url": "https://www.youtube.com/watch?v=cBfJYBoCS24",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CNN vs RNN Explained | Deep Learning Made Simple - Complete guide by The Data Girl.",
+      "year": 2024
+    },
+    {
+      "title": "The paradox of the derivative | Chapter 2, Essence of calculus",
+      "creator": "3Blue1Brown",
+      "url": "https://www.youtube.com/watch?v=9vKqVkMQHKk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The paradox of the derivative | Chapter 2, Essence of calculus - Complete guide by 3Blue1Brown.",
+      "year": 2024
+    },
+    {
+      "title": "How Neural Networks Learn: The Magic of Backpropagation",
+      "creator": "NextGen",
+      "url": "https://www.youtube.com/watch?v=xoDJKBvWFMU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Neural Networks Learn: The Magic of Backpropagation - Complete guide by NextGen.",
+      "year": 2024
+    },
+    {
+      "title": "What even is AGI? - Grant Sanderson @3blue1brown",
+      "creator": "Dwarkesh Patel",
+      "url": "https://www.youtube.com/watch?v=0HGNlwaQJZA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What even is AGI? - Grant Sanderson @3blue1brown - Complete guide by Dwarkesh Patel.",
+      "year": 2024
+    },
+    {
+      "title": "🤖Convolutional Neural Networks (CNNs) by #andrewtate and #donaldtrump",
+      "creator": "Lazy Programmer",
+      "url": "https://www.youtube.com/watch?v=D746UYYpTK4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🤖Convolutional Neural Networks (CNNs) by #andrewtate and #donaldtrump - Complete guide by Lazy Programmer.",
+      "year": 2024
+    },
+    {
+      "title": "Error correction is incredible",
+      "creator": "3Blue1Brown",
+      "url": "https://www.youtube.com/watch?v=yZMw2rOKYwE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Error correction is incredible - Complete guide by 3Blue1Brown.",
+      "year": 2024
+    },
+    {
+      "title": "Building a Digit Recognition Program #ai  #3blue1brown #neuralnetworks #neuroscience #maths",
+      "creator": "CodeForge",
+      "url": "https://www.youtube.com/watch?v=75mAnUKRp6U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Building a Digit Recognition Program #ai  #3blue1brown #neuralnetworks #neuroscience #maths - Complete guide by CodeForge.",
+      "year": 2024
+    },
+    {
+      "title": "I Tried 3Blue1Brown's Neural Network Series: Was It Worth It?",
+      "creator": "Minh Đức",
+      "url": "https://www.youtube.com/watch?v=izpwaHTrqd0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I Tried 3Blue1Brown's Neural Network Series: Was It Worth It? - Complete guide by Minh Đức.",
+      "year": 2024
+    },
+    {
+      "title": "Learning an image using a #neuralnetwork Credit: 3Blue1Brown #deeplearning",
+      "creator": "Giffah",
+      "url": "https://www.youtube.com/watch?v=9AYdWpfTSTc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learning an image using a #neuralnetwork Credit: 3Blue1Brown #deeplearning - Complete guide by Giffah.",
+      "year": 2024
+    },
+    {
+      "title": "How Neural Networks Learn: Artificial Neural Networks Explained Visually #shorts #ai",
+      "creator": "one_day_to_day_one_now",
+      "url": "https://www.youtube.com/watch?v=D3oUABppDnw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Neural Networks Learn: Artificial Neural Networks Explained Visually #shorts #ai - Complete guide by one_day_to_day_one_now.",
+      "year": 2024
+    },
+    {
+      "title": "A simple image convolution",
+      "creator": "3Blue1Brown",
+      "url": "https://www.youtube.com/watch?v=4xWpQe3G9qI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "A simple image convolution - Complete guide by 3Blue1Brown.",
+      "year": 2024
+    },
+    {
+      "title": "Gradient descent, how neural networks learn | Deep Learning Chapter 2",
+      "creator": "3Blue1Brown",
+      "url": "https://www.youtube.com/watch?v=IHZwWFHWa-w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Gradient descent, how neural networks learn | Deep Learning Chapter 2 - Complete guide by 3Blue1Brown.",
+      "year": 2024
+    },
+    {
+      "title": "When Machine Learning Gets a Little Too Hard",
+      "creator": "Minh Đức",
+      "url": "https://www.youtube.com/watch?v=Lfwx7pL0mi0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "When Machine Learning Gets a Little Too Hard - Complete guide by Minh Đức.",
+      "year": 2024
+    },
+    {
+      "title": "What Is a Neural Network? Explained in 3D #neuralnetworks #ml",
+      "creator": "calculusphile",
+      "url": "https://www.youtube.com/watch?v=UHQTedSgH9M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What Is a Neural Network? Explained in 3D #neuralnetworks #ml - Complete guide by calculusphile.",
+      "year": 2024
+    },
+    {
+      "title": "3blue1brown: AI for math education leaves a lot to be done.",
+      "creator": "Timothy Nguyen",
+      "url": "https://www.youtube.com/watch?v=M-1g_BU0gjY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "3blue1brown: AI for math education leaves a lot to be done. - Complete guide by Timothy Nguyen.",
+      "year": 2024
+    },
+    {
+      "title": "Training AI takes heavy toll on Kenyans working for $2 an hour | 60 Minutes",
+      "creator": "60 Minutes",
+      "url": "https://www.youtube.com/watch?v=qZS50KXjAX0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Training AI takes heavy toll on Kenyans working for $2 an hour | 60 Minutes - Complete guide by 60 Minutes.",
+      "year": 2024
+    },
+    {
+      "title": "The idea behind ResNets explained part2 #resnets #machinelerning #ai Credit:@3Blue1Brown",
+      "creator": "Giffah",
+      "url": "https://www.youtube.com/watch?v=oiGXadNCfCE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The idea behind ResNets explained part2 #resnets #machinelerning #ai Credit:@3Blue1Brown - Complete guide by Giffah.",
+      "year": 2024
+    },
+    {
+      "title": "[Hindi Dub] But what is a neural network? | Deep learning chapter 1",
+      "creator": "3Blue1Brown हिंदी",
+      "url": "https://www.youtube.com/watch?v=uiZL9rK2Q_Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "[Hindi Dub] But what is a neural network? | Deep learning chapter 1 - Complete guide by 3Blue1Brown हिंदी.",
+      "year": 2024
+    },
+    {
+      "title": "Large Language Models explained briefly",
+      "creator": "3Blue1Brown",
+      "url": "https://www.youtube.com/watch?v=LPZh9BOjkQs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Large Language Models explained briefly - Complete guide by 3Blue1Brown.",
+      "year": 2024
+    },
+    {
+      "title": "How Does a Neural Network Work in 60 seconds? The BRAIN of an AI",
+      "creator": "Arvin Ash",
+      "url": "https://www.youtube.com/watch?v=Dbcx2_MO0LM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Does a Neural Network Work in 60 seconds? The BRAIN of an AI - Complete guide by Arvin Ash.",
+      "year": 2024
+    },
+    {
+      "title": "The scale of training LLMs",
+      "creator": "3Blue1Brown",
+      "url": "https://www.youtube.com/watch?v=qSn8dVI9V5I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The scale of training LLMs - Complete guide by 3Blue1Brown.",
+      "year": 2024
+    },
+    {
+      "title": "Neural networks: #binaryclassification #deeplearning #machinelerning Credit:@3Blue1Brown",
+      "creator": "Giffah",
+      "url": "https://www.youtube.com/watch?v=mDEARMf0iPo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Neural networks: #binaryclassification #deeplearning #machinelerning Credit:@3Blue1Brown - Complete guide by Giffah.",
+      "year": 2024
+    },
+    {
+      "title": "Deep learning math: Convolution #deeplearning #machinelerning #ai Credit:@3Blue1Brown",
+      "creator": "Giffah",
+      "url": "https://www.youtube.com/watch?v=eJq0nzORwzU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Deep learning math: Convolution #deeplearning #machinelerning #ai Credit:@3Blue1Brown - Complete guide by Giffah.",
+      "year": 2024
+    },
+    {
+      "title": "Attention in transformers, step-by-step | Deep Learning Chapter 6",
+      "creator": "3Blue1Brown",
+      "url": "https://www.youtube.com/watch?v=eMlx5fFNoYc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Attention in transformers, step-by-step | Deep Learning Chapter 6 - Complete guide by 3Blue1Brown.",
+      "year": 2024
+    },
+    {
+      "title": "But what is a convolution?",
+      "creator": "3Blue1Brown",
+      "url": "https://www.youtube.com/watch?v=KuXjwB4LzSA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "But what is a convolution? - Complete guide by 3Blue1Brown.",
+      "year": 2024
+    },
+    {
+      "title": "How might LLMs store facts | Deep Learning Chapter 7",
+      "creator": "3Blue1Brown",
+      "url": "https://www.youtube.com/watch?v=9-Jl0dxWQs8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How might LLMs store facts | Deep Learning Chapter 7 - Complete guide by 3Blue1Brown.",
+      "year": 2024
+    },
+    {
+      "title": "Transformers, the tech behind LLMs | Deep Learning Chapter 5",
+      "creator": "3Blue1Brown",
+      "url": "https://www.youtube.com/watch?v=wjZofJX0v4M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Transformers, the tech behind LLMs | Deep Learning Chapter 5 - Complete guide by 3Blue1Brown.",
+      "year": 2024
+    },
+    {
+      "title": "Backpropagation, intuitively | Deep Learning Chapter 3",
+      "creator": "3Blue1Brown",
+      "url": "https://www.youtube.com/watch?v=Ilg3gGewQ5U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Backpropagation, intuitively | Deep Learning Chapter 3 - Complete guide by 3Blue1Brown.",
+      "year": 2024
+    },
+    {
+      "title": "pytorch complexity with python",
+      "creator": "Python Playground",
+      "url": "https://www.youtube.com/watch?v=NRZWQgdUCTk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "pytorch complexity with python - Complete guide by Python Playground.",
+      "year": 2024
+    },
+    {
+      "title": "Get into AI with this framework.#coding #programming #ai #tensorflow #ml",
+      "creator": "Neeraj Walia",
+      "url": "https://www.youtube.com/watch?v=cI888pDgFyc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Get into AI with this framework.#coding #programming #ai #tensorflow #ml - Complete guide by Neeraj Walia.",
+      "year": 2024
+    },
+    {
+      "title": "Unlocking the Power of PyTorch for High-Performance AI | NVIDIA Insights",
+      "creator": "Gaming X",
+      "url": "https://www.youtube.com/watch?v=zcXD8IDa4N4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Unlocking the Power of PyTorch for High-Performance AI | NVIDIA Insights - Complete guide by Gaming X.",
+      "year": 2024
+    },
+    {
+      "title": "Deep Learning with PyTorch Live Course - Tensors, Gradient Descent & Linear Regression (Part 1 of 6)",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=vo_fUOk-IKk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Deep Learning with PyTorch Live Course - Tensors, Gradient Descent & Linear Regression (Part 1 of 6) - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Learn PyTorch in 5 Projects – Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=E0bwEAWmVEM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn PyTorch in 5 Projects – Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "PyTorch vs TensorFlow — Which Should YOU Learn in 2025? ⚡🤖",
+      "creator": "Analytics Vidhya",
+      "url": "https://www.youtube.com/watch?v=Jab6K3zsv-w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PyTorch vs TensorFlow — Which Should YOU Learn in 2025? ⚡🤖 - Complete guide by Analytics Vidhya.",
+      "year": 2024
+    },
+    {
+      "title": "PyTorch for Deep Learning & Machine Learning – Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=V_xro1bcAuA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PyTorch for Deep Learning & Machine Learning – Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Deep Learning with PyTorch Live Course - Working with Images & Logistic Regression (Part 2 of 6)",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=4ZZrP68yXCI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Deep Learning with PyTorch Live Course - Working with Images & Logistic Regression (Part 2 of 6) - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Applied Deep Learning with PyTorch - Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=CNuI8OWsppg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Applied Deep Learning with PyTorch - Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "PyTorch for Deep Learning - Full Course / Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=GIsg-ZUy0MY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PyTorch for Deep Learning - Full Course / Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Complete AI Bootcamp with ChatBot | ChatGPT | PyTorch | Python",
+      "creator": "GKV",
+      "url": "https://www.youtube.com/watch?v=d6BqK1ve6Oo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete AI Bootcamp with ChatBot | ChatGPT | PyTorch | Python - Complete guide by GKV.",
+      "year": 2024
+    },
+    {
+      "title": "कर्नाटक मशीन चला सकता है लेडिस || #pytorch tutorial for 😌 beginners",
+      "creator": "Gaurang embroidery jankari official 2.1.5.1M views",
+      "url": "https://www.youtube.com/watch?v=OQe0kFIexMs",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "कर्नाटक मशीन चला सकता है लेडिस || #pytorch tutorial for 😌 beginners - Complete guide by Gaurang embroidery jankari official 2.1.5.1M views.",
+      "year": 2024
+    },
+    {
+      "title": "#PyTorch vs #TensorFlow: What’s the Difference?",
+      "creator": "Codecademy",
+      "url": "https://www.youtube.com/watch?v=zEy9rFnKDAw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#PyTorch vs #TensorFlow: What’s the Difference? - Complete guide by Codecademy.",
+      "year": 2024
+    },
+    {
+      "title": "PyTorch vs. TensorFlow",
+      "creator": "PlivoAI",
+      "url": "https://www.youtube.com/watch?v=fSgNjOvXTCs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PyTorch vs. TensorFlow - Complete guide by PlivoAI.",
+      "year": 2024
+    },
+    {
+      "title": "Advice for machine learning beginners Andrej Karpathy and Lex Fridman #shorts #viral #commitment",
+      "creator": "Michael Ballard / slashdev",
+      "url": "https://www.youtube.com/watch?v=xe9W0V12sgY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Advice for machine learning beginners Andrej Karpathy and Lex Fridman #shorts #viral #commitment - Complete guide by Michael Ballard / slashdev.",
+      "year": 2024
+    },
+    {
+      "title": "Same math, 5000x faster: plain Python vs PyTorch #shorts",
+      "creator": "Georgii Kharlampiiev",
+      "url": "https://www.youtube.com/watch?v=A70WFeJLCao",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Same math, 5000x faster: plain Python vs PyTorch #shorts - Complete guide by Georgii Kharlampiiev.",
+      "year": 2024
+    },
+    {
+      "title": "Deep Learning Vs Machine Learning #shorts #ai #ml #machinelearning #deeplearning #computerscience",
+      "creator": "WebKnower",
+      "url": "https://www.youtube.com/watch?v=HN2vSUgzPyE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Deep Learning Vs Machine Learning #shorts #ai #ml #machinelearning #deeplearning #computerscience - Complete guide by WebKnower.",
+      "year": 2024
+    },
+    {
+      "title": "🤣best data to train ML model #ml #deeplearning #ai #aitraining #python #tensorflow #treanding #short",
+      "creator": "Ai Engineer",
+      "url": "https://www.youtube.com/watch?v=RKR76L_8iN4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🤣best data to train ML model #ml #deeplearning #ai #aitraining #python #tensorflow #treanding #short - Complete guide by Ai Engineer.",
+      "year": 2024
+    },
+    {
+      "title": "Double Your AI's Accuracy in 20 Lines of PyTorch! 🤯⚡ #Shorts",
+      "creator": "ML Digest",
+      "url": "https://www.youtube.com/watch?v=iJCHA9ii3Gc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Double Your AI's Accuracy in 20 Lines of PyTorch! 🤯⚡ #Shorts - Complete guide by ML Digest.",
+      "year": 2024
+    },
+    {
+      "title": "PyTorch Neural Networks Made Simple (Beginner Friendly)",
+      "creator": "The Augmented",
+      "url": "https://www.youtube.com/watch?v=5TTliT31bew",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "PyTorch Neural Networks Made Simple (Beginner Friendly) - Complete guide by The Augmented.",
+      "year": 2024
+    },
+    {
+      "title": "AI CAN'T LEARN WITHOUT THIS! 💀",
+      "creator": "CodeX Vinci",
+      "url": "https://www.youtube.com/watch?v=5ev72VVJuvg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AI CAN'T LEARN WITHOUT THIS! 💀 - Complete guide by CodeX Vinci.",
+      "year": 2024
+    },
+    {
+      "title": "Want to Become an AI Engineer? Learn PyTorch in 25 Images! #Shorts",
+      "creator": "CodeAsItIs | Learn. Build. Think Like a Developer.",
+      "url": "https://www.youtube.com/watch?v=lrVtBWwvw-E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Want to Become an AI Engineer? Learn PyTorch in 25 Images! #Shorts - Complete guide by CodeAsItIs | Learn. Build. Think Like a Developer..",
+      "year": 2024
+    },
+    {
+      "title": "PyTorch or Tensorflow? Which Should YOU Learn!",
+      "creator": "Nicholas Renotte",
+      "url": "https://www.youtube.com/watch?v=po5qTPKBrRc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PyTorch or Tensorflow? Which Should YOU Learn! - Complete guide by Nicholas Renotte.",
+      "year": 2024
+    },
+    {
+      "title": "CPU vs GPU ⚡ How PyTorch Uses CUDA for AI & Deep Learning! #shorts",
+      "creator": "CodeX Vinci",
+      "url": "https://www.youtube.com/watch?v=PRJv946liVE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CPU vs GPU ⚡ How PyTorch Uses CUDA for AI & Deep Learning! #shorts - Complete guide by CodeX Vinci.",
+      "year": 2024
+    },
+    {
+      "title": "PyTorch is under every deep learning library",
+      "creator": "Everything-OSS",
+      "url": "https://www.youtube.com/watch?v=2HUcrDvBzP0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PyTorch is under every deep learning library - Complete guide by Everything-OSS.",
+      "year": 2024
+    },
+    {
+      "title": "Build a ChatGPT from scratch in PyTorch",
+      "creator": "Everything-OSS",
+      "url": "https://www.youtube.com/watch?v=eNiqYnFf0rg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build a ChatGPT from scratch in PyTorch - Complete guide by Everything-OSS.",
+      "year": 2024
+    },
+    {
+      "title": "PyTorch vs JAX #pytorch #jax #machinelearning #deeplearning #ai #python #tech #coding #reels #shorts",
+      "creator": "TryPitch",
+      "url": "https://www.youtube.com/watch?v=_FsMVZEg_7g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PyTorch vs JAX #pytorch #jax #machinelearning #deeplearning #ai #python #tech #coding #reels #shorts - Complete guide by TryPitch.",
+      "year": 2024
+    },
+    {
+      "title": "First Neural Network with PyTorch in 60 seconds! #Shorts",
+      "creator": "AssemblyAI",
+      "url": "https://www.youtube.com/watch?v=1KmTc0VuMms",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "First Neural Network with PyTorch in 60 seconds! #Shorts - Complete guide by AssemblyAI.",
+      "year": 2024
+    },
+    {
+      "title": "Machine Learning Full Course #Education #Ai #Ml #Python #Dataanalysis #Datascience",
+      "creator": "Tech - Jroshan",
+      "url": "https://www.youtube.com/watch?v=sbmPMtQkjxY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Machine Learning Full Course #Education #Ai #Ml #Python #Dataanalysis #Datascience - Complete guide by Tech - Jroshan.",
+      "year": 2024
+    },
+    {
+      "title": "PyTorch vs TensorFlow",
+      "creator": "Gautham Nair",
+      "url": "https://www.youtube.com/watch?v=EH8tVpj2SSA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PyTorch vs TensorFlow - Complete guide by Gautham Nair.",
+      "year": 2024
+    },
+    {
+      "title": "What is PyTorch | Introduction to PyTorch | PyTorch Tutorial For Beginners | Intellipaat",
+      "creator": "Intellipaat",
+      "url": "https://www.youtube.com/watch?v=Idg5uFnpV1M",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "What is PyTorch | Introduction to PyTorch | PyTorch Tutorial For Beginners | Intellipaat - Complete guide by Intellipaat.",
+      "year": 2024
+    },
+    {
+      "title": "VGG From Scratch – Deep Learning Theory & PyTorch Implementation (Full Course)",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=rhCiuu4AW_w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "VGG From Scratch – Deep Learning Theory & PyTorch Implementation (Full Course) - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Tensors in PyTorch |  Video 2 | CampusX",
+      "creator": "CampusX",
+      "url": "https://www.youtube.com/watch?v=mDsFsnw3SK4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Tensors in PyTorch |  Video 2 | CampusX - Complete guide by CampusX.",
+      "year": 2024
+    },
+    {
+      "title": "PyTorch Basics and Gradient Descent | Deep Learning with PyTorch: Zero to GANs | Part 1 of 6",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=5ioMqzMRFgM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PyTorch Basics and Gradient Descent | Deep Learning with PyTorch: Zero to GANs | Part 1 of 6 - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "PyTorch Tutorial 01 - Installation",
+      "creator": "Patrick Loeber",
+      "url": "https://www.youtube.com/watch?v=EMXfZB8FVUA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PyTorch Tutorial 01 - Installation - Complete guide by Patrick Loeber.",
+      "year": 2024
+    },
+    {
+      "title": "PyTorch for Beginners | Introduction to PyTorch | Video 1 | CampusX",
+      "creator": "CampusX",
+      "url": "https://www.youtube.com/watch?v=QZsguRbcOBM",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "PyTorch for Beginners | Introduction to PyTorch | Video 1 | CampusX - Complete guide by CampusX.",
+      "year": 2024
+    },
+    {
+      "title": "PyTorch 101 Crash Course For Beginners in 2026 | Daniel Bourke",
+      "creator": "Zero To Mastery",
+      "url": "https://www.youtube.com/watch?v=LyJtbe__2i0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "PyTorch 101 Crash Course For Beginners in 2026 | Daniel Bourke - Complete guide by Zero To Mastery.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Pytorch Tensor Tutorial (Initializing Tensors, Math, Indexing, Reshaping)",
+      "creator": "Aladdin Persson",
+      "url": "https://www.youtube.com/watch?v=x9JiIFvlUwk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete Pytorch Tensor Tutorial (Initializing Tensors, Math, Indexing, Reshaping) - Complete guide by Aladdin Persson.",
+      "year": 2024
+    },
+    {
+      "title": "Become an AI Researcher Course – LLM, Math, PyTorch, Neural Networks, Transformers",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=wu8npoU37cI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Become an AI Researcher Course – LLM, Math, PyTorch, Neural Networks, Transformers - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Learn PyTorch for deep learning in a day. Literally.",
+      "creator": "Daniel Bourke",
+      "url": "https://www.youtube.com/watch?v=Z_ikDlimN6A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn PyTorch for deep learning in a day. Literally. - Complete guide by Daniel Bourke.",
+      "year": 2024
+    },
+    {
+      "title": "Pytorch Tutorial - Setting up a Deep Learning Environment (Anaconda & PyCharm)",
+      "creator": "Aladdin Persson",
+      "url": "https://www.youtube.com/watch?v=2S1dgHpqCdk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Pytorch Tutorial - Setting up a Deep Learning Environment (Anaconda & PyCharm) - Complete guide by Aladdin Persson.",
+      "year": 2024
+    },
+    {
+      "title": "PyTorch Tutorial 02 - Tensor Basics",
+      "creator": "Patrick Loeber",
+      "url": "https://www.youtube.com/watch?v=exaWOE8jvy8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PyTorch Tutorial 02 - Tensor Basics - Complete guide by Patrick Loeber.",
+      "year": 2024
+    },
+    {
+      "title": "Deep Learning with PyTorch: Zero to GANs Introduction",
+      "creator": "Jovian",
+      "url": "https://www.youtube.com/watch?v=zEtukWs_B2I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Deep Learning with PyTorch: Zero to GANs Introduction - Complete guide by Jovian.",
+      "year": 2024
+    },
+    {
+      "title": "Deep Learning for Computer Vision with Python and TensorFlow – Complete Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=IA3WxTTPXqQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Deep Learning for Computer Vision with Python and TensorFlow – Complete Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "PyTorch Tutorial for Beginners | Basics & Gradient Descent | Tensors, Autograd & Linear Regression",
+      "creator": "Jovian",
+      "url": "https://www.youtube.com/watch?v=m_tkL7DufPk",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "PyTorch Tutorial for Beginners | Basics & Gradient Descent | Tensors, Autograd & Linear Regression - Complete guide by Jovian.",
+      "year": 2024
+    },
+    {
+      "title": "My new TensorFlow for Deep Learning course is now on Udemy! #shorts",
+      "creator": "Daniel Bourke",
+      "url": "https://www.youtube.com/watch?v=ixk2R1MwXX8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "My new TensorFlow for Deep Learning course is now on Udemy! #shorts - Complete guide by Daniel Bourke.",
+      "year": 2024
+    },
+    {
+      "title": "TensorFlow Crash Course for Beginners (2026) | Daniel Bourke",
+      "creator": "Zero To Mastery",
+      "url": "https://www.youtube.com/watch?v=gWvwu7qLjJs",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "TensorFlow Crash Course for Beginners (2026) | Daniel Bourke - Complete guide by Zero To Mastery.",
+      "year": 2024
+    },
+    {
+      "title": "Andrew Ng's Secret to Mastering Machine Learning - Part 1 #shorts",
+      "creator": "Data Sensei",
+      "url": "https://www.youtube.com/watch?v=5xp0taGM3Kg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Andrew Ng's Secret to Mastering Machine Learning - Part 1 #shorts - Complete guide by Data Sensei.",
+      "year": 2024
+    },
+    {
+      "title": "Deep Learning Explained – Neural Networks for Beginners | AK COMPUTERS",
+      "creator": "Dayaa",
+      "url": "https://www.youtube.com/watch?v=6ZbbRM6c6ZE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Deep Learning Explained – Neural Networks for Beginners | AK COMPUTERS - Complete guide by Dayaa.",
+      "year": 2024
+    },
+    {
+      "title": "Master TensorFlow with the ultimate AI cheat sheet! 🚀",
+      "creator": "Coding Aale",
+      "url": "https://www.youtube.com/watch?v=QPzfHsfgLuw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Master TensorFlow with the ultimate AI cheat sheet! 🚀 - Complete guide by Coding Aale.",
+      "year": 2024
+    },
+    {
+      "title": "Natural Language Processing with TensorFlow 2 - Beginner's Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=B2q5cRJvqI8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Natural Language Processing with TensorFlow 2 - Beginner's Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "5 github repositories #shorts #shortsvideo #github #programmerslife #programming #coding",
+      "creator": "The Coding Bus",
+      "url": "https://www.youtube.com/watch?v=Tc5Uz68_Q2g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "5 github repositories #shorts #shortsvideo #github #programmerslife #programming #coding - Complete guide by The Coding Bus.",
+      "year": 2024
+    },
+    {
+      "title": "PyTorch vs TensorFlow vs Keras #datascience #python #machinelearning #deeplearning #ai #nlp #coding",
+      "creator": "AI Data Hub",
+      "url": "https://www.youtube.com/watch?v=zYsDm_mXPbc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PyTorch vs TensorFlow vs Keras #datascience #python #machinelearning #deeplearning #ai #nlp #coding - Complete guide by AI Data Hub.",
+      "year": 2024
+    },
+    {
+      "title": "TensorFlow Explained in 1 Minute | What is TensorFlow? #ai #deeplearning #tensorflow #google",
+      "creator": "MindMajix",
+      "url": "https://www.youtube.com/watch?v=LgN9Nrf55b8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "TensorFlow Explained in 1 Minute | What is TensorFlow? #ai #deeplearning #tensorflow #google - Complete guide by MindMajix.",
+      "year": 2024
+    },
+    {
+      "title": "What is @TensorFlow? | Deep Learning | 2022",
+      "creator": "Sayan Nath",
+      "url": "https://www.youtube.com/watch?v=Uyymdlg0CSg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is @TensorFlow? | Deep Learning | 2022 - Complete guide by Sayan Nath.",
+      "year": 2024
+    },
+    {
+      "title": "Check description ✅",
+      "creator": " Iram | Affiliate Marketer ",
+      "url": "https://www.youtube.com/watch?v=qT8HiRArrVE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Check description ✅ - Complete guide by  Iram | Affiliate Marketer .",
+      "year": 2024
+    },
+    {
+      "title": "How to build efficient data pipelines with TensorFlow | TECH Global University",
+      "creator": "TECH Global University",
+      "url": "https://www.youtube.com/watch?v=IabVlUNgre4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to build efficient data pipelines with TensorFlow | TECH Global University - Complete guide by TECH Global University.",
+      "year": 2024
+    },
+    {
+      "title": "DataCamp: Learn Python Programming #ai #python #programming #tensorflow #pytorch #numpy",
+      "creator": "AI Simplified ",
+      "url": "https://www.youtube.com/watch?v=JyTTS9DvFsE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DataCamp: Learn Python Programming #ai #python #programming #tensorflow #pytorch #numpy - Complete guide by AI Simplified .",
+      "year": 2024
+    },
+    {
+      "title": "TensorFlow 2.0 Crash Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=6g4O5UOH304",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "TensorFlow 2.0 Crash Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction | Deep Learning Tutorial 1 (Tensorflow Tutorial, Keras & Python)",
+      "creator": "codebasics",
+      "url": "https://www.youtube.com/watch?v=Mubj_fqiAv8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction | Deep Learning Tutorial 1 (Tensorflow Tutorial, Keras & Python) - Complete guide by codebasics.",
+      "year": 2024
+    },
+    {
+      "title": "Why deep learning is becoming so popular? | Deep Learning Tutorial 2 (Tensorflow2.0, Keras & Python)",
+      "creator": "codebasics",
+      "url": "https://www.youtube.com/watch?v=yfsTZbwgMSE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why deep learning is becoming so popular? | Deep Learning Tutorial 2 (Tensorflow2.0, Keras & Python) - Complete guide by codebasics.",
+      "year": 2024
+    },
+    {
+      "title": "TensorFlow for Computer Vision Course - Full Python Tutorial for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=cPmjQ9V6Hbk",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "TensorFlow for Computer Vision Course - Full Python Tutorial for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "TensorFlow in 100 Seconds",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=i8NETqtGHms",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "TensorFlow in 100 Seconds - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "Python TensorFlow for Machine Learning – Neural Network Text Classification Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=VtRLrQ3Ev-U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Python TensorFlow for Machine Learning – Neural Network Text Classification Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "TensorFlow 2.0 Tutorial for Beginners | Deep Learning with TensorFlow 2.0 | Edureka",
+      "creator": "edureka!",
+      "url": "https://www.youtube.com/watch?v=OHZqmJwj7n4",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "TensorFlow 2.0 Tutorial for Beginners | Deep Learning with TensorFlow 2.0 | Edureka - Complete guide by edureka!.",
+      "year": 2024
+    },
+    {
+      "title": "Keras with TensorFlow Course - Python Deep Learning and Neural Networks for Beginners Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=qFJeN9V1ZsI",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Keras with TensorFlow Course - Python Deep Learning and Neural Networks for Beginners Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "TensorFlow in 5 Minutes | Introduction To TensorFlow | Deep Learning Using TensorFlow | Edureka",
+      "creator": "edureka!",
+      "url": "https://www.youtube.com/watch?v=eGjDYm86H_E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "TensorFlow in 5 Minutes | Introduction To TensorFlow | Deep Learning Using TensorFlow | Edureka - Complete guide by edureka!.",
+      "year": 2024
+    },
+    {
+      "title": "OpenCV Python Course - Learn Computer Vision and AI",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=P4Z8_qe2Cu0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "OpenCV Python Course - Learn Computer Vision and AI - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "OpenCV Course - Full Tutorial with Python",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=oXlwWbU8l2o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "OpenCV Course - Full Tutorial with Python - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "AI Engineer Roadmap – How to Learn AI in 2025",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=nYXVvK-Wmn0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AI Engineer Roadmap – How to Learn AI in 2025 - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Advanced Computer Vision with Python - Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=01sAkU_NvOY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Advanced Computer Vision with Python - Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "TensorFlow Course – Building and Evaluating Medical AI Models",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=8m3LvPg8EuI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "TensorFlow Course – Building and Evaluating Medical AI Models - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "OpenCV Tutorial - Develop Computer Vision Apps in the Cloud With Python",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=iXNsAYOTzgM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "OpenCV Tutorial - Develop Computer Vision Apps in the Cloud With Python - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Vision with Arduino Tutorial – 2 Projects",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=Q5U-b6gRTaY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Computer Vision with Arduino Tutorial – 2 Projects - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "OpenCV Tutorial | Computer Vision | Full OpenCV with Python Course",
+      "creator": "Coding With Sagar",
+      "url": "https://www.youtube.com/watch?v=yQu_3e7MAr0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "OpenCV Tutorial | Computer Vision | Full OpenCV with Python Course - Complete guide by Coding With Sagar.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Vision Bootcamp | Full 12 hour series | OpenCV, RCNN, UNet, YOLO and Roboflow",
+      "creator": "Vizuara",
+      "url": "https://www.youtube.com/watch?v=fZjPpkMJqhw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Computer Vision Bootcamp | Full 12 hour series | OpenCV, RCNN, UNet, YOLO and Roboflow - Complete guide by Vizuara.",
+      "year": 2024
+    },
+    {
+      "title": "Predict trajectory of an Object with Kalman filter",
+      "creator": "Pysource",
+      "url": "https://www.youtube.com/watch?v=3iqRhbXBVRE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Predict trajectory of an Object with Kalman filter - Complete guide by Pysource.",
+      "year": 2024
+    },
+    {
+      "title": "Advanced Computer Vision with Python Tutorial 😮🔥",
+      "creator": "WsCube Tech",
+      "url": "https://www.youtube.com/watch?v=a3F9SNQKyiQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Advanced Computer Vision with Python Tutorial 😮🔥 - Complete guide by WsCube Tech.",
+      "year": 2024
+    },
+    {
+      "title": "OpenCV Python Course — Learn Computer Vision (Beginner to Advanced) ",
+      "creator": "Kevin Wood | Robotics & AI",
+      "url": "https://www.youtube.com/watch?v=TMqH2fYhxh0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "OpenCV Python Course — Learn Computer Vision (Beginner to Advanced)  - Complete guide by Kevin Wood | Robotics & AI.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Modern Computer Vision in 2026: From Basics to Advanced",
+      "creator": "Murtaza's Workshop - Robotics and AI",
+      "url": "https://www.youtube.com/watch?v=E_zUoHGcxRE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Modern Computer Vision in 2026: From Basics to Advanced - Complete guide by Murtaza's Workshop - Robotics and AI.",
+      "year": 2024
+    },
+    {
+      "title": "OpenCV Hand Tracking with Falling Flowers 🌸🤖 #Shorts #OpenCV #roboarmy",
+      "creator": "Roboarmy",
+      "url": "https://www.youtube.com/watch?v=5ZgIIc42InM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "OpenCV Hand Tracking with Falling Flowers 🌸🤖 #Shorts #OpenCV #roboarmy - Complete guide by Roboarmy.",
+      "year": 2024
+    },
+    {
+      "title": "OpenCV Python Course for Beginners | Image Processing Using Python Full Tutorial",
+      "creator": "WsCube Tech",
+      "url": "https://www.youtube.com/watch?v=MVkny_XLK_U",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "OpenCV Python Course for Beginners | Image Processing Using Python Full Tutorial - Complete guide by WsCube Tech.",
+      "year": 2024
+    },
+    {
+      "title": "python opencv project with arduino! #python #opencv #arduino #robotics #electronicsengineering",
+      "creator": "Mr_circuits",
+      "url": "https://www.youtube.com/watch?v=1cCPC9fTbN4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "python opencv project with arduino! #python #opencv #arduino #robotics #electronicsengineering - Complete guide by Mr_circuits.",
+      "year": 2024
+    },
+    {
+      "title": "python opencv project | #arduino #python #opencv #electronic #computervision",
+      "creator": "Mr_circuits",
+      "url": "https://www.youtube.com/watch?v=5wK6eo_4Sp8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "python opencv project | #arduino #python #opencv #electronic #computervision - Complete guide by Mr_circuits.",
+      "year": 2024
+    },
+    {
+      "title": "🔥⚡AI computer 💻 Vision Projects | Hand Tracking + Emotion Detection (Python OpenCV) CSE ai ml dl 😯😯",
+      "creator": "Python AI ML Projects",
+      "url": "https://www.youtube.com/watch?v=3XtIIPREjOc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🔥⚡AI computer 💻 Vision Projects | Hand Tracking + Emotion Detection (Python OpenCV) CSE ai ml dl 😯😯 - Complete guide by Python AI ML Projects.",
+      "year": 2024
+    },
+    {
+      "title": "PyTorch and Monai for AI Healthcare Imaging - Python Machine Learning Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=M3ZWfamWrBM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PyTorch and Monai for AI Healthcare Imaging - Python Machine Learning Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Face Detection using Opencv Python [ Opencv Projects ]",
+      "creator": "Sanyu Projects World",
+      "url": "https://www.youtube.com/watch?v=AsHc3WiioOk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Face Detection using Opencv Python [ Opencv Projects ] - Complete guide by Sanyu Projects World.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Vision and Perception for Self-Driving Cars (Deep Learning Course)",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=cPOtULagNnI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Computer Vision and Perception for Self-Driving Cars (Deep Learning Course) - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Harry Potter's Invisible Cloak in Python with Open CV #computervision",
+      "creator": "AK DEEPANKAR",
+      "url": "https://www.youtube.com/watch?v=rOGa5ASC9xI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Harry Potter's Invisible Cloak in Python with Open CV #computervision - Complete guide by AK DEEPANKAR.",
+      "year": 2024
+    },
+    {
+      "title": "Hand Gesture Volume Control in Project OpenCV Python [ Step-by-Step Guide ]",
+      "creator": "Sanyu Projects World",
+      "url": "https://www.youtube.com/watch?v=nPzde1YG4ko",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Hand Gesture Volume Control in Project OpenCV Python [ Step-by-Step Guide ] - Complete guide by Sanyu Projects World.",
+      "year": 2024
+    },
+    {
+      "title": "LEARN OPENCV C++ in 4 HOURS | Including 3x Projects | Computer Vision",
+      "creator": "Murtaza's Workshop - Robotics and AI",
+      "url": "https://www.youtube.com/watch?v=2FYm3GOonhk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "LEARN OPENCV C++ in 4 HOURS | Including 3x Projects | Computer Vision - Complete guide by Murtaza's Workshop - Robotics and AI.",
+      "year": 2024
+    },
+    {
+      "title": "OpenCv magic ✨ #shorts #python #opencv",
+      "creator": "Pushpendra Chandravanshi",
+      "url": "https://www.youtube.com/watch?v=XzasCIrtBuU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "OpenCv magic ✨ #shorts #python #opencv - Complete guide by Pushpendra Chandravanshi.",
+      "year": 2024
+    },
+    {
+      "title": "I Built Real-Time AI Computer Vision in Python! 🤯 #Shorts",
+      "creator": "Balushi_Tech",
+      "url": "https://www.youtube.com/watch?v=QvvhXILoOJs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I Built Real-Time AI Computer Vision in Python! 🤯 #Shorts - Complete guide by Balushi_Tech.",
+      "year": 2024
+    },
+    {
+      "title": "What is OpenCV? (Course on My Channel)",
+      "creator": "Kevin Wood | Robotics & AI",
+      "url": "https://www.youtube.com/watch?v=a4U7kS_kUag",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is OpenCV? (Course on My Channel) - Complete guide by Kevin Wood | Robotics & AI.",
+      "year": 2024
+    },
+    {
+      "title": "Episode 3: Portal with your hands! #opencv #computervision #python",
+      "creator": "Pritykin",
+      "url": "https://www.youtube.com/watch?v=HH9mCCgR8wY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Episode 3: Portal with your hands! #opencv #computervision #python - Complete guide by Pritykin.",
+      "year": 2024
+    },
+    {
+      "title": "openCV python aimbot with Arduino based laser turret",
+      "creator": "Dhruv Wadhwa",
+      "url": "https://www.youtube.com/watch?v=B-VihJLjGr4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "openCV python aimbot with Arduino based laser turret - Complete guide by Dhruv Wadhwa.",
+      "year": 2024
+    },
+    {
+      "title": "Opencv: 5 Essential Functions To Get Started",
+      "creator": "Python Turtle",
+      "url": "https://www.youtube.com/watch?v=wIvLnlwahVs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Opencv: 5 Essential Functions To Get Started - Complete guide by Python Turtle.",
+      "year": 2024
+    },
+    {
+      "title": "how I built an air drawing app with python #python  #opencv #coding",
+      "creator": "Dan Codes._.",
+      "url": "https://www.youtube.com/watch?v=sDbJ9_9QtaU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "how I built an air drawing app with python #python  #opencv #coding - Complete guide by Dan Codes._..",
+      "year": 2024
+    },
+    {
+      "title": "Use OpenCV to count rice(s)",
+      "creator": "yanan wang",
+      "url": "https://www.youtube.com/watch?v=OGIWXsTj3WY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Use OpenCV to count rice(s) - Complete guide by yanan wang.",
+      "year": 2024
+    },
+    {
+      "title": "Draw in the Air with OpenCV! #roboarmy#opencv #aiprojects #motivation #coding #design",
+      "creator": "Roboarmy",
+      "url": "https://www.youtube.com/watch?v=8hZK73xspEk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Draw in the Air with OpenCV! #roboarmy#opencv #aiprojects #motivation #coding #design - Complete guide by Roboarmy.",
+      "year": 2024
+    },
+    {
+      "title": "People Detection using OpenCV and Python",
+      "creator": "ToyTech Machines",
+      "url": "https://www.youtube.com/watch?v=zcF7WNtQGe8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "People Detection using OpenCV and Python - Complete guide by ToyTech Machines.",
+      "year": 2024
+    },
+    {
+      "title": "Camera Calibration using OpenCV in Python to Remove Distortion in Images",
+      "creator": "Kevin Wood | Robotics & AI",
+      "url": "https://www.youtube.com/watch?v=mFQNMapqP4E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Camera Calibration using OpenCV in Python to Remove Distortion in Images - Complete guide by Kevin Wood | Robotics & AI.",
+      "year": 2024
+    },
+    {
+      "title": "What is Computer Vision? | How does it work? | Watch to Know!",
+      "creator": "GeeksforGeeks",
+      "url": "https://www.youtube.com/watch?v=WRF2NeVwycA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Computer Vision? | How does it work? | Watch to Know! - Complete guide by GeeksforGeeks.",
+      "year": 2024
+    },
+    {
+      "title": "arduino python opencv projects | #shorts #python #arduino",
+      "creator": "Mr_circuits",
+      "url": "https://www.youtube.com/watch?v=sqakmHrwR3I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "arduino python opencv projects | #shorts #python #arduino - Complete guide by Mr_circuits.",
+      "year": 2024
+    },
+    {
+      "title": "🚀Free course on Computer Vision with OpenCV and Machine Learning Tutorial launched | 🔥Don't miss it!",
+      "creator": "CodersArts",
+      "url": "https://www.youtube.com/watch?v=VM5-vudFU_U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🚀Free course on Computer Vision with OpenCV and Machine Learning Tutorial launched | 🔥Don't miss it! - Complete guide by CodersArts.",
+      "year": 2024
+    },
+    {
+      "title": "[Optical Flow] Vehicle Speed Estimation using OpenCV, Python",
+      "creator": "AI with Seowoo",
+      "url": "https://www.youtube.com/watch?v=AEd7tev39Ns",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "[Optical Flow] Vehicle Speed Estimation using OpenCV, Python - Complete guide by AI with Seowoo.",
+      "year": 2024
+    },
+    {
+      "title": "The Algorithm That Taught Cameras to See",
+      "creator": "LearnOpenCV",
+      "url": "https://www.youtube.com/watch?v=7fcZ2C_A0fU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Algorithm That Taught Cameras to See - Complete guide by LearnOpenCV.",
+      "year": 2024
+    },
+    {
+      "title": "Hands-on Computer Vision Bootcamp [LIVE] by MIT PhD",
+      "creator": "Vizuara",
+      "url": "https://www.youtube.com/watch?v=A-JMK8AYy28",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Hands-on Computer Vision Bootcamp [LIVE] by MIT PhD - Complete guide by Vizuara.",
+      "year": 2024
+    },
+    {
+      "title": "Car Detection using OpenCV Python & yolov11",
+      "creator": "Pyresearch",
+      "url": "https://www.youtube.com/watch?v=bfomGTPmQ74",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Car Detection using OpenCV Python & yolov11 - Complete guide by Pyresearch.",
+      "year": 2024
+    },
+    {
+      "title": "Deep Learning Vision Architectures Explained – Python Course on CNNs and Vision Transformers",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=tfpGS_doPvY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Deep Learning Vision Architectures Explained – Python Course on CNNs and Vision Transformers - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Natural Language Processing with spaCy & Python - Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=dIUTsFT2MeQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Natural Language Processing with spaCy & Python - Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Opencv python ( Video Capture)",
+      "creator": "Code Master",
+      "url": "https://www.youtube.com/watch?v=byWx1WUzBcU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Opencv python ( Video Capture) - Complete guide by Code Master.",
+      "year": 2024
+    },
+    {
+      "title": "Real Time Egg Counting with computer vision",
+      "creator": "Pyresearch",
+      "url": "https://www.youtube.com/watch?v=GTk_WwfDSQ8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Real Time Egg Counting with computer vision - Complete guide by Pyresearch.",
+      "year": 2024
+    },
+    {
+      "title": "Object Detection 101 Course - Including 4xProjects | Computer Vision",
+      "creator": "Murtaza's Workshop - Robotics and AI",
+      "url": "https://www.youtube.com/watch?v=WgPbbWmnXJ8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Object Detection 101 Course - Including 4xProjects | Computer Vision - Complete guide by Murtaza's Workshop - Robotics and AI.",
+      "year": 2024
+    },
+    {
+      "title": "OpenCV tutorial for beginners | FULL COURSE in 3 hours with Python",
+      "creator": "Felipe Tambasco",
+      "url": "https://www.youtube.com/watch?v=eDIj5LuIL4A",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "OpenCV tutorial for beginners | FULL COURSE in 3 hours with Python - Complete guide by Felipe Tambasco.",
+      "year": 2024
+    },
+    {
+      "title": "Natural Language Processing (NLP) Tutorial with Python & NLTK",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=X2vAabgKiuM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Natural Language Processing (NLP) Tutorial with Python & NLTK - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "End to End NLP Pipeline | NLP Pipeline | Lecture 2 NLP Course",
+      "creator": "CampusX",
+      "url": "https://www.youtube.com/watch?v=29qyNyNkLHs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "End to End NLP Pipeline | NLP Pipeline | Lecture 2 NLP Course - Complete guide by CampusX.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to NLP | NLP Lecture 1 | End to End NLP Course",
+      "creator": "CampusX",
+      "url": "https://www.youtube.com/watch?v=zlUpTlaxAKI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to NLP | NLP Lecture 1 | End to End NLP Course - Complete guide by CampusX.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Computer Vision in 30 Days | 30 Days coding challenge",
+      "creator": "Felipe Tambasco",
+      "url": "https://www.youtube.com/watch?v=HiTw5KFw7ic",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Computer Vision in 30 Days | 30 Days coding challenge - Complete guide by Felipe Tambasco.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction | NLP Tutorial For Beginners In Python  -  Season 1 Episode 1",
+      "creator": "codebasics",
+      "url": "https://www.youtube.com/watch?v=R-AG4-qZs1A",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Introduction | NLP Tutorial For Beginners In Python  -  Season 1 Episode 1 - Complete guide by codebasics.",
+      "year": 2024
+    },
+    {
+      "title": "NLP Demystified 1: Introduction",
+      "creator": "Future Mojo",
+      "url": "https://www.youtube.com/watch?v=diOXCK7I2wA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "NLP Demystified 1: Introduction - Complete guide by Future Mojo.",
+      "year": 2024
+    },
+    {
+      "title": "Complete NLP Machine Learning In One Shot",
+      "creator": "Krish Naik",
+      "url": "https://www.youtube.com/watch?v=ENLEjGozrio",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete NLP Machine Learning In One Shot - Complete guide by Krish Naik.",
+      "year": 2024
+    },
+    {
+      "title": "NLP Demystified 2: Text Tokenization",
+      "creator": "Future Mojo",
+      "url": "https://www.youtube.com/watch?v=LZFriJ85BfM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "NLP Demystified 2: Text Tokenization - Complete guide by Future Mojo.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Complete NLP with Project (Bag of Words, Tf-idf) | For Beginners",
+      "creator": "Sheryians AI School",
+      "url": "https://www.youtube.com/watch?v=yiNS_Sh9KDA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn Complete NLP with Project (Bag of Words, Tf-idf) | For Beginners - Complete guide by Sheryians AI School.",
+      "year": 2024
+    },
+    {
+      "title": "What is MCP | Complete Details with example",
+      "creator": "Gate Smashers",
+      "url": "https://www.youtube.com/watch?v=GxHOSWxp7c0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is MCP | Complete Details with example - Complete guide by Gate Smashers.",
+      "year": 2024
+    },
+    {
+      "title": "Sequencing - Turning sentences into data (NLP Zero to Hero - Part 2)",
+      "creator": "TensorFlow",
+      "url": "https://www.youtube.com/watch?v=r9QjkdSJZ2g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Sequencing - Turning sentences into data (NLP Zero to Hero - Part 2) - Complete guide by TensorFlow.",
+      "year": 2024
+    },
+    {
+      "title": "Solving the secrets of gravity - with Claudia de Rham",
+      "creator": "The Royal Institution",
+      "url": "https://www.youtube.com/watch?v=O7MN64JlsMw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Solving the secrets of gravity - with Claudia de Rham - Complete guide by The Royal Institution.",
+      "year": 2024
+    },
+    {
+      "title": "Why NLP is booming right now? | NLP Tutorial For Beginners In Python - S1 E2",
+      "creator": "codebasics",
+      "url": "https://www.youtube.com/watch?v=3y2-IaBeIs0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Why NLP is booming right now? | NLP Tutorial For Beginners In Python - S1 E2 - Complete guide by codebasics.",
+      "year": 2024
+    },
+    {
+      "title": "Natural Language Processing - Tokenization (NLP Zero to Hero - Part 1)",
+      "creator": "TensorFlow",
+      "url": "https://www.youtube.com/watch?v=fNxaJsNG3-s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Natural Language Processing - Tokenization (NLP Zero to Hero - Part 1) - Complete guide by TensorFlow.",
+      "year": 2024
+    },
+    {
+      "title": "Complete NLP One-Shot | Natural Language Processing Course",
+      "creator": "Gate Smashers",
+      "url": "https://www.youtube.com/watch?v=E-wcRzz8KTA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete NLP One-Shot | Natural Language Processing Course - Complete guide by Gate Smashers.",
+      "year": 2024
+    },
+    {
+      "title": "PreTraining vs FineTuning | Complete Explanation with example",
+      "creator": "Gate Smashers",
+      "url": "https://www.youtube.com/watch?v=4wcydrhfWPQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PreTraining vs FineTuning | Complete Explanation with example - Complete guide by Gate Smashers.",
+      "year": 2024
+    },
+    {
+      "title": "Natural Language Processing (NLP) Full Course | Learn NLP in Deep Learning Tutorial",
+      "creator": "WsCube Tech",
+      "url": "https://www.youtube.com/watch?v=-33oXx0TwHI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Natural Language Processing (NLP) Full Course | Learn NLP in Deep Learning Tutorial - Complete guide by WsCube Tech.",
+      "year": 2024
+    },
+    {
+      "title": "From RNNs to Transformers: The Complete Neural Machine Translation Journey",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=kRv2ElPNAdY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "From RNNs to Transformers: The Complete Neural Machine Translation Journey - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Vector Embeddings Tutorial – Code Your Own AI Assistant with GPT-4 API + LangChain + NLP",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=yfHHvmaMkcA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Vector Embeddings Tutorial – Code Your Own AI Assistant with GPT-4 API + LangChain + NLP - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Stanford CS224N: NLP with Deep Learning | Winter 2021 | Lecture 1 - Intro & Word Vectors",
+      "creator": "Stanford Online",
+      "url": "https://www.youtube.com/watch?v=rmVRLeJRkl4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Stanford CS224N: NLP with Deep Learning | Winter 2021 | Lecture 1 - Intro & Word Vectors - Complete guide by Stanford Online.",
+      "year": 2024
+    },
+    {
+      "title": "Natural Language Processing NLP",
+      "creator": "LuckyReact",
+      "url": "https://www.youtube.com/watch?v=ug25I_zeWQk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Natural Language Processing NLP - Complete guide by LuckyReact.",
+      "year": 2024
+    },
+    {
+      "title": "Natural Language Processing With Python (NLTK) | Python Tutorial",
+      "creator": "TechnicallyRipped",
+      "url": "https://www.youtube.com/watch?v=FkDsXPmbhNQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Natural Language Processing With Python (NLTK) | Python Tutorial - Complete guide by TechnicallyRipped.",
+      "year": 2024
+    },
+    {
+      "title": "What is NLP? (Neuro Linguistic Programming)? 🧠 |  3XP Podcast @AyushiMathur",
+      "creator": "3XP Podcast",
+      "url": "https://www.youtube.com/watch?v=Iv6Qq5z5H4o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is NLP? (Neuro Linguistic Programming)? 🧠 |  3XP Podcast @AyushiMathur - Complete guide by 3XP Podcast.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Natural Language Processing (NLP) Tutorial in Python! (with examples)",
+      "creator": "Keith Galli",
+      "url": "https://www.youtube.com/watch?v=M7SWr5xObkA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete Natural Language Processing (NLP) Tutorial in Python! (with examples) - Complete guide by Keith Galli.",
+      "year": 2024
+    },
+    {
+      "title": "Day 19 - Understanding Natural Language Processing (NLP) | 50Days Data Science Challenge |OdinSchool",
+      "creator": "OdinSchool",
+      "url": "https://www.youtube.com/watch?v=_Zxp14-oC_k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Day 19 - Understanding Natural Language Processing (NLP) | 50Days Data Science Challenge |OdinSchool - Complete guide by OdinSchool.",
+      "year": 2024
+    },
+    {
+      "title": "You Will Never Struggle With NLP (Natural Language Processing) Again",
+      "creator": "Volkan Erdogan",
+      "url": "https://www.youtube.com/watch?v=V06wtLldQdQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "You Will Never Struggle With NLP (Natural Language Processing) Again - Complete guide by Volkan Erdogan.",
+      "year": 2024
+    },
+    {
+      "title": "My First AI Chatbot Project  | Built Using VS Code #wedding #coding #freecodecamp #gpt #nlp",
+      "creator": "Chozen web ",
+      "url": "https://www.youtube.com/watch?v=ocEtVPXpLdM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "My First AI Chatbot Project  | Built Using VS Code #wedding #coding #freecodecamp #gpt #nlp - Complete guide by Chozen web .",
+      "year": 2024
+    },
+    {
+      "title": "NLP Basics & Azure AI Quick Start | Natural Language Processing Explained",
+      "creator": "Vikram Kumar (TechCirrus-SG)",
+      "url": "https://www.youtube.com/watch?v=PpnVP-YnJx4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "NLP Basics & Azure AI Quick Start | Natural Language Processing Explained - Complete guide by Vikram Kumar (TechCirrus-SG).",
+      "year": 2024
+    },
+    {
+      "title": "Animation: Natural Language Processing (NLP) for Absolute Beginners",
+      "creator": "Mehdi Hatamian",
+      "url": "https://www.youtube.com/watch?v=R1SETIuBBUc",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Animation: Natural Language Processing (NLP) for Absolute Beginners - Complete guide by Mehdi Hatamian.",
+      "year": 2024
+    },
+    {
+      "title": "What is Natural Language Processing(NLP) for machine learning? #coding #softwaredeveloper #ai",
+      "creator": "Harshad Kanade",
+      "url": "https://www.youtube.com/watch?v=rJSoclPoCsc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Natural Language Processing(NLP) for machine learning? #coding #softwaredeveloper #ai - Complete guide by Harshad Kanade.",
+      "year": 2024
+    },
+    {
+      "title": "AI Learning Roadmap 2026",
+      "creator": "LUMEN-Inside AI",
+      "url": "https://www.youtube.com/watch?v=0GV2JEKVCcY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AI Learning Roadmap 2026 - Complete guide by LUMEN-Inside AI.",
+      "year": 2024
+    },
+    {
+      "title": "Natural Language Processing | Everyday Life",
+      "creator": "Ai Active Baba",
+      "url": "https://www.youtube.com/watch?v=AQBRNIRs2cY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Natural Language Processing | Everyday Life - Complete guide by Ai Active Baba.",
+      "year": 2024
+    },
+    {
+      "title": "AI is being used for natural language processing (NLP) to... #shorts #dailyfacts #aifacts #subscribe",
+      "creator": "Daily Facts",
+      "url": "https://www.youtube.com/watch?v=1ArEO3qGjwU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AI is being used for natural language processing (NLP) to... #shorts #dailyfacts #aifacts #subscribe - Complete guide by Daily Facts.",
+      "year": 2024
+    },
+    {
+      "title": "5 Free Courses to Master NLP (Natural Language Processing) #NLP #datascience #datascientist #ai",
+      "creator": "Chaitanya Data",
+      "url": "https://www.youtube.com/watch?v=Ah8lLrco60E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "5 Free Courses to Master NLP (Natural Language Processing) #NLP #datascience #datascientist #ai - Complete guide by Chaitanya Data.",
+      "year": 2024
+    },
+    {
+      "title": "What is natural language processing?? | AI Interview Question Explained #machinelearning #nlp #ai",
+      "creator": "OopsPython",
+      "url": "https://www.youtube.com/watch?v=ZvrKLCHDOpI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is natural language processing?? | AI Interview Question Explained #machinelearning #nlp #ai - Complete guide by OopsPython.",
+      "year": 2024
+    },
+    {
+      "title": "What Is NLP? The Message House and the Wrong Bank",
+      "creator": "The Arthi AI Collective",
+      "url": "https://www.youtube.com/watch?v=9a9IuGCrdyA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What Is NLP? The Message House and the Wrong Bank - Complete guide by The Arthi AI Collective.",
+      "year": 2024
+    },
+    {
+      "title": "NLP Explained in Simple Words! 🧠✨",
+      "creator": "Tribe of Transformers ",
+      "url": "https://www.youtube.com/watch?v=ZpS2Exk_H6Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "NLP Explained in Simple Words! 🧠✨ - Complete guide by Tribe of Transformers .",
+      "year": 2024
+    },
+    {
+      "title": "What is Natural Language processing ? #machinelearning #nlp",
+      "creator": "Tarun Khandagare",
+      "url": "https://www.youtube.com/watch?v=Cuk1hmEW8mE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Natural Language processing ? #machinelearning #nlp - Complete guide by Tarun Khandagare.",
+      "year": 2024
+    },
+    {
+      "title": "NLP Natural language processing #ai #coding #dataanlysis #tech #programming #datascience #nlp",
+      "creator": "TechVerse Academic",
+      "url": "https://www.youtube.com/watch?v=BGUb5pCuTbI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "NLP Natural language processing #ai #coding #dataanlysis #tech #programming #datascience #nlp - Complete guide by TechVerse Academic.",
+      "year": 2024
+    },
+    {
+      "title": "Natural Language Processing #shorts #naturallanguageprocessing",
+      "creator": "SOURAV SIR'S CLASSES",
+      "url": "https://www.youtube.com/watch?v=7Bd7J6apBvg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Natural Language Processing #shorts #naturallanguageprocessing - Complete guide by SOURAV SIR'S CLASSES.",
+      "year": 2024
+    },
+    {
+      "title": "what is NLTK ? #nlp #interviewquestions #python #shorts",
+      "creator": "Tech Bridge Academy ",
+      "url": "https://www.youtube.com/watch?v=2DygCP4kfWQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "what is NLTK ? #nlp #interviewquestions #python #shorts - Complete guide by Tech Bridge Academy .",
+      "year": 2024
+    },
+    {
+      "title": "What is NLP (Natural Language Processing) #nlp #ai #viralshort #trending #foryou",
+      "creator": "Coding with Goutham!",
+      "url": "https://www.youtube.com/watch?v=-bhsHKHixXE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is NLP (Natural Language Processing) #nlp #ai #viralshort #trending #foryou - Complete guide by Coding with Goutham!.",
+      "year": 2024
+    },
+    {
+      "title": "What is Natural Language Processing",
+      "creator": "Sujar Henry",
+      "url": "https://www.youtube.com/watch?v=T-x1qOb-op0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Natural Language Processing - Complete guide by Sujar Henry.",
+      "year": 2024
+    },
+    {
+      "title": "Top 5 Books for Natural Language Processing #shorts #engineering #coding",
+      "creator": "Smarty Geek",
+      "url": "https://www.youtube.com/watch?v=C7m3rvd2vf8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top 5 Books for Natural Language Processing #shorts #engineering #coding - Complete guide by Smarty Geek.",
+      "year": 2024
+    },
+    {
+      "title": "NLP Demystified  Master Natural Language Processing Today #earn #AI #shorts #jobsearch #viral #reels",
+      "creator": "Informatics for all",
+      "url": "https://www.youtube.com/watch?v=S9YRtbBgZUE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "NLP Demystified  Master Natural Language Processing Today #earn #AI #shorts #jobsearch #viral #reels - Complete guide by Informatics for all.",
+      "year": 2024
+    },
+    {
+      "title": "Stanford CS229 Machine Learning I Introduction I 2022 I Lecture 1",
+      "creator": "Stanford Online",
+      "url": "https://www.youtube.com/watch?v=Bl4Feh_Mjvo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Stanford CS229 Machine Learning I Introduction I 2022 I Lecture 1 - Complete guide by Stanford Online.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 1 | Machine Learning (Stanford)",
+      "creator": "Stanford",
+      "url": "https://www.youtube.com/watch?v=UzxYlbK2c7E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 1 | Machine Learning (Stanford) - Complete guide by Stanford.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 2 | Machine Learning (Stanford)",
+      "creator": "Stanford",
+      "url": "https://www.youtube.com/watch?v=5u4G23_OohI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 2 | Machine Learning (Stanford) - Complete guide by Stanford.",
+      "year": 2024
+    },
+    {
+      "title": "Stanford CS230 | Autumn 2025 | Lecture 1: Introduction to Deep Learning",
+      "creator": "Stanford Online",
+      "url": "https://www.youtube.com/watch?v=_NLHFoVNlbg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Stanford CS230 | Autumn 2025 | Lecture 1: Introduction to Deep Learning - Complete guide by Stanford Online.",
+      "year": 2024
+    },
+    {
+      "title": "Stanford CS109 Probability for Computer Scientists I Counting I 2022 I Lecture 1",
+      "creator": "Stanford Online",
+      "url": "https://www.youtube.com/watch?v=2MuDZIAzBMY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Stanford CS109 Probability for Computer Scientists I Counting I 2022 I Lecture 1 - Complete guide by Stanford Online.",
+      "year": 2024
+    },
+    {
+      "title": "🚀 Andrew Ng – The GOAT of AI & Machine Learning! 🎓🤖 #ai #aiisthefuture #artificialintelligence",
+      "creator": "ElevateGPT",
+      "url": "https://www.youtube.com/watch?v=methnOT9aWE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🚀 Andrew Ng – The GOAT of AI & Machine Learning! 🎓🤖 #ai #aiisthefuture #artificialintelligence - Complete guide by ElevateGPT.",
+      "year": 2024
+    },
+    {
+      "title": "Andrew Ng's Secret to Mastering Machine Learning - Part 2 #shorts",
+      "creator": "Data Sensei",
+      "url": "https://www.youtube.com/watch?v=Z4dNMYj-bPk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Andrew Ng's Secret to Mastering Machine Learning - Part 2 #shorts - Complete guide by Data Sensei.",
+      "year": 2024
+    },
+    {
+      "title": "What advice do you have for getting started in AI & Machine Learning? - Fei-Fei Li & Andrew Ng",
+      "creator": "Stanford Online",
+      "url": "https://www.youtube.com/watch?v=cxJi15eXWJU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What advice do you have for getting started in AI & Machine Learning? - Fei-Fei Li & Andrew Ng - Complete guide by Stanford Online.",
+      "year": 2024
+    },
+    {
+      "title": "Skip Netflix, Watch This Stanford AI Lecture Instead  #coding #LLM #AI #stanford  #machinelearning",
+      "creator": "Anurag Builds",
+      "url": "https://www.youtube.com/watch?v=qe7KmZK11ms",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Skip Netflix, Watch This Stanford AI Lecture Instead  #coding #LLM #AI #stanford  #machinelearning - Complete guide by Anurag Builds.",
+      "year": 2024
+    },
+    {
+      "title": "Is Andrew Ng’s machine learning course too mathematical?",
+      "creator": "Mithuna Learns",
+      "url": "https://www.youtube.com/watch?v=7gIr47cwvyk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Is Andrew Ng’s machine learning course too mathematical? - Complete guide by Mithuna Learns.",
+      "year": 2024
+    },
+    {
+      "title": "Advice for machine learning beginners | Andrej Karpathy and Lex Fridman",
+      "creator": "Lex Clips",
+      "url": "https://www.youtube.com/watch?v=I2ZK3ngNvvI",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Advice for machine learning beginners | Andrej Karpathy and Lex Fridman - Complete guide by Lex Clips.",
+      "year": 2024
+    },
+    {
+      "title": "Andrew Ng: The Skill That Keeps You Relevant in the AI Era",
+      "creator": "Stanford Online",
+      "url": "https://www.youtube.com/watch?v=SCyp1iENDw0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Andrew Ng: The Skill That Keeps You Relevant in the AI Era - Complete guide by Stanford Online.",
+      "year": 2024
+    },
+    {
+      "title": "10 FREE Stanford AI & Machine Learning Courses (Official) | CS229, CS231N, LLM, #shorts #memes",
+      "creator": "AI Developer 🤖💻",
+      "url": "https://www.youtube.com/watch?v=IgXccYgGhOQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "10 FREE Stanford AI & Machine Learning Courses (Official) | CS229, CS231N, LLM, #shorts #memes - Complete guide by AI Developer 🤖💻.",
+      "year": 2024
+    },
+    {
+      "title": "What inspired you to choose AI and Robotics as a profession? - Chelsea Finn & Andrew Ng",
+      "creator": "Stanford Online",
+      "url": "https://www.youtube.com/watch?v=CggrzkwKM9k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What inspired you to choose AI and Robotics as a profession? - Chelsea Finn & Andrew Ng - Complete guide by Stanford Online.",
+      "year": 2024
+    },
+    {
+      "title": "ML Specialization by Andrew Ng 🤖 #vedantu #harshsir #VED #machinelearning #AI #Stanford",
+      "creator": "CrackJeeNeet",
+      "url": "https://www.youtube.com/watch?v=zBSNWTrOQek",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "ML Specialization by Andrew Ng 🤖 #vedantu #harshsir #VED #machinelearning #AI #Stanford - Complete guide by CrackJeeNeet.",
+      "year": 2024
+    },
+    {
+      "title": "ML and DL Stanford Course Notes | CS229 Notes | Free Resources | Charan_techstudio",
+      "creator": "Charan_techstudio",
+      "url": "https://www.youtube.com/watch?v=AaW-Fr10zEE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "ML and DL Stanford Course Notes | CS229 Notes | Free Resources | Charan_techstudio - Complete guide by Charan_techstudio.",
+      "year": 2024
+    },
+    {
+      "title": "Stanford put its AI courses on YouTube for free, including Andrew Ng's machine learning course.",
+      "creator": "Alex Safari | AI for Small Business",
+      "url": "https://www.youtube.com/watch?v=iE9gZnlV-Ts",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Stanford put its AI courses on YouTube for free, including Andrew Ng's machine learning course. - Complete guide by Alex Safari | AI for Small Business.",
+      "year": 2024
+    },
+    {
+      "title": "Can You Master Machine Learning in 30 Days with Andrew Ng? #ai #machinelearning #datascience",
+      "creator": "Umer Haddii",
+      "url": "https://www.youtube.com/watch?v=AExJfzYv8yc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Can You Master Machine Learning in 30 Days with Andrew Ng? #ai #machinelearning #datascience - Complete guide by Umer Haddii.",
+      "year": 2024
+    },
+    {
+      "title": "Machine Learning starts here Stanford CS229 #machinelearning",
+      "creator": "Vishal Ekka",
+      "url": "https://www.youtube.com/watch?v=Q_OklYANBFw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Machine Learning starts here Stanford CS229 #machinelearning - Complete guide by Vishal Ekka.",
+      "year": 2024
+    },
+    {
+      "title": "Stanford CS 229 Machine Learning Cheatsheet | 20k Stars Repo",
+      "creator": "AI Star Pick",
+      "url": "https://www.youtube.com/watch?v=tijCkhOCzv4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Stanford CS 229 Machine Learning Cheatsheet | 20k Stars Repo - Complete guide by AI Star Pick.",
+      "year": 2024
+    },
+    {
+      "title": "Free Deep Learning Course by Andrew Ng at Stanford | Neural Networks & AI",
+      "creator": "Collabs Booster",
+      "url": "https://www.youtube.com/watch?v=-F3xwFRfJcc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Free Deep Learning Course by Andrew Ng at Stanford | Neural Networks & AI - Complete guide by Collabs Booster.",
+      "year": 2024
+    },
+    {
+      "title": "The REASON Why Andrew Ng Wanted to Study AI #shorts #ai #technology #stanford",
+      "creator": "GenAISys",
+      "url": "https://www.youtube.com/watch?v=xF0KCdF5inA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The REASON Why Andrew Ng Wanted to Study AI #shorts #ai #technology #stanford - Complete guide by GenAISys.",
+      "year": 2024
+    },
+    {
+      "title": "First impressions of Andrew Ng’s machine learning course",
+      "creator": "Mithuna Learns",
+      "url": "https://www.youtube.com/watch?v=B3uiPF3LinY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "First impressions of Andrew Ng’s machine learning course - Complete guide by Mithuna Learns.",
+      "year": 2024
+    },
+    {
+      "title": "Andrew Ng, Goat of AI shares a beautiful hiring story @NoPriorsPodcast",
+      "creator": "Room of CEO",
+      "url": "https://www.youtube.com/watch?v=4_rcDiufWZ4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Andrew Ng, Goat of AI shares a beautiful hiring story @NoPriorsPodcast - Complete guide by Room of CEO.",
+      "year": 2024
+    },
+    {
+      "title": "Why Andrew Ng put his Stanford class online: the same jokes, every year",
+      "creator": "DevThrottle",
+      "url": "https://www.youtube.com/watch?v=gzqmM4s0htI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why Andrew Ng put his Stanford class online: the same jokes, every year - Complete guide by DevThrottle.",
+      "year": 2024
+    },
+    {
+      "title": "Machine Learning",
+      "creator": "Enise Aydın",
+      "url": "https://www.youtube.com/watch?v=-Vm9P7w1Qrs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Machine Learning - Complete guide by Enise Aydın.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Machine Learning from a Pioneer – Free Stanford Course",
+      "creator": "kudo kido",
+      "url": "https://www.youtube.com/watch?v=8oKXeK4r4fo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Machine Learning from a Pioneer – Free Stanford Course - Complete guide by kudo kido.",
+      "year": 2024
+    },
+    {
+      "title": "Free DS and ML courses from TOP universities and Google!",
+      "creator": "Scholar Strategy by Nistha Tripathi",
+      "url": "https://www.youtube.com/watch?v=nfv9WF-2M74",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Free DS and ML courses from TOP universities and Google! - Complete guide by Scholar Strategy by Nistha Tripathi.",
+      "year": 2024
+    },
+    {
+      "title": "Deep Learning Crash Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=VyWAvY2CF9c",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Deep Learning Crash Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Understanding Deep Learning Research Tutorial - Theory, Code and Math",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=onU5Hbb3qao",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Understanding Deep Learning Research Tutorial - Theory, Code and Math - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "LLM Fine-Tuning Course – From Supervised FT to RLHF, LoRA, and Multimodal",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=CcrC5zSv1iA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "LLM Fine-Tuning Course – From Supervised FT to RLHF, LoRA, and Multimodal - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Stanford CS229: 10K examples cut variance in 2019",
+      "creator": "MacroGlide Tech",
+      "url": "https://www.youtube.com/watch?v=R9R-ntreLqM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Stanford CS229: 10K examples cut variance in 2019 - Complete guide by MacroGlide Tech.",
+      "year": 2024
+    },
+    {
+      "title": "Deep Learning Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=HJd1I3FdSnY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Deep Learning Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Generative AI for Developers – Comprehensive Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=F0GQ0l2NfHA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Generative AI for Developers – Comprehensive Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 2: Large Language Models (LLM) Basics",
+      "creator": "Vizuara",
+      "url": "https://www.youtube.com/watch?v=3dWzNZXA8DY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 2: Large Language Models (LLM) Basics - Complete guide by Vizuara.",
+      "year": 2024
+    },
+    {
+      "title": "Create a Large Language Model from Scratch with Python – Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=UU1WVnMk4E8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Create a Large Language Model from Scratch with Python – Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 1: Building LLMs from scratch: Series introduction",
+      "creator": "Vizuara",
+      "url": "https://www.youtube.com/watch?v=Xpr8D6LeAtw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 1: Building LLMs from scratch: Series introduction - Complete guide by Vizuara.",
+      "year": 2024
+    },
+    {
+      "title": "LLMs from Scratch – Practical Engineering from Base Model to PPO RLHF",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=p3sij8QzONQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "LLMs from Scratch – Practical Engineering from Base Model to PPO RLHF - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "LLM Course – Build a Semantic Book Recommender (Python, OpenAI, LangChain, Gradio)",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=Q7mS1VHm3Yw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "LLM Course – Build a Semantic Book Recommender (Python, OpenAI, LangChain, Gradio) - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "How Large Language Models Work",
+      "creator": "IBM Technology",
+      "url": "https://www.youtube.com/watch?v=5sLYAQS9sWQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Large Language Models Work - Complete guide by IBM Technology.",
+      "year": 2024
+    },
+    {
+      "title": "AI Agents For Beginners – OpenClaw Case Study",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=AZDSpS5v57w",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "AI Agents For Beginners – OpenClaw Case Study - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "What is an LLM? AI Explained Simply",
+      "creator": "GeeksforGeeks",
+      "url": "https://www.youtube.com/watch?v=0pALCSnVaM8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is an LLM? AI Explained Simply - Complete guide by GeeksforGeeks.",
+      "year": 2024
+    },
+    {
+      "title": "What is Large Language Model (LLM)?",
+      "creator": "codebasics",
+      "url": "https://www.youtube.com/watch?v=hMF_3DG7y0M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Large Language Model (LLM)? - Complete guide by codebasics.",
+      "year": 2024
+    },
+    {
+      "title": "Learn the basics of LLMs in 60 seconds with Beau Carnes",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=VWcCVKaN2vA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn the basics of LLMs in 60 seconds with Beau Carnes - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Ollama Course – Build AI Apps Locally",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=GWB9ApTPTv4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ollama Course – Build AI Apps Locally - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Google's Free Course To Learn LLMs From Scratch   #coding #GenerativeAI #llm",
+      "creator": "Anurag Builds",
+      "url": "https://www.youtube.com/watch?v=5jQsPXcVlU4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Google's Free Course To Learn LLMs From Scratch   #coding #GenerativeAI #llm - Complete guide by Anurag Builds.",
+      "year": 2024
+    },
+    {
+      "title": "LLMs haven't really gotten \"smarter\" - but the tools we use with them have",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=H_3sWUR9v7A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "LLMs haven't really gotten \"smarter\" - but the tools we use with them have - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "How to build your own LLM in 5 steps",
+      "creator": "Ray Fu",
+      "url": "https://www.youtube.com/watch?v=TvbtVey8SbA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to build your own LLM in 5 steps - Complete guide by Ray Fu.",
+      "year": 2024
+    },
+    {
+      "title": "Why understanding key ML concepts really helps you use LLMs more effectively",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=V9q-XvAwJQY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why understanding key ML concepts really helps you use LLMs more effectively - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Ollama vs vLLM in 2027 | Which Is Better for Running AI Models?| Differences Explained | Simplilearn",
+      "creator": "Simplilearn",
+      "url": "https://www.youtube.com/watch?v=o0aom9pVls0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ollama vs vLLM in 2027 | Which Is Better for Running AI Models?| Differences Explained | Simplilearn - Complete guide by Simplilearn.",
+      "year": 2024
+    },
+    {
+      "title": "6 FREE YouTube resources to learn AI | Check description 🚀",
+      "creator": "Shivanjali",
+      "url": "https://www.youtube.com/watch?v=0n5g_DQ0RSY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "6 FREE YouTube resources to learn AI | Check description 🚀 - Complete guide by Shivanjali.",
+      "year": 2024
+    },
+    {
+      "title": "Build Your Own ChatGPT for FREE 😱 freeCodeCamp #shorts",
+      "creator": "100x Humans",
+      "url": "https://www.youtube.com/watch?v=wT7Uzarw_cw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build Your Own ChatGPT for FREE 😱 freeCodeCamp #shorts - Complete guide by 100x Humans.",
+      "year": 2024
+    },
+    {
+      "title": "What Is an LLM? Explained under 60 Seconds",
+      "creator": "Intellipaat",
+      "url": "https://www.youtube.com/watch?v=9J_KZ0wQ-5k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What Is an LLM? Explained under 60 Seconds - Complete guide by Intellipaat.",
+      "year": 2024
+    },
+    {
+      "title": "How to Make Your Own LLM — Easy Roadmap",
+      "creator": "Code With Aarohi Hindi",
+      "url": "https://www.youtube.com/watch?v=w-2kMuz7Zrg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Make Your Own LLM — Easy Roadmap - Complete guide by Code With Aarohi Hindi.",
+      "year": 2024
+    },
+    {
+      "title": "3 Resources to build LLMs from scratch",
+      "creator": "Readecoded",
+      "url": "https://www.youtube.com/watch?v=oW8607soFwQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "3 Resources to build LLMs from scratch - Complete guide by Readecoded.",
+      "year": 2024
+    },
+    {
+      "title": "LLMs Explained - How Large Language Models work",
+      "creator": "Pure Tech Lens",
+      "url": "https://www.youtube.com/watch?v=dFoD1CpJ1-0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "LLMs Explained - How Large Language Models work - Complete guide by Pure Tech Lens.",
+      "year": 2024
+    },
+    {
+      "title": "Hot take from the fCC podcast: Use LLMs but don't treat them as a silver bullet.",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=oHAiHuEVo8A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Hot take from the fCC podcast: Use LLMs but don't treat them as a silver bullet. - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Building an LLM from Scratch Ep 1",
+      "creator": "Sujar Henry",
+      "url": "https://www.youtube.com/watch?v=1RFjv1oXbtM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Building an LLM from Scratch Ep 1 - Complete guide by Sujar Henry.",
+      "year": 2024
+    },
+    {
+      "title": "What Is an LLM? Large Language Models Explained",
+      "creator": "Lev Selector",
+      "url": "https://www.youtube.com/watch?v=CYrkVEfPeqo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What Is an LLM? Large Language Models Explained - Complete guide by Lev Selector.",
+      "year": 2024
+    },
+    {
+      "title": "9 best youtube channels to learn AI Agents",
+      "creator": "tej",
+      "url": "https://www.youtube.com/watch?v=6KPmdXmO32A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "9 best youtube channels to learn AI Agents - Complete guide by tej.",
+      "year": 2024
+    },
+    {
+      "title": "How to Build a Large Language Model (LLM) | From Data to Deployment Explained",
+      "creator": "Sandeep G",
+      "url": "https://www.youtube.com/watch?v=6WuSoVu7Fng",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Build a Large Language Model (LLM) | From Data to Deployment Explained - Complete guide by Sandeep G.",
+      "year": 2024
+    },
+    {
+      "title": "What has learning to code taught you...?",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=hmA8gOvH4AY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What has learning to code taught you...? - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "LLM fundamentals?",
+      "creator": "Backend Wala",
+      "url": "https://www.youtube.com/watch?v=HU7l3TutFpc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "LLM fundamentals? - Complete guide by Backend Wala.",
+      "year": 2024
+    },
+    {
+      "title": "🎓 3 Free Videos That Equal an AI Degree (From Beginner to Pro)",
+      "creator": "RisewithAnuj",
+      "url": "https://www.youtube.com/watch?v=WdoVrDXPB8I",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "🎓 3 Free Videos That Equal an AI Degree (From Beginner to Pro) - Complete guide by RisewithAnuj.",
+      "year": 2024
+    },
+    {
+      "title": "LLMs — How ChatGPT works & What is RAG? | Retrieval-Augmented Generation Explained 🔥",
+      "creator": "CodeWithHarry",
+      "url": "https://www.youtube.com/watch?v=hYZKrPOyEYk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "LLMs — How ChatGPT works & What is RAG? | Retrieval-Augmented Generation Explained 🔥 - Complete guide by CodeWithHarry.",
+      "year": 2024
+    },
+    {
+      "title": "Run a Model That Beat ChatGPT on a 6 GB Laptop (AirLLM)",
+      "creator": "Digvijaysing Rajput",
+      "url": "https://www.youtube.com/watch?v=buXI5qGrnbo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Run a Model That Beat ChatGPT on a 6 GB Laptop (AirLLM) - Complete guide by Digvijaysing Rajput.",
+      "year": 2024
+    },
+    {
+      "title": "Train Your Own LLM – Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=9Ge0sMm65jo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Train Your Own LLM – Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "How LLMs Actually Work : Transformers, Tokens & Attention Explained",
+      "creator": "Kernel Cast",
+      "url": "https://www.youtube.com/watch?v=XPfmajHFW1Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How LLMs Actually Work : Transformers, Tokens & Attention Explained - Complete guide by Kernel Cast.",
+      "year": 2024
+    },
+    {
+      "title": "Building an LLM From Scratch",
+      "creator": "Sujar Henry",
+      "url": "https://www.youtube.com/watch?v=dNXuO_Vx4Jc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Building an LLM From Scratch - Complete guide by Sujar Henry.",
+      "year": 2024
+    },
+    {
+      "title": "Prompt Engineering Tutorial – Master ChatGPT and LLM Responses",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=_ZvnD73m40o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Prompt Engineering Tutorial – Master ChatGPT and LLM Responses - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Development with Large Language Models Tutorial – OpenAI, Langchain, Agents, Chroma",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=xZDB1naRUlk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Development with Large Language Models Tutorial – OpenAI, Langchain, Agents, Chroma - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "LLM Explained |  What is LLM",
+      "creator": "codebasics",
+      "url": "https://www.youtube.com/watch?v=67_aMPDk2zw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "LLM Explained |  What is LLM - Complete guide by codebasics.",
+      "year": 2024
+    },
+    {
+      "title": "Code Your Own Llama 4 LLM from Scratch – Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=biveB0gOlak",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Code Your Own Llama 4 LLM from Scratch – Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Open Models Coding Essentials – Running LLMs Locally and in the Cloud Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=HNVaYYxmwLU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Open Models Coding Essentials – Running LLMs Locally and in the Cloud Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Production RAG with LangChain & Vector Databases – Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=mHxLXzYjQRE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Production RAG with LangChain & Vector Databases – Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "LangChain Crash Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=lG7Uxts9SXs",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "LangChain Crash Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "LangGraph Complete Course for Beginners – Complex AI Agents with Python",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=jGg_1h0qzaM",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "LangGraph Complete Course for Beginners – Complex AI Agents with Python - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "LangChain GEN AI Tutorial – 6 End-to-End Projects using OpenAI, Google Gemini Pro, LLAMA2",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=x0AnCE9SE4A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "LangChain GEN AI Tutorial – 6 End-to-End Projects using OpenAI, Google Gemini Pro, LLAMA2 - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Agentic AI – Complete Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=Zy7EXDONlTY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Agentic AI – Complete Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Agentic AI Course In 10 Hours- Langchain, Langgraph, RAG,Vectorless RAG, Guardrails,Evals",
+      "creator": "Krish Naik",
+      "url": "https://www.youtube.com/watch?v=rV3HJ4LEZ7k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete Agentic AI Course In 10 Hours- Langchain, Langgraph, RAG,Vectorless RAG, Guardrails,Evals - Complete guide by Krish Naik.",
+      "year": 2024
+    },
+    {
+      "title": "Learn RAG From Scratch – Python AI Tutorial from a LangChain Engineer",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=sVcwVQRHIc8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn RAG From Scratch – Python AI Tutorial from a LangChain Engineer - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Generative AI Full Course – Gemini Pro, OpenAI, Llama, Langchain, Pinecone, Vector Databases & More",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=mEsleV16qdo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Generative AI Full Course – Gemini Pro, OpenAI, Llama, Langchain, Pinecone, Vector Databases & More - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Build Your Own AI Agent – Full Course with OpenAI, Langchain, Render Deployment",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=MnG0ugK2JAI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build Your Own AI Agent – Full Course with OpenAI, Langchain, Render Deployment - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Learn LangChain.js - Build LLM apps with JavaScript and OpenAI",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=HSZ_uaif57o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn LangChain.js - Build LLM apps with JavaScript and OpenAI - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Langchain Tutorial For Beginners (2026 Guide) | AI Agents For Data Engineers",
+      "creator": "Ansh Lamba",
+      "url": "https://www.youtube.com/watch?v=AOQyRiwydyo",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Langchain Tutorial For Beginners (2026 Guide) | AI Agents For Data Engineers - Complete guide by Ansh Lamba.",
+      "year": 2024
+    },
+    {
+      "title": "Ultimate LangChain Crash Course for Developers 🔥",
+      "creator": "DSwithBappy",
+      "url": "https://www.youtube.com/watch?v=Z2DNKJ7tVVg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ultimate LangChain Crash Course for Developers 🔥 - Complete guide by DSwithBappy.",
+      "year": 2024
+    },
+    {
+      "title": "Agentic AI Crash Course using LangChain | LangChain Crash Course",
+      "creator": "codebasics",
+      "url": "https://www.youtube.com/watch?v=D74el9mvNak",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Agentic AI Crash Course using LangChain | LangChain Crash Course - Complete guide by codebasics.",
+      "year": 2024
+    },
+    {
+      "title": "LangChain Full Crash Course - AI Agents in Python",
+      "creator": "NeuralNine",
+      "url": "https://www.youtube.com/watch?v=J7j5tCB_y4w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "LangChain Full Crash Course - AI Agents in Python - Complete guide by NeuralNine.",
+      "year": 2024
+    },
+    {
+      "title": "Python Essentials for AI Agents – Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=UsfpzxZNsPo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Python Essentials for AI Agents – Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Machine Learning",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAblStefaz_YOVpDWqcRScc2s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Machine Learning - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "LangChain Master Class For Beginners 2024 [+20 Examples, LangChain V0.2]",
+      "creator": "aiwithbrandon",
+      "url": "https://www.youtube.com/watch?v=yF9kGESAi3M",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "LangChain Master Class For Beginners 2024 [+20 Examples, LangChain V0.2] - Complete guide by aiwithbrandon.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Machine Learning Course with Projects | Learn ML Step-by-Step",
+      "creator": "Sheryians AI School",
+      "url": "https://www.youtube.com/playlist?list=PLaldQ9PzZd9qT0KsKJ7yCq70iFFP3MFJ5",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Complete Machine Learning Course with Projects | Learn ML Step-by-Step - Complete guide by Sheryians AI School.",
+      "year": 2024
+    },
+    {
+      "title": "Updated Langchain Version V1 Crash Course- Build Autonomous Agents",
+      "creator": "Krish Naik",
+      "url": "https://www.youtube.com/watch?v=vzJOAnwIokM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Updated Langchain Version V1 Crash Course- Build Autonomous Agents - Complete guide by Krish Naik.",
+      "year": 2024
+    },
+    {
+      "title": "Essence of linear algebra",
+      "creator": "3Blue1Brown",
+      "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Essence of linear algebra - Complete guide by 3Blue1Brown.",
+      "year": 2024
+    },
+    {
+      "title": "Machine Learning Tutorial Python | Machine Learning For Beginners",
+      "creator": "codebasics",
+      "url": "https://www.youtube.com/playlist?list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Machine Learning Tutorial Python | Machine Learning For Beginners - Complete guide by codebasics.",
+      "year": 2024
+    },
+    {
+      "title": "100 Days of Machine Learning | CampusX",
+      "creator": "CampusX",
+      "url": "https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "100 Days of Machine Learning | CampusX - Complete guide by CampusX.",
+      "year": 2024
+    },
+    {
+      "title": "Essence of calculus",
+      "creator": "3Blue1Brown",
+      "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Essence of calculus - Complete guide by 3Blue1Brown.",
+      "year": 2024
+    },
+    {
+      "title": "Deep Learning by 3Blue1Brown",
+      "creator": "Robin Hefner",
+      "url": "https://www.youtube.com/playlist?list=PLyVzKGKqOBMTeM8q21jiZnd2R9a-S2RKg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Deep Learning by 3Blue1Brown - Complete guide by Robin Hefner.",
+      "year": 2024
+    },
+    {
+      "title": "3blue1brown - Deep Learning",
+      "creator": "M",
+      "url": "https://www.youtube.com/playlist?list=PLOH0RpNCcyWRxD8bYrbZbVZrto0U8axHR",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "3blue1brown - Deep Learning - Complete guide by M.",
+      "year": 2024
+    },
+    {
+      "title": "Deep Learning by 3Blue1Brown",
+      "creator": "Kenji Asuka (Asuka Kenji)",
+      "url": "https://www.youtube.com/playlist?list=PLcCe-ymWq77ow42k4-ZrLzlM3F7Ha7smT",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Deep Learning by 3Blue1Brown - Complete guide by Kenji Asuka (Asuka Kenji).",
+      "year": 2024
+    },
+    {
+      "title": "3Blue1Brown Neural Network",
+      "creator": "atomsmasher101",
+      "url": "https://www.youtube.com/playlist?list=PL_h2yd2CGtBHEKwEH5iqTZH85wLS-eUzv",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "3Blue1Brown Neural Network - Complete guide by atomsmasher101.",
+      "year": 2024
+    },
+    {
+      "title": "Deep Learning with PyTorch Live Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbm3T2Eq1_KgloC7ogdXxdRa",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Deep Learning with PyTorch Live Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "AI Explained (From AI Search, 3Blue1Brown, & others)",
+      "creator": "Rick Graziani",
+      "url": "https://www.youtube.com/playlist?list=PLMLm7-g0V0kdAk9mD1NmLELOf-25qPgVX",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "AI Explained (From AI Search, 3Blue1Brown, & others) - Complete guide by Rick Graziani.",
+      "year": 2024
+    },
+    {
+      "title": "PyTorch Tutorials",
+      "creator": "Aladdin Persson",
+      "url": "https://www.youtube.com/playlist?list=PLhhyoLH6IjfxeoooqP9rhU3HJIAVAJ3Vz",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "PyTorch Tutorials - Complete guide by Aladdin Persson.",
+      "year": 2024
+    },
+    {
+      "title": "Practical Deep Learning using PyTorch | CampusX",
+      "creator": "CampusX",
+      "url": "https://www.youtube.com/playlist?list=PLKnIA16_Rmvboy8bmDCjwNHgTaYH2puK7",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Practical Deep Learning using PyTorch | CampusX - Complete guide by CampusX.",
+      "year": 2024
+    },
+    {
+      "title": "Deep Learning with PyTorch: Zero to GANs",
+      "creator": "Jovian",
+      "url": "https://www.youtube.com/playlist?list=PLyMom0n-MBroupZiLfVSZqK5asX8KfoHL",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Deep Learning with PyTorch: Zero to GANs - Complete guide by Jovian.",
+      "year": 2024
+    },
+    {
+      "title": "\"PyTorch for Deep Learning - Full Course / Tutorial\" by freeCodeCamp.org, ...",
+      "creator": "louisjgeo",
+      "url": "https://www.youtube.com/playlist?list=PL15QFuNV1db9x2rzTb123CIla8hREEgHW",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "\"PyTorch for Deep Learning - Full Course / Tutorial\" by freeCodeCamp.org, ... - Complete guide by louisjgeo.",
+      "year": 2024
+    },
+    {
+      "title": "Deep Learning With Tensorflow 2.0, Keras and Python",
+      "creator": "codebasics",
+      "url": "https://www.youtube.com/playlist?list=PLeo1K3hjS3uu7CxAacxVndI4bE_o3BDtO",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Deep Learning With Tensorflow 2.0, Keras and Python - Complete guide by codebasics.",
+      "year": 2024
+    },
+    {
+      "title": "Data analysis, Tensorflow - freeCodeCamp",
+      "creator": "Triet Bui Minh",
+      "url": "https://www.youtube.com/playlist?list=PLtS7XdlvrF9_IXne3ruF_lfRMMmKV2qYX",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Data analysis, Tensorflow - freeCodeCamp - Complete guide by Triet Bui Minh.",
+      "year": 2024
+    },
+    {
+      "title": "TensorFlow Tutorial for Beginners | Edureka",
+      "creator": "edureka!",
+      "url": "https://www.youtube.com/playlist?list=PL9ooVrP1hQOFJ8UZl86fYfmB1_P5yGzBT",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "TensorFlow Tutorial for Beginners | Edureka - Complete guide by edureka!.",
+      "year": 2024
+    },
+    {
+      "title": "AI freeCodeCamp",
+      "creator": "function code()",
+      "url": "https://www.youtube.com/playlist?list=PLXRgEJhChXxg0pXkq0i-YjVkDK89E2UUd",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "AI freeCodeCamp - Complete guide by function code().",
+      "year": 2024
+    },
+    {
+      "title": "Natural Language Processing(NLP)",
+      "creator": "CampusX",
+      "url": "https://www.youtube.com/playlist?list=PLKnIA16_RmvZo7fp5kkIth6nRTeQQsjfX",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Natural Language Processing(NLP) - Complete guide by CampusX.",
+      "year": 2024
+    },
+    {
+      "title": "Top OpenCV Projects [ Learn Computer Vision with Python ]",
+      "creator": "Sanyu Projects World",
+      "url": "https://www.youtube.com/playlist?list=PLKikgSZ8GZYd7EXmKZSLwITvoCm0KFI5B",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Top OpenCV Projects [ Learn Computer Vision with Python ] - Complete guide by Sanyu Projects World.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Computer Vision in 30 Days",
+      "creator": "Felipe Tambasco",
+      "url": "https://www.youtube.com/playlist?list=PLb49csYFtO2HAdNGChGzohFJGnJnXBOqd",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Learn Computer Vision in 30 Days - Complete guide by Felipe Tambasco.",
+      "year": 2024
+    },
+    {
+      "title": "OpenCV Python Course - Learn Computer Vision and AI by freeCodeCamp.org, ...",
+      "creator": "mattrae19",
+      "url": "https://www.youtube.com/playlist?list=PLP58aVw5JpjgOUIR70sq8WrtwhGGUNmD9",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "OpenCV Python Course - Learn Computer Vision and AI by freeCodeCamp.org, ... - Complete guide by mattrae19.",
+      "year": 2024
+    },
+    {
+      "title": "OpenCV Full Tutorial by WsCube Tech",
+      "creator": "WsCube Tech",
+      "url": "https://www.youtube.com/playlist?list=PLjVLYmrlmjGelmHXLZ0ukHdb-jjvG6rRm",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "OpenCV Full Tutorial by WsCube Tech - Complete guide by WsCube Tech.",
+      "year": 2024
+    },
+    {
+      "title": "NLP Tutorial Python",
+      "creator": "codebasics",
+      "url": "https://www.youtube.com/playlist?list=PLeo1K3hjS3uuvuAXhYjV2lMEShq2UYSwX",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "NLP Tutorial Python - Complete guide by codebasics.",
+      "year": 2024
+    },
+    {
+      "title": "Natural Language Processing Demystified",
+      "creator": "Future Mojo",
+      "url": "https://www.youtube.com/playlist?list=PLw3N0OFSAYSEC_XokEcX8uzJmEZSoNGuS",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Natural Language Processing Demystified - Complete guide by Future Mojo.",
+      "year": 2024
+    },
+    {
+      "title": "Stanford CS224N Natural Language Processing with Deep Learning I Spring 2024 I Professor Christopher Manning",
+      "creator": "Stanford Online",
+      "url": "https://www.youtube.com/playlist?list=PLoROMvodv4rOaMFbaqxPDoLWjDaRAdP9D",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Stanford CS224N Natural Language Processing with Deep Learning I Spring 2024 I Professor Christopher Manning - Complete guide by Stanford Online.",
+      "year": 2024
+    },
+    {
+      "title": "Natural Language Processing (NLP) Zero to Hero",
+      "creator": "TensorFlow",
+      "url": "https://www.youtube.com/playlist?list=PLQY2H8rRoyvzDbLUZkbudP-MFQZwNmU4S",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Natural Language Processing (NLP) Zero to Hero - Complete guide by TensorFlow.",
+      "year": 2024
+    },
+    {
+      "title": "Natural Language Processing with spaCy & Python - Course for Beginners (freeCodeCamp.org), etc",
+      "creator": "derekmw",
+      "url": "https://www.youtube.com/playlist?list=PLzNKa_R8IytfeQ5CF91fugINxOwVERoEW",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Natural Language Processing with spaCy & Python - Course for Beginners (freeCodeCamp.org), etc - Complete guide by derekmw.",
+      "year": 2024
+    },
+    {
+      "title": "Stanford CS229: Machine Learning Course | Summer 2019 (Anand Avati)",
+      "creator": "Stanford Online",
+      "url": "https://www.youtube.com/playlist?list=PLoROMvodv4rNH7qL6-efu_q2_bPuy0adh",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Stanford CS229: Machine Learning Course | Summer 2019 (Anand Avati) - Complete guide by Stanford Online.",
+      "year": 2024
+    },
+    {
+      "title": "Stanford CME295: Transformers and Large Language Models I Autumn 2025",
+      "creator": "Stanford Online",
+      "url": "https://www.youtube.com/playlist?list=PLoROMvodv4rOCXd21gf0CF4xr35yINeOy",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Stanford CME295: Transformers and Large Language Models I Autumn 2025 - Complete guide by Stanford Online.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture Collection | Machine Learning",
+      "creator": "Stanford",
+      "url": "https://www.youtube.com/playlist?list=PLA89DCFA6ADACE599",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Lecture Collection | Machine Learning - Complete guide by Stanford.",
+      "year": 2024
+    },
+    {
+      "title": "Stanford CS230: Deep Learning I Autumn 2025",
+      "creator": "Stanford Online",
+      "url": "https://www.youtube.com/playlist?list=PLoROMvodv4rNRRGdS0rBbXOUGA0wjdh1X",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Stanford CS230: Deep Learning I Autumn 2025 - Complete guide by Stanford Online.",
+      "year": 2024
+    },
+    {
+      "title": "Stanford CS229: Machine Learning I Spring 2022",
+      "creator": "Stanford Online",
+      "url": "https://www.youtube.com/playlist?list=PLoROMvodv4rNyWOpJg_Yh4NSqI4Z4vOYy",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Stanford CS229: Machine Learning I Spring 2022 - Complete guide by Stanford Online.",
+      "year": 2024
+    },
+    {
+      "title": "Large Language Models (LLMs)",
+      "creator": "Stanford Online",
+      "url": "https://www.youtube.com/playlist?list=PLoROMvodv4rObv1FMizXqumgVVdzX4_05",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Large Language Models (LLMs) - Complete guide by Stanford Online.",
+      "year": 2024
+    },
+    {
+      "title": "Building LLMs from scratch",
+      "creator": "Vizuara",
+      "url": "https://www.youtube.com/playlist?list=PLPTV0NXA_ZSgsLAr8YCgCwhPIJNNtexWu",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Building LLMs from scratch - Complete guide by Vizuara.",
+      "year": 2024
+    },
+    {
+      "title": "Stanford CS229 Machine Learning, Autumn 2018",
+      "creator": "Vũ Nhật Minh",
+      "url": "https://www.youtube.com/playlist?list=PL02_lbcHuZ9E1XQWuCFQ7HsqOHiyxi6PH",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Stanford CS229 Machine Learning, Autumn 2018 - Complete guide by Vũ Nhật Minh.",
+      "year": 2024
+    },
+    {
+      "title": "Stanford CS229: Machine Learning Full Course",
+      "creator": "Mohammed Khalefa",
+      "url": "https://www.youtube.com/playlist?list=PLCTifDArWwqLcU2KctNcrjlQ07CLIstyK",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Stanford CS229: Machine Learning Full Course - Complete guide by Mohammed Khalefa.",
+      "year": 2024
+    }
+  ]
 }

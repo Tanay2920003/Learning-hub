@@ -1,8 +1,11 @@
 import { HomePageClient } from "@/components/HomePageClient";
-import { getLearningPaths } from "@/lib/learning-paths";
+import { getLearningPaths, getInitialFeaturedCourses } from "@/lib/learning-paths";
 
 export default async function HomePage() {
-  const learningPaths = await getLearningPaths();
+  const [learningPaths, courses] = await Promise.all([
+    getLearningPaths(),
+    getInitialFeaturedCourses(160),
+  ]);
 
-  return <HomePageClient learningPaths={learningPaths} />;
+  return <HomePageClient learningPaths={learningPaths} initialCourses={courses} />;
 }

@@ -1,266 +1,569 @@
 "use client";
 
+import { useState, useMemo, useEffect } from "react";
 import Link from "next/link";
-import Image from "next/image";
-import { Search, Sparkles, BookOpen, Zap, ArrowRight, Star, Users, Flame } from "lucide-react";
+import {
+  Search,
+  ArrowRight,
+  LayoutGrid,
+  Rows,
+  PlaySquare,
+  Sparkles,
+  Bookmark,
+  Shuffle,
+  Compass,
+} from "lucide-react";
 import { Navbar } from "@/components/Navbar";
-import { TypewriterEffect } from "@/components/TypewriterEffect";
 import { CategoryRow, type CategoryConfig } from "@/components/CategoryRow";
-import type { LearningPathSummary } from "@/lib/learning-paths";
+import { PathCard } from "@/components/PathCard";
+import { YouTubeCard, type YouTubeCardItem } from "@/components/YouTubeCard";
+import { TopicChips, DEFAULT_TOPIC_CHIPS, type TopicChip } from "@/components/TopicChips";
+import type { LearningPathSummary, FeaturedCourse } from "@/lib/learning-paths";
+import { useSavedItems, useSavedCount } from "@/lib/saved-library";
+import { getTrackIcon, TRACK_SPECS } from "@/components/icons";
 
-/* ─── Category definitions ─────────────────────────────────── */
+/* ─── Topic Group Configurations ────────────────────────────── */
 const CATEGORIES: CategoryConfig[] = [
   {
     id: "featured",
-    label: "🔥 Trending Now",
+    label: "Trending Now",
     description: "Most visited learning paths this week",
     emoji: "🔥",
     accent: {
-      glow: "rgba(251,146,60,0.12)",
-      text: "text-orange-400",
-      border: "border-orange-500/30",
-      bg: "bg-orange-500/10",
-      badge: "bg-orange-500/15 text-orange-300",
-      cardHover: "hover:border-orange-500/40 hover:shadow-lg hover:shadow-orange-500/10",
-      gradFrom: "from-orange-500",
-      gradTo: "to-rose-500",
-      shadow: "shadow-orange-500/10",
+      glow: "rgba(41,151,255,0.18)",
+      text: "text-[#2997ff]",
+      border: "border-[#2997ff]/30",
+      bg: "bg-[#2997ff]/10",
+      badge: "bg-[#2997ff]/15 text-[#2997ff]",
+      cardHover: "hover:border-[#2997ff]/40",
+      gradFrom: "from-[#2997ff]",
+      gradTo: "to-[#64d2ff]",
+      shadow: "shadow-blue-900/10",
     },
     slugs: ["webdev", "dsa", "ml", "coding-languages"],
   },
   {
     id: "webmobile",
-    label: "🌐 Web & Mobile",
-    description: "Build modern apps for every platform",
+    label: "Web & Mobile Development",
+    description: "Build modern applications for every platform",
     emoji: "🌐",
     accent: {
-      glow: "rgba(6,182,212,0.12)",
-      text: "text-cyan-400",
-      border: "border-cyan-500/30",
-      bg: "bg-cyan-500/10",
-      badge: "bg-cyan-500/15 text-cyan-300",
-      cardHover: "hover:border-cyan-500/40 hover:shadow-lg hover:shadow-cyan-500/10",
-      gradFrom: "from-cyan-500",
-      gradTo: "to-sky-500",
-      shadow: "shadow-cyan-500/10",
+      glow: "rgba(100,210,255,0.14)",
+      text: "text-[#64d2ff]",
+      border: "border-[#64d2ff]/30",
+      bg: "bg-[#64d2ff]/10",
+      badge: "bg-[#64d2ff]/15 text-[#64d2ff]",
+      cardHover: "hover:border-[#64d2ff]/40",
+      gradFrom: "from-[#64d2ff]",
+      gradTo: "to-[#2997ff]",
+      shadow: "shadow-[#64d2ff]/10",
     },
     slugs: ["webdev", "mobile-app-development"],
   },
   {
     id: "cs",
-    label: "💻 CS Fundamentals",
-    description: "Core computer science you must know",
+    label: "Computer Science Core",
+    description: "Fundamental systems, architecture, and algorithms",
     emoji: "💻",
     accent: {
-      glow: "rgba(124,58,237,0.12)",
-      text: "text-violet-400",
-      border: "border-violet-500/30",
-      bg: "bg-violet-500/10",
-      badge: "bg-violet-500/15 text-violet-300",
-      cardHover: "hover:border-violet-500/40 hover:shadow-lg hover:shadow-violet-500/10",
-      gradFrom: "from-violet-500",
-      gradTo: "to-indigo-500",
-      shadow: "shadow-violet-500/10",
+      glow: "rgba(191,90,242,0.14)",
+      text: "text-[#bf5af2]",
+      border: "border-[#bf5af2]/30",
+      bg: "bg-[#bf5af2]/10",
+      badge: "bg-[#bf5af2]/15 text-[#bf5af2]",
+      cardHover: "hover:border-[#bf5af2]/40",
+      gradFrom: "from-[#bf5af2]",
+      gradTo: "to-[#5e5ce6]",
+      shadow: "shadow-[#bf5af2]/10",
     },
-    slugs: ["dsa", "os", "dbms", "system-design", "coding-languages"],
+    slugs: ["dsa", "os", "dbms", "system-design", "coding-languages", "cs-fundamentals"],
   },
   {
     id: "aidata",
-    label: "🤖 AI & Data",
-    description: "Machine learning, deep learning & more",
+    label: "AI, ML & Data Systems",
+    description: "Machine learning, modern pipelines, and large scale data",
     emoji: "🤖",
     accent: {
-      glow: "rgba(16,185,129,0.12)",
-      text: "text-emerald-400",
-      border: "border-emerald-500/30",
-      bg: "bg-emerald-500/10",
-      badge: "bg-emerald-500/15 text-emerald-300",
-      cardHover: "hover:border-emerald-500/40 hover:shadow-lg hover:shadow-emerald-500/10",
-      gradFrom: "from-emerald-500",
-      gradTo: "to-teal-500",
-      shadow: "shadow-emerald-500/10",
+      glow: "rgba(48,209,88,0.14)",
+      text: "text-[#30d158]",
+      border: "border-[#30d158]/30",
+      bg: "bg-[#30d158]/10",
+      badge: "bg-[#30d158]/15 text-[#30d158]",
+      cardHover: "hover:border-[#30d158]/40",
+      gradFrom: "from-[#30d158]",
+      gradTo: "to-[#63e6e2]",
+      shadow: "shadow-[#30d158]/10",
     },
-    slugs: ["ml", "dbms", "system-design"],
+    slugs: ["ml", "dbms", "data-engineering", "system-design"],
+  },
+  {
+    id: "securitycloud",
+    label: "Security, Cloud & Web3",
+    description: "Cybersecurity, DevOps automation, cloud architecture, and decentralized systems",
+    emoji: "🛡️",
+    accent: {
+      glow: "rgba(255,159,10,0.14)",
+      text: "text-[#ff9f0a]",
+      border: "border-[#ff9f0a]/30",
+      bg: "bg-[#ff9f0a]/10",
+      badge: "bg-[#ff9f0a]/15 text-[#ff9f0a]",
+      cardHover: "hover:border-[#ff9f0a]/40",
+      gradFrom: "from-[#ff9f0a]",
+      gradTo: "to-[#ff375f]",
+      shadow: "shadow-[#ff9f0a]/10",
+    },
+    slugs: ["cybersecurity", "devops", "blockchain-web3"],
   },
   {
     id: "toolscomm",
-    label: "🛠️ Tools & Community",
-    description: "Utilities, roadmaps & community projects",
+    label: "Community & Developer Utilities",
+    description: "Interactive projects, visualizers, and tools",
     emoji: "🛠️",
     accent: {
-      glow: "rgba(244,63,94,0.10)",
-      text: "text-rose-400",
-      border: "border-rose-500/30",
-      bg: "bg-rose-500/10",
-      badge: "bg-rose-500/15 text-rose-300",
-      cardHover: "hover:border-rose-500/40 hover:shadow-lg hover:shadow-rose-500/10",
-      gradFrom: "from-rose-500",
-      gradTo: "to-pink-500",
-      shadow: "shadow-rose-500/10",
+      glow: "rgba(41,151,255,0.14)",
+      text: "text-[#2997ff]",
+      border: "border-[#2997ff]/30",
+      bg: "bg-[#2997ff]/10",
+      badge: "bg-[#2997ff]/15 text-[#2997ff]",
+      cardHover: "hover:border-[#2997ff]/40",
+      gradFrom: "from-[#2997ff]",
+      gradTo: "to-[#bf5af2]",
+      shadow: "shadow-[#2997ff]/10",
     },
-    slugs: ["tools", "roadmaps", "github", "community-sites-and-projects", "game-development"],
+    slugs: ["community-sites-and-projects", "tools", "roadmaps", "github", "game-development"],
   },
 ];
 
-/* ─── Featured Spotlight Card ───────────────────────────────── */
-function SpotlightCard({ path, rank }: { path: LearningPathSummary; rank: number }) {
-  const gradients = [
-    "from-violet-600/30 via-indigo-600/10 to-transparent",
-    "from-cyan-600/30 via-sky-600/10 to-transparent",
-    "from-emerald-600/30 via-teal-600/10 to-transparent",
-  ];
-  const borders = ["hover:border-violet-500/50", "hover:border-cyan-500/50", "hover:border-emerald-500/50"];
-  const texts = ["text-violet-400", "text-cyan-400", "text-emerald-400"];
-  const bars = ["from-violet-500 to-indigo-500", "from-cyan-500 to-sky-500", "from-emerald-500 to-teal-500"];
-  const g = rank % 3;
+/* ─── Bento Spotlight Showcase ─────────────────────────────── */
+function YouTubeBentoSpotlight({ paths }: { paths: LearningPathSummary[] }) {
+  if (paths.length === 0) return null;
+
+  const featuredTriad = paths.slice(0, 3);
 
   return (
-    <Link href={`/${path.slug}`} className="block">
-      <div className={`group relative overflow-hidden rounded-3xl border border-white/6 bg-[#111] cursor-pointer transition-all duration-300 ${borders[g]}`}>
-        <div className={`absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r ${bars[g]}`} />
-        <div className={`absolute inset-0 bg-gradient-to-br ${gradients[g]} opacity-0 group-hover:opacity-100 transition-opacity duration-500`} />
+    <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+      {featuredTriad.map((path) => {
+        const spec = TRACK_SPECS[path.slug];
+        const accentColor = spec?.color || "text-[#2997ff]";
+        const bgGlow = spec?.bgGlow || "rgba(41,151,255,0.15)";
+        const accentBadge = spec?.accentBadge || "bg-[#2997ff]/15 text-[#2997ff] border-[#2997ff]/30";
 
-        <div className="relative z-10 p-6 flex gap-5 items-start">
-          {/* Rank badge */}
-          <div className={`shrink-0 flex items-center justify-center w-8 h-8 rounded-full border border-white/8 bg-white/4 text-xs font-bold ${texts[g]}`}>
-            {rank + 1}
-          </div>
+        return (
+          <Link
+            key={path.slug}
+            href={`/${path.slug}`}
+            className="group relative flex flex-col justify-between overflow-hidden rounded-2xl sm:rounded-3xl border border-white/10 bg-[#141418] p-6 transition-all duration-300 hover:border-white/25 hover:bg-[#1a1a20] hover:shadow-2xl hover:shadow-black/80 hover:-translate-y-0.5 active:scale-[0.99]"
+          >
+            {/* Top specular reflection */}
+            <div className="absolute inset-x-0 top-0 h-[1px] bg-gradient-to-r from-transparent via-white/20 to-transparent" />
 
-          {/* Icon */}
-          <div className="shrink-0 w-14 h-14 rounded-2xl border border-white/8 bg-white/4 flex items-center justify-center transition-transform group-hover:scale-110 duration-300">
-            {typeof path.icon === "string" && path.icon.startsWith("http") ? (
-              <Image src={path.icon} alt="" width={36} height={36} className="w-9 h-9 object-contain" unoptimized />
-            ) : (
-              <span className="text-3xl">{path.icon as string}</span>
-            )}
-          </div>
+            {/* Ambient subtle glow */}
+            <div
+              className="pointer-events-none absolute -right-10 -top-10 h-40 w-40 rounded-full opacity-0 blur-3xl transition-opacity duration-500 group-hover:opacity-100"
+              style={{ background: bgGlow }}
+            />
 
-          <div className="flex-1 min-w-0">
-            <h3 className="text-lg font-bold text-white mb-1.5 leading-tight">{path.title}</h3>
-            <p className="text-sm text-slate-500 leading-relaxed line-clamp-2">{path.description}</p>
-            <div className={`mt-3 inline-flex items-center gap-1.5 text-xs font-semibold ${texts[g]}`}>
-              <Flame className="w-3 h-3" />
-              Start Learning
-              <ArrowRight className="w-3 h-3 opacity-0 -translate-x-1 group-hover:translate-x-0 group-hover:opacity-100 transition-all" />
+            <div>
+              <div className="mb-4 flex items-center justify-between">
+                <span className={`rounded-full border px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wider backdrop-blur-md ${accentBadge}`}>
+                  {path.title}
+                </span>
+
+                <div className={`flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/5 p-2 transition-transform duration-300 group-hover:scale-110 ${accentColor}`}>
+                  {getTrackIcon(path.slug, "h-6 w-6")}
+                </div>
+              </div>
+
+              <h3 className="text-xl font-bold tracking-tight text-white group-hover:text-white transition-colors">
+                {path.title}
+              </h3>
+              <p className="mt-2 text-xs sm:text-sm text-white/55 leading-relaxed line-clamp-2">
+                {path.description}
+              </p>
             </div>
-          </div>
-        </div>
-      </div>
-    </Link>
+
+            <div className="mt-6 flex items-center justify-between pt-4 border-t border-white/[0.08]">
+              <span className="text-xs font-semibold text-white/60 group-hover:text-white transition-colors">
+                Explore Curriculum
+              </span>
+              <div className="flex h-7 w-7 items-center justify-center rounded-full border border-white/10 bg-white/5 text-white/70 transition-all duration-200 group-hover:bg-white group-hover:border-white group-hover:text-black group-hover:scale-110">
+                <ArrowRight className="h-3.5 w-3.5" />
+              </div>
+            </div>
+          </Link>
+        );
+      })}
+    </div>
   );
 }
 
-/* ─── Main Page ─────────────────────────────────────────────── */
-export function HomePageClient({ learningPaths }: { learningPaths: LearningPathSummary[] }) {
-  const openSearch = () => window.dispatchEvent(new CustomEvent("global-search:open"));
+function shuffleList<T>(list: T[]): T[] {
+  const result = [...list];
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
+}
 
-  const spotlightPaths = ["webdev", "dsa", "ml"]
-    .map((s) => learningPaths.find((p) => p.slug === s))
-    .filter(Boolean) as LearningPathSummary[];
+/* ─── Main Home Page Client ─────────────────────────────────── */
+interface HomePageClientProps {
+  learningPaths: LearningPathSummary[];
+  initialCourses?: FeaturedCourse[];
+}
+
+export function HomePageClient({
+  learningPaths,
+  initialCourses = [],
+}: HomePageClientProps) {
+  const [selectedChip, setSelectedChip] = useState<TopicChip>(DEFAULT_TOPIC_CHIPS[0]);
+  const [viewMode, setViewMode] = useState<"feed" | "bento" | "shelves">("feed");
+  const [shuffleSeed, setShuffleSeed] = useState(0);
+  const [visibleCount, setVisibleCount] = useState(48);
+  const savedItems = useSavedItems();
+  const savedCount = useSavedCount();
+
+  // Automatic shuffle on client mount so it shows fresh, randomized content on every visit
+  useEffect(() => {
+    const id = requestAnimationFrame(() => {
+      setShuffleSeed(Date.now());
+    });
+    return () => cancelAnimationFrame(id);
+  }, []);
+
+  const handleShuffle = () => {
+    setShuffleSeed(Date.now());
+    setVisibleCount(48);
+  };
+
+  const handleSelectChip = (chip: TopicChip) => {
+    setSelectedChip(chip);
+    setVisibleCount(48);
+    setShuffleSeed(Date.now());
+  };
+
+  const triggerSearch = () => {
+    window.dispatchEvent(new CustomEvent("global-search:open"));
+  };
+
+  const triggerExplore = () => {
+    window.dispatchEvent(new CustomEvent("floating-nav:open"));
+  };
+
+  // Filtered courses based on selected chip with automatic shuffle
+  const displayedCourses: YouTubeCardItem[] = useMemo(() => {
+    if (selectedChip.isLibrary) {
+      return savedItems.map((s) => ({
+        title: s.title,
+        creator: s.creator || "Learning Hub",
+        url: s.url,
+        videoCount: s.videoCount,
+        difficulty: s.difficulty,
+        category: s.category,
+      }));
+    }
+
+    let list: FeaturedCourse[] = [];
+    if (selectedChip.id === "all" || selectedChip.id === "trending") {
+      list = initialCourses;
+    } else if (selectedChip.slug) {
+      list = initialCourses.filter(
+        (c) => c.categorySlug === selectedChip.slug || c.category.toLowerCase().includes(selectedChip.id),
+      );
+    } else {
+      list = initialCourses;
+    }
+
+    if (shuffleSeed > 0) {
+      return shuffleList(list);
+    }
+
+    return list;
+  }, [selectedChip, initialCourses, savedItems, shuffleSeed]);
+
+  const visibleCourses = useMemo(() => {
+    return displayedCourses.slice(0, visibleCount);
+  }, [displayedCourses, visibleCount]);
 
   return (
-    <div className="min-h-screen bg-background selection:bg-violet-500/30">
+    <div className="min-h-screen bg-[#090a0f] text-white flex flex-col antialiased selection:bg-blue-500/30 selection:text-white pb-20 md:pb-12">
+      {/* ── App Navbar ────────────────────────────────────────── */}
       <Navbar />
 
-      <main>
-        {/* ── Hero ─────────────────────────────────────── */}
-        <section className="relative overflow-hidden hero-bg-grid pt-16 pb-20 md:pt-24 md:pb-28">
-          <div className="pointer-events-none absolute -top-32 left-1/4 h-72 w-72 rounded-full bg-violet-600/10 blur-3xl" />
-          <div className="pointer-events-none absolute top-0 right-1/4 h-52 w-52 rounded-full bg-cyan-500/8 blur-3xl" />
-
-          <div
-            className="absolute inset-0 opacity-[0.025]"
-            style={{
-              backgroundImage: "linear-gradient(rgba(255,255,255,.5) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.5) 1px,transparent 1px)",
-              backgroundSize: "60px 60px",
-            }}
+      {/* ── Sticky Topic Chips Horizontal Carousel ──────────── */}
+      <div className="sticky top-14 sm:top-16 z-40 border-b border-white/[0.08] bg-[#090a0f]/95 backdrop-blur-xl px-3 sm:px-6 py-2 transition-all">
+        <div className="container mx-auto max-w-7xl">
+          <TopicChips
+            activeId={selectedChip.id}
+            onSelect={handleSelectChip}
+            savedCount={savedCount}
           />
+        </div>
+      </div>
 
-          <div className="container mx-auto px-4 relative z-10 max-w-5xl">
-            {/* Badge */}
-            <div className="flex justify-center mb-8">
-              <div className="inline-flex items-center gap-2 rounded-full border border-violet-500/20 bg-violet-500/5 px-4 py-1.5 text-xs sm:text-sm font-medium text-violet-300 backdrop-blur-sm">
-                <span className="live-dot h-2 w-2 rounded-full bg-emerald-400 inline-block" />
-                Open Source · Premium Resources Directory
-                <Sparkles className="h-3.5 w-3.5 text-violet-400" />
-              </div>
+      <main className="container mx-auto max-w-7xl px-3 sm:px-6 pt-6 sm:pt-8 flex-1 space-y-8 sm:space-y-10">
+        {/* ── Developer Hero Banner (No AI Slop) ───────────────── */}
+        <section className="relative overflow-hidden rounded-2xl sm:rounded-3xl border border-white/[0.08] bg-[#121217]/90 p-6 sm:p-10 shadow-2xl backdrop-blur-2xl">
+          {/* Specular hairline top reflection */}
+          <div className="absolute inset-x-0 top-0 h-[1px] bg-gradient-to-r from-transparent via-white/20 to-transparent" />
+
+          {/* Ambient lighting glows */}
+          <div className="pointer-events-none absolute -right-24 -top-24 h-80 w-80 rounded-full bg-blue-500/10 blur-[100px]" />
+          <div className="pointer-events-none absolute -left-24 -bottom-24 h-80 w-80 rounded-full bg-purple-500/10 blur-[100px]" />
+
+          <div className="relative z-10 max-w-3xl">
+            {/* Live Count Pill */}
+            <div className="inline-flex items-center gap-2 rounded-full border border-white/12 bg-white/5 px-3 py-1 text-xs font-medium text-white/85 backdrop-blur-md mb-4 shadow-sm">
+              <span className="flex h-2 w-2 rounded-full bg-[#30d158] animate-pulse" />
+              <span>7,203 verified learning resources across 21 tracks • 100% free & open source</span>
             </div>
 
-            {/* Heading */}
-            <h1 className="text-center text-5xl sm:text-6xl md:text-7xl font-bold tracking-tighter mb-5 leading-[1.1]">
-              <span className="gradient-text">
-                <TypewriterEffect
-                  words={["Study", "Build", "Explore", "Create"]}
-                  typingSpeed={130}
-                  erasingSpeed={70}
-                  pauseDuration={1500}
-                />
+            {/* Headline */}
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-white leading-tight">
+              The Open Source Curriculum for{" "}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#2997ff] via-[#bf5af2] to-[#64d2ff]">
+                Software Engineers
               </span>
-              <br />
-              <span className="text-white">in Learning Hub</span>
             </h1>
 
-            <p className="text-center text-base sm:text-lg text-slate-400 mb-10 max-w-xl mx-auto font-light leading-relaxed">
-              Curated roadmaps, playlists, articles & community projects — all free, all open-source.
+            <p className="mt-3 text-sm sm:text-base text-white/60 leading-relaxed max-w-2xl font-normal">
+              Curated university-grade courses, verified YouTube playlists, and interactive documentation. Zero paywalls, no in-app ads, direct source links.
             </p>
 
-            {/* Search */}
-            <button
-              type="button"
-              onClick={openSearch}
-              className="group relative flex w-full max-w-lg mx-auto items-center gap-3 rounded-2xl border border-white/8 bg-white/4 px-4 py-3.5 text-left transition-all hover:border-violet-500/30 hover:bg-white/6 focus:outline-none backdrop-blur-md"
-            >
-              <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl bg-violet-500/10 border border-violet-500/20">
-                <Search className="h-4 w-4 text-violet-400" />
-              </div>
-              <div className="flex-1 min-w-0">
-                <div className="truncate text-sm text-slate-400 sm:text-base">Search paths, articles, playlists...</div>
-              </div>
-              <span className="hidden items-center gap-1.5 rounded-full border border-white/8 bg-white/4 px-2.5 py-1 text-[11px] uppercase tracking-widest text-slate-500 md:inline-flex">
-                <Sparkles className="h-3 w-3 text-violet-400" />
-                Ctrl K
-              </span>
-            </button>
+            {/* Quick Actions */}
+            <div className="mt-6 flex flex-wrap items-center gap-3">
+              <button
+                type="button"
+                onClick={triggerSearch}
+                className="flex items-center gap-2.5 rounded-full bg-white text-black px-5 py-2.5 text-xs sm:text-sm font-semibold shadow-lg transition-all hover:bg-white/90 hover:scale-[1.02] active:scale-95"
+              >
+                <Search className="h-4 w-4" />
+                <span>Search 7,200+ Resources (⌘K)</span>
+              </button>
 
-            {/* Stats */}
-            <div className="mt-10 flex justify-center gap-8 sm:gap-12">
-              {[
-                { icon: BookOpen, label: "Learning Paths", value: `${learningPaths.length}+`, color: "text-violet-400" },
-                { icon: Zap, label: "Free Resources", value: "100%", color: "text-cyan-400" },
-                { icon: Users, label: "Open Source", value: "Always", color: "text-emerald-400" },
-              ].map(({ icon: Icon, label, value, color }) => (
-                <div key={label} className="flex flex-col items-center gap-1">
-                  <div className={`flex items-center gap-1.5 text-xl sm:text-2xl font-bold ${color}`}>
-                    <Icon className="h-4 w-4 sm:h-5 sm:w-5" />
-                    {value}
-                  </div>
-                  <span className="text-xs text-slate-600">{label}</span>
-                </div>
-              ))}
+              <button
+                type="button"
+                onClick={triggerExplore}
+                className="flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-5 py-2.5 text-xs sm:text-sm font-semibold text-white transition-all hover:bg-white/10 active:scale-95"
+              >
+                <Compass className="h-4 w-4 text-[#2997ff]" />
+                <span>Explore Tracks (⌘J)</span>
+              </button>
+
+              <button
+                type="button"
+                onClick={handleShuffle}
+                className="flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-2.5 text-xs sm:text-sm font-semibold text-white/80 transition-all hover:bg-white/10 active:scale-95"
+                title="Randomize the feed"
+              >
+                <Shuffle className="h-4 w-4 text-[#30d158]" />
+                <span>Shuffle Feed</span>
+              </button>
+            </div>
+
+            {/* Honest Stats Row */}
+            <div className="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-4 border-t border-white/[0.08] pt-6">
+              <div>
+                <div className="text-xl sm:text-2xl font-bold text-white tracking-tight">7,203</div>
+                <div className="text-xs text-white/50 mt-0.5">Verified Resources</div>
+              </div>
+              <div>
+                <div className="text-xl sm:text-2xl font-bold text-[#2997ff] tracking-tight">21</div>
+                <div className="text-xs text-white/50 mt-0.5">Engineering Tracks</div>
+              </div>
+              <div>
+                <div className="text-xl sm:text-2xl font-bold text-[#30d158] tracking-tight">300+</div>
+                <div className="text-xs text-white/50 mt-0.5">Faculties & Creators</div>
+              </div>
+              <div>
+                <div className="text-xl sm:text-2xl font-bold text-[#bf5af2] tracking-tight">100%</div>
+                <div className="text-xs text-white/50 mt-0.5">Free & Open Source</div>
+              </div>
             </div>
           </div>
         </section>
 
-        {/* ── Spotlight ────────────────────────────────── */}
-        <section className="px-4 sm:px-8 py-10 max-w-5xl mx-auto">
-          <div className="flex items-center gap-3 mb-6">
-            <Star className="w-5 h-5 text-amber-400 fill-amber-400" />
-            <h2 className="text-lg font-bold text-white">Top Picks</h2>
-            <div className="flex-1 h-px bg-gradient-to-r from-white/8 to-transparent" />
+        {/* ── Spotlight Bento ─────────────────────────────────── */}
+        {selectedChip.id === "all" && (
+          <section className="space-y-4">
+            <div className="flex items-center justify-between">
+              <h2 className="text-lg sm:text-xl font-bold tracking-tight text-white flex items-center gap-2">
+                <Sparkles className="h-5 w-5 text-[#2997ff]" />
+                <span>Spotlight Roadmaps</span>
+              </h2>
+            </div>
+            <YouTubeBentoSpotlight paths={learningPaths} />
+          </section>
+        )}
+
+        {/* ── Feed Section Header & View Mode Switcher ────────── */}
+        <section className="space-y-6">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-white/[0.08] pb-4">
+            <div>
+              <h2 className="text-xl sm:text-2xl font-bold tracking-tight text-white flex items-center gap-2.5">
+                {selectedChip.isLibrary ? (
+                  <>
+                    <Bookmark className="h-5 w-5 fill-[#2997ff] text-[#2997ff]" />
+                    <span>Your Saved Library ({displayedCourses.length})</span>
+                  </>
+                ) : (
+                  <>
+                    <PlaySquare className="h-5 w-5 text-[#2997ff]" />
+                    <span>
+                      {selectedChip.id === "all"
+                        ? "Curated Courses & Playlists"
+                        : `${selectedChip.label} Courses`}
+                    </span>
+                    <span className="text-xs font-normal text-white/50">
+                      ({displayedCourses.length} items)
+                    </span>
+                  </>
+                )}
+              </h2>
+              <p className="text-xs text-white/50 mt-1">
+                {selectedChip.isLibrary
+                  ? "Bookmarked playlists and courses saved locally in your browser."
+                  : "Ranked by community rating, university credibility, and depth."}
+              </p>
+            </div>
+
+            {/* View Mode Switcher + Shuffle */}
+            <div className="flex items-center gap-2">
+              <button
+                type="button"
+                onClick={handleShuffle}
+                className="flex items-center gap-1.5 rounded-full border border-white/10 bg-[#16161a] px-3 py-1.5 text-xs font-semibold text-white/80 hover:bg-white/10 hover:text-white transition-all shadow-sm active:scale-95"
+                title="Randomize courses on this shelf"
+              >
+                <Shuffle className="h-3.5 w-3.5 text-[#30d158]" />
+                <span>Shuffle</span>
+              </button>
+
+              <div className="flex items-center rounded-full border border-white/10 bg-[#16161a] p-0.5">
+                <button
+                  type="button"
+                  onClick={() => setViewMode("feed")}
+                  className={`flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold transition-all ${
+                    viewMode === "feed"
+                      ? "bg-white text-black shadow-sm"
+                      : "text-white/60 hover:text-white"
+                  }`}
+                  title="Card Grid"
+                >
+                  <PlaySquare className="h-3.5 w-3.5" />
+                  <span className="hidden sm:inline">Feed</span>
+                </button>
+
+                <button
+                  type="button"
+                  onClick={() => setViewMode("bento")}
+                  className={`flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold transition-all ${
+                    viewMode === "bento"
+                      ? "bg-white text-black shadow-sm"
+                      : "text-white/60 hover:text-white"
+                  }`}
+                  title="All 21 Roadmaps Grid"
+                >
+                  <LayoutGrid className="h-3.5 w-3.5" />
+                  <span className="hidden sm:inline">Tracks</span>
+                </button>
+
+                <button
+                  type="button"
+                  onClick={() => setViewMode("shelves")}
+                  className={`flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold transition-all ${
+                    viewMode === "shelves"
+                      ? "bg-white text-black shadow-sm"
+                      : "text-white/60 hover:text-white"
+                  }`}
+                  title="Horizontal Category Shelves"
+                >
+                  <Rows className="h-3.5 w-3.5" />
+                  <span className="hidden sm:inline">Shelves</span>
+                </button>
+              </div>
+            </div>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-            {spotlightPaths.map((path, i) => (
-              <SpotlightCard key={path.slug} path={path} rank={i} />
-            ))}
-          </div>
+
+          {/* ── View 1: Video Cards Feed Grid ─────────────────── */}
+          {viewMode === "feed" && (
+            <>
+              {displayedCourses.length === 0 ? (
+                <div className="flex flex-col items-center justify-center rounded-2xl border border-white/10 bg-[#121216] py-16 px-4 text-center">
+                  <Bookmark className="h-12 w-12 text-white/20 mb-3" />
+                  <h3 className="text-base font-semibold text-white">No courses found</h3>
+                  <p className="text-xs text-white/50 mt-1 max-w-sm">
+                    {selectedChip.isLibrary
+                      ? "You haven't saved any courses yet. Click the bookmark icon on any card to save it."
+                      : "Try selecting another topic chip above or search for a specific technology."}
+                  </p>
+                </div>
+              ) : (
+                <>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-4 gap-y-7">
+                    {visibleCourses.map((course, idx) => (
+                      <YouTubeCard
+                        key={`${course.url}-${idx}`}
+                        item={course}
+                        index={idx}
+                      />
+                    ))}
+                  </div>
+
+                  {visibleCount < displayedCourses.length && (
+                    <div className="flex flex-col items-center justify-center pt-8 pb-4 gap-2">
+                      <button
+                        type="button"
+                        onClick={() => setVisibleCount((prev) => prev + 48)}
+                        className="flex items-center gap-2 rounded-full border border-white/15 bg-[#18181e] px-7 py-3 text-sm font-semibold text-white shadow-xl hover:bg-[#25252c] hover:border-white/30 transition-all hover:scale-105 active:scale-95"
+                      >
+                        <span>Load More Courses</span>
+                        <span className="rounded-full bg-white/10 px-2 py-0.5 text-xs text-white/60">
+                          +{Math.min(48, displayedCourses.length - visibleCount)}
+                        </span>
+                      </button>
+                      <p className="text-xs text-white/40">
+                        Showing {Math.min(visibleCount, displayedCourses.length).toLocaleString()} of {displayedCourses.length.toLocaleString()} verified resources
+                      </p>
+                    </div>
+                  )}
+                </>
+              )}
+            </>
+          )}
+
+          {/* ── View 2: Roadmaps Bento Grid ───────────────────── */}
+          {viewMode === "bento" && (
+            <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+              {learningPaths.map((path) => (
+                <PathCard
+                  key={path.slug}
+                  title={path.title}
+                  description={path.description}
+                  slug={path.slug}
+                  icon={path.icon}
+                  color={path.color}
+                  courseCount={path.courseCount}
+                  articleCount={path.articleCount}
+                />
+              ))}
+            </div>
+          )}
+
+          {/* ── View 3: Category Shelves (Horizontal Trays) ────── */}
+          {viewMode === "shelves" && (
+            <div className="space-y-12">
+              {CATEGORIES.map((category) => (
+                <CategoryRow
+                  key={category.id}
+                  category={category}
+                  paths={learningPaths}
+                  featured={category.id === "featured"}
+                />
+              ))}
+            </div>
+          )}
         </section>
-
-        {/* ── Category Rows ─────────────────────────────── */}
-        {CATEGORIES.map((cat) => (
-          <CategoryRow key={cat.id} category={cat} paths={learningPaths} featured={cat.id === "featured"} />
-        ))}
-
-        <div className="pb-28" />
       </main>
     </div>
   );

@@ -1,86 +1,2730 @@
 {
-    "name": "Mobile App Development",
-    "slug": "mobile-app-development",
-    "description": "Build cross-platform mobile and desktop apps with React Native, Flutter, and Electron.",
-    "icon": "https://img.icons8.com/?size=100&id=8pgPko8YVE0N&format=png&color=000000",
-    "articles": [
-        {
-            "title": "React Native Docs",
-            "url": "https://reactnative.dev/docs/getting-started"
-        },
-        {
-            "title": "Flutter Docs",
-            "url": "https://docs.flutter.dev/"
-        },
-        {
-            "title": "Electron Docs",
-            "url": "https://www.electronjs.org/docs/latest/"
-        },
-        {
-            "title": "Expo Docs",
-            "url": "https://docs.expo.dev/"
-        }
-    ],
-    "playlists": [
-        {
-            "title": "React Native Course for Beginners",
-            "creator": "freeCodeCamp.org",
-            "url": "https://www.youtube.com/watch?v=obH0Po_RdWk",
-            "language": "English",
-            "difficulty": "beginner",
-            "videoCount": 1,
-            "description": "A beginner-friendly React Native course covering components, navigation, styling, and app fundamentals.",
-            "year": 2023
-        },
-        {
-            "title": "React Native Tutorial for Beginners",
-            "creator": "Programming with Mosh",
-            "url": "https://www.youtube.com/watch?v=0-S5a0eXPoc",
-            "language": "English",
-            "difficulty": "beginner",
-            "videoCount": 1,
-            "description": "Learn React Native basics and build mobile UI with practical examples.",
-            "year": 2022
-        },
-        {
-            "title": "Flutter Course for Beginners",
-            "creator": "freeCodeCamp.org",
-            "url": "https://www.youtube.com/watch?v=VPvVD8t02U8",
-            "language": "English",
-            "difficulty": "beginner",
-            "videoCount": 1,
-            "description": "Comprehensive Flutter introduction covering Dart basics, widgets, layouts, and app building.",
-            "year": 2022
-        },
-        {
-            "title": "Flutter Tutorial for Beginners",
-            "creator": "The Net Ninja",
-            "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ",
-            "language": "English",
-            "difficulty": "beginner",
-            "videoCount": 47,
-            "description": "A step-by-step Flutter playlist that helps you build apps while learning core concepts.",
-            "year": 2021
-        },
-        {
-            "title": "Electron JS Crash Course",
-            "creator": "Traversy Media",
-            "url": "https://www.youtube.com/watch?v=kN1Czs0m1SU",
-            "language": "English",
-            "difficulty": "beginner",
-            "videoCount": 1,
-            "description": "A practical introduction to building desktop apps with Electron using web technologies.",
-            "year": 2022
-        },
-        {
-            "title": "Build a Desktop App with Electron",
-            "creator": "freeCodeCamp.org",
-            "url": "https://www.youtube.com/watch?v=3yqDxhR2XxE",
-            "language": "English",
-            "difficulty": "intermediate",
-            "videoCount": 1,
-            "description": "Learn the Electron workflow by building a desktop app with JavaScript and modern tooling.",
-            "year": 2021
-        }
-    ]
+  "name": "Mobile App Development",
+  "slug": "mobile-app-development",
+  "description": "Build cross-platform mobile and desktop apps with React Native, Flutter, and Electron.",
+  "icon": "mobile-app-development",
+  "articles": [
+    {
+      "title": "React Native Docs",
+      "url": "https://reactnative.dev/docs/getting-started"
+    },
+    {
+      "title": "Flutter Docs",
+      "url": "https://docs.flutter.dev/"
+    },
+    {
+      "title": "Electron Docs",
+      "url": "https://www.electronjs.org/docs/latest/"
+    },
+    {
+      "title": "Expo Docs",
+      "url": "https://docs.expo.dev/"
+    },
+    {
+      "title": "Flutter Apprentice Comprehensive Guide",
+      "url": "https://www.kodeco.com/flutter/books/flutter-apprentice"
+    },
+    {
+      "title": "Android Developers Official Training Courses",
+      "url": "https://developer.android.com/courses"
+    },
+    {
+      "title": "Apple Developer SwiftUI Interactive Tutorials",
+      "url": "https://developer.apple.com/tutorials/swiftui"
+    },
+    {
+      "title": "Kotlin Multiplatform Documentation",
+      "url": "https://kotlinlang.org/docs/multiplatform.html"
+    },
+    {
+      "title": "Expo Modern Mobile Development Tutorials",
+      "url": "https://docs.expo.dev/tutorial/introduction/"
+    },
+    {
+      "title": "Ionic Framework Hybrid Mobile Docs",
+      "url": "https://ionicframework.com/docs"
+    },
+    {
+      "title": "React Native Directory - Curated Libraries & Ecosystem",
+      "url": "https://reactnative.directory/"
+    },
+    {
+      "title": "Hacking with Swift - 100 Days of SwiftUI",
+      "url": "https://www.hackingwithswift.com/100/swiftui"
+    },
+    {
+      "title": "Dart Language Official Tour and Guides",
+      "url": "https://dart.dev/guides"
+    },
+    {
+      "title": "Apple Developer - SwiftUI Tutorials & Documentation",
+      "url": "https://developer.apple.com/xcode/swiftui/"
+    },
+    {
+      "title": "Kotlin Android Extensions & Jetpack Docs",
+      "url": "https://developer.android.com/jetpack"
+    }
+  ],
+  "playlists": [
+    {
+      "title": "React Native Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=obH0Po_RdWk",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "A beginner-friendly React Native course covering components, navigation, styling, and app fundamentals.",
+      "year": 2023
+    },
+    {
+      "title": "React Native Tutorial for Beginners",
+      "creator": "Programming with Mosh",
+      "url": "https://www.youtube.com/watch?v=0-S5a0eXPoc",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn React Native basics and build mobile UI with practical examples.",
+      "year": 2022
+    },
+    {
+      "title": "Flutter Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=VPvVD8t02U8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Comprehensive Flutter introduction covering Dart basics, widgets, layouts, and app building.",
+      "year": 2022
+    },
+    {
+      "title": "Flutter Tutorial for Beginners",
+      "creator": "The Net Ninja",
+      "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 47,
+      "description": "A step-by-step Flutter playlist that helps you build apps while learning core concepts.",
+      "year": 2021
+    },
+    {
+      "title": "Electron JS Crash Course",
+      "creator": "Traversy Media",
+      "url": "https://www.youtube.com/watch?v=kN1Czs0m1SU",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "A practical introduction to building desktop apps with Electron using web technologies.",
+      "year": 2022
+    },
+    {
+      "title": "Build a Desktop App with Electron",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=3yqDxhR2XxE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn the Electron workflow by building a desktop app with JavaScript and modern tooling.",
+      "year": 2021
+    },
+    {
+      "title": "Building Mobile Apps with Flutter & Firebase",
+      "creator": "Kalle Hallden",
+      "url": "https://www.youtube.com/watch?v=1gDhl4leEzA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn state management, authentication, and cloud databases for full-stack mobile apps.",
+      "year": 2022
+    },
+    {
+      "title": "What is Flutter? & How it is Better than it's Counterparts? - Cross Platform | Full Tutorial",
+      "creator": "WsCube Tech",
+      "url": "https://www.youtube.com/watch?v=jqxz7QvdWk8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Flutter? & How it is Better than it's Counterparts? - Cross Platform | Full Tutorial - Complete guide by WsCube Tech.",
+      "year": 2024
+    },
+    {
+      "title": "What is Flutter Architecture? [HINDI] - Complete Tutorial",
+      "creator": "WsCube Tech",
+      "url": "https://www.youtube.com/watch?v=PKDWinlLfAo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Flutter Architecture? [HINDI] - Complete Tutorial - Complete guide by WsCube Tech.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Tutorial for Beginners #2 - Flutter Overview",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/watch?v=bKueYVtV0eA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Flutter Tutorial for Beginners #2 - Flutter Overview - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter & Firebase Course - Build a Full Stack Instagram Clone",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=mEPm9w5QlJM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Flutter & Firebase Course - Build a Full Stack Instagram Clone - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Full Course For Beginners with Projects (22 Hours) | Learn Flutter App Development Tutorial",
+      "creator": "WsCube Tech",
+      "url": "https://www.youtube.com/watch?v=1bQwDO88Gyw",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Flutter Full Course For Beginners with Projects (22 Hours) | Learn Flutter App Development Tutorial - Complete guide by WsCube Tech.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Essentials - Learn to make apps for Android, iOS, Windows, Mac, Linux (Full Course)",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=P2IGQT3BZQo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Flutter Essentials - Learn to make apps for Android, iOS, Windows, Mac, Linux (Full Course) - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Full Stack Tutorial – Spotify Clone w/ MVVM Architecture, Python, FastAPI, Riverpod",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=9gpAtzQhYkY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Flutter Full Stack Tutorial – Spotify Clone w/ MVVM Architecture, Python, FastAPI, Riverpod - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Environment Setup - Flutter Course for Beginners #1",
+      "creator": "Neat Roots",
+      "url": "https://www.youtube.com/watch?v=vmbRkgO4sQM",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Flutter Environment Setup - Flutter Course for Beginners #1 - Complete guide by Neat Roots.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Tutorial for Beginners #1 - Intro & Setup",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/watch?v=1ukSR1GRtMU",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Flutter Tutorial for Beginners #1 - Intro & Setup - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "🔥 Flutter App Development Tutorial | Build a Flutter Project from Scratch | Flutter for Beginners",
+      "creator": "Shivam Gupta",
+      "url": "https://www.youtube.com/watch?v=5yrion2IbDU",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "🔥 Flutter App Development Tutorial | Build a Flutter Project from Scratch | Flutter for Beginners - Complete guide by Shivam Gupta.",
+      "year": 2024
+    },
+    {
+      "title": "The Ultimate Flutter Tutorial for Beginners - 2025 Full Course",
+      "creator": "Flutter Mapp",
+      "url": "https://www.youtube.com/watch?v=3kaGC_DrUnw",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "The Ultimate Flutter Tutorial for Beginners - 2025 Full Course - Complete guide by Flutter Mapp.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Full Course for Beginners (2026) | Build Real-World Projects #flutter",
+      "creator": "Shivam Gupta",
+      "url": "https://www.youtube.com/watch?v=Nfg_oTFdqXk",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Flutter Full Course for Beginners (2026) | Build Real-World Projects #flutter - Complete guide by Shivam Gupta.",
+      "year": 2024
+    },
+    {
+      "title": "How to become a Flutter Developer? #flutterdeveloper #developer #training #job_babu #jaipur",
+      "creator": "JobBabu",
+      "url": "https://www.youtube.com/watch?v=NZlRxlbsiZQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to become a Flutter Developer? #flutterdeveloper #developer #training #job_babu #jaipur - Complete guide by JobBabu.",
+      "year": 2024
+    },
+    {
+      "title": "How to Install Flutter on Windows - Flutter Course for Beginners #2",
+      "creator": "Neat Roots",
+      "url": "https://www.youtube.com/watch?v=XIQ26SX87gQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "How to Install Flutter on Windows - Flutter Course for Beginners #2 - Complete guide by Neat Roots.",
+      "year": 2024
+    },
+    {
+      "title": "🔥 Build Your First Flutter App in 2026 | Complete Flutter Project Tutorial for Beginners",
+      "creator": "Shivam Gupta",
+      "url": "https://www.youtube.com/watch?v=NTYM2gWV7Ro",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "🔥 Build Your First Flutter App in 2026 | Complete Flutter Project Tutorial for Beginners - Complete guide by Shivam Gupta.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Flutter Step by Step (2026) | Build Real-World Apps #flutter",
+      "creator": "Shivam Gupta",
+      "url": "https://www.youtube.com/watch?v=O8frKPFBNFI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Flutter Step by Step (2026) | Build Real-World Apps #flutter - Complete guide by Shivam Gupta.",
+      "year": 2024
+    },
+    {
+      "title": "Is Flutter's end near? | Tanay Pratap #shorts",
+      "creator": "Tanay Pratap",
+      "url": "https://www.youtube.com/watch?v=nOInTMEc6h0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Is Flutter's end near? | Tanay Pratap #shorts - Complete guide by Tanay Pratap.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Tutorial for Beginners - Build This in 60s! #shorts #explore  #trending #viral",
+      "creator": "Abir Shakhawat",
+      "url": "https://www.youtube.com/watch?v=wt9gSTtWbSQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Flutter Tutorial for Beginners - Build This in 60s! #shorts #explore  #trending #viral - Complete guide by Abir Shakhawat.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Tutorial for Beginners – Build This in 60s!",
+      "creator": "Yaqoob Developer",
+      "url": "https://www.youtube.com/watch?v=XBF2QmNirZU",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Flutter Tutorial for Beginners – Build This in 60s! - Complete guide by Yaqoob Developer.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Roadmap for beginners! #flutter #flutterdev #flutterdevelopment #mobileappdevelopment",
+      "creator": "Harsivo CareerStack",
+      "url": "https://www.youtube.com/watch?v=yQF0PuUQwZw",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Flutter Roadmap for beginners! #flutter #flutterdev #flutterdevelopment #mobileappdevelopment - Complete guide by Harsivo CareerStack.",
+      "year": 2024
+    },
+    {
+      "title": "🔥 Flutter for Beginners 2026 | Build a Complete Mobile App | Flutter Project Tutorial",
+      "creator": "Shivam Gupta",
+      "url": "https://www.youtube.com/watch?v=Nk5SVNgLPYo",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "🔥 Flutter for Beginners 2026 | Build a Complete Mobile App | Flutter Project Tutorial - Complete guide by Shivam Gupta.",
+      "year": 2024
+    },
+    {
+      "title": "Do you want to learn mobile app development in Flutter free?",
+      "creator": "Hisham Sarwar",
+      "url": "https://www.youtube.com/watch?v=n-tiHj-qoy8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Do you want to learn mobile app development in Flutter free? - Complete guide by Hisham Sarwar.",
+      "year": 2024
+    },
+    {
+      "title": "One Setting Improves App Speed ⚡ #fluttertips #developer",
+      "creator": "5 star coder ",
+      "url": "https://www.youtube.com/watch?v=mIq53ytlr6w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "One Setting Improves App Speed ⚡ #fluttertips #developer - Complete guide by 5 star coder .",
+      "year": 2024
+    },
+    {
+      "title": "#Flutter Roadmap simplified",
+      "creator": "vijaycreations",
+      "url": "https://www.youtube.com/watch?v=Awy38MaXa0E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#Flutter Roadmap simplified - Complete guide by vijaycreations.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Tutorial for Beginners – Build This in 60s!",
+      "creator": "Yaqoob Developer",
+      "url": "https://www.youtube.com/watch?v=cKLPBj6iDM0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Flutter Tutorial for Beginners – Build This in 60s! - Complete guide by Yaqoob Developer.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Tutorial - Building a Production App From Scratch",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=aiTTClKJbnw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Flutter Tutorial - Building a Production App From Scratch - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Tutorial for Beginners – Build This in 60s!",
+      "creator": "Yaqoob Developer",
+      "url": "https://www.youtube.com/watch?v=VmpZUcrJyzc",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Flutter Tutorial for Beginners – Build This in 60s! - Complete guide by Yaqoob Developer.",
+      "year": 2024
+    },
+    {
+      "title": "5 Best YouTube Channels to learn Flutter | #flutter #shorts",
+      "creator": "The CreatorSpace",
+      "url": "https://www.youtube.com/watch?v=Ii1N985yxY8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "5 Best YouTube Channels to learn Flutter | #flutter #shorts - Complete guide by The CreatorSpace.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Tutorial for Beginners – Build This in 60s!",
+      "creator": "Yaqoob Developer",
+      "url": "https://www.youtube.com/watch?v=N5D3faa_Olk",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Flutter Tutorial for Beginners – Build This in 60s! - Complete guide by Yaqoob Developer.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Course for Absolute Beginners",
+      "creator": "dbestech",
+      "url": "https://www.youtube.com/watch?v=DsTMhjaRQws",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Flutter Course for Absolute Beginners - Complete guide by dbestech.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Full Course for Beginners in Hindi (2026) | 5+ Projects - Flutter Full course",
+      "creator": "Neat Roots",
+      "url": "https://www.youtube.com/watch?v=56xvk6OHTpM",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Flutter Full Course for Beginners in Hindi (2026) | 5+ Projects - Flutter Full course - Complete guide by Neat Roots.",
+      "year": 2024
+    },
+    {
+      "title": "React Native Full Stack Course – Clerk, Postgres, NativeWind",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=4GtVeULrNks",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "React Native Full Stack Course – Clerk, Postgres, NativeWind - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "React Native Mastery: Develop 10 Apps with Confidence",
+      "creator": "Hitesh Choudhary",
+      "url": "https://www.youtube.com/watch?v=kGtEax1WQFg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "React Native Mastery: Develop 10 Apps with Confidence - Complete guide by Hitesh Choudhary.",
+      "year": 2024
+    },
+    {
+      "title": "React Native Full Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=sm5Y7Vtuihg",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "React Native Full Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Full Stack Flutter, Firebase and Riverpod – Build a YouTube Clone",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=NEYcKvwbW-w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Full Stack Flutter, Firebase and Riverpod – Build a YouTube Clone - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "React Native in 100 Seconds",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=gvkqT_Uoahw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "React Native in 100 Seconds - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Road Map | Flutter for beginners | How to learn Flutter | #flutter  #viral #ytshorts #app",
+      "creator": "JK Computer Knowledge",
+      "url": "https://www.youtube.com/watch?v=3QMfScZci68",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Flutter Road Map | Flutter for beginners | How to learn Flutter | #flutter  #viral #ytshorts #app - Complete guide by JK Computer Knowledge.",
+      "year": 2024
+    },
+    {
+      "title": "Mobile App Development Course with React Native, Supabase, Next.js",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=2esQdKzRUCw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Mobile App Development Course with React Native, Supabase, Next.js - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "React Native & Expo Router Course – Build a Meditation App",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=9UKCv9T_rIo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "React Native & Expo Router Course – Build a Meditation App - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Tutorial for Beginners – Build This in 60s!",
+      "creator": "Yaqoob Developer",
+      "url": "https://www.youtube.com/watch?v=PgED0wsdbFc",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Flutter Tutorial for Beginners – Build This in 60s! - Complete guide by Yaqoob Developer.",
+      "year": 2024
+    },
+    {
+      "title": "The Ultimate React Native Installation Guide: Prerequisites and Setup",
+      "creator": "Hitesh Choudhary",
+      "url": "https://www.youtube.com/watch?v=XV5LwKuk3zc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Ultimate React Native Installation Guide: Prerequisites and Setup - Complete guide by Hitesh Choudhary.",
+      "year": 2024
+    },
+    {
+      "title": "📱 FULL Flutter Beginner Course • Programming Basics / Widgets / Navigation / User Input / UI",
+      "creator": "Mitch Koko",
+      "url": "https://www.youtube.com/watch?v=HQ_ytw58tC4",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "📱 FULL Flutter Beginner Course • Programming Basics / Widgets / Navigation / User Input / UI - Complete guide by Mitch Koko.",
+      "year": 2024
+    },
+    {
+      "title": "React Native Full Course 2026 | Build, Publish and Monetize a Full Stack Mobile App to App Store",
+      "creator": "JavaScript Mastery",
+      "url": "https://www.youtube.com/watch?v=4nVoLX2taFg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "React Native Full Course 2026 | Build, Publish and Monetize a Full Stack Mobile App to App Store - Complete guide by JavaScript Mastery.",
+      "year": 2024
+    },
+    {
+      "title": "Ladki ❌ React native ✅                            #coding #programming #react #native",
+      "creator": "Neeraj Walia",
+      "url": "https://www.youtube.com/watch?v=oTk-RCoaGoM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ladki ❌ React native ✅                            #coding #programming #react #native - Complete guide by Neeraj Walia.",
+      "year": 2024
+    },
+    {
+      "title": "React Native Full Course for Beginners | Build Your First Mobile App in 4 Hours!",
+      "creator": "Sheryians Coding School",
+      "url": "https://www.youtube.com/watch?v=JKccS9k56_I",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "React Native Full Course for Beginners | Build Your First Mobile App in 4 Hours! - Complete guide by Sheryians Coding School.",
+      "year": 2024
+    },
+    {
+      "title": "How to Actually Build Mobile Apps with AI in 2026 | A Complete Beginner's Tutorial",
+      "creator": "JavaScript Mastery",
+      "url": "https://www.youtube.com/watch?v=Q7AYc2kECDI",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "How to Actually Build Mobile Apps with AI in 2026 | A Complete Beginner's Tutorial - Complete guide by JavaScript Mastery.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter VS React Native - The END 🛑",
+      "creator": "Pradeep AGI",
+      "url": "https://www.youtube.com/watch?v=Q0cPcNIyCNw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Flutter VS React Native - The END 🛑 - Complete guide by Pradeep AGI.",
+      "year": 2024
+    },
+    {
+      "title": "Learn React Native Easily | Learn React Native Full Course",
+      "creator": "GeekMODE School of React Native",
+      "url": "https://www.youtube.com/watch?v=01c8H6OQxSE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn React Native Easily | Learn React Native Full Course - Complete guide by GeekMODE School of React Native.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Vs React Native 🤔 #flutter",
+      "creator": "Jordan Developer",
+      "url": "https://www.youtube.com/watch?v=rCth68pR5wU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Flutter Vs React Native 🤔 #flutter - Complete guide by Jordan Developer.",
+      "year": 2024
+    },
+    {
+      "title": "⚛️ React Native Roadmap 2026 🚀 | Beginner to Pro in 10 Steps!",
+      "creator": "withmeApurva",
+      "url": "https://www.youtube.com/watch?v=c3_8ASZTAxw",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "⚛️ React Native Roadmap 2026 🚀 | Beginner to Pro in 10 Steps! - Complete guide by withmeApurva.",
+      "year": 2024
+    },
+    {
+      "title": "React Native - Intro Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=frvXANSaSec",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "React Native - Intro Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Mobile Dev roadmap              #coding #programming #mobile #native #javascript",
+      "creator": "Neeraj Walia",
+      "url": "https://www.youtube.com/watch?v=uG9m7_Hyu3U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Mobile Dev roadmap              #coding #programming #mobile #native #javascript - Complete guide by Neeraj Walia.",
+      "year": 2024
+    },
+    {
+      "title": "Top 3 reasons why you should learn React Native",
+      "creator": "Clever Programmer",
+      "url": "https://www.youtube.com/watch?v=JoqjbkSTz9Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top 3 reasons why you should learn React Native - Complete guide by Clever Programmer.",
+      "year": 2024
+    },
+    {
+      "title": "What's the BEST Mobile Course for 2025 React Native?",
+      "creator": "HeroDevPromo",
+      "url": "https://www.youtube.com/watch?v=RJ4TYhGyQsA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What's the BEST Mobile Course for 2025 React Native? - Complete guide by HeroDevPromo.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter vs React Native — Which One Should You Choose | Hindtech Lucknow #flutter #reactnative",
+      "creator": "Hindtech Learning Point | Lucknow",
+      "url": "https://www.youtube.com/watch?v=xYyB0ceKV0E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Flutter vs React Native — Which One Should You Choose | Hindtech Lucknow #flutter #reactnative - Complete guide by Hindtech Learning Point | Lucknow.",
+      "year": 2024
+    },
+    {
+      "title": "🚀Free resources for learning react #youtubeshorts #viral #viralreels #viralvideos",
+      "creator": "codewithart",
+      "url": "https://www.youtube.com/watch?v=m7PuWczHZbA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🚀Free resources for learning react #youtubeshorts #viral #viralreels #viralvideos - Complete guide by codewithart.",
+      "year": 2024
+    },
+    {
+      "title": "Introducing Inline Styles | freecodecamp basic React #shorts #inlineStyles",
+      "creator": "edtech by meera",
+      "url": "https://www.youtube.com/watch?v=ZHGf6SzZAPM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introducing Inline Styles | freecodecamp basic React #shorts #inlineStyles - Complete guide by edtech by meera.",
+      "year": 2024
+    },
+    {
+      "title": "You dont have to go to college | Learn React Native",
+      "creator": "GeekMODE School of React Native",
+      "url": "https://www.youtube.com/watch?v=VFVAQc2y3es",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "You dont have to go to college | Learn React Native - Complete guide by GeekMODE School of React Native.",
+      "year": 2024
+    },
+    {
+      "title": "𝗙𝘂𝗹𝗹 𝗦𝘁𝗮𝗰𝗸 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 𝗖𝗼𝘂𝗿𝘀𝗲 𝘄𝗶𝘁𝗵 𝗖𝗲𝗿𝘁𝗶𝗳𝗶𝗰𝗮𝘁𝗲 #learntocode",
+      "creator": "Onix React ",
+      "url": "https://www.youtube.com/watch?v=nbIVVp8jKRM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "𝗙𝘂𝗹𝗹 𝗦𝘁𝗮𝗰𝗸 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 𝗖𝗼𝘂𝗿𝘀𝗲 𝘄𝗶𝘁𝗵 𝗖𝗲𝗿𝘁𝗶𝗳𝗶𝗰𝗮𝘁𝗲 #learntocode - Complete guide by Onix React .",
+      "year": 2024
+    },
+    {
+      "title": "React Native Complete Roadmap 2026 | Beginner to Production Level | Hindi",
+      "creator": "Sagar's PaathShaala",
+      "url": "https://www.youtube.com/watch?v=7Vb99jo3P-0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "React Native Complete Roadmap 2026 | Beginner to Production Level | Hindi - Complete guide by Sagar's PaathShaala.",
+      "year": 2024
+    },
+    {
+      "title": "Learn React JS - Full Beginner’s Tutorial & Practice Projects",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=x4rFhThSX04",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn React JS - Full Beginner’s Tutorial & Practice Projects - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Overview, JavaScript - Lecture 0 - CS50's Mobile App Development with React Native 2018",
+      "creator": "CS50",
+      "url": "https://www.youtube.com/watch?v=X52b-8y2Hf4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Overview, JavaScript - Lecture 0 - CS50's Mobile App Development with React Native 2018 - Complete guide by CS50.",
+      "year": 2024
+    },
+    {
+      "title": "📱🤘🏾Fastest way to become a Developer | Learn React Native API | Learn React Native API 2022",
+      "creator": "GeekMODE School of React Native",
+      "url": "https://www.youtube.com/watch?v=g5t00__WSwU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "📱🤘🏾Fastest way to become a Developer | Learn React Native API | Learn React Native API 2022 - Complete guide by GeekMODE School of React Native.",
+      "year": 2024
+    },
+    {
+      "title": "React & React Native: From Web to Mobile App Development #react #reactnative #shorts #viral",
+      "creator": "TUTORIEX",
+      "url": "https://www.youtube.com/watch?v=f6blsunMPz4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "React & React Native: From Web to Mobile App Development #react #reactnative #shorts #viral - Complete guide by TUTORIEX.",
+      "year": 2024
+    },
+    {
+      "title": "Teaser - CS50's Mobile App Development with React Native 2018",
+      "creator": "CS50",
+      "url": "https://www.youtube.com/watch?v=_P7wHN_kOv4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Teaser - CS50's Mobile App Development with React Native 2018 - Complete guide by CS50.",
+      "year": 2024
+    },
+    {
+      "title": "Get a MacBook | Learn React Native",
+      "creator": "GeekMODE School of React Native",
+      "url": "https://www.youtube.com/watch?v=_mQaSSCy-iA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Get a MacBook | Learn React Native - Complete guide by GeekMODE School of React Native.",
+      "year": 2024
+    },
+    {
+      "title": "Learn the best practices | Learn React Native",
+      "creator": "GeekMODE School of React Native",
+      "url": "https://www.youtube.com/watch?v=t5vKH1tVvNA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn the best practices | Learn React Native - Complete guide by GeekMODE School of React Native.",
+      "year": 2024
+    },
+    {
+      "title": "FREE React Native Bootcamp in 30 HOURS 🎉",
+      "creator": "Codesistency",
+      "url": "https://www.youtube.com/watch?v=q3HE1dFiJBI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "FREE React Native Bootcamp in 30 HOURS 🎉 - Complete guide by Codesistency.",
+      "year": 2024
+    },
+    {
+      "title": "React Native Full Course 2026 | Build a Full Stack Mobile App and Publish to App Store 🔥",
+      "creator": "RoadsideCoder",
+      "url": "https://www.youtube.com/watch?v=WSppuT4A09Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "React Native Full Course 2026 | Build a Full Stack Mobile App and Publish to App Store 🔥 - Complete guide by RoadsideCoder.",
+      "year": 2024
+    },
+    {
+      "title": "React Native Crash Course 2026 - Build a Complete Mobile App",
+      "creator": "Traversy Media",
+      "url": "https://www.youtube.com/watch?v=XCifkDC0yXA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "React Native Crash Course 2026 - Build a Complete Mobile App - Complete guide by Traversy Media.",
+      "year": 2024
+    },
+    {
+      "title": "React Native for Dummies 2026 – Full Beginner Crash Course",
+      "creator": "Code with Beto",
+      "url": "https://www.youtube.com/watch?v=BUXnASp_WyQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "React Native for Dummies 2026 – Full Beginner Crash Course - Complete guide by Code with Beto.",
+      "year": 2024
+    },
+    {
+      "title": "Complete React Native Tutorial #1 - Introduction & Setup (Expo)",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/watch?v=J2j1yk-34OY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete React Native Tutorial #1 - Introduction & Setup (Expo) - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "Complete React Native Tutorial #2 - Text, View & Image Components",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/watch?v=UCbRTaX6i7g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete React Native Tutorial #2 - Text, View & Image Components - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "A Day in a Life of an Android App Developer Ft. Saumya Singh | Android Development #shorts",
+      "creator": "SCALER",
+      "url": "https://www.youtube.com/watch?v=o3ytLjAJmVI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "A Day in a Life of an Android App Developer Ft. Saumya Singh | Android Development #shorts - Complete guide by SCALER.",
+      "year": 2024
+    },
+    {
+      "title": "Android Developer Roadmap #trendingshorts #coderslife #trendingnow",
+      "creator": "AlgoTutor",
+      "url": "https://www.youtube.com/watch?v=X6I5gcYMlZU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Android Developer Roadmap #trendingshorts #coderslife #trendingnow - Complete guide by AlgoTutor.",
+      "year": 2024
+    },
+    {
+      "title": "Android Development Roadmap. Check out from the Link in Bio for a free live Masterclass. .... #ad",
+      "creator": "Neeraj Walia",
+      "url": "https://www.youtube.com/watch?v=v7Mm2V2zz6E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Android Development Roadmap. Check out from the Link in Bio for a free live Masterclass. .... #ad - Complete guide by Neeraj Walia.",
+      "year": 2024
+    },
+    {
+      "title": "Java vs Kotlin 2025 | Why Kotlin in 2025 ? Java vs Kotlin for Android App Development 2025 in Hindi",
+      "creator": "CS TechTube",
+      "url": "https://www.youtube.com/watch?v=E__zgl9hkgI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java vs Kotlin 2025 | Why Kotlin in 2025 ? Java vs Kotlin for Android App Development 2025 in Hindi - Complete guide by CS TechTube.",
+      "year": 2024
+    },
+    {
+      "title": "Why Java Developers are Switching to Kotlin | Android App Development | Programming | #shorts",
+      "creator": "SCALER",
+      "url": "https://www.youtube.com/watch?v=9zers80CVLI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why Java Developers are Switching to Kotlin | Android App Development | Programming | #shorts - Complete guide by SCALER.",
+      "year": 2024
+    },
+    {
+      "title": "Android App Development Kotlin : WHOLE NEW LEARNING ANGLE !  - Udemy Free Course",
+      "creator": "Free Learning",
+      "url": "https://www.youtube.com/watch?v=0uxc3MkS-7o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Android App Development Kotlin : WHOLE NEW LEARNING ANGLE !  - Udemy Free Course - Complete guide by Free Learning.",
+      "year": 2024
+    },
+    {
+      "title": "Android App Development with Java in 60 Days",
+      "creator": "CodePad24",
+      "url": "https://www.youtube.com/watch?v=uucSv-HbTis",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Android App Development with Java in 60 Days - Complete guide by CodePad24.",
+      "year": 2024
+    },
+    {
+      "title": "What is Android ? | Kotlin Android App Development Course in Hindi 2025 | @cstechtube",
+      "creator": "CS TechTube",
+      "url": "https://www.youtube.com/watch?v=Gidz5DIC0Rw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Android ? | Kotlin Android App Development Course in Hindi 2025 | @cstechtube - Complete guide by CS TechTube.",
+      "year": 2024
+    },
+    {
+      "title": "3 Free Courses to learn Android Development 🔥🚀 | #coding #shorts #lmtshorts",
+      "creator": "Last moment tuitions",
+      "url": "https://www.youtube.com/watch?v=b7Lg0dSyggI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "3 Free Courses to learn Android Development 🔥🚀 | #coding #shorts #lmtshorts - Complete guide by Last moment tuitions.",
+      "year": 2024
+    },
+    {
+      "title": "Java Vs Jetpack Compose in App Development #androidstudio #jetpackcompose #kotlin #appdevelopment",
+      "creator": "Future DSP",
+      "url": "https://www.youtube.com/watch?v=FTwZ22HnHZk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Vs Jetpack Compose in App Development #androidstudio #jetpackcompose #kotlin #appdevelopment - Complete guide by Future DSP.",
+      "year": 2024
+    },
+    {
+      "title": "Android Developers Are Not in Demand?!",
+      "creator": "Philipp Lackner",
+      "url": "https://www.youtube.com/watch?v=IwJZ7yBPG0Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Android Developers Are Not in Demand?! - Complete guide by Philipp Lackner.",
+      "year": 2024
+    },
+    {
+      "title": "Android Development for Beginners - Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=fis26HvvDII",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Android Development for Beginners - Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Splash Screen in Android Studio using Kotlin | Latest 2023 API Method",
+      "creator": "Android Knowledge",
+      "url": "https://www.youtube.com/watch?v=Eu7lkrDjBq8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Splash Screen in Android Studio using Kotlin | Latest 2023 API Method - Complete guide by Android Knowledge.",
+      "year": 2024
+    },
+    {
+      "title": "All Android Versions A to Z: Evolution of All Android Versions from 1.0 to 15 |  #androidcourse",
+      "creator": "CS TechTube",
+      "url": "https://www.youtube.com/watch?v=pxuNs2rwRIg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "All Android Versions A to Z: Evolution of All Android Versions from 1.0 to 15 |  #androidcourse - Complete guide by CS TechTube.",
+      "year": 2024
+    },
+    {
+      "title": "Intents in Android Studio using Kotlin | Explicit Intent and Implicit Intent with Examples",
+      "creator": "Android Knowledge",
+      "url": "https://www.youtube.com/watch?v=CAPlP2QcHnM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Intents in Android Studio using Kotlin | Explicit Intent and Implicit Intent with Examples - Complete guide by Android Knowledge.",
+      "year": 2024
+    },
+    {
+      "title": "History of Android: How did Google Acquire Android? | Amazing Android Facts",
+      "creator": "WsCube Tech",
+      "url": "https://www.youtube.com/watch?v=mbmka5RYuXg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "History of Android: How did Google Acquire Android? | Amazing Android Facts - Complete guide by WsCube Tech.",
+      "year": 2024
+    },
+    {
+      "title": "Class 1 - Introduction To Android Development With KOTLIN | Android App Development Course In Hindi",
+      "creator": "Zain Farhan",
+      "url": "https://www.youtube.com/watch?v=bTjOfVePvFw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Class 1 - Introduction To Android Development With KOTLIN | Android App Development Course In Hindi - Complete guide by Zain Farhan.",
+      "year": 2024
+    },
+    {
+      "title": "Launching the Biggest App Development Series 🔥️ 2024 | Let's GO | Saumya Singh",
+      "creator": "Saumya Singh",
+      "url": "https://www.youtube.com/watch?v=BePWJavW_w4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Launching the Biggest App Development Series 🔥️ 2024 | Let's GO | Saumya Singh - Complete guide by Saumya Singh.",
+      "year": 2024
+    },
+    {
+      "title": "New capabilities in SwiftUI",
+      "creator": "Apple Developer",
+      "url": "https://www.youtube.com/watch?v=mtd2VqjY9e8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "New capabilities in SwiftUI - Complete guide by Apple Developer.",
+      "year": 2024
+    },
+    {
+      "title": "Class 2 - Summary of Android Studio Projects | Android App Development Complete Course In Hindi",
+      "creator": "Zain Farhan",
+      "url": "https://www.youtube.com/watch?v=QMzFBvJMC94",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Class 2 - Summary of Android Studio Projects | Android App Development Complete Course In Hindi - Complete guide by Zain Farhan.",
+      "year": 2024
+    },
+    {
+      "title": "1. Installing Android Studio & Setup | Android Tutorials",
+      "creator": "Saumya Singh",
+      "url": "https://www.youtube.com/watch?v=BENfPrwGhaw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1. Installing Android Studio & Setup | Android Tutorials - Complete guide by Saumya Singh.",
+      "year": 2024
+    },
+    {
+      "title": "SwiftUI Fundamentals | FULL COURSE | Beginner Friendly",
+      "creator": "Sean Allen",
+      "url": "https://www.youtube.com/watch?v=b1oC7sLIgpI",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "SwiftUI Fundamentals | FULL COURSE | Beginner Friendly - Complete guide by Sean Allen.",
+      "year": 2024
+    },
+    {
+      "title": "What is Android & How it Work? | How to Become an Android Developer! | Android Tutorial",
+      "creator": "WsCube Tech",
+      "url": "https://www.youtube.com/watch?v=HyU4vkZ2NB8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Android & How it Work? | How to Become an Android Developer! | Android Tutorial - Complete guide by WsCube Tech.",
+      "year": 2024
+    },
+    {
+      "title": "Finance Tracker App #coding #swift #ios #swiftui #swiftuitutorial",
+      "creator": "Code with Sergio ",
+      "url": "https://www.youtube.com/watch?v=94Zqtdlq204",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Finance Tracker App #coding #swift #ios #swiftui #swiftuitutorial - Complete guide by Code with Sergio .",
+      "year": 2024
+    },
+    {
+      "title": "From Beginner to iOS Developer in 100 Days | #100daysofios",
+      "creator": "RaiTech Labs",
+      "url": "https://www.youtube.com/watch?v=DOJoOsH-zpU",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "From Beginner to iOS Developer in 100 Days | #100daysofios - Complete guide by RaiTech Labs.",
+      "year": 2024
+    },
+    {
+      "title": "Install Xcode on macOS (Beginner Guide) | #100DaysOfiOS – Day 1",
+      "creator": "RaiTech Labs",
+      "url": "https://www.youtube.com/watch?v=9obQNuZIYu0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Install Xcode on macOS (Beginner Guide) | #100DaysOfiOS – Day 1 - Complete guide by RaiTech Labs.",
+      "year": 2024
+    },
+    {
+      "title": "New video in process…#swift #programming #ios #coding #swiftui",
+      "creator": "Code with Sergio ",
+      "url": "https://www.youtube.com/watch?v=jGdRFmtVas8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "New video in process…#swift #programming #ios #coding #swiftui - Complete guide by Code with Sergio .",
+      "year": 2024
+    },
+    {
+      "title": "Learning coding again #coding #swiftui #appdevelopment #iosdevelopment #developer",
+      "creator": "Code with Mompi",
+      "url": "https://www.youtube.com/watch?v=fzB0XoadeuY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learning coding again #coding #swiftui #appdevelopment #iosdevelopment #developer - Complete guide by Code with Mompi.",
+      "year": 2024
+    },
+    {
+      "title": "Master Swift Programming and SwiftUI Development 🚀 | #swift #swiftui #coding",
+      "creator": "Amrinder Singh",
+      "url": "https://www.youtube.com/watch?v=nLsgjhA-3i0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Master Swift Programming and SwiftUI Development 🚀 | #swift #swiftui #coding - Complete guide by Amrinder Singh.",
+      "year": 2024
+    },
+    {
+      "title": "swiftui #swift #swiftui #programming #ios #coding #programmer #programmerlife",
+      "creator": "FastTrekker",
+      "url": "https://www.youtube.com/watch?v=qOt0MPcQP50",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "swiftui #swift #swiftui #programming #ios #coding #programmer #programmerlife - Complete guide by FastTrekker.",
+      "year": 2024
+    },
+    {
+      "title": "💸 Swift Double money bug: why 3 × 39.95 isn't 119.85 #swiftui #coding #swift #programming",
+      "creator": "Cané Allesta",
+      "url": "https://www.youtube.com/watch?v=CW-0UuLAC9g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "💸 Swift Double money bug: why 3 × 39.95 isn't 119.85 #swiftui #coding #swift #programming - Complete guide by Cané Allesta.",
+      "year": 2024
+    },
+    {
+      "title": "SwiftUI Path #swift #coding",
+      "creator": "Blossom Build",
+      "url": "https://www.youtube.com/watch?v=BMX_ZCtV2Lo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SwiftUI Path #swift #coding - Complete guide by Blossom Build.",
+      "year": 2024
+    },
+    {
+      "title": "Day 920: LeetCode Problem 1606. - Swift #daily #challenge #swiftui #coding #leetcode",
+      "creator": "iOSxBank",
+      "url": "https://www.youtube.com/watch?v=_RMOGcj-8c4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Day 920: LeetCode Problem 1606. - Swift #daily #challenge #swiftui #coding #leetcode - Complete guide by iOSxBank.",
+      "year": 2024
+    },
+    {
+      "title": "Swift in 30s: Structs vs Classes 🔥 #Shorts",
+      "creator": "Fueepz",
+      "url": "https://www.youtube.com/watch?v=OQVU6nBiIok",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Swift in 30s: Structs vs Classes 🔥 #Shorts - Complete guide by Fueepz.",
+      "year": 2024
+    },
+    {
+      "title": "SwiftUI MVVM Controversy #swift #coding",
+      "creator": "Blossom Build",
+      "url": "https://www.youtube.com/watch?v=XEhjb1QVr7o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SwiftUI MVVM Controversy #swift #coding - Complete guide by Blossom Build.",
+      "year": 2024
+    },
+    {
+      "title": "Day 922: LeetCode Problem 3789. - Swift #daily #challenge #swiftui #coding #leetcode",
+      "creator": "iOSxBank",
+      "url": "https://www.youtube.com/watch?v=TiTh8oBWkyc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Day 922: LeetCode Problem 3789. - Swift #daily #challenge #swiftui #coding #leetcode - Complete guide by iOSxBank.",
+      "year": 2024
+    },
+    {
+      "title": "SWIFT UI PROGRAMMING🚀 #coding #iphone #swiftui #javascript #macbook",
+      "creator": "Moxy Media",
+      "url": "https://www.youtube.com/watch?v=qn-tMEG4BBg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SWIFT UI PROGRAMMING🚀 #coding #iphone #swiftui #javascript #macbook - Complete guide by Moxy Media.",
+      "year": 2024
+    },
+    {
+      "title": "Build a Stunning Bank App UI with SwiftUI! 💳",
+      "creator": "SwiftUI Codes",
+      "url": "https://www.youtube.com/watch?v=-TIDfHM_YLk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build a Stunning Bank App UI with SwiftUI! 💳 - Complete guide by SwiftUI Codes.",
+      "year": 2024
+    },
+    {
+      "title": "Swift UI is Amazing | #Swiftui | #Python | #Coder |#Coding |#Javascript |#Programmer |#PythonCoder",
+      "creator": "Python Coder",
+      "url": "https://www.youtube.com/watch?v=x_u9K_J1rmk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Swift UI is Amazing | #Swiftui | #Python | #Coder |#Coding |#Javascript |#Programmer |#PythonCoder - Complete guide by Python Coder.",
+      "year": 2024
+    },
+    {
+      "title": "Create a Binding variable #swift #swiftprogramming #tutorial #swiftui",
+      "creator": "Coding With Tom",
+      "url": "https://www.youtube.com/watch?v=rBpJXq7lPV0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Create a Binding variable #swift #swiftprogramming #tutorial #swiftui - Complete guide by Coding With Tom.",
+      "year": 2024
+    },
+    {
+      "title": "How to learn swift #tech #apple #Xcode",
+      "creator": "OndrejTech",
+      "url": "https://www.youtube.com/watch?v=ueoIi3lptno",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to learn swift #tech #apple #Xcode - Complete guide by OndrejTech.",
+      "year": 2024
+    },
+    {
+      "title": "🚀 SwiftUI Onboarding Masterclass  Create Stunning First Impressions",
+      "creator": "SwiftUI Scene",
+      "url": "https://www.youtube.com/watch?v=GowN-bLdGgQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🚀 SwiftUI Onboarding Masterclass  Create Stunning First Impressions - Complete guide by SwiftUI Scene.",
+      "year": 2024
+    },
+    {
+      "title": "🚀 Build Stunning SwiftUI Apps ✨ #swiftui #smartphone #appdevelopment  #coding #iosdevelopment",
+      "creator": "SwiftUI Codes",
+      "url": "https://www.youtube.com/watch?v=zvSVwt5mwTw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🚀 Build Stunning SwiftUI Apps ✨ #swiftui #smartphone #appdevelopment  #coding #iosdevelopment - Complete guide by SwiftUI Codes.",
+      "year": 2024
+    },
+    {
+      "title": "Make Your First iPhone App Easily #swiftui #Xcode #swift #afrotech",
+      "creator": "Nerdy Yawdie",
+      "url": "https://www.youtube.com/watch?v=PqBRf71USIw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Make Your First iPhone App Easily #swiftui #Xcode #swift #afrotech - Complete guide by Nerdy Yawdie.",
+      "year": 2024
+    },
+    {
+      "title": "😍  #1 IOS Development in hindi | Project Structure  | IOS | Swift | Swift Ui | Xocde",
+      "creator": "Programming Simplified",
+      "url": "https://www.youtube.com/watch?v=gMYtc5ojrWY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "😍  #1 IOS Development in hindi | Project Structure  | IOS | Swift | Swift Ui | Xocde - Complete guide by Programming Simplified.",
+      "year": 2024
+    },
+    {
+      "title": "Code-along: Start building with Swift and SwiftUI | Meet with Apple",
+      "creator": "Apple Developer",
+      "url": "https://www.youtube.com/watch?v=XapwQYZwmic",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Code-along: Start building with Swift and SwiftUI | Meet with Apple - Complete guide by Apple Developer.",
+      "year": 2024
+    },
+    {
+      "title": "Learn SwiftUI in 3 Minutes",
+      "creator": "Flo writes Code",
+      "url": "https://www.youtube.com/watch?v=Myq6hZUyTLs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn SwiftUI in 3 Minutes - Complete guide by Flo writes Code.",
+      "year": 2024
+    },
+    {
+      "title": "Learn the Essentials of Swift in one hour",
+      "creator": "Paul Hudson",
+      "url": "https://www.youtube.com/watch?v=n5X_V81OYnQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn the Essentials of Swift in one hour - Complete guide by Paul Hudson.",
+      "year": 2024
+    },
+    {
+      "title": "SwiftUI Tutorial: Creating Your First SwiftUI Project & Understanding the Template Code",
+      "creator": "RaiTech Labs",
+      "url": "https://www.youtube.com/watch?v=egnXyOCxfPE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SwiftUI Tutorial: Creating Your First SwiftUI Project & Understanding the Template Code - Complete guide by RaiTech Labs.",
+      "year": 2024
+    },
+    {
+      "title": "SwiftUI Crash Course in 2025 Overview: Building Stunning iOS Apps from Scratch!",
+      "creator": "RaiTech Labs",
+      "url": "https://www.youtube.com/watch?v=UmE5gtlwMc4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SwiftUI Crash Course in 2025 Overview: Building Stunning iOS Apps from Scratch! - Complete guide by RaiTech Labs.",
+      "year": 2024
+    },
+    {
+      "title": "😍  #2 Create Button in IOS Development | Swift | Swift Ui | Xcode",
+      "creator": "Programming Simplified",
+      "url": "https://www.youtube.com/watch?v=MuSPlcGeEOU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "😍  #2 Create Button in IOS Development | Swift | Swift Ui | Xcode - Complete guide by Programming Simplified.",
+      "year": 2024
+    },
+    {
+      "title": "SwiftUI vs UIKit (See UI built 3 different ways)",
+      "creator": "CodeWithChris",
+      "url": "https://www.youtube.com/watch?v=R017vWz7FOY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SwiftUI vs UIKit (See UI built 3 different ways) - Complete guide by CodeWithChris.",
+      "year": 2024
+    },
+    {
+      "title": "The Complete App Development Roadmap",
+      "creator": "Programming with Mosh",
+      "url": "https://www.youtube.com/watch?v=yye7rSsiV6k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Complete App Development Roadmap - Complete guide by Programming with Mosh.",
+      "year": 2024
+    },
+    {
+      "title": "The Complete React Native Course: from Zero to Hero",
+      "creator": "Mash School",
+      "url": "https://www.youtube.com/watch?v=ANdSdIlgsEw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Complete React Native Course: from Zero to Hero - Complete guide by Mash School.",
+      "year": 2024
+    },
+    {
+      "title": "Basic SwiftUI Layout Containers and UI Elements",
+      "creator": "CodeWithChris",
+      "url": "https://www.youtube.com/watch?v=rmTQcILJRcY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Basic SwiftUI Layout Containers and UI Elements - Complete guide by CodeWithChris.",
+      "year": 2024
+    },
+    {
+      "title": "Types of Stacks in SwiftUI | Beginners Guide",
+      "creator": "Flawless Code",
+      "url": "https://www.youtube.com/watch?v=N67xMfrjpxE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Types of Stacks in SwiftUI | Beginners Guide - Complete guide by Flawless Code.",
+      "year": 2024
+    },
+    {
+      "title": "React Native Tutorial #1 - Introduction - What is React Native & How it works",
+      "creator": "Mash School",
+      "url": "https://www.youtube.com/watch?v=LWs6dY92_MU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "React Native Tutorial #1 - Introduction - What is React Native & How it works - Complete guide by Mash School.",
+      "year": 2024
+    },
+    {
+      "title": "React native tutorial in Hindi #1 Introduction | what is React-Native",
+      "creator": "Code Step By Step",
+      "url": "https://www.youtube.com/watch?v=z1qG80Jkzi8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "React native tutorial in Hindi #1 Introduction | what is React-Native - Complete guide by Code Step By Step.",
+      "year": 2024
+    },
+    {
+      "title": "React Native Tutorial - 1 - Introduction",
+      "creator": "Codevolution",
+      "url": "https://www.youtube.com/watch?v=hzzCveeczSQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "React Native Tutorial - 1 - Introduction - Complete guide by Codevolution.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter vs React Native - Will Flutter Kill React Native?",
+      "creator": "Programming with Mosh",
+      "url": "https://www.youtube.com/watch?v=uxZZzmeCoLE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Flutter vs React Native - Will Flutter Kill React Native? - Complete guide by Programming with Mosh.",
+      "year": 2024
+    },
+    {
+      "title": "The Ultimate React Native Series  Lesson 2  Prerequisites",
+      "creator": "Cyber Frequency | Anything Unfiltered & Gameplay",
+      "url": "https://www.youtube.com/watch?v=LJe04rbWASY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Ultimate React Native Series  Lesson 2  Prerequisites - Complete guide by Cyber Frequency | Anything Unfiltered & Gameplay.",
+      "year": 2024
+    },
+    {
+      "title": "React 2026 New Introduction The Ultimate React Native Series  Lesson 1",
+      "creator": "Cyber Frequency | Anything Unfiltered & Gameplay",
+      "url": "https://www.youtube.com/watch?v=qtl0NDzHbLY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "React 2026 New Introduction The Ultimate React Native Series  Lesson 1 - Complete guide by Cyber Frequency | Anything Unfiltered & Gameplay.",
+      "year": 2024
+    },
+    {
+      "title": "What Is React Native & Why Is It So Popular?",
+      "creator": "Programming with Mosh",
+      "url": "https://www.youtube.com/watch?v=6oFuwhIibo4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What Is React Native & Why Is It So Popular? - Complete guide by Programming with Mosh.",
+      "year": 2024
+    },
+    {
+      "title": "React Native Tutorial - 2 - Expo vs React Native",
+      "creator": "Codevolution",
+      "url": "https://www.youtube.com/watch?v=OjYF5-eFGsQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "React Native Tutorial - 2 - Expo vs React Native - Complete guide by Codevolution.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Crash Course #1 - What is Flutter?",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/watch?v=j_rCDc_X-k8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Flutter Crash Course #1 - What is Flutter? - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Crash Course #2 - Installing on Windows",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/watch?v=DvZuJeTHWaw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Flutter Crash Course #2 - Installing on Windows - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter & Firebase App Tutorial #1 - Introduction",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/watch?v=sfA3NWDBPZ4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Flutter & Firebase App Tutorial #1 - Introduction - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter & Firebase App Tutorial #2 - Firebase Setup",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/watch?v=Wa0rdbb53I8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Flutter & Firebase App Tutorial #2 - Firebase Setup - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Animation Tutorial #1 - Intro & Setup",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/watch?v=OtrWXLfGtqE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Flutter Animation Tutorial #1 - Intro & Setup - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Animation Tutorial #2 - Built-in Animations",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/watch?v=sZw8opj38Vo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Flutter Animation Tutorial #2 - Built-in Animations - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Forms Tutorial #1 - User Input in Flutter",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/watch?v=2DX0TtM9Hug",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Flutter Forms Tutorial #1 - User Input in Flutter - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "Riverpod Crash Course #1 - Why Use Riverpod?",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/watch?v=4zDYqKEQcDQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Riverpod Crash Course #1 - Why Use Riverpod? - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "Riverpod Crash Course #2 - Setup & Installing Riverpod",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/watch?v=8194MeQfuJs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Riverpod Crash Course #2 - Setup & Installing Riverpod - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "New Flutter Masterclass Course!",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/watch?v=LtlsX_lCfK4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "New Flutter Masterclass Course! - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "Master Flutter in Just 8 Hours | Full Course Hindi @HindiCodepur",
+      "creator": "Codepur",
+      "url": "https://www.youtube.com/watch?v=j-LOab_PzzU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Master Flutter in Just 8 Hours | Full Course Hindi @HindiCodepur - Complete guide by Codepur.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Tutorial for Beginners – Build This in 60s!",
+      "creator": "Yaqoob Developer",
+      "url": "https://www.youtube.com/watch?v=55Cv7Mct5cM",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Flutter Tutorial for Beginners – Build This in 60s! - Complete guide by Yaqoob Developer.",
+      "year": 2024
+    },
+    {
+      "title": "Build your own Mobile App with Codex GPT-6 Astra - Full iOS and Android Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=bGALxRWI10A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build your own Mobile App with Codex GPT-6 Astra - Full iOS and Android Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Forms Tutorial #2 - TextField Widget",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/watch?v=2QxzqkLzAG8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Flutter Forms Tutorial #2 - TextField Widget - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Complete Tutorial In Nepali",
+      "creator": "Technology Channel",
+      "url": "https://www.youtube.com/watch?v=N0cDdu32IaA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Flutter Complete Tutorial In Nepali - Complete guide by Technology Channel.",
+      "year": 2024
+    },
+    {
+      "title": "How to Start App Development? Complete RoadMap | 2024",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=7nQsQ0rvYqQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Start App Development? Complete RoadMap | 2024 - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "iOS App Developer Roadmap 2026 📱🍎 #iosdeveloper #swiftprogramming #appledeveloper #xcode #shorts",
+      "creator": "Rancho Fullstack",
+      "url": "https://www.youtube.com/watch?v=DkveMeZa6AM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "iOS App Developer Roadmap 2026 📱🍎 #iosdeveloper #swiftprogramming #appledeveloper #xcode #shorts - Complete guide by Rancho Fullstack.",
+      "year": 2024
+    },
+    {
+      "title": "iOS App Store Submission Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=9vkkJ4tC4SQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "iOS App Store Submission Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "React Native Course for Beginners in 2026 | Build a Full Stack React Native App",
+      "creator": "JavaScript Mastery",
+      "url": "https://www.youtube.com/watch?v=f8Z9JyB2EIE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "React Native Course for Beginners in 2026 | Build a Full Stack React Native App - Complete guide by JavaScript Mastery.",
+      "year": 2024
+    },
+    {
+      "title": "Average iOS Developer 😵‍💫",
+      "creator": "Alberta Tech",
+      "url": "https://www.youtube.com/watch?v=ZfxtPY-wysc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Average iOS Developer 😵‍💫 - Complete guide by Alberta Tech.",
+      "year": 2024
+    },
+    {
+      "title": "🔥 Complete iOS Development Roadmap 2026 🚀 | Become an iPhone App Developer",
+      "creator": "Coding Dialect",
+      "url": "https://www.youtube.com/watch?v=TDWh4KddgHI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🔥 Complete iOS Development Roadmap 2026 🚀 | Become an iPhone App Developer - Complete guide by Coding Dialect.",
+      "year": 2024
+    },
+    {
+      "title": "Best Free Coding Apps? ChatGPT Finds Them Fast",
+      "creator": "AIChief",
+      "url": "https://www.youtube.com/watch?v=sHcdtYWEUi8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Best Free Coding Apps? ChatGPT Finds Them Fast - Complete guide by AIChief.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Coding FREE in 2025 | Web Dev, App Dev & AI 🔥 #freecodecamp #codenewbie",
+      "creator": "Arpan Mukherjee",
+      "url": "https://www.youtube.com/watch?v=34IqiHyp7Kw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Coding FREE in 2025 | Web Dev, App Dev & AI 🔥 #freecodecamp #codenewbie - Complete guide by Arpan Mukherjee.",
+      "year": 2024
+    },
+    {
+      "title": "The BIGGEST iOS Course EVER! (100% Free!)",
+      "creator": "NoCode ProCode - Despia CEO",
+      "url": "https://www.youtube.com/watch?v=Joom1ZtemPw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The BIGGEST iOS Course EVER! (100% Free!) - Complete guide by NoCode ProCode - Despia CEO.",
+      "year": 2024
+    },
+    {
+      "title": "Don't build an iOS app from scratch (do this instead)",
+      "creator": "Apoorv Jain",
+      "url": "https://www.youtube.com/watch?v=B4_cmmLJh5U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Don't build an iOS app from scratch (do this instead) - Complete guide by Apoorv Jain.",
+      "year": 2024
+    },
+    {
+      "title": "📱 Want to become an iOS Developer in 2025? | IOS Developer Complete Roadmap",
+      "creator": "Tech with Ali Naqi ",
+      "url": "https://www.youtube.com/watch?v=LADXkBN6jn0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "📱 Want to become an iOS Developer in 2025? | IOS Developer Complete Roadmap - Complete guide by Tech with Ali Naqi .",
+      "year": 2024
+    },
+    {
+      "title": "You Will Never Struggle With iOS Development Again 📱",
+      "creator": "Volkan Erdogan",
+      "url": "https://www.youtube.com/watch?v=c9bAqEQIc6Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "You Will Never Struggle With iOS Development Again 📱 - Complete guide by Volkan Erdogan.",
+      "year": 2024
+    },
+    {
+      "title": "APP Development Secrets You WISH You Knew!",
+      "creator": "Sheryians Coding School",
+      "url": "https://www.youtube.com/watch?v=tkm6sE9CeSk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "APP Development Secrets You WISH You Knew! - Complete guide by Sheryians Coding School.",
+      "year": 2024
+    },
+    {
+      "title": "How to build iOS apps with Claude Code",
+      "creator": "Mason Fitzgerald",
+      "url": "https://www.youtube.com/watch?v=kx9lDtEsEkg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to build iOS apps with Claude Code - Complete guide by Mason Fitzgerald.",
+      "year": 2024
+    },
+    {
+      "title": "Build a Logic Checker App - Step 4 freeCodeCamp JavaScript Certification  #programming #coding",
+      "creator": "The Code Zone Skool",
+      "url": "https://www.youtube.com/watch?v=LWY8nfn2fN0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build a Logic Checker App - Step 4 freeCodeCamp JavaScript Certification  #programming #coding - Complete guide by The Code Zone Skool.",
+      "year": 2024
+    },
+    {
+      "title": "The very basics of iOS app development 🙌",
+      "creator": "Julian Michael Technologies",
+      "url": "https://www.youtube.com/watch?v=PLgBArQhy6o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The very basics of iOS app development 🙌 - Complete guide by Julian Michael Technologies.",
+      "year": 2024
+    },
+    {
+      "title": "Make an App in 30 Seconds Using AI! 🤯 #ai #freetutorial #freetutorial #freecodecamp",
+      "creator": "GYAN AI",
+      "url": "https://www.youtube.com/watch?v=L-pSs1NGUus",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Make an App in 30 Seconds Using AI! 🤯 #ai #freetutorial #freetutorial #freecodecamp - Complete guide by GYAN AI.",
+      "year": 2024
+    },
+    {
+      "title": "Best Apps to learn coding (Part-1) #shorts #ytshorts #coding",
+      "creator": "MAP CODING",
+      "url": "https://www.youtube.com/watch?v=WrRLYX4avZ0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Best Apps to learn coding (Part-1) #shorts #ytshorts #coding - Complete guide by MAP CODING.",
+      "year": 2024
+    },
+    {
+      "title": "STACKr News Shorts - Issue 4 - Low-Code Tutorial – Build 3 Financial Apps",
+      "creator": "codeSTACKr",
+      "url": "https://www.youtube.com/watch?v=iG-Vx6L-L68",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "STACKr News Shorts - Issue 4 - Low-Code Tutorial – Build 3 Financial Apps - Complete guide by codeSTACKr.",
+      "year": 2024
+    },
+    {
+      "title": "The Tech Stack Behind My Solo iOS Apps (Episode 3 Of 8)",
+      "creator": "Nelson Lee",
+      "url": "https://www.youtube.com/watch?v=tDg4zQMB4j4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Tech Stack Behind My Solo iOS Apps (Episode 3 Of 8) - Complete guide by Nelson Lee.",
+      "year": 2024
+    },
+    {
+      "title": "PWA 👨‍💻🖥 test login on IOS 📱🍎🎧 #viralshort  #devcommunity #freecodecamp #collegelife",
+      "creator": "Ned Pham",
+      "url": "https://www.youtube.com/watch?v=LSZmG4tZdoY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PWA 👨‍💻🖥 test login on IOS 📱🍎🎧 #viralshort  #devcommunity #freecodecamp #collegelife - Complete guide by Ned Pham.",
+      "year": 2024
+    },
+    {
+      "title": "Android Jetpack Composable Tutorial | Project Setup | CheezyCode Hindi",
+      "creator": "Cheezy Code",
+      "url": "https://www.youtube.com/watch?v=D1b0Hv7G5AU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Android Jetpack Composable Tutorial | Project Setup | CheezyCode Hindi - Complete guide by Cheezy Code.",
+      "year": 2024
+    },
+    {
+      "title": "Android App Development Tutorial for Beginners - Your First App",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=FjrKMcnKahY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Android App Development Tutorial for Beginners - Your First App - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Android Jetpack Compose Tutorial | Introduction | CheezyCode Hindi",
+      "creator": "Cheezy Code",
+      "url": "https://www.youtube.com/watch?v=8q5qI3Ah9Us",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Android Jetpack Compose Tutorial | Introduction | CheezyCode Hindi - Complete guide by Cheezy Code.",
+      "year": 2024
+    },
+    {
+      "title": "Creating Your First Jetpack Compose App - Android Jetpack Compose - Part 1",
+      "creator": "Philipp Lackner",
+      "url": "https://www.youtube.com/watch?v=cDabx3SjuOY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Creating Your First Jetpack Compose App - Android Jetpack Compose - Part 1 - Complete guide by Philipp Lackner.",
+      "year": 2024
+    },
+    {
+      "title": "Tutorial 01: What is iOS, App Bundle and Folder Hierarchy of XCode | How to make first app iOS XCode",
+      "creator": "Fahad Hussain",
+      "url": "https://www.youtube.com/watch?v=Zu7E2VL2xa0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Tutorial 01: What is iOS, App Bundle and Folder Hierarchy of XCode | How to make first app iOS XCode - Complete guide by Fahad Hussain.",
+      "year": 2024
+    },
+    {
+      "title": "Ionic & Capacitor for Building Native Mobile Apps – Full Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=K7ghUiXLef8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Ionic & Capacitor for Building Native Mobile Apps – Full Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Tutorial 02: iOS Application Life Cycle | AppDelegate in iOS XCode Complete",
+      "creator": "Fahad Hussain",
+      "url": "https://www.youtube.com/watch?v=B1Ccb_jzwCo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Tutorial 02: iOS Application Life Cycle | AppDelegate in iOS XCode Complete - Complete guide by Fahad Hussain.",
+      "year": 2024
+    },
+    {
+      "title": "The Jetpack Compose Beginner Crash Course 💻  (Android Studio Tutorial)",
+      "creator": "Philipp Lackner",
+      "url": "https://www.youtube.com/watch?v=6_wK_Ud8--0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "The Jetpack Compose Beginner Crash Course 💻  (Android Studio Tutorial) - Complete guide by Philipp Lackner.",
+      "year": 2024
+    },
+    {
+      "title": "iOS Dev Vs. Web Dev — My Thoughts After Building My First iOS App",
+      "creator": "Your Average Tech Bro",
+      "url": "https://www.youtube.com/watch?v=yr2Ccr7rUNM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "iOS Dev Vs. Web Dev — My Thoughts After Building My First iOS App - Complete guide by Your Average Tech Bro.",
+      "year": 2024
+    },
+    {
+      "title": "Jetpack Compose  - Course Announcement & Content Walkthrough",
+      "creator": "Codetutor",
+      "url": "https://www.youtube.com/watch?v=Gf1nc9AGnZ0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Jetpack Compose  - Course Announcement & Content Walkthrough - Complete guide by Codetutor.",
+      "year": 2024
+    },
+    {
+      "title": "Rows, Columns & Basic Sizing - Android Jetpack Compose - Part 2",
+      "creator": "Philipp Lackner",
+      "url": "https://www.youtube.com/watch?v=rHKeRWK3zL4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Rows, Columns & Basic Sizing - Android Jetpack Compose - Part 2 - Complete guide by Philipp Lackner.",
+      "year": 2024
+    },
+    {
+      "title": "What's up with declarative programming? : JetPack Compose 1",
+      "creator": "Codetutor",
+      "url": "https://www.youtube.com/watch?v=T3UhBsDtzEU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What's up with declarative programming? : JetPack Compose 1 - Complete guide by Codetutor.",
+      "year": 2024
+    },
+    {
+      "title": "Jetpack Compose Full Course for Beginners to Advanced 2025 | Android App Development",
+      "creator": "Shivam Sharma",
+      "url": "https://www.youtube.com/watch?v=U5dE-_E1wsg",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Jetpack Compose Full Course for Beginners to Advanced 2025 | Android App Development - Complete guide by Shivam Sharma.",
+      "year": 2024
+    },
+    {
+      "title": "Jetpack Compose in a Nutshell",
+      "creator": "Philipp Lackner",
+      "url": "https://www.youtube.com/watch?v=dWP2vP7eZ9I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Jetpack Compose in a Nutshell - Complete guide by Philipp Lackner.",
+      "year": 2024
+    },
+    {
+      "title": "Android Frontend Development in 2026 - Full Course using Jetpack Compose",
+      "creator": "Neat Roots",
+      "url": "https://www.youtube.com/watch?v=sWoxBaHEozc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Android Frontend Development in 2026 - Full Course using Jetpack Compose - Complete guide by Neat Roots.",
+      "year": 2024
+    },
+    {
+      "title": "Android Jetpack Compose Tutorial 2026 | Complete Android Kotlin Course for Beginners 2026",
+      "creator": "CS TechTube",
+      "url": "https://www.youtube.com/watch?v=yIJhO06Ot8U",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Android Jetpack Compose Tutorial 2026 | Complete Android Kotlin Course for Beginners 2026 - Complete guide by CS TechTube.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Jetpack Compose in Android Studio | 2024",
+      "creator": "Android Knowledge",
+      "url": "https://www.youtube.com/watch?v=GXfOFQGG1rM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to Jetpack Compose in Android Studio | 2024 - Complete guide by Android Knowledge.",
+      "year": 2024
+    },
+    {
+      "title": "Android Development Full Course - Jetpack Compose Full Tutorial (2026)",
+      "creator": "Neat Roots",
+      "url": "https://www.youtube.com/watch?v=xBKQ01LRuuE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Android Development Full Course - Jetpack Compose Full Tutorial (2026) - Complete guide by Neat Roots.",
+      "year": 2024
+    },
+    {
+      "title": "😍  #2 Toolbar in Jetpack Compose in hindi🥳 | Android | Kotlin 🤩  | Bye Bye Xml 🖖  | App Bar ✅",
+      "creator": "Programming Simplified",
+      "url": "https://www.youtube.com/watch?v=1xAW2X8_Sc8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "😍  #2 Toolbar in Jetpack Compose in hindi🥳 | Android | Kotlin 🤩  | Bye Bye Xml 🖖  | App Bar ✅ - Complete guide by Programming Simplified.",
+      "year": 2024
+    },
+    {
+      "title": "Splash Screen in Jetpack Compose under 5 mins | Android Studio",
+      "creator": "Android Knowledge",
+      "url": "https://www.youtube.com/watch?v=bvQym_hszeI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Splash Screen in Jetpack Compose under 5 mins | Android Studio - Complete guide by Android Knowledge.",
+      "year": 2024
+    },
+    {
+      "title": "😍  #1 Jetpack Compose Introduction in Hindi 🤩 | Part - 1 | Compose Tutorial | Bye Bye Xml 🖖 ✅",
+      "creator": "Programming Simplified",
+      "url": "https://www.youtube.com/watch?v=tl8RLM6Sy9s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "😍  #1 Jetpack Compose Introduction in Hindi 🤩 | Part - 1 | Compose Tutorial | Bye Bye Xml 🖖 ✅ - Complete guide by Programming Simplified.",
+      "year": 2024
+    },
+    {
+      "title": "Simple Jetpack Compose App 🚀 | Android Studio | 2024",
+      "creator": "Easy Tuto",
+      "url": "https://www.youtube.com/watch?v=eSIGmU2k2CA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Simple Jetpack Compose App 🚀 | Android Studio | 2024 - Complete guide by Easy Tuto.",
+      "year": 2024
+    },
+    {
+      "title": "✅ Food App android studio tutorial - how to make food ordering app?  🔥",
+      "creator": "UiLover",
+      "url": "https://www.youtube.com/watch?v=kY5GCCJTL8Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "✅ Food App android studio tutorial - how to make food ordering app?  🔥 - Complete guide by UiLover.",
+      "year": 2024
+    },
+    {
+      "title": "\"Jetpack Compose Tutorial | What is setContent{} in Activity?\"",
+      "creator": "codewithbismah",
+      "url": "https://www.youtube.com/watch?v=BJV7D94rFsM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "\"Jetpack Compose Tutorial | What is setContent{} in Activity?\" - Complete guide by codewithbismah.",
+      "year": 2024
+    },
+    {
+      "title": "Build a Ticket Booking app with Jetpack compose & Firebase in Android Studio Project",
+      "creator": "UiLover",
+      "url": "https://www.youtube.com/watch?v=bdKqQxggCPg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build a Ticket Booking app with Jetpack compose & Firebase in Android Studio Project - Complete guide by UiLover.",
+      "year": 2024
+    },
+    {
+      "title": "React Native Crash Course",
+      "creator": "Traversy Media",
+      "url": "https://www.youtube.com/watch?v=mkualZPRZCs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "React Native Crash Course - Complete guide by Traversy Media.",
+      "year": 2024
+    },
+    {
+      "title": "React Native Crash Course+ | Build a Mobile App In 3 Hours",
+      "creator": "Traversy Media",
+      "url": "https://www.youtube.com/watch?v=bCpFbERgj7s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "React Native Crash Course+ | Build a Mobile App In 3 Hours - Complete guide by Traversy Media.",
+      "year": 2024
+    },
+    {
+      "title": "React Native Crash Course",
+      "creator": "Traversy Media",
+      "url": "https://www.youtube.com/watch?v=Hf4MJH0jDb4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "React Native Crash Course - Complete guide by Traversy Media.",
+      "year": 2024
+    },
+    {
+      "title": "React vs. React Native: Key Differences",
+      "creator": "Creative Tim Tutorials",
+      "url": "https://www.youtube.com/watch?v=aYSDYRXLQFY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "React vs. React Native: Key Differences - Complete guide by Creative Tim Tutorials.",
+      "year": 2024
+    },
+    {
+      "title": "React Native Tutorial #01 : Introduction | Best Choice for Mobile App Development 2026",
+      "creator": "The Techzeen",
+      "url": "https://www.youtube.com/watch?v=Ib3eewQ57xM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "React Native Tutorial #01 : Introduction | Best Choice for Mobile App Development 2026 - Complete guide by The Techzeen.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter vs React Native: What to choose | Tanay Pratap #shorts",
+      "creator": "Tanay Pratap",
+      "url": "https://www.youtube.com/watch?v=2TkIECmeyZc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Flutter vs React Native: What to choose | Tanay Pratap #shorts - Complete guide by Tanay Pratap.",
+      "year": 2024
+    },
+    {
+      "title": "React Native or Flutter? One of them has bad breath",
+      "creator": "David Ewins",
+      "url": "https://www.youtube.com/watch?v=jepb7MfNEPQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "React Native or Flutter? One of them has bad breath - Complete guide by David Ewins.",
+      "year": 2024
+    },
+    {
+      "title": "React Native Tutorial #02 : Installation of React Native CLI on Windows | Step by Step Setup 2024",
+      "creator": "The Techzeen",
+      "url": "https://www.youtube.com/watch?v=zex2_sw7H1A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "React Native Tutorial #02 : Installation of React Native CLI on Windows | Step by Step Setup 2024 - Complete guide by The Techzeen.",
+      "year": 2024
+    },
+    {
+      "title": "React Native Interview Question 18 #reactnativeinterviewquestions",
+      "creator": "Engineer Codewala",
+      "url": "https://www.youtube.com/watch?v=HSkknyGKRF0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "React Native Interview Question 18 #reactnativeinterviewquestions - Complete guide by Engineer Codewala.",
+      "year": 2024
+    },
+    {
+      "title": "This Tiny 0 Crashes Your React Native App #reactnative #codinginterview #interviewprep",
+      "creator": "DevGoodBytes",
+      "url": "https://www.youtube.com/watch?v=ic5AJJmLNkA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "This Tiny 0 Crashes Your React Native App #reactnative #codinginterview #interviewprep - Complete guide by DevGoodBytes.",
+      "year": 2024
+    },
+    {
+      "title": "Card Carousel Onboarding in React Native, SwiftUI & Jetpack Compose (free code)",
+      "creator": "Native Cook",
+      "url": "https://www.youtube.com/watch?v=0OddcIuRSOk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Card Carousel Onboarding in React Native, SwiftUI & Jetpack Compose (free code) - Complete guide by Native Cook.",
+      "year": 2024
+    },
+    {
+      "title": "React Native Interview Question 21 #reactnativeinterviewquestions #engineercodewala",
+      "creator": "Engineer Codewala",
+      "url": "https://www.youtube.com/watch?v=PVifQqaB58s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "React Native Interview Question 21 #reactnativeinterviewquestions #engineercodewala - Complete guide by Engineer Codewala.",
+      "year": 2024
+    },
+    {
+      "title": "Should you use React Native/Flutter or build native? #technology #programming #software #javascript",
+      "creator": "Coding with Lewis",
+      "url": "https://www.youtube.com/watch?v=ZPSvfABcjr8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Should you use React Native/Flutter or build native? #technology #programming #software #javascript - Complete guide by Coding with Lewis.",
+      "year": 2024
+    },
+    {
+      "title": "React Native Navigation Explained:  Stack, Tabs, Drawer & Expo Router",
+      "creator": "The FullStack Canvas",
+      "url": "https://www.youtube.com/watch?v=AzImgb-OU6A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "React Native Navigation Explained:  Stack, Tabs, Drawer & Expo Router - Complete guide by The FullStack Canvas.",
+      "year": 2024
+    },
+    {
+      "title": "Custom bottom tab bar with React native reanimated #shorts",
+      "creator": "code with haritha",
+      "url": "https://www.youtube.com/watch?v=cc49aKpLqUo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Custom bottom tab bar with React native reanimated #shorts - Complete guide by code with haritha.",
+      "year": 2024
+    },
+    {
+      "title": "Chat App Login UI in React Native #mobile #reactnative #design #coding",
+      "creator": "Khalil Developer",
+      "url": "https://www.youtube.com/watch?v=YoYSHhTPjnU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Chat App Login UI in React Native #mobile #reactnative #design #coding - Complete guide by Khalil Developer.",
+      "year": 2024
+    },
+    {
+      "title": "FLUTTER VS REACT NATIVE IN 2025?",
+      "creator": "Blup",
+      "url": "https://www.youtube.com/watch?v=B15qNhMAWa8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "FLUTTER VS REACT NATIVE IN 2025? - Complete guide by Blup.",
+      "year": 2024
+    },
+    {
+      "title": "How to learn ReactJS in 30 Days 👩‍💻 #technology #programming #software #react #career",
+      "creator": "Coding with Lewis",
+      "url": "https://www.youtube.com/watch?v=m1_ppy3HOEU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to learn ReactJS in 30 Days 👩‍💻 #technology #programming #software #react #career - Complete guide by Coding with Lewis.",
+      "year": 2024
+    },
+    {
+      "title": "React Native vs Flutter in 2026 Which Should MERN Developers Learn?",
+      "creator": "The FullStack Canvas",
+      "url": "https://www.youtube.com/watch?v=A13HaJ-fuSA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "React Native vs Flutter in 2026 Which Should MERN Developers Learn? - Complete guide by The FullStack Canvas.",
+      "year": 2024
+    },
+    {
+      "title": "Episode 1 | Building a Simple Login Screen in React Native",
+      "creator": "WithFrame",
+      "url": "https://www.youtube.com/watch?v=ML0DuF9Qgis",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Episode 1 | Building a Simple Login Screen in React Native - Complete guide by WithFrame.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Complete Tutorial in Hindi (Beginner to Advanced Level)",
+      "creator": "WsCube Tech",
+      "url": "https://www.youtube.com/playlist?list=PLjVLYmrlmjGfGLShoW0vVX_tcyT8u1Y3E",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Flutter Complete Tutorial in Hindi (Beginner to Advanced Level) - Complete guide by WsCube Tech.",
+      "year": 2024
+    },
+    {
+      "title": "React server components",
+      "creator": "Traversy Media",
+      "url": "https://www.youtube.com/watch?v=i336LJbYPKM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "React server components - Complete guide by Traversy Media.",
+      "year": 2024
+    },
+    {
+      "title": "React Admin Crash Course 2025",
+      "creator": "Traversy Media",
+      "url": "https://www.youtube.com/watch?v=PyaSnpXssks",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "React Admin Crash Course 2025 - Complete guide by Traversy Media.",
+      "year": 2024
+    },
+    {
+      "title": "Forget create-react-app! Use THIS instead!!",
+      "creator": "Code with Ania Kubów",
+      "url": "https://www.youtube.com/watch?v=ztYDCe5K2l8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Forget create-react-app! Use THIS instead!! - Complete guide by Code with Ania Kubów.",
+      "year": 2024
+    },
+    {
+      "title": "React Native Crash Course Part-2 React Native CLI Setup in Telugu #VenkateshMogili #WebGuru",
+      "creator": "Venkatesh Mogili",
+      "url": "https://www.youtube.com/watch?v=mXpLflSDHjs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "React Native Crash Course Part-2 React Native CLI Setup in Telugu #VenkateshMogili #WebGuru - Complete guide by Venkatesh Mogili.",
+      "year": 2024
+    },
+    {
+      "title": "React Native Crash Course Part-1 Introduction Expo CLI Setup in Telugu #VenkateshMogili #WebGuru",
+      "creator": "Venkatesh Mogili",
+      "url": "https://www.youtube.com/watch?v=mSMYsY40JfE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "React Native Crash Course Part-1 Introduction Expo CLI Setup in Telugu #VenkateshMogili #WebGuru - Complete guide by Venkatesh Mogili.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter App Development Course for Beginners 2026 (Hindi)",
+      "creator": "Neat Roots",
+      "url": "https://www.youtube.com/playlist?list=PLUhfM8afLE_PPZh1OWDltnigzKuCYMwaV",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Flutter App Development Course for Beginners 2026 (Hindi) - Complete guide by Neat Roots.",
+      "year": 2024
+    },
+    {
+      "title": "React Native Mastery with 10 apps",
+      "creator": "Hitesh Choudhary",
+      "url": "https://www.youtube.com/playlist?list=PLRAV69dS1uWSjBBJ-egNNOd4mdblt1P4c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "React Native Mastery with 10 apps - Complete guide by Hitesh Choudhary.",
+      "year": 2024
+    },
+    {
+      "title": "Complete React Native Course",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9hNTz3sxqGTfxAwU-DIHJd2",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Complete React Native Course - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "CS50's Mobile App Development with React Native 2018",
+      "creator": "CS50",
+      "url": "https://www.youtube.com/playlist?list=PLhQjrBD2T382gdfveyad09Ierl_3Jh_wR",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "CS50's Mobile App Development with React Native 2018 - Complete guide by CS50.",
+      "year": 2024
+    },
+    {
+      "title": "Complete React Native Course: Build Cross-Platform Mobile Apps with Ease",
+      "creator": "JavaScript Mastery",
+      "url": "https://www.youtube.com/playlist?list=PL6QREj8te1P54rZQx5AWWtFyf1hlznFjL",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Complete React Native Course: Build Cross-Platform Mobile Apps with Ease - Complete guide by JavaScript Mastery.",
+      "year": 2024
+    },
+    {
+      "title": "Kotlin Android App development Course 2025, Kotlin App Development Mastery Course in Hindi, Learn Android Studio for Android App development in Kotlin",
+      "creator": "CS TechTube",
+      "url": "https://www.youtube.com/playlist?list=PLB5RANN-c-wfDIeZyLJsFcJh7fuPpbpO1",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Kotlin Android App development Course 2025, Kotlin App Development Mastery Course in Hindi, Learn Android Studio for Android App development in Kotlin - Complete guide by CS TechTube.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Kotlin for Android App Development | Beginners to Advanced Playlist | 2025",
+      "creator": "Android Knowledge",
+      "url": "https://www.youtube.com/playlist?list=PLQ_Ai1O7sMV0LRCZJaHpl_9WLQunMqrzG",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Learn Kotlin for Android App Development | Beginners to Advanced Playlist | 2025 - Complete guide by Android Knowledge.",
+      "year": 2024
+    },
+    {
+      "title": "Android 📱App Development Course (Beginner to Advanced) | WsCube Tech 2.0",
+      "creator": "WsCube Tech",
+      "url": "https://www.youtube.com/playlist?list=PLjVLYmrlmjGdDps6HAwOOVoAtBPAgIOXL",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Android 📱App Development Course (Beginner to Advanced) | WsCube Tech 2.0 - Complete guide by WsCube Tech.",
+      "year": 2024
+    },
+    {
+      "title": "Android Development With KOTLIN | Android App Development Course In Hindi",
+      "creator": "Zain Farhan",
+      "url": "https://www.youtube.com/playlist?list=PL6Fr59UplGvL7q7P3Hg6nYzS45gld-CCI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Android Development With KOTLIN | Android App Development Course In Hindi - Complete guide by Zain Farhan.",
+      "year": 2024
+    },
+    {
+      "title": "Android App Development Full Course with PRACTICAL ( Beginners to Advanced ) | Full Course 2025",
+      "creator": "Saumya Singh",
+      "url": "https://www.youtube.com/playlist?list=PLTV_nsuD2lf7JQvOmG9C-Nc4E0EL8DBoT",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Android App Development Full Course with PRACTICAL ( Beginners to Advanced ) | Full Course 2025 - Complete guide by Saumya Singh.",
+      "year": 2024
+    },
+    {
+      "title": "iOS App Development Full Course (SwiftUI) | Become an iOS Developer in 100 Days",
+      "creator": "RaiTech Labs",
+      "url": "https://www.youtube.com/playlist?list=PL9TY7jc64Gd6_gFvPD_OswOHWigqAzNsY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "iOS App Development Full Course (SwiftUI) | Become an iOS Developer in 100 Days - Complete guide by RaiTech Labs.",
+      "year": 2024
+    },
+    {
+      "title": "SwiftUI Crash Course 2025-26",
+      "creator": "RaiTech Labs",
+      "url": "https://www.youtube.com/playlist?list=PL9TY7jc64Gd4OU7LqA7N_r3O4c79QbR8w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "SwiftUI Crash Course 2025-26 - Complete guide by RaiTech Labs.",
+      "year": 2024
+    },
+    {
+      "title": "IOS Development With Swift UI in hindi",
+      "creator": "Programming Simplified",
+      "url": "https://www.youtube.com/playlist?list=PL4EnMCc01RC153aLLG4-GpLXIsna20mWd",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "IOS Development With Swift UI in hindi - Complete guide by Programming Simplified.",
+      "year": 2024
+    },
+    {
+      "title": "React Native Tutorial for Beginners",
+      "creator": "Codevolution",
+      "url": "https://www.youtube.com/playlist?list=PLC3y8-rFHvwhiQJD1di4eRVN30WWCXkg1",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "React Native Tutorial for Beginners - Complete guide by Codevolution.",
+      "year": 2024
+    },
+    {
+      "title": "SwiftUI Tutorials for Beginners",
+      "creator": "CodeWithChris",
+      "url": "https://www.youtube.com/playlist?list=PLMRqhzcHGw1Z-lZaaun3A3mV9PbEfHANI",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "SwiftUI Tutorials for Beginners - Complete guide by CodeWithChris.",
+      "year": 2024
+    },
+    {
+      "title": "React Native Tutorial",
+      "creator": "Mash School",
+      "url": "https://www.youtube.com/playlist?list=PL8kfZyp--gEXs4YsSLtB3KqDtdOFHMjWZ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "React Native Tutorial - Complete guide by Mash School.",
+      "year": 2024
+    },
+    {
+      "title": "React Native Tutorial in Hindi",
+      "creator": "Code Step By Step",
+      "url": "https://www.youtube.com/playlist?list=PL8p2I9GklV468O2wk-n8Q1KmtMhnHHj4C",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "React Native Tutorial in Hindi - Complete guide by Code Step By Step.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter & Firebase App Build",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9j--TKIdkb3ISfRbJeJYQwC",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Flutter & Firebase App Build - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "The Ultimate React Native Series",
+      "creator": "Cyber Frequency | Anything Unfiltered & Gameplay",
+      "url": "https://www.youtube.com/playlist?list=PL2uKJaZguK1JtHzUAI5I7eXQRlKeYrMtk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "The Ultimate React Native Series - Complete guide by Cyber Frequency | Anything Unfiltered & Gameplay.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Crash Course",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9giLVXCHSQmWqlHc9BLXdVx",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Flutter Crash Course - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Animation Tutorial",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gP1qg8yj-Jokef29VRCLt1",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Flutter Animation Tutorial - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "Stanford CS193p: iOS Development with SwiftUI",
+      "creator": "Stanford Online",
+      "url": "https://www.youtube.com/playlist?list=PLoROMvodv4rPHblRXKsJCQs8TLGpiCTrG",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Stanford CS193p: iOS Development with SwiftUI - Complete guide by Stanford Online.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Riverpod Tutorial",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9i88WGZ9eIfQUWRgPstLFLp",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Flutter Riverpod Tutorial - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Forms Tutorial",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9ighyCUUmoaxz9CZsUz4Iwf",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Flutter Forms Tutorial - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "IOS Mobile App Development Tutorial for beginners | IOS tutorial for beginners | IOS Complete tutorial",
+      "creator": "Fahad Hussain",
+      "url": "https://www.youtube.com/playlist?list=PLtCBuHKmdxOcmrDx2pM4qNvzWF2NI_Qlo",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "IOS Mobile App Development Tutorial for beginners | IOS tutorial for beginners | IOS Complete tutorial - Complete guide by Fahad Hussain.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Jetpack Compose for Android App Development | Beginner to Advanced | 2025",
+      "creator": "Android Knowledge",
+      "url": "https://www.youtube.com/playlist?list=PLQ_Ai1O7sMV33aJHfqR-vquGZE1OCOS51",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Learn Jetpack Compose for Android App Development | Beginner to Advanced | 2025 - Complete guide by Android Knowledge.",
+      "year": 2024
+    },
+    {
+      "title": "Jetpack Compose",
+      "creator": "Philipp Lackner",
+      "url": "https://www.youtube.com/playlist?list=PLQkwcJG4YTCSpJ2NLhDTHhi6XBNfk9WiC",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Jetpack Compose - Complete guide by Philipp Lackner.",
+      "year": 2024
+    },
+    {
+      "title": "Jetpack Compose Android Tutorial Series | CheezyCode",
+      "creator": "Cheezy Code",
+      "url": "https://www.youtube.com/playlist?list=PLRKyZvuMYSIO9sadcCwR0DR8UPi9bQlev",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Jetpack Compose Android Tutorial Series | CheezyCode - Complete guide by Cheezy Code.",
+      "year": 2024
+    },
+    {
+      "title": "'React Crash Course 2024' (Traversy Media) and others",
+      "creator": "xjaredxwallacex",
+      "url": "https://www.youtube.com/playlist?list=PLVUZI00tGYcZPqr5d7TJgnokj8W1-qcrD",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "'React Crash Course 2024' (Traversy Media) and others - Complete guide by xjaredxwallacex.",
+      "year": 2024
+    },
+    {
+      "title": "Jetpack Compose in hindi",
+      "creator": "Programming Simplified",
+      "url": "https://www.youtube.com/playlist?list=PL4EnMCc01RC0B9kmeZq7xUGpd0wlQkd40",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Jetpack Compose in hindi - Complete guide by Programming Simplified.",
+      "year": 2024
+    },
+    {
+      "title": "React Native Tutorial 2026 For Beginners to Advance | React Native Full Course ( Hindi / Urdu ) | The Techzeen | Mobile App Development",
+      "creator": "The Techzeen",
+      "url": "https://www.youtube.com/playlist?list=PL5OhSdfH4uDuUpj3fwknoUVBkT2oMXyOl",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "React Native Tutorial 2026 For Beginners to Advance | React Native Full Course ( Hindi / Urdu ) | The Techzeen | Mobile App Development - Complete guide by The Techzeen.",
+      "year": 2024
+    },
+    {
+      "title": "Jetpack Compose Comprehensive tutorial list",
+      "creator": "Codetutor",
+      "url": "https://www.youtube.com/playlist?list=PLfuE3hOAeWhYSuEz7CkfD2WFH97Obt9fK",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Jetpack Compose Comprehensive tutorial list - Complete guide by Codetutor.",
+      "year": 2024
+    },
+    {
+      "title": "React Native Crash Course",
+      "creator": "Venkatesh Mogili",
+      "url": "https://www.youtube.com/playlist?list=PLyR4MnfgcsQHMI8QeA9Z9dVUvcqVpCVrj",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "React Native Crash Course - Complete guide by Venkatesh Mogili.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter tutorial by NetNinja",
+      "creator": "Hubert Dozd",
+      "url": "https://www.youtube.com/playlist?list=PLUAbYrKv2-n-0zmDb1Y3Iw1G_O934KcX6",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Flutter tutorial by NetNinja - Complete guide by Hubert Dozd.",
+      "year": 2024
+    },
+    {
+      "title": "Jetpack Compose Full Course",
+      "creator": "UiLover",
+      "url": "https://www.youtube.com/playlist?list=PLfcLDE6VDKRi0iF7s20Aukkvek4FydSTh",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Jetpack Compose Full Course - Complete guide by UiLover.",
+      "year": 2024
+    }
+  ]
 }

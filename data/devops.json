@@ -1,0 +1,3182 @@
+{
+  "name": "Cloud & DevOps",
+  "slug": "devops",
+  "description": "Automate deployments, infrastructure as code, cloud computing (AWS/GCP/Azure), CI/CD, and monitoring.",
+  "icon": "devops",
+  "playlists": [
+    {
+      "title": "From Zero to DevOps Engineer - DevOps Roadmap for YOUR specific background",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=G_nVMUtaqCk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "From Zero to DevOps Engineer - DevOps Roadmap for YOUR specific background - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "DevOps Full Course 2026 | Complete DevOps in 24 Hours | DevOps Tutorial For Beginners | Simplilearn",
+      "creator": "Simplilearn",
+      "url": "https://www.youtube.com/watch?v=iuqVWKqryu4",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "DevOps Full Course 2026 | Complete DevOps in 24 Hours | DevOps Tutorial For Beginners | Simplilearn - Complete guide by Simplilearn.",
+      "year": 2024
+    },
+    {
+      "title": "From QA to DevOps - Your Hidden Advantage",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=aeHOE-s-k8g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "From QA to DevOps - Your Hidden Advantage - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Jenkins Pipeline Tutorial | Jenkinsfile explained",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=7KCS70sCoK0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete Jenkins Pipeline Tutorial | Jenkinsfile explained - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Linux Commands in 30 Mins (Real-World Example)",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=fwP2JW_VnZI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Linux Commands in 30 Mins (Real-World Example) - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "⚠️ ANNOUNCING: AI-Era DevOps Live Masterclass",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=HV-7NrW2LmY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "⚠️ ANNOUNCING: AI-Era DevOps Live Masterclass - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "How I learn new technologies as a DevOps Engineer (without being overwhelmed)",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=Cthla7KqU04",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How I learn new technologies as a DevOps Engineer (without being overwhelmed) - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Why Self-Studying DevOps Fails After 1 Year (And What to Do Instead)",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=gU5lK9yeiog",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why Self-Studying DevOps Fails After 1 Year (And What to Do Instead) - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "DevOps Roadmap - How to become a DevOps Engineer? What is DevOps?",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=9pZ2xmsSDdo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DevOps Roadmap - How to become a DevOps Engineer? What is DevOps? - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "How to Get Hired in DevOps WITHOUT a Tech Degree 💼🔥",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=4TXpQnqLvLE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Get Hired in DevOps WITHOUT a Tech Degree 💼🔥 - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Cloud Engineer Roadmap | From Beginner to Advanced",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=6eroP2XGtTI",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Cloud Engineer Roadmap | From Beginner to Advanced - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Complete DevOps Roadmap 2026 - Master these 4 Levels!",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=1J2YOV6LcwY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete DevOps Roadmap 2026 - Master these 4 Levels! - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "3 Key DevOps Practices for Software Engineers",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=gWsfVIDGuYw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "3 Key DevOps Practices for Software Engineers - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "7 DevOps Tasks AI Can Do for You Today",
+      "creator": "TechWorld with Sahana ",
+      "url": "https://www.youtube.com/watch?v=Zw8sPEPYje8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "7 DevOps Tasks AI Can Do for You Today - Complete guide by TechWorld with Sahana .",
+      "year": 2024
+    },
+    {
+      "title": "How We Built the Best DevSecOps Bootcamp in 2024 🚀",
+      "creator": "Nana Janashia",
+      "url": "https://www.youtube.com/watch?v=zXjPP3lNUAY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How We Built the Best DevSecOps Bootcamp in 2024 🚀 - Complete guide by Nana Janashia.",
+      "year": 2024
+    },
+    {
+      "title": "From Medical Devices to AI DevOps Engineer! 🤯💻",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=1MbL0YUsSl4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "From Medical Devices to AI DevOps Engineer! 🤯💻 - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "How ONE Simple DevOps Change Saved Thousands! 💰",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=dLXqdZPk_oc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How ONE Simple DevOps Change Saved Thousands! 💰 - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Why DevOps Engineers are ACTUALLY getting hired in 2026 🚨",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=QzE9EFyelws",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why DevOps Engineers are ACTUALLY getting hired in 2026 🚨 - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Does DevOps Need Coding | DevOps Training | Intellipaat #DevOps #Coding #Shorts",
+      "creator": "Intellipaat",
+      "url": "https://www.youtube.com/watch?v=0iKTWqh6vek",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Does DevOps Need Coding | DevOps Training | Intellipaat #DevOps #Coding #Shorts - Complete guide by Intellipaat.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Certified Cloud Practitioner Training 2020 - Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=3hLmDS179YE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AWS Certified Cloud Practitioner Training 2020 - Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Certified Cloud Practitioner Certification Course 2026 (CLF-C02) - Pass the Exam!",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=7HKot-brXFE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AWS Certified Cloud Practitioner Certification Course 2026 (CLF-C02) - Pass the Exam! - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Certified Cloud Practitioner Certification Course (CLF-C02) - Pass the Exam!",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=NhDYbskXRgc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AWS Certified Cloud Practitioner Certification Course (CLF-C02) - Pass the Exam! - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Tutorials - 1 - Introducing the AWS Playlist (AWS in Hindi)",
+      "creator": "Gaurav Sharma",
+      "url": "https://www.youtube.com/watch?v=rKNSc8RrwxA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AWS Tutorials - 1 - Introducing the AWS Playlist (AWS in Hindi) - Complete guide by Gaurav Sharma.",
+      "year": 2024
+    },
+    {
+      "title": "Can You Afford NOT to Learn DevOps? Salary Data That Will Change Your Career Plans",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=fQDh9_tuYuI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Can You Afford NOT to Learn DevOps? Salary Data That Will Change Your Career Plans - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Tutorials - 2 - What is AWS - Traditional VS Cloud Computing - Why Cloud Computing",
+      "creator": "Gaurav Sharma",
+      "url": "https://www.youtube.com/watch?v=JuE9gKNs5sA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AWS Tutorials - 2 - What is AWS - Traditional VS Cloud Computing - Why Cloud Computing - Complete guide by Gaurav Sharma.",
+      "year": 2024
+    },
+    {
+      "title": "🔥 DevOps Live Training 2025 | Full Hands-On Course for Beginners to Experts",
+      "creator": "DevOps With Namdev",
+      "url": "https://www.youtube.com/watch?v=vg9HvjCkVJs",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "🔥 DevOps Live Training 2025 | Full Hands-On Course for Beginners to Experts - Complete guide by DevOps With Namdev.",
+      "year": 2024
+    },
+    {
+      "title": "AWS VPC Beginner to Pro - Virtual Private Cloud Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=g2JOHLHh4rI",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "AWS VPC Beginner to Pro - Virtual Private Cloud Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "7 things every DevOps engineers should know! #devops #interview #career #engineering #job #aws",
+      "creator": "TechWorld with Sandesh",
+      "url": "https://www.youtube.com/watch?v=c_4cpVvuVSA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "7 things every DevOps engineers should know! #devops #interview #career #engineering #job #aws - Complete guide by TechWorld with Sandesh.",
+      "year": 2024
+    },
+    {
+      "title": "NEW AWS Certified Cloud Practitioner Course - 10 HOURS of VIDEO",
+      "creator": "Stephane Maarek",
+      "url": "https://www.youtube.com/watch?v=kvP_7jT-ImY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "NEW AWS Certified Cloud Practitioner Course - 10 HOURS of VIDEO - Complete guide by Stephane Maarek.",
+      "year": 2024
+    },
+    {
+      "title": "🧑‍💻 Learn AWS as a beginner for free #aws #programming #amazon #tech #cloudcomputing #awstraining",
+      "creator": "Kavitha - Career advisor ",
+      "url": "https://www.youtube.com/watch?v=Zm_9E2hyfFA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "🧑‍💻 Learn AWS as a beginner for free #aws #programming #amazon #tech #cloudcomputing #awstraining - Complete guide by Kavitha - Career advisor .",
+      "year": 2024
+    },
+    {
+      "title": "Everything you need to know about AWS Cloud Practitioner ☁️ #aws",
+      "creator": "Cloud Champ",
+      "url": "https://www.youtube.com/watch?v=kiMpfSFsOfg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Everything you need to know about AWS Cloud Practitioner ☁️ #aws - Complete guide by Cloud Champ.",
+      "year": 2024
+    },
+    {
+      "title": "4 Free AWS Cloud Practitioner (CCP) certification courses",
+      "creator": "Linda Vivah",
+      "url": "https://www.youtube.com/watch?v=9rggDIw1dpw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "4 Free AWS Cloud Practitioner (CCP) certification courses - Complete guide by Linda Vivah.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Cloud Practitioner Full Course | CLF-C02 Certification Guide",
+      "creator": "DevOps Molvi Hindi",
+      "url": "https://www.youtube.com/watch?v=v59Sw9FnBYA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AWS Cloud Practitioner Full Course | CLF-C02 Certification Guide - Complete guide by DevOps Molvi Hindi.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Certified Cloud Practitioner In 1 Minute",
+      "creator": "in28minutes",
+      "url": "https://www.youtube.com/watch?v=_Fq3aTvb6FM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AWS Certified Cloud Practitioner In 1 Minute - Complete guide by in28minutes.",
+      "year": 2024
+    },
+    {
+      "title": "What is AWS? | AWS Cloud Practitioner Certification Tutorial in Hindi (CLF-C02)",
+      "creator": "DevOps Molvi Hindi",
+      "url": "https://www.youtube.com/watch?v=9-KfFiF6nPk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is AWS? | AWS Cloud Practitioner Certification Tutorial in Hindi (CLF-C02) - Complete guide by DevOps Molvi Hindi.",
+      "year": 2024
+    },
+    {
+      "title": "How To Become AWS Certified Cloud Practitioner | Intellipaat #Shorts #AWS #AWSCertified",
+      "creator": "Intellipaat",
+      "url": "https://www.youtube.com/watch?v=ITwo1Um718I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How To Become AWS Certified Cloud Practitioner | Intellipaat #Shorts #AWS #AWSCertified - Complete guide by Intellipaat.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Cloud Introduction",
+      "creator": "Stephane Maarek",
+      "url": "https://www.youtube.com/watch?v=BxHaLBRZWyc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AWS Cloud Introduction - Complete guide by Stephane Maarek.",
+      "year": 2024
+    },
+    {
+      "title": "Is AWS Certification Worth It in 2025? | AWS Certification | Intellipaat #Shorts #AWSCertifications",
+      "creator": "Intellipaat",
+      "url": "https://www.youtube.com/watch?v=Dpb5dRCfzXQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Is AWS Certification Worth It in 2025? | AWS Certification | Intellipaat #Shorts #AWSCertifications - Complete guide by Intellipaat.",
+      "year": 2024
+    },
+    {
+      "title": "#Free #FreeCodeCamp #AWS #AmazonWebServices #CloudPractitioner #CCP #Certified",
+      "creator": "tech_kody",
+      "url": "https://www.youtube.com/watch?v=8vHgMwUxP4E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#Free #FreeCodeCamp #AWS #AmazonWebServices #CloudPractitioner #CCP #Certified - Complete guide by tech_kody.",
+      "year": 2024
+    },
+    {
+      "title": "🔥Pass AWS Cloud Practitioner in 14 Days | Complete Study Plan | Intellipaat",
+      "creator": "Intellipaat",
+      "url": "https://www.youtube.com/watch?v=u98PS_RB1zs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🔥Pass AWS Cloud Practitioner in 14 Days | Complete Study Plan | Intellipaat - Complete guide by Intellipaat.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Cloud Practitioner Exam: Biggest Mistake to Avoid!",
+      "creator": "Cloud Genius",
+      "url": "https://www.youtube.com/watch?v=HUxuTZuuniY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AWS Cloud Practitioner Exam: Biggest Mistake to Avoid! - Complete guide by Cloud Genius.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Certification Roadmap for Absolute Beginners| AWS Learning Path 2025 | Intellipaat #shorts",
+      "creator": "Intellipaat",
+      "url": "https://www.youtube.com/watch?v=IA2Ix-fE9E0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "AWS Certification Roadmap for Absolute Beginners| AWS Learning Path 2025 | Intellipaat #shorts - Complete guide by Intellipaat.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Cloud Practitioner vs Solutions Architect: Which AWS Certification First? #shorts",
+      "creator": "BIMAL KUMAR SHARMA",
+      "url": "https://www.youtube.com/watch?v=LYNmFTkDOT0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AWS Cloud Practitioner vs Solutions Architect: Which AWS Certification First? #shorts - Complete guide by BIMAL KUMAR SHARMA.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Certified Cloud Practitioner ✅ #aws #cloud #cloudcomputing #azure #devops #technology",
+      "creator": "Vaibhav Kaushik | AWS & DevOps",
+      "url": "https://www.youtube.com/watch?v=7ulYeaUP064",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AWS Certified Cloud Practitioner ✅ #aws #cloud #cloudcomputing #azure #devops #technology - Complete guide by Vaibhav Kaushik | AWS & DevOps.",
+      "year": 2024
+    },
+    {
+      "title": "How to get free aws certifications? #awscertification #aws #softwaredevelopment",
+      "creator": "Gokulraj Nandakumar",
+      "url": "https://www.youtube.com/watch?v=U-xDJSu9wc0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to get free aws certifications? #awscertification #aws #softwaredevelopment - Complete guide by Gokulraj Nandakumar.",
+      "year": 2024
+    },
+    {
+      "title": "[CLOSED] 100% Free #aws #certification - Step by Step Guide",
+      "creator": "SrcCodes",
+      "url": "https://www.youtube.com/watch?v=Nzwl8IVVbbs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "[CLOSED] 100% Free #aws #certification - Step by Step Guide - Complete guide by SrcCodes.",
+      "year": 2024
+    },
+    {
+      "title": "What jobs can you get with only the AWS Certified Cloud Practitioner",
+      "creator": "ThoughtfulTechy Cloud",
+      "url": "https://www.youtube.com/watch?v=zzFO4_dzSwE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What jobs can you get with only the AWS Certified Cloud Practitioner - Complete guide by ThoughtfulTechy Cloud.",
+      "year": 2024
+    },
+    {
+      "title": "How to PASS AWS Certified AI Practitioner (AIF-C01) in less than 2 Weeks | Practical Tips Shared",
+      "creator": "Cloud Technology Consulting with JP",
+      "url": "https://www.youtube.com/watch?v=EvKFKsmMhKI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to PASS AWS Certified AI Practitioner (AIF-C01) in less than 2 Weeks | Practical Tips Shared - Complete guide by Cloud Technology Consulting with JP.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Free Course - #aws #cloud",
+      "creator": "Piyush Garg",
+      "url": "https://www.youtube.com/watch?v=Oe4y0vhRB28",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AWS Free Course - #aws #cloud - Complete guide by Piyush Garg.",
+      "year": 2024
+    },
+    {
+      "title": "FREE Resources to Pass AWS Cloud Practitioner  | Intellipaat #shorts",
+      "creator": "Intellipaat",
+      "url": "https://www.youtube.com/watch?v=T0u1tBLcO4Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "FREE Resources to Pass AWS Cloud Practitioner  | Intellipaat #shorts - Complete guide by Intellipaat.",
+      "year": 2024
+    },
+    {
+      "title": "How to learn AWS | AWS Tutorial For Beginners| #ytshorts #shortsvideo #learnaws",
+      "creator": "Studytonight with Abhishek",
+      "url": "https://www.youtube.com/watch?v=Ld7Ix8QKLWQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "How to learn AWS | AWS Tutorial For Beginners| #ytshorts #shortsvideo #learnaws - Complete guide by Studytonight with Abhishek.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Certified Cloud Practitioner Practice Exam 10 Questions with Answers",
+      "creator": "onlineexamprep",
+      "url": "https://www.youtube.com/watch?v=OdtCK8ht-CY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AWS Certified Cloud Practitioner Practice Exam 10 Questions with Answers - Complete guide by onlineexamprep.",
+      "year": 2024
+    },
+    {
+      "title": "Free AWS Certificate Course : AWS Certified Cloud Practitioner Exam Practice Tests-CLF-02 #shorts",
+      "creator": "Freshers Camp",
+      "url": "https://www.youtube.com/watch?v=J_4OFoCCFwk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Free AWS Certificate Course : AWS Certified Cloud Practitioner Exam Practice Tests-CLF-02 #shorts - Complete guide by Freshers Camp.",
+      "year": 2024
+    },
+    {
+      "title": "Could you pass this AWS Cloud Practitioner (CLF-C02) question? #shorts",
+      "creator": "What the AI is going on",
+      "url": "https://www.youtube.com/watch?v=N06ihwt3Gjg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Could you pass this AWS Cloud Practitioner (CLF-C02) question? #shorts - Complete guide by What the AI is going on.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Cloud Practitioner Exam Questions | Daily Practice - 12 | CLF-C02 | Cloud Practitioner | aws",
+      "creator": "Certify Me",
+      "url": "https://www.youtube.com/watch?v=V20V8LOSgXg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AWS Cloud Practitioner Exam Questions | Daily Practice - 12 | CLF-C02 | Cloud Practitioner | aws - Complete guide by Certify Me.",
+      "year": 2024
+    },
+    {
+      "title": "How to Prepare for AWS AI Certification Exam in 2025",
+      "creator": "Pradeep AGI",
+      "url": "https://www.youtube.com/watch?v=juhrvw-Bmg4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Prepare for AWS AI Certification Exam in 2025 - Complete guide by Pradeep AGI.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Certified cloud Practitioner part 2/13 in தமிழ்",
+      "creator": "Ganapathy Tech Tips",
+      "url": "https://www.youtube.com/watch?v=e5o00IWEWFY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AWS Certified cloud Practitioner part 2/13 in தமிழ் - Complete guide by Ganapathy Tech Tips.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Certified cloud Practitioner part 1/13 in தமிழ்",
+      "creator": "Ganapathy Tech Tips",
+      "url": "https://www.youtube.com/watch?v=j8DVHWhJGyk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AWS Certified cloud Practitioner part 1/13 in தமிழ் - Complete guide by Ganapathy Tech Tips.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Tutorial For Beginners | AWS Full Course - Learn AWS In 10 Hours | AWS Training | Edureka",
+      "creator": "edureka!",
+      "url": "https://www.youtube.com/watch?v=k1RI5locZE4",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "AWS Tutorial For Beginners | AWS Full Course - Learn AWS In 10 Hours | AWS Training | Edureka - Complete guide by edureka!.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Cloud Practitioner Exam Questions 2026 | Part 1 (Q1-50) | Real Exam Experience",
+      "creator": "Code Canvas",
+      "url": "https://www.youtube.com/watch?v=IIzVKDMK94E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AWS Cloud Practitioner Exam Questions 2026 | Part 1 (Q1-50) | Real Exam Experience - Complete guide by Code Canvas.",
+      "year": 2024
+    },
+    {
+      "title": "Certified Cloud Practitioner Exam Guide",
+      "creator": "Hitesh Choudhary",
+      "url": "https://www.youtube.com/watch?v=f-6qFnC56F0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Certified Cloud Practitioner Exam Guide - Complete guide by Hitesh Choudhary.",
+      "year": 2024
+    },
+    {
+      "title": "How I Cleared AWS Cloud Practitioner in 15 Days Using FREE Resources (CLF-C01), (CLF-C02)",
+      "creator": "HeyNiDee",
+      "url": "https://www.youtube.com/watch?v=EhTwN0U_7Ok",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How I Cleared AWS Cloud Practitioner in 15 Days Using FREE Resources (CLF-C01), (CLF-C02) - Complete guide by HeyNiDee.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Tutorial For Beginners | AWS Certified Solutions Architect | AWS Training | Edureka",
+      "creator": "edureka!",
+      "url": "https://www.youtube.com/watch?v=IT1X42D1KeA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "AWS Tutorial For Beginners | AWS Certified Solutions Architect | AWS Training | Edureka - Complete guide by edureka!.",
+      "year": 2024
+    },
+    {
+      "title": "01 - AWS Certified Cloud Practitioner CLF02 - Introduction",
+      "creator": "Ahmed Elfakharany",
+      "url": "https://www.youtube.com/watch?v=mF5_ttj4y1M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "01 - AWS Certified Cloud Practitioner CLF02 - Introduction - Complete guide by Ahmed Elfakharany.",
+      "year": 2024
+    },
+    {
+      "title": "02 - What is a cloud (AWS Certified Cloud Practitioner CLF02)",
+      "creator": "Ahmed Elfakharany",
+      "url": "https://www.youtube.com/watch?v=gzX-dMEAYcQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "02 - What is a cloud (AWS Certified Cloud Practitioner CLF02) - Complete guide by Ahmed Elfakharany.",
+      "year": 2024
+    },
+    {
+      "title": "Should You Get The AWS Cloud Practitioner Cert in 2025? #IAM #AWS",
+      "creator": "Von Cook",
+      "url": "https://www.youtube.com/watch?v=Cj67HJOT-Fk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Should You Get The AWS Cloud Practitioner Cert in 2025? #IAM #AWS - Complete guide by Von Cook.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Cloud Practitioner Mock Exam 2026 | 50 Practice Questions (Set 2)",
+      "creator": "Code Canvas",
+      "url": "https://www.youtube.com/watch?v=wPgmi7eDsso",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AWS Cloud Practitioner Mock Exam 2026 | 50 Practice Questions (Set 2) - Complete guide by Code Canvas.",
+      "year": 2024
+    },
+    {
+      "title": "Lec- 1 : Complete Cloud 🌧️ Computing Syllabus | Cloud Computing for Interviews, College",
+      "creator": "Gate Smashers",
+      "url": "https://www.youtube.com/watch?v=dmGybCohHsw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lec- 1 : Complete Cloud 🌧️ Computing Syllabus | Cloud Computing for Interviews, College - Complete guide by Gate Smashers.",
+      "year": 2024
+    },
+    {
+      "title": "Cloud Computing for AWS CCP Exam",
+      "creator": "Hitesh Choudhary",
+      "url": "https://www.youtube.com/watch?v=AXT-9oQYvOk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Cloud Computing for AWS CCP Exam - Complete guide by Hitesh Choudhary.",
+      "year": 2024
+    },
+    {
+      "title": "Lec-2: What is Cloud Computing | Evolution and Applications | Easiest introduction in Hindi",
+      "creator": "Gate Smashers",
+      "url": "https://www.youtube.com/watch?v=aaL61HouKLs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lec-2: What is Cloud Computing | Evolution and Applications | Easiest introduction in Hindi - Complete guide by Gate Smashers.",
+      "year": 2024
+    },
+    {
+      "title": "🚀 Playwright with TypeScript/JavaScript | Complete Introduction & Playlist Overview",
+      "creator": "WishInfinite",
+      "url": "https://www.youtube.com/watch?v=NATg-5C-U7k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🚀 Playwright with TypeScript/JavaScript | Complete Introduction & Playlist Overview - Complete guide by WishInfinite.",
+      "year": 2024
+    },
+    {
+      "title": "GitLab CI CD Tutorial for Beginners [Crash Course]",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=qP8kir2GUgo",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "GitLab CI CD Tutorial for Beginners [Crash Course] - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "GitLab CI/CD Masterclass for Beginners (2026 Edition)",
+      "creator": "TestMu AI (Formerly LambdaTest)",
+      "url": "https://www.youtube.com/watch?v=ptjmtckAIno",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "GitLab CI/CD Masterclass for Beginners (2026 Edition) - Complete guide by TestMu AI (Formerly LambdaTest).",
+      "year": 2024
+    },
+    {
+      "title": "Now you Can Crack Any ML Interviews- Announcing 7 Days End To End ML Project With Deployment",
+      "creator": "Krish Naik",
+      "url": "https://www.youtube.com/watch?v=S_F_c9e2bz4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Now you Can Crack Any ML Interviews- Announcing 7 Days End To End ML Project With Deployment - Complete guide by Krish Naik.",
+      "year": 2024
+    },
+    {
+      "title": "GitLab In One Shot | DevOps Production CICD Pipelines [Hindi]",
+      "creator": "TrainWithShubham",
+      "url": "https://www.youtube.com/watch?v=lFfqBxZf-6c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GitLab In One Shot | DevOps Production CICD Pipelines [Hindi] - Complete guide by TrainWithShubham.",
+      "year": 2024
+    },
+    {
+      "title": "Argo CD Basics to Production | GitOps Course Introduction",
+      "creator": "Cloud With VarJosh",
+      "url": "https://www.youtube.com/watch?v=Q5RvLl6KDqU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Argo CD Basics to Production | GitOps Course Introduction - Complete guide by Cloud With VarJosh.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Cloud Practitioner - Clase 1: Introduccion a la nube",
+      "creator": "MaxCloud",
+      "url": "https://www.youtube.com/watch?v=WIEaGKS92rE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AWS Cloud Practitioner - Clase 1: Introduccion a la nube - Complete guide by MaxCloud.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Cloud Practitioner - Clase 2: Permisos con IAM y Trabajando con Amazon EC2",
+      "creator": "MaxCloud",
+      "url": "https://www.youtube.com/watch?v=TrLPyaOeGhw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AWS Cloud Practitioner - Clase 2: Permisos con IAM y Trabajando con Amazon EC2 - Complete guide by MaxCloud.",
+      "year": 2024
+    },
+    {
+      "title": "Gitlab CI/CD Pipelines",
+      "creator": "Code Flow",
+      "url": "https://www.youtube.com/watch?v=tuwQMGMVGRE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Gitlab CI/CD Pipelines - Complete guide by Code Flow.",
+      "year": 2024
+    },
+    {
+      "title": "7 videos = 7 skills #tech #ai #ethicalhacking #git #dsa #shorts",
+      "creator": "FutureCoded",
+      "url": "https://www.youtube.com/watch?v=ZV-rCq9thPs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "7 videos = 7 skills #tech #ai #ethicalhacking #git #dsa #shorts - Complete guide by FutureCoded.",
+      "year": 2024
+    },
+    {
+      "title": "CI/CD Explained in 60 Seconds | How Developers Deploy Code Automatically",
+      "creator": "Logic Lab",
+      "url": "https://www.youtube.com/watch?v=HphFAFIcBZs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CI/CD Explained in 60 Seconds | How Developers Deploy Code Automatically - Complete guide by Logic Lab.",
+      "year": 2024
+    },
+    {
+      "title": "GitLab CI/CD in 60 Seconds 🚀 | Build, Test & Deploy Like a Pro!",
+      "creator": "Cloud DevOps with Humesh",
+      "url": "https://www.youtube.com/watch?v=0Z907j_uDBA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GitLab CI/CD in 60 Seconds 🚀 | Build, Test & Deploy Like a Pro! - Complete guide by Cloud DevOps with Humesh.",
+      "year": 2024
+    },
+    {
+      "title": "GitLab CI/CD in 30 Seconds 🔥 | Day 12/100 DevOps Tools",
+      "creator": "Alan Codes",
+      "url": "https://www.youtube.com/watch?v=yExGMxV4sjA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GitLab CI/CD in 30 Seconds 🔥 | Day 12/100 DevOps Tools - Complete guide by Alan Codes.",
+      "year": 2024
+    },
+    {
+      "title": "GitLab CI/CD Pipeline Tutorial for Beginners",
+      "creator": "Valentin Despa",
+      "url": "https://www.youtube.com/watch?v=z7nLsJvEyMY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "GitLab CI/CD Pipeline Tutorial for Beginners - Complete guide by Valentin Despa.",
+      "year": 2024
+    },
+    {
+      "title": "GitLab CI/CD Full Course released - CI/CD with Docker | K8s | Microservices!",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=F7WMRXLUQRM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GitLab CI/CD Full Course released - CI/CD with Docker | K8s | Microservices! - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes CI/CD: The Ultimate Guide to GitLab & Argo CD",
+      "creator": "CodeWithChandra",
+      "url": "https://www.youtube.com/watch?v=evCOYzl-EaM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kubernetes CI/CD: The Ultimate Guide to GitLab & Argo CD - Complete guide by CodeWithChandra.",
+      "year": 2024
+    },
+    {
+      "title": "CICD Gitlab CI Study Plan Zero to Hero #gitlab",
+      "creator": "DevOps Mind",
+      "url": "https://www.youtube.com/watch?v=AbvrsGJ7r_4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CICD Gitlab CI Study Plan Zero to Hero #gitlab - Complete guide by DevOps Mind.",
+      "year": 2024
+    },
+    {
+      "title": "How to Setup Proper CI/CD Workflow with GitLab & ArgoCD | #shorts",
+      "creator": "Mirantis",
+      "url": "https://www.youtube.com/watch?v=HutgZSU0kf4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Setup Proper CI/CD Workflow with GitLab & ArgoCD | #shorts - Complete guide by Mirantis.",
+      "year": 2024
+    },
+    {
+      "title": "Gitlab CI/CD with docker",
+      "creator": "Code Flow",
+      "url": "https://www.youtube.com/watch?v=I5-tyiPEWpY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Gitlab CI/CD with docker - Complete guide by Code Flow.",
+      "year": 2024
+    },
+    {
+      "title": "Playwright + GitLab CI — the hot 2026 stack. Save this 📌",
+      "creator": "Sreenidhi Rajakrishnan",
+      "url": "https://www.youtube.com/watch?v=fKYXEDefcYU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Playwright + GitLab CI — the hot 2026 stack. Save this 📌 - Complete guide by Sreenidhi Rajakrishnan.",
+      "year": 2024
+    },
+    {
+      "title": "GitHub Vs GitLab #github #gitlab  #tech #ai #aivideo #gemini",
+      "creator": "Rabin TechVerse",
+      "url": "https://www.youtube.com/watch?v=zGx7l00AoTI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GitHub Vs GitLab #github #gitlab  #tech #ai #aivideo #gemini - Complete guide by Rabin TechVerse.",
+      "year": 2024
+    },
+    {
+      "title": "Scan-only Codex Security in GitLab CI",
+      "creator": "AI crash courses",
+      "url": "https://www.youtube.com/watch?v=qJYe_6iP4yY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Scan-only Codex Security in GitLab CI - Complete guide by AI crash courses.",
+      "year": 2024
+    },
+    {
+      "title": "Create your first GitLab CI/CD pipeline in 1 minute! #cicd #devops #gitlab #coding",
+      "creator": "Sabyr | Daily Coding and DevOps Tips",
+      "url": "https://www.youtube.com/watch?v=JgMI6grPZrs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Create your first GitLab CI/CD pipeline in 1 minute! #cicd #devops #gitlab #coding - Complete guide by Sabyr | Daily Coding and DevOps Tips.",
+      "year": 2024
+    },
+    {
+      "title": "GitOps vs CI/CD Pipelines: Which Holds the Keys to Prod?",
+      "creator": "Ravindra Kumar",
+      "url": "https://www.youtube.com/watch?v=ioXYCOQn60s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GitOps vs CI/CD Pipelines: Which Holds the Keys to Prod? - Complete guide by Ravindra Kumar.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to GitLab CI/CD",
+      "creator": "Sabyr | Daily Coding and DevOps Tips",
+      "url": "https://www.youtube.com/watch?v=pNtJ_V21k5s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to GitLab CI/CD - Complete guide by Sabyr | Daily Coding and DevOps Tips.",
+      "year": 2024
+    },
+    {
+      "title": "GitHub vs GitLab vs AWS: Which CI/CD Tool is Best? 🚀 #devopsinterview",
+      "creator": "Tech with Ajit",
+      "url": "https://www.youtube.com/watch?v=BKtPQzQwNzA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GitHub vs GitLab vs AWS: Which CI/CD Tool is Best? 🚀 #devopsinterview - Complete guide by Tech with Ajit.",
+      "year": 2024
+    },
+    {
+      "title": "✨ Deploy React App on Azure VM GitLab CI CD NGINX Tutorial (Part 7) #Shorts #devops #cloud #sudoc...",
+      "creator": "Sudo Cloud",
+      "url": "https://www.youtube.com/watch?v=V5VN1HH52TI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "✨ Deploy React App on Azure VM GitLab CI CD NGINX Tutorial (Part 7) #Shorts #devops #cloud #sudoc... - Complete guide by Sudo Cloud.",
+      "year": 2024
+    },
+    {
+      "title": "🎯 Deploy React App on Azure VM GitLab CI CD NGINX Deployment Secret (Part 5) #Shorts #devops #clo...",
+      "creator": "Sudo Cloud",
+      "url": "https://www.youtube.com/watch?v=yXOtOt7YQgI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🎯 Deploy React App on Azure VM GitLab CI CD NGINX Deployment Secret (Part 5) #Shorts #devops #clo... - Complete guide by Sudo Cloud.",
+      "year": 2024
+    },
+    {
+      "title": "📌 Deploy React App on Azure VM GitLab CI CD NGINX Tutorial (Part 6) #Shorts #devops #cloud #sudoc...",
+      "creator": "Sudo Cloud",
+      "url": "https://www.youtube.com/watch?v=G-aHMbyJM_g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "📌 Deploy React App on Azure VM GitLab CI CD NGINX Tutorial (Part 6) #Shorts #devops #cloud #sudoc... - Complete guide by Sudo Cloud.",
+      "year": 2024
+    },
+    {
+      "title": "Run Codex Security in CI: key, trust, Daybreak, severity policy",
+      "creator": "AI crash courses",
+      "url": "https://www.youtube.com/watch?v=SguZr7yLt_8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Run Codex Security in CI: key, trust, Daybreak, severity policy - Complete guide by AI crash courses.",
+      "year": 2024
+    },
+    {
+      "title": "Self-Host GitLab the Right Way",
+      "creator": "mCodes",
+      "url": "https://www.youtube.com/watch?v=lAsBRYXoVwY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Self-Host GitLab the Right Way - Complete guide by mCodes.",
+      "year": 2024
+    },
+    {
+      "title": "#GitLab CI CD In Udemy and TeluguITFactory.com",
+      "creator": "Tech IT Factory",
+      "url": "https://www.youtube.com/watch?v=tddj4V7TGhg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#GitLab CI CD In Udemy and TeluguITFactory.com - Complete guide by Tech IT Factory.",
+      "year": 2024
+    },
+    {
+      "title": "What is CI/CD? (Continuous Integration & Delivery Explained)",
+      "creator": "KnowIt",
+      "url": "https://www.youtube.com/watch?v=fKgvz0atNYg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is CI/CD? (Continuous Integration & Delivery Explained) - Complete guide by KnowIt.",
+      "year": 2024
+    },
+    {
+      "title": "Create First .Gitlab-ci.yaml file",
+      "creator": "Devops Zplus ",
+      "url": "https://www.youtube.com/watch?v=CkPg7WNmlLI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Create First .Gitlab-ci.yaml file - Complete guide by Devops Zplus .",
+      "year": 2024
+    },
+    {
+      "title": "What is CI/CD Pipeline? | Simply Explained by Shradha Ma'am",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=gLptmcuCx6Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is CI/CD Pipeline? | Simply Explained by Shradha Ma'am - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "\"GitLab CI/CD Full Course 💥 Zero to Hero in 3 Hours!\" #GitLabCI #cicd  #devops",
+      "creator": "Thetips4you",
+      "url": "https://www.youtube.com/watch?v=Typ9U6k6g5s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "\"GitLab CI/CD Full Course 💥 Zero to Hero in 3 Hours!\" #GitLabCI #cicd  #devops - Complete guide by Thetips4you.",
+      "year": 2024
+    },
+    {
+      "title": "What is GitLab? Explained Simply + Interview Answer | DevOps with Rahul #GitLab #Shorts",
+      "creator": "DevOps with Rahul",
+      "url": "https://www.youtube.com/watch?v=9sgQVvL7NAI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is GitLab? Explained Simply + Interview Answer | DevOps with Rahul #GitLab #Shorts - Complete guide by DevOps with Rahul.",
+      "year": 2024
+    },
+    {
+      "title": "DevOps CI/CD Explained in 100 Seconds",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=scEDHsr3APg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DevOps CI/CD Explained in 100 Seconds - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "GitLab CI/CD Full Tutorial for Beginners [2025] with Real-Time End-to-End DevOps Project",
+      "creator": "Tech Tutorials with Piyush",
+      "url": "https://www.youtube.com/watch?v=uYaMRn2meJQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "GitLab CI/CD Full Tutorial for Beginners [2025] with Real-Time End-to-End DevOps Project - Complete guide by Tech Tutorials with Piyush.",
+      "year": 2024
+    },
+    {
+      "title": "What is CI/CD Pipeline? (in Layman's terms)",
+      "creator": "CodeWithHarry",
+      "url": "https://www.youtube.com/watch?v=57dkyTmOCmE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is CI/CD Pipeline? (in Layman's terms) - Complete guide by CodeWithHarry.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Pipelines (GitLab) in DevOps: A Beginner's Guide | Pipeline Tutorial | Hindi #1",
+      "creator": "DevOps with Prashant",
+      "url": "https://www.youtube.com/watch?v=QsejwQlVmvw",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Introduction to Pipelines (GitLab) in DevOps: A Beginner's Guide | Pipeline Tutorial | Hindi #1 - Complete guide by DevOps with Prashant.",
+      "year": 2024
+    },
+    {
+      "title": "Build a Self-Healing CI/CD Pipeline with AI",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=vj68el9hRvU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build a Self-Healing CI/CD Pipeline with AI - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "GitLab CI/CD: Creating Your First Pipeline & Understanding Jobs and Stages | Tutorial [Hindi] #2",
+      "creator": "DevOps with Prashant",
+      "url": "https://www.youtube.com/watch?v=csW6m1U0qV4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GitLab CI/CD: Creating Your First Pipeline & Understanding Jobs and Stages | Tutorial [Hindi] #2 - Complete guide by DevOps with Prashant.",
+      "year": 2024
+    },
+    {
+      "title": "Server Monitoring with Grafana Prometheus and Loki",
+      "creator": "Piyush Garg",
+      "url": "https://www.youtube.com/watch?v=ddZjhv66o_o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Server Monitoring with Grafana Prometheus and Loki - Complete guide by Piyush Garg.",
+      "year": 2024
+    },
+    {
+      "title": "Monitoring using Promethus and Grafana",
+      "creator": "akashcodeofficial",
+      "url": "https://www.youtube.com/watch?v=ffcWzVa1N1s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Monitoring using Promethus and Grafana - Complete guide by akashcodeofficial.",
+      "year": 2024
+    },
+    {
+      "title": "Easiest Prometheus & Grafana Tutorial For DevOps on Kubernetes | Observability in Hindi",
+      "creator": "TrainWithShubham",
+      "url": "https://www.youtube.com/watch?v=DXZUunEeHqM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Easiest Prometheus & Grafana Tutorial For DevOps on Kubernetes | Observability in Hindi - Complete guide by TrainWithShubham.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Prometheus Monitoring in Hindi 🚀 Complete Beginner Tutorial",
+      "creator": "Technical Cloud Knowledge ",
+      "url": "https://www.youtube.com/watch?v=eHZdfAsMLSw",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn Prometheus Monitoring in Hindi 🚀 Complete Beginner Tutorial - Complete guide by Technical Cloud Knowledge .",
+      "year": 2024
+    },
+    {
+      "title": "Prometheus Monitoring within 60 Seconds | Quick DevOps Tutorial",
+      "creator": "DevOps Mind",
+      "url": "https://www.youtube.com/watch?v=Z4yL1DVBCM0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Prometheus Monitoring within 60 Seconds | Quick DevOps Tutorial - Complete guide by DevOps Mind.",
+      "year": 2024
+    },
+    {
+      "title": "How Prometheus and Grafana works? #devops #monitoring",
+      "creator": "Cloud Champ",
+      "url": "https://www.youtube.com/watch?v=dGBpBhKRvdE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Prometheus and Grafana works? #devops #monitoring - Complete guide by Cloud Champ.",
+      "year": 2024
+    },
+    {
+      "title": "Monitor Your Whole Homelab (Prometheus + Grafana)",
+      "creator": "ScanderLoud",
+      "url": "https://www.youtube.com/watch?v=7abnroUYWz0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Monitor Your Whole Homelab (Prometheus + Grafana) - Complete guide by ScanderLoud.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture-2 | Prometheus Installation & Setup | Monitoring & Alerting Tool | Prometheus Full Tutorial",
+      "creator": "Technical Cloud Knowledge ",
+      "url": "https://www.youtube.com/watch?v=F3QMAQb26pc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture-2 | Prometheus Installation & Setup | Monitoring & Alerting Tool | Prometheus Full Tutorial - Complete guide by Technical Cloud Knowledge .",
+      "year": 2024
+    },
+    {
+      "title": "Prometheus + Grafana kya hai? Monitoring 45 sec mein 📊 #shorts",
+      "creator": "DevOps-with-umesh",
+      "url": "https://www.youtube.com/watch?v=AWiUZX_r5tc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Prometheus + Grafana kya hai? Monitoring 45 sec mein 📊 #shorts - Complete guide by DevOps-with-umesh.",
+      "year": 2024
+    },
+    {
+      "title": "How Prometheus Monitoring works | Prometheus Architecture explained",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=h4Sl21AKiDg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Prometheus Monitoring works | Prometheus Architecture explained - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Why Grafana + Prometheus Is winning Observability and cutting License Cost",
+      "creator": "Techie Talks With Kuldeep",
+      "url": "https://www.youtube.com/watch?v=NN-JwJLJq_g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why Grafana + Prometheus Is winning Observability and cutting License Cost - Complete guide by Techie Talks With Kuldeep.",
+      "year": 2024
+    },
+    {
+      "title": "Prometheus Tutorial | Monitoring with Prometheus And Grafana | Prometheus Grafana Tutorial | Edureka",
+      "creator": "edureka!",
+      "url": "https://www.youtube.com/watch?v=7gW5pSM6dlU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Prometheus Tutorial | Monitoring with Prometheus And Grafana | Prometheus Grafana Tutorial | Edureka - Complete guide by edureka!.",
+      "year": 2024
+    },
+    {
+      "title": "Server Monitoring // Prometheus and Grafana Tutorial",
+      "creator": "Christian Lempa",
+      "url": "https://www.youtube.com/watch?v=9TJx7QTrTyo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Server Monitoring // Prometheus and Grafana Tutorial - Complete guide by Christian Lempa.",
+      "year": 2024
+    },
+    {
+      "title": "Prometheus vs Grafana",
+      "creator": "Cloud2BR",
+      "url": "https://www.youtube.com/watch?v=UKpxEjVimGA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Prometheus vs Grafana - Complete guide by Cloud2BR.",
+      "year": 2024
+    },
+    {
+      "title": "📊 Prometheus vs Grafana Explained | Monitoring & Observability 🚀",
+      "creator": "simpletechsnippets",
+      "url": "https://www.youtube.com/watch?v=UxZpjOjVS40",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "📊 Prometheus vs Grafana Explained | Monitoring & Observability 🚀 - Complete guide by simpletechsnippets.",
+      "year": 2024
+    },
+    {
+      "title": "📊 Automate Server Monitoring with Prometheus & Grafana | Real-Time Metrics 📈 #ServerMonitoring",
+      "creator": "TheNetworkEngineer",
+      "url": "https://www.youtube.com/watch?v=epiEMDJef1Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "📊 Automate Server Monitoring with Prometheus & Grafana | Real-Time Metrics 📈 #ServerMonitoring - Complete guide by TheNetworkEngineer.",
+      "year": 2024
+    },
+    {
+      "title": "Prometheus + Grafana Monitoring Setup 🔥 #clouddevops #cloud #dveops #career #shorts #trend #viral",
+      "creator": "Upskill With Deep",
+      "url": "https://www.youtube.com/watch?v=3K6oHwOuLCk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Prometheus + Grafana Monitoring Setup 🔥 #clouddevops #cloud #dveops #career #shorts #trend #viral - Complete guide by Upskill With Deep.",
+      "year": 2024
+    },
+    {
+      "title": "Monitor Python FastAPI in Real-Time with Prometheus & Grafana | Full Setup & Dashboard Guide!",
+      "creator": "MasterLAB Systems",
+      "url": "https://www.youtube.com/watch?v=EceN6wvvibk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Monitor Python FastAPI in Real-Time with Prometheus & Grafana | Full Setup & Dashboard Guide! - Complete guide by MasterLAB Systems.",
+      "year": 2024
+    },
+    {
+      "title": "What is Prometheus and Grafana? #grafana #prometheus #devops #cicd  #Kubernetes #aws  #azure  #gcp",
+      "creator": "Cloud with Shruti",
+      "url": "https://www.youtube.com/watch?v=glc3U1oiPRc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Prometheus and Grafana? #grafana #prometheus #devops #cicd  #Kubernetes #aws  #azure  #gcp - Complete guide by Cloud with Shruti.",
+      "year": 2024
+    },
+    {
+      "title": "🔥 Prometheus vs Grafana Explained in 60 Seconds | DevOps Monitoring Made Easy",
+      "creator": "NextGen Cloud AI",
+      "url": "https://www.youtube.com/watch?v=CP5f8-N0CtU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🔥 Prometheus vs Grafana Explained in 60 Seconds | DevOps Monitoring Made Easy - Complete guide by NextGen Cloud AI.",
+      "year": 2024
+    },
+    {
+      "title": "Day 26/30 – Install Prometheus & Grafana (Monitoring Stack Setup)",
+      "creator": "CloudDevOps by Nilesh",
+      "url": "https://www.youtube.com/watch?v=6wRSXAWsGLE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Day 26/30 – Install Prometheus & Grafana (Monitoring Stack Setup) - Complete guide by CloudDevOps by Nilesh.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes Monitoring See Inside with Prometheus & Grafana #kubernetes #prometheus #grafana #devops",
+      "creator": "The Code Architect",
+      "url": "https://www.youtube.com/watch?v=ye1yUhGMZlQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kubernetes Monitoring See Inside with Prometheus & Grafana #kubernetes #prometheus #grafana #devops - Complete guide by The Code Architect.",
+      "year": 2024
+    },
+    {
+      "title": "What's the purpose of Prometheus and Grafana in their monitoring system ?",
+      "creator": "DevOps Cloud and AI Labs",
+      "url": "https://www.youtube.com/watch?v=iSPyBzXCADM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What's the purpose of Prometheus and Grafana in their monitoring system ? - Complete guide by DevOps Cloud and AI Labs.",
+      "year": 2024
+    },
+    {
+      "title": "Prometheus + Grafana: Easy App Monitoring Setup | Day 13",
+      "creator": "TechSaralta",
+      "url": "https://www.youtube.com/watch?v=g6X03tvoNg0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Prometheus + Grafana: Easy App Monitoring Setup | Day 13 - Complete guide by TechSaralta.",
+      "year": 2024
+    },
+    {
+      "title": "When Grafana Calls You at 99% CPU | DevOps Monitoring Gone Wrong",
+      "creator": "LearnwithDevOpsEngineer",
+      "url": "https://www.youtube.com/watch?v=tm-jIlXLEpg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "When Grafana Calls You at 99% CPU | DevOps Monitoring Gone Wrong - Complete guide by LearnwithDevOpsEngineer.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes Monitoring Explained | Prometheus & Grafana | Kubernetes Day 21",
+      "creator": "IntelliQ IT Trainings",
+      "url": "https://www.youtube.com/watch?v=XXVYGQg38OQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kubernetes Monitoring Explained | Prometheus & Grafana | Kubernetes Day 21 - Complete guide by IntelliQ IT Trainings.",
+      "year": 2024
+    },
+    {
+      "title": "Prometheus & Grafana: Real-Time Monitoring in Action! #shorts#trending#devops#monitoring #ytshorts",
+      "creator": "Cloudtechs Club",
+      "url": "https://www.youtube.com/watch?v=xkd7mAGtOFM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Prometheus & Grafana: Real-Time Monitoring in Action! #shorts#trending#devops#monitoring #ytshorts - Complete guide by Cloudtechs Club.",
+      "year": 2024
+    },
+    {
+      "title": "What is Grafana and how do I use it? #grafana  #devops  #shorts",
+      "creator": "igmGuru",
+      "url": "https://www.youtube.com/watch?v=_29kjpNElQU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Grafana and how do I use it? #grafana  #devops  #shorts - Complete guide by igmGuru.",
+      "year": 2024
+    },
+    {
+      "title": "Grafana — explained simply 📊🚀",
+      "creator": "Divya Awasthi",
+      "url": "https://www.youtube.com/watch?v=Mtg5z7gYgqQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Grafana — explained simply 📊🚀 - Complete guide by Divya Awasthi.",
+      "year": 2024
+    },
+    {
+      "title": "Grafana vs Prometheus, What's the Difference? #observability",
+      "creator": "Zak Makes",
+      "url": "https://www.youtube.com/watch?v=RnblBadlQW4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Grafana vs Prometheus, What's the Difference? #observability - Complete guide by Zak Makes.",
+      "year": 2024
+    },
+    {
+      "title": "How Prometheus & Grafana works #shorts #youtubeshorts #ytshorts #devops #monitoring #Kubernetes",
+      "creator": "Cloudtechs Club",
+      "url": "https://www.youtube.com/watch?v=CHQ1dIQSJzg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Prometheus & Grafana works #shorts #youtubeshorts #ytshorts #devops #monitoring #Kubernetes - Complete guide by Cloudtechs Club.",
+      "year": 2024
+    },
+    {
+      "title": "Monitoring Made EASY with Grafana and Prometheus!",
+      "creator": "Better Stack",
+      "url": "https://www.youtube.com/watch?v=pGSkPutCKtQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Monitoring Made EASY with Grafana and Prometheus! - Complete guide by Better Stack.",
+      "year": 2024
+    },
+    {
+      "title": "Prometheus FULL Course: Docker/K8s, PromQL, Grafana & MORE!",
+      "creator": "Rayan Slim",
+      "url": "https://www.youtube.com/watch?v=zZcxdWJ_tRc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Prometheus FULL Course: Docker/K8s, PromQL, Grafana & MORE! - Complete guide by Rayan Slim.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes Monitoring with Prometheus & Grafana | Live Dashboards Explained | DurgaSoft",
+      "creator": "Durga Software Solutions",
+      "url": "https://www.youtube.com/watch?v=kHFNd-TEhK8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kubernetes Monitoring with Prometheus & Grafana | Live Dashboards Explained | DurgaSoft - Complete guide by Durga Software Solutions.",
+      "year": 2024
+    },
+    {
+      "title": "Full 2-Hour DevOps Masterclass (Prometheus + Grafana + Slack) Monitoring & Alerting in Real Life",
+      "creator": "LearnwithDevOpsEngineer",
+      "url": "https://www.youtube.com/watch?v=i-_n7ee_u2E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Full 2-Hour DevOps Masterclass (Prometheus + Grafana + Slack) Monitoring & Alerting in Real Life - Complete guide by LearnwithDevOpsEngineer.",
+      "year": 2024
+    },
+    {
+      "title": "How to Monitor Spring Boot Application With Prometheus and Grafana",
+      "creator": "Refactor First",
+      "url": "https://www.youtube.com/watch?v=pVdDWQQeqME",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Monitor Spring Boot Application With Prometheus and Grafana - Complete guide by Refactor First.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Observability in 5 hours | Tool wise Demo + Complete Demo using Open Telemetry",
+      "creator": "Abhishek.Veeramalla",
+      "url": "https://www.youtube.com/watch?v=cYAE0ZhT43c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Observability in 5 hours | Tool wise Demo + Complete Demo using Open Telemetry - Complete guide by Abhishek.Veeramalla.",
+      "year": 2024
+    },
+    {
+      "title": "Monitor Your Python Applications with Prometheus & Grafana",
+      "creator": "NeuralNine",
+      "url": "https://www.youtube.com/watch?v=moLWjeXoVso",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Monitor Your Python Applications with Prometheus & Grafana - Complete guide by NeuralNine.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to the Prometheus Monitoring System | Key Concepts and Features",
+      "creator": "Prometheus Monitoring with Julius | PromLabs",
+      "url": "https://www.youtube.com/watch?v=STVMGrYIlfg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to the Prometheus Monitoring System | Key Concepts and Features - Complete guide by Prometheus Monitoring with Julius | PromLabs.",
+      "year": 2024
+    },
+    {
+      "title": "DevOps Tutorial # 126 : Why Grafana & Prometheus Are the Perfect Monitoring Combo in DevOps 2025",
+      "creator": "The Techzeen",
+      "url": "https://www.youtube.com/watch?v=Y39KMKgktT4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DevOps Tutorial # 126 : Why Grafana & Prometheus Are the Perfect Monitoring Combo in DevOps 2025 - Complete guide by The Techzeen.",
+      "year": 2024
+    },
+    {
+      "title": "Getting Started with Prometheus | Minimal Setup (Download, Config & Run)",
+      "creator": "Prometheus Monitoring with Julius | PromLabs",
+      "url": "https://www.youtube.com/watch?v=OxZmn4svOyA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Getting Started with Prometheus | Minimal Setup (Download, Config & Run) - Complete guide by Prometheus Monitoring with Julius | PromLabs.",
+      "year": 2024
+    },
+    {
+      "title": "Getting started with Prometheus Grafana and Node exporter - Part 1",
+      "creator": "Rahul Wagh",
+      "url": "https://www.youtube.com/watch?v=peH95b16hNI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Getting started with Prometheus Grafana and Node exporter - Part 1 - Complete guide by Rahul Wagh.",
+      "year": 2024
+    },
+    {
+      "title": "Monitoring With Prometheus & Grafana In Hindi | Grafana Tutorial For Beginners | Great Learning",
+      "creator": "Great Learning",
+      "url": "https://www.youtube.com/watch?v=9DqOMZrc4PA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Monitoring With Prometheus & Grafana In Hindi | Grafana Tutorial For Beginners | Great Learning - Complete guide by Great Learning.",
+      "year": 2024
+    },
+    {
+      "title": "DevOps Tutorial # 127 : How to Install Grafana & Prometheus on Ubuntu | (Hindi/Urdu) 2025",
+      "creator": "The Techzeen",
+      "url": "https://www.youtube.com/watch?v=N51bRa9yVmE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DevOps Tutorial # 127 : How to Install Grafana & Prometheus on Ubuntu | (Hindi/Urdu) 2025 - Complete guide by The Techzeen.",
+      "year": 2024
+    },
+    {
+      "title": "Ansible Full Course | Zero to Hero",
+      "creator": "Rahul Wagh",
+      "url": "https://www.youtube.com/watch?v=GROqwFFLl3s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ansible Full Course | Zero to Hero - Complete guide by Rahul Wagh.",
+      "year": 2024
+    },
+    {
+      "title": "Monitoring Linux Server with Prometheus and Grafana using Node Exporter | Install Prometheus Ubuntu",
+      "creator": "DevOps Hint",
+      "url": "https://www.youtube.com/watch?v=DuYnPOq4D6w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Monitoring Linux Server with Prometheus and Grafana using Node Exporter | Install Prometheus Ubuntu - Complete guide by DevOps Hint.",
+      "year": 2024
+    },
+    {
+      "title": "#1:Introduction to Prometheus| Prometheus Architecture| How to Install Prometheus on Amazon Linux 2",
+      "creator": "DevOps Hint",
+      "url": "https://www.youtube.com/watch?v=nqc6OlQlXgo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#1:Introduction to Prometheus| Prometheus Architecture| How to Install Prometheus on Amazon Linux 2 - Complete guide by DevOps Hint.",
+      "year": 2024
+    },
+    {
+      "title": "DevOps Tutorial #80: Ansible: What is Ansible, Why Use It, Core Concepts Explained | 2025",
+      "creator": "The Techzeen",
+      "url": "https://www.youtube.com/watch?v=HpU_Y4wiq-8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DevOps Tutorial #80: Ansible: What is Ansible, Why Use It, Core Concepts Explained | 2025 - Complete guide by The Techzeen.",
+      "year": 2024
+    },
+    {
+      "title": "Getting started with Ansible 04 - Running ad-hoc Commands",
+      "creator": "Learn Linux TV",
+      "url": "https://www.youtube.com/watch?v=4REljLsOnXk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Getting started with Ansible 04 - Running ad-hoc Commands - Complete guide by Learn Linux TV.",
+      "year": 2024
+    },
+    {
+      "title": "Ansible in 100 Seconds",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=xRMPKQweySE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ansible in 100 Seconds - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Ansible Semaphore Tutorial: From Installation to Automation",
+      "creator": "Learn Linux TV",
+      "url": "https://www.youtube.com/watch?v=CltoVfeRdoM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete Ansible Semaphore Tutorial: From Installation to Automation - Complete guide by Learn Linux TV.",
+      "year": 2024
+    },
+    {
+      "title": "DevOps Tutorial #81: Ansible: Install Ansible in Windows using WSL Ubuntu | Step-by-Step Setup 2025",
+      "creator": "The Techzeen",
+      "url": "https://www.youtube.com/watch?v=0esjnJja9FM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DevOps Tutorial #81: Ansible: Install Ansible in Windows using WSL Ubuntu | Step-by-Step Setup 2025 - Complete guide by The Techzeen.",
+      "year": 2024
+    },
+    {
+      "title": "Ansible Crash Course for Beginners",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=dMYTzRweUPU",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Ansible Crash Course for Beginners - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Ansible Full Course | Ansible Tutorial For Beginners | Learn Ansible Step By Step | Simplilearn",
+      "creator": "Simplilearn",
+      "url": "https://www.youtube.com/watch?v=EcnqJbxBcM0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Ansible Full Course | Ansible Tutorial For Beginners | Learn Ansible Step By Step | Simplilearn - Complete guide by Simplilearn.",
+      "year": 2024
+    },
+    {
+      "title": "Master ANSIBLE Course in One Video [HINDI] | MPrashant",
+      "creator": "M Prashant",
+      "url": "https://www.youtube.com/watch?v=y2TSR7p3N0M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Master ANSIBLE Course in One Video [HINDI] | MPrashant - Complete guide by M Prashant.",
+      "year": 2024
+    },
+    {
+      "title": "Ansible 101 - Episode 2 - Ad-hoc tasks and Inventory",
+      "creator": "Jeff Geerling",
+      "url": "https://www.youtube.com/watch?v=7kVfqmGtDL8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ansible 101 - Episode 2 - Ad-hoc tasks and Inventory - Complete guide by Jeff Geerling.",
+      "year": 2024
+    },
+    {
+      "title": "Ansible Full Course 2026 | Ansible Tutorial For Beginners | Ansible Complete Tutorial | Simplilearn",
+      "creator": "Simplilearn",
+      "url": "https://www.youtube.com/watch?v=BS0GLQaSGPo",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Ansible Full Course 2026 | Ansible Tutorial For Beginners | Ansible Complete Tutorial | Simplilearn - Complete guide by Simplilearn.",
+      "year": 2024
+    },
+    {
+      "title": "Ansible for Beginners: Learn the Fundamentals of IT Automation - Part 1",
+      "creator": "Rahul Wagh",
+      "url": "https://www.youtube.com/watch?v=2hVSpENzhwA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Ansible for Beginners: Learn the Fundamentals of IT Automation - Part 1 - Complete guide by Rahul Wagh.",
+      "year": 2024
+    },
+    {
+      "title": "Master Ansible in 9 Hours! 🔥 Beginner to Expert Course with Crystal Clear Audio 🎧",
+      "creator": "MartinY Tech",
+      "url": "https://www.youtube.com/watch?v=boq0LAIgY4o",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Master Ansible in 9 Hours! 🔥 Beginner to Expert Course with Crystal Clear Audio 🎧 - Complete guide by MartinY Tech.",
+      "year": 2024
+    },
+    {
+      "title": "Ansible Explained in 3 Mins",
+      "creator": "KodeKloud",
+      "url": "https://www.youtube.com/watch?v=tfIPJVW3Pgs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ansible Explained in 3 Mins - Complete guide by KodeKloud.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Ansible - Part 1 | DevOps | Ft. Greens Technologies",
+      "creator": "Learn With Mithran",
+      "url": "https://www.youtube.com/watch?v=R2B_9xBZoJE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to Ansible - Part 1 | DevOps | Ft. Greens Technologies - Complete guide by Learn With Mithran.",
+      "year": 2024
+    },
+    {
+      "title": "Ansible Vault, Jinja2 template & Error handling Ansible - Part 2 | DevOps | Ft. Greens Technologies",
+      "creator": "Learn With Mithran",
+      "url": "https://www.youtube.com/watch?v=7gKbVXdCPOg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ansible Vault, Jinja2 template & Error handling Ansible - Part 2 | DevOps | Ft. Greens Technologies - Complete guide by Learn With Mithran.",
+      "year": 2024
+    },
+    {
+      "title": "Ansible Installation: The Windows, Ubuntu, CentOS, and macOS Guide - Part 2",
+      "creator": "Rahul Wagh",
+      "url": "https://www.youtube.com/watch?v=5bEAZ0La_Xo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ansible Installation: The Windows, Ubuntu, CentOS, and macOS Guide - Part 2 - Complete guide by Rahul Wagh.",
+      "year": 2024
+    },
+    {
+      "title": "Ansible Playbook Basics - FINALLY Explained Clearly!",
+      "creator": "Alta3 Research",
+      "url": "https://www.youtube.com/watch?v=p9bda0-TIRc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ansible Playbook Basics - FINALLY Explained Clearly! - Complete guide by Alta3 Research.",
+      "year": 2024
+    },
+    {
+      "title": "Ansible Complete Course 2026 | From ZERO to PRO | Master Ansible | 31+ LPA Roadmap",
+      "creator": "PathNex - Shaping Careers",
+      "url": "https://www.youtube.com/watch?v=Mb22bFi_GRA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ansible Complete Course 2026 | From ZERO to PRO | Master Ansible | 31+ LPA Roadmap - Complete guide by PathNex - Shaping Careers.",
+      "year": 2024
+    },
+    {
+      "title": "Ansible: Stop Setting Up Servers by Hand. Forever.",
+      "creator": "SoBatistaCyber",
+      "url": "https://www.youtube.com/watch?v=aLZXZJD2BnA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ansible: Stop Setting Up Servers by Hand. Forever. - Complete guide by SoBatistaCyber.",
+      "year": 2024
+    },
+    {
+      "title": "Infrastructure as Code with Ansible in 7 Steps",
+      "creator": "oolooroo",
+      "url": "https://www.youtube.com/watch?v=M30NOqWerEk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Infrastructure as Code with Ansible in 7 Steps - Complete guide by oolooroo.",
+      "year": 2024
+    },
+    {
+      "title": "Ansible Explained in 4 Minutes | Ansible Tutorial for Beginners (2026)",
+      "creator": "Tech With Diego",
+      "url": "https://www.youtube.com/watch?v=SuUnLqWpnEM",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Ansible Explained in 4 Minutes | Ansible Tutorial for Beginners (2026) - Complete guide by Tech With Diego.",
+      "year": 2024
+    },
+    {
+      "title": "Ansible kya hai? 50 servers, 1 command 🤖 #ansible #shorts",
+      "creator": "DevOps-with-umesh",
+      "url": "https://www.youtube.com/watch?v=S02ejvm_a2E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ansible kya hai? 50 servers, 1 command 🤖 #ansible #shorts - Complete guide by DevOps-with-umesh.",
+      "year": 2024
+    },
+    {
+      "title": "Professional Cloud Architect Certification Course – Pass the Exam!",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=u43gJJrVa1I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Professional Cloud Architect Certification Course – Pass the Exam! - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Why Everyone is Switching to Ansible in 2026",
+      "creator": "Coding Simplified",
+      "url": "https://www.youtube.com/watch?v=9De1_EK5fp4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why Everyone is Switching to Ansible in 2026 - Complete guide by Coding Simplified.",
+      "year": 2024
+    },
+    {
+      "title": "Google Cloud Associate Cloud Engineer Course [2025] - Pass the Exam!",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=OlAmyf8_4O4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Google Cloud Associate Cloud Engineer Course [2025] - Pass the Exam! - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "GCP Zero to Hero Series by Abhishek Veeramalla | Free Course",
+      "creator": "Abhishek.Veeramalla",
+      "url": "https://www.youtube.com/watch?v=N5rXROueKhw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GCP Zero to Hero Series by Abhishek Veeramalla | Free Course - Complete guide by Abhishek.Veeramalla.",
+      "year": 2024
+    },
+    {
+      "title": "Day-1 | Introduction to GCP and Cloud Computing",
+      "creator": "Abhishek.Veeramalla",
+      "url": "https://www.youtube.com/watch?v=yo5WBwmUTG0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Day-1 | Introduction to GCP and Cloud Computing - Complete guide by Abhishek.Veeramalla.",
+      "year": 2024
+    },
+    {
+      "title": "Google Cloud Digital Leader Certification Course - Pass the Exam!",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=cbcd6-m8sHg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Google Cloud Digital Leader Certification Course - Pass the Exam! - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Google Cloud Platform Full Course | Google Cloud Platform Tutorial | Cloud Computing | Simplilearn",
+      "creator": "Simplilearn",
+      "url": "https://www.youtube.com/watch?v=dn9cSRImmVA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Google Cloud Platform Full Course | Google Cloud Platform Tutorial | Cloud Computing | Simplilearn - Complete guide by Simplilearn.",
+      "year": 2024
+    },
+    {
+      "title": "GCP Full Course 2026 | GCP Tutorial For Beginners | Google Cloud Platform Training | Simplilearn",
+      "creator": "Simplilearn",
+      "url": "https://www.youtube.com/watch?v=HU58N5fz7B8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "GCP Full Course 2026 | GCP Tutorial For Beginners | Google Cloud Platform Training | Simplilearn - Complete guide by Simplilearn.",
+      "year": 2024
+    },
+    {
+      "title": "Google Cloud Platform Full Course 2025 | Google Cloud Engineer Course | GCP Tutorial | Intellipaat",
+      "creator": "Intellipaat",
+      "url": "https://www.youtube.com/watch?v=jVE7qKWg8mc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Google Cloud Platform Full Course 2025 | Google Cloud Engineer Course | GCP Tutorial | Intellipaat - Complete guide by Intellipaat.",
+      "year": 2024
+    },
+    {
+      "title": "Google Cloud Platform Tutorial | GCP Tutorial | Google Cloud Platform For Beginners | Simplilearn",
+      "creator": "Simplilearn",
+      "url": "https://www.youtube.com/watch?v=vACTtmLWiQY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Google Cloud Platform Tutorial | GCP Tutorial | Google Cloud Platform For Beginners | Simplilearn - Complete guide by Simplilearn.",
+      "year": 2024
+    },
+    {
+      "title": "Google Cloud Platform Full Course | GCP Tutorial | Google Cloud Training | Edureka",
+      "creator": "edureka!",
+      "url": "https://www.youtube.com/watch?v=IUU6OR8yHCc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Google Cloud Platform Full Course | GCP Tutorial | Google Cloud Training | Edureka - Complete guide by edureka!.",
+      "year": 2024
+    },
+    {
+      "title": "01 | Cloud Computing क्या है? | What is Cloud Computing in Hindi (Simple Explanation 2025)",
+      "creator": "Implovate",
+      "url": "https://www.youtube.com/watch?v=tpYZkoGmB4c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "01 | Cloud Computing क्या है? | What is Cloud Computing in Hindi (Simple Explanation 2025) - Complete guide by Implovate.",
+      "year": 2024
+    },
+    {
+      "title": "Google Cloud Full Course for Beginners [2025] | GCP Tutorial with Hands-On Labs | GCP Crash Course",
+      "creator": "Tech Tutorials with Piyush",
+      "url": "https://www.youtube.com/watch?v=lvZk_sc8u5I",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Google Cloud Full Course for Beginners [2025] | GCP Tutorial with Hands-On Labs | GCP Crash Course - Complete guide by Tech Tutorials with Piyush.",
+      "year": 2024
+    },
+    {
+      "title": "02 | Cloud Computing Models Explained in Hindi | IaaS vs PaaS vs SaaS with Real Life Example",
+      "creator": "Implovate",
+      "url": "https://www.youtube.com/watch?v=sTcJO3-uWak",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "02 | Cloud Computing Models Explained in Hindi | IaaS vs PaaS vs SaaS with Real Life Example - Complete guide by Implovate.",
+      "year": 2024
+    },
+    {
+      "title": "Google Cloud Associate Cloud Engineer Course - Pass the Exam!",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=jpno8FSqpc8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Google Cloud Associate Cloud Engineer Course - Pass the Exam! - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Google Generative AI Leader Certification Course – Pass the Exam!",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=30diF8dKpAY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Google Generative AI Leader Certification Course – Pass the Exam! - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "IAM Explained in Google Cloud: Manage Access and Permissions",
+      "creator": "TechTrapture",
+      "url": "https://www.youtube.com/watch?v=iTY64is1-qk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "IAM Explained in Google Cloud: Manage Access and Permissions - Complete guide by TechTrapture.",
+      "year": 2024
+    },
+    {
+      "title": "Google Cloud Data Analytics Certificate Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=GAdgTK2Esn4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Google Cloud Data Analytics Certificate Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Google Cloud CRASH COURSE For Beginners! | GCP Revision",
+      "creator": "Vishakha Sadhwani",
+      "url": "https://www.youtube.com/watch?v=EROmo2RKOQE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Google Cloud CRASH COURSE For Beginners! | GCP Revision - Complete guide by Vishakha Sadhwani.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Cloud in 21 days | Free GCP course by Abhishek",
+      "creator": "Abhishek.Veeramalla",
+      "url": "https://www.youtube.com/watch?v=_8N6hz8mjG4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Cloud in 21 days | Free GCP course by Abhishek - Complete guide by Abhishek.Veeramalla.",
+      "year": 2024
+    },
+    {
+      "title": "Google Cloud Platform (GCP) Fundamentals - Hands-on (2023) - Udemy Free Course  #free #udemyfree",
+      "creator": "Free Learning",
+      "url": "https://www.youtube.com/watch?v=t8XJG2eZifk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Google Cloud Platform (GCP) Fundamentals - Hands-on (2023) - Udemy Free Course  #free #udemyfree - Complete guide by Free Learning.",
+      "year": 2024
+    },
+    {
+      "title": "3 Major Cloud Platforms for               *C. Google Cloud Platform (GCP)",
+      "creator": "JATIN PARMAR - AI ARCHITECT",
+      "url": "https://www.youtube.com/watch?v=7E0MtG4oRkk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "3 Major Cloud Platforms for               *C. Google Cloud Platform (GCP) - Complete guide by JATIN PARMAR - AI ARCHITECT.",
+      "year": 2024
+    },
+    {
+      "title": "🔥AWS vs Azure vs Google Cloud – Which One Should You Learn?  #shorts #simplilearn",
+      "creator": "Simplilearn",
+      "url": "https://www.youtube.com/watch?v=ahpoL1z49a0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🔥AWS vs Azure vs Google Cloud – Which One Should You Learn?  #shorts #simplilearn - Complete guide by Simplilearn.",
+      "year": 2024
+    },
+    {
+      "title": "EP 01: How to Create a  GCP (Google Cloud Platform) FREE Account?",
+      "creator": "Cloud Sprint",
+      "url": "https://www.youtube.com/watch?v=KcHx5dXaDtk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "EP 01: How to Create a  GCP (Google Cloud Platform) FREE Account? - Complete guide by Cloud Sprint.",
+      "year": 2024
+    },
+    {
+      "title": "How to Create Organization, Folders, and Projects in Google Cloud | GCP Resource Hierarchy",
+      "creator": "TechTrapture",
+      "url": "https://www.youtube.com/watch?v=x2z11Z-HsXU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Create Organization, Folders, and Projects in Google Cloud | GCP Resource Hierarchy - Complete guide by TechTrapture.",
+      "year": 2024
+    },
+    {
+      "title": "How to PASS GCP Associate Cloud Engineer Exam (ACE) !!!",
+      "creator": "Cloud Sprint",
+      "url": "https://www.youtube.com/watch?v=30NX6wNVuzs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to PASS GCP Associate Cloud Engineer Exam (ACE) !!! - Complete guide by Cloud Sprint.",
+      "year": 2024
+    },
+    {
+      "title": "Google Cloud Roadmap 2024! How to learn GCP Cloud?",
+      "creator": "Tech Tutorials with Piyush",
+      "url": "https://www.youtube.com/watch?v=i_ceVEDk4Wk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Google Cloud Roadmap 2024! How to learn GCP Cloud? - Complete guide by Tech Tutorials with Piyush.",
+      "year": 2024
+    },
+    {
+      "title": "What is Google Cloud Platform (GCP)? Explained Simply",
+      "creator": "flowindata",
+      "url": "https://www.youtube.com/watch?v=O84uyMvV5r4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Google Cloud Platform (GCP)? Explained Simply - Complete guide by flowindata.",
+      "year": 2024
+    },
+    {
+      "title": "Free Data Analytics Course? With AWS, Google & IBM Certificates?! 🤯#shortsfeed##dataanalytics#free",
+      "creator": "Nikhil Chaudhari ",
+      "url": "https://www.youtube.com/watch?v=HT0tHiI9th4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Free Data Analytics Course? With AWS, Google & IBM Certificates?! 🤯#shortsfeed##dataanalytics#free - Complete guide by Nikhil Chaudhari .",
+      "year": 2024
+    },
+    {
+      "title": "9 Free YouTube Channels to Learn Cloud Security (AWS, Azure, GCP) #shorts",
+      "creator": "Kerem Tech",
+      "url": "https://www.youtube.com/watch?v=NHqBFVUr8Ec",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "9 Free YouTube Channels to Learn Cloud Security (AWS, Azure, GCP) #shorts - Complete guide by Kerem Tech.",
+      "year": 2024
+    },
+    {
+      "title": "Google Cloud gives you $300 free (and never auto-charges)",
+      "creator": "Cloudette",
+      "url": "https://www.youtube.com/watch?v=Oq8N_8_csJ0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Google Cloud gives you $300 free (and never auto-charges) - Complete guide by Cloudette.",
+      "year": 2024
+    },
+    {
+      "title": "Is GCP Certification Worth It in 2026? ☁️ | Google Cloud Career Guide",
+      "creator": "Kode with Khan",
+      "url": "https://www.youtube.com/watch?v=tFzjqZmG2yU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Is GCP Certification Worth It in 2026? ☁️ | Google Cloud Career Guide - Complete guide by Kode with Khan.",
+      "year": 2024
+    },
+    {
+      "title": "Free AI course for beginners with Google Cloud | One hour free AI course for beginners  #short",
+      "creator": "Campus Core",
+      "url": "https://www.youtube.com/watch?v=UCm6ZZxR_f8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Free AI course for beginners with Google Cloud | One hour free AI course for beginners  #short - Complete guide by Campus Core.",
+      "year": 2024
+    },
+    {
+      "title": "🔥 AWS vs Azure vs GCP - Which Cloud Platform Should You Learn in 2025? | Intellipaat #shorts",
+      "creator": "Intellipaat",
+      "url": "https://www.youtube.com/watch?v=UIvNUTefoc8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🔥 AWS vs Azure vs GCP - Which Cloud Platform Should You Learn in 2025? | Intellipaat #shorts - Complete guide by Intellipaat.",
+      "year": 2024
+    },
+    {
+      "title": "Which Cloud Platform to Choose - AWS Vs Azure Vs GCP | Intelipaat #Shorts",
+      "creator": "Intellipaat",
+      "url": "https://www.youtube.com/watch?v=VaMwWeWJZMU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Which Cloud Platform to Choose - AWS Vs Azure Vs GCP | Intelipaat #Shorts - Complete guide by Intellipaat.",
+      "year": 2024
+    },
+    {
+      "title": "Free Trial + GPU on Google Cloud = a Trap #Shorts",
+      "creator": "TechTrapture",
+      "url": "https://www.youtube.com/watch?v=cNK-d0uAZzg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Free Trial + GPU on Google Cloud = a Trap #Shorts - Complete guide by TechTrapture.",
+      "year": 2024
+    },
+    {
+      "title": "5 free Google courses",
+      "creator": "Sahil & Sarra",
+      "url": "https://www.youtube.com/watch?v=81GJmYT1nbg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "5 free Google courses - Complete guide by Sahil & Sarra.",
+      "year": 2024
+    },
+    {
+      "title": "What is Google Cloud Platform | Google Cloud Platform | Cloud Computing Tech | Intellipaat #Shorts",
+      "creator": "Intellipaat",
+      "url": "https://www.youtube.com/watch?v=0PGTm2xNg0E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Google Cloud Platform | Google Cloud Platform | Cloud Computing Tech | Intellipaat #Shorts - Complete guide by Intellipaat.",
+      "year": 2024
+    },
+    {
+      "title": "What is cloud computing?",
+      "creator": "freeCodeCamp Shorts",
+      "url": "https://www.youtube.com/watch?v=Y7NZOeWGu7M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is cloud computing? - Complete guide by freeCodeCamp Shorts.",
+      "year": 2024
+    },
+    {
+      "title": "GET your FREE GCP Certificate Vouchers #gcp #cloud #career",
+      "creator": "The Tech BlackBoard",
+      "url": "https://www.youtube.com/watch?v=PlSQ6Uh02C8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GET your FREE GCP Certificate Vouchers #gcp #cloud #career - Complete guide by The Tech BlackBoard.",
+      "year": 2024
+    },
+    {
+      "title": "How to Learn Google Cloud in 2024 ?",
+      "creator": "in28minutes",
+      "url": "https://www.youtube.com/watch?v=y3MYI6b_Fj8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Learn Google Cloud in 2024 ? - Complete guide by in28minutes.",
+      "year": 2024
+    },
+    {
+      "title": "GCP vs Azure vs AWS: 3 clouds hunt each other #Shorts",
+      "creator": "Learn Cloud Computing & DevOps",
+      "url": "https://www.youtube.com/watch?v=K2-SaMExW5I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GCP vs Azure vs AWS: 3 clouds hunt each other #Shorts - Complete guide by Learn Cloud Computing & DevOps.",
+      "year": 2024
+    },
+    {
+      "title": "How to Learn Cloud Computing in 2026 (For Beginners)",
+      "creator": "Tech With Lucy",
+      "url": "https://www.youtube.com/watch?v=ar9Tok2A9-c",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "How to Learn Cloud Computing in 2026 (For Beginners) - Complete guide by Tech With Lucy.",
+      "year": 2024
+    },
+    {
+      "title": "Get Cloud Certified In 1 Week",
+      "creator": "in28minutes",
+      "url": "https://www.youtube.com/watch?v=HdMJNt1upbE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Get Cloud Certified In 1 Week - Complete guide by in28minutes.",
+      "year": 2024
+    },
+    {
+      "title": "Microsoft Azure Fundamentals Certification Course (AZ-900) UPDATED – Pass the exam in 8 hours!",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=5abffC-K40c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Microsoft Azure Fundamentals Certification Course (AZ-900) UPDATED – Pass the exam in 8 hours! - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "AZ-900 | Microsoft Azure Fundamentals Full Course, Free Practice Tests, Website and Study Guides",
+      "creator": "Adam Marczak - Azure for Everyone",
+      "url": "https://www.youtube.com/watch?v=NPEsD6n9A_I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AZ-900 | Microsoft Azure Fundamentals Full Course, Free Practice Tests, Website and Study Guides - Complete guide by Adam Marczak - Azure for Everyone.",
+      "year": 2024
+    },
+    {
+      "title": "Microsoft Azure Fundamentals Certification Course (AZ-900) - Pass the exam in 3 hours!",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=NKEFWyqJ5XA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Microsoft Azure Fundamentals Certification Course (AZ-900) - Pass the exam in 3 hours! - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "AZ-900 Azure Fundamentals Full Course (2025) | Azure Complete Tutorial for Beginners [2.5 Hours]",
+      "creator": "Tech Tutorials with Piyush",
+      "url": "https://www.youtube.com/watch?v=-pX5PjIYTJs",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "AZ-900 Azure Fundamentals Full Course (2025) | Azure Complete Tutorial for Beginners [2.5 Hours] - Complete guide by Tech Tutorials with Piyush.",
+      "year": 2024
+    },
+    {
+      "title": "AZ-900 Episode 1 | Cloud Computing and Vocabulary | Microsoft Azure Fundamentals Full Course",
+      "creator": "Adam Marczak - Azure for Everyone",
+      "url": "https://www.youtube.com/watch?v=Pt9LelJ0fL0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AZ-900 Episode 1 | Cloud Computing and Vocabulary | Microsoft Azure Fundamentals Full Course - Complete guide by Adam Marczak - Azure for Everyone.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction - AZ-900 Certification Course",
+      "creator": "John Savill's Technical Training",
+      "url": "https://www.youtube.com/watch?v=IUCEFBmYIog",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction - AZ-900 Certification Course - Complete guide by John Savill's Technical Training.",
+      "year": 2024
+    },
+    {
+      "title": "Cloud fundamentals | AZ-900 | Video 2",
+      "creator": "Microsoft Learn",
+      "url": "https://www.youtube.com/watch?v=lVccy2Nw70M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Cloud fundamentals | AZ-900 | Video 2 - Complete guide by Microsoft Learn.",
+      "year": 2024
+    },
+    {
+      "title": "Course introduction | AZ-900 | Video 1",
+      "creator": "Microsoft Learn",
+      "url": "https://www.youtube.com/watch?v=orwWx0_KEcA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Course introduction | AZ-900 | Video 1 - Complete guide by Microsoft Learn.",
+      "year": 2024
+    },
+    {
+      "title": "Benefits of High Availability and Scalability in the Cloud - AZ-900 Certification Course",
+      "creator": "John Savill's Technical Training",
+      "url": "https://www.youtube.com/watch?v=JRbhGzGzoOA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Benefits of High Availability and Scalability in the Cloud - AZ-900 Certification Course - Complete guide by John Savill's Technical Training.",
+      "year": 2024
+    },
+    {
+      "title": "Exam AZ-900: Microsoft Azure Fundamentals | Tutorial on Module 1: Describe Cloud Computing",
+      "creator": "Automate with Rakesh",
+      "url": "https://www.youtube.com/watch?v=nEsgW_92xRY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Exam AZ-900: Microsoft Azure Fundamentals | Tutorial on Module 1: Describe Cloud Computing - Complete guide by Automate with Rakesh.",
+      "year": 2024
+    },
+    {
+      "title": "Azure Solutions Architect Expert Certification Course (AZ 305) – Pass the Exam!",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=i6NzKvGUsBs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Azure Solutions Architect Expert Certification Course (AZ 305) – Pass the Exam! - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Exclusive Microsoft Azure Fundamentals AZ-900 Full Course 6 Hrs | Complete Beginner to Certification",
+      "creator": "Teach Me Cloud",
+      "url": "https://www.youtube.com/watch?v=4ZjUuoMpTBg",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Exclusive Microsoft Azure Fundamentals AZ-900 Full Course 6 Hrs | Complete Beginner to Certification - Complete guide by Teach Me Cloud.",
+      "year": 2024
+    },
+    {
+      "title": "Azure AI Fundamentals Certification 2024 (AI-900) - Full Course to PASS the Exam",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=hHjmr_YOqnU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Azure AI Fundamentals Certification 2024 (AI-900) - Full Course to PASS the Exam - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "AZ‑900 Azure Fundamentals in Hindi (2025) | Part 1 | Beginner Guide to Microsoft Azure Certification",
+      "creator": "JagvinderThind",
+      "url": "https://www.youtube.com/watch?v=l3nJnChtKuY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "AZ‑900 Azure Fundamentals in Hindi (2025) | Part 1 | Beginner Guide to Microsoft Azure Certification - Complete guide by JagvinderThind.",
+      "year": 2024
+    },
+    {
+      "title": "Module 2: Describe the Benefits of Using Cloud Services| Exam AZ-900: Microsoft Azure Fundamentals",
+      "creator": "Automate with Rakesh",
+      "url": "https://www.youtube.com/watch?v=AgLDCn714oo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Module 2: Describe the Benefits of Using Cloud Services| Exam AZ-900: Microsoft Azure Fundamentals - Complete guide by Automate with Rakesh.",
+      "year": 2024
+    },
+    {
+      "title": "What is Microsoft Azure in Hindi? | Cloud Computing Explained for Beginners | Azure Hindi",
+      "creator": "JagvinderThind",
+      "url": "https://www.youtube.com/watch?v=Aae1oWgtd_0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "What is Microsoft Azure in Hindi? | Cloud Computing Explained for Beginners | Azure Hindi - Complete guide by JagvinderThind.",
+      "year": 2024
+    },
+    {
+      "title": "Azure Data Fundamentals Certification (DP-900) - Full Course to PASS the Exam",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=P3qmqUZJ7l0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Azure Data Fundamentals Certification (DP-900) - Full Course to PASS the Exam - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Azure Administrator Certification (AZ-104) - Full Course to PASS the Exam",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=10PbGbTUSAg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Azure Administrator Certification (AZ-104) - Full Course to PASS the Exam - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Azure Developer Associate (AZ-204) — Full Course Pass the Exam!",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=jZx8PMQjobk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Azure Developer Associate (AZ-204) — Full Course Pass the Exam! - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "How difficult is the AZ-900 Azure Fundamentals?",
+      "creator": "Caleb Oni",
+      "url": "https://www.youtube.com/watch?v=UjhfrO38BmM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How difficult is the AZ-900 Azure Fundamentals? - Complete guide by Caleb Oni.",
+      "year": 2024
+    },
+    {
+      "title": "Azure Full Course - Learn Microsoft Azure in 8 Hours | Azure Tutorial For Beginners | Edureka",
+      "creator": "edureka!",
+      "url": "https://www.youtube.com/watch?v=tDuruX7XSac",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Azure Full Course - Learn Microsoft Azure in 8 Hours | Azure Tutorial For Beginners | Edureka - Complete guide by edureka!.",
+      "year": 2024
+    },
+    {
+      "title": "Course Preview | AI-901 | Introduction to AI in Azure",
+      "creator": "Microsoft Learn",
+      "url": "https://www.youtube.com/watch?v=_3q45emXEZM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Course Preview | AI-901 | Introduction to AI in Azure - Complete guide by Microsoft Learn.",
+      "year": 2024
+    },
+    {
+      "title": "Course Introduction | AI-901 | Episode 1",
+      "creator": "Microsoft Learn",
+      "url": "https://www.youtube.com/watch?v=U4jvxOu6O-c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Course Introduction | AI-901 | Episode 1 - Complete guide by Microsoft Learn.",
+      "year": 2024
+    },
+    {
+      "title": "How I pass the AZ-900 Azure Fundamentals in 10 days with only 2 resources in 2026/2027",
+      "creator": "THE IT WORLD",
+      "url": "https://www.youtube.com/watch?v=9NVdNeFZgXA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How I pass the AZ-900 Azure Fundamentals in 10 days with only 2 resources in 2026/2027 - Complete guide by THE IT WORLD.",
+      "year": 2024
+    },
+    {
+      "title": "AZ-900 Microsoft Azure Fundamentals | Complete Exam Preparation 🚀",
+      "creator": "Jasons Software Academy",
+      "url": "https://www.youtube.com/watch?v=9uAbO7S6dMc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AZ-900 Microsoft Azure Fundamentals | Complete Exam Preparation 🚀 - Complete guide by Jasons Software Academy.",
+      "year": 2024
+    },
+    {
+      "title": "What is the Fastest Way To Learn Azure ?",
+      "creator": "in28minutes",
+      "url": "https://www.youtube.com/watch?v=AHC2Cdeitf8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is the Fastest Way To Learn Azure ? - Complete guide by in28minutes.",
+      "year": 2024
+    },
+    {
+      "title": "AZ-900 | Azure Fundamentals | Everything you need to know | Yatharth Kapoor #shorts",
+      "creator": "Yatharth Kapoor",
+      "url": "https://www.youtube.com/watch?v=s2B6CHWQT9U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AZ-900 | Azure Fundamentals | Everything you need to know | Yatharth Kapoor #shorts - Complete guide by Yatharth Kapoor.",
+      "year": 2024
+    },
+    {
+      "title": "Course Preview | AZ-104 | Azure Administrator Associate",
+      "creator": "Microsoft Learn",
+      "url": "https://www.youtube.com/watch?v=uBqp3ivFC_o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Course Preview | AZ-104 | Azure Administrator Associate - Complete guide by Microsoft Learn.",
+      "year": 2024
+    },
+    {
+      "title": "Az 900 Full Course | Microsoft Azure Fundamentals Full Course in Hindi | ICNT Gyan",
+      "creator": "Icnt Gyan",
+      "url": "https://www.youtube.com/watch?v=bqbTMZzlMWw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Az 900 Full Course | Microsoft Azure Fundamentals Full Course in Hindi | ICNT Gyan - Complete guide by Icnt Gyan.",
+      "year": 2024
+    },
+    {
+      "title": "AZ-900 Exam Tips: How to Pass the Azure Fundamentals Certification",
+      "creator": "ITGains",
+      "url": "https://www.youtube.com/watch?v=muRXe6RgzOo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AZ-900 Exam Tips: How to Pass the Azure Fundamentals Certification - Complete guide by ITGains.",
+      "year": 2024
+    },
+    {
+      "title": "Is AZ-900 Worth It in 2026? (Azure Fundamentals)",
+      "creator": "Cell UNderground",
+      "url": "https://www.youtube.com/watch?v=LI3N8-qLq0A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Is AZ-900 Worth It in 2026? (Azure Fundamentals) - Complete guide by Cell UNderground.",
+      "year": 2024
+    },
+    {
+      "title": "Course Introduction | AZ-104 | Episode 1",
+      "creator": "Microsoft Learn",
+      "url": "https://www.youtube.com/watch?v=6rs-oGmz3pk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Course Introduction | AZ-104 | Episode 1 - Complete guide by Microsoft Learn.",
+      "year": 2024
+    },
+    {
+      "title": "I Cracked Microsoft AZ-900 in 7 Days! #az900 #azure #cloudcomputing",
+      "creator": "Priyabrat Swain",
+      "url": "https://www.youtube.com/watch?v=pnySHdbY33Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I Cracked Microsoft AZ-900 in 7 Days! #az900 #azure #cloudcomputing - Complete guide by Priyabrat Swain.",
+      "year": 2024
+    },
+    {
+      "title": "Walk into 2026 like an absolute BOSS with these 6 FREE Certifications",
+      "creator": "codemug",
+      "url": "https://www.youtube.com/watch?v=qqSyAFNthSg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Walk into 2026 like an absolute BOSS with these 6 FREE Certifications - Complete guide by codemug.",
+      "year": 2024
+    },
+    {
+      "title": "🎓Microsoft Azure Certification Levels | How to get Microsoft Azure DevOps Certified🌐",
+      "creator": "SNIT Training",
+      "url": "https://www.youtube.com/watch?v=3D4fTsFoPMM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🎓Microsoft Azure Certification Levels | How to get Microsoft Azure DevOps Certified🌐 - Complete guide by SNIT Training.",
+      "year": 2024
+    },
+    {
+      "title": "Microsoft Azure CRASH COURSE For Beginners!",
+      "creator": "Vishakha Sadhwani",
+      "url": "https://www.youtube.com/watch?v=UudrAgPIoYQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Microsoft Azure CRASH COURSE For Beginners! - Complete guide by Vishakha Sadhwani.",
+      "year": 2024
+    },
+    {
+      "title": "Azure Fundamentals AZ-900 compute quiz: can you get all 5?",
+      "creator": "AlgoPlaybookStudio",
+      "url": "https://www.youtube.com/watch?v=ktTrXIJAORo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Azure Fundamentals AZ-900 compute quiz: can you get all 5? - Complete guide by AlgoPlaybookStudio.",
+      "year": 2024
+    },
+    {
+      "title": "Microsoft Azure Fundamentals AZ-900 full course in one video. #mslearn",
+      "creator": "Teach Me Cloud",
+      "url": "https://www.youtube.com/watch?v=wLla_5FAGRQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Microsoft Azure Fundamentals AZ-900 full course in one video. #mslearn - Complete guide by Teach Me Cloud.",
+      "year": 2024
+    },
+    {
+      "title": "AZ-900 Certification : Master the Fundamentals in Just 2 Days #azurecertification #az900",
+      "creator": "Minaakshi",
+      "url": "https://www.youtube.com/watch?v=dxpDUQqIuys",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AZ-900 Certification : Master the Fundamentals in Just 2 Days #azurecertification #az900 - Complete guide by Minaakshi.",
+      "year": 2024
+    },
+    {
+      "title": "How I Passed the AZ-900 Exam in Just 2 Days! | Beginner's Guide to Azure Certification",
+      "creator": "PIYUSH KOTHYARI",
+      "url": "https://www.youtube.com/watch?v=JvcpPd-zxOY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "How I Passed the AZ-900 Exam in Just 2 Days! | Beginner's Guide to Azure Certification - Complete guide by PIYUSH KOTHYARI.",
+      "year": 2024
+    },
+    {
+      "title": "Microsoft Azure Certification for free with virtual training days #shorts #shortvideo #shortfeeds",
+      "creator": "CertiFied Bhavah",
+      "url": "https://www.youtube.com/watch?v=_A2MT4SeoTc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Microsoft Azure Certification for free with virtual training days #shorts #shortvideo #shortfeeds - Complete guide by CertiFied Bhavah.",
+      "year": 2024
+    },
+    {
+      "title": "AZ-900 Made Easy: Beginner’s Guide to Passing Azure Fundamentals!",
+      "creator": "Joshua Lewis",
+      "url": "https://www.youtube.com/watch?v=ZU0SNj0Pr58",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "AZ-900 Made Easy: Beginner’s Guide to Passing Azure Fundamentals! - Complete guide by Joshua Lewis.",
+      "year": 2024
+    },
+    {
+      "title": "TOP 5 TIPS FOR PASSING THE MICROSOFT AZURE AZ-900 EXAM",
+      "creator": "NayeemFilms",
+      "url": "https://www.youtube.com/watch?v=NxUi6_btDy4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "TOP 5 TIPS FOR PASSING THE MICROSOFT AZURE AZ-900 EXAM - Complete guide by NayeemFilms.",
+      "year": 2024
+    },
+    {
+      "title": "DevOps With Nana",
+      "creator": "Pedro Ivo Rodrigues",
+      "url": "https://www.youtube.com/playlist?list=PLui02m7Q7LyBZ9kOuOaMexWsjgE79x9Zj",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "DevOps With Nana - Complete guide by Pedro Ivo Rodrigues.",
+      "year": 2024
+    },
+    {
+      "title": "AZ 900 Exam Question 2024 || Azure Fundamentals Dumps 2024 || Part-6",
+      "creator": "CloudCert Mastery",
+      "url": "https://www.youtube.com/watch?v=NlMz-7oGJ8g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AZ 900 Exam Question 2024 || Azure Fundamentals Dumps 2024 || Part-6 - Complete guide by CloudCert Mastery.",
+      "year": 2024
+    },
+    {
+      "title": "🔥 Azure Free Vouchers at 50% Discount – Claim Now! #shorts",
+      "creator": "Tech by Nirbhay",
+      "url": "https://www.youtube.com/watch?v=S_qu_e1qy7s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🔥 Azure Free Vouchers at 50% Discount – Claim Now! #shorts - Complete guide by Tech by Nirbhay.",
+      "year": 2024
+    },
+    {
+      "title": "DevOps as a Career",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/playlist?list=PLy7NrYWoggjzZTuj24TwOldi1NJY4UgWa",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "DevOps as a Career - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "5 FREE Certificates That Make Your Resume Stronger 🚀 #shorts #freshers #certification #courses",
+      "creator": "Debug Your Career ",
+      "url": "https://www.youtube.com/watch?v=vOFmxDxaoEw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "5 FREE Certificates That Make Your Resume Stronger 🚀 #shorts #freshers #certification #courses - Complete guide by Debug Your Career .",
+      "year": 2024
+    },
+    {
+      "title": "Is the AZ-900 Azure Fundamentals worth it?",
+      "creator": "Caleb Oni",
+      "url": "https://www.youtube.com/watch?v=GaG0-NdhXTc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Is the AZ-900 Azure Fundamentals worth it? - Complete guide by Caleb Oni.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Tutorials - AWS tutorials For Beginners - AWS Certification - AWS Training - In Hindi",
+      "creator": "Gaurav Sharma",
+      "url": "https://www.youtube.com/playlist?list=PL6XT0grm_TfgtwtwUit305qS-HhDvb4du",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "AWS Tutorials - AWS tutorials For Beginners - AWS Certification - AWS Training - In Hindi - Complete guide by Gaurav Sharma.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Cloud Practitioner Full Course in Hindi | FREE CLF-C02 Certification Course",
+      "creator": "DevOps Molvi Hindi",
+      "url": "https://www.youtube.com/playlist?list=PL2AJH0TaK72sA5AWfqbcKzqMY1Lrfagws",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "AWS Cloud Practitioner Full Course in Hindi | FREE CLF-C02 Certification Course - Complete guide by DevOps Molvi Hindi.",
+      "year": 2024
+    },
+    {
+      "title": "'AWS Certified Cloud Practitioner Certification Course (CLF-C01) - Pass the Exam!' (freeCodeCamp.org",
+      "creator": "rousearts",
+      "url": "https://www.youtube.com/playlist?list=PLgh5ak11sUy8pwNklalQd1G6kS0I_PV4b",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "'AWS Certified Cloud Practitioner Certification Course (CLF-C01) - Pass the Exam!' (freeCodeCamp.org - Complete guide by rousearts.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Certification Training Videos | Edureka",
+      "creator": "edureka!",
+      "url": "https://www.youtube.com/playlist?list=PL9ooVrP1hQOFWxRJcGdCot7AgJu29SVV3",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "AWS Certification Training Videos | Edureka - Complete guide by edureka!.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Certified Cloud Practitioner in தமிழ்",
+      "creator": "Ganapathy Tech Tips",
+      "url": "https://www.youtube.com/playlist?list=PL3WUjOOQCEw1Bf9OD2y25g2sJV3giQSw-",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "AWS Certified Cloud Practitioner in தமிழ் - Complete guide by Ganapathy Tech Tips.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Certified Cloud Practitioner",
+      "creator": "Stephane Maarek",
+      "url": "https://www.youtube.com/playlist?list=PLt1SIbA8guuvfvUDVLpJepmbnYpOfYCIB",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "AWS Certified Cloud Practitioner - Complete guide by Stephane Maarek.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Certified Cloud Practitioner CLF02",
+      "creator": "Ahmed Elfakharany",
+      "url": "https://www.youtube.com/playlist?list=PLluZGtIpwF_B6IHB6q1pG8AJAIvpJHNIH",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "AWS Certified Cloud Practitioner CLF02 - Complete guide by Ahmed Elfakharany.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Zero to Hero - AWS Simplified",
+      "creator": "Abhishek.Veeramalla",
+      "url": "https://www.youtube.com/playlist?list=PLdpzxOOAlwvLNOxX0RfndiYSt1Le9azze",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "AWS Zero to Hero - AWS Simplified - Complete guide by Abhishek.Veeramalla.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Certified Cloud Practitioner",
+      "creator": "Hitesh Choudhary",
+      "url": "https://www.youtube.com/playlist?list=PLRAV69dS1uWSj3ltu0ym1LwWg4509PZ0N",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "AWS Certified Cloud Practitioner - Complete guide by Hitesh Choudhary.",
+      "year": 2024
+    },
+    {
+      "title": "Playwright Tutorial 2026 [FREE Full Course] 🚀 TypeScript & JavaScript | Complete Framework Setup From Scratch",
+      "creator": "WishInfinite",
+      "url": "https://www.youtube.com/playlist?list=PL83cimSRP5ZmwhC6u255huRwSi9tlP-nc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Playwright Tutorial 2026 [FREE Full Course] 🚀 TypeScript & JavaScript | Complete Framework Setup From Scratch - Complete guide by WishInfinite.",
+      "year": 2024
+    },
+    {
+      "title": "Argo CD: Basics to Production Course",
+      "creator": "Cloud With VarJosh",
+      "url": "https://www.youtube.com/playlist?list=PLmPit9IIdzwSR-4FP65oP3AoZCKBvbwXg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Argo CD: Basics to Production Course - Complete guide by Cloud With VarJosh.",
+      "year": 2024
+    },
+    {
+      "title": "Curso de prearacion en vivo - AWS Cloud Practitioner Certified",
+      "creator": "MaxCloud",
+      "url": "https://www.youtube.com/playlist?list=PLIduQUpg2BJFw_x6DGSU3UXcA43N_rkst",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Curso de prearacion en vivo - AWS Cloud Practitioner Certified - Complete guide by MaxCloud.",
+      "year": 2024
+    },
+    {
+      "title": "Cloud Computing (Complete Course)",
+      "creator": "Gate Smashers",
+      "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiHRHVUtR-O52MsrdUSrzuy4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Cloud Computing (Complete Course) - Complete guide by Gate Smashers.",
+      "year": 2024
+    },
+    {
+      "title": "End To End Data Science Playlist- Get Prepared With Industry Ready Projects",
+      "creator": "Krish Naik",
+      "url": "https://www.youtube.com/playlist?list=PLZoTAELRMXVPS-dOaVbAux22vzqdgoGhG",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "End To End Data Science Playlist- Get Prepared With Industry Ready Projects - Complete guide by Krish Naik.",
+      "year": 2024
+    },
+    {
+      "title": "AWS Certified Cloud Practitioner (CLF-C02) | 555 Real Practice Questions [Full Course 2026]",
+      "creator": "Code Canvas",
+      "url": "https://www.youtube.com/playlist?list=PLAdinofCy1nTAjQebW-0AYVKtZKoP-QSI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "AWS Certified Cloud Practitioner (CLF-C02) | 555 Real Practice Questions [Full Course 2026] - Complete guide by Code Canvas.",
+      "year": 2024
+    },
+    {
+      "title": "🚀 Prometheus Mastery 2025–2026 | Kubernetes Monitoring & Alerting with Real-World Labs 📊🔥#Prometheus#Prometheus2025#Monitoring#Observability#Grafana",
+      "creator": "Technical Cloud Knowledge ",
+      "url": "https://www.youtube.com/playlist?list=PL9JhaNh5QrVmiEpu2zYbIDoHi7mNJIJFt",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "🚀 Prometheus Mastery 2025–2026 | Kubernetes Monitoring & Alerting with Real-World Labs 📊🔥#Prometheus#Prometheus2025#Monitoring#Observability#Grafana - Complete guide by Technical Cloud Knowledge .",
+      "year": 2024
+    },
+    {
+      "title": "Mastering GitLab CI/CD Pipeline Fundamentals: From Basics to Advanced",
+      "creator": "DevOps with Prashant",
+      "url": "https://www.youtube.com/playlist?list=PLzpJO-82rjC6ZD0uAhP8HR9RV9xGaPbIJ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Mastering GitLab CI/CD Pipeline Fundamentals: From Basics to Advanced - Complete guide by DevOps with Prashant.",
+      "year": 2024
+    },
+    {
+      "title": "Prometheus and Grafana Tutorial | Prometheus Tutorial | Grafana Tutorial | Monitoring and Alerting with Prometheus | Kubernetes Monitoring Prometheus",
+      "creator": "DevOps Hint",
+      "url": "https://www.youtube.com/playlist?list=PLdsu0umqbb8NxUs8r8BIUe9-PhcoZyojA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Prometheus and Grafana Tutorial | Prometheus Tutorial | Grafana Tutorial | Monitoring and Alerting with Prometheus | Kubernetes Monitoring Prometheus - Complete guide by DevOps Hint.",
+      "year": 2024
+    },
+    {
+      "title": "Grafana + Prometheus Complete Monitoring Course 2026 | Beginner to Advanced | Linux, Dashboards & Alerts | The Techzeen",
+      "creator": "The Techzeen",
+      "url": "https://www.youtube.com/playlist?list=PL5OhSdfH4uDtRuHePFsVa3KFtJ4Bbj2W8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Grafana + Prometheus Complete Monitoring Course 2026 | Beginner to Advanced | Linux, Dashboards & Alerts | The Techzeen - Complete guide by The Techzeen.",
+      "year": 2024
+    },
+    {
+      "title": "Prometheus Fundamentals",
+      "creator": "Prometheus Monitoring with Julius | PromLabs",
+      "url": "https://www.youtube.com/playlist?list=PLyBW7UHmEXgylLwxdVbrBQJ-fJ_jMvh8h",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Prometheus Fundamentals - Complete guide by Prometheus Monitoring with Julius | PromLabs.",
+      "year": 2024
+    },
+    {
+      "title": "Ansible Zero to Hero",
+      "creator": "Abhishek.Veeramalla",
+      "url": "https://www.youtube.com/playlist?list=PLdpzxOOAlwvLxd5nmtmORCmhD5jkrNbuE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Ansible Zero to Hero - Complete guide by Abhishek.Veeramalla.",
+      "year": 2024
+    },
+    {
+      "title": "Getting started with Ansible",
+      "creator": "Learn Linux TV",
+      "url": "https://www.youtube.com/playlist?list=PLT98CRl2KxKEUHie1m24-wkyHpEsa4Y70",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Getting started with Ansible - Complete guide by Learn Linux TV.",
+      "year": 2024
+    },
+    {
+      "title": "Ansible Full Course 2026 🔥 Beginner to Advanced in Hindi/Urdu | Master Playbooks, Roles & AWS Automation",
+      "creator": "The Techzeen",
+      "url": "https://www.youtube.com/playlist?list=PL5OhSdfH4uDv8WQDfEKc0m03r8sy1DU_E",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Ansible Full Course 2026 🔥 Beginner to Advanced in Hindi/Urdu | Master Playbooks, Roles & AWS Automation - Complete guide by The Techzeen.",
+      "year": 2024
+    },
+    {
+      "title": "Ansible 101",
+      "creator": "Jeff Geerling",
+      "url": "https://www.youtube.com/playlist?list=PL2_OBreMn7FqZkvMYt6ATmgC0KAGGJNAN",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Ansible 101 - Complete guide by Jeff Geerling.",
+      "year": 2024
+    },
+    {
+      "title": "Ansible",
+      "creator": "Rahul Wagh",
+      "url": "https://www.youtube.com/playlist?list=PL7iMyoQPMtAPZl58ovoOlxFxNPioSx838",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Ansible - Complete guide by Rahul Wagh.",
+      "year": 2024
+    },
+    {
+      "title": "2026 Google Cloud Platform Complete Tutorials in Hindi/Urdu | GCP-Associate Cloud Engineer | GCP-PCA | GCP DevOps Tutorials | गूगल क्लाउड",
+      "creator": "Technical Guftgu",
+      "url": "https://www.youtube.com/playlist?list=PLBGx66SQNZ8YWRUw6yicKtD4AIpUl_YiJ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "2026 Google Cloud Platform Complete Tutorials in Hindi/Urdu | GCP-Associate Cloud Engineer | GCP-PCA | GCP DevOps Tutorials | गूगल क्लाउड - Complete guide by Technical Guftgu.",
+      "year": 2024
+    },
+    {
+      "title": "Google Cloud Platform (GCP) Full Course in Hindi 2025 | Level 1: The Foundation (Ongoing Series)",
+      "creator": "Implovate",
+      "url": "https://www.youtube.com/playlist?list=PLeEmpyEG3NsYeM2fdn_N2Ta6kwP6c3ZHM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Google Cloud Platform (GCP) Full Course in Hindi 2025 | Level 1: The Foundation (Ongoing Series) - Complete guide by Implovate.",
+      "year": 2024
+    },
+    {
+      "title": "Ansible Full Course for Beginners | Master Automation in 2026",
+      "creator": "Learn With Mithran",
+      "url": "https://www.youtube.com/playlist?list=PLPLf8iqkntdPSKxnZyR36-esIA_fGRWuZ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Ansible Full Course for Beginners | Master Automation in 2026 - Complete guide by Learn With Mithran.",
+      "year": 2024
+    },
+    {
+      "title": "Google Cloud Platform playlist [2027 Updated] | Google Cloud Platform Tutorials | GCP Tutorial For Beginners | Simplilearn",
+      "creator": "Simplilearn",
+      "url": "https://www.youtube.com/playlist?list=PLEiEAq2VkUUI0xT8VNpjBuWvmnLHxPcsE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Google Cloud Platform playlist [2027 Updated] | Google Cloud Platform Tutorials | GCP Tutorial For Beginners | Simplilearn - Complete guide by Simplilearn.",
+      "year": 2024
+    },
+    {
+      "title": "GCP Zero to Hero in 20 Days",
+      "creator": "Abhishek.Veeramalla",
+      "url": "https://www.youtube.com/playlist?list=PLdpzxOOAlwvL4VhhpTiIUr-i_djrXGB22",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "GCP Zero to Hero in 20 Days - Complete guide by Abhishek.Veeramalla.",
+      "year": 2024
+    },
+    {
+      "title": "Google Cloud Associate Cloud Engineer",
+      "creator": "Cloud Sprint",
+      "url": "https://www.youtube.com/playlist?list=PLXgVtmIQkys3tF8v3QJ-bQGWzk10c8roJ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Google Cloud Associate Cloud Engineer - Complete guide by Cloud Sprint.",
+      "year": 2024
+    },
+    {
+      "title": "Microsoft Azure Fundamentals (AZ-900) Full Course",
+      "creator": "Adam Marczak - Azure for Everyone",
+      "url": "https://www.youtube.com/playlist?list=PLGjZwEtPN7j-Q59JYso3L4_yoCjj2syrM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Microsoft Azure Fundamentals (AZ-900) Full Course - Complete guide by Adam Marczak - Azure for Everyone.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Google Cloud",
+      "creator": "TechTrapture",
+      "url": "https://www.youtube.com/playlist?list=PLLrA_pU9-Gz2OnBoICkewd9-Fc9Mi0nm7",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Learn Google Cloud - Complete guide by TechTrapture.",
+      "year": 2024
+    },
+    {
+      "title": "AZ-900 Azure Fundamentals Certification Course - Last Update Apr 2025",
+      "creator": "John Savill's Technical Training",
+      "url": "https://www.youtube.com/playlist?list=PLlVtbbG169nED0_vMEniWBQjSoxTsBYS3",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "AZ-900 Azure Fundamentals Certification Course - Last Update Apr 2025 - Complete guide by John Savill's Technical Training.",
+      "year": 2024
+    },
+    {
+      "title": "AZ-900: Azure Fundamentals",
+      "creator": "Microsoft Learn",
+      "url": "https://www.youtube.com/playlist?list=PLahhVEj9XNTd6H2vpsvm_kBSMsMw9EMUL",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "AZ-900: Azure Fundamentals - Complete guide by Microsoft Learn.",
+      "year": 2024
+    },
+    {
+      "title": "For AZ-900 Exam - Microsoft Certified: Azure Fundamentals",
+      "creator": "Automate with Rakesh",
+      "url": "https://www.youtube.com/playlist?list=PLhTE7-JU1rhak4RT2WSr1ZM9cQ6GxgHgg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "For AZ-900 Exam - Microsoft Certified: Azure Fundamentals - Complete guide by Automate with Rakesh.",
+      "year": 2024
+    },
+    {
+      "title": "AZ‑900 Azure Fundamentals Full Course in Hindi (2025) | Complete Microsoft Azure Training Series",
+      "creator": "JagvinderThind",
+      "url": "https://www.youtube.com/playlist?list=PLks8W396lro4RpDs-teA87oaGH6nRU5Zf",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "AZ‑900 Azure Fundamentals Full Course in Hindi (2025) | Complete Microsoft Azure Training Series - Complete guide by JagvinderThind.",
+      "year": 2024
+    },
+    {
+      "title": "AI-901: Introduction to AI in Azure",
+      "creator": "Microsoft Learn",
+      "url": "https://www.youtube.com/playlist?list=PLahhVEj9XNTfH73kzXxgQe8_hiOmH_foL",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "AI-901: Introduction to AI in Azure - Complete guide by Microsoft Learn.",
+      "year": 2024
+    },
+    {
+      "title": "AZ-104: Azure Administrator",
+      "creator": "Microsoft Learn",
+      "url": "https://www.youtube.com/playlist?list=PLahhVEj9XNTcj4dwEwRHozO3xcxI_UHYG",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "AZ-104: Azure Administrator - Complete guide by Microsoft Learn.",
+      "year": 2024
+    }
+  ],
+  "articles": [
+    {
+      "title": "Google SRE Books (Site Reliability Engineering)",
+      "url": "https://sre.google/books/"
+    },
+    {
+      "title": "AWS Well-Architected Framework",
+      "url": "https://aws.amazon.com/architecture/well-architected/"
+    },
+    {
+      "title": "Grafana Official Documentation & Dashboards",
+      "url": "https://grafana.com/docs/"
+    },
+    {
+      "title": "Microsoft Azure Architecture Center",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/"
+    },
+    {
+      "title": "The Twelve-Factor App Methodology",
+      "url": "https://12factor.net/"
+    },
+    {
+      "title": "Prometheus Monitoring System Documentation",
+      "url": "https://prometheus.io/docs/introduction/overview/"
+    },
+    {
+      "title": "Ansible Official Getting Started Guide",
+      "url": "https://docs.ansible.com/ansible/latest/getting_started/index.html"
+    },
+    {
+      "title": "Google Cloud Architecture Framework",
+      "url": "https://cloud.google.com/architecture/framework"
+    }
+  ]
+}

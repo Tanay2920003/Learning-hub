@@ -1,0 +1,3134 @@
+{
+  "name": "CS Fundamentals",
+  "slug": "cs-fundamentals",
+  "description": "Core computer science fundamentals: computer architecture, discrete mathematics, digital logic, and networking.",
+  "icon": "cs-fundamentals",
+  "playlists": [
+    {
+      "title": "The Cold War and Consumerism: Crash Course Computer Science #24",
+      "creator": "CrashCourse",
+      "url": "https://www.youtube.com/watch?v=m8i38Yq1wX4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Cold War and Consumerism: Crash Course Computer Science #24 - Complete guide by CrashCourse.",
+      "year": 2024
+    },
+    {
+      "title": "Instructions & Programs: Crash Course Computer Science #8",
+      "creator": "CrashCourse",
+      "url": "https://www.youtube.com/watch?v=zltgXvg6r3k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Instructions & Programs: Crash Course Computer Science #8 - Complete guide by CrashCourse.",
+      "year": 2024
+    },
+    {
+      "title": "Early Computing: Crash Course Computer Science #1",
+      "creator": "CrashCourse",
+      "url": "https://www.youtube.com/watch?v=O5nskjZ_GoI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Early Computing: Crash Course Computer Science #1 - Complete guide by CrashCourse.",
+      "year": 2024
+    },
+    {
+      "title": "The Singularity, Skynet, and the Future of Computing: Crash Course Computer Science #40",
+      "creator": "CrashCourse",
+      "url": "https://www.youtube.com/watch?v=5TNAz1HYg18",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Singularity, Skynet, and the Future of Computing: Crash Course Computer Science #40 - Complete guide by CrashCourse.",
+      "year": 2024
+    },
+    {
+      "title": "Psychology of Computing: Crash Course Computer Science #38",
+      "creator": "CrashCourse",
+      "url": "https://www.youtube.com/watch?v=DEHsvQ3Ylwg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Psychology of Computing: Crash Course Computer Science #38 - Complete guide by CrashCourse.",
+      "year": 2024
+    },
+    {
+      "title": "Crash Course Computer Science Preview",
+      "creator": "CrashCourse",
+      "url": "https://www.youtube.com/watch?v=tpIctyqH29Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Crash Course Computer Science Preview - Complete guide by CrashCourse.",
+      "year": 2024
+    },
+    {
+      "title": "The Computer and Turing: Crash Course History of Science #36",
+      "creator": "CrashCourse",
+      "url": "https://www.youtube.com/watch?v=3xdmEwTIsd0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Computer and Turing: Crash Course History of Science #36 - Complete guide by CrashCourse.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Vision: Crash Course Computer Science #35",
+      "creator": "CrashCourse",
+      "url": "https://www.youtube.com/watch?v=-4E2-0sxVUM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Computer Vision: Crash Course Computer Science #35 - Complete guide by CrashCourse.",
+      "year": 2024
+    },
+    {
+      "title": "Educational Technology: Crash Course Computer Science #39",
+      "creator": "CrashCourse",
+      "url": "https://www.youtube.com/watch?v=zTi3_l5h5PQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Educational Technology: Crash Course Computer Science #39 - Complete guide by CrashCourse.",
+      "year": 2024
+    },
+    {
+      "title": "The First Programming Languages: Crash Course Computer Science #11",
+      "creator": "CrashCourse",
+      "url": "https://www.youtube.com/watch?v=RU1u-js7db8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The First Programming Languages: Crash Course Computer Science #11 - Complete guide by CrashCourse.",
+      "year": 2024
+    },
+    {
+      "title": "Representing Numbers and Letters with Binary: Crash Course Computer Science #4",
+      "creator": "CrashCourse",
+      "url": "https://www.youtube.com/watch?v=1GSjbWt0c9M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Representing Numbers and Letters with Binary: Crash Course Computer Science #4 - Complete guide by CrashCourse.",
+      "year": 2024
+    },
+    {
+      "title": "Early Programming: Crash Course Computer Science #10",
+      "creator": "CrashCourse",
+      "url": "https://www.youtube.com/watch?v=nwDq4adJwzM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Early Programming: Crash Course Computer Science #10 - Complete guide by CrashCourse.",
+      "year": 2024
+    },
+    {
+      "title": "Programming Basics: Statements & Functions: Crash Course Computer Science #12",
+      "creator": "CrashCourse",
+      "url": "https://www.youtube.com/watch?v=l26oaHV7D40",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Programming Basics: Statements & Functions: Crash Course Computer Science #12 - Complete guide by CrashCourse.",
+      "year": 2024
+    },
+    {
+      "title": "Electronic Computing: Crash Course Computer Science #2",
+      "creator": "CrashCourse",
+      "url": "https://www.youtube.com/watch?v=LN0ucKNX0hc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Electronic Computing: Crash Course Computer Science #2 - Complete guide by CrashCourse.",
+      "year": 2024
+    },
+    {
+      "title": "How Computers Calculate - the ALU: Crash Course Computer Science #5",
+      "creator": "CrashCourse",
+      "url": "https://www.youtube.com/watch?v=1I5ZMmrOfnA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Computers Calculate - the ALU: Crash Course Computer Science #5 - Complete guide by CrashCourse.",
+      "year": 2024
+    },
+    {
+      "title": "O-Level/IGCSE & A-Level Computer Science crash course 2026!",
+      "creator": "ZAINEMATICS",
+      "url": "https://www.youtube.com/watch?v=CAVTwKxsCQo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "O-Level/IGCSE & A-Level Computer Science crash course 2026! - Complete guide by ZAINEMATICS.",
+      "year": 2024
+    },
+    {
+      "title": "Alan Turing: Crash Course Computer Science #15",
+      "creator": "CrashCourse",
+      "url": "https://www.youtube.com/watch?v=7TycxwFmdB0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Alan Turing: Crash Course Computer Science #15 - Complete guide by CrashCourse.",
+      "year": 2024
+    },
+    {
+      "title": "Screens & 2D Graphics: Crash Course Computer Science #23",
+      "creator": "CrashCourse",
+      "url": "https://www.youtube.com/watch?v=7Jr0SFMQ4Rs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Screens & 2D Graphics: Crash Course Computer Science #23 - Complete guide by CrashCourse.",
+      "year": 2024
+    },
+    {
+      "title": "Is Computer Science Right for You?",
+      "creator": "Gohar Khan",
+      "url": "https://www.youtube.com/watch?v=ReQdX04S00w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Is Computer Science Right for You? - Complete guide by Gohar Khan.",
+      "year": 2024
+    },
+    {
+      "title": "Class 12 Computer Science Marathon",
+      "creator": "NCERT Wallah",
+      "url": "https://www.youtube.com/watch?v=Yp4KNo4JZbM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Class 12 Computer Science Marathon - Complete guide by NCERT Wallah.",
+      "year": 2024
+    },
+    {
+      "title": "What 4 Years of Computer Science Looks Like",
+      "creator": "JuicedItUp",
+      "url": "https://www.youtube.com/watch?v=tXufU-5A640",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What 4 Years of Computer Science Looks Like - Complete guide by JuicedItUp.",
+      "year": 2024
+    },
+    {
+      "title": "3D Graphics: Crash Course Computer Science #27",
+      "creator": "CrashCourse",
+      "url": "https://www.youtube.com/watch?v=TEAtmCYYKZA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "3D Graphics: Crash Course Computer Science #27 - Complete guide by CrashCourse.",
+      "year": 2024
+    },
+    {
+      "title": "💡UGC NET Computer Science – Strengthen Your Concepts with Our Crash Course!",
+      "creator": "Computerscience.Professoracademy",
+      "url": "https://www.youtube.com/watch?v=Lr2W2h4kkNw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "💡UGC NET Computer Science – Strengthen Your Concepts with Our Crash Course! - Complete guide by Computerscience.Professoracademy.",
+      "year": 2024
+    },
+    {
+      "title": "Did Your Computer Science Journey Go From Easy to Difficult Too? 😂💀",
+      "creator": "Vaishnavi Kurmi",
+      "url": "https://www.youtube.com/watch?v=5sHjNxHRcfk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Did Your Computer Science Journey Go From Easy to Difficult Too? 😂💀 - Complete guide by Vaishnavi Kurmi.",
+      "year": 2024
+    },
+    {
+      "title": "The Progression of a Computer Science Major",
+      "creator": "Andrew McKenna",
+      "url": "https://www.youtube.com/watch?v=KGUZNLw_2bk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Progression of a Computer Science Major - Complete guide by Andrew McKenna.",
+      "year": 2024
+    },
+    {
+      "title": "1st VS 4th Year of Computer Science",
+      "creator": "JuicedItUp",
+      "url": "https://www.youtube.com/watch?v=UovePMvwhvs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1st VS 4th Year of Computer Science - Complete guide by JuicedItUp.",
+      "year": 2024
+    },
+    {
+      "title": "How HARD Every Computer Science Course Is",
+      "creator": "JuicedItUp",
+      "url": "https://www.youtube.com/watch?v=yX57IcH12NQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How HARD Every Computer Science Course Is - Complete guide by JuicedItUp.",
+      "year": 2024
+    },
+    {
+      "title": "The Personal Computer Revolution: Crash Course Computer Science #25",
+      "creator": "CrashCourse",
+      "url": "https://www.youtube.com/watch?v=M5BZou6C01w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Personal Computer Revolution: Crash Course Computer Science #25 - Complete guide by CrashCourse.",
+      "year": 2024
+    },
+    {
+      "title": "MCSA Crash Course Live Marathon | Super Sunday 10:00 AM | Windows Server & Active Directory | ICNT",
+      "creator": "Icnt Gyan",
+      "url": "https://www.youtube.com/watch?v=uES3_Vxb-tM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MCSA Crash Course Live Marathon | Super Sunday 10:00 AM | Windows Server & Active Directory | ICNT - Complete guide by Icnt Gyan.",
+      "year": 2024
+    },
+    {
+      "title": "😱 Is Computer Science Dying? #jee #computerscience #softwareengineer #jee2026 #iit #shorts",
+      "creator": "Vedantu JEE Made Ejee",
+      "url": "https://www.youtube.com/watch?v=tsHnDhYBsNA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "😱 Is Computer Science Dying? #jee #computerscience #softwareengineer #jee2026 #iit #shorts - Complete guide by Vedantu JEE Made Ejee.",
+      "year": 2024
+    },
+    {
+      "title": "UGC NET Computer Science 🔥 Paper 1 + Paper 2 Crash Course",
+      "creator": "Professor Academy",
+      "url": "https://www.youtube.com/watch?v=SrihFxSuXyQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "UGC NET Computer Science 🔥 Paper 1 + Paper 2 Crash Course - Complete guide by Professor Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Why You Should VS Shouldn’t Major in Computer Science",
+      "creator": "JuicedItUp",
+      "url": "https://www.youtube.com/watch?v=Eep9lYh45ok",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why You Should VS Shouldn’t Major in Computer Science - Complete guide by JuicedItUp.",
+      "year": 2024
+    },
+    {
+      "title": "GATE CS Is Not Computer Science | It's Common Sense 🙄 #PW #GATE",
+      "creator": "GATE Wallah CSE & DA",
+      "url": "https://www.youtube.com/watch?v=0ob_0vDBcgw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GATE CS Is Not Computer Science | It's Common Sense 🙄 #PW #GATE - Complete guide by GATE Wallah CSE & DA.",
+      "year": 2024
+    },
+    {
+      "title": "3 Reasons why you should study computer science 👨🏻‍💻 #computerscience #coding #softwareengineer",
+      "creator": "Kira | AI for Education",
+      "url": "https://www.youtube.com/watch?v=Rwt8uFyITw4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "3 Reasons why you should study computer science 👨🏻‍💻 #computerscience #coding #softwareengineer - Complete guide by Kira | AI for Education.",
+      "year": 2024
+    },
+    {
+      "title": "Free Crash Course-Computer Science #ugcnetcomputerscience #gatecomputerscience #freecourse",
+      "creator": "Unify Study",
+      "url": "https://www.youtube.com/watch?v=Ylr6pViOPns",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Free Crash Course-Computer Science #ugcnetcomputerscience #gatecomputerscience #freecourse - Complete guide by Unify Study.",
+      "year": 2024
+    },
+    {
+      "title": "COMPUTER SCIENCE VS ENGINEERING 😤🤓👨‍💻",
+      "creator": "Sajjaad Khader",
+      "url": "https://www.youtube.com/watch?v=FWdMMGlQLdw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "COMPUTER SCIENCE VS ENGINEERING 😤🤓👨‍💻 - Complete guide by Sajjaad Khader.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Science Explained Simply",
+      "creator": "Coursera",
+      "url": "https://www.youtube.com/watch?v=-dEGwnZJJV8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Computer Science Explained Simply - Complete guide by Coursera.",
+      "year": 2024
+    },
+    {
+      "title": "The HARDEST Computer Engineering Courses",
+      "creator": "JuicedItUp",
+      "url": "https://www.youtube.com/watch?v=_pR679F8x78",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The HARDEST Computer Engineering Courses - Complete guide by JuicedItUp.",
+      "year": 2024
+    },
+    {
+      "title": "What Is Computer Science? (More Than Just Coding)",
+      "creator": "Mr. Phearun",
+      "url": "https://www.youtube.com/watch?v=Vu6XEivO5v8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What Is Computer Science? (More Than Just Coding) - Complete guide by Mr. Phearun.",
+      "year": 2024
+    },
+    {
+      "title": "The 2 hardest things in computer science",
+      "creator": "Merge Conflict",
+      "url": "https://www.youtube.com/watch?v=7KCgx8HAkHk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The 2 hardest things in computer science - Complete guide by Merge Conflict.",
+      "year": 2024
+    },
+    {
+      "title": "CS50: Harvard’s Introduction to Computer Science #shorts @codingthirst",
+      "creator": "Coding Thirst",
+      "url": "https://www.youtube.com/watch?v=MIm5eWirMOM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CS50: Harvard’s Introduction to Computer Science #shorts @codingthirst - Complete guide by Coding Thirst.",
+      "year": 2024
+    },
+    {
+      "title": "Comp Sci is COOKED 😱",
+      "creator": "Josh Drean",
+      "url": "https://www.youtube.com/watch?v=o-w0IdbHxgw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Comp Sci is COOKED 😱 - Complete guide by Josh Drean.",
+      "year": 2024
+    },
+    {
+      "title": "Essential computer science concepts",
+      "creator": "Coursera",
+      "url": "https://www.youtube.com/watch?v=GQopTvKeeVk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Essential computer science concepts - Complete guide by Coursera.",
+      "year": 2024
+    },
+    {
+      "title": "Harvard CS50: Intro to Computer Science | Program Spotlight",
+      "creator": "edX",
+      "url": "https://www.youtube.com/watch?v=ib4NNsp2qW4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Harvard CS50: Intro to Computer Science | Program Spotlight - Complete guide by edX.",
+      "year": 2024
+    },
+    {
+      "title": "Learn how Professor David J. Malan realized computer science is the field for him.",
+      "creator": "CS50",
+      "url": "https://www.youtube.com/watch?v=2FoLoq7wnZ8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn how Professor David J. Malan realized computer science is the field for him. - Complete guide by CS50.",
+      "year": 2024
+    },
+    {
+      "title": "Harvard's Intro to CS - CS50 Reels #Shorts",
+      "creator": "CS50",
+      "url": "https://www.youtube.com/watch?v=rUkB5K2bsDQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Harvard's Intro to CS - CS50 Reels #Shorts - Complete guide by CS50.",
+      "year": 2024
+    },
+    {
+      "title": "Get Harvard University’s cs50 cybersecurity course for free #harvard #cybersecurity #tech #corporate",
+      "creator": "She Pretty Technical",
+      "url": "https://www.youtube.com/watch?v=WXo27XijANo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Get Harvard University’s cs50 cybersecurity course for free #harvard #cybersecurity #tech #corporate - Complete guide by She Pretty Technical.",
+      "year": 2024
+    },
+    {
+      "title": "POV - CS50 Reels #Shorts",
+      "creator": "CS50",
+      "url": "https://www.youtube.com/watch?v=hbT7vzCvEc8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "POV - CS50 Reels #Shorts - Complete guide by CS50.",
+      "year": 2024
+    },
+    {
+      "title": "HELLO, WORLD! | CS50x INTRODUCTION VIDEO | VINEET TIWARI",
+      "creator": "Vineet Tiwari",
+      "url": "https://www.youtube.com/watch?v=4O6ohg5JaX0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "HELLO, WORLD! | CS50x INTRODUCTION VIDEO | VINEET TIWARI - Complete guide by Vineet Tiwari.",
+      "year": 2024
+    },
+    {
+      "title": "Hello World! ( CS50 Intro )",
+      "creator": "Smaranjeet Singh",
+      "url": "https://www.youtube.com/watch?v=Q4aFvETJtJs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Hello World! ( CS50 Intro ) - Complete guide by Smaranjeet Singh.",
+      "year": 2024
+    },
+    {
+      "title": "CS50 Lecture 0, 1996 - CS50 #Reels",
+      "creator": "CS50",
+      "url": "https://www.youtube.com/watch?v=p-u12yZZDhI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CS50 Lecture 0, 1996 - CS50 #Reels - Complete guide by CS50.",
+      "year": 2024
+    },
+    {
+      "title": "CS50x - Lecture 1 - C",
+      "creator": "CS50",
+      "url": "https://www.youtube.com/watch?v=SlqjA04_dpk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CS50x - Lecture 1 - C - Complete guide by CS50.",
+      "year": 2024
+    },
+    {
+      "title": "An Introductory video for Harvard's CS50 course.",
+      "creator": "Vedant K",
+      "url": "https://www.youtube.com/watch?v=aSSZE39AZMQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "An Introductory video for Harvard's CS50 course. - Complete guide by Vedant K.",
+      "year": 2024
+    },
+    {
+      "title": "You can take Harvard's Intro to Computer Science course (CS50) for free",
+      "creator": "Linda Vivah",
+      "url": "https://www.youtube.com/watch?v=f0_xnGxgAUc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "You can take Harvard's Intro to Computer Science course (CS50) for free - Complete guide by Linda Vivah.",
+      "year": 2024
+    },
+    {
+      "title": "Harvard 2021 CS50 Introduction to Computer Science - Lecture 0/Week 0 (Full Course)",
+      "creator": "Tech Upskill",
+      "url": "https://www.youtube.com/watch?v=-H6QKUhObx0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Harvard 2021 CS50 Introduction to Computer Science - Lecture 0/Week 0 (Full Course) - Complete guide by Tech Upskill.",
+      "year": 2024
+    },
+    {
+      "title": "Harvard 2021 CS50 Introduction to Computer Science   Lecture 5/Week 5 (Full Course)",
+      "creator": "Tech Upskill",
+      "url": "https://www.youtube.com/watch?v=mQXZquDMsMk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Harvard 2021 CS50 Introduction to Computer Science   Lecture 5/Week 5 (Full Course) - Complete guide by Tech Upskill.",
+      "year": 2024
+    },
+    {
+      "title": "I'm Preparing for Harvard's CS50 in 40 Days (Join Me) #shorts #cs50 #40daychallenge",
+      "creator": "Evan's Journey ",
+      "url": "https://www.youtube.com/watch?v=12gMb1T2oUQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I'm Preparing for Harvard's CS50 in 40 Days (Join Me) #shorts #cs50 #40daychallenge - Complete guide by Evan's Journey .",
+      "year": 2024
+    },
+    {
+      "title": "CS50: Intro to Computer Science | HarvardX on edX | About Video",
+      "creator": "edX",
+      "url": "https://www.youtube.com/watch?v=FsYdgKO4AQU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CS50: Intro to Computer Science | HarvardX on edX | About Video - Complete guide by edX.",
+      "year": 2024
+    },
+    {
+      "title": "CS50 / Week 0: Wednesday",
+      "creator": "Harvard University",
+      "url": "https://www.youtube.com/watch?v=FWLeB436j1o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CS50 / Week 0: Wednesday - Complete guide by Harvard University.",
+      "year": 2024
+    },
+    {
+      "title": "CS50x 2025 - Lecture 1 - C",
+      "creator": "CS50",
+      "url": "https://www.youtube.com/watch?v=89cbCbWrM4U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CS50x 2025 - Lecture 1 - C - Complete guide by CS50.",
+      "year": 2024
+    },
+    {
+      "title": "Harvard 2021 CS50 Introduction to Computer Science   Lecture 6/Week 6 (Full Course)",
+      "creator": "Tech Upskill",
+      "url": "https://www.youtube.com/watch?v=C1LPT1_MIOo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Harvard 2021 CS50 Introduction to Computer Science   Lecture 6/Week 6 (Full Course) - Complete guide by Tech Upskill.",
+      "year": 2024
+    },
+    {
+      "title": "CS50's Introduction to Computer Science - Week 0 | HarvardX",
+      "creator": "Entermuse",
+      "url": "https://www.youtube.com/watch?v=KsLfuZcNBeo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CS50's Introduction to Computer Science - Week 0 | HarvardX - Complete guide by Entermuse.",
+      "year": 2024
+    },
+    {
+      "title": "CS50x 2024 - Lecture 0 - Scratch",
+      "creator": "CS50",
+      "url": "https://www.youtube.com/watch?v=3LPJfIKxwWc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CS50x 2024 - Lecture 0 - Scratch - Complete guide by CS50.",
+      "year": 2024
+    },
+    {
+      "title": "Network Devices - Hosts, IP Addresses, Networks - Networking Fundamentals - Lesson 1a",
+      "creator": "Practical Networking",
+      "url": "https://www.youtube.com/watch?v=bj-Yfakjllc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Network Devices - Hosts, IP Addresses, Networks - Networking Fundamentals - Lesson 1a - Complete guide by Practical Networking.",
+      "year": 2024
+    },
+    {
+      "title": "Networks: What is a network?",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=ANHx2jnaLf8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Networks: What is a network? - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Networks: An example of a Network",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=f-IGT7h_sWQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Networks: An example of a Network - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Networking Course - Network Engineering [CompTIA Network+ Exam Prep]",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=qiQR5rTSshw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Computer Networking Course - Network Engineering [CompTIA Network+ Exam Prep] - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Harvard 2021 CS50 Introduction to Computer Science   Lecture 9/Week 9 (Full Course)",
+      "creator": "Tech Upskill",
+      "url": "https://www.youtube.com/watch?v=5QHDMtCN098",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Harvard 2021 CS50 Introduction to Computer Science   Lecture 9/Week 9 (Full Course) - Complete guide by Tech Upskill.",
+      "year": 2024
+    },
+    {
+      "title": "Hub, Bridge, Switch, Router - Network Devices - Networking Fundamentals - Lesson 1b",
+      "creator": "Practical Networking",
+      "url": "https://www.youtube.com/watch?v=H7-NR3Q3BeI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Hub, Bridge, Switch, Router - Network Devices - Networking Fundamentals - Lesson 1b - Complete guide by Practical Networking.",
+      "year": 2024
+    },
+    {
+      "title": "CS50x 2023 - Lecture 0 - Scratch",
+      "creator": "CS50",
+      "url": "https://www.youtube.com/watch?v=IDDmrzzB14M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CS50x 2023 - Lecture 0 - Scratch - Complete guide by CS50.",
+      "year": 2024
+    },
+    {
+      "title": "Free Crash Course for GCSE Business and Computer Science!",
+      "creator": "Daniyaal Anawar",
+      "url": "https://www.youtube.com/watch?v=benLHba9uzw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Free Crash Course for GCSE Business and Computer Science! - Complete guide by Daniyaal Anawar.",
+      "year": 2024
+    },
+    {
+      "title": "Everything Routers do - Part 1 - Networking Fundamentals - Lesson 5",
+      "creator": "Practical Networking",
+      "url": "https://www.youtube.com/watch?v=AzXys5kxpAM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Everything Routers do - Part 1 - Networking Fundamentals - Lesson 5 - Complete guide by Practical Networking.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Networking Full Course - Internet Explained Step by Step (Real-Life Examples)",
+      "creator": "Sheryians Coding School",
+      "url": "https://www.youtube.com/watch?v=RY32wSQDekE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Computer Networking Full Course - Internet Explained Step by Step (Real-Life Examples) - Complete guide by Sheryians Coding School.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Computer Networks",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/watch?v=VwN91x5i25g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to Computer Networks - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Complete CN Computer Networks in one shot | Semester Exam | Hindi",
+      "creator": "KnowledgeGATE by Sanchit Sir",
+      "url": "https://www.youtube.com/watch?v=q3Z3Qa1UNBA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete CN Computer Networks in one shot | Semester Exam | Hindi - Complete guide by KnowledgeGATE by Sanchit Sir.",
+      "year": 2024
+    },
+    {
+      "title": "LAN, MAN, CAN, WAN, PAN Explained - Network Basics for Beginners | Hindi Tutorials",
+      "creator": "Shesh Chauhan IT Trainer",
+      "url": "https://www.youtube.com/watch?v=n3lcia85tSU",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "LAN, MAN, CAN, WAN, PAN Explained - Network Basics for Beginners | Hindi Tutorials - Complete guide by Shesh Chauhan IT Trainer.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Computer Networks - Learn the Basics Fast! [Full Course in Hindi]",
+      "creator": "Shesh Chauhan IT Trainer",
+      "url": "https://www.youtube.com/watch?v=jExP6TBZUOk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to Computer Networks - Learn the Basics Fast! [Full Course in Hindi] - Complete guide by Shesh Chauhan IT Trainer.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Networks - Basic Characteristics",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/watch?v=m8eNwVel5xI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Computer Networks - Basic Characteristics - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Networks | CN in one shot | Complete GATE Course | Hindi #withsanchitsir",
+      "creator": "KnowledgeGATE by Sanchit Sir",
+      "url": "https://www.youtube.com/watch?v=APVCgkqWcQ4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Computer Networks | CN in one shot | Complete GATE Course | Hindi #withsanchitsir - Complete guide by KnowledgeGATE by Sanchit Sir.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Networking in 100 Seconds",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=keeqnciDVOo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Computer Networking in 100 Seconds - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Networking Full Course - OSI Model Deep Dive with Real Life Examples",
+      "creator": "Kunal Kushwaha",
+      "url": "https://www.youtube.com/watch?v=IPvYjXCsTg8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Computer Networking Full Course - OSI Model Deep Dive with Real Life Examples - Complete guide by Kunal Kushwaha.",
+      "year": 2024
+    },
+    {
+      "title": "Networking is about giving, not taking",
+      "creator": "freeCodeCamp Shorts",
+      "url": "https://www.youtube.com/watch?v=vlvFztVVVjY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Networking is about giving, not taking - Complete guide by freeCodeCamp Shorts.",
+      "year": 2024
+    },
+    {
+      "title": "Why you should prioritize networking if you're in tech",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=9tyZL5KIiGU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why you should prioritize networking if you're in tech - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Networking Study with Freecodecamp💯🥂🥂",
+      "creator": "Tori Spade  WTD",
+      "url": "https://www.youtube.com/watch?v=Vm6hiZfW3tw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Computer Networking Study with Freecodecamp💯🥂🥂 - Complete guide by Tori Spade  WTD.",
+      "year": 2024
+    },
+    {
+      "title": "Lec-1: Computer Networks and Security Full Syllabus for GATE, UGC NET,DSSSB,NIELIT & University exam",
+      "creator": "Gate Smashers",
+      "url": "https://www.youtube.com/watch?v=JFF2vJaN0Cw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lec-1: Computer Networks and Security Full Syllabus for GATE, UGC NET,DSSSB,NIELIT & University exam - Complete guide by Gate Smashers.",
+      "year": 2024
+    },
+    {
+      "title": "Lec-2: Introduction to Computer Network | OSI MODEL in easiest Way in Hindi | Need of OSI model",
+      "creator": "Gate Smashers",
+      "url": "https://www.youtube.com/watch?v=4D55Cmj2t-A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lec-2: Introduction to Computer Network | OSI MODEL in easiest Way in Hindi | Need of OSI model - Complete guide by Gate Smashers.",
+      "year": 2024
+    },
+    {
+      "title": "You Will Never Struggle With Computer Networking Again 🌐  #coding #python #programming #tech",
+      "creator": "Volkan Erdogan",
+      "url": "https://www.youtube.com/watch?v=QJLWSSfsG78",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "You Will Never Struggle With Computer Networking Again 🌐  #coding #python #programming #tech - Complete guide by Volkan Erdogan.",
+      "year": 2024
+    },
+    {
+      "title": "✅Top 3 Free certification courses by CISCO #CISCOcertification #NetworkingSkills #techtraining",
+      "creator": "Kavitha - Career advisor ",
+      "url": "https://www.youtube.com/watch?v=4dAXdTg9sJc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "✅Top 3 Free certification courses by CISCO #CISCOcertification #NetworkingSkills #techtraining - Complete guide by Kavitha - Career advisor .",
+      "year": 2024
+    },
+    {
+      "title": "You Can Learn Networking FOR FREE 🤯",
+      "creator": "David Bombal",
+      "url": "https://www.youtube.com/watch?v=tBGnpUIXF1U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "You Can Learn Networking FOR FREE 🤯 - Complete guide by David Bombal.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Networking Study with Freecodecamp💯🥂🥂",
+      "creator": "Tori Spade  WTD",
+      "url": "https://www.youtube.com/watch?v=Wu-GNKgFTWY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Computer Networking Study with Freecodecamp💯🥂🥂 - Complete guide by Tori Spade  WTD.",
+      "year": 2024
+    },
+    {
+      "title": "Best series on computer network",
+      "creator": "Chai aur Code",
+      "url": "https://www.youtube.com/watch?v=V4oOJS-BpVE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Best series on computer network - Complete guide by Chai aur Code.",
+      "year": 2024
+    },
+    {
+      "title": "Best resources to study networking #devops #cloud #onthisday",
+      "creator": "Aman Singh Rana",
+      "url": "https://www.youtube.com/watch?v=vNdVwsLqgdQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Best resources to study networking #devops #cloud #onthisday - Complete guide by Aman Singh Rana.",
+      "year": 2024
+    },
+    {
+      "title": "Networking Components Knowledge",
+      "creator": "Aware Tv हिन्दी",
+      "url": "https://www.youtube.com/watch?v=LQOQR8-R4cI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Networking Components Knowledge - Complete guide by Aware Tv हिन्दी.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Networking Study with Freecodecmp💯🔥🔥",
+      "creator": "Tori Spade  WTD",
+      "url": "https://www.youtube.com/watch?v=4JFk6I5-YI0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Computer Networking Study with Freecodecmp💯🔥🔥 - Complete guide by Tori Spade  WTD.",
+      "year": 2024
+    },
+    {
+      "title": "100 Days to Become a Network Engineer! 🚀💻 | Networking Roadmap 2025",
+      "creator": "Safan Codes",
+      "url": "https://www.youtube.com/watch?v=w8qIxBZzZOc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "100 Days to Become a Network Engineer! 🚀💻 | Networking Roadmap 2025 - Complete guide by Safan Codes.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Networking Basics Explained 🌐 | PAN, LAN, MAN, WAN & OSI Model #Shorts",
+      "creator": "Tech Shortcut",
+      "url": "https://www.youtube.com/watch?v=yBkv7GpvKYc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Computer Networking Basics Explained 🌐 | PAN, LAN, MAN, WAN & OSI Model #Shorts - Complete guide by Tech Shortcut.",
+      "year": 2024
+    },
+    {
+      "title": "Everything you need to know about networking fundamentals from @TheBeardedITDad.",
+      "creator": "Coursera",
+      "url": "https://www.youtube.com/watch?v=jzEonXXa-rA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Everything you need to know about networking fundamentals from @TheBeardedITDad. - Complete guide by Coursera.",
+      "year": 2024
+    },
+    {
+      "title": "Network Security Course | lern free network Security Course # network #security #cryptocurrency",
+      "creator": "Shotkey Things",
+      "url": "https://www.youtube.com/watch?v=ItQ0Akjgdqc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Network Security Course | lern free network Security Course # network #security #cryptocurrency - Complete guide by Shotkey Things.",
+      "year": 2024
+    },
+    {
+      "title": "Top 5 Free Platforms to Master Programming! 💻🚀 #hardwaresoftwarenetworking",
+      "creator": "Hardwaresoftwarenetworking",
+      "url": "https://www.youtube.com/watch?v=GLeKKIII9d8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top 5 Free Platforms to Master Programming! 💻🚀 #hardwaresoftwarenetworking - Complete guide by Hardwaresoftwarenetworking.",
+      "year": 2024
+    },
+    {
+      "title": "Basics of Networking Devices | Server, Hub, Switch, Router, Bridge Explained | IT Adda",
+      "creator": "IT Adda",
+      "url": "https://www.youtube.com/watch?v=P4PM_L65PK0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Basics of Networking Devices | Server, Hub, Switch, Router, Bridge Explained | IT Adda - Complete guide by IT Adda.",
+      "year": 2024
+    },
+    {
+      "title": "5 Free Websites to Learn Networking",
+      "creator": "Cyberwithjohann",
+      "url": "https://www.youtube.com/watch?v=Rr_gwgkA7LM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "5 Free Websites to Learn Networking - Complete guide by Cyberwithjohann.",
+      "year": 2024
+    },
+    {
+      "title": "Don't just network at tech meetups",
+      "creator": "freeCodeCamp Shorts",
+      "url": "https://www.youtube.com/watch?v=FX3d_kTduCg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Don't just network at tech meetups - Complete guide by freeCodeCamp Shorts.",
+      "year": 2024
+    },
+    {
+      "title": "Intro to Discrete Math - Welcome to the Course!",
+      "creator": "Dr. Trefor Bazett",
+      "url": "https://www.youtube.com/watch?v=rdXw7Ps9vxc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Intro to Discrete Math - Welcome to the Course! - Complete guide by Dr. Trefor Bazett.",
+      "year": 2024
+    },
+    {
+      "title": "Intro - Discrete Mathematics - IIITB",
+      "creator": "NPTEL - Indian Institute of Science, Bengaluru",
+      "url": "https://www.youtube.com/watch?v=lJ98odiHWso",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Intro - Discrete Mathematics - IIITB - Complete guide by NPTEL - Indian Institute of Science, Bengaluru.",
+      "year": 2024
+    },
+    {
+      "title": "Discrete Mathematics Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=G9JxuWk7BDA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Discrete Mathematics Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Discrete Mathematics",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/watch?v=p2b2Vb-cYCs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to Discrete Mathematics - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "DISCRETE MATHEMATICS | MATHEMATICS | SET THEORY |Types of Set|Cardinality of Set| PRADEEP GIRI SIR",
+      "creator": "Pradeep Giri Academy",
+      "url": "https://www.youtube.com/watch?v=iZ3g7JdSjbw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DISCRETE MATHEMATICS | MATHEMATICS | SET THEORY |Types of Set|Cardinality of Set| PRADEEP GIRI SIR - Complete guide by Pradeep Giri Academy.",
+      "year": 2024
+    },
+    {
+      "title": "lec01 Introduction to Mathematical Logic",
+      "creator": "NPTEL - Indian Institute of Science, Bengaluru",
+      "url": "https://www.youtube.com/watch?v=sPQ3ptUMltA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "lec01 Introduction to Mathematical Logic - Complete guide by NPTEL - Indian Institute of Science, Bengaluru.",
+      "year": 2024
+    },
+    {
+      "title": "Intro to Sets | Examples, Notation & Properties",
+      "creator": "Dr. Trefor Bazett",
+      "url": "https://www.youtube.com/watch?v=B1v2-nGXNzs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Intro to Sets | Examples, Notation & Properties - Complete guide by Dr. Trefor Bazett.",
+      "year": 2024
+    },
+    {
+      "title": "DISCRETE MATHEMATICS | MATHEMATICS | SET THEORY |Venn diagram and Multi Set | PRADEEP GIRI SIR",
+      "creator": "Pradeep Giri Academy",
+      "url": "https://www.youtube.com/watch?v=uVAo7-4VKh4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DISCRETE MATHEMATICS | MATHEMATICS | SET THEORY |Venn diagram and Multi Set | PRADEEP GIRI SIR - Complete guide by Pradeep Giri Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Motivation & Introduction to Propositional Logic",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/watch?v=IZpvlR5J7FQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Motivation & Introduction to Propositional Logic - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Discrete math cooked me 😭",
+      "creator": "Sajjaad Khader",
+      "url": "https://www.youtube.com/watch?v=sizJKagCWT8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Discrete math cooked me 😭 - Complete guide by Sajjaad Khader.",
+      "year": 2024
+    },
+    {
+      "title": "only good thing about discrete math 💀 #shorts",
+      "creator": "Roshan Bharadwaj",
+      "url": "https://www.youtube.com/watch?v=h5MErFsAMxI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "only good thing about discrete math 💀 #shorts - Complete guide by Roshan Bharadwaj.",
+      "year": 2024
+    },
+    {
+      "title": "🚀 DISCRETE MATHEMATICS COMPLETE COURSE | FREE for GATE CSIT and other Competitive Exams",
+      "creator": "Arpit Yadav ",
+      "url": "https://www.youtube.com/watch?v=Yx_2WNZYLdw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🚀 DISCRETE MATHEMATICS COMPLETE COURSE | FREE for GATE CSIT and other Competitive Exams - Complete guide by Arpit Yadav .",
+      "year": 2024
+    },
+    {
+      "title": "Introductory Discrete Mathematics",
+      "creator": "The Math Sorcerer",
+      "url": "https://www.youtube.com/watch?v=czTF5lKEk_4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introductory Discrete Mathematics - Complete guide by The Math Sorcerer.",
+      "year": 2024
+    },
+    {
+      "title": "Propositions, Negations, Conjunctions and Disjunctions (1.1.1)",
+      "creator": "SawFin Mathematics",
+      "url": "https://www.youtube.com/watch?v=A3Ffwsnad0k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Propositions, Negations, Conjunctions and Disjunctions (1.1.1) - Complete guide by SawFin Mathematics.",
+      "year": 2024
+    },
+    {
+      "title": "🔥Launching: Discrete Mathematics for GATE 2026 | Zero to Hero Full Course | Sridhar Sir",
+      "creator": "Unacademy GATE CSIT & DA",
+      "url": "https://www.youtube.com/watch?v=GS-89oKRUyk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🔥Launching: Discrete Mathematics for GATE 2026 | Zero to Hero Full Course | Sridhar Sir - Complete guide by Unacademy GATE CSIT & DA.",
+      "year": 2024
+    },
+    {
+      "title": "Discrete Mathematics Book for Beginners!",
+      "creator": "The Math Sorcerer",
+      "url": "https://www.youtube.com/watch?v=DDgJY8p4Wws",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Discrete Mathematics Book for Beginners! - Complete guide by The Math Sorcerer.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 1 - Propositional Logic",
+      "creator": "nptelhrd",
+      "url": "https://www.youtube.com/watch?v=xlUFkMKSB3Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 1 - Propositional Logic - Complete guide by nptelhrd.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 2 - Propositional Logic (Contd.)",
+      "creator": "nptelhrd",
+      "url": "https://www.youtube.com/watch?v=0uTE24o3q-o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 2 - Propositional Logic (Contd.) - Complete guide by nptelhrd.",
+      "year": 2024
+    },
+    {
+      "title": "Implications Converse, Inverse, Contrapositive, and Biconditionals (1.1.2)",
+      "creator": "SawFin Mathematics",
+      "url": "https://www.youtube.com/watch?v=rAxXcX_w5fE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Implications Converse, Inverse, Contrapositive, and Biconditionals (1.1.2) - Complete guide by SawFin Mathematics.",
+      "year": 2024
+    },
+    {
+      "title": "Math in Software engineering",
+      "creator": "Jason Goodison",
+      "url": "https://www.youtube.com/watch?v=4DcwMX15s48",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Math in Software engineering - Complete guide by Jason Goodison.",
+      "year": 2024
+    },
+    {
+      "title": "Discrete Math, Animated: The Trailer | Math in Motion #shorts",
+      "creator": "Math in Motion with Pervez",
+      "url": "https://www.youtube.com/watch?v=LF5AbkWG2b0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Discrete Math, Animated: The Trailer | Math in Motion #shorts - Complete guide by Math in Motion with Pervez.",
+      "year": 2024
+    },
+    {
+      "title": "Discrete Math Book by Famous Indian Mathematician #shorts",
+      "creator": "The Math Sorcerer",
+      "url": "https://www.youtube.com/watch?v=VEa1-SP7yQ8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Discrete Math Book by Famous Indian Mathematician #shorts - Complete guide by The Math Sorcerer.",
+      "year": 2024
+    },
+    {
+      "title": "Discrete Mathematics all topics",
+      "creator": "mrscracker",
+      "url": "https://www.youtube.com/watch?v=nzyis0qnXsQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Discrete Mathematics all topics - Complete guide by mrscracker.",
+      "year": 2024
+    },
+    {
+      "title": "TOP 5 DISCRETE MATH BOOKS",
+      "creator": "Mike the Coder",
+      "url": "https://www.youtube.com/watch?v=woi8HsA-3-0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "TOP 5 DISCRETE MATH BOOKS - Complete guide by Mike the Coder.",
+      "year": 2024
+    },
+    {
+      "title": "👉🏼JNTUH B.Tech CSE 2-1 R25 Discrete Mathematics Important Problems | All 5 Units | 2026👍🏼#viralvideo",
+      "creator": "Aravind telugu talks",
+      "url": "https://www.youtube.com/watch?v=9r0NPqSF7zM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "👉🏼JNTUH B.Tech CSE 2-1 R25 Discrete Mathematics Important Problems | All 5 Units | 2026👍🏼#viralvideo - Complete guide by Aravind telugu talks.",
+      "year": 2024
+    },
+    {
+      "title": "Studying Discrete Mathematics",
+      "creator": "IOPTT",
+      "url": "https://www.youtube.com/watch?v=LXOx_cddJtM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Studying Discrete Mathematics - Complete guide by IOPTT.",
+      "year": 2024
+    },
+    {
+      "title": "Heres how I prep for my Discrete Math final! #discretemath #computerscience #compscilib #studytok",
+      "creator": "CompSciLib",
+      "url": "https://www.youtube.com/watch?v=y0tKPue-fUM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Heres how I prep for my Discrete Math final! #discretemath #computerscience #compscilib #studytok - Complete guide by CompSciLib.",
+      "year": 2024
+    },
+    {
+      "title": "Short definition of discrete math,and what is logic in math.",
+      "creator": "Learn with Waris ",
+      "url": "https://www.youtube.com/watch?v=E_nZeKlnWrU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Short definition of discrete math,and what is logic in math. - Complete guide by Learn with Waris .",
+      "year": 2024
+    },
+    {
+      "title": "💡 Algebraic Structure in DMMFCS Discrete Mathematics | Part 2 #Shorts",
+      "creator": "Rama Reddy Maths Academy",
+      "url": "https://www.youtube.com/watch?v=4_6BujAt7RY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "💡 Algebraic Structure in DMMFCS Discrete Mathematics | Part 2 #Shorts - Complete guide by Rama Reddy Maths Academy.",
+      "year": 2024
+    },
+    {
+      "title": "L-1.1: Introduction to Set Theory | Set, Subset, Proper Subset",
+      "creator": "Gate Smashers",
+      "url": "https://www.youtube.com/watch?v=QMutqqG7CJE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "L-1.1: Introduction to Set Theory | Set, Subset, Proper Subset - Complete guide by Gate Smashers.",
+      "year": 2024
+    },
+    {
+      "title": "Lesson 01: What is Logic Proposition and Propositional Logic",
+      "creator": "Fahad Hussain",
+      "url": "https://www.youtube.com/watch?v=PvKFBJ6ZK7A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lesson 01: What is Logic Proposition and Propositional Logic - Complete guide by Fahad Hussain.",
+      "year": 2024
+    },
+    {
+      "title": "How to check whether it is Tautology or Contradiction👍 #discretemathematics #engineeringmath #tauto",
+      "creator": "Rupali Arora",
+      "url": "https://www.youtube.com/watch?v=7mJnFjKptxY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to check whether it is Tautology or Contradiction👍 #discretemathematics #engineeringmath #tauto - Complete guide by Rupali Arora.",
+      "year": 2024
+    },
+    {
+      "title": "💡 Algebraic Structure in DMMFCS Discrete Mathematics | Part 1 #Shorts",
+      "creator": "Rama Reddy Maths Academy",
+      "url": "https://www.youtube.com/watch?v=DmVvwVM6qIY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "💡 Algebraic Structure in DMMFCS Discrete Mathematics | Part 1 #Shorts - Complete guide by Rama Reddy Maths Academy.",
+      "year": 2024
+    },
+    {
+      "title": "L-0: Discrete Mathematics Syllabus for GATE, UGC NET, PSUs & COLLEGE/UNIVERSITY Exams",
+      "creator": "Gate Smashers",
+      "url": "https://www.youtube.com/watch?v=YBb2oYIzXK0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "L-0: Discrete Mathematics Syllabus for GATE, UGC NET, PSUs & COLLEGE/UNIVERSITY Exams - Complete guide by Gate Smashers.",
+      "year": 2024
+    },
+    {
+      "title": "Discrete Mathematics 15 : Recurrence Relation | CS & IT | GATE 2026 Crash Course",
+      "creator": "GATE Wallah CSE & DA",
+      "url": "https://www.youtube.com/watch?v=JhvNvTzRAm0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Discrete Mathematics 15 : Recurrence Relation | CS & IT | GATE 2026 Crash Course - Complete guide by GATE Wallah CSE & DA.",
+      "year": 2024
+    },
+    {
+      "title": "💡 Algebraic Structure in DMMFCS Discrete Mathematics | Part 3 #Shorts",
+      "creator": "Rama Reddy Maths Academy",
+      "url": "https://www.youtube.com/watch?v=RN-SchodegQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "💡 Algebraic Structure in DMMFCS Discrete Mathematics | Part 3 #Shorts - Complete guide by Rama Reddy Maths Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Discrete Mathematics 14 | Generating Function | CS & IT | GATE 2026 Crash Course",
+      "creator": "GATE Wallah CSE & DA",
+      "url": "https://www.youtube.com/watch?v=vxExcsdey6w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Discrete Mathematics 14 | Generating Function | CS & IT | GATE 2026 Crash Course - Complete guide by GATE Wallah CSE & DA.",
+      "year": 2024
+    },
+    {
+      "title": "INTRODUCTION to SET THEORY - DISCRETE MATHEMATICS",
+      "creator": "TrevTutor",
+      "url": "https://www.youtube.com/watch?v=tyDKR4FG3Yw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "INTRODUCTION to SET THEORY - DISCRETE MATHEMATICS - Complete guide by TrevTutor.",
+      "year": 2024
+    },
+    {
+      "title": "Propositional Logic - Complete Summary Part 2 | Discrete Mathematics | With NOTES | Deepak Poonia",
+      "creator": "GO Classes for GATE CS",
+      "url": "https://www.youtube.com/watch?v=SRiIR-taO5k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Propositional Logic - Complete Summary Part 2 | Discrete Mathematics | With NOTES | Deepak Poonia - Complete guide by GO Classes for GATE CS.",
+      "year": 2024
+    },
+    {
+      "title": "CARTESIAN PRODUCTS and ORDERED PAIRS - DISCRETE MATHEMATICS",
+      "creator": "TrevTutor",
+      "url": "https://www.youtube.com/watch?v=NnEkVooAsxk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CARTESIAN PRODUCTS and ORDERED PAIRS - DISCRETE MATHEMATICS - Complete guide by TrevTutor.",
+      "year": 2024
+    },
+    {
+      "title": "Lesson 00: Introduction to Discrete Mathematics | Recommended Books for Discrete Mathematics",
+      "creator": "Fahad Hussain",
+      "url": "https://www.youtube.com/watch?v=yn7PquzSUUo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lesson 00: Introduction to Discrete Mathematics | Recommended Books for Discrete Mathematics - Complete guide by Fahad Hussain.",
+      "year": 2024
+    },
+    {
+      "title": "Maths for Programmers Tutorial - Full Course on Sets and Logic",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=2SpuBqvNjHI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Maths for Programmers Tutorial - Full Course on Sets and Logic - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Propositional Logic - Complete Summary Part 1 | Discrete Mathematics | With NOTES | Deepak Poonia",
+      "creator": "GO Classes for GATE CS",
+      "url": "https://www.youtube.com/watch?v=JnsT3ezRzuo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Propositional Logic - Complete Summary Part 1 | Discrete Mathematics | With NOTES | Deepak Poonia - Complete guide by GO Classes for GATE CS.",
+      "year": 2024
+    },
+    {
+      "title": "Let's Talk About Discrete Mathematics",
+      "creator": "The Math Sorcerer",
+      "url": "https://www.youtube.com/watch?v=WpWIIixqBGE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Let's Talk About Discrete Mathematics - Complete guide by The Math Sorcerer.",
+      "year": 2024
+    },
+    {
+      "title": "1. Discrete Mathematics introduction",
+      "creator": "GATE CSE LECTURES BY AMIT KHURANA",
+      "url": "https://www.youtube.com/watch?v=YNTmB_aalgs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1. Discrete Mathematics introduction - Complete guide by GATE CSE LECTURES BY AMIT KHURANA.",
+      "year": 2024
+    },
+    {
+      "title": "How to prepare Discrete maths from my playlist efficiently for gate 2023 |  Full marks in Discrete",
+      "creator": "GATE CSE LECTURES BY AMIT KHURANA",
+      "url": "https://www.youtube.com/watch?v=bfAYYLamQPQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to prepare Discrete maths from my playlist efficiently for gate 2023 |  Full marks in Discrete - Complete guide by GATE CSE LECTURES BY AMIT KHURANA.",
+      "year": 2024
+    },
+    {
+      "title": "discrete math bangla tutorial 2 : Introduction to proposition",
+      "creator": "Anisul Islam",
+      "url": "https://www.youtube.com/watch?v=2z9nx3OLL_Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "discrete math bangla tutorial 2 : Introduction to proposition - Complete guide by Anisul Islam.",
+      "year": 2024
+    },
+    {
+      "title": "Btech discrete maths| MFCS |unit -1 mathematics logic|Mathematical foundation of computer science",
+      "creator": "RS ACADEMY",
+      "url": "https://www.youtube.com/watch?v=lb9GRo3mQPA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Btech discrete maths| MFCS |unit -1 mathematics logic|Mathematical foundation of computer science - Complete guide by RS ACADEMY.",
+      "year": 2024
+    },
+    {
+      "title": "Btech Discrete maths/MFCS |Inference theory|premises |consistency of premises|mathematical logic",
+      "creator": "RS ACADEMY",
+      "url": "https://www.youtube.com/watch?v=ijW7-wdXoU8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Btech Discrete maths/MFCS |Inference theory|premises |consistency of premises|mathematical logic - Complete guide by RS ACADEMY.",
+      "year": 2024
+    },
+    {
+      "title": "Digital Logic Design Playlist | DLD Playlist |  Digital Design By Morris Mano Complete Course",
+      "creator": "Fakhar STEM Sphere",
+      "url": "https://www.youtube.com/watch?v=a3t2iSTVCLw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Digital Logic Design Playlist | DLD Playlist |  Digital Design By Morris Mano Complete Course - Complete guide by Fakhar STEM Sphere.",
+      "year": 2024
+    },
+    {
+      "title": "discrete math bangla tutorial 1 : Introduction to the course",
+      "creator": "Anisul Islam",
+      "url": "https://www.youtube.com/watch?v=Uhr1DokOojs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "discrete math bangla tutorial 1 : Introduction to the course - Complete guide by Anisul Islam.",
+      "year": 2024
+    },
+    {
+      "title": "ELEC2141 Digital Circuit Design - Lecture 2",
+      "creator": "UNSW eLearning",
+      "url": "https://www.youtube.com/watch?v=ro0XwkVC2aE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "ELEC2141 Digital Circuit Design - Lecture 2 - Complete guide by UNSW eLearning.",
+      "year": 2024
+    },
+    {
+      "title": "ELEC2141 Digital Circuit Design - Lecture 1",
+      "creator": "UNSW eLearning",
+      "url": "https://www.youtube.com/watch?v=esAE1WLAubM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "ELEC2141 Digital Circuit Design - Lecture 1 - Complete guide by UNSW eLearning.",
+      "year": 2024
+    },
+    {
+      "title": "Digital Electronics - Number systems",
+      "creator": "Robot Brigade",
+      "url": "https://www.youtube.com/watch?v=ve1S1x9fADE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Digital Electronics - Number systems - Complete guide by Robot Brigade.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 01 | Decimal to Binary | Decimal to Octal | Decimal to Hexadecimal Numbers",
+      "creator": "Fakhar STEM Sphere",
+      "url": "https://www.youtube.com/watch?v=rCT1zwrda80",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 01 | Decimal to Binary | Decimal to Octal | Decimal to Hexadecimal Numbers - Complete guide by Fakhar STEM Sphere.",
+      "year": 2024
+    },
+    {
+      "title": "Digital Logic - Binary codes",
+      "creator": "Robot Brigade",
+      "url": "https://www.youtube.com/watch?v=tIBdQ8arQpM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Digital Logic - Binary codes - Complete guide by Robot Brigade.",
+      "year": 2024
+    },
+    {
+      "title": "What is an Analog Signal?",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/watch?v=F5h3z8p9dPg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is an Analog Signal? - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "What is Signal?",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/watch?v=M0mx8S05v60",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Signal? - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Number Systems Representation and Basics: Binary, Ternary, Octal & Hexadecimal",
+      "creator": "Engineering Funda",
+      "url": "https://www.youtube.com/watch?v=ovHm8IHVR3Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Number Systems Representation and Basics: Binary, Ternary, Octal & Hexadecimal - Complete guide by Engineering Funda.",
+      "year": 2024
+    },
+    {
+      "title": "Addition Operations in Number System: Binary, Octal & Hexadecimal Systems",
+      "creator": "Engineering Funda",
+      "url": "https://www.youtube.com/watch?v=1pckOrawVCQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Addition Operations in Number System: Binary, Octal & Hexadecimal Systems - Complete guide by Engineering Funda.",
+      "year": 2024
+    },
+    {
+      "title": "Digital Logic Design Full Course for Beginners | Zero to Chip Design in One Video",
+      "creator": "vlsideepdive",
+      "url": "https://www.youtube.com/watch?v=8bmt4UJmJ_k",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Digital Logic Design Full Course for Beginners | Zero to Chip Design in One Video - Complete guide by vlsideepdive.",
+      "year": 2024
+    },
+    {
+      "title": "Digital Logic & Design Free Course for GATE/PSU/Sem Exam ✅️!!",
+      "creator": "LearningAlgo",
+      "url": "https://www.youtube.com/watch?v=st8Jb-yVpM0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Digital Logic & Design Free Course for GATE/PSU/Sem Exam ✅️!! - Complete guide by LearningAlgo.",
+      "year": 2024
+    },
+    {
+      "title": "free code camp resposnive web design progress",
+      "creator": "Ronzu Dev",
+      "url": "https://www.youtube.com/watch?v=G3gv04ZrDKk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "free code camp resposnive web design progress - Complete guide by Ronzu Dev.",
+      "year": 2024
+    },
+    {
+      "title": "Digital Electronics - The First Video YOU Should Watch",
+      "creator": "CaptiveAire",
+      "url": "https://www.youtube.com/watch?v=pDELW2pIvWw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Digital Electronics - The First Video YOU Should Watch - Complete guide by CaptiveAire.",
+      "year": 2024
+    },
+    {
+      "title": "Digital Logic Design: Lecture vs. The Real Project! 🤯⚡",
+      "creator": "CoffeeBits",
+      "url": "https://www.youtube.com/watch?v=afgH7z4sin8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Digital Logic Design: Lecture vs. The Real Project! 🤯⚡ - Complete guide by CoffeeBits.",
+      "year": 2024
+    },
+    {
+      "title": "DIGITAL LOGIC DESIGN Important Questions PDF | Semester-II | B.Sc Computer Science | 75/75",
+      "creator": "WE ARE DEGREE LOVERS",
+      "url": "https://www.youtube.com/watch?v=hVs8Ua1rHMs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DIGITAL LOGIC DESIGN Important Questions PDF | Semester-II | B.Sc Computer Science | 75/75 - Complete guide by WE ARE DEGREE LOVERS.",
+      "year": 2024
+    },
+    {
+      "title": "3-Digit Odd Counter Demo [ Digital Logic Design using D Flip-Flops & Logic Gates ] Semester Project",
+      "creator": "Fahad Qalbi",
+      "url": "https://www.youtube.com/watch?v=7RVsnmVudIU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "3-Digit Odd Counter Demo [ Digital Logic Design using D Flip-Flops & Logic Gates ] Semester Project - Complete guide by Fahad Qalbi.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture Slides vs. My ACTUAL Digital Logic Project 🤯⚡",
+      "creator": "CoffeeBits",
+      "url": "https://www.youtube.com/watch?v=-ZS209Pp8kk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture Slides vs. My ACTUAL Digital Logic Project 🤯⚡ - Complete guide by CoffeeBits.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Coding easily from Free Code Camp || #coding #programming #shorts",
+      "creator": "ARM Creative",
+      "url": "https://www.youtube.com/watch?v=6px92XVsD-k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Coding easily from Free Code Camp || #coding #programming #shorts - Complete guide by ARM Creative.",
+      "year": 2024
+    },
+    {
+      "title": "Arduino Course for Beginners - Open-Source Electronics Platform",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=zJ-LqeX_fLU",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Arduino Course for Beginners - Open-Source Electronics Platform - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Build a cat blog page | step 15 & 16 | free code camp #coding #shorts #beginners",
+      "creator": "SkillNest Official ",
+      "url": "https://www.youtube.com/watch?v=4_RRYDBNHPk",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Build a cat blog page | step 15 & 16 | free code camp #coding #shorts #beginners - Complete guide by SkillNest Official .",
+      "year": 2024
+    },
+    {
+      "title": "freeCodeCamp.org Tribute page complete!! #shorts",
+      "creator": "Ronnie ReduX",
+      "url": "https://www.youtube.com/watch?v=6ggCSJGFSqg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "freeCodeCamp.org Tribute page complete!! #shorts - Complete guide by Ronnie ReduX.",
+      "year": 2024
+    },
+    {
+      "title": "What is free code camp?",
+      "creator": "chibuzo Daniel (VerityblogNG)",
+      "url": "https://www.youtube.com/watch?v=JeE9YvATN-4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is free code camp? - Complete guide by chibuzo Daniel (VerityblogNG).",
+      "year": 2024
+    },
+    {
+      "title": "Closures in JavaScript explained with a simple backpack analogy",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=U6-RekkuORI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Closures in JavaScript explained with a simple backpack analogy - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Arduino Course for Everybody",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=DPqiIzK97K0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Arduino Course for Everybody - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "VHDL Programming – Course Announcement",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/watch?v=SSvPSQJrO7s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "VHDL Programming – Course Announcement - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Lec-1: Digital Logic Design Syllabus | Digital Logic Design Bangla | CSE Bangla Tutorial  #dldbangla",
+      "creator": "Free CSE Learning",
+      "url": "https://www.youtube.com/watch?v=mldCQQypAhQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lec-1: Digital Logic Design Syllabus | Digital Logic Design Bangla | CSE Bangla Tutorial  #dldbangla - Complete guide by Free CSE Learning.",
+      "year": 2024
+    },
+    {
+      "title": "Lec-2: Binary to Decimal Conversion | Binary to Decimal Conversion Bangla | #numbersystem",
+      "creator": "Free CSE Learning",
+      "url": "https://www.youtube.com/watch?v=NW1eTRJyB1A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lec-2: Binary to Decimal Conversion | Binary to Decimal Conversion Bangla | #numbersystem - Complete guide by Free CSE Learning.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to VHDL Programming",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/watch?v=zX8GjjKyJ2A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to VHDL Programming - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Show HN BBRouter Ben Eater s 8-bit computer simulated on 3D breadboards",
+      "creator": "Techpulse AI",
+      "url": "https://www.youtube.com/watch?v=Ok7lCI8tYZo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Show HN BBRouter Ben Eater s 8-bit computer simulated on 3D breadboards - Complete guide by Techpulse AI.",
+      "year": 2024
+    },
+    {
+      "title": "Convert  Decimal to any other Base(Binary, Octal, Hexadecimal)| Conversion from One radix to another",
+      "creator": "Sudhakar Atchala",
+      "url": "https://www.youtube.com/watch?v=XLrNRKsfXt4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Convert  Decimal to any other Base(Binary, Octal, Hexadecimal)| Conversion from One radix to another - Complete guide by Sudhakar Atchala.",
+      "year": 2024
+    },
+    {
+      "title": "Convert Binary to any other Base(Decimal, Octal, Hexadecimal)| Conversion from One radix to another",
+      "creator": "Sudhakar Atchala",
+      "url": "https://www.youtube.com/watch?v=nNEl8akZTU0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Convert Binary to any other Base(Decimal, Octal, Hexadecimal)| Conversion from One radix to another - Complete guide by Sudhakar Atchala.",
+      "year": 2024
+    },
+    {
+      "title": "Ben Eater Style SAP-1 8-bit Computer in Action ⚡",
+      "creator": "Anonymous_Hobby_member",
+      "url": "https://www.youtube.com/watch?v=lDX1beqp22w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ben Eater Style SAP-1 8-bit Computer in Action ⚡ - Complete guide by Anonymous_Hobby_member.",
+      "year": 2024
+    },
+    {
+      "title": "Fibonacci Series on 8-bit computer.@BenEater .#breadboard",
+      "creator": "Creativerse",
+      "url": "https://www.youtube.com/watch?v=q2syoaXLLHg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Fibonacci Series on 8-bit computer.@BenEater .#breadboard - Complete guide by Creativerse.",
+      "year": 2024
+    },
+    {
+      "title": "8 Bit Computer - Clock",
+      "creator": "Christopher Maughan",
+      "url": "https://www.youtube.com/watch?v=OC-YoI1FY7U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "8 Bit Computer - Clock - Complete guide by Christopher Maughan.",
+      "year": 2024
+    },
+    {
+      "title": "Are 8-Bit Computers Still Useful Today?#8bit #RetroTech #OldComputers #TechHistory #VintageComputing",
+      "creator": "Digital Secrets Hub",
+      "url": "https://www.youtube.com/watch?v=dxGdspai9ms",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Are 8-Bit Computers Still Useful Today?#8bit #RetroTech #OldComputers #TechHistory #VintageComputing - Complete guide by Digital Secrets Hub.",
+      "year": 2024
+    },
+    {
+      "title": "NOT GATE,OR GATE & CLOCK MODULE (8 BIT COMPUTER)#beneater",
+      "creator": "Mohammed Anwar Sayeed",
+      "url": "https://www.youtube.com/watch?v=dRky0Q6yf6Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "NOT GATE,OR GATE & CLOCK MODULE (8 BIT COMPUTER)#beneater - Complete guide by Mohammed Anwar Sayeed.",
+      "year": 2024
+    },
+    {
+      "title": "8 bit Computer: Multiplication table of 3",
+      "creator": "Alok Kumar",
+      "url": "https://www.youtube.com/watch?v=8i3ewvuxTs8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "8 bit Computer: Multiplication table of 3 - Complete guide by Alok Kumar.",
+      "year": 2024
+    },
+    {
+      "title": "Square root finding program on 8-bit breadboard computer.@BenEater inspires.#breadboard",
+      "creator": "Creativerse",
+      "url": "https://www.youtube.com/watch?v=hgZhl_cKF2w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Square root finding program on 8-bit breadboard computer.@BenEater inspires.#breadboard - Complete guide by Creativerse.",
+      "year": 2024
+    },
+    {
+      "title": "Progress on our Logisim SAP-1 (Ben Eater) computer",
+      "creator": "SEA 7 Aerospace",
+      "url": "https://www.youtube.com/watch?v=w5QedglMIs4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Progress on our Logisim SAP-1 (Ben Eater) computer - Complete guide by SEA 7 Aerospace.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Compiler Design",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/watch?v=5ZmFlxrNaN8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to Compiler Design - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Different Phases of Compiler",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/watch?v=TApMNhQPaCM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Different Phases of Compiler - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Running Demo - (Ben Eater 8-bit Computer) SAP-1",
+      "creator": "David Courtney",
+      "url": "https://www.youtube.com/watch?v=9cefAC-7G0U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Running Demo - (Ben Eater 8-bit Computer) SAP-1 - Complete guide by David Courtney.",
+      "year": 2024
+    },
+    {
+      "title": "The SID: Classic 8-bit sound",
+      "creator": "Ben Eater",
+      "url": "https://www.youtube.com/watch?v=LSMQ3U1Thzw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The SID: Classic 8-bit sound - Complete guide by Ben Eater.",
+      "year": 2024
+    },
+    {
+      "title": "SAP1 Ben Eater 8-bit Computer - Hello World!",
+      "creator": "apex NSW (apexNSW)",
+      "url": "https://www.youtube.com/watch?v=-iAHfpsMY5o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SAP1 Ben Eater 8-bit Computer - Hello World! - Complete guide by apex NSW (apexNSW).",
+      "year": 2024
+    },
+    {
+      "title": "Ben Eater's 8-Bit CPU on PCB",
+      "creator": "James Bolding",
+      "url": "https://www.youtube.com/watch?v=pFK3d3c3abE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ben Eater's 8-Bit CPU on PCB - Complete guide by James Bolding.",
+      "year": 2024
+    },
+    {
+      "title": "Meet bb the 8-bit computer! (Ben Eater computer simulation)",
+      "creator": "Nerding Alaska",
+      "url": "https://www.youtube.com/watch?v=Jwkdhy37kHk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Meet bb the 8-bit computer! (Ben Eater computer simulation) - Complete guide by Nerding Alaska.",
+      "year": 2024
+    },
+    {
+      "title": "Mod-01 Lec-01 An Overview of a Compiler",
+      "creator": "nptelhrd",
+      "url": "https://www.youtube.com/watch?v=yxnbvS2t_QA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Mod-01 Lec-01 An Overview of a Compiler - Complete guide by nptelhrd.",
+      "year": 2024
+    },
+    {
+      "title": "Mod-02 Lec-02 Lexical Analysis - Part 1",
+      "creator": "nptelhrd",
+      "url": "https://www.youtube.com/watch?v=trocRZqxZFM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Mod-02 Lec-02 Lexical Analysis - Part 1 - Complete guide by nptelhrd.",
+      "year": 2024
+    },
+    {
+      "title": "Mod-01 Lec-01",
+      "creator": "nptelhrd",
+      "url": "https://www.youtube.com/watch?v=DFMf9oPbuRI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Mod-01 Lec-01 - Complete guide by nptelhrd.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 1 Introduction to Compiler and types of COMPILER | Two parts of compilation process",
+      "creator": "Abhishek Sharma",
+      "url": "https://www.youtube.com/watch?v=4mAxMWz8p6g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 1 Introduction to Compiler and types of COMPILER | Two parts of compilation process - Complete guide by Abhishek Sharma.",
+      "year": 2024
+    },
+    {
+      "title": "Compiler Design - Getting Started",
+      "creator": "TutorialsPoint",
+      "url": "https://www.youtube.com/watch?v=0hU5-aLtaxo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Compiler Design - Getting Started - Complete guide by TutorialsPoint.",
+      "year": 2024
+    },
+    {
+      "title": "Language Processing System in Compiler Design | Lecture 2",
+      "creator": "Abhishek Sharma",
+      "url": "https://www.youtube.com/watch?v=Pwps_CP5MFE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Language Processing System in Compiler Design | Lecture 2 - Complete guide by Abhishek Sharma.",
+      "year": 2024
+    },
+    {
+      "title": "Mod-01 Lec-02",
+      "creator": "nptelhrd",
+      "url": "https://www.youtube.com/watch?v=bYmFCZOoGz4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Mod-01 Lec-02 - Complete guide by nptelhrd.",
+      "year": 2024
+    },
+    {
+      "title": "Type Checking in Python",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=40etheqqBBg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Type Checking in Python - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "The reason behind PhD in Compiler Design? | Full Video Link in the Description | Ravindrababu Ravula",
+      "creator": "Prof. Ravindrababu Ravula",
+      "url": "https://www.youtube.com/watch?v=QCQ9T1UKUV0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The reason behind PhD in Compiler Design? | Full Video Link in the Description | Ravindrababu Ravula - Complete guide by Prof. Ravindrababu Ravula.",
+      "year": 2024
+    },
+    {
+      "title": "Compiler Design Full Course for GATE 2026 & Semester exam ✅️ !!",
+      "creator": "LearningAlgo",
+      "url": "https://www.youtube.com/watch?v=3sjvFuxpCz8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Compiler Design Full Course for GATE 2026 & Semester exam ✅️ !! - Complete guide by LearningAlgo.",
+      "year": 2024
+    },
+    {
+      "title": "Compiler Design in One Shot | Semester Exams Preparation | GATE Preparation | Ravindrababu Ravula",
+      "creator": "Prof. Ravindrababu Ravula",
+      "url": "https://www.youtube.com/watch?v=7Tq2Amm15g8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Compiler Design in One Shot | Semester Exams Preparation | GATE Preparation | Ravindrababu Ravula - Complete guide by Prof. Ravindrababu Ravula.",
+      "year": 2024
+    },
+    {
+      "title": "Language Processing System",
+      "creator": "TutorialsPoint",
+      "url": "https://www.youtube.com/watch?v=ffH5WTnwXDY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Language Processing System - Complete guide by TutorialsPoint.",
+      "year": 2024
+    },
+    {
+      "title": "Day 26 of my 100 Days Coding Challenge 🚀 #codingchallenge #computer #codeeveryday #codecamp",
+      "creator": "Ayush Gautam",
+      "url": "https://www.youtube.com/watch?v=ywYsIQbsKRQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Day 26 of my 100 Days Coding Challenge 🚀 #codingchallenge #computer #codeeveryday #codecamp - Complete guide by Ayush Gautam.",
+      "year": 2024
+    },
+    {
+      "title": "html full course, css full course, html css full course #coding #python #javascript",
+      "creator": "Online Tutorial ",
+      "url": "https://www.youtube.com/watch?v=h6A72y4sT6c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "html full course, css full course, html css full course #coding #python #javascript - Complete guide by Online Tutorial .",
+      "year": 2024
+    },
+    {
+      "title": "Learn to Code for FREE with freeCodeCamp!",
+      "creator": "Dann Paker AI",
+      "url": "https://www.youtube.com/watch?v=H-VmP0XLask",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn to Code for FREE with freeCodeCamp! - Complete guide by Dann Paker AI.",
+      "year": 2024
+    },
+    {
+      "title": "Compiler vs Interpreter — What's the Difference",
+      "creator": "Code With Sidhant",
+      "url": "https://www.youtube.com/watch?v=8IEVtxalVQ4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Compiler vs Interpreter — What's the Difference - Complete guide by Code With Sidhant.",
+      "year": 2024
+    },
+    {
+      "title": "html full course, css full course, html css full course #coding #python #programming #javascript",
+      "creator": "Online Tutorial ",
+      "url": "https://www.youtube.com/watch?v=HK_Qu7L0WBA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "html full course, css full course, html css full course #coding #python #programming #javascript - Complete guide by Online Tutorial .",
+      "year": 2024
+    },
+    {
+      "title": "html full course, css full course, html css full course #css #coding #html #code",
+      "creator": "Online Tutorial ",
+      "url": "https://www.youtube.com/watch?v=QZF119uBz3s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "html full course, css full course, html css full course #css #coding #html #code - Complete guide by Online Tutorial .",
+      "year": 2024
+    },
+    {
+      "title": "How a Compiler Works 🧠 | Tokens, Tree, Instructions | Tech Explained",
+      "creator": "Learn Coding Visual",
+      "url": "https://www.youtube.com/watch?v=G_OQNa8Ikl8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How a Compiler Works 🧠 | Tokens, Tree, Instructions | Tech Explained - Complete guide by Learn Coding Visual.",
+      "year": 2024
+    },
+    {
+      "title": "html full course, css full course, html css full course #coding #python #webdesign #programming",
+      "creator": "Online Tutorial ",
+      "url": "https://www.youtube.com/watch?v=lcgAd8YsCDY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "html full course, css full course, html css full course #coding #python #webdesign #programming - Complete guide by Online Tutorial .",
+      "year": 2024
+    },
+    {
+      "title": "html and css tutorial for beginners, html css full course #css #coding #html #code #minecraft",
+      "creator": "Chirag Satyal",
+      "url": "https://www.youtube.com/watch?v=8l1q00n87J8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "html and css tutorial for beginners, html css full course #css #coding #html #code #minecraft - Complete guide by Chirag Satyal.",
+      "year": 2024
+    },
+    {
+      "title": "Compiler Design Full Course for GATE/PSU/SEM EXAM ✅️!!",
+      "creator": "LearningAlgo",
+      "url": "https://www.youtube.com/watch?v=DB4HS3g3_U8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Compiler Design Full Course for GATE/PSU/SEM EXAM ✅️!! - Complete guide by LearningAlgo.",
+      "year": 2024
+    },
+    {
+      "title": "Complete CD Compiler Design in one shot | Semester Exam | Hindi",
+      "creator": "KnowledgeGATE by Sanchit Sir",
+      "url": "https://www.youtube.com/watch?v=OQCjakjCJu4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete CD Compiler Design in one shot | Semester Exam | Hindi - Complete guide by KnowledgeGATE by Sanchit Sir.",
+      "year": 2024
+    },
+    {
+      "title": "CD | Introduction | Symbol table entries | Ravindrababu Ravula | Free GATE CS Classes",
+      "creator": "Prof. Ravindrababu Ravula",
+      "url": "https://www.youtube.com/watch?v=l4cDv5mhO2M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CD | Introduction | Symbol table entries | Ravindrababu Ravula | Free GATE CS Classes - Complete guide by Prof. Ravindrababu Ravula.",
+      "year": 2024
+    },
+    {
+      "title": "Compiler Design || Lecture- 2.1 || The Structure of a Compiler: Phases of Compiler (Part-1)",
+      "creator": "Madana Mohana R's ICT Channel",
+      "url": "https://www.youtube.com/watch?v=mrmDvojkNHw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Compiler Design || Lecture- 2.1 || The Structure of a Compiler: Phases of Compiler (Part-1) - Complete guide by Madana Mohana R's ICT Channel.",
+      "year": 2024
+    },
+    {
+      "title": "CD | Introduction | Introduction and various phases of compiler | Ravindrababu Ravula",
+      "creator": "Prof. Ravindrababu Ravula",
+      "url": "https://www.youtube.com/watch?v=Qkwj65l_96I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CD | Introduction | Introduction and various phases of compiler | Ravindrababu Ravula - Complete guide by Prof. Ravindrababu Ravula.",
+      "year": 2024
+    },
+    {
+      "title": "Compiler Design || Lecture- 1|| Introduction to Compilers",
+      "creator": "Madana Mohana R's ICT Channel",
+      "url": "https://www.youtube.com/watch?v=k4QXWFZZq1E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Compiler Design || Lecture- 1|| Introduction to Compilers - Complete guide by Madana Mohana R's ICT Channel.",
+      "year": 2024
+    },
+    {
+      "title": "html full course, css full course, html css full course #coding #python #programming #javascript",
+      "creator": "Online Tutorial ",
+      "url": "https://www.youtube.com/watch?v=nG32FqaPoSs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "html full course, css full course, html css full course #coding #python #programming #javascript - Complete guide by Online Tutorial .",
+      "year": 2024
+    },
+    {
+      "title": "Free Coding Courses with Certificates | Free Code Camp Courses | Python with Machine learning Course",
+      "creator": "Priya Dogra",
+      "url": "https://www.youtube.com/watch?v=t0dBNeSS2Ok",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Free Coding Courses with Certificates | Free Code Camp Courses | Python with Machine learning Course - Complete guide by Priya Dogra.",
+      "year": 2024
+    },
+    {
+      "title": "Lec-1: Compiler Design Syllabus Discussion for Competitive & College/University Exams",
+      "creator": "Gate Smashers",
+      "url": "https://www.youtube.com/watch?v=XUsw5igq4DM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lec-1: Compiler Design Syllabus Discussion for Competitive & College/University Exams - Complete guide by Gate Smashers.",
+      "year": 2024
+    },
+    {
+      "title": "CD1: Compiler Design |  Syllabus Discussion | Compiler Design Tutorial and Lecture In Hindi | AKTU",
+      "creator": "University Academy",
+      "url": "https://www.youtube.com/watch?v=yNZIhF6pxjM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CD1: Compiler Design |  Syllabus Discussion | Compiler Design Tutorial and Lecture In Hindi | AKTU - Complete guide by University Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Compiler Design | Language Processing System",
+      "creator": "THE GATEHUB",
+      "url": "https://www.youtube.com/watch?v=Cb46_P12bMY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to Compiler Design | Language Processing System - Complete guide by THE GATEHUB.",
+      "year": 2024
+    },
+    {
+      "title": "Compiler vs Interpreter | Compiler Design",
+      "creator": "THE GATEHUB",
+      "url": "https://www.youtube.com/watch?v=15_8wKnqj7U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Compiler vs Interpreter | Compiler Design - Complete guide by THE GATEHUB.",
+      "year": 2024
+    },
+    {
+      "title": "CD2: Compiler Design Tutorial | Importance of Compiler Design | Application of Compiler  in Hindi",
+      "creator": "University Academy",
+      "url": "https://www.youtube.com/watch?v=XGc-HeXOJnw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CD2: Compiler Design Tutorial | Importance of Compiler Design | Application of Compiler  in Hindi - Complete guide by University Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 2. Fundamental Concepts and ISA - Carnegie Mellon - Computer Architecture 2015 - Onur Mutlu",
+      "creator": "Carnegie Mellon Computer Architecture",
+      "url": "https://www.youtube.com/watch?v=NpC39uS4K4o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 2. Fundamental Concepts and ISA - Carnegie Mellon - Computer Architecture 2015 - Onur Mutlu - Complete guide by Carnegie Mellon Computer Architecture.",
+      "year": 2024
+    },
+    {
+      "title": "Lec 4 | MIT 6.033 Computer System Engineering, Spring 2005",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=zm2VP0kHl1M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lec 4 | MIT 6.033 Computer System Engineering, Spring 2005 - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 1. Introduction and Basics - Carnegie Mellon - Computer Architecture 2015 - Onur Mutlu",
+      "creator": "Carnegie Mellon Computer Architecture",
+      "url": "https://www.youtube.com/watch?v=zLP_X4wyHbY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 1. Introduction and Basics - Carnegie Mellon - Computer Architecture 2015 - Onur Mutlu - Complete guide by Carnegie Mellon Computer Architecture.",
+      "year": 2024
+    },
+    {
+      "title": "Digital Design and Computer Architecture - L2: Combinational Logic (Spring 2025)",
+      "creator": "Onur Mutlu Lectures",
+      "url": "https://www.youtube.com/watch?v=U-4jmbm8inw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Digital Design and Computer Architecture - L2: Combinational Logic (Spring 2025) - Complete guide by Onur Mutlu Lectures.",
+      "year": 2024
+    },
+    {
+      "title": "Evolution of Computer System",
+      "creator": "CH 30: IIT KHARAGPUR 02: Computer Science & Others",
+      "url": "https://www.youtube.com/watch?v=at4X0HRQRbA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Evolution of Computer System - Complete guide by CH 30: IIT KHARAGPUR 02: Computer Science & Others.",
+      "year": 2024
+    },
+    {
+      "title": "Digital Design and Computer Architecture - L1: Intro: Fundamentals, Transistors, Gates (Spring 2025)",
+      "creator": "Onur Mutlu Lectures",
+      "url": "https://www.youtube.com/watch?v=ubhxKNlOlRg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Digital Design and Computer Architecture - L1: Intro: Fundamentals, Transistors, Gates (Spring 2025) - Complete guide by Onur Mutlu Lectures.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Architecture - Lecture 1: Introduction and Basics (Fall 2025)",
+      "creator": "Onur Mutlu Lectures",
+      "url": "https://www.youtube.com/watch?v=7I-JOd51ctA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Computer Architecture - Lecture 1: Introduction and Basics (Fall 2025) - Complete guide by Onur Mutlu Lectures.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Architecture - Lecture 2: Memory Systems and Course Logistics (Fall 2025)",
+      "creator": "Onur Mutlu Lectures",
+      "url": "https://www.youtube.com/watch?v=VWj2Krqxrnw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Computer Architecture - Lecture 2: Memory Systems and Course Logistics (Fall 2025) - Complete guide by Onur Mutlu Lectures.",
+      "year": 2024
+    },
+    {
+      "title": "Basic Operation of a Computer",
+      "creator": "CH 30: IIT KHARAGPUR 02: Computer Science & Others",
+      "url": "https://www.youtube.com/watch?v=d5Xqhc5ho-w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Basic Operation of a Computer - Complete guide by CH 30: IIT KHARAGPUR 02: Computer Science & Others.",
+      "year": 2024
+    },
+    {
+      "title": "Basics of Computer Architecture",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/watch?v=GRInNLx3Tug",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Basics of Computer Architecture - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Lec 5 | MIT 6.033 Computer System Engineering, Spring 2005",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=RmdAWsvcsZw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lec 5 | MIT 6.033 Computer System Engineering, Spring 2005 - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 2: Contradiction and Induction",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=_NYsYuzMLs0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 2: Contradiction and Induction - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Computer Organization and Architecture (COA)",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/watch?v=Ol8D69VKX2k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to Computer Organization and Architecture (COA) - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 2: Analysis Methods and Rectifiers",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=bJ1nqEC3i0A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 2: Analysis Methods and Rectifiers - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 1: Introduction to Power Electronics",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=f7oXhDatwtY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 1: Introduction to Power Electronics - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "Free AI Architecture Course by MIT",
+      "creator": "The Cutting Edge School",
+      "url": "https://www.youtube.com/watch?v=7yyYo_nbu-w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Free AI Architecture Course by MIT - Complete guide by The Cutting Edge School.",
+      "year": 2024
+    },
+    {
+      "title": "UGC NET 2026 🔥 Computer System Architecture PYQs Marathon(2009–2025) | Must Watch ! | LIVE 🔥",
+      "creator": "4S Learning Academy",
+      "url": "https://www.youtube.com/watch?v=eMPXxYH3qdY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "UGC NET 2026 🔥 Computer System Architecture PYQs Marathon(2009–2025) | Must Watch ! | LIVE 🔥 - Complete guide by 4S Learning Academy.",
+      "year": 2024
+    },
+    {
+      "title": "HOW TO FO ANY MIT COURSE FREE 🔥🔥||TECHJI #shorts",
+      "creator": "Tech ji",
+      "url": "https://www.youtube.com/watch?v=kEDMTXaOCAY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "HOW TO FO ANY MIT COURSE FREE 🔥🔥||TECHJI #shorts - Complete guide by Tech ji.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 1: Predicates, Sets, and Proofs",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=sbpCTjmw85g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 1: Predicates, Sets, and Proofs - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "MIT unveils AI assistant that guides engineers #Shorts",
+      "creator": "UXCentury",
+      "url": "https://www.youtube.com/watch?v=bu7IsWRZvgg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MIT unveils AI assistant that guides engineers #Shorts - Complete guide by UXCentury.",
+      "year": 2024
+    },
+    {
+      "title": "System Architecture Explained: Read Scaling, APIs, CDN, & More! #shorts",
+      "creator": "AlgoJS",
+      "url": "https://www.youtube.com/watch?v=90yKGcPWE48",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Architecture Explained: Read Scaling, APIs, CDN, & More! #shorts - Complete guide by AlgoJS.",
+      "year": 2024
+    },
+    {
+      "title": "Is computer architecture important for quant dev?",
+      "creator": "Coding Jesus (getcracked.io)",
+      "url": "https://www.youtube.com/watch?v=u8VvANzFPJA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Is computer architecture important for quant dev? - Complete guide by Coding Jesus (getcracked.io).",
+      "year": 2024
+    },
+    {
+      "title": "MIT 6.006 Rubik's Cube OCW. Heuristic Solution then Python solution. 27 nodes & 3x8 edges initially",
+      "creator": "Charles Truscott Watters",
+      "url": "https://www.youtube.com/watch?v=SKs1ZHntr74",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MIT 6.006 Rubik's Cube OCW. Heuristic Solution then Python solution. 27 nodes & 3x8 edges initially - Complete guide by Charles Truscott Watters.",
+      "year": 2024
+    },
+    {
+      "title": "4. Assembly Language & Computer Architecture",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=L1ung0wil9Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "4. Assembly Language & Computer Architecture - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "💼💻Python Programming Made Easy – MIT's Best Free Course🔥#viral #python #techcareer #free",
+      "creator": "techvlogs",
+      "url": "https://www.youtube.com/watch?v=LGJ9kkpz9UI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "💼💻Python Programming Made Easy – MIT's Best Free Course🔥#viral #python #techcareer #free - Complete guide by techvlogs.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Organization and Architecture (COA) full Course ✅️ !! | GATE /PSU/SEM EXAM",
+      "creator": "LearningAlgo",
+      "url": "https://www.youtube.com/watch?v=RXFBw2V9ZxA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Computer Organization and Architecture (COA) full Course ✅️ !! | GATE /PSU/SEM EXAM - Complete guide by LearningAlgo.",
+      "year": 2024
+    },
+    {
+      "title": "Whiteout | How a Rescue Rover Finds the Shortest Route",
+      "creator": "AI Frontier",
+      "url": "https://www.youtube.com/watch?v=q4xECdfxzFY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Whiteout | How a Rescue Rover Finds the Shortest Route - Complete guide by AI Frontier.",
+      "year": 2024
+    },
+    {
+      "title": "Uncover the Secrets of MIT Education with OpenCourseWare",
+      "creator": "Sophy ",
+      "url": "https://www.youtube.com/watch?v=hNqr9YPt1nY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Uncover the Secrets of MIT Education with OpenCourseWare - Complete guide by Sophy .",
+      "year": 2024
+    },
+    {
+      "title": "What Is A Computer Architecture? - How Sand Becomes Computers (4 of 6)",
+      "creator": "CircuitBread",
+      "url": "https://www.youtube.com/watch?v=4tqx1Z6JWAI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What Is A Computer Architecture? - How Sand Becomes Computers (4 of 6) - Complete guide by CircuitBread.",
+      "year": 2024
+    },
+    {
+      "title": "This Website Gives You Free MIT Classes 🤯 #freecourse #education",
+      "creator": "webdropss",
+      "url": "https://www.youtube.com/watch?v=H7ZypNV95-M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "This Website Gives You Free MIT Classes 🤯 #freecourse #education - Complete guide by webdropss.",
+      "year": 2024
+    },
+    {
+      "title": "Three clicks. Five bays. Will every parcel arrive?",
+      "creator": "Tiny Ahlab",
+      "url": "https://www.youtube.com/watch?v=QwnOjZO53Bo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Three clicks. Five bays. Will every parcel arrive? - Complete guide by Tiny Ahlab.",
+      "year": 2024
+    },
+    {
+      "title": "Networks",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAblzbwhT83fRh5nNSHqywxrw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Networks - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Access Free MIT Courses in Any Field with Easy Search #MITOpenCourseWare, #freecourses, #shorts",
+      "creator": "MAi ACADEMY",
+      "url": "https://www.youtube.com/watch?v=hhIKZ6vFn4w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Access Free MIT Courses in Any Field with Easy Search #MITOpenCourseWare, #freecourses, #shorts - Complete guide by MAi ACADEMY.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Networking Full Course in Hindi",
+      "creator": "Shesh Chauhan IT Trainer",
+      "url": "https://www.youtube.com/playlist?list=PLS0spxc8nUsDqFzwOUXrJfdncOVpDRXdE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Computer Networking Full Course in Hindi - Complete guide by Shesh Chauhan IT Trainer.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Networks",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRgMCUAG0XRw78UA8qnv6jEx",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Computer Networks - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "1.5 COMPUTER NETWORKS (Complete Playlist)",
+      "creator": "KnowledgeGATE by Sanchit Sir",
+      "url": "https://www.youtube.com/playlist?list=PLmXKhU9FNesSjFbXSZGF8JF_4LVwwofCd",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "1.5 COMPUTER NETWORKS (Complete Playlist) - Complete guide by KnowledgeGATE by Sanchit Sir.",
+      "year": 2024
+    },
+    {
+      "title": "Networking Fundamentals",
+      "creator": "Practical Networking",
+      "url": "https://www.youtube.com/playlist?list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Networking Fundamentals - Complete guide by Practical Networking.",
+      "year": 2024
+    },
+    {
+      "title": "\"Computer Networking Course - Network Engineering [CompTIA Network+ Exam Prep]\" (freeCodeCamp.org),",
+      "creator": "Brandongrasso",
+      "url": "https://www.youtube.com/playlist?list=PLPSzPbA1T_p3gty-2gzFEq1x4W1CUyZgV",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "\"Computer Networking Course - Network Engineering [CompTIA Network+ Exam Prep]\" (freeCodeCamp.org), - Complete guide by Brandongrasso.",
+      "year": 2024
+    },
+    {
+      "title": "Discrete Mathematics",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRhqJPDXcvYlLfXPh37L89g3",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Discrete Mathematics - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Discrete Math (Full Course: Sets, Logic, Proofs, Probability, Graph Theory, etc)",
+      "creator": "Dr. Trefor Bazett",
+      "url": "https://www.youtube.com/playlist?list=PLHXZ9OQGMqxersk8fUxiUMSIx0DBqsKZS",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Discrete Math (Full Course: Sets, Logic, Proofs, Probability, Graph Theory, etc) - Complete guide by Dr. Trefor Bazett.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Networks (Complete Playlist)",
+      "creator": "Gate Smashers",
+      "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiGFBD2-2joCpWOLUrDLvVV_",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Computer Networks (Complete Playlist) - Complete guide by Gate Smashers.",
+      "year": 2024
+    },
+    {
+      "title": "Discrete Mathematics - IIITB",
+      "creator": "NPTEL-NOC IITM",
+      "url": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_f9q2YVF0rx9oSO_UAteS0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Discrete Mathematics - IIITB - Complete guide by NPTEL-NOC IITM.",
+      "year": 2024
+    },
+    {
+      "title": "Discrete Mathematics",
+      "creator": "Pradeep Giri Academy",
+      "url": "https://www.youtube.com/playlist?list=PLT3bOBUU3L9j_VG5CICyWK_a4M0-nwwxy",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Discrete Mathematics - Complete guide by Pradeep Giri Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Discrete Math I (Rosen)",
+      "creator": "SawFin Mathematics",
+      "url": "https://www.youtube.com/playlist?list=PLl-gb0E4MII28GykmtuBXNUNoej-vY5Rz",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Discrete Math I (Rosen) - Complete guide by SawFin Mathematics.",
+      "year": 2024
+    },
+    {
+      "title": "Discrete Mathematics",
+      "creator": "Gate Smashers",
+      "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiH2wwES9vPWsEL6ipTaUSl3",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Discrete Mathematics - Complete guide by Gate Smashers.",
+      "year": 2024
+    },
+    {
+      "title": "Discrete Structures | Discrete Mathematics Complete Course",
+      "creator": "Fahad Hussain",
+      "url": "https://www.youtube.com/playlist?list=PLtCBuHKmdxOduWhQPbEwLN2ULKMqgQ44m",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Discrete Structures | Discrete Mathematics Complete Course - Complete guide by Fahad Hussain.",
+      "year": 2024
+    },
+    {
+      "title": "Discrete Mathematics | CS & IT | GATE 2026 Crash Course",
+      "creator": "GATE Wallah CSE & DA",
+      "url": "https://www.youtube.com/playlist?list=PL3eEXnCBViH9TTRzwOcwbXtUVK8-NHZrJ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Discrete Mathematics | CS & IT | GATE 2026 Crash Course - Complete guide by GATE Wallah CSE & DA.",
+      "year": 2024
+    },
+    {
+      "title": "Discrete Math (Sets, Logic, Proofs, Relations, Counting, Number Theory, Functions)",
+      "creator": "TrevTutor",
+      "url": "https://www.youtube.com/playlist?list=PLDDGPdw7e6Ag1EIznZ-m-qXu4XX3A0cIz",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Discrete Math (Sets, Logic, Proofs, Relations, Counting, Number Theory, Functions) - Complete guide by TrevTutor.",
+      "year": 2024
+    },
+    {
+      "title": "Discrete maths/MFCS unit 1 to 5",
+      "creator": "RS ACADEMY",
+      "url": "https://www.youtube.com/playlist?list=PLA1HLruLdexQS6lV4_o3q5J4xehBFgtP7",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Discrete maths/MFCS unit 1 to 5 - Complete guide by RS ACADEMY.",
+      "year": 2024
+    },
+    {
+      "title": "Discrete Mathematics for GATE — Complete Playlist",
+      "creator": "GATE CSE LECTURES BY AMIT KHURANA",
+      "url": "https://www.youtube.com/playlist?list=PLC36xJgs4dxEYmhzVBW7nBdftFZ4xmiF1",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Discrete Mathematics for GATE — Complete Playlist - Complete guide by GATE CSE LECTURES BY AMIT KHURANA.",
+      "year": 2024
+    },
+    {
+      "title": "Discrete mathematics Bangla Tutorials",
+      "creator": "Anisul Islam",
+      "url": "https://www.youtube.com/playlist?list=PLgH5QX0i9K3rYy9DVhk28m8enSo8xxiZ3",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Discrete mathematics Bangla Tutorials - Complete guide by Anisul Islam.",
+      "year": 2024
+    },
+    {
+      "title": "Discrete Mathematics - Compact Course & GATE PYQs | Practice Questions & Revision Playlist",
+      "creator": "GO Classes for GATE CS",
+      "url": "https://www.youtube.com/playlist?list=PLIPZ2_p3RNHgjPQN2GtCVOCgrkH2zCkSU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Discrete Mathematics - Compact Course & GATE PYQs | Practice Questions & Revision Playlist - Complete guide by GO Classes for GATE CS.",
+      "year": 2024
+    },
+    {
+      "title": "Digital Logic Design (DLD) Complete Course",
+      "creator": "Fakhar STEM Sphere",
+      "url": "https://www.youtube.com/playlist?list=PLgWOIdHQBEz6Ougd453k22nyPDNoNw_tX",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Digital Logic Design (DLD) Complete Course - Complete guide by Fakhar STEM Sphere.",
+      "year": 2024
+    },
+    {
+      "title": "Digital Electronics",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRjMH3mWf6kwqiTbT798eAOm",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Digital Electronics - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Digital Logic Design",
+      "creator": "Engineering Funda",
+      "url": "https://www.youtube.com/playlist?list=PLgwJf8NK-2e4OD-vicvzWT7wE8BZIQtEe",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Digital Logic Design - Complete guide by Engineering Funda.",
+      "year": 2024
+    },
+    {
+      "title": "Digital Logic Design",
+      "creator": "Sohaib Jamal",
+      "url": "https://www.youtube.com/playlist?list=PL285AEB5731791842",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Digital Logic Design - Complete guide by Sohaib Jamal.",
+      "year": 2024
+    },
+    {
+      "title": "Digital Logic by Jack Buffington",
+      "creator": "Robot Brigade",
+      "url": "https://www.youtube.com/playlist?list=PLyG2VxFPjWqDDbo1FKEvzMvj33fI22weJ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Digital Logic by Jack Buffington - Complete guide by Robot Brigade.",
+      "year": 2024
+    },
+    {
+      "title": "VHDL Programming",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRgVsLjXV5gvusRhGAvqBOGn",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "VHDL Programming - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Digital Logic Design (Full Playlist)",
+      "creator": "Free CSE Learning",
+      "url": "https://www.youtube.com/playlist?list=PLp9M4u8jKuWVn-sOtP9egC914iSe50XDo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Digital Logic Design (Full Playlist) - Complete guide by Free CSE Learning.",
+      "year": 2024
+    },
+    {
+      "title": "Digital Logic Design(DLD) or Digital Electronics(DE)",
+      "creator": "Sudhakar Atchala",
+      "url": "https://www.youtube.com/playlist?list=PLXj4XH7LcRfBQXAd8FPZXmMzxZY-rViLP",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Digital Logic Design(DLD) or Digital Electronics(DE) - Complete guide by Sudhakar Atchala.",
+      "year": 2024
+    },
+    {
+      "title": "Compiler Design / Principles of Compiler Design / Principles of Compiler Construction (FULL COURSE)",
+      "creator": "Madana Mohana R's ICT Channel",
+      "url": "https://www.youtube.com/playlist?list=PLENQMW_c1dimxHUu6KjuBC2rOlAaoLozF",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Compiler Design / Principles of Compiler Design / Principles of Compiler Construction (FULL COURSE) - Complete guide by Madana Mohana R's ICT Channel.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Science - Compiler Design",
+      "creator": "nptelhrd",
+      "url": "https://www.youtube.com/playlist?list=PLbMVogVj5nJTmKzaSlCpGgi7qxgcRRs8h",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Computer Science - Compiler Design - Complete guide by nptelhrd.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Science -  Principles of Compiler Design",
+      "creator": "nptelhrd",
+      "url": "https://www.youtube.com/playlist?list=PLbMVogVj5nJQNjkHZgwuAlfQ9tzmQDxjA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Computer Science -  Principles of Compiler Design - Complete guide by nptelhrd.",
+      "year": 2024
+    },
+    {
+      "title": "Compiler Design",
+      "creator": "Abhishek Sharma",
+      "url": "https://www.youtube.com/playlist?list=PL9FuOtXibFjVR-87LcU-DS-9TJcbG97_p",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Compiler Design - Complete guide by Abhishek Sharma.",
+      "year": 2024
+    },
+    {
+      "title": "Compiler Design",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRjT3oJxFXRgjPNzeS-LFY-q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Compiler Design - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Compiler Design",
+      "creator": "TutorialsPoint",
+      "url": "https://www.youtube.com/playlist?list=PLWPirh4EWFpGa0qAEcNGJo2HSRC5_KMT6",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Compiler Design - Complete guide by TutorialsPoint.",
+      "year": 2024
+    },
+    {
+      "title": "Compiler Design - GATE Computer Science Classes",
+      "creator": "Prof. Ravindrababu Ravula",
+      "url": "https://www.youtube.com/playlist?list=PLEbnTDJUr_IcPtUXFy2b1sGRPsLFMghhS",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Compiler Design - GATE Computer Science Classes - Complete guide by Prof. Ravindrababu Ravula.",
+      "year": 2024
+    },
+    {
+      "title": "Compiler Design Tutorial In Hindi",
+      "creator": "University Academy",
+      "url": "https://www.youtube.com/playlist?list=PL-JvKqQx2Ate5DWhppx-MUOtGNA4S3spT",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Compiler Design Tutorial In Hindi - Complete guide by University Academy.",
+      "year": 2024
+    },
+    {
+      "title": "MIT 6.033 Computer System Engineering, Spring 2005",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/playlist?list=PL6535748F59DCA484",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "MIT 6.033 Computer System Engineering, Spring 2005 - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Architecture and Organisation",
+      "creator": "CH 30: IIT KHARAGPUR 02: Computer Science & Others",
+      "url": "https://www.youtube.com/playlist?list=PL-8LShlBMIjUuI9beQJHZUF14we25NToB",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Computer Architecture and Organisation - Complete guide by CH 30: IIT KHARAGPUR 02: Computer Science & Others.",
+      "year": 2024
+    },
+    {
+      "title": "Spring 2015 -- Computer Architecture Lectures -- Carnegie Mellon",
+      "creator": "Carnegie Mellon Computer Architecture",
+      "url": "https://www.youtube.com/playlist?list=PL5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Spring 2015 -- Computer Architecture Lectures -- Carnegie Mellon - Complete guide by Carnegie Mellon Computer Architecture.",
+      "year": 2024
+    },
+    {
+      "title": "Livestream - Digital Design and Computer Architecture - ETH Zürich (Spring 2025)",
+      "creator": "Onur Mutlu Lectures",
+      "url": "https://www.youtube.com/playlist?list=PL5Q2soXY2Zi9Eo29LMgKVcaydS7V1zZW3",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Livestream - Digital Design and Computer Architecture - ETH Zürich (Spring 2025) - Complete guide by Onur Mutlu Lectures.",
+      "year": 2024
+    },
+    {
+      "title": "Livestream - Computer Architecture (Fall 2025)",
+      "creator": "Onur Mutlu Lectures",
+      "url": "https://www.youtube.com/playlist?list=PL5Q2soXY2Zi8tTLVb-9CUHcfKXLWESjOD",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Livestream - Computer Architecture (Fall 2025) - Complete guide by Onur Mutlu Lectures.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Organization & Architecture (COA)",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRgLLlzdgiTUKULKJPYc0A4q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Computer Organization & Architecture (COA) - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "MIT 6.622 Power Electronics, Spring 2023",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/playlist?list=PLUl4u3cNGP62UTc77mJoubhDELSC8lfR0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "MIT 6.622 Power Electronics, Spring 2023 - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "MIT 6.1200J Mathematics for Computer Science,  Spring 2024",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/playlist?list=PLUl4u3cNGP61VNvICqk2HXJTonnKgAc9d",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "MIT 6.1200J Mathematics for Computer Science,  Spring 2024 - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "Compiler Design",
+      "creator": "THE GATEHUB",
+      "url": "https://www.youtube.com/playlist?list=PL1QH9gyQXfguPNDTsnG90W2kBDQpYLDQr",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Compiler Design - Complete guide by THE GATEHUB.",
+      "year": 2024
+    }
+  ],
+  "articles": [
+    {
+      "title": "Nand2Tetris - Build a Modern Computer from First Principles",
+      "url": "https://www.nand2tetris.org/"
+    },
+    {
+      "title": "Berkeley CS61A - Structure and Interpretation of Computer Programs",
+      "url": "https://cs61a.org/"
+    },
+    {
+      "title": "High Performance Browser Networking (O'Reilly Free Book)",
+      "url": "https://hpbn.co/"
+    },
+    {
+      "title": "Crafting Interpreters by Robert Nystrom",
+      "url": "https://craftinginterpreters.com/"
+    },
+    {
+      "title": "Stanford CS106A - Programming Methodology",
+      "url": "https://see.stanford.edu/Course/CS106A"
+    },
+    {
+      "title": "Computer Systems: A Programmer's Perspective (CS:APP)",
+      "url": "https://csapp.cs.cmu.edu/"
+    }
+  ]
+}

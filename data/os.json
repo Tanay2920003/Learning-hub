@@ -1,52 +1,4082 @@
 {
-    "name": "Operating Systems",
-    "slug": "os",
-    "description": "Understand how operating systems work under the hood",
-    "icon": "https://img.icons8.com/?size=100&id=sZb6d5M15YkZ&format=png&color=000000",
-    "articles": [
-        {
-            "title": "Operating Systems: Three Easy Pieces (OSTEP)",
-            "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/"
-        },
-        {
-            "title": "TutorialsPoint Operating Systems",
-            "url": "https://www.tutorialspoint.com/operating_system/index.htm"
-        },
-        {
-            "title": "MIT OpenCourseWare Operating Systems",
-            "url": "https://ocw.mit.edu/courses/6-828-operating-system-engineering-fall-2012/"
-        }
-    ],
-    "playlists": [
-        {
-            "title": "Operating Systems",
-            "creator": "Neso Academy",
-            "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O",
-            "language": "English",
-            "difficulty": "beginner",
-            "videoCount": 102,
-            "description": "Complete OS course covering processes, memory, and file systems",
-            "year": 2020
-        },
-        {
-            "title": "Operating System (Hindi)",
-            "creator": "Gate Smashers",
-            "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiGz9donHRrE9I3Mwn6XdP8p",
-            "language": "Hindi",
-            "difficulty": "beginner",
-            "videoCount": 91,
-            "description": "GATE-focused OS concepts explained in Hindi",
-            "year": 2021
-        },
-        {
-            "title": "MIT 6.S081 Operating System Engineering",
-            "creator": "MIT OpenCourseWare",
-            "url": "https://www.youtube.com/playlist?list=PLTsf9UeqkReZHXWY9yJvTwLJWYYPcKEqK",
-            "language": "English",
-            "difficulty": "advanced",
-            "videoCount": 23,
-            "description": "MIT's xv6 OS course with hands-on assignments",
-            "year": 2020
-        }
-    ]
+  "name": "Operating Systems",
+  "slug": "os",
+  "description": "Understand how operating systems work under the hood",
+  "icon": "os",
+  "articles": [
+    {
+      "title": "Operating Systems: Three Easy Pieces (OSTEP)",
+      "url": "https://pages.cs.wisc.edu/~remzi/OSTEP/"
+    },
+    {
+      "title": "TutorialsPoint Operating Systems",
+      "url": "https://www.tutorialspoint.com/operating_system/index.htm"
+    },
+    {
+      "title": "MIT OpenCourseWare Operating Systems",
+      "url": "https://ocw.mit.edu/courses/6-828-operating-system-engineering-fall-2012/"
+    },
+    {
+      "title": "MIT 6.828 Operating System Engineering",
+      "url": "https://pdos.csail.mit.edu/6.828/2018/"
+    },
+    {
+      "title": "Linux Journey - Interactive Linux Tutorial",
+      "url": "https://linuxjourney.com/"
+    },
+    {
+      "title": "Writing an OS in Rust by Philipp Oppermann",
+      "url": "https://os.phil-opp.com/"
+    },
+    {
+      "title": "The Linux Command Line by William Shotts",
+      "url": "https://linuxcommand.org/tlcl.php"
+    },
+    {
+      "title": "OverTheWire Wargames for Linux Security",
+      "url": "https://overthewire.org/wargames/"
+    },
+    {
+      "title": "OS Dev Wiki - Build an Operating System",
+      "url": "https://wiki.osdev.org/Main_Page"
+    },
+    {
+      "title": "Explainshell.com - Match Command Arguments to Help",
+      "url": "https://explainshell.com/"
+    },
+    {
+      "title": "Kernel.org - The Linux Kernel Archives",
+      "url": "https://www.kernel.org/"
+    },
+    {
+      "title": "Julia Evans (Bite Size Linux & Networking Zines)",
+      "url": "https://jvns.ca/"
+    },
+    {
+      "title": "Bash Guide for Beginners (TLDP)",
+      "url": "https://tldp.org/LDP/Bash-Beginners-Guide/html/"
+    }
+  ],
+  "playlists": [
+    {
+      "title": "Operating Systems",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 102,
+      "description": "Complete OS course covering processes, memory, and file systems",
+      "year": 2020
+    },
+    {
+      "title": "Operating System (Hindi)",
+      "creator": "Gate Smashers",
+      "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiGz9donHRrE9I3Mwn6XdP8p",
+      "language": "Hindi",
+      "difficulty": "beginner",
+      "videoCount": 91,
+      "description": "GATE-focused OS concepts explained in Hindi",
+      "year": 2021
+    },
+    {
+      "title": "MIT 6.S081 Operating System Engineering",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/playlist?list=PLTsf9UeqkReZHXWY9yJvTwLJWYYPcKEqK",
+      "language": "English",
+      "difficulty": "advanced",
+      "videoCount": 23,
+      "description": "MIT's xv6 OS course with hands-on assignments",
+      "year": 2020
+    },
+    {
+      "title": "Linux Processes, Threads & IPC",
+      "creator": "Jacob Sorber",
+      "url": "https://www.youtube.com/playlist?list=PL9IEJIKnBJjFZxuqyJ9JqVYmuFZHr7CFM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 18,
+      "description": "Practical C and POSIX systems programming covering fork(), exec(), pipes, shared memory, and mutex locks.",
+      "year": 2022
+    },
+    {
+      "title": "You Will Never Struggle With Operating Systems Again  #coding #programming #operatingsystem",
+      "creator": "Volkan Erdogan",
+      "url": "https://www.youtube.com/watch?v=4TLjNS2TKe0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "You Will Never Struggle With Operating Systems Again  #coding #programming #operatingsystem - Complete guide by Volkan Erdogan.",
+      "year": 2024
+    },
+    {
+      "title": "Operating System explained in 50 Seconds!",
+      "creator": "GeeksforGeeks",
+      "url": "https://www.youtube.com/watch?v=Rb5CbUqFUqk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Operating System explained in 50 Seconds! - Complete guide by GeeksforGeeks.",
+      "year": 2024
+    },
+    {
+      "title": "Heap-only zero-kernel OS design",
+      "creator": "Coding Jesus (getcracked.io)",
+      "url": "https://www.youtube.com/watch?v=jftpgbjSLJI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Heap-only zero-kernel OS design - Complete guide by Coding Jesus (getcracked.io).",
+      "year": 2024
+    },
+    {
+      "title": "Basics of OS (Computer System Operation)",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/watch?v=VjPgYcQqqN0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Basics of OS (Computer System Operation) - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Operating Systems",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/watch?v=vBURTt97EkA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to Operating Systems - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Operating Systems Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=yK1uBHPdp30",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Operating Systems Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Operating Systems Course for Placements || New Year Dhamaka",
+      "creator": "CodeHelp - by Babbar",
+      "url": "https://www.youtube.com/watch?v=yHciWUB8EEs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Operating Systems Course for Placements || New Year Dhamaka - Complete guide by CodeHelp - by Babbar.",
+      "year": 2024
+    },
+    {
+      "title": "Types of Operating Systems(Batch, Multiprogramming, Time Sharing, Multiprocessing, Real Time)",
+      "creator": "Jenny's Lectures CS IT",
+      "url": "https://www.youtube.com/watch?v=PY6zEUELn8s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Types of Operating Systems(Batch, Multiprogramming, Time Sharing, Multiprocessing, Real Time) - Complete guide by Jenny's Lectures CS IT.",
+      "year": 2024
+    },
+    {
+      "title": "IT Fundamentals Course – Hardware, Cloud, DevOps, Networking, Security, Databases, DNS, Git, Linux",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=4m9j6hlbf4g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "IT Fundamentals Course – Hardware, Cloud, DevOps, Networking, Security, Databases, DNS, Git, Linux - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "🧑‍💻Programmer tips by Linus Torvalds || creater of linux OS💻",
+      "creator": "Geeky Coder",
+      "url": "https://www.youtube.com/watch?v=RY9HZljOyqA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🧑‍💻Programmer tips by Linus Torvalds || creater of linux OS💻 - Complete guide by Geeky Coder.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Operating System and its Functions | Operating System | Lecture 1",
+      "creator": "Jenny's Lectures CS IT",
+      "url": "https://www.youtube.com/watch?v=RozoeWzT7IM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to Operating System and its Functions | Operating System | Lecture 1 - Complete guide by Jenny's Lectures CS IT.",
+      "year": 2024
+    },
+    {
+      "title": "The best OS book for software engineers #quant #swe",
+      "creator": "Coding Jesus (getcracked.io)",
+      "url": "https://www.youtube.com/watch?v=LGlgsO8eWoc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The best OS book for software engineers #quant #swe - Complete guide by Coding Jesus (getcracked.io).",
+      "year": 2024
+    },
+    {
+      "title": "How to build a simple Operating System",
+      "creator": "Remote Ree",
+      "url": "https://www.youtube.com/watch?v=LgFjqEZ33Yc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to build a simple Operating System - Complete guide by Remote Ree.",
+      "year": 2024
+    },
+    {
+      "title": "Operating Systems SIMPLY EXPLAINED | OS, Kernel, Hypervisor",
+      "creator": "Vishakha Sadhwani",
+      "url": "https://www.youtube.com/watch?v=PQ7ea8U4EiE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Operating Systems SIMPLY EXPLAINED | OS, Kernel, Hypervisor - Complete guide by Vishakha Sadhwani.",
+      "year": 2024
+    },
+    {
+      "title": "Which Home Server OS Should You ACTUALLY Use in 2026…?",
+      "creator": "CORTECH",
+      "url": "https://www.youtube.com/watch?v=aPvOAzl8rJE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Which Home Server OS Should You ACTUALLY Use in 2026…? - Complete guide by CORTECH.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Operating Systems in 1 Shot (With Notes) || For Placement Interviews",
+      "creator": "CodeHelp - by Babbar",
+      "url": "https://www.youtube.com/watch?v=3obEP8eLsCw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete Operating Systems in 1 Shot (With Notes) || For Placement Interviews - Complete guide by CodeHelp - by Babbar.",
+      "year": 2024
+    },
+    {
+      "title": "Os | 🧐operating system in simple word 💎#youtubeshorts #shorts #programming #computerscience",
+      "creator": "ROLEXXX7",
+      "url": "https://www.youtube.com/watch?v=flOA0kZC4Bc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Os | 🧐operating system in simple word 💎#youtubeshorts #shorts #programming #computerscience - Complete guide by ROLEXXX7.",
+      "year": 2024
+    },
+    {
+      "title": "How presenting a project to industry partners got Alison and Cindy invited to GitHub Universe",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=CcQwCGUdRmw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How presenting a project to industry partners got Alison and Cindy invited to GitHub Universe - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Linux – Full Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=sWbUDq4S6Y8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Introduction to Linux – Full Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "L-1.1: Introduction to Operating System and its Functions with English Subtitles",
+      "creator": "Gate Smashers",
+      "url": "https://www.youtube.com/watch?v=WJ-UaAaumNA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "L-1.1: Introduction to Operating System and its Functions with English Subtitles - Complete guide by Gate Smashers.",
+      "year": 2024
+    },
+    {
+      "title": "Lec-0:Operating System Syllabus Discussion for all College/University & Competitive exams (GATE,NET)",
+      "creator": "Gate Smashers",
+      "url": "https://www.youtube.com/watch?v=bkSWJJZNgf8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lec-0:Operating System Syllabus Discussion for all College/University & Competitive exams (GATE,NET) - Complete guide by Gate Smashers.",
+      "year": 2024
+    },
+    {
+      "title": "Day 8 Of Code Daily FreeCodeCamp",
+      "creator": "Akash Kumar",
+      "url": "https://www.youtube.com/watch?v=UyqcIXcLy_s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Day 8 Of Code Daily FreeCodeCamp - Complete guide by Akash Kumar.",
+      "year": 2024
+    },
+    {
+      "title": "Fundamental of Embedded Operating Systems - Udemy Free Course",
+      "creator": "Free Learning",
+      "url": "https://www.youtube.com/watch?v=YbBLvYX7NP0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Fundamental of Embedded Operating Systems - Udemy Free Course - Complete guide by Free Learning.",
+      "year": 2024
+    },
+    {
+      "title": "NPTEL Introduction to Operating Systems Week 2 Assignment Answers | NOC25‑CS94 IIT Madras July 2025",
+      "creator": "A3 EDUCATION",
+      "url": "https://www.youtube.com/watch?v=v1NpjK1iEVA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "NPTEL Introduction to Operating Systems Week 2 Assignment Answers | NOC25‑CS94 IIT Madras July 2025 - Complete guide by A3 EDUCATION.",
+      "year": 2024
+    },
+    {
+      "title": "functions on steriods #coding #computerscience #code #embedded #embeddedsystems #freecodecamp",
+      "creator": "Pius Electronics",
+      "url": "https://www.youtube.com/watch?v=XWPaAdjYjnE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "functions on steriods #coding #computerscience #code #embedded #embeddedsystems #freecodecamp - Complete guide by Pius Electronics.",
+      "year": 2024
+    },
+    {
+      "title": "From not growing up with computers to senior engineer - thanks to Prince of Persia",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=3GqiUg3Ree4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "From not growing up with computers to senior engineer - thanks to Prince of Persia - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Linux Free Course",
+      "creator": "Learn with Imran Afzal",
+      "url": "https://www.youtube.com/watch?v=F21XhmSlMto",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Linux Free Course - Complete guide by Learn with Imran Afzal.",
+      "year": 2024
+    },
+    {
+      "title": "💻 BCC Course | Lecture 2.2: Examples of Operating Systems (Windows, Mac, Android) + Admissions Open",
+      "creator": "3CS Computer Academy | Rahul Kumar",
+      "url": "https://www.youtube.com/watch?v=kiaxcUog-YM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "💻 BCC Course | Lecture 2.2: Examples of Operating Systems (Windows, Mac, Android) + Admissions Open - Complete guide by 3CS Computer Academy | Rahul Kumar.",
+      "year": 2024
+    },
+    {
+      "title": "Freecodecamp just dropped this course early today and hell yeah you may like it",
+      "creator": "Merge Society",
+      "url": "https://www.youtube.com/watch?v=miVlFUlgJ3s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Freecodecamp just dropped this course early today and hell yeah you may like it - Complete guide by Merge Society.",
+      "year": 2024
+    },
+    {
+      "title": "So how do closures work again...?",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=9kKNFP9srjc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "So how do closures work again...? - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 1: What is an Operating System ?",
+      "creator": "CodeHelp - by Babbar",
+      "url": "https://www.youtube.com/watch?v=a1l4MceYHaQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 1: What is an Operating System ? - Complete guide by CodeHelp - by Babbar.",
+      "year": 2024
+    },
+    {
+      "title": "The 50 Most Popular Linux & Terminal Commands - Full Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=ZtqBQ68cfJc",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "The 50 Most Popular Linux & Terminal Commands - Full Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Operating System In One Shot by Anuj Bhaiya 🔥",
+      "creator": "Coding Shuttle by Anuj Bhaiya",
+      "url": "https://www.youtube.com/watch?v=8XBtAjKwCm4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Operating System In One Shot by Anuj Bhaiya 🔥 - Complete guide by Coding Shuttle by Anuj Bhaiya.",
+      "year": 2024
+    },
+    {
+      "title": "Linux Operating System - Crash Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=ROjZy1WbCIA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Linux Operating System - Crash Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Linux Tutorial For Beginners | Complete Linux Course for DevOps",
+      "creator": "CodeWithHarry",
+      "url": "https://www.youtube.com/watch?v=ldgl9Bd3lLg",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Linux Tutorial For Beginners | Complete Linux Course for DevOps - Complete guide by CodeWithHarry.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Operating Systems Placements Course 2022",
+      "creator": "CodeHelp - by Babbar",
+      "url": "https://www.youtube.com/watch?v=_TpOHMCODXo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to Operating Systems Placements Course 2022 - Complete guide by CodeHelp - by Babbar.",
+      "year": 2024
+    },
+    {
+      "title": "Windows Command Line Tutorial - 1 - Introduction to the Command Prompt",
+      "creator": "thenewboston",
+      "url": "https://www.youtube.com/watch?v=MBBWVgE0ewk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Windows Command Line Tutorial - 1 - Introduction to the Command Prompt - Complete guide by thenewboston.",
+      "year": 2024
+    },
+    {
+      "title": "Linux Device Drivers Development Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=iSiyDHobXHA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Linux Device Drivers Development Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Basics 13: Software",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=Rcntg9A3EGw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Computer Basics 13: Software - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Linux Essentials for Ethical Hackers - Full InfoSec Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=1hvVcEhcbLM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Linux Essentials for Ethical Hackers - Full InfoSec Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Networking Fundamentals Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=fQbBPa0ADvs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Computer Networking Fundamentals Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Linux/Mac Terminal Tutorial: Navigating your Filesystem",
+      "creator": "Corey Schafer",
+      "url": "https://www.youtube.com/watch?v=j6vKLJxAKfw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Linux/Mac Terminal Tutorial: Navigating your Filesystem - Complete guide by Corey Schafer.",
+      "year": 2024
+    },
+    {
+      "title": "Every operating system concept in one video…",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=MtxP2pyCvYA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Every operating system concept in one video… - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "before you code, learn how computers work",
+      "creator": "Low Level",
+      "url": "https://www.youtube.com/watch?v=97i2BAUw5Xc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "before you code, learn how computers work - Complete guide by Low Level.",
+      "year": 2024
+    },
+    {
+      "title": "Command Line Basics for Beginners - Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=mABpAI-pCw0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Command Line Basics for Beginners - Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction - The Odin Project",
+      "creator": "Useful Programmer",
+      "url": "https://www.youtube.com/watch?v=riztc9dz19E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction - The Odin Project - Complete guide by Useful Programmer.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Linux & Terminal Commands - Full Course for Beginners",
+      "creator": "Kunal Kushwaha",
+      "url": "https://www.youtube.com/watch?v=iwolPf6kN-k",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Introduction to Linux & Terminal Commands - Full Course for Beginners - Complete guide by Kunal Kushwaha.",
+      "year": 2024
+    },
+    {
+      "title": "FreeCAD Sketch to 3D Solid (Pad + Constraints) [FreeCAD Tutorial 2026 - Part 1]",
+      "creator": "CAD CAM Lessons",
+      "url": "https://www.youtube.com/watch?v=6ZfzcIYEKWw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "FreeCAD Sketch to 3D Solid (Pad + Constraints) [FreeCAD Tutorial 2026 - Part 1] - Complete guide by CAD CAM Lessons.",
+      "year": 2024
+    },
+    {
+      "title": "Install the Latest Termux on Android in 📱 | No Root | Without PlayStore",
+      "creator": "Vector M:",
+      "url": "https://www.youtube.com/watch?v=V1-zzo-tCyI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Install the Latest Termux on Android in 📱 | No Root | Without PlayStore - Complete guide by Vector M:.",
+      "year": 2024
+    },
+    {
+      "title": "What is Virtualization? | Hypervisor Types | Virtual Machines [HINDI]",
+      "creator": "M Prashant",
+      "url": "https://www.youtube.com/watch?v=BNTFJJMh2eU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Virtualization? | Hypervisor Types | Virtual Machines [HINDI] - Complete guide by M Prashant.",
+      "year": 2024
+    },
+    {
+      "title": "What is LINUX for Beginners? Understand Linux Distributions & Kernel [HINDI] | MPrashant",
+      "creator": "M Prashant",
+      "url": "https://www.youtube.com/watch?v=rrw-Pv3rc0E",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "What is LINUX for Beginners? Understand Linux Distributions & Kernel [HINDI] | MPrashant - Complete guide by M Prashant.",
+      "year": 2024
+    },
+    {
+      "title": "Linux Crash Course for Beginners with Labs",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=6WatcfENsOU",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Linux Crash Course for Beginners with Labs - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Mastering the Structure of Linux Commands: A Comprehensive Guide",
+      "creator": "Engineering Digest",
+      "url": "https://www.youtube.com/watch?v=fMrJM7DFA30",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Mastering the Structure of Linux Commands: A Comprehensive Guide - Complete guide by Engineering Digest.",
+      "year": 2024
+    },
+    {
+      "title": "Linux for Beginners in One Video 🔥 100 Commands Explanation [HINDI] | MPrashant",
+      "creator": "M Prashant",
+      "url": "https://www.youtube.com/watch?v=Byx4sgLR88E",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Linux for Beginners in One Video 🔥 100 Commands Explanation [HINDI] | MPrashant - Complete guide by M Prashant.",
+      "year": 2024
+    },
+    {
+      "title": "Linux for Beginners: Your Ultimate Guide to Mastering Linux in 2024",
+      "creator": "Engineering Digest",
+      "url": "https://www.youtube.com/watch?v=bUXuZbU6tYw",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Linux for Beginners: Your Ultimate Guide to Mastering Linux in 2024 - Complete guide by Engineering Digest.",
+      "year": 2024
+    },
+    {
+      "title": "Linux Command Line for Beginners",
+      "creator": "Keep On Coding",
+      "url": "https://www.youtube.com/watch?v=16d2lHc0Pe8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Linux Command Line for Beginners - Complete guide by Keep On Coding.",
+      "year": 2024
+    },
+    {
+      "title": "Linux Server Course - System Configuration and Operation",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=WMy3OzvBWc0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Linux Server Course - System Configuration and Operation - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Beginner's Guide to the Bash Terminal",
+      "creator": "Joe Collins (EzeeLinux)",
+      "url": "https://www.youtube.com/watch?v=oxuRxtrO2Ag",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Beginner's Guide to the Bash Terminal - Complete guide by Joe Collins (EzeeLinux).",
+      "year": 2024
+    },
+    {
+      "title": "The Best Way to Learn Linux",
+      "creator": "CyberFlow",
+      "url": "https://www.youtube.com/watch?v=zIdv2NDRExI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Best Way to Learn Linux - Complete guide by CyberFlow.",
+      "year": 2024
+    },
+    {
+      "title": "I Finally found a Linux distribution for programmers new to Linux",
+      "creator": "typecraft",
+      "url": "https://www.youtube.com/watch?v=g2vcIRavtqY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I Finally found a Linux distribution for programmers new to Linux - Complete guide by typecraft.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Linux - The Full Course",
+      "creator": "Boot dev",
+      "url": "https://www.youtube.com/watch?v=v392lEyM29A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Linux - The Full Course - Complete guide by Boot dev.",
+      "year": 2024
+    },
+    {
+      "title": "Free and Fun websites/games to learn Linux",
+      "creator": "Vicky Mei",
+      "url": "https://www.youtube.com/watch?v=q0gUFoQPo8A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Free and Fun websites/games to learn Linux - Complete guide by Vicky Mei.",
+      "year": 2024
+    },
+    {
+      "title": "Top 5 Linux commands",
+      "creator": "Sahil & Sarra",
+      "url": "https://www.youtube.com/watch?v=dVuvupGu8yQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top 5 Linux commands - Complete guide by Sahil & Sarra.",
+      "year": 2024
+    },
+    {
+      "title": "Linux Commands | Essential Linux Commands Every Beginner Should Know!",
+      "creator": "NA Tech Solutions",
+      "url": "https://www.youtube.com/watch?v=SLkaDcPE_GU",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Linux Commands | Essential Linux Commands Every Beginner Should Know! - Complete guide by NA Tech Solutions.",
+      "year": 2024
+    },
+    {
+      "title": "Essential Linux Command",
+      "creator": "CodewithPrashant ",
+      "url": "https://www.youtube.com/watch?v=WDTcEiqHTSs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Essential Linux Command - Complete guide by CodewithPrashant .",
+      "year": 2024
+    },
+    {
+      "title": "Linux Command Line - Entire Tutorial Series",
+      "creator": "MichaelsTechTutorials",
+      "url": "https://www.youtube.com/watch?v=avg65oY7sj4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Linux Command Line - Entire Tutorial Series - Complete guide by MichaelsTechTutorials.",
+      "year": 2024
+    },
+    {
+      "title": "5 Linux Commands in 24 Seconds (+ 20-Command Cheat Sheet)",
+      "creator": "Dyogo codes",
+      "url": "https://www.youtube.com/watch?v=_MhBvCC7VZg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "5 Linux Commands in 24 Seconds (+ 20-Command Cheat Sheet) - Complete guide by Dyogo codes.",
+      "year": 2024
+    },
+    {
+      "title": "🐧 **Linux Basic Commands for Beginners!** 💻 #Linux #LinuxCommands #LinuxForBeginners",
+      "creator": "TechGurukuls",
+      "url": "https://www.youtube.com/watch?v=rd-SCJ6RP0I",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "🐧 **Linux Basic Commands for Beginners!** 💻 #Linux #LinuxCommands #LinuxForBeginners - Complete guide by TechGurukuls.",
+      "year": 2024
+    },
+    {
+      "title": "Improve Cybersecurity Skills with CTFs - PicoCTF Walkthrough (2018)",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=uIkxsBgkpj8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Improve Cybersecurity Skills with CTFs - PicoCTF Walkthrough (2018) - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Linux Course with Networking and Shell Scripting | Notes Provided",
+      "creator": "Abhishek.Veeramalla",
+      "url": "https://www.youtube.com/watch?v=29eDuMjsEF8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete Linux Course with Networking and Shell Scripting | Notes Provided - Complete guide by Abhishek.Veeramalla.",
+      "year": 2024
+    },
+    {
+      "title": "12 Linux Commands Every Beginner MUST Know! 🐧🔥 | Part 2",
+      "creator": "Linux Basics",
+      "url": "https://www.youtube.com/watch?v=r7w1QF74icA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "12 Linux Commands Every Beginner MUST Know! 🐧🔥 | Part 2 - Complete guide by Linux Basics.",
+      "year": 2024
+    },
+    {
+      "title": "Essential Linux Commands You Need! 🐧💻 | Quick Guide!",
+      "creator": "JasPreet | DevOps & Backend",
+      "url": "https://www.youtube.com/watch?v=6liea4yw8VE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Essential Linux Commands You Need! 🐧💻 | Quick Guide! - Complete guide by JasPreet | DevOps & Backend.",
+      "year": 2024
+    },
+    {
+      "title": "How to Switch to Linux Tutorial",
+      "creator": "Linus Tech Tips",
+      "url": "https://www.youtube.com/watch?v=-022Lx7u4sw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Switch to Linux Tutorial - Complete guide by Linus Tech Tips.",
+      "year": 2024
+    },
+    {
+      "title": "Full Ethical Hacking Course - Network Penetration Testing for Beginners (2019)",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=3Kq1MIfTWCE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Full Ethical Hacking Course - Network Penetration Testing for Beginners (2019) - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "3 Essential Linux Commands",
+      "creator": "IT Lincs Education",
+      "url": "https://www.youtube.com/watch?v=Fgbg7iKnAvs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "3 Essential Linux Commands - Complete guide by IT Lincs Education.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Linux with These Resources 📚🐧",
+      "creator": "GradByte",
+      "url": "https://www.youtube.com/watch?v=RpUgQ4_zpsA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Linux with These Resources 📚🐧 - Complete guide by GradByte.",
+      "year": 2024
+    },
+    {
+      "title": "Linux Command You MUST Know Before Things Break",
+      "creator": "KeepAlive",
+      "url": "https://www.youtube.com/watch?v=6iNFYVv5R00",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Linux Command You MUST Know Before Things Break - Complete guide by KeepAlive.",
+      "year": 2024
+    },
+    {
+      "title": "Kali Linux Terminal Commands & Shortcuts 🔥 | Cybersecurity Complete Guide #shorts",
+      "creator": "Naveen StudyPoint",
+      "url": "https://www.youtube.com/watch?v=QyWpYLa6V6s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kali Linux Terminal Commands & Shortcuts 🔥 | Cybersecurity Complete Guide #shorts - Complete guide by Naveen StudyPoint.",
+      "year": 2024
+    },
+    {
+      "title": "5 Linux Terminal Shortcuts Jo Time Bachate Hain | Daily 5 | RootByte     #linux #linuxcommands",
+      "creator": "RootByte",
+      "url": "https://www.youtube.com/watch?v=h_tudCk6PCY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "5 Linux Terminal Shortcuts Jo Time Bachate Hain | Daily 5 | RootByte     #linux #linuxcommands - Complete guide by RootByte.",
+      "year": 2024
+    },
+    {
+      "title": "Linux #15: The Built-in Manual",
+      "creator": "TerminalCraft",
+      "url": "https://www.youtube.com/watch?v=Mw8a7D4qWs0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Linux #15: The Built-in Manual - Complete guide by TerminalCraft.",
+      "year": 2024
+    },
+    {
+      "title": "\"I'm not smart enough for Linux 🐧\"",
+      "creator": "GradByte",
+      "url": "https://www.youtube.com/watch?v=CssLu4X3tos",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "\"I'm not smart enough for Linux 🐧\" - Complete guide by GradByte.",
+      "year": 2024
+    },
+    {
+      "title": "mkdir Command in Linux 🐧 | Create Folders Easily! #Linux #Shorts",
+      "creator": "TECH SUJAL",
+      "url": "https://www.youtube.com/watch?v=Y_5H_YiLv5c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "mkdir Command in Linux 🐧 | Create Folders Easily! #Linux #Shorts - Complete guide by TECH SUJAL.",
+      "year": 2024
+    },
+    {
+      "title": "Basic Linux Terminal Commands Explained Simply | 2026 Cheat Sheet #kalilinux #linux",
+      "creator": "Pie Coding Schools",
+      "url": "https://www.youtube.com/watch?v=CqQmftCdx9k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Basic Linux Terminal Commands Explained Simply | 2026 Cheat Sheet #kalilinux #linux - Complete guide by Pie Coding Schools.",
+      "year": 2024
+    },
+    {
+      "title": "Linux Fundamentals Practical Pt. 1 | Cyber Security 101 | TheBlackHatPath",
+      "creator": "The BlackHat Path • 9.8M views • 1 hour ago",
+      "url": "https://www.youtube.com/watch?v=ePvTRxn5ko8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Linux Fundamentals Practical Pt. 1 | Cyber Security 101 | TheBlackHatPath - Complete guide by The BlackHat Path • 9.8M views • 1 hour ago.",
+      "year": 2024
+    },
+    {
+      "title": "learn LINUX FAST! Please Subscribe #linux #shorts #hack #technology",
+      "creator": "pr0tag0nist",
+      "url": "https://www.youtube.com/watch?v=D64DPz089zk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "learn LINUX FAST! Please Subscribe #linux #shorts #hack #technology - Complete guide by pr0tag0nist.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Linux Fundamentals Today #linux #devops #learnlinux #rhcsa #careerchange",
+      "creator": "Shea's Tech",
+      "url": "https://www.youtube.com/watch?v=9RN_k6LvqGQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Linux Fundamentals Today #linux #devops #learnlinux #rhcsa #careerchange - Complete guide by Shea's Tech.",
+      "year": 2024
+    },
+    {
+      "title": "basic Linux commands with details  #linux #pc #viral #tcp #command #bignner",
+      "creator": "TechGurukuls",
+      "url": "https://www.youtube.com/watch?v=PNTM5reL_3E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "basic Linux commands with details  #linux #pc #viral #tcp #command #bignner - Complete guide by TechGurukuls.",
+      "year": 2024
+    },
+    {
+      "title": "The Linux Commands That Save Broken Servers",
+      "creator": "DAY 1TO: AM I A DEVOPS GUY?",
+      "url": "https://www.youtube.com/watch?v=-riLy3oJm8E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Linux Commands That Save Broken Servers - Complete guide by DAY 1TO: AM I A DEVOPS GUY?.",
+      "year": 2024
+    },
+    {
+      "title": "3 Linux Terminal Shortcuts That Save Hours #shorts",
+      "creator": "Fix It Faster IT",
+      "url": "https://www.youtube.com/watch?v=Bmcfj19ofCo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "3 Linux Terminal Shortcuts That Save Hours #shorts - Complete guide by Fix It Faster IT.",
+      "year": 2024
+    },
+    {
+      "title": "Bash Scripting Tutorial for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=tK9Oc6AEnR4",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Bash Scripting Tutorial for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "How To Write Bash Scripts In Linux - Complete Guide (Part 1 - Introduction)",
+      "creator": "Learn Linux TV",
+      "url": "https://www.youtube.com/watch?v=2733cRPudvI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How To Write Bash Scripts In Linux - Complete Guide (Part 1 - Introduction) - Complete guide by Learn Linux TV.",
+      "year": 2024
+    },
+    {
+      "title": "Linux commands must know",
+      "creator": "Tech Fairy",
+      "url": "https://www.youtube.com/watch?v=id8ING954H8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Linux commands must know - Complete guide by Tech Fairy.",
+      "year": 2024
+    },
+    {
+      "title": "Master SHELL SCRIPTING in ONE VIDEO 🔥 for Beginners  [HINDI] | MPrashant",
+      "creator": "M Prashant",
+      "url": "https://www.youtube.com/watch?v=TtGM9GfBuok",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Master SHELL SCRIPTING in ONE VIDEO 🔥 for Beginners  [HINDI] | MPrashant - Complete guide by M Prashant.",
+      "year": 2024
+    },
+    {
+      "title": "you need to learn BASH Scripting RIGHT NOW!! // EP 1",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/watch?v=SPwyp2NG-bE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "you need to learn BASH Scripting RIGHT NOW!! // EP 1 - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "A Gentle Introduction to Gradle",
+      "creator": "Develocity",
+      "url": "https://www.youtube.com/watch?v=OFUEb7pLLXw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "A Gentle Introduction to Gradle - Complete guide by Develocity.",
+      "year": 2024
+    },
+    {
+      "title": "How To Write Bash Scripts In Linux - Complete Guide (Part 2 - Hello World)",
+      "creator": "Learn Linux TV",
+      "url": "https://www.youtube.com/watch?v=boqC9QenshY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How To Write Bash Scripts In Linux - Complete Guide (Part 2 - Hello World) - Complete guide by Learn Linux TV.",
+      "year": 2024
+    },
+    {
+      "title": "BASH scripting will change your life",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/watch?v=7qd5sqazD7k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "BASH scripting will change your life - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "Shell Scripting in 20 Minutes - Crash Course | In One Video for Beginners | MPrashant",
+      "creator": "M Prashant",
+      "url": "https://www.youtube.com/watch?v=CeCah9nD9XE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Shell Scripting in 20 Minutes - Crash Course | In One Video for Beginners | MPrashant - Complete guide by M Prashant.",
+      "year": 2024
+    },
+    {
+      "title": "The Complete Bash Scripting Course - Full Length Guide to learning the Bash Shell",
+      "creator": "You Suck at Programming",
+      "url": "https://www.youtube.com/watch?v=Sx9zG7wa4FA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Complete Bash Scripting Course - Full Length Guide to learning the Bash Shell - Complete guide by You Suck at Programming.",
+      "year": 2024
+    },
+    {
+      "title": "Shell Scripting Tutorial for Beginners 1 -  Introduction",
+      "creator": "ProgrammingKnowledge",
+      "url": "https://www.youtube.com/watch?v=cQepf9fY6cE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Shell Scripting Tutorial for Beginners 1 -  Introduction - Complete guide by ProgrammingKnowledge.",
+      "year": 2024
+    },
+    {
+      "title": "Shell Scripting Tutorial for Beginners 2 - using Variables and Comments",
+      "creator": "ProgrammingKnowledge",
+      "url": "https://www.youtube.com/watch?v=vQv4W-JfrmQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Shell Scripting Tutorial for Beginners 2 - using Variables and Comments - Complete guide by ProgrammingKnowledge.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Bash Scripting by Building Five Programs | FreeCodeCamp",
+      "creator": "Landon Schlangen",
+      "url": "https://www.youtube.com/watch?v=TSQ1ed9jFtY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Bash Scripting by Building Five Programs | FreeCodeCamp - Complete guide by Landon Schlangen.",
+      "year": 2024
+    },
+    {
+      "title": "Write your first shell script  | Shell scripting tutorial for beginners in hindi | fortify solutions",
+      "creator": "STAARKEN INFOSEC (Fortify Solutions)",
+      "url": "https://www.youtube.com/watch?v=UWpDhXGO_pE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Write your first shell script  | Shell scripting tutorial for beginners in hindi | fortify solutions - Complete guide by STAARKEN INFOSEC (Fortify Solutions).",
+      "year": 2024
+    },
+    {
+      "title": "Bash in 100 Seconds",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=I4EWvMFj37g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Bash in 100 Seconds - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "Bash scripting tutorial for beginners | learn shell scripting in one video Hindi English | fortify",
+      "creator": "STAARKEN INFOSEC (Fortify Solutions)",
+      "url": "https://www.youtube.com/watch?v=9T2nEXlLy9o",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Bash scripting tutorial for beginners | learn shell scripting in one video Hindi English | fortify - Complete guide by STAARKEN INFOSEC (Fortify Solutions).",
+      "year": 2024
+    },
+    {
+      "title": "Bash Scripting Tutorial for Beginners",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=PNhq_4d-5ek",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Bash Scripting Tutorial for Beginners - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Shell Scripting Course Step-by-Step| Learn Bash from Scratch 2025",
+      "creator": "WsCube Cyber Security",
+      "url": "https://www.youtube.com/watch?v=UpmAN6TNUB0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete Shell Scripting Course Step-by-Step| Learn Bash from Scratch 2025 - Complete guide by WsCube Cyber Security.",
+      "year": 2024
+    },
+    {
+      "title": "Linux Shell Scripting Full Course for Beginners | Bash Scripting Tutorial",
+      "creator": "Learn with Imran Afzal",
+      "url": "https://www.youtube.com/watch?v=szIl8LXSS3s",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Linux Shell Scripting Full Course for Beginners | Bash Scripting Tutorial - Complete guide by Learn with Imran Afzal.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Command Line Interface & Basic Commands for Linux  | Lecture 04 In Hindi",
+      "creator": "ENCODERSPRO",
+      "url": "https://www.youtube.com/watch?v=A0r1nIruijQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to Command Line Interface & Basic Commands for Linux  | Lecture 04 In Hindi - Complete guide by ENCODERSPRO.",
+      "year": 2024
+    },
+    {
+      "title": "Shell Scripting Roadmap 🔥 Learn Bash from Zero to Hero",
+      "creator": "DevOps Mind",
+      "url": "https://www.youtube.com/watch?v=OOaRdDWt6qw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Shell Scripting Roadmap 🔥 Learn Bash from Zero to Hero - Complete guide by DevOps Mind.",
+      "year": 2024
+    },
+    {
+      "title": "If You're Using Bash Scripting, Remember This",
+      "creator": "Code Ryan",
+      "url": "https://www.youtube.com/watch?v=pVxUcvZTWNY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "If You're Using Bash Scripting, Remember This - Complete guide by Code Ryan.",
+      "year": 2024
+    },
+    {
+      "title": "Input & Output handling in Bash Scripting | Lecture 03 In Hindi",
+      "creator": "ENCODERSPRO",
+      "url": "https://www.youtube.com/watch?v=xpX_dvfooPg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Input & Output handling in Bash Scripting | Lecture 03 In Hindi - Complete guide by ENCODERSPRO.",
+      "year": 2024
+    },
+    {
+      "title": "the Linux File System explained in 1,233 seconds // Linux for Hackers // EP 2",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/watch?v=A3G-3hp88mo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "the Linux File System explained in 1,233 seconds // Linux for Hackers // EP 2 - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "WHY am I studying for the Linux+? // CompTIA Linux+ XK0-004",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/watch?v=KxnPtPi6D2c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "WHY am I studying for the Linux+? // CompTIA Linux+ XK0-004 - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "EVERYONE needs to learn LINUX - ft. Raspberry Pi 4",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/watch?v=l9YxTXDiiFY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "EVERYONE needs to learn LINUX - ft. Raspberry Pi 4 - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "Linux for Hackers // EP 1 (FREE Linux course for beginners)",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/watch?v=VbEx7B_PTOE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Linux for Hackers // EP 1 (FREE Linux course for beginners) - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "Linux Doesn’t Have to Be Ugly",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/watch?v=yQ4prIKen74",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Linux Doesn’t Have to Be Ugly - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "Tmux is a LINUX SUPERPOWER",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/watch?v=ONNYnv2DGFo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Tmux is a LINUX SUPERPOWER - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "Why Kali Linux Is Used For Hacking ? | Kali Linux For Ethical Hackers  #Shorts #Simplilearn",
+      "creator": "Simplilearn",
+      "url": "https://www.youtube.com/watch?v=nKHJ1A8vo-I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why Kali Linux Is Used For Hacking ? | Kali Linux For Ethical Hackers  #Shorts #Simplilearn - Complete guide by Simplilearn.",
+      "year": 2024
+    },
+    {
+      "title": "MrBeast asked me to build 100 Rooms",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/watch?v=3JYCjXdW38s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MrBeast asked me to build 100 Rooms - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "Hacking Linux with These Simple Commands Pt:1",
+      "creator": "NetworkChuck Academy",
+      "url": "https://www.youtube.com/watch?v=65Wl0D21U9E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Hacking Linux with These Simple Commands Pt:1 - Complete guide by NetworkChuck Academy.",
+      "year": 2024
+    },
+    {
+      "title": "I had to assemble this laptop. Then I  installed #omarchy on it.",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/watch?v=5zyujD1gDc4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I had to assemble this laptop. Then I  installed #omarchy on it. - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "what Linux Distro are you using??",
+      "creator": "NetworkChuck Academy",
+      "url": "https://www.youtube.com/watch?v=98hbQBcyO7w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "what Linux Distro are you using?? - Complete guide by NetworkChuck Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Hacking Tools",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/watch?v=Wq2g3JxaM3k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Hacking Tools - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "60 Linux Commands you NEED to know (in 10 minutes)",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/watch?v=gd7BXuUQ91w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "60 Linux Commands you NEED to know (in 10 minutes) - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "Windows Took 90 Minutes. Omarchy Took 1.",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/watch?v=6HPG3WGd1wQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Windows Took 90 Minutes. Omarchy Took 1. - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "Omachi: The Linux Desktop We've Waited For! #linux #networkchuck #linuxdesktop",
+      "creator": "Xploits Tech",
+      "url": "https://www.youtube.com/watch?v=jM6l376bI-U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Omachi: The Linux Desktop We've Waited For! #linux #networkchuck #linuxdesktop - Complete guide by Xploits Tech.",
+      "year": 2024
+    },
+    {
+      "title": "How to go from a Hacking noob to a John Hammond",
+      "creator": "NetworkChuck (2)",
+      "url": "https://www.youtube.com/watch?v=2YTT0PqD56E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to go from a Hacking noob to a John Hammond - Complete guide by NetworkChuck (2).",
+      "year": 2024
+    },
+    {
+      "title": "Hacking Linux with These Simple Commands Pt:2",
+      "creator": "NetworkChuck Academy",
+      "url": "https://www.youtube.com/watch?v=axjYYJ9qIms",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Hacking Linux with These Simple Commands Pt:2 - Complete guide by NetworkChuck Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Navigate linux with these commands  #Linux #Linuxcommands",
+      "creator": "NetworkChuck Shorts",
+      "url": "https://www.youtube.com/watch?v=fJ-LKHcMiTM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Navigate linux with these commands  #Linux #Linuxcommands - Complete guide by NetworkChuck Shorts.",
+      "year": 2024
+    },
+    {
+      "title": "How to install programs on linux!!!",
+      "creator": "NetworkChuck Academy",
+      "url": "https://www.youtube.com/watch?v=exGPgSfHs9M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to install programs on linux!!! - Complete guide by NetworkChuck Academy.",
+      "year": 2024
+    },
+    {
+      "title": "can my daughters decode this?!?",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/watch?v=PbDtgXRsCuE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "can my daughters decode this?!? - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "the most POWERFUL automation tool I’ve EVER SEEN! (N8n)",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/watch?v=vtPOBzq4zrs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "the most POWERFUL automation tool I’ve EVER SEEN! (N8n) - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "What Is Linux? Complete Beginner Guide 💡🐧 (Simply Explained)",
+      "creator": "The NextGen Tech",
+      "url": "https://www.youtube.com/watch?v=La3vAcKoj0M",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "What Is Linux? Complete Beginner Guide 💡🐧 (Simply Explained) - Complete guide by The NextGen Tech.",
+      "year": 2024
+    },
+    {
+      "title": "Top Kali Linux Tools You NEED to Try! 💻😈",
+      "creator": "HackScript",
+      "url": "https://www.youtube.com/watch?v=Cj9yhuLeZqM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top Kali Linux Tools You NEED to Try! 💻😈 - Complete guide by HackScript.",
+      "year": 2024
+    },
+    {
+      "title": "Linux Networking Commands Every Cybersecurity Beginner Should Know",
+      "creator": "Peter Ayeni | cybermide",
+      "url": "https://www.youtube.com/watch?v=Xx2jQv32-aQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Linux Networking Commands Every Cybersecurity Beginner Should Know - Complete guide by Peter Ayeni | cybermide.",
+      "year": 2024
+    },
+    {
+      "title": "How to Setup a Raspberry Pi LEARNING Desktop (Linux, Hacking, Coding)",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/watch?v=vbaJcRxASo0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Setup a Raspberry Pi LEARNING Desktop (Linux, Hacking, Coding) - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "Windows has a SECRET MODE??",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/watch?v=mdHHDURM31g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Windows has a SECRET MODE?? - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "You need these skills to become a hacker",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/watch?v=pVFq4opI9gM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "You need these skills to become a hacker - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "is Kali Linux for noobs?",
+      "creator": "NetworkChuck Academy",
+      "url": "https://www.youtube.com/watch?v=oJyorthctwc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "is Kali Linux for noobs? - Complete guide by NetworkChuck Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Linux Fundamentals Part 1 | Cyber Security 101 | TheBlackHatPath",
+      "creator": "The BlackHat Path • 9.8M views • 1 hour ago",
+      "url": "https://www.youtube.com/watch?v=EtyFJY2L3bA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Linux Fundamentals Part 1 | Cyber Security 101 | TheBlackHatPath - Complete guide by The BlackHat Path • 9.8M views • 1 hour ago.",
+      "year": 2024
+    },
+    {
+      "title": "What is a SWITCH? // FREE CCNA // Day 1",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/watch?v=9eH16Fxeb9o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is a SWITCH? // FREE CCNA // Day 1 - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "the Raspberry Pi PHONE SYSTEM! (3CX PBX at home)",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/watch?v=8QyFidVcoLM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "the Raspberry Pi PHONE SYSTEM! (3CX PBX at home) - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "FREE CCNA // What is a Network? // Day 0",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/watch?v=S7MNX_UD7vY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "FREE CCNA // What is a Network? // Day 0 - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "37 INSANE Linux Commands you NEED to Know in 2025",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/watch?v=6P-vjgPx9ww",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "37 INSANE Linux Commands you NEED to Know in 2025 - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "Kali Linux Full Course for Beginners (Zero to Advanced 2026)",
+      "creator": "WsCube Cyber Security",
+      "url": "https://www.youtube.com/watch?v=HKJe3BhQYkE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Kali Linux Full Course for Beginners (Zero to Advanced 2026) - Complete guide by WsCube Cyber Security.",
+      "year": 2024
+    },
+    {
+      "title": "Linux Command Line Tutorial For Beginners 1 - Introduction",
+      "creator": "ProgrammingKnowledge",
+      "url": "https://www.youtube.com/watch?v=YHFzr-akOas",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Linux Command Line Tutorial For Beginners 1 - Introduction - Complete guide by ProgrammingKnowledge.",
+      "year": 2024
+    },
+    {
+      "title": "Linux Command Line Tutorial For Beginners 2 - ls command in Linux",
+      "creator": "ProgrammingKnowledge",
+      "url": "https://www.youtube.com/watch?v=dQ8JgDUS8DA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Linux Command Line Tutorial For Beginners 2 - ls command in Linux - Complete guide by ProgrammingKnowledge.",
+      "year": 2024
+    },
+    {
+      "title": "you need to learn Virtual Machines RIGHT NOW!! (Kali Linux VM, Ubuntu, Windows)",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/watch?v=wX75Z-4MEoM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "you need to learn Virtual Machines RIGHT NOW!! (Kali Linux VM, Ubuntu, Windows) - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "you need to learn HACKING RIGHT NOW!! // CEH (ethical hacking)",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/watch?v=yFC8pb2TPdc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "you need to learn HACKING RIGHT NOW!! // CEH (ethical hacking) - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "Google HACKING (use google search to HACK!)",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/watch?v=hrVa_dhD-iA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Google HACKING (use google search to HACK!) - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "HELP!! (for when you suck at Linux) // Linux for Hackers // EP3",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/watch?v=Y17KTiJLcyQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "HELP!! (for when you suck at Linux) // Linux for Hackers // EP3 - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "How do computers and the internet work? - Computer Science Basics",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=AV_VYsJnHQQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How do computers and the internet work? - Computer Science Basics - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "You need to switch to Linux RIGHT NOW!!",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/watch?v=9SDkU5VDQEQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "You need to switch to Linux RIGHT NOW!! - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "How do computers work? (from scratch, no prior knowledge needed)",
+      "creator": "Milen Patel",
+      "url": "https://www.youtube.com/watch?v=rl0jkP9kOMw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How do computers work? (from scratch, no prior knowledge needed) - Complete guide by Milen Patel.",
+      "year": 2024
+    },
+    {
+      "title": "How does the internet work? (Full Course)",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=zN8YNNHcaZc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How does the internet work? (Full Course) - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Explained 💻 | How Do Computers Work? | Computer Basics for Beginners",
+      "creator": "ScienceScope",
+      "url": "https://www.youtube.com/watch?v=2iIt6DojOuo",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Computer Explained 💻 | How Do Computers Work? | Computer Basics for Beginners - Complete guide by ScienceScope.",
+      "year": 2024
+    },
+    {
+      "title": "How computer understand 0 and 1 🔥",
+      "creator": "ezExplains",
+      "url": "https://www.youtube.com/watch?v=-lwwSvwq3Ec",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How computer understand 0 and 1 🔥 - Complete guide by ezExplains.",
+      "year": 2024
+    },
+    {
+      "title": "How Do Computers Work? @mackharrisonn",
+      "creator": "JuicedItUp",
+      "url": "https://www.youtube.com/watch?v=7fQzAeBUys0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Do Computers Work? @mackharrisonn - Complete guide by JuicedItUp.",
+      "year": 2024
+    },
+    {
+      "title": "How Computers Work - Oversimplified",
+      "creator": "Conner Ardman",
+      "url": "https://www.youtube.com/watch?v=XUPTOqySb-o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Computers Work - Oversimplified - Complete guide by Conner Ardman.",
+      "year": 2024
+    },
+    {
+      "title": "\"I just like computers\" - sounds like reason enough to work in tech, doesn't it?",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=9z_7WC8n5sY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "\"I just like computers\" - sounds like reason enough to work in tech, doesn't it? - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "How does a computer work? कंप्यूटर कैसे काम करता है? #computerlaboratory #electronicresources #viral",
+      "creator": "🍁•Ḁ𝕟ⲁꪀ𝐝• ℰ𝔁𝒸ℯ𝓵 * 𝕋𝕖𝕔𝕙𝕟𝕠𝕝𝕠𝕘𝕪🍁",
+      "url": "https://www.youtube.com/watch?v=83bVYqbrm9M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How does a computer work? कंप्यूटर कैसे काम करता है? #computerlaboratory #electronicresources #viral - Complete guide by 🍁•Ḁ𝕟ⲁꪀ𝐝• ℰ𝔁𝒸ℯ𝓵 * 𝕋𝕖𝕔𝕙𝕟𝕠𝕝𝕠𝕘𝕪🍁.",
+      "year": 2024
+    },
+    {
+      "title": "How Does Your Computer Really Work?",
+      "creator": "Poly Lab",
+      "url": "https://www.youtube.com/watch?v=BFIYll5I3lI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Does Your Computer Really Work? - Complete guide by Poly Lab.",
+      "year": 2024
+    },
+    {
+      "title": "Do you know who the first computer programmer was?",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=LsY7U2Muau8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Do you know who the first computer programmer was? - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "freeCodeCamp curriculum Lightbox Viewer Lab demo",
+      "creator": "freeCodeCamp Shorts",
+      "url": "https://www.youtube.com/watch?v=9vzgaJkVWxk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "freeCodeCamp curriculum Lightbox Viewer Lab demo - Complete guide by freeCodeCamp Shorts.",
+      "year": 2024
+    },
+    {
+      "title": "How do Desktop Computers Work? #pcbuild #computerhardware",
+      "creator": "Branch Education",
+      "url": "https://www.youtube.com/watch?v=F6Z6o2ryViQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How do Desktop Computers Work? #pcbuild #computerhardware - Complete guide by Branch Education.",
+      "year": 2024
+    },
+    {
+      "title": "Internet History, Technology, and Security - Full Course from Dr. Chuck",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=47NRaBVxgVM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Internet History, Technology, and Security - Full Course from Dr. Chuck - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Some upcoming features for freeCodeCamp - Tom talks about daily coding challenges, streaks, & more.",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=zfUP1tIC64o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Some upcoming features for freeCodeCamp - Tom talks about daily coding challenges, streaks, & more. - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Basics: How Data Becomes Everything You See!",
+      "creator": "LearnFree",
+      "url": "https://www.youtube.com/watch?v=KrEcZMW1oIA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Computer Basics: How Data Becomes Everything You See! - Complete guide by LearnFree.",
+      "year": 2024
+    },
+    {
+      "title": "Understanding Computers!",
+      "creator": "LearnFree",
+      "url": "https://www.youtube.com/watch?v=KCrICBse4Cs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Understanding Computers! - Complete guide by LearnFree.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Core Components Explained  CPU, RAM, & Storage",
+      "creator": "LearnFree",
+      "url": "https://www.youtube.com/watch?v=l1hpDe4UAq4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Computer Core Components Explained  CPU, RAM, & Storage - Complete guide by LearnFree.",
+      "year": 2024
+    },
+    {
+      "title": "Learning to code on the job - right in the browser",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=QpGTmAoEINA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learning to code on the job - right in the browser - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Understanding how a computer actually works changes everything. 💻",
+      "creator": "The Tech Academy - Online Coding Bootcamps and Trade School",
+      "url": "https://www.youtube.com/watch?v=NxYeYR_38CA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Understanding how a computer actually works changes everything. 💻 - Complete guide by The Tech Academy - Online Coding Bootcamps and Trade School.",
+      "year": 2024
+    },
+    {
+      "title": "Easiest way to learn software. #software #shorts #freecodecamp #softwaredevelopment #developer",
+      "creator": "Teff",
+      "url": "https://www.youtube.com/watch?v=szVOg3sfRZM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Easiest way to learn software. #software #shorts #freecodecamp #softwaredevelopment #developer - Complete guide by Teff.",
+      "year": 2024
+    },
+    {
+      "title": "Computer Basics 1: The 4 Basic Parts of a Computer",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=q7tlgZg4Q1o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Computer Basics 1: The 4 Basic Parts of a Computer - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Introducing How Computers Work",
+      "creator": "CodeAI",
+      "url": "https://www.youtube.com/watch?v=OAx_6-wdslM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introducing How Computers Work - Complete guide by CodeAI.",
+      "year": 2024
+    },
+    {
+      "title": "How a Computer Works - from silicon to apps",
+      "creator": "Improbable Matter",
+      "url": "https://www.youtube.com/watch?v=5f3NJnvnk7k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How a Computer Works - from silicon to apps - Complete guide by Improbable Matter.",
+      "year": 2024
+    },
+    {
+      "title": "Khan Academy and Code.org | Introducing How Computers Work",
+      "creator": "Khan Academy Partners",
+      "url": "https://www.youtube.com/watch?v=_bVqU4D_MVw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Khan Academy and Code.org | Introducing How Computers Work - Complete guide by Khan Academy Partners.",
+      "year": 2024
+    },
+    {
+      "title": "Khan Academy and Code.org | What Makes a Computer, a Computer?",
+      "creator": "Khan Academy Partners",
+      "url": "https://www.youtube.com/watch?v=xfKn5OjHLqQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Khan Academy and Code.org | What Makes a Computer, a Computer? - Complete guide by Khan Academy Partners.",
+      "year": 2024
+    },
+    {
+      "title": "How Computers Work: What Makes a Computer, a Computer?",
+      "creator": "CodeAI",
+      "url": "https://www.youtube.com/watch?v=mCq8-xTH7jA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Computers Work: What Makes a Computer, a Computer? - Complete guide by CodeAI.",
+      "year": 2024
+    },
+    {
+      "title": "CS162 Lecture 1: What is an Operating System?",
+      "creator": "John Kubiatowicz",
+      "url": "https://www.youtube.com/watch?v=pPzVV2kkGHc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CS162 Lecture 1: What is an Operating System? - Complete guide by John Kubiatowicz.",
+      "year": 2024
+    },
+    {
+      "title": "6 S081 Fall 2020 Lecture 1 Introduction and Examples",
+      "creator": "Haibo Yan",
+      "url": "https://www.youtube.com/watch?v=J3LCzufEYt0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "6 S081 Fall 2020 Lecture 1 Introduction and Examples - Complete guide by Haibo Yan.",
+      "year": 2024
+    },
+    {
+      "title": "How Deep Neural Networks Work - Full Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=dPWYUELwIdM",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "How Deep Neural Networks Work - Full Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 1: Introduction to UNIX System Calls Part 1",
+      "creator": "OsLectures ForAll",
+      "url": "https://www.youtube.com/watch?v=z3Nw5o9dS7Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 1: Introduction to UNIX System Calls Part 1 - Complete guide by OsLectures ForAll.",
+      "year": 2024
+    },
+    {
+      "title": "6 S081 Fall 2020 Lecture 3 OS Organization and System Calls",
+      "creator": "Haibo Yan",
+      "url": "https://www.youtube.com/watch?v=bKfeeIRWrbQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "6 S081 Fall 2020 Lecture 3 OS Organization and System Calls - Complete guide by Haibo Yan.",
+      "year": 2024
+    },
+    {
+      "title": "Quantum Computing Course – Math and Theory for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=tsbCSkvHhMo",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Quantum Computing Course – Math and Theory for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "CS162 Lecture 2: Four Fundamental OS Concepts",
+      "creator": "John Kubiatowicz",
+      "url": "https://www.youtube.com/watch?v=4FpG1DcvHzc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CS162 Lecture 2: Four Fundamental OS Concepts - Complete guide by John Kubiatowicz.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 2: Introduction to UNIX System Calls Part 2",
+      "creator": "OsLectures ForAll",
+      "url": "https://www.youtube.com/watch?v=PsUEyhpi7cA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 2: Introduction to UNIX System Calls Part 2 - Complete guide by OsLectures ForAll.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 1: Introduction",
+      "creator": "MIT 6.824: Distributed Systems",
+      "url": "https://www.youtube.com/watch?v=cQP8WApzIQQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 1: Introduction - Complete guide by MIT 6.824: Distributed Systems.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 2: RPC and Threads",
+      "creator": "MIT 6.824: Distributed Systems",
+      "url": "https://www.youtube.com/watch?v=gA4YXUJX7t8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 2: RPC and Threads - Complete guide by MIT 6.824: Distributed Systems.",
+      "year": 2024
+    },
+    {
+      "title": "The easiest major at MIT 🤡",
+      "creator": "Sarah Wu",
+      "url": "https://www.youtube.com/watch?v=CTwv1pfUH60",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The easiest major at MIT 🤡 - Complete guide by Sarah Wu.",
+      "year": 2024
+    },
+    {
+      "title": "What's the origin story of MIT OpenCourseWare?",
+      "creator": "MIT Open Learning",
+      "url": "https://www.youtube.com/watch?v=CRaYIqQTslM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What's the origin story of MIT OpenCourseWare? - Complete guide by MIT Open Learning.",
+      "year": 2024
+    },
+    {
+      "title": "MIT Professor busted for speeding #shorts",
+      "creator": "MIT Open Learning",
+      "url": "https://www.youtube.com/watch?v=F44pXjjMjPA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MIT Professor busted for speeding #shorts - Complete guide by MIT Open Learning.",
+      "year": 2024
+    },
+    {
+      "title": "1. Introduction, Threat Models",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=GqmQg-cszw4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1. Introduction, Threat Models - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "MIT Built an OS to Study Hidden Chip Behavior",
+      "creator": "No knownX",
+      "url": "https://www.youtube.com/watch?v=X8Trx2cbyTg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MIT Built an OS to Study Hidden Chip Behavior - Complete guide by No knownX.",
+      "year": 2024
+    },
+    {
+      "title": "2. Control Hijacking Attacks",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=r4KjHEgg9Wg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "2. Control Hijacking Attacks - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "5 Free MIT Lectures That Make You Smarter (None Are About AI)",
+      "creator": "Alok Verma",
+      "url": "https://www.youtube.com/watch?v=VQrD_jOCUmA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "5 Free MIT Lectures That Make You Smarter (None Are About AI) - Complete guide by Alok Verma.",
+      "year": 2024
+    },
+    {
+      "title": "MIT OpenCourseWare Review 🎓  Take REAL MIT Classes 100% Free | Full Breakdown #aitools",
+      "creator": "ZAN AI TECH",
+      "url": "https://www.youtube.com/watch?v=TQwX33TRbwU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MIT OpenCourseWare Review 🎓  Take REAL MIT Classes 100% Free | Full Breakdown #aitools - Complete guide by ZAN AI TECH.",
+      "year": 2024
+    },
+    {
+      "title": "You Can Go To MIT For Free",
+      "creator": "Limor Markman",
+      "url": "https://www.youtube.com/watch?v=te4TloVl9ZM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "You Can Go To MIT For Free - Complete guide by Limor Markman.",
+      "year": 2024
+    },
+    {
+      "title": "How I build Robot at MIT (Why not in India?) Ft. Bipasha Sen",
+      "creator": "Singh in USA",
+      "url": "https://www.youtube.com/watch?v=RCFY9Ldb-u4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How I build Robot at MIT (Why not in India?) Ft. Bipasha Sen - Complete guide by Singh in USA.",
+      "year": 2024
+    },
+    {
+      "title": "IIT vs  MIT  Engineering Excellence & Innovation Which Is Better?",
+      "creator": "Chronicle Spectrum",
+      "url": "https://www.youtube.com/watch?v=tQId3YBA1yE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "IIT vs  MIT  Engineering Excellence & Innovation Which Is Better? - Complete guide by Chronicle Spectrum.",
+      "year": 2024
+    },
+    {
+      "title": "What makes us successful — hard work or luck?",
+      "creator": "MIT Open Learning",
+      "url": "https://www.youtube.com/watch?v=m4grejHkOQs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What makes us successful — hard work or luck? - Complete guide by MIT Open Learning.",
+      "year": 2024
+    },
+    {
+      "title": "MIT Just Dropped FREE Courses for Everyone! 🤯 #mit #freecourse #computerscience",
+      "creator": "Code with Patel",
+      "url": "https://www.youtube.com/watch?v=BoID1IR44Xw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MIT Just Dropped FREE Courses for Everyone! 🤯 #mit #freecourse #computerscience - Complete guide by Code with Patel.",
+      "year": 2024
+    },
+    {
+      "title": "How to break things at MIT #shorts",
+      "creator": "MIT Open Learning",
+      "url": "https://www.youtube.com/watch?v=nqbMhh355R4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to break things at MIT #shorts - Complete guide by MIT Open Learning.",
+      "year": 2024
+    },
+    {
+      "title": "5 Free Resources to Learn Operating Systems + Get My Book on Selar!#freelearning  #operatingsystem💻",
+      "creator": "Lambo code Academy",
+      "url": "https://www.youtube.com/watch?v=Vr6uPfphoTo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "5 Free Resources to Learn Operating Systems + Get My Book on Selar!#freelearning  #operatingsystem💻 - Complete guide by Lambo code Academy.",
+      "year": 2024
+    },
+    {
+      "title": "This is MIT",
+      "creator": "Massachusetts Institute of Technology (MIT)",
+      "url": "https://www.youtube.com/watch?v=ZbFHYYR0ItM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "This is MIT - Complete guide by Massachusetts Institute of Technology (MIT).",
+      "year": 2024
+    },
+    {
+      "title": "MIT OpenCourseWare in 5 minutes 🏃‍♂️💨 #studytips #studymotivation #studyinspo",
+      "creator": "studiedwithme",
+      "url": "https://www.youtube.com/watch?v=yNXpTlZLlRc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MIT OpenCourseWare in 5 minutes 🏃‍♂️💨 #studytips #studymotivation #studyinspo - Complete guide by studiedwithme.",
+      "year": 2024
+    },
+    {
+      "title": "MIT Lectures for FREE??",
+      "creator": "Aaron Geurts",
+      "url": "https://www.youtube.com/watch?v=y59pXM4HtuU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MIT Lectures for FREE?? - Complete guide by Aaron Geurts.",
+      "year": 2024
+    },
+    {
+      "title": "Operating System Complete Guide 🔥|All Important Concepts, Formulas & Questions | OS Exam Preparation",
+      "creator": "Naveen StudyPoint",
+      "url": "https://www.youtube.com/watch?v=Hs-jS0Mxgjg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Operating System Complete Guide 🔥|All Important Concepts, Formulas & Questions | OS Exam Preparation - Complete guide by Naveen StudyPoint.",
+      "year": 2024
+    },
+    {
+      "title": "How to Learn AI From Scratch With MIT OpenCourseWare",
+      "creator": "Anurag Builds",
+      "url": "https://www.youtube.com/watch?v=3lYVB_9gOjo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Learn AI From Scratch With MIT OpenCourseWare - Complete guide by Anurag Builds.",
+      "year": 2024
+    },
+    {
+      "title": "Meet the Educator",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=MOdNzHR_tck",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Meet the Educator - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "Course Design and Orienting Students with the \"V Model\"",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=Wc0PmAIEUhM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Course Design and Orienting Students with the \"V Model\" - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "MIT OpenCourseWare #coding #computerscience #python #oops #immigrants #jobhunt 🔥 🔥",
+      "creator": "Sai Raghuram Kothapalli",
+      "url": "https://www.youtube.com/watch?v=_Mhg-Una-6g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MIT OpenCourseWare #coding #computerscience #python #oops #immigrants #jobhunt 🔥 🔥 - Complete guide by Sai Raghuram Kothapalli.",
+      "year": 2024
+    },
+    {
+      "title": "8.01SC Classical Mechanics Introduction",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=F3N5EkMX_ks",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "8.01SC Classical Mechanics Introduction - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "2. Bentley Rules for Optimizing Work",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=H-1-X9bkop8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "2. Bentley Rules for Optimizing Work - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "6.828 Lecture 4: Shell & OS Organization",
+      "creator": "Pedro Cattori",
+      "url": "https://www.youtube.com/watch?v=kDRHsNauoxk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "6.828 Lecture 4: Shell & OS Organization - Complete guide by Pedro Cattori.",
+      "year": 2024
+    },
+    {
+      "title": "1. Introduction and Matrix Multiplication",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=o7h_sYMk_oc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1. Introduction and Matrix Multiplication - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "You Can Go To MIT For Free",
+      "creator": "Limor Markman",
+      "url": "https://www.youtube.com/watch?v=t5-hk1TSJyE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "You Can Go To MIT For Free - Complete guide by Limor Markman.",
+      "year": 2024
+    },
+    {
+      "title": "6.828 Lecture 5: Isolation Mechanisms",
+      "creator": "Pedro Cattori",
+      "url": "https://www.youtube.com/watch?v=rXgzAfJampc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "6.828 Lecture 5: Isolation Mechanisms - Complete guide by Pedro Cattori.",
+      "year": 2024
+    },
+    {
+      "title": "6.566 Spring 2026 Lecture 1: Introduction",
+      "creator": "Nickolai Zeldovich",
+      "url": "https://www.youtube.com/watch?v=-Z-Z_lmA7nE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "6.566 Spring 2026 Lecture 1: Introduction - Complete guide by Nickolai Zeldovich.",
+      "year": 2024
+    },
+    {
+      "title": "0.1 Vectors vs. Scalars",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=5ucfHd8FWKw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "0.1 Vectors vs. Scalars - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "1.2.1 What is Information?",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=R0tFDXBZvKI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1.2.1 What is Information? - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "6.566 Spring 2026 Lecture 2: OS and VM isolation",
+      "creator": "Nickolai Zeldovich",
+      "url": "https://www.youtube.com/watch?v=qwSPXRBp-XQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "6.566 Spring 2026 Lecture 2: OS and VM isolation - Complete guide by Nickolai Zeldovich.",
+      "year": 2024
+    },
+    {
+      "title": "Operating Systems Lecture 1: Introduction",
+      "creator": "Mythili Vutukuru",
+      "url": "https://www.youtube.com/watch?v=aCJ3YgoolHQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Operating Systems Lecture 1: Introduction - Complete guide by Mythili Vutukuru.",
+      "year": 2024
+    },
+    {
+      "title": "1.2.2 Quantifying Information",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=qyBuzeUYs2M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1.2.2 Quantifying Information - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "1. Signals and Systems",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=-FHm2pQmiSM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1. Signals and Systems - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "2. Discrete-Time (DT) Systems",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=Ih4s5IFphCw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "2. Discrete-Time (DT) Systems - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 1: Introduction",
+      "creator": "UMass OS",
+      "url": "https://www.youtube.com/watch?v=dv4mXBsv6TI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 1: Introduction - Complete guide by UMass OS.",
+      "year": 2024
+    },
+    {
+      "title": "Course Introduction | MIT 18.06SC Linear Algebra",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=YeyrH-Oc2p4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Course Introduction | MIT 18.06SC Linear Algebra - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "Basics of Concurrency, Threads, Process C++ | Multi Threading 1",
+      "creator": "Sahil Batra",
+      "url": "https://www.youtube.com/watch?v=HjIpFuQpCkM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Basics of Concurrency, Threads, Process C++ | Multi Threading 1 - Complete guide by Sahil Batra.",
+      "year": 2024
+    },
+    {
+      "title": "Operating Systems Lecture 2: Process Abstraction",
+      "creator": "Mythili Vutukuru",
+      "url": "https://www.youtube.com/watch?v=lIZN6UgoxOc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Operating Systems Lecture 2: Process Abstraction - Complete guide by Mythili Vutukuru.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 2: OS and Architecture",
+      "creator": "UMass OS",
+      "url": "https://www.youtube.com/watch?v=Nc6KKSv_Ljc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 2: OS and Architecture - Complete guide by UMass OS.",
+      "year": 2024
+    },
+    {
+      "title": "An Interview with Gilbert Strang on Teaching Linear Algebra",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=7UJ4CFRGd-U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "An Interview with Gilbert Strang on Teaching Linear Algebra - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "Hello World using Multi-Threading in C++ | Multi-Threading 2",
+      "creator": "Sahil Batra",
+      "url": "https://www.youtube.com/watch?v=zOnQdxALxIM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Hello World using Multi-Threading in C++ | Multi-Threading 2 - Complete guide by Sahil Batra.",
+      "year": 2024
+    },
+    {
+      "title": "L-02: Program vs Process vs Thread | Build Your Multithreading Foundation",
+      "creator": "Karan IITgn",
+      "url": "https://www.youtube.com/watch?v=nziK4OZ_bjA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "L-02: Program vs Process vs Thread | Build Your Multithreading Foundation - Complete guide by Karan IITgn.",
+      "year": 2024
+    },
+    {
+      "title": "L-01: Mastering C++ Multithreading | Roadmap & Course Overview",
+      "creator": "Karan IITgn",
+      "url": "https://www.youtube.com/watch?v=5J_BWbCR9Ek",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "L-01: Mastering C++ Multithreading | Roadmap & Course Overview - Complete guide by Karan IITgn.",
+      "year": 2024
+    },
+    {
+      "title": "Using volatile vs AtomicInteger in Java concurrency",
+      "creator": "Defog Tech",
+      "url": "https://www.youtube.com/watch?v=WH5UvQJizH0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Using volatile vs AtomicInteger in Java concurrency - Complete guide by Defog Tech.",
+      "year": 2024
+    },
+    {
+      "title": "ThreadLocal in Java",
+      "creator": "Defog Tech",
+      "url": "https://www.youtube.com/watch?v=sjMe9aecW_A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "ThreadLocal in Java - Complete guide by Defog Tech.",
+      "year": 2024
+    },
+    {
+      "title": "How Multithreading Actually Works ⚙️ Concurrency vs Parallelism Explained #shorts",
+      "creator": "CodeWithRick",
+      "url": "https://www.youtube.com/watch?v=5BkvdqtQJBY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Multithreading Actually Works ⚙️ Concurrency vs Parallelism Explained #shorts - Complete guide by CodeWithRick.",
+      "year": 2024
+    },
+    {
+      "title": "FAANG SWE: \"What's multi-threading?\"",
+      "creator": "Coding Jesus (getcracked.io)",
+      "url": "https://www.youtube.com/watch?v=N5JVONdecWo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "FAANG SWE: \"What's multi-threading?\" - Complete guide by Coding Jesus (getcracked.io).",
+      "year": 2024
+    },
+    {
+      "title": "Multithreading Is NOT What You Think",
+      "creator": "Philipp Lackner",
+      "url": "https://www.youtube.com/watch?v=JDiNVRd0sWY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Multithreading Is NOT What You Think - Complete guide by Philipp Lackner.",
+      "year": 2024
+    },
+    {
+      "title": "java concurrency battle #shorts #cyclic",
+      "creator": "optimizefirst",
+      "url": "https://www.youtube.com/watch?v=PDcSrgfF_eM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "java concurrency battle #shorts #cyclic - Complete guide by optimizefirst.",
+      "year": 2024
+    },
+    {
+      "title": "Multithreading",
+      "creator": "GodfredTech",
+      "url": "https://www.youtube.com/watch?v=lvdKvb6tvh4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Multithreading - Complete guide by GodfredTech.",
+      "year": 2024
+    },
+    {
+      "title": "Why Two Healthy Threads Freeze Your Server Forever! 🔓 #shorts",
+      "creator": "CodeOrbit",
+      "url": "https://www.youtube.com/watch?v=xwfKJr7S3vE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why Two Healthy Threads Freeze Your Server Forever! 🔓 #shorts - Complete guide by CodeOrbit.",
+      "year": 2024
+    },
+    {
+      "title": "Python Multithreading vs Multiprocessing Explained in 60 Seconds! 🚀 #Shorts",
+      "creator": "AIARCHITECTLAB",
+      "url": "https://www.youtube.com/watch?v=_WLYZnxjNls",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Python Multithreading vs Multiprocessing Explained in 60 Seconds! 🚀 #Shorts - Complete guide by AIARCHITECTLAB.",
+      "year": 2024
+    },
+    {
+      "title": "Concurrency and Multithreading in Java - an overview (Hindi)",
+      "creator": "CodeWithAni",
+      "url": "https://www.youtube.com/watch?v=0OQpIHgZJhU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Concurrency and Multithreading in Java - an overview (Hindi) - Complete guide by CodeWithAni.",
+      "year": 2024
+    },
+    {
+      "title": "CorePoolSize vs MaximumPoolSize in a Thread Pool | #java #concurrency #multithreading #coding",
+      "creator": "Programming Tutorials",
+      "url": "https://www.youtube.com/watch?v=EFe39zkX0uA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CorePoolSize vs MaximumPoolSize in a Thread Pool | #java #concurrency #multithreading #coding - Complete guide by Programming Tutorials.",
+      "year": 2024
+    },
+    {
+      "title": "You are GUARANTEED to get asked this in a multithreading round",
+      "creator": "Coding Jesus (getcracked.io)",
+      "url": "https://www.youtube.com/watch?v=EC1vST7YuMg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "You are GUARANTEED to get asked this in a multithreading round - Complete guide by Coding Jesus (getcracked.io).",
+      "year": 2024
+    },
+    {
+      "title": "CPU Core and Concurrency Explained for Beginners | Multithreading",
+      "creator": "ByteMonk",
+      "url": "https://www.youtube.com/watch?v=3Lzubtz9SUY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "CPU Core and Concurrency Explained for Beginners | Multithreading - Complete guide by ByteMonk.",
+      "year": 2024
+    },
+    {
+      "title": "Difference between #concurrency & #multithreading #multithreadinginjava #javainterviewquestions",
+      "creator": "SPS Tech | Learn Java | Empower Yourself ",
+      "url": "https://www.youtube.com/watch?v=Q2Az3APrTK0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Difference between #concurrency & #multithreading #multithreadinginjava #javainterviewquestions - Complete guide by SPS Tech | Learn Java | Empower Yourself .",
+      "year": 2024
+    },
+    {
+      "title": "The ABCs of Concurrency: Process, Thread, and Coroutine | Concurrency vs Parallelism Explained",
+      "creator": "Crusader Codes",
+      "url": "https://www.youtube.com/watch?v=F9-7epejL64",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The ABCs of Concurrency: Process, Thread, and Coroutine | Concurrency vs Parallelism Explained - Complete guide by Crusader Codes.",
+      "year": 2024
+    },
+    {
+      "title": "How Can One Program Do Multiple Tasks? 🧵 Multithreading Explained",
+      "creator": "DevByte",
+      "url": "https://www.youtube.com/watch?v=CWo-9XXj5C8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Can One Program Do Multiple Tasks? 🧵 Multithreading Explained - Complete guide by DevByte.",
+      "year": 2024
+    },
+    {
+      "title": "HashMap vs ConcurrentHashMap — Part 1: Why Your Count Comes Out Wrong",
+      "creator": "Interview Prep Hub",
+      "url": "https://www.youtube.com/watch?v=u9MqYup-JNo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "HashMap vs ConcurrentHashMap — Part 1: Why Your Count Comes Out Wrong - Complete guide by Interview Prep Hub.",
+      "year": 2024
+    },
+    {
+      "title": "What is Deadlock in Multithreading? #java #interview #interviewtips",
+      "creator": "Abhishek Verma",
+      "url": "https://www.youtube.com/watch?v=0Q771uk11qw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Deadlock in Multithreading? #java #interview #interviewtips - Complete guide by Abhishek Verma.",
+      "year": 2024
+    },
+    {
+      "title": "How to Deal With Concurrency in Python",
+      "creator": "ArjanCodes",
+      "url": "https://www.youtube.com/watch?v=Er87Vv9zPa8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Deal With Concurrency in Python - Complete guide by ArjanCodes.",
+      "year": 2024
+    },
+    {
+      "title": "Why Threads Are Lighter Than Processes | Thread vs Process Explained | Core Java",
+      "creator": "WebNestStudio",
+      "url": "https://www.youtube.com/watch?v=7WHcFvw8k8o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why Threads Are Lighter Than Processes | Thread vs Process Explained | Core Java - Complete guide by WebNestStudio.",
+      "year": 2024
+    },
+    {
+      "title": "Why count++ breaks with two threads (race condition) #programming #shorts",
+      "creator": "Codey Dev",
+      "url": "https://www.youtube.com/watch?v=gTmqoZfrqw4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why count++ breaks with two threads (race condition) #programming #shorts - Complete guide by Codey Dev.",
+      "year": 2024
+    },
+    {
+      "title": "Java Multithreading in One Shot | Thread | Runnable | Callable | ExecutorService | CompletableFuture",
+      "creator": "The Curious Coder",
+      "url": "https://www.youtube.com/watch?v=cEhuoI9x7F4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java Multithreading in One Shot | Thread | Runnable | Callable | ExecutorService | CompletableFuture - Complete guide by The Curious Coder.",
+      "year": 2024
+    },
+    {
+      "title": "Process vs Threads: Understanding Multithreading in Java - Interview Preparation Guide",
+      "creator": "Code With Ease - By Varsha",
+      "url": "https://www.youtube.com/watch?v=21Vu1xZ2IPM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Process vs Threads: Understanding Multithreading in Java - Interview Preparation Guide - Complete guide by Code With Ease - By Varsha.",
+      "year": 2024
+    },
+    {
+      "title": "Thread pools and Executors - Execution (Hindi)",
+      "creator": "CodeWithAni",
+      "url": "https://www.youtube.com/watch?v=grq_iydCl9k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Thread pools and Executors - Execution (Hindi) - Complete guide by CodeWithAni.",
+      "year": 2024
+    },
+    {
+      "title": "Threading Tutorial #1 - Concurrency, Threading and Parallelism Explained",
+      "creator": "Tech With Tim",
+      "url": "https://www.youtube.com/watch?v=olYdb0DdGtM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Threading Tutorial #1 - Concurrency, Threading and Parallelism Explained - Complete guide by Tech With Tim.",
+      "year": 2024
+    },
+    {
+      "title": "Concurrent Data Structures (Hindi)",
+      "creator": "CodeWithAni",
+      "url": "https://www.youtube.com/watch?v=NM16_8UWDQ4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Concurrent Data Structures (Hindi) - Complete guide by CodeWithAni.",
+      "year": 2024
+    },
+    {
+      "title": "Core JAVA :Why multithreading is so important? - Java Interview Question",
+      "creator": "Code With Ease - By Varsha",
+      "url": "https://www.youtube.com/watch?v=JmFlix2jG9I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Core JAVA :Why multithreading is so important? - Java Interview Question - Complete guide by Code With Ease - By Varsha.",
+      "year": 2024
+    },
+    {
+      "title": "8-bit computer update",
+      "creator": "Ben Eater",
+      "url": "https://www.youtube.com/watch?v=HyznrdDSSGM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "8-bit computer update - Complete guide by Ben Eater.",
+      "year": 2024
+    },
+    {
+      "title": "Astable 555 timer - 8-bit computer clock - part 1",
+      "creator": "Ben Eater",
+      "url": "https://www.youtube.com/watch?v=kRlSFm519Bo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Astable 555 timer - 8-bit computer clock - part 1 - Complete guide by Ben Eater.",
+      "year": 2024
+    },
+    {
+      "title": "Programming my 8-bit breadboard computer",
+      "creator": "Ben Eater",
+      "url": "https://www.youtube.com/watch?v=9PPrrSyubG0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Programming my 8-bit breadboard computer - Complete guide by Ben Eater.",
+      "year": 2024
+    },
+    {
+      "title": "8-bit Breadboard Computer running a multiplication program",
+      "creator": "Muhammad Abdulaziz",
+      "url": "https://www.youtube.com/watch?v=bXKScxprax0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "8-bit Breadboard Computer running a multiplication program - Complete guide by Muhammad Abdulaziz.",
+      "year": 2024
+    },
+    {
+      "title": "8 bit Computer Ben Eater Inspired",
+      "creator": "Alok Kumar",
+      "url": "https://www.youtube.com/watch?v=-adrxTXYRFA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "8 bit Computer Ben Eater Inspired - Complete guide by Alok Kumar.",
+      "year": 2024
+    },
+    {
+      "title": "Mega UPDATE  8BIT COMPUTER  IN BAFT",
+      "creator": "Rift!",
+      "url": "https://www.youtube.com/watch?v=4-jbWjjvmwg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Mega UPDATE  8BIT COMPUTER  IN BAFT - Complete guide by Rift!.",
+      "year": 2024
+    },
+    {
+      "title": "BOOM! Ben Eater Doom! This is how Doom looks on the Worlds Worst Video card! 100 x 64  x 64 Colors!",
+      "creator": "NormalLuser",
+      "url": "https://www.youtube.com/watch?v=ziUDhhmFCr8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "BOOM! Ben Eater Doom! This is how Doom looks on the Worlds Worst Video card! 100 x 64  x 64 Colors! - Complete guide by NormalLuser.",
+      "year": 2024
+    },
+    {
+      "title": "Why build an entire computer on breadboards?",
+      "creator": "Ben Eater",
+      "url": "https://www.youtube.com/watch?v=fCbAafKLqC8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why build an entire computer on breadboards? - Complete guide by Ben Eater.",
+      "year": 2024
+    },
+    {
+      "title": "SAP-1 8-bit Breadboard Computer",
+      "creator": "Kin",
+      "url": "https://www.youtube.com/watch?v=4pfi_eUA4II",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SAP-1 8-bit Breadboard Computer - Complete guide by Kin.",
+      "year": 2024
+    },
+    {
+      "title": "How do CPUs read machine code? — 6502 part 2",
+      "creator": "Ben Eater",
+      "url": "https://www.youtube.com/watch?v=yl8vPW5hydQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How do CPUs read machine code? — 6502 part 2 - Complete guide by Ben Eater.",
+      "year": 2024
+    },
+    {
+      "title": "“Hello, world” from scratch on a 6502 — Part 1",
+      "creator": "Ben Eater",
+      "url": "https://www.youtube.com/watch?v=LnzuMJLZRdU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "“Hello, world” from scratch on a 6502 — Part 1 - Complete guide by Ben Eater.",
+      "year": 2024
+    },
+    {
+      "title": "How My 8-Bit Breadboard CPU Plays Animations",
+      "creator": "Fadil Isamotu",
+      "url": "https://www.youtube.com/watch?v=1iZmbTiBT4A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How My 8-Bit Breadboard CPU Plays Animations - Complete guide by Fadil Isamotu.",
+      "year": 2024
+    },
+    {
+      "title": "I made an 8bit CPU inside of Minecraft! | #redstone",
+      "creator": "Wueffi",
+      "url": "https://www.youtube.com/watch?v=VEaiZNzpMSU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I made an 8bit CPU inside of Minecraft! | #redstone - Complete guide by Wueffi.",
+      "year": 2024
+    },
+    {
+      "title": "A Quick Look at My 8-Bit Computer Build  #Shorts",
+      "creator": "Anonymous_Hobby_member",
+      "url": "https://www.youtube.com/watch?v=OZwCPP4JdAs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "A Quick Look at My 8-Bit Computer Build  #Shorts - Complete guide by Anonymous_Hobby_member.",
+      "year": 2024
+    },
+    {
+      "title": "Running a Program on my Breadboard Computer",
+      "creator": "ThinMatrix",
+      "url": "https://www.youtube.com/watch?v=zRXPlUYzNBM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Running a Program on my Breadboard Computer - Complete guide by ThinMatrix.",
+      "year": 2024
+    },
+    {
+      "title": "Modular 8-Bit Computer - Fibonacci Sequence",
+      "creator": "Et In Arcadia Ego",
+      "url": "https://www.youtube.com/watch?v=PAj76GshEOw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Modular 8-Bit Computer - Fibonacci Sequence - Complete guide by Et In Arcadia Ego.",
+      "year": 2024
+    },
+    {
+      "title": "My Relay Computer is finally Turing complete! #soldering #relay #8bit #computer #electromechanical",
+      "creator": "Paul Law",
+      "url": "https://www.youtube.com/watch?v=SApNgRB1lVU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "My Relay Computer is finally Turing complete! #soldering #relay #8bit #computer #electromechanical - Complete guide by Paul Law.",
+      "year": 2024
+    },
+    {
+      "title": "Multiplication Program on 8-bit computer.@BenEater inspired 8-bit computer.#breadboard",
+      "creator": "Creativerse",
+      "url": "https://www.youtube.com/watch?v=9SEe74fOQXc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Multiplication Program on 8-bit computer.@BenEater inspired 8-bit computer.#breadboard - Complete guide by Creativerse.",
+      "year": 2024
+    },
+    {
+      "title": "Ben Eater 8 bit computer running simple programs with microcode",
+      "creator": "Wild West Cybersecurity ",
+      "url": "https://www.youtube.com/watch?v=X5FJeA2nLDk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ben Eater 8 bit computer running simple programs with microcode - Complete guide by Wild West Cybersecurity .",
+      "year": 2024
+    },
+    {
+      "title": "Knex Mechanical Computer - ALU Testing",
+      "creator": "Shadowman39",
+      "url": "https://www.youtube.com/watch?v=besXNElxc2o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Knex Mechanical Computer - ALU Testing - Complete guide by Shadowman39.",
+      "year": 2024
+    },
+    {
+      "title": "Building an 8-Bit Computer from Scratch | Calm Workshop Build",
+      "creator": "Anonymous_Hobby_member",
+      "url": "https://www.youtube.com/watch?v=_MOK4ibI1zY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Building an 8-Bit Computer from Scratch | Calm Workshop Build - Complete guide by Anonymous_Hobby_member.",
+      "year": 2024
+    },
+    {
+      "title": "Twins 👶👶 start 8-bit single-board computer 💻. Want to play like them? #8bit  #diyelectronics",
+      "creator": "SmartyKit | Computing Unboxed",
+      "url": "https://www.youtube.com/watch?v=5uuqmdhPWZA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Twins 👶👶 start 8-bit single-board computer 💻. Want to play like them? #8bit  #diyelectronics - Complete guide by SmartyKit | Computing Unboxed.",
+      "year": 2024
+    },
+    {
+      "title": "Ben Eater 8 bit computer",
+      "creator": "Terry Duffy",
+      "url": "https://www.youtube.com/watch?v=7KVklXlQyms",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ben Eater 8 bit computer - Complete guide by Terry Duffy.",
+      "year": 2024
+    },
+    {
+      "title": "Partially complete 8bit computer based off Ben Eaters computer",
+      "creator": "SiggyPony",
+      "url": "https://www.youtube.com/watch?v=W3MxCRiaYKY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Partially complete 8bit computer based off Ben Eaters computer - Complete guide by SiggyPony.",
+      "year": 2024
+    },
+    {
+      "title": "I Built A Homemade CPU!",
+      "creator": "Big Chaks",
+      "url": "https://www.youtube.com/watch?v=THoQecdLTlA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I Built A Homemade CPU! - Complete guide by Big Chaks.",
+      "year": 2024
+    },
+    {
+      "title": "7 Segment Output Display Ben Eater's 8 bit computer test",
+      "creator": "Wild West Cybersecurity ",
+      "url": "https://www.youtube.com/watch?v=gRzkzZLDbOo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "7 Segment Output Display Ben Eater's 8 bit computer test - Complete guide by Wild West Cybersecurity .",
+      "year": 2024
+    },
+    {
+      "title": "Ben Eaters 6502 computer!",
+      "creator": "denton",
+      "url": "https://www.youtube.com/watch?v=p-ane9sLR64",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ben Eaters 6502 computer! - Complete guide by denton.",
+      "year": 2024
+    },
+    {
+      "title": "I built Ben Eater's 8-BIT Computer in Logisim. #computerhardware #logicgates",
+      "creator": "Ajax",
+      "url": "https://www.youtube.com/watch?v=b7w3Jgeyypg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I built Ben Eater's 8-BIT Computer in Logisim. #computerhardware #logicgates - Complete guide by Ajax.",
+      "year": 2024
+    },
+    {
+      "title": "I Built a Subleq Processor from Scratch!  #diy #8bit #computers",
+      "creator": "Polymath Unlimited",
+      "url": "https://www.youtube.com/watch?v=Ky8Nj3kYvfw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I Built a Subleq Processor from Scratch!  #diy #8bit #computers - Complete guide by Polymath Unlimited.",
+      "year": 2024
+    },
+    {
+      "title": "Build an 8-bit decimal display for our 8-bit computer",
+      "creator": "Ben Eater",
+      "url": "https://www.youtube.com/watch?v=dLh1n2dErzE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build an 8-bit decimal display for our 8-bit computer - Complete guide by Ben Eater.",
+      "year": 2024
+    },
+    {
+      "title": "16-Bit Breadboard computer and VGA output",
+      "creator": "Spacetronics",
+      "url": "https://www.youtube.com/watch?v=_hUIdWw5hLg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "16-Bit Breadboard computer and VGA output - Complete guide by Spacetronics.",
+      "year": 2024
+    },
+    {
+      "title": "“Hello” on a DIY 8-bit CPU #CPU #DIY #computer #engineering #singleboardcomputer",
+      "creator": "Jake Watson",
+      "url": "https://www.youtube.com/watch?v=qPCMEkr33vc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "“Hello” on a DIY 8-bit CPU #CPU #DIY #computer #engineering #singleboardcomputer - Complete guide by Jake Watson.",
+      "year": 2024
+    },
+    {
+      "title": "Building Ben Eaters CPU. ( Part 1 ) The Clock. Logisim Evolution",
+      "creator": "Ajax",
+      "url": "https://www.youtube.com/watch?v=SM5Tq_x2Rc0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Building Ben Eaters CPU. ( Part 1 ) The Clock. Logisim Evolution - Complete guide by Ajax.",
+      "year": 2024
+    },
+    {
+      "title": "8-bit computer build: Connecting the bus",
+      "creator": "Ben Eater",
+      "url": "https://www.youtube.com/watch?v=-6JAgFWCL9w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "8-bit computer build: Connecting the bus - Complete guide by Ben Eater.",
+      "year": 2024
+    },
+    {
+      "title": "8-bit computer RAM intro",
+      "creator": "Ben Eater",
+      "url": "https://www.youtube.com/watch?v=FnxPIZR1ybs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "8-bit computer RAM intro - Complete guide by Ben Eater.",
+      "year": 2024
+    },
+    {
+      "title": "Building Ben Eaters CPU. ( Part 2 ) The Program Counter. Logisim Evolution.",
+      "creator": "Ajax",
+      "url": "https://www.youtube.com/watch?v=sU9hv0hRzGA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Building Ben Eaters CPU. ( Part 2 ) The Program Counter. Logisim Evolution. - Complete guide by Ajax.",
+      "year": 2024
+    },
+    {
+      "title": "Lets Build - 8 Bit Computer Part 1 Introduction",
+      "creator": "smash_that_like",
+      "url": "https://www.youtube.com/watch?v=bCVT1BtlZn0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lets Build - 8 Bit Computer Part 1 Introduction - Complete guide by smash_that_like.",
+      "year": 2024
+    },
+    {
+      "title": "8-bit CPU control logic: Part 1",
+      "creator": "Ben Eater",
+      "url": "https://www.youtube.com/watch?v=dXdoim96v5A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "8-bit CPU control logic: Part 1 - Complete guide by Ben Eater.",
+      "year": 2024
+    },
+    {
+      "title": "What are Logic Gates and Transistors - Lets Build - 8 Bit Computer Part 2",
+      "creator": "smash_that_like",
+      "url": "https://www.youtube.com/watch?v=TiQJXVHhLHI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What are Logic Gates and Transistors - Lets Build - 8 Bit Computer Part 2 - Complete guide by smash_that_like.",
+      "year": 2024
+    },
+    {
+      "title": "Making a computer Turing complete",
+      "creator": "Ben Eater",
+      "url": "https://www.youtube.com/watch?v=AqNDk_UJW4k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Making a computer Turing complete - Complete guide by Ben Eater.",
+      "year": 2024
+    },
+    {
+      "title": "The world's worst video card?",
+      "creator": "Ben Eater",
+      "url": "https://www.youtube.com/watch?v=l7rce6IQDWs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The world's worst video card? - Complete guide by Ben Eater.",
+      "year": 2024
+    },
+    {
+      "title": "Monostable 555 timer - 8-bit computer clock - part 2",
+      "creator": "Ben Eater",
+      "url": "https://www.youtube.com/watch?v=81BgFhm2vz8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Monostable 555 timer - 8-bit computer clock - part 2 - Complete guide by Ben Eater.",
+      "year": 2024
+    },
+    {
+      "title": "My Ben Eater inspired 8-bit computer with schematics, logisim, FPGA & windows emulator",
+      "creator": "Maurits Dijkens",
+      "url": "https://www.youtube.com/watch?v=RQ9mJfRUUg0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "My Ben Eater inspired 8-bit computer with schematics, logisim, FPGA & windows emulator - Complete guide by Maurits Dijkens.",
+      "year": 2024
+    },
+    {
+      "title": "C++ Masters student doesn't know how to allocate memory on the heap.",
+      "creator": "Coding Jesus (getcracked.io)",
+      "url": "https://www.youtube.com/watch?v=QUGiFi810sc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C++ Masters student doesn't know how to allocate memory on the heap. - Complete guide by Coding Jesus (getcracked.io).",
+      "year": 2024
+    },
+    {
+      "title": "Memory Management in C | Complete Beginner Guide",
+      "creator": "ByteSparkPK",
+      "url": "https://www.youtube.com/watch?v=ao3WgpxhRu0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Memory Management in C | Complete Beginner Guide - Complete guide by ByteSparkPK.",
+      "year": 2024
+    },
+    {
+      "title": "DYNAMIC MEMORY MANAGEMENT IN C | C LANGUAGE MASTERCLASS",
+      "creator": "ByteSparkPK",
+      "url": "https://www.youtube.com/watch?v=fxAVbObiLoA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DYNAMIC MEMORY MANAGEMENT IN C | C LANGUAGE MASTERCLASS - Complete guide by ByteSparkPK.",
+      "year": 2024
+    },
+    {
+      "title": "free() in C Explained | Release Allocated Memory",
+      "creator": "ByteSparkPK",
+      "url": "https://www.youtube.com/watch?v=j98bO4_h6z4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "free() in C Explained | Release Allocated Memory - Complete guide by ByteSparkPK.",
+      "year": 2024
+    },
+    {
+      "title": "C Programming and Memory Management - Full Course",
+      "creator": "Boot dev",
+      "url": "https://www.youtube.com/watch?v=rJrd2QMVbGM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C Programming and Memory Management - Full Course - Complete guide by Boot dev.",
+      "year": 2024
+    },
+    {
+      "title": "Dereferencing in C",
+      "creator": "CodeVault",
+      "url": "https://www.youtube.com/watch?v=oj8tKJ7cuQA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Dereferencing in C - Complete guide by CodeVault.",
+      "year": 2024
+    },
+    {
+      "title": "When bad C code puts you behind bars...",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=cNywlNWan9o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "When bad C code puts you behind bars... - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "The sizeof operator in C",
+      "creator": "CodeVault",
+      "url": "https://www.youtube.com/watch?v=zJzpCorv1JQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The sizeof operator in C - Complete guide by CodeVault.",
+      "year": 2024
+    },
+    {
+      "title": "Stack vs Heap Memory Explained Simply | How Your Program Really Uses Memory",
+      "creator": "WebNestStudio",
+      "url": "https://www.youtube.com/watch?v=NJE7Tr1-WFE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Stack vs Heap Memory Explained Simply | How Your Program Really Uses Memory - Complete guide by WebNestStudio.",
+      "year": 2024
+    },
+    {
+      "title": "Memory Management and Optimization in Python? #29 #python #interview #pythontutorial",
+      "creator": "Learn Technology",
+      "url": "https://www.youtube.com/watch?v=1toG6NBv9dE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Memory Management and Optimization in Python? #29 #python #interview #pythontutorial - Complete guide by Learn Technology.",
+      "year": 2024
+    },
+    {
+      "title": "Memory Management IS NOT DIFFICULT! #lowlevel #coding #pointers",
+      "creator": "Coding with Mat",
+      "url": "https://www.youtube.com/watch?v=ZrQ1JD2tr-Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Memory Management IS NOT DIFFICULT! #lowlevel #coding #pointers - Complete guide by Coding with Mat.",
+      "year": 2024
+    },
+    {
+      "title": "How Python Dose Memory Management? | EXPLAINED | #thekiranacademy",
+      "creator": "Kiran Academy - Java By Kiran",
+      "url": "https://www.youtube.com/watch?v=FvPJPSNVxzk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Python Dose Memory Management? | EXPLAINED | #thekiranacademy - Complete guide by Kiran Academy - Java By Kiran.",
+      "year": 2024
+    },
+    {
+      "title": "What Actually Happens When a Program Forgets to Free Memory? ⚠️",
+      "creator": "Nickolas",
+      "url": "https://www.youtube.com/watch?v=8u1bHbWe5v8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What Actually Happens When a Program Forgets to Free Memory? ⚠️ - Complete guide by Nickolas.",
+      "year": 2024
+    },
+    {
+      "title": "Dynamic memory allocation in C language 😱 #shorts #clanguage #coding #cse #tech",
+      "creator": "gotocodes",
+      "url": "https://www.youtube.com/watch?v=glXaO-gJIi4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Dynamic memory allocation in C language 😱 #shorts #clanguage #coding #cse #tech - Complete guide by gotocodes.",
+      "year": 2024
+    },
+    {
+      "title": "Find All the Memory Leaks #programming #coding #lowcode",
+      "creator": "Low Level",
+      "url": "https://www.youtube.com/watch?v=nThf92I_lag",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Find All the Memory Leaks #programming #coding #lowcode - Complete guide by Low Level.",
+      "year": 2024
+    },
+    {
+      "title": "Memory Management in JavaScript #javascript #js #memorymanagement #webdevelopment  #devtools99",
+      "creator": "DevTools99",
+      "url": "https://www.youtube.com/watch?v=vjBYAMLDNaM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Memory Management in JavaScript #javascript #js #memorymanagement #webdevelopment  #devtools99 - Complete guide by DevTools99.",
+      "year": 2024
+    },
+    {
+      "title": "Raw Pointer vs Smart Pointer 💀 | This Mistake Causes Memory Leaks",
+      "creator": "Easy Code",
+      "url": "https://www.youtube.com/watch?v=NxPLYRnZSy0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Raw Pointer vs Smart Pointer 💀 | This Mistake Causes Memory Leaks - Complete guide by Easy Code.",
+      "year": 2024
+    },
+    {
+      "title": "Memory Management in Python 🔥 | How Python Manages Memory | Python Tips & Tricks",
+      "creator": "Career Campus Pro",
+      "url": "https://www.youtube.com/watch?v=rw5P1MZJvmM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Memory Management in Python 🔥 | How Python Manages Memory | Python Tips & Tricks - Complete guide by Career Campus Pro.",
+      "year": 2024
+    },
+    {
+      "title": "Memory Management: Rust vs. C vs. Python",
+      "creator": "ArjanCodes",
+      "url": "https://www.youtube.com/watch?v=Dbh-fM0_dUs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Memory Management: Rust vs. C vs. Python - Complete guide by ArjanCodes.",
+      "year": 2024
+    },
+    {
+      "title": "Static vs Dynamic Memory Allocation by Vikas singh sir",
+      "creator": "LearnHub",
+      "url": "https://www.youtube.com/watch?v=vZesOOEU1t0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Static vs Dynamic Memory Allocation by Vikas singh sir - Complete guide by LearnHub.",
+      "year": 2024
+    },
+    {
+      "title": "Heap Memory vs Stack Memory in Java in 60 Seconds! #codingtips #programming #interview",
+      "creator": "ProgrammingInfoByGS",
+      "url": "https://www.youtube.com/watch?v=KhXkZlOAsKk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Heap Memory vs Stack Memory in Java in 60 Seconds! #codingtips #programming #interview - Complete guide by ProgrammingInfoByGS.",
+      "year": 2024
+    },
+    {
+      "title": "Two memory piles: one dies, one waits",
+      "creator": "CodeCraftedUK",
+      "url": "https://www.youtube.com/watch?v=3v4fJC0B14U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Two memory piles: one dies, one waits - Complete guide by CodeCraftedUK.",
+      "year": 2024
+    },
+    {
+      "title": "🐍 Python vs Rust vs C vs C++ 🤖 | Memory Management Explained with Doraemon & Nobita! #shorts",
+      "creator": "Next Mind",
+      "url": "https://www.youtube.com/watch?v=V8AzXL2Sl_g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🐍 Python vs Rust vs C vs C++ 🤖 | Memory Management Explained with Doraemon & Nobita! #shorts - Complete guide by Next Mind.",
+      "year": 2024
+    },
+    {
+      "title": "Does Python's Reference Counting Handle All Memory?",
+      "creator": "Tech Quiz Masters",
+      "url": "https://www.youtube.com/watch?v=jNhtJ2uJblU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Does Python's Reference Counting Handle All Memory? - Complete guide by Tech Quiz Masters.",
+      "year": 2024
+    },
+    {
+      "title": "Pointers in Python Explained | Python Tutorial #bca #kvgurukul #coding",
+      "creator": "Kᐯ GᑌᖇᑌKᑌᒪ",
+      "url": "https://www.youtube.com/watch?v=cHMNHmGCzBI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Pointers in Python Explained | Python Tutorial #bca #kvgurukul #coding - Complete guide by Kᐯ GᑌᖇᑌKᑌᒪ.",
+      "year": 2024
+    },
+    {
+      "title": "Day 12/100 🚀 | Sizeof Operator in C Programming Explained! #shortsyoutube",
+      "creator": "Skilverss",
+      "url": "https://www.youtube.com/watch?v=04atdnhRcro",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Day 12/100 🚀 | Sizeof Operator in C Programming Explained! #shortsyoutube - Complete guide by Skilverss.",
+      "year": 2024
+    },
+    {
+      "title": "Memory Management in C and C++ in Hindi | Interview Questions",
+      "creator": "MySirG.com",
+      "url": "https://www.youtube.com/watch?v=Zb33Csutbz4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Memory Management in C and C++ in Hindi | Interview Questions - Complete guide by MySirG.com.",
+      "year": 2024
+    },
+    {
+      "title": "C++ Memory Management Course 🚩 C++ Memory Management Tutorial ⚡️",
+      "creator": "Alpha Brains Courses",
+      "url": "https://www.youtube.com/watch?v=Dkn4EKL2xSE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C++ Memory Management Course 🚩 C++ Memory Management Tutorial ⚡️ - Complete guide by Alpha Brains Courses.",
+      "year": 2024
+    },
+    {
+      "title": "Pointers and Dynamic Memory in C++ (Memory Management)",
+      "creator": "ReelLearning",
+      "url": "https://www.youtube.com/watch?v=CSVRA4_xOkw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Pointers and Dynamic Memory in C++ (Memory Management) - Complete guide by ReelLearning.",
+      "year": 2024
+    },
+    {
+      "title": "Fundamentals of Programming - Pointers and Memory Management",
+      "creator": "GeeksforGeeks",
+      "url": "https://www.youtube.com/watch?v=s5p-omYr1Xs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Fundamentals of Programming - Pointers and Memory Management - Complete guide by GeeksforGeeks.",
+      "year": 2024
+    },
+    {
+      "title": "CS50x 2025 - Lecture 4 - Memory",
+      "creator": "CS50",
+      "url": "https://www.youtube.com/watch?v=kcRdFGbzR1I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CS50x 2025 - Lecture 4 - Memory - Complete guide by CS50.",
+      "year": 2024
+    },
+    {
+      "title": "L-5.1: Memory Management and Degree of Multiprogramming | Operating System",
+      "creator": "Gate Smashers",
+      "url": "https://www.youtube.com/watch?v=eESIFJz7mJw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "L-5.1: Memory Management and Degree of Multiprogramming | Operating System - Complete guide by Gate Smashers.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Pointers in C",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/watch?v=f2i0CnUOniA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to Pointers in C - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Operating Systems for Placements 2022",
+      "creator": "CodeHelp - by Babbar",
+      "url": "https://www.youtube.com/playlist?list=PLDzeHZWIZsTr3nwuTegHLa2qlI81QweYG",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Operating Systems for Placements 2022 - Complete guide by CodeHelp - by Babbar.",
+      "year": 2024
+    },
+    {
+      "title": "Operating Systems",
+      "creator": "Jenny's Lectures CS IT",
+      "url": "https://www.youtube.com/playlist?list=PLdo5W4Nhv31a5ucW_S1K3-x6ztBRD-PNa",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Operating Systems - Complete guide by Jenny's Lectures CS IT.",
+      "year": 2024
+    },
+    {
+      "title": "Declaring & Initializing Pointers in C",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/watch?v=b3G9RjG4l2s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Declaring & Initializing Pointers in C - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Windows Command Line Tutorials",
+      "creator": "thenewboston",
+      "url": "https://www.youtube.com/playlist?list=PL6gx4Cwl9DGDV6SnbINlVUd0o2xT4JbMu",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Windows Command Line Tutorials - Complete guide by thenewboston.",
+      "year": 2024
+    },
+    {
+      "title": "Linux/Mac Tutorials",
+      "creator": "Corey Schafer",
+      "url": "https://www.youtube.com/playlist?list=PL-osiE80TeTvGhHkpvfmKWOiIPF8UVy6c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Linux/Mac Tutorials - Complete guide by Corey Schafer.",
+      "year": 2024
+    },
+    {
+      "title": "TERMUX FULL COURSE📚 - Mastering Termux",
+      "creator": "Vector M:",
+      "url": "https://www.youtube.com/playlist?list=PLcyWKrxmiUYMW2P5y9A9yKZY7jHBbQfgr",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "TERMUX FULL COURSE📚 - Mastering Termux - Complete guide by Vector M:.",
+      "year": 2024
+    },
+    {
+      "title": "The Odin Project - Foundations",
+      "creator": "Useful Programmer",
+      "url": "https://www.youtube.com/playlist?list=PL3vpzVxKa3PjwENoWglbboSE55gPwIPuS",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "The Odin Project - Foundations - Complete guide by Useful Programmer.",
+      "year": 2024
+    },
+    {
+      "title": "FreeCAD Tutorial 2026: 3D Modeling for Beginners",
+      "creator": "CAD CAM Lessons",
+      "url": "https://www.youtube.com/playlist?list=PLUrr_kHPp4vgVuaIrLU1EWYwDHxRkBg0U",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "FreeCAD Tutorial 2026: 3D Modeling for Beginners - Complete guide by CAD CAM Lessons.",
+      "year": 2024
+    },
+    {
+      "title": "Ethical Hacking",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbnklGh3FNRLECx_2D_vK3mu",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Ethical Hacking - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Linux Command Line for Beginners in Hindi",
+      "creator": "Engineering Digest",
+      "url": "https://www.youtube.com/playlist?list=PLA3GkZPtsafbK3YyxdRzF5yh1TuwGn_Lu",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Linux Command Line for Beginners in Hindi - Complete guide by Engineering Digest.",
+      "year": 2024
+    },
+    {
+      "title": "Linux Zero to Hero Playlist 2024",
+      "creator": "M Prashant",
+      "url": "https://www.youtube.com/playlist?list=PL0tP8lerTbX3eUtBFS0Ir4_aFqKuXWjYZ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Linux Zero to Hero Playlist 2024 - Complete guide by M Prashant.",
+      "year": 2024
+    },
+    {
+      "title": "\"Linux Operating System - Crash Course for Beginners\" (freeCodeCamp.org) and more",
+      "creator": "mikeashields",
+      "url": "https://www.youtube.com/playlist?list=PLHbN2j-imEXa7fiBlASvpQRSpWclPg1DH",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "\"Linux Operating System - Crash Course for Beginners\" (freeCodeCamp.org) and more - Complete guide by mikeashields.",
+      "year": 2024
+    },
+    {
+      "title": "\"The 50 Most Popular Linux & Terminal Commands - Full Course for Beginners\" by freeCodeCamp.org, etc",
+      "creator": "DrBratwurst",
+      "url": "https://www.youtube.com/playlist?list=PLOlpLwZ2Kvstme-5VrwoeonriJzNx8NfN",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "\"The 50 Most Popular Linux & Terminal Commands - Full Course for Beginners\" by freeCodeCamp.org, etc - Complete guide by DrBratwurst.",
+      "year": 2024
+    },
+    {
+      "title": "Memory Management in C++ vs Python — The REAL Difference (Deep Tech Breakdown!)",
+      "creator": "MySirG",
+      "url": "https://www.youtube.com/watch?v=XNWkzIxXI_c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Memory Management in C++ vs Python — The REAL Difference (Deep Tech Breakdown!) - Complete guide by MySirG.",
+      "year": 2024
+    },
+    {
+      "title": "Bash Scripting on Linux",
+      "creator": "Learn Linux TV",
+      "url": "https://www.youtube.com/playlist?list=PLT98CRl2KxKGj-VKtApD8-zCqSaN2mD4w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Bash Scripting on Linux - Complete guide by Learn Linux TV.",
+      "year": 2024
+    },
+    {
+      "title": "\"Bash Scripting Tutorial for Beginners\" (freeCodeCamp.org) and more",
+      "creator": "TimWalshe",
+      "url": "https://www.youtube.com/playlist?list=PLVb_slDELXx4E3xpvd2FyO-SxywozyjEM",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "\"Bash Scripting Tutorial for Beginners\" (freeCodeCamp.org) and more - Complete guide by TimWalshe.",
+      "year": 2024
+    },
+    {
+      "title": "The Complete Bash Scripting Course",
+      "creator": "You Suck at Programming",
+      "url": "https://www.youtube.com/playlist?list=PL-my9REMIFtGgiQAXqKPJ5UrLdSkxcLBT",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "The Complete Bash Scripting Course - Complete guide by You Suck at Programming.",
+      "year": 2024
+    },
+    {
+      "title": "you need to learn BASH Scripting RIGHT NOW!!",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/playlist?list=PLIhvC56v63IKioClkSNDjW7iz-6TFvLwS",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "you need to learn BASH Scripting RIGHT NOW!! - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "SHELL SCRIPTING Tutorial For Beginners",
+      "creator": "M Prashant",
+      "url": "https://www.youtube.com/playlist?list=PL0tP8lerTbX3MeIyMxGW2sLhWnPdn_xhd",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "SHELL SCRIPTING Tutorial For Beginners - Complete guide by M Prashant.",
+      "year": 2024
+    },
+    {
+      "title": "Bash Scripting tutorial",
+      "creator": "STAARKEN INFOSEC (Fortify Solutions)",
+      "url": "https://www.youtube.com/playlist?list=PLxLRoXCDIalcosmDOQizh31EIHEK1njfO",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Bash Scripting tutorial - Complete guide by STAARKEN INFOSEC (Fortify Solutions).",
+      "year": 2024
+    },
+    {
+      "title": "Shell Scripting Tutorial for Beginners",
+      "creator": "ProgrammingKnowledge",
+      "url": "https://www.youtube.com/playlist?list=PLS1QulWo1RIYmaxcEqw5JhK3b-6rgdWO_",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Shell Scripting Tutorial for Beginners - Complete guide by ProgrammingKnowledge.",
+      "year": 2024
+    },
+    {
+      "title": "Linux for Hackers (and everyone) // FREE Course for Beginners",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/playlist?list=PLIhvC56v63IJIujb5cyE13oLuyORZpdkL",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Linux for Hackers (and everyone) // FREE Course for Beginners - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "Bash Scripting | Complete Course In Hindi",
+      "creator": "ENCODERSPRO",
+      "url": "https://www.youtube.com/playlist?list=PLDnEHblf8hExnR-Xpmrpu3GdeO_4YJ_tD",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Bash Scripting | Complete Course In Hindi - Complete guide by ENCODERSPRO.",
+      "year": 2024
+    },
+    {
+      "title": "Raspberry Pi - Learn Linux, Hacking, and Coding",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/playlist?list=PLIhvC56v63IJzZZpe4SLlzWIWRnxUU5lD",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Raspberry Pi - Learn Linux, Hacking, and Coding - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "Linux - NetworkChuck",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/playlist?list=PLIhvC56v63IL2OjFvv_PI0B2yAXGfJLMI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Linux - NetworkChuck - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "Linux Command Line Tutorial For Beginners | Bash Terminal | Linux Terminal",
+      "creator": "ProgrammingKnowledge",
+      "url": "https://www.youtube.com/playlist?list=PLS1QulWo1RIb9WVQGJ_vh-RQusbZgO_As",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Linux Command Line Tutorial For Beginners | Bash Terminal | Linux Terminal - Complete guide by ProgrammingKnowledge.",
+      "year": 2024
+    },
+    {
+      "title": "FREE CCNA 200-301 // Complete Course // NetworkChuck 2025",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/playlist?list=PLIhvC56v63IJVXv0GJcl9vO5Z6znCVb1P",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "FREE CCNA 200-301 // Complete Course // NetworkChuck 2025 - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "\"Linux for Hackers // EP 1 (FREE Linux course for beginners)\" (NetworkChuck) and more",
+      "creator": "ladyred0269",
+      "url": "https://www.youtube.com/playlist?list=PLN14v3m8t7OOyt7R7wSUK7_FV90I-6LeL",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "\"Linux for Hackers // EP 1 (FREE Linux course for beginners)\" (NetworkChuck) and more - Complete guide by ladyred0269.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Ethical Hacking (CEH Journey)",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/playlist?list=PLIhvC56v63IIJZRa3lzK6IeBQOH_VFjUQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Learn Ethical Hacking (CEH Journey) - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "Operating Systems - NPTEL IITD",
+      "creator": "Sampat Ghosh",
+      "url": "https://www.youtube.com/playlist?list=PLsylUObW5M3CAGT6OdubyH6FztKfJCcFB",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Operating Systems - NPTEL IITD - Complete guide by Sampat Ghosh.",
+      "year": 2024
+    },
+    {
+      "title": "How Computers Work",
+      "creator": "John Hyder",
+      "url": "https://www.youtube.com/playlist?list=PLIUAT14QTdIBNrSm54kyMaFLdi84hzFI3",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "How Computers Work - Complete guide by John Hyder.",
+      "year": 2024
+    },
+    {
+      "title": "How Computers Work",
+      "creator": "CodeAI",
+      "url": "https://www.youtube.com/playlist?list=PLzdnOPI1iJNcsRwJhvksEo1tJqjIqWbN-",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "How Computers Work - Complete guide by CodeAI.",
+      "year": 2024
+    },
+    {
+      "title": "MIT 6.858 Computer Systems Security, Fall 2014",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/playlist?list=PLUl4u3cNGP62K2DjQLRxDNRi0z2IRWnNh",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "MIT 6.858 Computer Systems Security, Fall 2014 - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "MIT 6.824 Distributed Systems (Spring 2020)",
+      "creator": "MIT 6.824: Distributed Systems",
+      "url": "https://www.youtube.com/playlist?list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "MIT 6.824 Distributed Systems (Spring 2020) - Complete guide by MIT 6.824: Distributed Systems.",
+      "year": 2024
+    },
+    {
+      "title": "CS 162: Operating Systems and Systems Programming - Berkeley",
+      "creator": "Baibars Bošnjaci",
+      "url": "https://www.youtube.com/playlist?list=PLF2K2xZjNEf97A_uBCwEl61sdxWVP7VWC",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "CS 162: Operating Systems and Systems Programming - Berkeley - Complete guide by Baibars Bošnjaci.",
+      "year": 2024
+    },
+    {
+      "title": "MIT 6.S081: Operating System Engineering",
+      "creator": "lzzrhx",
+      "url": "https://www.youtube.com/playlist?list=PLUznfNKscdcN21PDbG_mcMLdDR2SbWdqx",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "MIT 6.S081: Operating System Engineering - Complete guide by lzzrhx.",
+      "year": 2024
+    },
+    {
+      "title": "MIT 16.842 Fundamentals of Systems Engineering, Fall 2015",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/playlist?list=PLUl4u3cNGP60jIMmB53zl6awCKMnABhYx",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "MIT 16.842 Fundamentals of Systems Engineering, Fall 2015 - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "MIT 6.828: Operating System Engineering",
+      "creator": "Pedro Cattori",
+      "url": "https://www.youtube.com/playlist?list=PLfciLKR3SgqNJKKIKUliWoNBBH1VHL3AP",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "MIT 6.828: Operating System Engineering - Complete guide by Pedro Cattori.",
+      "year": 2024
+    },
+    {
+      "title": "MIT 6.172 Performance Engineering of Software Systems, Fall 2018",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/playlist?list=PLUl4u3cNGP63VIBQVWguXxZZi0566y7Wf",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "MIT 6.172 Performance Engineering of Software Systems, Fall 2018 - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "MIT 8.01SC Classical Mechanics, Fall 2016",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/playlist?list=PLUl4u3cNGP61qDex7XslwNJ-xxxEFzMNV",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "MIT 8.01SC Classical Mechanics, Fall 2016 - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "MIT 6.003 Signals and Systems, Fall 2011",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/playlist?list=PLUl4u3cNGP61kdPAOC7CzFjJZ8f1eMUxs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "MIT 6.003 Signals and Systems, Fall 2011 - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "MIT 6.004 Computation Structures, Spring 2017",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/playlist?list=PLUl4u3cNGP62WVs95MNq3dQBqY2vGOtQ2",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "MIT 6.004 Computation Structures, Spring 2017 - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "MIT 6.566: Computer Systems Security (Spring 2026)",
+      "creator": "Nickolai Zeldovich",
+      "url": "https://www.youtube.com/playlist?list=PLA6Ht2dJt3SId7vE9P5mppWdj65_l6hl7",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "MIT 6.566: Computer Systems Security (Spring 2026) - Complete guide by Nickolai Zeldovich.",
+      "year": 2024
+    },
+    {
+      "title": "Operating Systems (OS) Lectures",
+      "creator": "Mythili Vutukuru",
+      "url": "https://www.youtube.com/playlist?list=PLDW872573QAb4bj0URobvQTD41IV6gRkx",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Operating Systems (OS) Lectures - Complete guide by Mythili Vutukuru.",
+      "year": 2024
+    },
+    {
+      "title": "MIT 18.06SC Linear Algebra, Fall 2011",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/playlist?list=PL221E2BBF13BECF6C",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "MIT 18.06SC Linear Algebra, Fall 2011 - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "Multi-Threading And Concurrency in C++ | Designed for interview prep",
+      "creator": "Sahil Batra",
+      "url": "https://www.youtube.com/playlist?list=PL5AvXwmzg5S1DrsLiTH2HLnim0fiKXcQC",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Multi-Threading And Concurrency in C++ | Designed for interview prep - Complete guide by Sahil Batra.",
+      "year": 2024
+    },
+    {
+      "title": "CS 377 Spring '14: Operating Systems",
+      "creator": "UMass OS",
+      "url": "https://www.youtube.com/playlist?list=PLacuG5pysFbDQU8kKxbUh4K5c1iL5_k7k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "CS 377 Spring '14: Operating Systems - Complete guide by UMass OS.",
+      "year": 2024
+    },
+    {
+      "title": "Java Concurrency",
+      "creator": "Defog Tech",
+      "url": "https://www.youtube.com/playlist?list=PLhfHPmPYPPRk6yMrcbfafFGSbE2EPK_A6",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Java Concurrency - Complete guide by Defog Tech.",
+      "year": 2024
+    },
+    {
+      "title": "Master of Multithreading",
+      "creator": "Karan IITgn",
+      "url": "https://www.youtube.com/playlist?list=PLqbnmipMcdzcz0hj8ee3HA5cIu04rsvWo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Master of Multithreading - Complete guide by Karan IITgn.",
+      "year": 2024
+    },
+    {
+      "title": "Concurrency and Multithreading in Java - Hindi",
+      "creator": "CodeWithAni",
+      "url": "https://www.youtube.com/playlist?list=PLKrI13xVamt1gjHIYwTU9jJVoe5WIV12D",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Concurrency and Multithreading in Java - Hindi - Complete guide by CodeWithAni.",
+      "year": 2024
+    },
+    {
+      "title": "Multithreading Java",
+      "creator": "Code With Ease - By Varsha",
+      "url": "https://www.youtube.com/playlist?list=PLBBK9G6O8MPDEeSVG17Pwya2xlUNbZn30",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Multithreading Java - Complete guide by Code With Ease - By Varsha.",
+      "year": 2024
+    },
+    {
+      "title": "Classes Ben Eater's 8 bit computer playlist",
+      "creator": "Upcycle Electronics",
+      "url": "https://www.youtube.com/playlist?list=PLPIwHuVy9EyNCTSIQbQZGMjY8A9f-_oGh",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Classes Ben Eater's 8 bit computer playlist - Complete guide by Upcycle Electronics.",
+      "year": 2024
+    },
+    {
+      "title": "Build a 65c02-based computer from scratch",
+      "creator": "Ben Eater",
+      "url": "https://www.youtube.com/playlist?list=PLowKtXNTBypFbtuVMUVXNR0z1mu7dp7eH",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Build a 65c02-based computer from scratch - Complete guide by Ben Eater.",
+      "year": 2024
+    },
+    {
+      "title": "Tutorial to making Ben Eaters 8 bit CPU in Logisim Evolution.",
+      "creator": "Ajax",
+      "url": "https://www.youtube.com/playlist?list=PLzTuuMapW9aB33OuaKEplyrQBnYdAcfL7",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Tutorial to making Ben Eaters 8 bit CPU in Logisim Evolution. - Complete guide by Ajax.",
+      "year": 2024
+    },
+    {
+      "title": "Lets Build 8 Bit Computer",
+      "creator": "smash_that_like",
+      "url": "https://www.youtube.com/playlist?list=PLNUL7DzXzp_J4TztZYOVtayTfp0DV1z5H",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Lets Build 8 Bit Computer - Complete guide by smash_that_like.",
+      "year": 2024
+    },
+    {
+      "title": "Building an 8-bit breadboard computer!",
+      "creator": "Ben Eater",
+      "url": "https://www.youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Building an 8-bit breadboard computer! - Complete guide by Ben Eater.",
+      "year": 2024
+    },
+    {
+      "title": "Pointers and Memory Management in C",
+      "creator": "CodeVault",
+      "url": "https://www.youtube.com/playlist?list=PLfqABt5AS4FkIiyvV8mnZmf3p6PxbAtc8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Pointers and Memory Management in C - Complete guide by CodeVault.",
+      "year": 2024
+    },
+    {
+      "title": "How to Build an 8-bit Computer from Scratch!",
+      "creator": "Ajax",
+      "url": "https://www.youtube.com/playlist?list=PLzTuuMapW9aChb6SPnmwkttZd4jXl1PV4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "How to Build an 8-bit Computer from Scratch! - Complete guide by Ajax.",
+      "year": 2024
+    },
+    {
+      "title": "Pointers in C | Chapter 9 | C Programming",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRgZQ079Wa5H8D1oa43HGRQb",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Pointers in C | Chapter 9 | C Programming - Complete guide by Neso Academy.",
+      "year": 2024
+    }
+  ]
 }

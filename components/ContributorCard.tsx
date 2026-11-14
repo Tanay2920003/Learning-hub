@@ -1,9 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-
-import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import { Github, Star } from "lucide-react";
 
 interface Contributor {
@@ -17,74 +14,60 @@ interface Contributor {
 
 const REPO_OWNER = "Tanay2920003";
 
-// Assign a gradient ring color based on index/name hash
-const AVATAR_GRADIENTS = [
-  "from-violet-500 to-indigo-500",
-  "from-cyan-500 to-sky-500",
-  "from-emerald-500 to-teal-500",
-  "from-rose-500 to-pink-500",
-  "from-amber-500 to-orange-500",
-  "from-fuchsia-500 to-purple-500",
-];
-
 export function ContributorCard({ contributor }: { contributor: Contributor }) {
   const isOwner = contributor.login === REPO_OWNER;
 
-  // Pick gradient by login hash
-  const hash = contributor.login.split("").reduce((acc, ch) => acc + ch.charCodeAt(0), 0);
-  const gradient = AVATAR_GRADIENTS[hash % AVATAR_GRADIENTS.length];
-
   return (
-    <Card className="group relative bg-card/50 border-white/5 hover:border-white/10 transition-all duration-300 overflow-hidden hover:shadow-lg hover:shadow-black/30">
-      {/* Subtle top gradient bar matching avatar color */}
-      <div className={`absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r ${gradient} opacity-50 group-hover:opacity-100 transition-opacity`} />
+    <div className="group relative flex flex-col items-center justify-between overflow-hidden rounded-3xl border border-white/[0.08] bg-white/[0.03] p-5 text-center transition-all duration-300 hover:border-white/20 hover:bg-white/[0.06] hover:shadow-2xl hover:shadow-black/70">
+      {/* Specular hairline top reflection */}
+      <div className="absolute inset-x-0 top-0 h-[1px] bg-gradient-to-r from-transparent via-white/15 to-transparent opacity-60 group-hover:opacity-100 transition-opacity" />
 
-      <CardContent className="p-6 flex flex-col items-center text-center">
-        {/* Badge */}
-        <div className="absolute top-4 right-4">
-          {isOwner ? (
-            <Badge className="bg-violet-500/10 text-violet-300 hover:bg-violet-500/20 border-0 gap-1">
-              <Star className="h-2.5 w-2.5 fill-violet-400 text-violet-400" />
-              Owner
-            </Badge>
-          ) : contributor.isNew ? (
-            <Badge className="bg-cyan-500/10 text-cyan-300 hover:bg-cyan-500/20 border-0">
-              New 🚀
-            </Badge>
-          ) : null}
+      {/* Role / Status Badge */}
+      <div className="absolute top-3.5 right-3.5">
+        {isOwner ? (
+          <Badge className="border-0 bg-[#bf5af2]/15 text-[#bf5af2] text-[10px] px-2 py-0.5 rounded-full font-medium gap-1">
+            <Star className="h-2.5 w-2.5 fill-[#bf5af2] text-[#bf5af2]" />
+            Maintainer
+          </Badge>
+        ) : contributor.isNew ? (
+          <Badge className="border-0 bg-[#64d2ff]/15 text-[#64d2ff] text-[10px] px-2 py-0.5 rounded-full font-medium">
+            New
+          </Badge>
+        ) : null}
+      </div>
+
+      {/* Avatar with Specular Ring */}
+      <div className="mt-3 mb-4 p-0.5 rounded-full border border-white/15 bg-white/5 shadow-md transition-transform duration-300 group-hover:scale-105">
+        <div className="h-20 w-20 sm:h-22 sm:w-22 overflow-hidden rounded-full border border-black">
+          <Image
+            src={contributor.avatar_url}
+            alt={contributor.login}
+            width={88}
+            height={88}
+            className="h-full w-full object-cover"
+          />
         </div>
+      </div>
 
-        {/* Avatar with gradient ring */}
-        <div className={`p-[2px] rounded-full bg-gradient-to-br ${gradient} mb-4 shadow-lg group-hover:scale-105 transition-transform duration-300`}>
-          <div className="rounded-full overflow-hidden border-2 border-[#0d0d0d]">
-            <Image
-              src={contributor.avatar_url}
-              alt={contributor.login}
-              width={88}
-              height={88}
-              className="w-22 h-22 object-cover"
-            />
-          </div>
-        </div>
+      {/* Identity */}
+      <h3 className="w-full truncate text-sm sm:text-base font-semibold tracking-tight text-white group-hover:text-white transition-colors">
+        {contributor.login}
+      </h3>
+      <p className="mt-0.5 mb-5 text-[11px] text-white/45">
+        <span className="font-medium text-white/70">{contributor.contributions}</span>{" "}
+        {contributor.contributions === 1 ? "contribution" : "contributions"}
+      </p>
 
-        <h3 className="text-base font-semibold text-slate-200 group-hover:text-white transition-colors truncate w-full mb-1">
-          {contributor.login}
-        </h3>
-        <p className="text-xs text-slate-600 mb-5">
-          <span className="text-slate-500 font-medium">{contributor.contributions}</span>{" "}
-          {contributor.contributions === 1 ? "commit" : "commits"}
-        </p>
-
-        <Link href={contributor.html_url} target="_blank" className="mt-auto w-full">
-          <Button
-            variant="ghost"
-            className="w-full rounded-xl border border-white/5 bg-white/3 hover:bg-white/6 hover:border-white/10 text-slate-400 hover:text-white cursor-pointer gap-2 transition-all"
-          >
-            <Github className="h-4 w-4" />
-            View Profile
-          </Button>
-        </Link>
-      </CardContent>
-    </Card>
+      {/* GitHub Profile Action */}
+      <Link href={contributor.html_url} target="_blank" rel="noopener noreferrer" className="w-full">
+        <button
+          type="button"
+          className="flex w-full items-center justify-center gap-1.5 rounded-full border border-white/10 bg-white/5 py-2 text-xs font-medium text-white/70 transition-all hover:border-white/20 hover:bg-white hover:text-black active:scale-95"
+        >
+          <Github className="h-3.5 w-3.5" />
+          <span>Profile</span>
+        </button>
+      </Link>
+    </div>
   );
 }

@@ -1,38 +1,3206 @@
 {
-    "name": "Game Development",
-    "slug": "game-development",
-    "description": "Master industry-standard game engines with official Unity and Unreal Engine learning resources.",
-    "icon": "https://img.icons8.com/?size=100&id=KchGH4op3SoN&format=png&color=000000",
-    "articles": [
-        {
-            "title": "Unity Learn",
-            "url": "https://unity.com/learn"
-        },
-        {
-            "title": "Unreal Engine Learn",
-            "url": "https://www.unrealengine.com/en-US/learn"
-        }
-    ],
-    "playlists": [
-        {
-            "title": "Unity Learn",
-            "creator": "Unity",
-            "url": "https://unity.com/learn",
-            "language": "English",
-            "difficulty": "beginner",
-            "videoCount": 1,
-            "description": "Master real-time 3D development with official Unity tutorials, pathways, and projects.",
-            "year": 2026
-        },
-        {
-            "title": "Unreal Engine",
-            "creator": "Epic Games",
-            "url": "https://www.unrealengine.com/en-US/learn",
-            "language": "English",
-            "difficulty": "beginner",
-            "videoCount": 1,
-            "description": "Learn to create stunning, high-fidelity 3D experiences with Unreal Engine's official courses.",
-            "year": 2026
-        }
-    ]
+  "name": "Game Development",
+  "slug": "game-development",
+  "description": "Master industry-standard game engines with official Unity and Unreal Engine learning resources.",
+  "icon": "game-development",
+  "articles": [
+    {
+      "title": "Unity Learn",
+      "url": "https://unity.com/learn"
+    },
+    {
+      "title": "Unreal Engine Learn",
+      "url": "https://www.unrealengine.com/en-US/learn"
+    },
+    {
+      "title": "Game Programming Patterns by Robert Nystrom",
+      "url": "https://gameprogrammingpatterns.com/"
+    },
+    {
+      "title": "Godot Engine Official Documentation",
+      "url": "https://docs.godotengine.org/en/stable/"
+    },
+    {
+      "title": "Unity Learn - Free Game Development Courses",
+      "url": "https://learn.unity.com/"
+    },
+    {
+      "title": "Unreal Engine 5 Official Documentation",
+      "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine"
+    },
+    {
+      "title": "Kenney Game Assets & Free Primers",
+      "url": "https://kenney.nl/"
+    },
+    {
+      "title": "Gaffer on Games - Game Physics and Networking",
+      "url": "https://gafferongames.com/"
+    },
+    {
+      "title": "ShaderToy - Interactive WebGL Shaders Platform",
+      "url": "https://www.shadertoy.com/"
+    },
+    {
+      "title": "Blender Official Manual & Fundamentals",
+      "url": "https://docs.blender.org/manual/en/latest/"
+    },
+    {
+      "title": "Unreal Engine Official Documentation & Quickstarts",
+      "url": "https://dev.epicgames.com/documentation/en-us/unreal-engine/"
+    },
+    {
+      "title": "Kenney.nl - Free Game Assets & Textures",
+      "url": "https://kenney.nl/assets"
+    },
+    {
+      "title": "OpenGameArt - Free Media for Game Developers",
+      "url": "https://opengameart.org/"
+    },
+    {
+      "title": "Game Programming Patterns by Robert Nystrom",
+      "url": "https://gameprogrammingpatterns.com/contents.html"
+    }
+  ],
+  "playlists": [
+    {
+      "title": "Unity Learn",
+      "creator": "Unity",
+      "url": "https://unity.com/learn",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Master real-time 3D development with official Unity tutorials, pathways, and projects.",
+      "year": 2026
+    },
+    {
+      "title": "Unreal Engine",
+      "creator": "Epic Games",
+      "url": "https://www.unrealengine.com/en-US/learn",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn to create stunning, high-fidelity 3D experiences with Unreal Engine's official courses.",
+      "year": 2026
+    },
+    {
+      "title": "Godot 4 Beginner Game Development Tutorial",
+      "creator": "Clear Code",
+      "url": "https://www.youtube.com/watch?v=nAh_Kx5Zh5Q",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Massive 11-hour hands-on guide learning Godot 4, GDScript, tilemaps, animations, collision, and UI.",
+      "year": 2023
+    },
+    {
+      "title": "Unreal Engine 5 Beginner Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=k-zMkzmduqI",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn Unreal Engine 5, Blueprints visual scripting, Lumen lighting, Nanite geometry, and game mechanics.",
+      "year": 2022
+    },
+    {
+      "title": "Code Monkey Unity C# Beginner Course",
+      "creator": "Code Monkey",
+      "url": "https://www.youtube.com/watch?v=AmGSEH7QcDg",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Build complete 2D and 3D games with C# scripts, game loops, sound design, and player controllers.",
+      "year": 2023
+    },
+    {
+      "title": "How to make 3D Games in Godot",
+      "creator": "Brackeys",
+      "url": "https://www.youtube.com/watch?v=ke5KpqcoiIU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to make 3D Games in Godot - Complete guide by Brackeys.",
+      "year": 2024
+    },
+    {
+      "title": "How to program in Godot - GDScript Tutorial",
+      "creator": "Brackeys",
+      "url": "https://www.youtube.com/watch?v=e1zJS31tr88",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to program in Godot - GDScript Tutorial - Complete guide by Brackeys.",
+      "year": 2024
+    },
+    {
+      "title": "Godot Tutorials for Beginners in Hindi | Tuffle",
+      "creator": "Gameplay Artist",
+      "url": "https://www.youtube.com/watch?v=vQchYyLNDzk",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Godot Tutorials for Beginners in Hindi | Tuffle - Complete guide by Gameplay Artist.",
+      "year": 2024
+    },
+    {
+      "title": "Godot Tutorials for Beginners in Hindi | Basics of Godot",
+      "creator": "Gameplay Artist",
+      "url": "https://www.youtube.com/watch?v=Uc0mlm8erHg",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Godot Tutorials for Beginners in Hindi | Basics of Godot - Complete guide by Gameplay Artist.",
+      "year": 2024
+    },
+    {
+      "title": "How to make a Video Game in Unity - BASICS (E01)",
+      "creator": "Brackeys",
+      "url": "https://www.youtube.com/watch?v=IlKaB1etrik",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to make a Video Game in Unity - BASICS (E01) - Complete guide by Brackeys.",
+      "year": 2024
+    },
+    {
+      "title": "Start Your Game Creation Journey Today! (Godot beginner tutorial)",
+      "creator": "Coco Code",
+      "url": "https://www.youtube.com/watch?v=5V9f3MT86M8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Start Your Game Creation Journey Today! (Godot beginner tutorial) - Complete guide by Coco Code.",
+      "year": 2024
+    },
+    {
+      "title": "Godot in 100 Seconds",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=QKgTZWbwD1U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Godot in 100 Seconds - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "How to make a Video Game - Getting Started (Unity)",
+      "creator": "Brackeys",
+      "url": "https://www.youtube.com/watch?v=j48LtUkZRjU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to make a Video Game - Getting Started (Unity) - Complete guide by Brackeys.",
+      "year": 2024
+    },
+    {
+      "title": "Godot Tutorial #1 - 2D Platformer Guide - Introduction and Setup",
+      "creator": "Goblin King",
+      "url": "https://www.youtube.com/watch?v=_q644rZLdaQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Godot Tutorial #1 - 2D Platformer Guide - Introduction and Setup - Complete guide by Goblin King.",
+      "year": 2024
+    },
+    {
+      "title": "Lighting in Godot #gamedev #godot",
+      "creator": "Brackeys",
+      "url": "https://www.youtube.com/watch?v=UR5TvKmeVhY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lighting in Godot #gamedev #godot - Complete guide by Brackeys.",
+      "year": 2024
+    },
+    {
+      "title": "brackeys godot tutorial but i add some my things",
+      "creator": "Kefiro",
+      "url": "https://www.youtube.com/watch?v=CUm-rv4ELfA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "brackeys godot tutorial but i add some my things - Complete guide by Kefiro.",
+      "year": 2024
+    },
+    {
+      "title": "ROBLOX'S SECRET BADGE DROVE ME INSANE",
+      "creator": "corny",
+      "url": "https://www.youtube.com/watch?v=9Wb0Rw2xQVs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "ROBLOX'S SECRET BADGE DROVE ME INSANE - Complete guide by corny.",
+      "year": 2024
+    },
+    {
+      "title": "Godot Tutorial #2.1 - Player Part 1",
+      "creator": "Goblin King",
+      "url": "https://www.youtube.com/watch?v=pWHNNTnHwHQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Godot Tutorial #2.1 - Player Part 1 - Complete guide by Goblin King.",
+      "year": 2024
+    },
+    {
+      "title": "Godot 4 Crash Course #1 - The Basics",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/watch?v=q7wlSvt0JIc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Godot 4 Crash Course #1 - The Basics - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "How to make a Video Game - Godot Beginner Tutorial",
+      "creator": "Brackeys",
+      "url": "https://www.youtube.com/watch?v=LOhfqjmasi0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "How to make a Video Game - Godot Beginner Tutorial - Complete guide by Brackeys.",
+      "year": 2024
+    },
+    {
+      "title": "How to make a 2D Game in Unity",
+      "creator": "Brackeys",
+      "url": "https://www.youtube.com/watch?v=on9nwbZngyw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to make a 2D Game in Unity - Complete guide by Brackeys.",
+      "year": 2024
+    },
+    {
+      "title": "Godot 4 Crash Course #2 - Coding in Godot",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/watch?v=8CrFk3tjsSY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Godot 4 Crash Course #2 - Coding in Godot - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "C# Godot Tutorial 1 - Creating a basic game",
+      "creator": "Abdullah",
+      "url": "https://www.youtube.com/watch?v=Ej2p_TPGCDE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C# Godot Tutorial 1 - Creating a basic game - Complete guide by Abdullah.",
+      "year": 2024
+    },
+    {
+      "title": "2D Movement in Unity (Tutorial)",
+      "creator": "Brackeys",
+      "url": "https://www.youtube.com/watch?v=dwcT-Dch0bA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "2D Movement in Unity (Tutorial) - Complete guide by Brackeys.",
+      "year": 2024
+    },
+    {
+      "title": "I Made My First Game in Godot in 3 Weeks...",
+      "creator": "Jack Sather",
+      "url": "https://www.youtube.com/watch?v=iwGVLiFL-Lw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I Made My First Game in Godot in 3 Weeks... - Complete guide by Jack Sather.",
+      "year": 2024
+    },
+    {
+      "title": "The new ultimate introduction to Godot",
+      "creator": "Clear Code",
+      "url": "https://www.youtube.com/watch?v=TLG2yVpLDT8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The new ultimate introduction to Godot - Complete guide by Clear Code.",
+      "year": 2024
+    },
+    {
+      "title": "C# Godot Tutorial 2 - Nodes",
+      "creator": "Abdullah",
+      "url": "https://www.youtube.com/watch?v=NJ6TlU3mQ9g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C# Godot Tutorial 2 - Nodes - Complete guide by Abdullah.",
+      "year": 2024
+    },
+    {
+      "title": "Unity 3D Tutorial - Beat Em Up Fight Game",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=gcF66q-UPCs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Unity 3D Tutorial - Beat Em Up Fight Game - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Unity FPS Survival Game Tutorial - First Person Shooter Game Dev",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=Sqb-Ue7wpsI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Unity FPS Survival Game Tutorial - First Person Shooter Game Dev - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "made my first game in godot by following brackeys tutorial #game #2d #brackeys #firstgame #godot4",
+      "creator": "KanavDevs",
+      "url": "https://www.youtube.com/watch?v=N0mpuNkCFsw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "made my first game in godot by following brackeys tutorial #game #2d #brackeys #firstgame #godot4 - Complete guide by KanavDevs.",
+      "year": 2024
+    },
+    {
+      "title": "What’s Wrong With Most Godot Tutorials (including ours)",
+      "creator": "GDQuest",
+      "url": "https://www.youtube.com/watch?v=yQZKXdwyh-Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What’s Wrong With Most Godot Tutorials (including ours) - Complete guide by GDQuest.",
+      "year": 2024
+    },
+    {
+      "title": "1 Year of Game Dev (in 30 seconds) #godot #indiedev #indiegamedev",
+      "creator": "Gambit",
+      "url": "https://www.youtube.com/watch?v=sI9BxYjOV0I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1 Year of Game Dev (in 30 seconds) #godot #indiedev #indiegamedev - Complete guide by Gambit.",
+      "year": 2024
+    },
+    {
+      "title": "Making Ramayan in Unity 3D Engine | Part 1 | Unity Tutorials Hindi | 3D Game in Unity #unity3d",
+      "creator": "Code Lover",
+      "url": "https://www.youtube.com/watch?v=W7y6dXh4MHI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Making Ramayan in Unity 3D Engine | Part 1 | Unity Tutorials Hindi | 3D Game in Unity #unity3d - Complete guide by Code Lover.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Unity 2D Beginner FREE COMPLETE Course (Unity Tutorial 2026)",
+      "creator": "Code Monkey",
+      "url": "https://www.youtube.com/watch?v=nGKd4yTP3M8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn Unity 2D Beginner FREE COMPLETE Course (Unity Tutorial 2026) - Complete guide by Code Monkey.",
+      "year": 2024
+    },
+    {
+      "title": "Make Your Own Game With AI in Unity 🤖🎮 | Game Dev Is Changing",
+      "creator": "REDWING",
+      "url": "https://www.youtube.com/watch?v=_0oFg4iENWc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Make Your Own Game With AI in Unity 🤖🎮 | Game Dev Is Changing - Complete guide by REDWING.",
+      "year": 2024
+    },
+    {
+      "title": "100+ Free Unity Certified Associate Programmer Practice Questions & Full 2026 Exam Prep Walkthrough!",
+      "creator": "Quizzprep free",
+      "url": "https://www.youtube.com/watch?v=GDJrNALQZmU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "100+ Free Unity Certified Associate Programmer Practice Questions & Full 2026 Exam Prep Walkthrough! - Complete guide by Quizzprep free.",
+      "year": 2024
+    },
+    {
+      "title": "How to Build a Fighting Game in Unity (Like Mortal Kombat!)",
+      "creator": "BudGames",
+      "url": "https://www.youtube.com/watch?v=GW3zMPjGT3w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Build a Fighting Game in Unity (Like Mortal Kombat!) - Complete guide by BudGames.",
+      "year": 2024
+    },
+    {
+      "title": "How to Learn Unity Before 2027 🚀 | Beginner Roadmap #gamedevblog #gamedev #gaming",
+      "creator": "Yayu",
+      "url": "https://www.youtube.com/watch?v=A3781cSPxQA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "How to Learn Unity Before 2027 🚀 | Beginner Roadmap #gamedevblog #gamedev #gaming - Complete guide by Yayu.",
+      "year": 2024
+    },
+    {
+      "title": "Learning Unity Be Like",
+      "creator": "Mults",
+      "url": "https://www.youtube.com/watch?v=36ax5HbHwbU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learning Unity Be Like - Complete guide by Mults.",
+      "year": 2024
+    },
+    {
+      "title": "FREE Course on making an AWESOME Unity 2D Game! #gamedev",
+      "creator": "Code Monkey",
+      "url": "https://www.youtube.com/watch?v=5Pc6Q9AACFg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "FREE Course on making an AWESOME Unity 2D Game! #gamedev - Complete guide by Code Monkey.",
+      "year": 2024
+    },
+    {
+      "title": "I LEARNED UNITY IN 1 DAY… AND MADE $0 ($10K CHALLENGE) DAY 2 CHALLANGE",
+      "creator": "Kippen",
+      "url": "https://www.youtube.com/watch?v=nXYo_Ffy_Cw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I LEARNED UNITY IN 1 DAY… AND MADE $0 ($10K CHALLENGE) DAY 2 CHALLANGE - Complete guide by Kippen.",
+      "year": 2024
+    },
+    {
+      "title": "Project-Based Augmented Reality Course with Unity Engine and AR Foundation",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=FJAO6jDYljs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Project-Based Augmented Reality Course with Unity Engine and AR Foundation - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "🎮 Learn Game Development for FREE! | Top YouTube Channels for Beginners 💻",
+      "creator": "Ziddi coder ",
+      "url": "https://www.youtube.com/watch?v=jlKmJ7D4I5E",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "🎮 Learn Game Development for FREE! | Top YouTube Channels for Beginners 💻 - Complete guide by Ziddi coder .",
+      "year": 2024
+    },
+    {
+      "title": "Jump3D | Hypercasual Game | Being made by me | Unity Game Engine | C# | Part - 3 🇮🇳",
+      "creator": "RenderNine GS",
+      "url": "https://www.youtube.com/watch?v=HKQ5KMW4pNo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Jump3D | Hypercasual Game | Being made by me | Unity Game Engine | C# | Part - 3 🇮🇳 - Complete guide by RenderNine GS.",
+      "year": 2024
+    },
+    {
+      "title": "Unity Game Development Full Course in Hindi/Urdu",
+      "creator": "Nafay 3D",
+      "url": "https://www.youtube.com/watch?v=YBRlwCjLNMQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Unity Game Development Full Course in Hindi/Urdu - Complete guide by Nafay 3D.",
+      "year": 2024
+    },
+    {
+      "title": "Join the Unity Game Development course at UTech NED Gulshan campus Karachi! 🤩",
+      "creator": "UTech Digital Education",
+      "url": "https://www.youtube.com/watch?v=hbPNfjVRPq4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Join the Unity Game Development course at UTech NED Gulshan campus Karachi! 🤩 - Complete guide by UTech Digital Education.",
+      "year": 2024
+    },
+    {
+      "title": "Building a game on Unity without programming skills. Day 49.",
+      "creator": "FMJ Games",
+      "url": "https://www.youtube.com/watch?v=odP5yQdjCHQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Building a game on Unity without programming skills. Day 49. - Complete guide by FMJ Games.",
+      "year": 2024
+    },
+    {
+      "title": "UNITY for the first Time (Using free code camp tutorial ) short",
+      "creator": "SABI DEV",
+      "url": "https://www.youtube.com/watch?v=yMJJlROst44",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "UNITY for the first Time (Using free code camp tutorial ) short - Complete guide by SABI DEV.",
+      "year": 2024
+    },
+    {
+      "title": "Unity Tutorial For Beginners in Hindi || Unity Game Engine for beginners in Hindi.",
+      "creator": "Learn Computer (Sharmistha Datta)",
+      "url": "https://www.youtube.com/watch?v=tgjiD3X122s",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Unity Tutorial For Beginners in Hindi || Unity Game Engine for beginners in Hindi. - Complete guide by Learn Computer (Sharmistha Datta).",
+      "year": 2024
+    },
+    {
+      "title": "Unity Builds: Linux, Mac, Web, Windows & IL2CPP Explained",
+      "creator": "LewyT Game Lab",
+      "url": "https://www.youtube.com/watch?v=dJiHb-tRfgk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Unity Builds: Linux, Mac, Web, Windows & IL2CPP Explained - Complete guide by LewyT Game Lab.",
+      "year": 2024
+    },
+    {
+      "title": "Create an Asteroids Game - Full Unity Tutorial for Beginners #unity #tutorial",
+      "creator": "Game Dev Guide",
+      "url": "https://www.youtube.com/watch?v=zt3zbbYwObE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Create an Asteroids Game - Full Unity Tutorial for Beginners #unity #tutorial - Complete guide by Game Dev Guide.",
+      "year": 2024
+    },
+    {
+      "title": "Best Advice for Learning the Unity Game Engine #coding #indiedeveloper #gamedesign #unity #unitydev",
+      "creator": "One Wheel Studio",
+      "url": "https://www.youtube.com/watch?v=7RBEgaKj8Z8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Best Advice for Learning the Unity Game Engine #coding #indiedeveloper #gamedesign #unity #unitydev - Complete guide by One Wheel Studio.",
+      "year": 2024
+    },
+    {
+      "title": "Unity game Development | unity 3d game making tutorial hindi | #unity #coding #shortvideos",
+      "creator": "Sabi Programming",
+      "url": "https://www.youtube.com/watch?v=9p0oxaRyOIc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Unity game Development | unity 3d game making tutorial hindi | #unity #coding #shortvideos - Complete guide by Sabi Programming.",
+      "year": 2024
+    },
+    {
+      "title": "Unity in 100 Seconds",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=iqlH4okiQqg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Unity in 100 Seconds - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "How long does it REALLY take to learn C# or Game Development? #gamedev #programming",
+      "creator": "Code Monkey",
+      "url": "https://www.youtube.com/watch?v=PMVMH_k_bgU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How long does it REALLY take to learn C# or Game Development? #gamedev #programming - Complete guide by Code Monkey.",
+      "year": 2024
+    },
+    {
+      "title": "How to Make GAMES ?? #unity #gamedevelopmenttutorialinhindi #gamedevelopment #gamedevelopmentinhindi",
+      "creator": "Vicky - The Game Developer",
+      "url": "https://www.youtube.com/watch?v=OWo6aEAtl1s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Make GAMES ?? #unity #gamedevelopmenttutorialinhindi #gamedevelopment #gamedevelopmentinhindi - Complete guide by Vicky - The Game Developer.",
+      "year": 2024
+    },
+    {
+      "title": "I Made Gta 6 For MythPath  | Part-2 | Unity game development tutorial | Hindi |  unity tutorial",
+      "creator": "Games BY ARSH",
+      "url": "https://www.youtube.com/watch?v=cCjzLbX_8PE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I Made Gta 6 For MythPath  | Part-2 | Unity game development tutorial | Hindi |  unity tutorial - Complete guide by Games BY ARSH.",
+      "year": 2024
+    },
+    {
+      "title": "Unity Complete Game Development Course for Beginners (Urdu / Hindi)",
+      "creator": "Shahbaz Whatever",
+      "url": "https://www.youtube.com/watch?v=5VG2ps38zxM",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Unity Complete Game Development Course for Beginners (Urdu / Hindi) - Complete guide by Shahbaz Whatever.",
+      "year": 2024
+    },
+    {
+      "title": "Never Coded? Make Your First Game in Unity — Full Course",
+      "creator": "Jason Weimann (GameDev)",
+      "url": "https://www.youtube.com/watch?v=mvdhOEsCkAg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Never Coded? Make Your First Game in Unity — Full Course - Complete guide by Jason Weimann (GameDev).",
+      "year": 2024
+    },
+    {
+      "title": "Unity / C# Tutorial | Helicopter Game 3D - CS50's Intro to Game Development",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=smRX1XItAjU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Unity / C# Tutorial | Helicopter Game 3D - CS50's Intro to Game Development - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Unity Tutorial – Massive Multiplayer Online (MMO) Game with SpacetimeDB",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=msVwc0IwYl0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Unity Tutorial – Massive Multiplayer Online (MMO) Game with SpacetimeDB - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Unity 2D Pixel Art Game Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=dSIVVX0vAsY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Unity 2D Pixel Art Game Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Augmented Reality for Everyone - Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=WzfDo2Wpxks",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Augmented Reality for Everyone - Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "The Ultimate Multiplayer Tutorial for Unity - Netcode for GameObjects",
+      "creator": "samyam",
+      "url": "https://www.youtube.com/watch?v=swIM2z6Foxk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Ultimate Multiplayer Tutorial for Unity - Netcode for GameObjects - Complete guide by samyam.",
+      "year": 2024
+    },
+    {
+      "title": "C# Unity Tutorial - Full Course for Beginners in HINDI | PART-1 | #gamedevelopmenttutorialinhindi",
+      "creator": "Vicky - The Game Developer",
+      "url": "https://www.youtube.com/watch?v=9wu0jVfR8Bc",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "C# Unity Tutorial - Full Course for Beginners in HINDI | PART-1 | #gamedevelopmenttutorialinhindi - Complete guide by Vicky - The Game Developer.",
+      "year": 2024
+    },
+    {
+      "title": "How to Setup Dedicated Server Hosting and Matchmaking for Unity",
+      "creator": "samyam",
+      "url": "https://www.youtube.com/watch?v=FjOZrSPL_-Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Setup Dedicated Server Hosting and Matchmaking for Unity - Complete guide by samyam.",
+      "year": 2024
+    },
+    {
+      "title": "What is C# | C# Unity Tutorial - Full Course for Beginners in HINDI | PART-2 | #gamedevelopment",
+      "creator": "Vicky - The Game Developer",
+      "url": "https://www.youtube.com/watch?v=WQR7hz8I6mg",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "What is C# | C# Unity Tutorial - Full Course for Beginners in HINDI | PART-2 | #gamedevelopment - Complete guide by Vicky - The Game Developer.",
+      "year": 2024
+    },
+    {
+      "title": "How to make a 3d fight game in Unity - full tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=1wn5Ur1_vKg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to make a 3d fight game in Unity - full tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Unreal Engine 5.8 Beginner Tutorial 2026 - UE5 Starter Course",
+      "creator": "Unreal Guide",
+      "url": "https://www.youtube.com/watch?v=E4t7oJFqw1U",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Unreal Engine 5.8 Beginner Tutorial 2026 - UE5 Starter Course - Complete guide by Unreal Guide.",
+      "year": 2024
+    },
+    {
+      "title": "Unreal Engine 5 Vs AAA Games 🥲",
+      "creator": "Games Gossip India",
+      "url": "https://www.youtube.com/watch?v=al7OteBK060",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Unreal Engine 5 Vs AAA Games 🥲 - Complete guide by Games Gossip India.",
+      "year": 2024
+    },
+    {
+      "title": "Unreal Engine 5 is crazyyy #unrealengine  #gamedev #unity #freelance #gamegraphics",
+      "creator": "Nafay 3D",
+      "url": "https://www.youtube.com/watch?v=E7vqgcxxlhc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Unreal Engine 5 is crazyyy #unrealengine  #gamedev #unity #freelance #gamegraphics - Complete guide by Nafay 3D.",
+      "year": 2024
+    },
+    {
+      "title": "When Unity devs open Unreal Engine | Anything World",
+      "creator": "Anything World",
+      "url": "https://www.youtube.com/watch?v=ow64Rpjszt8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "When Unity devs open Unreal Engine | Anything World - Complete guide by Anything World.",
+      "year": 2024
+    },
+    {
+      "title": "Unreal Engine 5 - Beginner's Tutorial (with Blueprint)",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=xl5fqr-CpTY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Unreal Engine 5 - Beginner's Tutorial (with Blueprint) - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "How to Animate ANY 3D Character for Free in Unreal Engine 5",
+      "creator": "Josh Toonen",
+      "url": "https://www.youtube.com/watch?v=J0UkQu53Lso",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Animate ANY 3D Character for Free in Unreal Engine 5 - Complete guide by Josh Toonen.",
+      "year": 2024
+    },
+    {
+      "title": "How to become a game developer",
+      "creator": "TechWorld",
+      "url": "https://www.youtube.com/watch?v=QDMktDIT-Tg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to become a game developer - Complete guide by TechWorld.",
+      "year": 2024
+    },
+    {
+      "title": "FREE GAME DEVELOPMENT (Full Course) | Beginner to Advance - Unity 3D (BUSINESS IDEA)",
+      "creator": "Azad Chaiwala",
+      "url": "https://www.youtube.com/watch?v=gVDdOucyZrk",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "FREE GAME DEVELOPMENT (Full Course) | Beginner to Advance - Unity 3D (BUSINESS IDEA) - Complete guide by Azad Chaiwala.",
+      "year": 2024
+    },
+    {
+      "title": "The 7 Levels of Learning Unreal Engine",
+      "creator": "Unreal University ",
+      "url": "https://www.youtube.com/watch?v=gDpUEJrEKP4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The 7 Levels of Learning Unreal Engine - Complete guide by Unreal University .",
+      "year": 2024
+    },
+    {
+      "title": "Unreal Engine 5 Beginner Tutorial 2026 - UE5 Starter Course",
+      "creator": "Unreal Sensei",
+      "url": "https://www.youtube.com/watch?v=e83pKSlfGR0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Unreal Engine 5 Beginner Tutorial 2026 - UE5 Starter Course - Complete guide by Unreal Sensei.",
+      "year": 2024
+    },
+    {
+      "title": "Object Interactions Using Contextual Animation in Unreal Engine 5",
+      "creator": "Tank Control Games",
+      "url": "https://www.youtube.com/watch?v=PCQJU7uuR40",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Object Interactions Using Contextual Animation in Unreal Engine 5 - Complete guide by Tank Control Games.",
+      "year": 2024
+    },
+    {
+      "title": "Unreal Engine 5 has made game dev insanely easy! #unrealengine #gamedev #freelance #gamegraphics",
+      "creator": "Nafay 3D",
+      "url": "https://www.youtube.com/watch?v=iAjFYSS5O6g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Unreal Engine 5 has made game dev insanely easy! #unrealengine #gamedev #freelance #gamegraphics - Complete guide by Nafay 3D.",
+      "year": 2024
+    },
+    {
+      "title": "Quick Unreal Engine Tips - Beginner Tutorial #unrealengine5  #ue5",
+      "creator": "Ben Crawshaw",
+      "url": "https://www.youtube.com/watch?v=6-ks7F75nZg",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Quick Unreal Engine Tips - Beginner Tutorial #unrealengine5  #ue5 - Complete guide by Ben Crawshaw.",
+      "year": 2024
+    },
+    {
+      "title": "Unreal Engine 5 Graphics are SO REALISTIC!!! 🤯",
+      "creator": "Garett",
+      "url": "https://www.youtube.com/watch?v=8cx7cIF6UgY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Unreal Engine 5 Graphics are SO REALISTIC!!! 🤯 - Complete guide by Garett.",
+      "year": 2024
+    },
+    {
+      "title": "Unreal Engine Blueprints In A Nutshell",
+      "creator": "Miko",
+      "url": "https://www.youtube.com/watch?v=0de9f67o4Qk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Unreal Engine Blueprints In A Nutshell - Complete guide by Miko.",
+      "year": 2024
+    },
+    {
+      "title": "Unreal Engine 5.2 Procedural Content Generation framework #shorts",
+      "creator": "Unreal Engine",
+      "url": "https://www.youtube.com/watch?v=kjD5qJTLTFQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Unreal Engine 5.2 Procedural Content Generation framework #shorts - Complete guide by Unreal Engine.",
+      "year": 2024
+    },
+    {
+      "title": "UE5 Tutorial for Beginners – LOD or Nanite",
+      "creator": "3D Dreamer",
+      "url": "https://www.youtube.com/watch?v=mAM9BfB-oz4",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "UE5 Tutorial for Beginners – LOD or Nanite - Complete guide by 3D Dreamer.",
+      "year": 2024
+    },
+    {
+      "title": "Unreal 5.2 Realistic Characters and Emotions",
+      "creator": "Futurepedia",
+      "url": "https://www.youtube.com/watch?v=6KLGnyitU1w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Unreal 5.2 Realistic Characters and Emotions - Complete guide by Futurepedia.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Unreal Engine 5 for FREE 🔥",
+      "creator": "Bad Decisions Studio ",
+      "url": "https://www.youtube.com/watch?v=61Cb8rPbASM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Unreal Engine 5 for FREE 🔥 - Complete guide by Bad Decisions Studio .",
+      "year": 2024
+    },
+    {
+      "title": "Unreal Engine 5  Call of Duty",
+      "creator": "Banban",
+      "url": "https://www.youtube.com/watch?v=0-vN50tFryQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Unreal Engine 5  Call of Duty - Complete guide by Banban.",
+      "year": 2024
+    },
+    {
+      "title": "Game Dev Tricks to Improve Combat (UE5 Tutorial preview) #unrealengine #gamedev #ue5",
+      "creator": "Ali Elzoheiry",
+      "url": "https://www.youtube.com/watch?v=l9XFMPqdRAo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Game Dev Tricks to Improve Combat (UE5 Tutorial preview) #unrealengine #gamedev #ue5 - Complete guide by Ali Elzoheiry.",
+      "year": 2024
+    },
+    {
+      "title": "Game Design & Development With Unreal Engine Tutorial UE5",
+      "creator": "Unreal Engine Class",
+      "url": "https://www.youtube.com/watch?v=V452Cq6pTL8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Game Design & Development With Unreal Engine Tutorial UE5 - Complete guide by Unreal Engine Class.",
+      "year": 2024
+    },
+    {
+      "title": "Unreal engine v blender | #shorts #viral #unreal engine",
+      "creator": "vfx world",
+      "url": "https://www.youtube.com/watch?v=YEWyKtkehwQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Unreal engine v blender | #shorts #viral #unreal engine - Complete guide by vfx world.",
+      "year": 2024
+    },
+    {
+      "title": "My $0 Unreal Engine 5 Game: AI Made the Props. I Built the Level",
+      "creator": "Stefan 3D AI",
+      "url": "https://www.youtube.com/watch?v=m7v6vYsphNU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "My $0 Unreal Engine 5 Game: AI Made the Props. I Built the Level - Complete guide by Stefan 3D AI.",
+      "year": 2024
+    },
+    {
+      "title": "Physical Locomotion & Fighting System | Unreal Engine 5.5–5.8",
+      "creator": "Mova Games - Unreal Engine Progress",
+      "url": "https://www.youtube.com/watch?v=xHEz_9a4S5M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Physical Locomotion & Fighting System | Unreal Engine 5.5–5.8 - Complete guide by Mova Games - Unreal Engine Progress.",
+      "year": 2024
+    },
+    {
+      "title": "How to Create this in Unreal Engine 5",
+      "creator": "Pandhan Virtual Production Studio ",
+      "url": "https://www.youtube.com/watch?v=iiC3JfkvNJY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Create this in Unreal Engine 5 - Complete guide by Pandhan Virtual Production Studio .",
+      "year": 2024
+    },
+    {
+      "title": "Why Unreal Engine is so Powerful 🚀",
+      "creator": "Bad Decisions Studio ",
+      "url": "https://www.youtube.com/watch?v=wt9w5HiK8-A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why Unreal Engine is so Powerful 🚀 - Complete guide by Bad Decisions Studio .",
+      "year": 2024
+    },
+    {
+      "title": "Unreal Engine Vs Coding From Scratch #unrealengine #indiegamedev #gamedev",
+      "creator": "Yandura",
+      "url": "https://www.youtube.com/watch?v=ZExFNx3Cvl8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Unreal Engine Vs Coding From Scratch #unrealengine #indiegamedev #gamedev - Complete guide by Yandura.",
+      "year": 2024
+    },
+    {
+      "title": "Desktop and Laptop PC Builds for Unreal Engine 5",
+      "creator": "Josh Toonen",
+      "url": "https://www.youtube.com/watch?v=DdTSbcBfH0E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Desktop and Laptop PC Builds for Unreal Engine 5 - Complete guide by Josh Toonen.",
+      "year": 2024
+    },
+    {
+      "title": "Unreal Engine 5.8 Beginner Tutorial | Getting Started (2026)",
+      "creator": "Smart Poly",
+      "url": "https://www.youtube.com/watch?v=57yLCKqC9m8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Unreal Engine 5.8 Beginner Tutorial | Getting Started (2026) - Complete guide by Smart Poly.",
+      "year": 2024
+    },
+    {
+      "title": "Unreal Engine 5 Hindi/Urdu Full Course (Virtual Production/Animation)",
+      "creator": "Nafay 3D",
+      "url": "https://www.youtube.com/watch?v=8NJmqft8BRc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Unreal Engine 5 Hindi/Urdu Full Course (Virtual Production/Animation) - Complete guide by Nafay 3D.",
+      "year": 2024
+    },
+    {
+      "title": "Unreal Engine 5 Beginner Tutorial - UE5 Starter Course!",
+      "creator": "Unreal Sensei",
+      "url": "https://www.youtube.com/watch?v=gQmiqmxJMtA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Unreal Engine 5 Beginner Tutorial - UE5 Starter Course! - Complete guide by Unreal Sensei.",
+      "year": 2024
+    },
+    {
+      "title": "C++ For Unreal Engine (Part 1) | Learn C++ For Unreal Engine | C++ Tutorial For Unreal Engine",
+      "creator": "Nerd's Academy",
+      "url": "https://www.youtube.com/watch?v=47z5sVbxmUo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C++ For Unreal Engine (Part 1) | Learn C++ For Unreal Engine | C++ Tutorial For Unreal Engine - Complete guide by Nerd's Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Build your own The Backrooms horror game with Unreal Engine 5 & Blueprints – Full GameDev Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=2Kw3e-1vbBQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build your own The Backrooms horror game with Unreal Engine 5 & Blueprints – Full GameDev Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Unreal Engine 5 BEGINNER COURSE - Complete Basics and Environment Design in Telugu | Sumanth 2122",
+      "creator": "SUMANTH 2122",
+      "url": "https://www.youtube.com/watch?v=wsraJue6u4w",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Unreal Engine 5 BEGINNER COURSE - Complete Basics and Environment Design in Telugu | Sumanth 2122 - Complete guide by SUMANTH 2122.",
+      "year": 2024
+    },
+    {
+      "title": "Unreal Engine 5 Beginner Tutorial | Getting Started (2026)",
+      "creator": "Smart Poly",
+      "url": "https://www.youtube.com/watch?v=gBIFMoFkZP4",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Unreal Engine 5 Beginner Tutorial | Getting Started (2026) - Complete guide by Smart Poly.",
+      "year": 2024
+    },
+    {
+      "title": "Game Development Full Course in Hindi/Urdu (UNREAL ENGINE 5)",
+      "creator": "Nafay 3D",
+      "url": "https://www.youtube.com/watch?v=MbnWLqIxS5s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Game Development Full Course in Hindi/Urdu (UNREAL ENGINE 5) - Complete guide by Nafay 3D.",
+      "year": 2024
+    },
+    {
+      "title": "Create A 2.5D Platformer Game With Unreal Engine (Tutorial)",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=9Fd9hw329fY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Create A 2.5D Platformer Game With Unreal Engine (Tutorial) - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "YOU'RE LEARNING UNREAL ENGINE 5 WRONG",
+      "creator": "Crimson",
+      "url": "https://www.youtube.com/watch?v=bFR6BfySY7A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "YOU'RE LEARNING UNREAL ENGINE 5 WRONG - Complete guide by Crimson.",
+      "year": 2024
+    },
+    {
+      "title": "Unreal Engine 5 Beginner Tutorial - UE5 Game Development Course",
+      "creator": "Nafay 3D",
+      "url": "https://www.youtube.com/watch?v=ZoVENof7ncA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Unreal Engine 5 Beginner Tutorial - UE5 Game Development Course - Complete guide by Nafay 3D.",
+      "year": 2024
+    },
+    {
+      "title": "Godot Game Development – Crash Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=S8lMTwSRoRg",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Godot Game Development – Crash Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Godot 4 Roguelike Course – Build a Complete Top-Down Action Game",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=eHHxRJulX74",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Godot 4 Roguelike Course – Build a Complete Top-Down Action Game - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Complete FREE Beginner Godot Game Developer Course 2026",
+      "creator": "Red Fools Game Dev",
+      "url": "https://www.youtube.com/watch?v=8QKoUBCwNbo",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Complete FREE Beginner Godot Game Developer Course 2026 - Complete guide by Red Fools Game Dev.",
+      "year": 2024
+    },
+    {
+      "title": "Godot GameDev Tutorial – 3D RPG Game",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=ouqgx1qKSdY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Godot GameDev Tutorial – 3D RPG Game - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Godot 4 Course 2026 – Complete Godot Game Development for Beginners",
+      "creator": "Codynn",
+      "url": "https://www.youtube.com/watch?v=EBe8rxvFPk0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Godot 4 Course 2026 – Complete Godot Game Development for Beginners - Complete guide by Codynn.",
+      "year": 2024
+    },
+    {
+      "title": "Day 1 vs Day 100 of Godot game development",
+      "creator": "OAT Academy",
+      "url": "https://www.youtube.com/watch?v=Gjl3UvEc9eA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Day 1 vs Day 100 of Godot game development - Complete guide by OAT Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Godot Game Development Course | Lesson 01 | What is Godot? | Basic to Advanced",
+      "creator": "Fast Explain ",
+      "url": "https://www.youtube.com/watch?v=fQ_A4IgRlSY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Godot Game Development Course | Lesson 01 | What is Godot? | Basic to Advanced - Complete guide by Fast Explain .",
+      "year": 2024
+    },
+    {
+      "title": "Complete Godot 4 Course for Beginners",
+      "creator": "Zenva",
+      "url": "https://www.youtube.com/watch?v=1K-s8ZuYJ5c",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Complete Godot 4 Course for Beginners - Complete guide by Zenva.",
+      "year": 2024
+    },
+    {
+      "title": "Build your first game in Godot 4 with no code",
+      "creator": "SELOdev",
+      "url": "https://www.youtube.com/watch?v=KSEgaldLe_w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build your first game in Godot 4 with no code - Complete guide by SELOdev.",
+      "year": 2024
+    },
+    {
+      "title": "Godot Tutorial for Unity Developers (and other beginners)",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=1EFKe24X8vI",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Godot Tutorial for Unity Developers (and other beginners) - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Why I use GODOT - Small but Mighty Game Engine",
+      "creator": "Aarimous",
+      "url": "https://www.youtube.com/watch?v=BiOtpAMzJFo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why I use GODOT - Small but Mighty Game Engine - Complete guide by Aarimous.",
+      "year": 2024
+    },
+    {
+      "title": "First Time Using Godot Engine",
+      "creator": "AlexBScripts",
+      "url": "https://www.youtube.com/watch?v=CjWzc2KHN-k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "First Time Using Godot Engine - Complete guide by AlexBScripts.",
+      "year": 2024
+    },
+    {
+      "title": "5 Games Made in Godot To Encourage You",
+      "creator": "Letta Corporation",
+      "url": "https://www.youtube.com/watch?v=H9xRSTFLIWA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "5 Games Made in Godot To Encourage You - Complete guide by Letta Corporation.",
+      "year": 2024
+    },
+    {
+      "title": "Create Games without Coding and 3D Modeling in Godot | Hindi",
+      "creator": "MDxSADIQ",
+      "url": "https://www.youtube.com/watch?v=f7XLzmr5WCo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Create Games without Coding and 3D Modeling in Godot | Hindi - Complete guide by MDxSADIQ.",
+      "year": 2024
+    },
+    {
+      "title": "Is Godot's physics worse than Unity's?",
+      "creator": "Zenva",
+      "url": "https://www.youtube.com/watch?v=xxzUTyT2Nwk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Is Godot's physics worse than Unity's? - Complete guide by Zenva.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Godot",
+      "creator": "Aarimous",
+      "url": "https://www.youtube.com/watch?v=vuA17dvNHn8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Godot - Complete guide by Aarimous.",
+      "year": 2024
+    },
+    {
+      "title": "What You’ll Learn in My 2026 Advanced Godot Course! 🚀",
+      "creator": "Red Fools Game Dev",
+      "url": "https://www.youtube.com/watch?v=jHlvkYH6fyo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What You’ll Learn in My 2026 Advanced Godot Course! 🚀 - Complete guide by Red Fools Game Dev.",
+      "year": 2024
+    },
+    {
+      "title": "The Fastest Way to Build Godot Games in 2026: Claude and Makko",
+      "creator": "Letta Corporation",
+      "url": "https://www.youtube.com/watch?v=3zhL6BgEPkA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Fastest Way to Build Godot Games in 2026: Claude and Makko - Complete guide by Letta Corporation.",
+      "year": 2024
+    },
+    {
+      "title": "Godot Is Great",
+      "creator": "Pirate Software",
+      "url": "https://www.youtube.com/watch?v=5QQN3mA_XXQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Godot Is Great - Complete guide by Pirate Software.",
+      "year": 2024
+    },
+    {
+      "title": "Godot 4 Vehicle Controller #godot #3dgamedevelopment #gaming #3d #gamedev #blender #animation",
+      "creator": "Brokencircuit",
+      "url": "https://www.youtube.com/watch?v=czafAAOOBow",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Godot 4 Vehicle Controller #godot #3dgamedevelopment #gaming #3d #gamedev #blender #animation - Complete guide by Brokencircuit.",
+      "year": 2024
+    },
+    {
+      "title": "Unity Refugees: Godot Survival Tip",
+      "creator": "GDQuest",
+      "url": "https://www.youtube.com/watch?v=ISRf5HlmO-Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Unity Refugees: Godot Survival Tip - Complete guide by GDQuest.",
+      "year": 2024
+    },
+    {
+      "title": "One week of learning Godot game dev in 60 seconds",
+      "creator": "RachelfTech",
+      "url": "https://www.youtube.com/watch?v=NEYaZQj3axE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "One week of learning Godot game dev in 60 seconds - Complete guide by RachelfTech.",
+      "year": 2024
+    },
+    {
+      "title": "godot 4 mobile is easy #gamedev #godot",
+      "creator": "KOCYNUS🎮",
+      "url": "https://www.youtube.com/watch?v=BlKVP5bK_J8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "godot 4 mobile is easy #gamedev #godot - Complete guide by KOCYNUS🎮.",
+      "year": 2024
+    },
+    {
+      "title": "Learning Godot In 5 Days - Beginner to PRO",
+      "creator": "Reece Geofroy",
+      "url": "https://www.youtube.com/watch?v=1krip6SmIPk",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learning Godot In 5 Days - Beginner to PRO - Complete guide by Reece Geofroy.",
+      "year": 2024
+    },
+    {
+      "title": "RESOLVED IN GODOT 4 - Cyclical Dependency Issues",
+      "creator": "GDQuest",
+      "url": "https://www.youtube.com/watch?v=zT3ujea0Nuc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "RESOLVED IN GODOT 4 - Cyclical Dependency Issues - Complete guide by GDQuest.",
+      "year": 2024
+    },
+    {
+      "title": "Try making a 2D platformer game in Godot 4...",
+      "creator": "Voidcord",
+      "url": "https://www.youtube.com/watch?v=MCzGS16y50k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Try making a 2D platformer game in Godot 4... - Complete guide by Voidcord.",
+      "year": 2024
+    },
+    {
+      "title": "I Spent 22 Hours Making a Godot Course (While Making My Steam Game) 🎮💻",
+      "creator": "Red Fools Game Dev",
+      "url": "https://www.youtube.com/watch?v=WdziZ8QQQos",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I Spent 22 Hours Making a Godot Course (While Making My Steam Game) 🎮💻 - Complete guide by Red Fools Game Dev.",
+      "year": 2024
+    },
+    {
+      "title": "@shawcatDev : Mastering Godot Game Development with GDScript: Beginner's Guide",
+      "creator": "gameDevClip",
+      "url": "https://www.youtube.com/watch?v=roqrOahvSw0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "@shawcatDev : Mastering Godot Game Development with GDScript: Beginner's Guide - Complete guide by gameDevClip.",
+      "year": 2024
+    },
+    {
+      "title": "Game development with Godot 4.5 on Android #godot #godottutorial #godotengine #godotonandroid",
+      "creator": "Animate on mobile",
+      "url": "https://www.youtube.com/watch?v=orknApPcgXs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Game development with Godot 4.5 on Android #godot #godottutorial #godotengine #godotonandroid - Complete guide by Animate on mobile.",
+      "year": 2024
+    },
+    {
+      "title": "Unity vs Godot | Which Game Engine Should You Choose in 2025? | (Hindi/Urdu)",
+      "creator": "rKaam Studios",
+      "url": "https://www.youtube.com/watch?v=MdN84b0A6cE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Unity vs Godot | Which Game Engine Should You Choose in 2025? | (Hindi/Urdu) - Complete guide by rKaam Studios.",
+      "year": 2024
+    },
+    {
+      "title": "Export your game to apk in Godot 4  | Mobile #godot #godottutorial #3dgamedevelopment #tutorial",
+      "creator": "PF Studios Gm",
+      "url": "https://www.youtube.com/watch?v=F76gwOTP_V0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Export your game to apk in Godot 4  | Mobile #godot #godottutorial #3dgamedevelopment #tutorial - Complete guide by PF Studios Gm.",
+      "year": 2024
+    },
+    {
+      "title": "Godot Platform Tutorial 2026: Part1",
+      "creator": "SRCoder",
+      "url": "https://www.youtube.com/watch?v=LWgMh7C1ap4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Godot Platform Tutorial 2026: Part1 - Complete guide by SRCoder.",
+      "year": 2024
+    },
+    {
+      "title": "Godot Platform Tutorial 2026: Part2",
+      "creator": "SRCoder",
+      "url": "https://www.youtube.com/watch?v=sX2nZ-EwvfU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Godot Platform Tutorial 2026: Part2 - Complete guide by SRCoder.",
+      "year": 2024
+    },
+    {
+      "title": "Why Does the Games Industry Reject Godot?",
+      "creator": "Dan Does Dev",
+      "url": "https://www.youtube.com/watch?v=c9gFyAbt23w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why Does the Games Industry Reject Godot? - Complete guide by Dan Does Dev.",
+      "year": 2024
+    },
+    {
+      "title": "All you need to start learning to code with freeCodeCamp is the will to do so.",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=lw1vTtFyfgg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "All you need to start learning to code with freeCodeCamp is the will to do so. - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Godot 4 full course in Bangla | Introduction | Class 1 | Godot mobile | Godot Bangla tutorial",
+      "creator": "Game Studio Bangla ",
+      "url": "https://www.youtube.com/watch?v=UUk7i6ml5_U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Godot 4 full course in Bangla | Introduction | Class 1 | Godot mobile | Godot Bangla tutorial - Complete guide by Game Studio Bangla .",
+      "year": 2024
+    },
+    {
+      "title": "Godot 4 full course in Bangla | develop a game using mobile | Godot Bangla | Game Studio Bangla |",
+      "creator": "Game Studio Bangla ",
+      "url": "https://www.youtube.com/watch?v=kHWid68Uv7c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Godot 4 full course in Bangla | develop a game using mobile | Godot Bangla | Game Studio Bangla | - Complete guide by Game Studio Bangla .",
+      "year": 2024
+    },
+    {
+      "title": "Noob vs. Pro || C#",
+      "creator": "SharpCode Academy",
+      "url": "https://www.youtube.com/watch?v=b_JcIXLI9nI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Noob vs. Pro || C# - Complete guide by SharpCode Academy.",
+      "year": 2024
+    },
+    {
+      "title": "🎮 Programming Languages Used in Famous Video Games! 💻🔥#Coding #CPlusPlus #CPP #CSharp #Java #PUBG",
+      "creator": "Carrier with code ",
+      "url": "https://www.youtube.com/watch?v=fPnNIhi0_FU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🎮 Programming Languages Used in Famous Video Games! 💻🔥#Coding #CPlusPlus #CPP #CSharp #Java #PUBG - Complete guide by Carrier with code .",
+      "year": 2024
+    },
+    {
+      "title": "Simple console game using visual C#",
+      "creator": "Daily Tech",
+      "url": "https://www.youtube.com/watch?v=ncWvJt0ZVDU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Simple console game using visual C# - Complete guide by Daily Tech.",
+      "year": 2024
+    },
+    {
+      "title": "I Built Pac-Man with C# 🤯 | 8-Part C# WinForms Course",
+      "creator": "A.S. Sharpdev",
+      "url": "https://www.youtube.com/watch?v=VdofKgADb2A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I Built Pac-Man with C# 🤯 | 8-Part C# WinForms Course - Complete guide by A.S. Sharpdev.",
+      "year": 2024
+    },
+    {
+      "title": "Do I need to learn C# to be a game developer?",
+      "creator": "Dorktoast",
+      "url": "https://www.youtube.com/watch?v=8B7MYuoTVHE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Do I need to learn C# to be a game developer? - Complete guide by Dorktoast.",
+      "year": 2024
+    },
+    {
+      "title": "Game Development Roadmap #coding",
+      "creator": "Devslopes",
+      "url": "https://www.youtube.com/watch?v=PfDa_lTc-o4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Game Development Roadmap #coding - Complete guide by Devslopes.",
+      "year": 2024
+    },
+    {
+      "title": "Best Programming Languages for Game Development 🎮💻  #programming #language #development #games",
+      "creator": "TechnohqTech",
+      "url": "https://www.youtube.com/watch?v=u0lh7BTb4Rg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Best Programming Languages for Game Development 🎮💻  #programming #language #development #games - Complete guide by TechnohqTech.",
+      "year": 2024
+    },
+    {
+      "title": "I Built a Racing Game with C#… NO Game Engine?! 🏎️🔥",
+      "creator": "A.S. Sharpdev",
+      "url": "https://www.youtube.com/watch?v=vePi5LCT7EY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I Built a Racing Game with C#… NO Game Engine?! 🏎️🔥 - Complete guide by A.S. Sharpdev.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Game Development (E01: variables and methods)",
+      "creator": "Sebastian Lague",
+      "url": "https://www.youtube.com/watch?v=9iCnjdXEfMA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to Game Development (E01: variables and methods) - Complete guide by Sebastian Lague.",
+      "year": 2024
+    },
+    {
+      "title": "Best Programming Languages for Game Development!",
+      "creator": "SOD Dev",
+      "url": "https://www.youtube.com/watch?v=W9-fjvzQ2Vs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Best Programming Languages for Game Development! - Complete guide by SOD Dev.",
+      "year": 2024
+    },
+    {
+      "title": "How to Become a Mobile Game Developer? 🎮 Complete Roadmap (2026) | Day 5",
+      "creator": "Bhaiyacodes",
+      "url": "https://www.youtube.com/watch?v=5-WCLnBfEGE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Become a Mobile Game Developer? 🎮 Complete Roadmap (2026) | Day 5 - Complete guide by Bhaiyacodes.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Game Development with Unity and C#",
+      "creator": "Sebastian Lague",
+      "url": "https://www.youtube.com/watch?v=_cCGBMmMOFw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to Game Development with Unity and C# - Complete guide by Sebastian Lague.",
+      "year": 2024
+    },
+    {
+      "title": "Skills Required For Game Developer | C ++, Java, C#, Unity 3D | Shikshaa Simple Learn",
+      "creator": "Shikshaa Simple Learn",
+      "url": "https://www.youtube.com/watch?v=-gY_eFV-rJo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Skills Required For Game Developer | C ++, Java, C#, Unity 3D | Shikshaa Simple Learn - Complete guide by Shikshaa Simple Learn.",
+      "year": 2024
+    },
+    {
+      "title": "Understanding Syntax, Objects and Classes - C# Basics for Unity Beginners #2",
+      "creator": "Sunny Valley Studio",
+      "url": "https://www.youtube.com/watch?v=WnvAgPwKOZA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Understanding Syntax, Objects and Classes - C# Basics for Unity Beginners #2 - Complete guide by Sunny Valley Studio.",
+      "year": 2024
+    },
+    {
+      "title": "The challenges of coding in C++ vs. C# for game development",
+      "creator": "DigitalDNAGames",
+      "url": "https://www.youtube.com/watch?v=EqHBySQTH2s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The challenges of coding in C++ vs. C# for game development - Complete guide by DigitalDNAGames.",
+      "year": 2024
+    },
+    {
+      "title": "Learn C# Programming Basics for Unity Game Development - Part 1",
+      "creator": "Sunny Valley Studio",
+      "url": "https://www.youtube.com/watch?v=TgqAqniukTg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn C# Programming Basics for Unity Game Development - Part 1 - Complete guide by Sunny Valley Studio.",
+      "year": 2024
+    },
+    {
+      "title": "Unity C# Scripting - Full Game Development Course",
+      "creator": "Charger Games",
+      "url": "https://www.youtube.com/watch?v=VEnZzwW_OJM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Unity C# Scripting - Full Game Development Course - Complete guide by Charger Games.",
+      "year": 2024
+    },
+    {
+      "title": "Learn C# Scripting for Unity in 15 Minutes (2025 Working)",
+      "creator": "Charger Games",
+      "url": "https://www.youtube.com/watch?v=9tMvzrqBUP8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn C# Scripting for Unity in 15 Minutes (2025 Working) - Complete guide by Charger Games.",
+      "year": 2024
+    },
+    {
+      "title": "JavaScript GameDev Tutorial – Code an Animated Physics Game [Full Course]",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=U34l-Xz5ynU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "JavaScript GameDev Tutorial – Code an Animated Physics Game [Full Course] - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Intro to Game Development with JavaScript - Full Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=3EMxBkqC4z0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Intro to Game Development with JavaScript - Full Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "2d Game Dev Unity Tutorial - Hyper Casual Game",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=kRGQJqHHwXA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "2d Game Dev Unity Tutorial - Hyper Casual Game - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Super Mario Bros Programming Tutorial - CS50's Intro to Game Development",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=_cPwFo--1LA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Super Mario Bros Programming Tutorial - CS50's Intro to Game Development - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Coding Adventure: Hydraulic Erosion",
+      "creator": "Sebastian Lague",
+      "url": "https://www.youtube.com/watch?v=eaXk97ujbPQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Coding Adventure: Hydraulic Erosion - Complete guide by Sebastian Lague.",
+      "year": 2024
+    },
+    {
+      "title": "Coding Adventure: Compute Shaders",
+      "creator": "Sebastian Lague",
+      "url": "https://www.youtube.com/watch?v=9RHGLZLUuwc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Coding Adventure: Compute Shaders - Complete guide by Sebastian Lague.",
+      "year": 2024
+    },
+    {
+      "title": "Coding Adventure: Making a Better Chess Bot",
+      "creator": "Sebastian Lague",
+      "url": "https://www.youtube.com/watch?v=_vqlIPDR2TU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Coding Adventure: Making a Better Chess Bot - Complete guide by Sebastian Lague.",
+      "year": 2024
+    },
+    {
+      "title": "Coding Adventure: More Ray Tracing!",
+      "creator": "Sebastian Lague",
+      "url": "https://www.youtube.com/watch?v=C1H4zIiCOaI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Coding Adventure: More Ray Tracing! - Complete guide by Sebastian Lague.",
+      "year": 2024
+    },
+    {
+      "title": "Coding Adventure: Analyzing Audio",
+      "creator": "Sebastian Lague",
+      "url": "https://www.youtube.com/watch?v=08mmKNLQVHU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Coding Adventure: Analyzing Audio - Complete guide by Sebastian Lague.",
+      "year": 2024
+    },
+    {
+      "title": "Coding Adventure: Portals",
+      "creator": "Sebastian Lague",
+      "url": "https://www.youtube.com/watch?v=cWpFZbjtSQg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Coding Adventure: Portals - Complete guide by Sebastian Lague.",
+      "year": 2024
+    },
+    {
+      "title": "Coding Adventure: Software Rasterizer",
+      "creator": "Sebastian Lague",
+      "url": "https://www.youtube.com/watch?v=yyJ-hdISgnw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Coding Adventure: Software Rasterizer - Complete guide by Sebastian Lague.",
+      "year": 2024
+    },
+    {
+      "title": "Coding Adventure: Simulating Smoke",
+      "creator": "Sebastian Lague",
+      "url": "https://www.youtube.com/watch?v=Q78wvrQ9xsU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Coding Adventure: Simulating Smoke - Complete guide by Sebastian Lague.",
+      "year": 2024
+    },
+    {
+      "title": "Coding Adventure: Simulating an Ecosystem",
+      "creator": "Sebastian Lague",
+      "url": "https://www.youtube.com/watch?v=r_It_X7v-1E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Coding Adventure: Simulating an Ecosystem - Complete guide by Sebastian Lague.",
+      "year": 2024
+    },
+    {
+      "title": "Coding Adventure: Ray Tracing",
+      "creator": "Sebastian Lague",
+      "url": "https://www.youtube.com/watch?v=Qz0KTGYJtUk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Coding Adventure: Ray Tracing - Complete guide by Sebastian Lague.",
+      "year": 2024
+    },
+    {
+      "title": "Coding Adventure: Additive Synthesis",
+      "creator": "Sebastian Lague",
+      "url": "https://www.youtube.com/watch?v=rRnOtKlg4jA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Coding Adventure: Additive Synthesis - Complete guide by Sebastian Lague.",
+      "year": 2024
+    },
+    {
+      "title": "Coding Adventure: Chess",
+      "creator": "Sebastian Lague",
+      "url": "https://www.youtube.com/watch?v=U4ogK0MIzqk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Coding Adventure: Chess - Complete guide by Sebastian Lague.",
+      "year": 2024
+    },
+    {
+      "title": "Coding Adventure: Rendering Text",
+      "creator": "Sebastian Lague",
+      "url": "https://www.youtube.com/watch?v=SO83KQuuZvg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Coding Adventure: Rendering Text - Complete guide by Sebastian Lague.",
+      "year": 2024
+    },
+    {
+      "title": "Coding Adventure: Simulating Fluids",
+      "creator": "Sebastian Lague",
+      "url": "https://www.youtube.com/watch?v=rSKMYc1CQHE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Coding Adventure: Simulating Fluids - Complete guide by Sebastian Lague.",
+      "year": 2024
+    },
+    {
+      "title": "I Tried Coding my own Graphics Library",
+      "creator": "Sebastian Lague",
+      "url": "https://www.youtube.com/watch?v=_JGMgpyCTsY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I Tried Coding my own Graphics Library - Complete guide by Sebastian Lague.",
+      "year": 2024
+    },
+    {
+      "title": "Coding Adventure: Coding a Coding Game",
+      "creator": "Sebastian Lague",
+      "url": "https://www.youtube.com/watch?v=dY6jR52fFWo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Coding Adventure: Coding a Coding Game - Complete guide by Sebastian Lague.",
+      "year": 2024
+    },
+    {
+      "title": "90% of Coding Isn't Actually Coding 😱 #shorts #softwareengineering",
+      "creator": "Sebastian Antic",
+      "url": "https://www.youtube.com/watch?v=MalsLl50qPo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "90% of Coding Isn't Actually Coding 😱 #shorts #softwareengineering - Complete guide by Sebastian Antic.",
+      "year": 2024
+    },
+    {
+      "title": "JS is a vibes based language",
+      "creator": "Alberta Tech",
+      "url": "https://www.youtube.com/watch?v=0Rt8pnYGFms",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "JS is a vibes based language - Complete guide by Alberta Tech.",
+      "year": 2024
+    },
+    {
+      "title": "Coding Adventure: Procedural Moons and Planets",
+      "creator": "Sebastian Lague",
+      "url": "https://www.youtube.com/watch?v=lctXaT9pxA0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Coding Adventure: Procedural Moons and Planets - Complete guide by Sebastian Lague.",
+      "year": 2024
+    },
+    {
+      "title": "Coding Adventure: Rubik's Cube",
+      "creator": "Sebastian Lague",
+      "url": "https://www.youtube.com/watch?v=fy0HRViXZnE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Coding Adventure: Rubik's Cube - Complete guide by Sebastian Lague.",
+      "year": 2024
+    },
+    {
+      "title": "stereotypical programmers by language, according to AI",
+      "creator": "Syntax",
+      "url": "https://www.youtube.com/watch?v=PF5jnJWF7-c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "stereotypical programmers by language, according to AI - Complete guide by Syntax.",
+      "year": 2024
+    },
+    {
+      "title": "Coding Beyond AI",
+      "creator": "Stephen Blum",
+      "url": "https://www.youtube.com/watch?v=WIz7fpQJ74o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Coding Beyond AI - Complete guide by Stephen Blum.",
+      "year": 2024
+    },
+    {
+      "title": "Coding Adventure: Sound (and the Fourier Transform)",
+      "creator": "Sebastian Lague",
+      "url": "https://www.youtube.com/watch?v=iA6wRgwl7k0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Coding Adventure: Sound (and the Fourier Transform) - Complete guide by Sebastian Lague.",
+      "year": 2024
+    },
+    {
+      "title": "They're mad",
+      "creator": "Yell",
+      "url": "https://www.youtube.com/watch?v=gcSfY-BbfB8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "They're mad - Complete guide by Yell.",
+      "year": 2024
+    },
+    {
+      "title": "This was 10x sped up lol. #digitallogic #rickroll  @SebastianLague",
+      "creator": "marwans200",
+      "url": "https://www.youtube.com/watch?v=dccOBFZLVlY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "This was 10x sped up lol. #digitallogic #rickroll  @SebastianLague - Complete guide by marwans200.",
+      "year": 2024
+    },
+    {
+      "title": "What coding agents need from engineers to be trusted",
+      "creator": "Beyond Coding",
+      "url": "https://www.youtube.com/watch?v=scNxKbDUHkE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What coding agents need from engineers to be trusted - Complete guide by Beyond Coding.",
+      "year": 2024
+    },
+    {
+      "title": "Coding Adventure: Solar System",
+      "creator": "Sebastian Lague",
+      "url": "https://www.youtube.com/watch?v=7axImc1sxa0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Coding Adventure: Solar System - Complete guide by Sebastian Lague.",
+      "year": 2024
+    },
+    {
+      "title": "Slime Mold Simulation (part 2)",
+      "creator": "Suboptimal Engineer",
+      "url": "https://www.youtube.com/watch?v=kMzA3ftW_MQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Slime Mold Simulation (part 2) - Complete guide by Suboptimal Engineer.",
+      "year": 2024
+    },
+    {
+      "title": "This is Why You Should Take Breaks While Coding... #indiegame #coding #gamedev",
+      "creator": "OneBit Adventure",
+      "url": "https://www.youtube.com/watch?v=6GWtCHKHXMg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "This is Why You Should Take Breaks While Coding... #indiegame #coding #gamedev - Complete guide by OneBit Adventure.",
+      "year": 2024
+    },
+    {
+      "title": "Minecraft Coding Adventure!",
+      "creator": "Computhink SG",
+      "url": "https://www.youtube.com/watch?v=7Pc5MIGxgo4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Minecraft Coding Adventure! - Complete guide by Computhink SG.",
+      "year": 2024
+    },
+    {
+      "title": "Coding Adventure for Kids grades 3-8",
+      "creator": "CodeMonkey - Coding Games for Kids",
+      "url": "https://www.youtube.com/watch?v=uUKXCgy9vQ0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Coding Adventure for Kids grades 3-8 - Complete guide by CodeMonkey - Coding Games for Kids.",
+      "year": 2024
+    },
+    {
+      "title": "TEMPLE RUN IN JAVASCRIPT!",
+      "creator": "CodeWithErin",
+      "url": "https://www.youtube.com/watch?v=4SsZp3jza3o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "TEMPLE RUN IN JAVASCRIPT! - Complete guide by CodeWithErin.",
+      "year": 2024
+    },
+    {
+      "title": "coding adventure part 3 challenge# 210 #coding",
+      "creator": "Games A2Z",
+      "url": "https://www.youtube.com/watch?v=ApfDrAQ64D8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "coding adventure part 3 challenge# 210 #coding - Complete guide by Games A2Z.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to coding - Draw a boat with code #cseducation #programming",
+      "creator": "Coding Adventures",
+      "url": "https://www.youtube.com/watch?v=ysTqRgMpYYM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to coding - Draw a boat with code #cseducation #programming - Complete guide by Coding Adventures.",
+      "year": 2024
+    },
+    {
+      "title": "How One Document Saves Thousands in Dev Costs 📄💸 #shorts #softwareengineering #coding",
+      "creator": "Sebastian Antic",
+      "url": "https://www.youtube.com/watch?v=zHVMyUy0R_o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How One Document Saves Thousands in Dev Costs 📄💸 #shorts #softwareengineering #coding - Complete guide by Sebastian Antic.",
+      "year": 2024
+    },
+    {
+      "title": "WebGPU Compute Shader Slime Mold Simulation",
+      "creator": "Suboptimal Engineer",
+      "url": "https://www.youtube.com/watch?v=ZGJ6E04lC7Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "WebGPU Compute Shader Slime Mold Simulation - Complete guide by Suboptimal Engineer.",
+      "year": 2024
+    },
+    {
+      "title": "ALL WORKING CODES FOR DRAGON ADVENTURES IN 2026 - ROBLOX DRAGON ADVENTURES CODES",
+      "creator": "Sky Gaming",
+      "url": "https://www.youtube.com/watch?v=G93G2ztPq8A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "ALL WORKING CODES FOR DRAGON ADVENTURES IN 2026 - ROBLOX DRAGON ADVENTURES CODES - Complete guide by Sky Gaming.",
+      "year": 2024
+    },
+    {
+      "title": "HOW TO DOWNLOAD DIGITAL LOGIC SIM BY SEBASTIAN LAGUE",
+      "creator": "Binary Breakdown",
+      "url": "https://www.youtube.com/watch?v=9rUnEPnyt_M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "HOW TO DOWNLOAD DIGITAL LOGIC SIM BY SEBASTIAN LAGUE - Complete guide by Binary Breakdown.",
+      "year": 2024
+    },
+    {
+      "title": "Making A Computer on Shorts Pt 2 #electricalengineering #computer Sebastian Lague DLS",
+      "creator": "FULXOR - Dominic LeBoeuf",
+      "url": "https://www.youtube.com/watch?v=E2w4ZGz7xU0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Making A Computer on Shorts Pt 2 #electricalengineering #computer Sebastian Lague DLS - Complete guide by FULXOR - Dominic LeBoeuf.",
+      "year": 2024
+    },
+    {
+      "title": "Day 1 of creating my open world game! #gamedev #openworld  #coding #adventure",
+      "creator": "Greatest Studio",
+      "url": "https://www.youtube.com/watch?v=AZRckjFU9JY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Day 1 of creating my open world game! #gamedev #openworld  #coding #adventure - Complete guide by Greatest Studio.",
+      "year": 2024
+    },
+    {
+      "title": "Creative Web Development with Three.js and Blender – 3D Portfolio for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=yhtdkuw9mbM",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Creative Web Development with Three.js and Blender – 3D Portfolio for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Roblox Dragon Adventures: 3rd New Redeem Code 2026 #dragonadventurescodes #knightsstudiosgamingyt",
+      "creator": "𝐊𝐧𝐢𝐠𝐡𝐭𝐬 𝐒𝐭𝐮𝐝𝐢𝐨𝐬 ⚔︎",
+      "url": "https://www.youtube.com/watch?v=DxNyaiotzIc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Roblox Dragon Adventures: 3rd New Redeem Code 2026 #dragonadventurescodes #knightsstudiosgamingyt - Complete guide by 𝐊𝐧𝐢𝐠𝐡𝐭𝐬 𝐒𝐭𝐮𝐝𝐢𝐨𝐬 ⚔︎.",
+      "year": 2024
+    },
+    {
+      "title": "5 Game Dev YouTube Channels Worth Watching",
+      "creator": "QUICK WITH THE GRABS",
+      "url": "https://www.youtube.com/watch?v=gLU-ReRRIVU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "5 Game Dev YouTube Channels Worth Watching - Complete guide by QUICK WITH THE GRABS.",
+      "year": 2024
+    },
+    {
+      "title": "From my textured procedural terrain system, thanks to Sebastian Lague #gamedev",
+      "creator": "Electorch Strauss",
+      "url": "https://www.youtube.com/watch?v=GHPDlMytDhg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "From my textured procedural terrain system, thanks to Sebastian Lague #gamedev - Complete guide by Electorch Strauss.",
+      "year": 2024
+    },
+    {
+      "title": "Start Your Coding Adventure",
+      "creator": "Codédex",
+      "url": "https://www.youtube.com/watch?v=9-TtV4Wtlh0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Start Your Coding Adventure - Complete guide by Codédex.",
+      "year": 2024
+    },
+    {
+      "title": "FreeCAD Constraints: Symmetry, Equal, Coincide [FreeCAD Tutorial 2026 - Part 2]",
+      "creator": "CAD CAM Lessons",
+      "url": "https://www.youtube.com/watch?v=JCb5TDQrF3o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "FreeCAD Constraints: Symmetry, Equal, Coincide [FreeCAD Tutorial 2026 - Part 2] - Complete guide by CAD CAM Lessons.",
+      "year": 2024
+    },
+    {
+      "title": "Part 1 - Blender for Complete Beginners Tutorial Series (Navigation & Shortcut Keys)",
+      "creator": "Ryan King Art",
+      "url": "https://www.youtube.com/watch?v=sgMfEq3pDE0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Part 1 - Blender for Complete Beginners Tutorial Series (Navigation & Shortcut Keys) - Complete guide by Ryan King Art.",
+      "year": 2024
+    },
+    {
+      "title": "Blender Tutorial for Beginners",
+      "creator": "Kevin Stratvert",
+      "url": "https://www.youtube.com/watch?v=Ci3Has4L5W4",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Blender Tutorial for Beginners - Complete guide by Kevin Stratvert.",
+      "year": 2024
+    },
+    {
+      "title": "Create a Cute Room Portfolio with Blender, Three.js, JavaScript – Beginner Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=tdsQwuyS6DQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Create a Cute Room Portfolio with Blender, Three.js, JavaScript – Beginner Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Part 2 - Blender for Complete Beginners Tutorial Series (User Interface & Edit Mode)",
+      "creator": "Ryan King Art",
+      "url": "https://www.youtube.com/watch?v=Wh4GGEUiNAE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Part 2 - Blender for Complete Beginners Tutorial Series (User Interface & Edit Mode) - Complete guide by Ryan King Art.",
+      "year": 2024
+    },
+    {
+      "title": "3D Web Development with Blender and Three.js – Create a Cozy Café Portfolio",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=ozWrlHQGuvI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "3D Web Development with Blender and Three.js – Create a Cozy Café Portfolio - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Viewport Navigation - Blender 2.80 Fundamentals",
+      "creator": "Blender",
+      "url": "https://www.youtube.com/watch?v=ILqOWe3zAbk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Viewport Navigation - Blender 2.80 Fundamentals - Complete guide by Blender.",
+      "year": 2024
+    },
+    {
+      "title": "First Steps - Blender 2.80 Fundamentals",
+      "creator": "Blender",
+      "url": "https://www.youtube.com/watch?v=MF1qEhBSfq4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "First Steps - Blender 2.80 Fundamentals - Complete guide by Blender.",
+      "year": 2024
+    },
+    {
+      "title": "Beginner Blender Tutorial (2026)",
+      "creator": "Blender Guru",
+      "url": "https://www.youtube.com/watch?v=z-Xl9tGqH14",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Beginner Blender Tutorial (2026) - Complete guide by Blender Guru.",
+      "year": 2024
+    },
+    {
+      "title": "Blender 3D complete beginner course",
+      "creator": "CG Aman",
+      "url": "https://www.youtube.com/watch?v=HJ8bcaYtVxE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Blender 3D complete beginner course - Complete guide by CG Aman.",
+      "year": 2024
+    },
+    {
+      "title": "ABSOLUTE Beginner Basics.. Blender For Noobs 2025",
+      "creator": "RoBuilder",
+      "url": "https://www.youtube.com/watch?v=peSv5IT5Ve4",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "ABSOLUTE Beginner Basics.. Blender For Noobs 2025 - Complete guide by RoBuilder.",
+      "year": 2024
+    },
+    {
+      "title": "Actually Learn Blender #blender3d #Tutorial #blendertutorial",
+      "creator": "Jamie Sundance",
+      "url": "https://www.youtube.com/watch?v=-hksGFRx9mY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Actually Learn Blender #blender3d #Tutorial #blendertutorial - Complete guide by Jamie Sundance.",
+      "year": 2024
+    },
+    {
+      "title": "CAD Engineer using Blender for the first time #cad #blender #3dmodeling",
+      "creator": "Pyotr Vozniak",
+      "url": "https://www.youtube.com/watch?v=zGsE7DeGSsk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CAD Engineer using Blender for the first time #cad #blender #3dmodeling - Complete guide by Pyotr Vozniak.",
+      "year": 2024
+    },
+    {
+      "title": "Blender Modeling a Rook #blendertutorial #blenderforbegginer #blender #3d #tutorial #chess",
+      "creator": "Pascal CGI",
+      "url": "https://www.youtube.com/watch?v=UUzNA4P9TDQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Blender Modeling a Rook #blendertutorial #blenderforbegginer #blender #3d #tutorial #chess - Complete guide by Pascal CGI.",
+      "year": 2024
+    },
+    {
+      "title": "Viewport vs Render. The full breakdown of this shot is now live!  #blender3d #3danimation #cgi",
+      "creator": "Zertox",
+      "url": "https://www.youtube.com/watch?v=8gtXw4M0T0U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Viewport vs Render. The full breakdown of this shot is now live!  #blender3d #3danimation #cgi - Complete guide by Zertox.",
+      "year": 2024
+    },
+    {
+      "title": "Blender Story: Complete 3D Modeling Course (Full 6.5-Hour Beginner Guide)",
+      "creator": "MiM-Repository",
+      "url": "https://www.youtube.com/watch?v=psHj6r1LsDQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Blender Story: Complete 3D Modeling Course (Full 6.5-Hour Beginner Guide) - Complete guide by MiM-Repository.",
+      "year": 2024
+    },
+    {
+      "title": "Noob vs Pro: Realistic Hair #b3d #blender #3d",
+      "creator": "Karla Almonte ",
+      "url": "https://www.youtube.com/watch?v=7QJW5zPXgtU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Noob vs Pro: Realistic Hair #b3d #blender #3d - Complete guide by Karla Almonte .",
+      "year": 2024
+    },
+    {
+      "title": "I Built a 2D Game in Python Without a Game Engine 🎮",
+      "creator": "Muhammad Anees",
+      "url": "https://www.youtube.com/watch?v=NzNaH4Nh2Ns",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I Built a 2D Game in Python Without a Game Engine 🎮 - Complete guide by Muhammad Anees.",
+      "year": 2024
+    },
+    {
+      "title": "Who Wins? I built a 2d Godot Shapeshifter Game using Gemini Carbon and Fable 5.2",
+      "creator": "JC BuenaVentura",
+      "url": "https://www.youtube.com/watch?v=UUCYFGZoxqM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Who Wins? I built a 2d Godot Shapeshifter Game using Gemini Carbon and Fable 5.2 - Complete guide by JC BuenaVentura.",
+      "year": 2024
+    },
+    {
+      "title": "Noob vs PRO: Realistic Clothes in Blender",
+      "creator": "Blend Tweaks",
+      "url": "https://www.youtube.com/watch?v=gIjBeEvDXew",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Noob vs PRO: Realistic Clothes in Blender - Complete guide by Blend Tweaks.",
+      "year": 2024
+    },
+    {
+      "title": "What being a 2D game developer at 14 looks like 🎮 #3dgamedevelopment #gaming #gamedev #gameplay",
+      "creator": "ParthCantCode",
+      "url": "https://www.youtube.com/watch?v=ILsDKM8f2Lk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What being a 2D game developer at 14 looks like 🎮 #3dgamedevelopment #gaming #gamedev #gameplay - Complete guide by ParthCantCode.",
+      "year": 2024
+    },
+    {
+      "title": "Extrusion Shortcuts in Blender!",
+      "creator": "BlenderVitals",
+      "url": "https://www.youtube.com/watch?v=a1OIIMqWC6M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Extrusion Shortcuts in Blender! - Complete guide by BlenderVitals.",
+      "year": 2024
+    },
+    {
+      "title": "Learning 3D MODELLING in 1 WEEK!! 👀🎨 #artchallenge",
+      "creator": "Shrimpy",
+      "url": "https://www.youtube.com/watch?v=vwBltVqYgj8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learning 3D MODELLING in 1 WEEK!! 👀🎨 #artchallenge - Complete guide by Shrimpy.",
+      "year": 2024
+    },
+    {
+      "title": "2D Game Development with GDevelop - Crash Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=iHF5fwsqu4I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "2D Game Development with GDevelop - Crash Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Build a Dev Portfolio as a 2D Game – JavaScript Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=wy_fSStEgMs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build a Dev Portfolio as a 2D Game – JavaScript Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Building a 3D car game with only 3k lines of JavaScript #3dgamedevelopment #threejs #javascriptgame",
+      "creator": "Founder Hours",
+      "url": "https://www.youtube.com/watch?v=R68_D6H_F4c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Building a 3D car game with only 3k lines of JavaScript #3dgamedevelopment #threejs #javascriptgame - Complete guide by Founder Hours.",
+      "year": 2024
+    },
+    {
+      "title": "Can AI Make a 2D Game in Unity? 🎮",
+      "creator": "Sunny Valley Studio",
+      "url": "https://www.youtube.com/watch?v=LYw44q4Fm-E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Can AI Make a 2D Game in Unity? 🎮 - Complete guide by Sunny Valley Studio.",
+      "year": 2024
+    },
+    {
+      "title": "2D games secret: Parallax Scrolling! #gamedev #30days30gamedevinsights",
+      "creator": "Sanchit Gamedev",
+      "url": "https://www.youtube.com/watch?v=a7J6EFZ_dd8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "2D games secret: Parallax Scrolling! #gamedev #30days30gamedevinsights - Complete guide by Sanchit Gamedev.",
+      "year": 2024
+    },
+    {
+      "title": "What being a 2D game developer at 14 looks like  #gaming #gamedevelopment #shorts",
+      "creator": "ParthCantCode",
+      "url": "https://www.youtube.com/watch?v=JdWA_UXl4eY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What being a 2D game developer at 14 looks like  #gaming #gamedevelopment #shorts - Complete guide by ParthCantCode.",
+      "year": 2024
+    },
+    {
+      "title": "How Easy Is It to Make a Viral 2D Game with Claude Code?",
+      "creator": "Catalora AI",
+      "url": "https://www.youtube.com/watch?v=Y4sRQlxludc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Easy Is It to Make a Viral 2D Game with Claude Code? - Complete guide by Catalora AI.",
+      "year": 2024
+    },
+    {
+      "title": "The secret to building games fast #gamedev #coding #learning",
+      "creator": "Nabil Kalenga ",
+      "url": "https://www.youtube.com/watch?v=Tg6qBgx0MUk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The secret to building games fast #gamedev #coding #learning - Complete guide by Nabil Kalenga .",
+      "year": 2024
+    },
+    {
+      "title": "Lex Fridman Stunned. Creator of FPS Games Like Doom & Quake Code Games in Assembly Language #coding",
+      "creator": "Snippets",
+      "url": "https://www.youtube.com/watch?v=o669t9c0n2A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lex Fridman Stunned. Creator of FPS Games Like Doom & Quake Code Games in Assembly Language #coding - Complete guide by Snippets.",
+      "year": 2024
+    },
+    {
+      "title": "What are HD-2D GAMES?",
+      "creator": "Cobra Code",
+      "url": "https://www.youtube.com/watch?v=I0mDXAAVSf0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What are HD-2D GAMES? - Complete guide by Cobra Code.",
+      "year": 2024
+    },
+    {
+      "title": "Can Unreal even DO 2D games?!",
+      "creator": "The Game Dev Cave",
+      "url": "https://www.youtube.com/watch?v=wddJHPZJfqI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Can Unreal even DO 2D games?! - Complete guide by The Game Dev Cave.",
+      "year": 2024
+    },
+    {
+      "title": "Creative coding in 2D web games? This is how!",
+      "creator": "Franks laboratory",
+      "url": "https://www.youtube.com/watch?v=63Su48jXkfE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Creative coding in 2D web games? This is how! - Complete guide by Franks laboratory.",
+      "year": 2024
+    },
+    {
+      "title": "Which is EASIER, 2D or 3D? #gamedev",
+      "creator": "Code Monkey",
+      "url": "https://www.youtube.com/watch?v=-k6KrOPT-4E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Which is EASIER, 2D or 3D? #gamedev - Complete guide by Code Monkey.",
+      "year": 2024
+    },
+    {
+      "title": "Python GamesCreating a DOOM-style 3D Game in Python from Scratch. Pygame Tutorial",
+      "creator": "TECHUPGRADE WITH AI",
+      "url": "https://www.youtube.com/watch?v=dLGRaDtmtcQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Python GamesCreating a DOOM-style 3D Game in Python from Scratch. Pygame Tutorial - Complete guide by TECHUPGRADE WITH AI.",
+      "year": 2024
+    },
+    {
+      "title": "JavaScript Game Development Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=GFO_txvwK_c",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "JavaScript Game Development Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Game Development with LÖVE 2D and Lua – Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=I549C6SmUnk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Game Development with LÖVE 2D and Lua – Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Godot Game Engine Tutorial - Make a 2D Platformer Game",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=fQXKjmCDkIA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Godot Game Engine Tutorial - Make a 2D Platformer Game - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Designers Keep Breaking Physics 💀 #coding #programming",
+      "creator": "Mehdiskan",
+      "url": "https://www.youtube.com/watch?v=ddGXMcDUfWI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Designers Keep Breaking Physics 💀 #coding #programming - Complete guide by Mehdiskan.",
+      "year": 2024
+    },
+    {
+      "title": "The Essential Math Skills for Success in Theoretical Physics",
+      "creator": "SPACEandFUTURISM",
+      "url": "https://www.youtube.com/watch?v=Cm2XnIU-gxY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Essential Math Skills for Success in Theoretical Physics - Complete guide by SPACEandFUTURISM.",
+      "year": 2024
+    },
+    {
+      "title": "Code a 2D Game Using JavaScript, HTML, and CSS (w/ Free Game Assets) – Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=7BHs1BzA4fs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Code a 2D Game Using JavaScript, HTML, and CSS (w/ Free Game Assets) – Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Game Devs Take Math Too Seriously 💀 #coding #programming #memes #shorts",
+      "creator": "Mehdiskan",
+      "url": "https://www.youtube.com/watch?v=fVLx7BDpUWM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Game Devs Take Math Too Seriously 💀 #coding #programming #memes #shorts - Complete guide by Mehdiskan.",
+      "year": 2024
+    },
+    {
+      "title": "Importance of maths and physics in game development #shorts",
+      "creator": "Nikhil Malankar",
+      "url": "https://www.youtube.com/watch?v=4RMfrCOOoH4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Importance of maths and physics in game development #shorts - Complete guide by Nikhil Malankar.",
+      "year": 2024
+    },
+    {
+      "title": "Code a 2D Game Engine using Java - Full Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=025QFeZfeyM",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Code a 2D Game Engine using Java - Full Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Precalculus Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=eI4an8aSsgw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Precalculus Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "College Algebra – Full Course with Python Code",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=i7vOAcUo5iA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "College Algebra – Full Course with Python Code - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Calculus 1 - Full College Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=HfACrKJ_Y2w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Calculus 1 - Full College Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "I started a physics run that will never end",
+      "creator": "Code & Calm",
+      "url": "https://www.youtube.com/watch?v=OJf3SLFpTIk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I started a physics run that will never end - Complete guide by Code & Calm.",
+      "year": 2024
+    },
+    {
+      "title": "Do you need MATH for game dev?",
+      "creator": "HowDev",
+      "url": "https://www.youtube.com/watch?v=tGzjSjT8mKM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Do you need MATH for game dev? - Complete guide by HowDev.",
+      "year": 2024
+    },
+    {
+      "title": "Make Hill Climb Game in One VIdeo👌",
+      "creator": "Mr.CodeMan",
+      "url": "https://www.youtube.com/watch?v=ujewBezHwc4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Make Hill Climb Game in One VIdeo👌 - Complete guide by Mr.CodeMan.",
+      "year": 2024
+    },
+    {
+      "title": "Why play games when you can code them? 💻🔥",
+      "creator": "CodeWith Anshuman ",
+      "url": "https://www.youtube.com/watch?v=uQE1onwplOE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why play games when you can code them? 💻🔥 - Complete guide by CodeWith Anshuman .",
+      "year": 2024
+    },
+    {
+      "title": "When developer learns Maths 🥲🔥 #shorts #coding #maths",
+      "creator": "Developer Rahul",
+      "url": "https://www.youtube.com/watch?v=iXrXTTqn_CE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "When developer learns Maths 🥲🔥 #shorts #coding #maths - Complete guide by Developer Rahul.",
+      "year": 2024
+    },
+    {
+      "title": "I Created a Physics Simulation That Just Feels Right",
+      "creator": "SIGMACode",
+      "url": "https://www.youtube.com/watch?v=oBSRzknmUAw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I Created a Physics Simulation That Just Feels Right - Complete guide by SIGMACode.",
+      "year": 2024
+    },
+    {
+      "title": "Is Maths required for coding?",
+      "creator": "CodeWithHarry",
+      "url": "https://www.youtube.com/watch?v=e9Y4sRiM5qU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Is Maths required for coding? - Complete guide by CodeWithHarry.",
+      "year": 2024
+    },
+    {
+      "title": "Inside the Code: How Game Physics Really Work #Science #ScienceFacts #Facts #Shorts",
+      "creator": "Anshdeep Singh",
+      "url": "https://www.youtube.com/watch?v=3iSYVsfe4UA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Inside the Code: How Game Physics Really Work #Science #ScienceFacts #Facts #Shorts - Complete guide by Anshdeep Singh.",
+      "year": 2024
+    },
+    {
+      "title": "When a ball ESCAPES, 2 more appear! #javascript #reactjs #html5canvas #physics #coding",
+      "creator": "Ashish Ranjan",
+      "url": "https://www.youtube.com/watch?v=eZQ3673Yepw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "When a ball ESCAPES, 2 more appear! #javascript #reactjs #html5canvas #physics #coding - Complete guide by Ashish Ranjan.",
+      "year": 2024
+    },
+    {
+      "title": "When Your Indie Game Physics Fail Completely! 😅",
+      "creator": "The KODO - Gaming and Random Tutorials",
+      "url": "https://www.youtube.com/watch?v=0JasfJT3emc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "When Your Indie Game Physics Fail Completely! 😅 - Complete guide by The KODO - Gaming and Random Tutorials.",
+      "year": 2024
+    },
+    {
+      "title": "Make a PHYSICS Game in Scratch with Griffpatch EXTENSION!",
+      "creator": "SuperCoderKids",
+      "url": "https://www.youtube.com/watch?v=-yZ3e8xnLnQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Make a PHYSICS Game in Scratch with Griffpatch EXTENSION! - Complete guide by SuperCoderKids.",
+      "year": 2024
+    },
+    {
+      "title": "The RACECAR challenge - Ready: GO!",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=jHInoiWHe0Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The RACECAR challenge - Ready: GO! - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "How to \"HACKED\" the Chrome Dino Game! 🦖🔥 (JavaScript Trick) #shortsfeed #shortsviral #shorts",
+      "creator": "Developer Altamash",
+      "url": "https://www.youtube.com/watch?v=al1aahf2zDA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to \"HACKED\" the Chrome Dino Game! 🦖🔥 (JavaScript Trick) #shortsfeed #shortsviral #shorts - Complete guide by Developer Altamash.",
+      "year": 2024
+    },
+    {
+      "title": "430 balls fall at random… or do they? 🤔❤️ #shorts",
+      "creator": "FrontendClass",
+      "url": "https://www.youtube.com/watch?v=YyGyU8zIHe4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "430 balls fall at random… or do they? 🤔❤️ #shorts - Complete guide by FrontendClass.",
+      "year": 2024
+    },
+    {
+      "title": "When the Pong AI breaks the physics engine 💀💻 #python #gamedev",
+      "creator": "EngineerInCode",
+      "url": "https://www.youtube.com/watch?v=SSbGk3kp8U0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "When the Pong AI breaks the physics engine 💀💻 #python #gamedev - Complete guide by EngineerInCode.",
+      "year": 2024
+    },
+    {
+      "title": "22.How Does Math Bring Video Games to Life? 🎮",
+      "creator": "DIASI-Soujit Diasi",
+      "url": "https://www.youtube.com/watch?v=sPc_o1l5QkY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "22.How Does Math Bring Video Games to Life? 🎮 - Complete guide by DIASI-Soujit Diasi.",
+      "year": 2024
+    },
+    {
+      "title": "How to get started using Three.js",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=v7Butot2fHY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to get started using Three.js - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Python by Building Five Games - Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=XGf2GcyHPhc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Python by Building Five Games - Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "College Algebra - Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=LwCRRUa8yTU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "College Algebra - Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Coding a Physics Simulation from scratch! ⏳✨#javascript #gamedev #physics #simulation #asmr #webdev",
+      "creator": "TechSpark",
+      "url": "https://www.youtube.com/watch?v=Ix0xMt_lbts",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Coding a Physics Simulation from scratch! ⏳✨#javascript #gamedev #physics #simulation #asmr #webdev - Complete guide by TechSpark.",
+      "year": 2024
+    },
+    {
+      "title": "Maths for Programmers: Introduction (Tips For Learning)",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=LSBC3n9x52Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Maths for Programmers: Introduction (Tips For Learning) - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "What Kind of Math Should Game Developers Know?",
+      "creator": "SimonDev",
+      "url": "https://www.youtube.com/watch?v=eRVRioN4GwA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What Kind of Math Should Game Developers Know? - Complete guide by SimonDev.",
+      "year": 2024
+    },
+    {
+      "title": "Maths for Programmers: Introduction (What Is Discrete Mathematics?)",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=1FfX2xW3104",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Maths for Programmers: Introduction (What Is Discrete Mathematics?) - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "College Calculus – Full Course with Python Code",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=VDFRpjQVaME",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "College Calculus – Full Course with Python Code - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Maths required for game development. Explained in Hindi",
+      "creator": "Nikhil Malankar",
+      "url": "https://www.youtube.com/watch?v=3sytwX6U7Hk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Maths required for game development. Explained in Hindi - Complete guide by Nikhil Malankar.",
+      "year": 2024
+    },
+    {
+      "title": "How to make a Video Game - Godot Beginner Tutorial (Brackeys), ...",
+      "creator": "tamyngan",
+      "url": "https://www.youtube.com/playlist?list=PLQB98pSMdrq7EzNk6lnlhIyAZOLOzHKTR",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "How to make a Video Game - Godot Beginner Tutorial (Brackeys), ... - Complete guide by tamyngan.",
+      "year": 2024
+    },
+    {
+      "title": "Math for Game Developers - Character Movement (Points and Vectors)",
+      "creator": "Jorge Rodriguez",
+      "url": "https://www.youtube.com/watch?v=sKCF8A3XGxQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Math for Game Developers - Character Movement (Points and Vectors) - Complete guide by Jorge Rodriguez.",
+      "year": 2024
+    },
+    {
+      "title": "Math for Game Developers - Character Movement 2 (Subtracting Vectors)",
+      "creator": "Jorge Rodriguez",
+      "url": "https://www.youtube.com/watch?v=WNaxtPTMqSo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Math for Game Developers - Character Movement 2 (Subtracting Vectors) - Complete guide by Jorge Rodriguez.",
+      "year": 2024
+    },
+    {
+      "title": "Unity Beginner Tutorials",
+      "creator": "Brackeys",
+      "url": "https://www.youtube.com/playlist?list=PLPV2KyIb3jR5QFsefuO2RlAgWEz6EvVi6",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Unity Beginner Tutorials - Complete guide by Brackeys.",
+      "year": 2024
+    },
+    {
+      "title": "Godot Tutorial for Beginners in Hindi",
+      "creator": "Gameplay Artist",
+      "url": "https://www.youtube.com/playlist?list=PLz7mmheDeooWmbqWWxbHBim3l0cylYKhf",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Godot Tutorial for Beginners in Hindi - Complete guide by Gameplay Artist.",
+      "year": 2024
+    },
+    {
+      "title": "Godot 4 Tutorial",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9iHCXBpxbdsOByZ55Ez4bgF",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Godot 4 Tutorial - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "Godot - 2D Platformer",
+      "creator": "Goblin King",
+      "url": "https://www.youtube.com/playlist?list=PLDu9BUvoCN4cOh4145puysIkV9DQrH-Ci",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Godot - 2D Platformer - Complete guide by Goblin King.",
+      "year": 2024
+    },
+    {
+      "title": "C# Godot Tutorials",
+      "creator": "Abdullah",
+      "url": "https://www.youtube.com/playlist?list=PLMgDVIa0Pg8XMe1GVc5eg0Rwi-cXqIR6q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "C# Godot Tutorials - Complete guide by Abdullah.",
+      "year": 2024
+    },
+    {
+      "title": "How to make a 2D Game in Unity",
+      "creator": "Brackeys",
+      "url": "https://www.youtube.com/playlist?list=PLPV2KyIb3jR6TFcFuzI2bB7TMNIIBpKMQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "How to make a 2D Game in Unity - Complete guide by Brackeys.",
+      "year": 2024
+    },
+    {
+      "title": "\"How to make a Video Game - Godot Beginner Tutorial\" by Brackeys, etc",
+      "creator": "leishleish",
+      "url": "https://www.youtube.com/playlist?list=PL5Mi57SMPXOs_03fGkMWrERVJvsCiD4uZ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "\"How to make a Video Game - Godot Beginner Tutorial\" by Brackeys, etc - Complete guide by leishleish.",
+      "year": 2024
+    },
+    {
+      "title": "Unity Full Game Tutorials",
+      "creator": "Murat Han Acıpayam",
+      "url": "https://www.youtube.com/playlist?list=PLI5KGtDrj4HVInyXdx5N2oYUAb9U7rJ4L",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Unity Full Game Tutorials - Complete guide by Murat Han Acıpayam.",
+      "year": 2024
+    },
+    {
+      "title": "Unity Tutorials",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbmh6kzCSUon-SoTaMvXnHMB",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Unity Tutorials - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "FREE Complete Unity Game Development Courses (Unity Tutorial Beginner Intermediate Advanced)",
+      "creator": "Code Monkey",
+      "url": "https://www.youtube.com/playlist?list=PLzDRvYVwl53uAyV0SjL_3d_IoRDiybAdN",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "FREE Complete Unity Game Development Courses (Unity Tutorial Beginner Intermediate Advanced) - Complete guide by Code Monkey.",
+      "year": 2024
+    },
+    {
+      "title": "Godot 4 full course in Bangla",
+      "creator": "Game Studio Bangla ",
+      "url": "https://www.youtube.com/playlist?list=PLWsyqFsoN-OQIZQVFhHdpdGTzGYt6jDO7",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Godot 4 full course in Bangla - Complete guide by Game Studio Bangla .",
+      "year": 2024
+    },
+    {
+      "title": "C# Programming for Unity - Complete Tutorial Series in Hindi | Beginner to Advanced Game Development",
+      "creator": "Vicky - The Game Developer",
+      "url": "https://www.youtube.com/playlist?list=PLk6WcB4T35vgkLjJpgSQMeM2Bhhy5Fy9K",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "C# Programming for Unity - Complete Tutorial Series in Hindi | Beginner to Advanced Game Development - Complete guide by Vicky - The Game Developer.",
+      "year": 2024
+    },
+    {
+      "title": "Godot Platform Tutorial 2026",
+      "creator": "SRCoder",
+      "url": "https://www.youtube.com/playlist?list=PLbxeTux6kwSD3h5xmGojKuPP1ozgxY0MM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Godot Platform Tutorial 2026 - Complete guide by SRCoder.",
+      "year": 2024
+    },
+    {
+      "title": "Unity C# Programming Basics for Beginners",
+      "creator": "Sunny Valley Studio",
+      "url": "https://www.youtube.com/playlist?list=PLcRSafycjWFeHojgzbkNUXt9S6-Q7BGQE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Unity C# Programming Basics for Beginners - Complete guide by Sunny Valley Studio.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Game Development (Unity and C#)",
+      "creator": "Sebastian Lague",
+      "url": "https://www.youtube.com/playlist?list=PLFt_AvWsXl0fnA91TcmkRyhhixX9CO3Lw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Introduction to Game Development (Unity and C#) - Complete guide by Sebastian Lague.",
+      "year": 2024
+    },
+    {
+      "title": "Blender Fundamentals 2.8",
+      "creator": "Blender",
+      "url": "https://www.youtube.com/playlist?list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Blender Fundamentals 2.8 - Complete guide by Blender.",
+      "year": 2024
+    },
+    {
+      "title": "Unity C# Scripting Tutorial For Beginners-Learn C# For Unity Game Development",
+      "creator": "Charger Games",
+      "url": "https://www.youtube.com/playlist?list=PLytjVIyAOStpT8xJyijH4uG4nEPexvj18",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Unity C# Scripting Tutorial For Beginners-Learn C# For Unity Game Development - Complete guide by Charger Games.",
+      "year": 2024
+    },
+    {
+      "title": "Coding Adventures",
+      "creator": "Sebastian Lague",
+      "url": "https://www.youtube.com/playlist?list=PLFt_AvWsXl0ehjAfLFsp1PGaatzAwo0uK",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Coding Adventures - Complete guide by Sebastian Lague.",
+      "year": 2024
+    },
+    {
+      "title": "Blender for Complete Beginners Tutorial Series",
+      "creator": "Ryan King Art",
+      "url": "https://www.youtube.com/playlist?list=PLsGl9GczcgBumq6fLmmR1ZYYn4EDkIg5B",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Blender for Complete Beginners Tutorial Series - Complete guide by Ryan King Art.",
+      "year": 2024
+    },
+    {
+      "title": "Mathematics - freeCodeCamp.org - English Version",
+      "creator": "Free Academy",
+      "url": "https://www.youtube.com/playlist?list=PLpXfHEl2fzl42DkMDd9RE_ciWW5-ESaZN",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Mathematics - freeCodeCamp.org - English Version - Complete guide by Free Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Mathematics",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbl5SlE6aBHzUVZ1e6q1Wz0v",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Mathematics - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "FreeCodeCamp-Game Development",
+      "creator": "LNMedia",
+      "url": "https://www.youtube.com/playlist?list=PLAeffa77Di97FJR6am3eLpVrf0p1kmOW-",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "FreeCodeCamp-Game Development - Complete guide by LNMedia.",
+      "year": 2024
+    },
+    {
+      "title": "Maths for Programmers",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbndUuYBE5sVViMIvyzp_dB1",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Maths for Programmers - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Math for Game Developers",
+      "creator": "Jorge Rodriguez",
+      "url": "https://www.youtube.com/playlist?list=PLW3Zl3wyJwWOpdhYedlD-yCB7WQoHf-My",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Math for Game Developers - Complete guide by Jorge Rodriguez.",
+      "year": 2024
+    },
+    {
+      "title": "Maths freeCodeCamp.org",
+      "creator": "4Just O7",
+      "url": "https://www.youtube.com/playlist?list=PLJXAX8ka78LQ430gnvSbC52qW7TVMwANE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Maths freeCodeCamp.org - Complete guide by 4Just O7.",
+      "year": 2024
+    }
+  ]
 }

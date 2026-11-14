@@ -1,0 +1,2342 @@
+{
+  "name": "Blockchain & Web3",
+  "slug": "blockchain-web3",
+  "description": "Decentralized applications, Ethereum smart contracts, Solidity, cryptographic protocols, Hardhat, and Web3 development.",
+  "icon": "blockchain-web3",
+  "playlists": [
+    {
+      "title": "Lesson 1 Part 1  | What is a blockchain? - Solidity & Foundry Full Course",
+      "creator": "Cyfrin Audits",
+      "url": "https://www.youtube.com/watch?v=bbBbq7T9Jjs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lesson 1 Part 1  | What is a blockchain? - Solidity & Foundry Full Course - Complete guide by Cyfrin Audits.",
+      "year": 2024
+    },
+    {
+      "title": "Lesson 0 | Introduction - Solidity & Foundry Full Course",
+      "creator": "Cyfrin Audits",
+      "url": "https://www.youtube.com/watch?v=GWLxIYAIMqQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lesson 0 | Introduction - Solidity & Foundry Full Course - Complete guide by Cyfrin Audits.",
+      "year": 2024
+    },
+    {
+      "title": "Solidity Tutorial - A Full Course on Ethereum, Blockchain Development, Smart Contracts, and the EVM",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=ipwxYa-F1uY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Solidity Tutorial - A Full Course on Ethereum, Blockchain Development, Smart Contracts, and the EVM - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Solidity Smart Contract Development | Full 2024 Cyfrin Updraft Course",
+      "creator": "Patrick Collins",
+      "url": "https://www.youtube.com/watch?v=-1GB6m39-rM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Solidity Smart Contract Development | Full 2024 Cyfrin Updraft Course - Complete guide by Patrick Collins.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Solidity, Blockchain Development, & Smart Contracts | Powered By AI - Full Course (12 - 15)",
+      "creator": "Patrick Collins",
+      "url": "https://www.youtube.com/watch?v=wUjYK5gwNZs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Solidity, Blockchain Development, & Smart Contracts | Powered By AI - Full Course (12 - 15) - Complete guide by Patrick Collins.",
+      "year": 2024
+    },
+    {
+      "title": "Solidity Course Prerequisites | Solidity Full Course  | Solidity Latest Version  | Part -2 | Hindi",
+      "creator": "Code Eater",
+      "url": "https://www.youtube.com/watch?v=wXo3S8k1ueg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Solidity Course Prerequisites | Solidity Full Course  | Solidity Latest Version  | Part -2 | Hindi - Complete guide by Code Eater.",
+      "year": 2024
+    },
+    {
+      "title": "BLOCKCHAIN COURSE IS LIVE",
+      "creator": "Patrick Collins",
+      "url": "https://www.youtube.com/watch?v=i64MWBTxMjQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "BLOCKCHAIN COURSE IS LIVE - Complete guide by Patrick Collins.",
+      "year": 2024
+    },
+    {
+      "title": "Anyone can become a web3 developer, don't let others hold you back",
+      "creator": "Patrick Collins",
+      "url": "https://www.youtube.com/watch?v=yB_t4YCK5OY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Anyone can become a web3 developer, don't let others hold you back - Complete guide by Patrick Collins.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Solidity, Blockchain Development, & Smart Contracts | Powered By AI - Full Course (7 - 11)",
+      "creator": "Patrick Collins",
+      "url": "https://www.youtube.com/watch?v=sas02qSFZ74",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Solidity, Blockchain Development, & Smart Contracts | Powered By AI - Full Course (7 - 11) - Complete guide by Patrick Collins.",
+      "year": 2024
+    },
+    {
+      "title": "Go. Audit. Smart. Contracts (Go to the fkn gym... but smart contracts) #web3 #solidity #ethereum",
+      "creator": "Patrick Collins",
+      "url": "https://www.youtube.com/watch?v=HfZ80pP8wlY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Go. Audit. Smart. Contracts (Go to the fkn gym... but smart contracts) #web3 #solidity #ethereum - Complete guide by Patrick Collins.",
+      "year": 2024
+    },
+    {
+      "title": "What Is Solidity? #shorts | upGrad",
+      "creator": "upGrad",
+      "url": "https://www.youtube.com/watch?v=3n018-MXkLo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What Is Solidity? #shorts | upGrad - Complete guide by upGrad.",
+      "year": 2024
+    },
+    {
+      "title": "[See Description] How to make NFT Art with On-Chain Metadata | FULL HARDHAT / JS TUTORIAL!",
+      "creator": "Patrick Collins",
+      "url": "https://www.youtube.com/watch?v=9oERTH9Bkw0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "[See Description] How to make NFT Art with On-Chain Metadata | FULL HARDHAT / JS TUTORIAL! - Complete guide by Patrick Collins.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Solidity, Blockchain Development, & Smart Contracts | Powered By AI - Full Course (0 - 6)",
+      "creator": "Patrick Collins",
+      "url": "https://www.youtube.com/watch?v=umepbfKp5rI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Solidity, Blockchain Development, & Smart Contracts | Powered By AI - Full Course (0 - 6) - Complete guide by Patrick Collins.",
+      "year": 2024
+    },
+    {
+      "title": "Programming Languages for Blockchain and Crypto Development | Ash on Tech | Solidity | #crypto #eth",
+      "creator": "Ash on Tech",
+      "url": "https://www.youtube.com/watch?v=THgz5dcp0nQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Programming Languages for Blockchain and Crypto Development | Ash on Tech | Solidity | #crypto #eth - Complete guide by Ash on Tech.",
+      "year": 2024
+    },
+    {
+      "title": "Solidity Full Course Overview | Solidity Full Tutorial  | Solidity Latest Version  | Part -1 | Hindi",
+      "creator": "Code Eater",
+      "url": "https://www.youtube.com/watch?v=gsaapL1SEqg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Solidity Full Course Overview | Solidity Full Tutorial  | Solidity Latest Version  | Part -1 | Hindi - Complete guide by Code Eater.",
+      "year": 2024
+    },
+    {
+      "title": "A day in the life of a smart contract developer or security researcher #ethereum",
+      "creator": "Patrick Collins",
+      "url": "https://www.youtube.com/watch?v=JjpQnHfKCjg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "A day in the life of a smart contract developer or security researcher #ethereum - Complete guide by Patrick Collins.",
+      "year": 2024
+    },
+    {
+      "title": "Dev Pop Off: Decentrality",
+      "creator": "Patrick Collins",
+      "url": "https://www.youtube.com/watch?v=_uHQi0oVUWc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Dev Pop Off: Decentrality - Complete guide by Patrick Collins.",
+      "year": 2024
+    },
+    {
+      "title": "If I had to start over coding again...",
+      "creator": "Patrick Collins",
+      "url": "https://www.youtube.com/watch?v=bfwrkc1USqE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "If I had to start over coding again... - Complete guide by Patrick Collins.",
+      "year": 2024
+    },
+    {
+      "title": "What are smart contracts? (ft. Vitalik)",
+      "creator": "Peerplays",
+      "url": "https://www.youtube.com/watch?v=ViFwHKzh7xg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What are smart contracts? (ft. Vitalik) - Complete guide by Peerplays.",
+      "year": 2024
+    },
+    {
+      "title": "Solidity and Smart Contracts",
+      "creator": "Blockchain and Beyond",
+      "url": "https://www.youtube.com/watch?v=8on0uHQ4128",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Solidity and Smart Contracts - Complete guide by Blockchain and Beyond.",
+      "year": 2024
+    },
+    {
+      "title": "Learn solidity with frenk #solidity",
+      "creator": "Patrick Collins",
+      "url": "https://www.youtube.com/watch?v=phVAPRoi0ys",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn solidity with frenk #solidity - Complete guide by Patrick Collins.",
+      "year": 2024
+    },
+    {
+      "title": "The future of web3 is...",
+      "creator": "Patrick Collins",
+      "url": "https://www.youtube.com/watch?v=tojmM_doEws",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The future of web3 is... - Complete guide by Patrick Collins.",
+      "year": 2024
+    },
+    {
+      "title": "Encrypt your private keys",
+      "creator": "Patrick Collins",
+      "url": "https://www.youtube.com/watch?v=Nhs50xg-GzY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Encrypt your private keys - Complete guide by Patrick Collins.",
+      "year": 2024
+    },
+    {
+      "title": "DEBUNKED 🚨: You May Not Need to Learn Solidity & You Already Have the Skills for Blockchain Dev 💻",
+      "creator": "Alysia Tech",
+      "url": "https://www.youtube.com/watch?v=WvyBp7ft8Xo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DEBUNKED 🚨: You May Not Need to Learn Solidity & You Already Have the Skills for Blockchain Dev 💻 - Complete guide by Alysia Tech.",
+      "year": 2024
+    },
+    {
+      "title": "Vyper vs Solidity",
+      "creator": "Patrick Collins",
+      "url": "https://www.youtube.com/watch?v=H37gGPlrsyk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Vyper vs Solidity - Complete guide by Patrick Collins.",
+      "year": 2024
+    },
+    {
+      "title": "How to solve \"stack too deep\" in Solidity",
+      "creator": "Patrick Collins",
+      "url": "https://www.youtube.com/watch?v=Y_9tIh1MUMQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to solve \"stack too deep\" in Solidity - Complete guide by Patrick Collins.",
+      "year": 2024
+    },
+    {
+      "title": "Blockchain developers are so hard-working",
+      "creator": "Patrick Collins",
+      "url": "https://www.youtube.com/watch?v=lWF_OgYjV6I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Blockchain developers are so hard-working - Complete guide by Patrick Collins.",
+      "year": 2024
+    },
+    {
+      "title": "I teach Joe Rogan smart contract gas optimizations #solidity  #ethereum",
+      "creator": "Patrick Collins",
+      "url": "https://www.youtube.com/watch?v=74-Xp-QvkgY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I teach Joe Rogan smart contract gas optimizations #solidity  #ethereum - Complete guide by Patrick Collins.",
+      "year": 2024
+    },
+    {
+      "title": "Top 5 Solidity Places to Learn Solidity #ethereum #solidtiy #smartcontracts",
+      "creator": "Patrick Collins",
+      "url": "https://www.youtube.com/watch?v=tZU6PZamVkc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top 5 Solidity Places to Learn Solidity #ethereum #solidtiy #smartcontracts - Complete guide by Patrick Collins.",
+      "year": 2024
+    },
+    {
+      "title": "Account Abstraction - Ultimate Course #solidity #ethereum",
+      "creator": "Patrick Collins",
+      "url": "https://www.youtube.com/watch?v=VLT_dzUNeQU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Account Abstraction - Ultimate Course #solidity #ethereum - Complete guide by Patrick Collins.",
+      "year": 2024
+    },
+    {
+      "title": "Master Solidity Programming Language Course | The Complete Solidity Course 2026 | Zero To Expert",
+      "creator": "Daulat Hussain",
+      "url": "https://www.youtube.com/watch?v=HfRrcp2CIvY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Master Solidity Programming Language Course | The Complete Solidity Course 2026 | Zero To Expert - Complete guide by Daulat Hussain.",
+      "year": 2024
+    },
+    {
+      "title": "Leveraged Trading in DeFi | Python, Brownie, Aave, Uni/SushiSwap",
+      "creator": "Patrick Collins",
+      "url": "https://www.youtube.com/watch?v=TmNGAvI-RUA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Leveraged Trading in DeFi | Python, Brownie, Aave, Uni/SushiSwap - Complete guide by Patrick Collins.",
+      "year": 2024
+    },
+    {
+      "title": "Solidity Introduction | Why Solidity Is Better Than Other Smart Contract Languages | Solidity Course",
+      "creator": "Daulat Hussain",
+      "url": "https://www.youtube.com/watch?v=dTzoKx4f6P8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Solidity Introduction | Why Solidity Is Better Than Other Smart Contract Languages | Solidity Course - Complete guide by Daulat Hussain.",
+      "year": 2024
+    },
+    {
+      "title": "Become a DEFI QUANT | Python, Chainlink, and Aave",
+      "creator": "Patrick Collins",
+      "url": "https://www.youtube.com/watch?v=x0YDcZly_PU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Become a DEFI QUANT | Python, Chainlink, and Aave - Complete guide by Patrick Collins.",
+      "year": 2024
+    },
+    {
+      "title": "BlockChain roadmap. #coding #programming #blockchain #roadmap #ezsnippet",
+      "creator": "ezCommit",
+      "url": "https://www.youtube.com/watch?v=pFIO5r_VHmM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "BlockChain roadmap. #coding #programming #blockchain #roadmap #ezsnippet - Complete guide by ezCommit.",
+      "year": 2024
+    },
+    {
+      "title": "How to become a smart contract security researcher",
+      "creator": "Patrick Collins",
+      "url": "https://www.youtube.com/watch?v=QL5kYO7eD4o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to become a smart contract security researcher - Complete guide by Patrick Collins.",
+      "year": 2024
+    },
+    {
+      "title": "Solidity overview & prerequisite - (Part 1) Solidity Full Course in Hindi",
+      "creator": "web3Mantra",
+      "url": "https://www.youtube.com/watch?v=67isRzVR318",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Solidity overview & prerequisite - (Part 1) Solidity Full Course in Hindi - Complete guide by web3Mantra.",
+      "year": 2024
+    },
+    {
+      "title": "What is Solidity? | Solidity | Lecture 1 | Hindi",
+      "creator": "Blockchain Vidyaalay",
+      "url": "https://www.youtube.com/watch?v=R5za6I79EIw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Solidity? | Solidity | Lecture 1 | Hindi - Complete guide by Blockchain Vidyaalay.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Blockchain & Solidity Development   Full Course 2024",
+      "creator": "Dapp University",
+      "url": "https://www.youtube.com/watch?v=jcgfQEbptdo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Blockchain & Solidity Development   Full Course 2024 - Complete guide by Dapp University.",
+      "year": 2024
+    },
+    {
+      "title": "Smart Contract Audits, Security, and DeFi FULL Course | Learn smart contract auditing",
+      "creator": "Patrick Collins",
+      "url": "https://www.youtube.com/watch?v=pUWmJ86X_do",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Smart Contract Audits, Security, and DeFi FULL Course | Learn smart contract auditing - Complete guide by Patrick Collins.",
+      "year": 2024
+    },
+    {
+      "title": "Data types (Int, Uint, Bool, String, Address) | Solidity |  Lecture 2 | Hindi",
+      "creator": "Blockchain Vidyaalay",
+      "url": "https://www.youtube.com/watch?v=H2buMHmw1lc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data types (Int, Uint, Bool, String, Address) | Solidity |  Lecture 2 | Hindi - Complete guide by Blockchain Vidyaalay.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Smart Contract Course (A–Z) | Beginner to Advanced | MuzaDev",
+      "creator": "MuzaDev",
+      "url": "https://www.youtube.com/watch?v=bw7mILpbrSU",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Complete Smart Contract Course (A–Z) | Beginner to Advanced | MuzaDev - Complete guide by MuzaDev.",
+      "year": 2024
+    },
+    {
+      "title": "How to Set Value in Funding Contract 💰 | Solidity Tutorial | Lecture-31",
+      "creator": "MuzaDev",
+      "url": "https://www.youtube.com/watch?v=wVhUSwWnFv4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Set Value in Funding Contract 💰 | Solidity Tutorial | Lecture-31 - Complete guide by MuzaDev.",
+      "year": 2024
+    },
+    {
+      "title": "Remix IDE & Solidity Basic Structure - (Part 2) Solidity Full Course in Hindi",
+      "creator": "web3Mantra",
+      "url": "https://www.youtube.com/watch?v=LXoWjyQlzwE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Remix IDE & Solidity Basic Structure - (Part 2) Solidity Full Course in Hindi - Complete guide by web3Mantra.",
+      "year": 2024
+    },
+    {
+      "title": "How to become a Blockchain Developer? #shorts #viral #blockchain #bitcoin #web3 #fullstack #ytviral",
+      "creator": "Career on Chain",
+      "url": "https://www.youtube.com/watch?v=oBTIGp87ZMo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to become a Blockchain Developer? #shorts #viral #blockchain #bitcoin #web3 #fullstack #ytviral - Complete guide by Career on Chain.",
+      "year": 2024
+    },
+    {
+      "title": "How to become a Blockchain Developer in 2022?  | 🔥 Complete Roadmap + Salary + Tech Stack",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=uULy2rc6YDc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to become a Blockchain Developer in 2022?  | 🔥 Complete Roadmap + Salary + Tech Stack - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "How to Make 10 LPA in Blockchain | Roadmap, Skills & Tools 🚀",
+      "creator": "GeeksforGeeks",
+      "url": "https://www.youtube.com/watch?v=P6vL_Q58lgw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Make 10 LPA in Blockchain | Roadmap, Skills & Tools 🚀 - Complete guide by GeeksforGeeks.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Blockchain, Solidity, and Web3 by @freecodecamp | EducateKaro.com #coding #blockchain #shorts",
+      "creator": "The Curated UX",
+      "url": "https://www.youtube.com/watch?v=KNezg-h-TPs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Blockchain, Solidity, and Web3 by @freecodecamp | EducateKaro.com #coding #blockchain #shorts - Complete guide by The Curated UX.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Blockchain Free on Youtube #blockchain #shorts",
+      "creator": "Rishabh Bharadwaj",
+      "url": "https://www.youtube.com/watch?v=xUR_I0Z-Qk8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Blockchain Free on Youtube #blockchain #shorts - Complete guide by Rishabh Bharadwaj.",
+      "year": 2024
+    },
+    {
+      "title": "Blockchain क्या हैं | Crypto | Sagar Sinha Show |",
+      "creator": "Sagar Sinha Podcast",
+      "url": "https://www.youtube.com/watch?v=iQaDtCVTMiI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Blockchain क्या हैं | Crypto | Sagar Sinha Show | - Complete guide by Sagar Sinha Podcast.",
+      "year": 2024
+    },
+    {
+      "title": "How to Make a Career in Blockchain in 2025? 🔥 Blockchain Developer Roadmap | Intellipaat #shorts",
+      "creator": "Intellipaat",
+      "url": "https://www.youtube.com/watch?v=-bRHO5hPbTA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Make a Career in Blockchain in 2025? 🔥 Blockchain Developer Roadmap | Intellipaat #shorts - Complete guide by Intellipaat.",
+      "year": 2024
+    },
+    {
+      "title": "Blockchain Developer Roadmap|| #roadmap #blockchain #cryptocurrency",
+      "creator": "Co-Coder",
+      "url": "https://www.youtube.com/watch?v=oIausU0Uolg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Blockchain Developer Roadmap|| #roadmap #blockchain #cryptocurrency - Complete guide by Co-Coder.",
+      "year": 2024
+    },
+    {
+      "title": "8 FREE Courses to Master Tech in 2026 🚀 (Roadmap) #shorts #keepgrowing #2026short #short",
+      "creator": "Code Artistry",
+      "url": "https://www.youtube.com/watch?v=N3h_B1m8ccg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "8 FREE Courses to Master Tech in 2026 🚀 (Roadmap) #shorts #keepgrowing #2026short #short - Complete guide by Code Artistry.",
+      "year": 2024
+    },
+    {
+      "title": "Hyperledger Fabric Course Quizzes - Blockchain Practice Test for Beginners: Day 25",
+      "creator": "Coding Bootcamps",
+      "url": "https://www.youtube.com/watch?v=MdM_aJAz4JQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Hyperledger Fabric Course Quizzes - Blockchain Practice Test for Beginners: Day 25 - Complete guide by Coding Bootcamps.",
+      "year": 2024
+    },
+    {
+      "title": "5 Steps to Become a Blockchain Developer 🔥 #developer #blockchain #solidity #javascript #reactjs",
+      "creator": "Naz Dumanskyy",
+      "url": "https://www.youtube.com/watch?v=hUJopk1RQJk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "5 Steps to Become a Blockchain Developer 🔥 #developer #blockchain #solidity #javascript #reactjs - Complete guide by Naz Dumanskyy.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Blockchain For ✨ Absolutely FREE ✨",
+      "creator": "CodeWithThilakS | CWTS",
+      "url": "https://www.youtube.com/watch?v=nV9l16uO0OE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Blockchain For ✨ Absolutely FREE ✨ - Complete guide by CodeWithThilakS | CWTS.",
+      "year": 2024
+    },
+    {
+      "title": "BlockChain Developer Roadmap 2025",
+      "creator": "FOC For You",
+      "url": "https://www.youtube.com/watch?v=5PuMtD-yD5M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "BlockChain Developer Roadmap 2025 - Complete guide by FOC For You.",
+      "year": 2024
+    },
+    {
+      "title": "Hyperledger Fabric Course Quizzes - Blockchain Practice Test for Beginners: Day 24",
+      "creator": "Coding Bootcamps",
+      "url": "https://www.youtube.com/watch?v=6TLhvnIGF-M",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Hyperledger Fabric Course Quizzes - Blockchain Practice Test for Beginners: Day 24 - Complete guide by Coding Bootcamps.",
+      "year": 2024
+    },
+    {
+      "title": "Blockchain 101 Course | Free Course | Blockchain Council",
+      "creator": "Blockchain Council",
+      "url": "https://www.youtube.com/watch?v=wtoJC1Vk2QQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Blockchain 101 Course | Free Course | Blockchain Council - Complete guide by Blockchain Council.",
+      "year": 2024
+    },
+    {
+      "title": "Top 5 Sources to Learn Crypto and Blockchain | Ali Solanki #Shorts",
+      "creator": "Ali Solanki",
+      "url": "https://www.youtube.com/watch?v=SQSSe_lhU88",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top 5 Sources to Learn Crypto and Blockchain | Ali Solanki #Shorts - Complete guide by Ali Solanki.",
+      "year": 2024
+    },
+    {
+      "title": "What is Blockchain? | Blockchain technology in hindi #blockchain kya hai #blockchaintechnology",
+      "creator": "SDAC Academy Online",
+      "url": "https://www.youtube.com/watch?v=SVTZxZ4JK3s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Blockchain? | Blockchain technology in hindi #blockchain kya hai #blockchaintechnology - Complete guide by SDAC Academy Online.",
+      "year": 2024
+    },
+    {
+      "title": "Real Blockchain Roadmap #blockchain #shorts",
+      "creator": "ChatGPT Corner",
+      "url": "https://www.youtube.com/watch?v=Gd8i0X1WR98",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Real Blockchain Roadmap #blockchain #shorts - Complete guide by ChatGPT Corner.",
+      "year": 2024
+    },
+    {
+      "title": "Why Blockchain? | Prerequisites",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=Dh7OyB5lJ08",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why Blockchain? | Prerequisites - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Blockchain Development Explained Simply | Quick Intro to Building on Web3  #blockchain #crypto",
+      "creator": "Crypto Chronicles",
+      "url": "https://www.youtube.com/watch?v=1DUswqnQPCc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Blockchain Development Explained Simply | Quick Intro to Building on Web3  #blockchain #crypto - Complete guide by Crypto Chronicles.",
+      "year": 2024
+    },
+    {
+      "title": "#blockchain Developer Roadmap 🙌💎Websites I use to become a #BlockchainDeveloper",
+      "creator": "Hema Karthick",
+      "url": "https://www.youtube.com/watch?v=jFFWPQT-xa0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#blockchain Developer Roadmap 🙌💎Websites I use to become a #BlockchainDeveloper - Complete guide by Hema Karthick.",
+      "year": 2024
+    },
+    {
+      "title": "Blockchain Full Course - 4 Hours | Blockchain Tutorial |Blockchain Technology Explained |Simplilearn",
+      "creator": "Simplilearn",
+      "url": "https://www.youtube.com/watch?v=SyVMma1IkXM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Blockchain Full Course - 4 Hours | Blockchain Tutorial |Blockchain Technology Explained |Simplilearn - Complete guide by Simplilearn.",
+      "year": 2024
+    },
+    {
+      "title": "From Zero to Blockchain Developer in 10 Months: Complete Roadmap",
+      "creator": "Programming with Mosh",
+      "url": "https://www.youtube.com/watch?v=gdiao7L9GjE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "From Zero to Blockchain Developer in 10 Months: Complete Roadmap - Complete guide by Programming with Mosh.",
+      "year": 2024
+    },
+    {
+      "title": "Blockchain Full Course - 6 hours | Blockchain Tutorial | 3 courses in 1 | Hindi | Code Eater",
+      "creator": "Code Eater",
+      "url": "https://www.youtube.com/watch?v=6aF6p2VUORE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Blockchain Full Course - 6 hours | Blockchain Tutorial | 3 courses in 1 | Hindi | Code Eater - Complete guide by Code Eater.",
+      "year": 2024
+    },
+    {
+      "title": "What is Web3?",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=2uYuWiICCM0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Web3? - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Blockchain Developer Full Course 2026 in Hindi | Solidity, Ethereum, Foundry & dApp",
+      "creator": "Code Eater",
+      "url": "https://www.youtube.com/watch?v=kveerTqw1Tg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Blockchain Developer Full Course 2026 in Hindi | Solidity, Ethereum, Foundry & dApp - Complete guide by Code Eater.",
+      "year": 2024
+    },
+    {
+      "title": "19 year old shares complete blockchain development roadmap.",
+      "creator": "Sukhad Anand",
+      "url": "https://www.youtube.com/watch?v=8hk23nL16NM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "19 year old shares complete blockchain development roadmap. - Complete guide by Sukhad Anand.",
+      "year": 2024
+    },
+    {
+      "title": "Blockchain Tutorial #01: What is Blockchain? | Blockchain Introduction Explained 2025 (Hindi/Urdu)",
+      "creator": "The Techzeen",
+      "url": "https://www.youtube.com/watch?v=Rl3KZ1uvIk0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Blockchain Tutorial #01: What is Blockchain? | Blockchain Introduction Explained 2025 (Hindi/Urdu) - Complete guide by The Techzeen.",
+      "year": 2024
+    },
+    {
+      "title": "Build 5 Dapps on the Ethereum Blockchain - Beginner Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=8wMKq7HvbKw",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Build 5 Dapps on the Ethereum Blockchain - Beginner Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Code a Memecoin Launchpad like Pump.fun Step-by-Step (solidity, ethereum, hardhat, react js",
+      "creator": "Dapp University",
+      "url": "https://www.youtube.com/watch?v=z7Vz8ZKylc4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Code a Memecoin Launchpad like Pump.fun Step-by-Step (solidity, ethereum, hardhat, react js - Complete guide by Dapp University.",
+      "year": 2024
+    },
+    {
+      "title": "Blockchain Roadmap 2025 | Zero to Hero Guide to Become a Blockchain Expert (Hindi/Urdu)",
+      "creator": "The Techzeen",
+      "url": "https://www.youtube.com/watch?v=DYwz6qHz2Po",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Blockchain Roadmap 2025 | Zero to Hero Guide to Become a Blockchain Expert (Hindi/Urdu) - Complete guide by The Techzeen.",
+      "year": 2024
+    },
+    {
+      "title": "Developing Ethereum Smart Contracts for Beginners (Trailer)",
+      "creator": "DesignCourse",
+      "url": "https://www.youtube.com/watch?v=KU6bvciWgRE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Developing Ethereum Smart Contracts for Beginners (Trailer) - Complete guide by DesignCourse.",
+      "year": 2024
+    },
+    {
+      "title": "01. Smart Contracts and Decentralized Apps 101",
+      "creator": "DesignCourse",
+      "url": "https://www.youtube.com/watch?v=a9_HPYlhCug",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "01. Smart Contracts and Decentralized Apps 101 - Complete guide by DesignCourse.",
+      "year": 2024
+    },
+    {
+      "title": "Let’s Build your First Ethereum Smart Contract #shorts #blockchain #crypto #coding",
+      "creator": "Naz Dumanskyy",
+      "url": "https://www.youtube.com/watch?v=Mp-d7m0py4g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Let’s Build your First Ethereum Smart Contract #shorts #blockchain #crypto #coding - Complete guide by Naz Dumanskyy.",
+      "year": 2024
+    },
+    {
+      "title": "Ultimate Solidity Tutorial: DeFi, Flash Loans, Hacking, NFTs & more!",
+      "creator": "Dapp University",
+      "url": "https://www.youtube.com/watch?v=eoQJ6nFZOcs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ultimate Solidity Tutorial: DeFi, Flash Loans, Hacking, NFTs & more! - Complete guide by Dapp University.",
+      "year": 2024
+    },
+    {
+      "title": "The Language That Runs Billions?! | EVM & Smart Contracts #shorts",
+      "creator": "Crypto_fact30s",
+      "url": "https://www.youtube.com/watch?v=B4qj2lOGc8Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Language That Runs Billions?! | EVM & Smart Contracts #shorts - Complete guide by Crypto_fact30s.",
+      "year": 2024
+    },
+    {
+      "title": "Solidity Tutorial: Create Your First Smart Contract on Ethereum",
+      "creator": "Justin Salmon",
+      "url": "https://www.youtube.com/watch?v=X1Kx9NWVRwI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Solidity Tutorial: Create Your First Smart Contract on Ethereum - Complete guide by Justin Salmon.",
+      "year": 2024
+    },
+    {
+      "title": "Solidity's Safer Rival?! | EVM & Smart Contracts #shorts",
+      "creator": "Crypto_fact30s",
+      "url": "https://www.youtube.com/watch?v=GGL9aw-pQ5c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Solidity's Safer Rival?! | EVM & Smart Contracts #shorts - Complete guide by Crypto_fact30s.",
+      "year": 2024
+    },
+    {
+      "title": "How to Deploy a Smart Contract on Ethereum Using Remix IDE | Solidity Tutorial for Beginners",
+      "creator": "thebasicsdotacademy",
+      "url": "https://www.youtube.com/watch?v=gidJM8LXxPo",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "How to Deploy a Smart Contract on Ethereum Using Remix IDE | Solidity Tutorial for Beginners - Complete guide by thebasicsdotacademy.",
+      "year": 2024
+    },
+    {
+      "title": "Learning Smart Contract #solidity #soliditydeveloper #web3 #smartcontract #fullstackdev #ethereum",
+      "creator": "Web3Learn",
+      "url": "https://www.youtube.com/watch?v=2tMTkPeSMek",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learning Smart Contract #solidity #soliditydeveloper #web3 #smartcontract #fullstackdev #ethereum - Complete guide by Web3Learn.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Web3 Bootcamp - Learning ETH smart contracts",
+      "creator": "Harkirat Singh",
+      "url": "https://www.youtube.com/watch?v=Tvf7CXEjFNU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete Web3 Bootcamp - Learning ETH smart contracts - Complete guide by Harkirat Singh.",
+      "year": 2024
+    },
+    {
+      "title": "Blockchain For Beginners #1 - Smart Contracts With Ethereum & Solidity",
+      "creator": "Tech With Tim",
+      "url": "https://www.youtube.com/watch?v=8kEBwJt2YLM",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Blockchain For Beginners #1 - Smart Contracts With Ethereum & Solidity - Complete guide by Tech With Tim.",
+      "year": 2024
+    },
+    {
+      "title": "Ethereum and smart contracts",
+      "creator": "ScotibrowN",
+      "url": "https://www.youtube.com/watch?v=bh-JpAPNbAc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ethereum and smart contracts - Complete guide by ScotibrowN.",
+      "year": 2024
+    },
+    {
+      "title": "EVM to SVM Translation Rules: Solidity to Anchor Priorities",
+      "creator": "Forge College",
+      "url": "https://www.youtube.com/watch?v=YVqHjqBfovI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "EVM to SVM Translation Rules: Solidity to Anchor Priorities - Complete guide by Forge College.",
+      "year": 2024
+    },
+    {
+      "title": "Block Timestamp Manipulation in Solidity — Are Your Smart Contracts Safe? #blockchain #defi",
+      "creator": "Blockhertz",
+      "url": "https://www.youtube.com/watch?v=jEH-srPnXus",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Block Timestamp Manipulation in Solidity — Are Your Smart Contracts Safe? #blockchain #defi - Complete guide by Blockhertz.",
+      "year": 2024
+    },
+    {
+      "title": "Three Words Decide If Your Money Moves?! | EVM & Smart Contracts #shorts",
+      "creator": "Crypto_fact30s",
+      "url": "https://www.youtube.com/watch?v=I086A0g7OCQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Three Words Decide If Your Money Moves?! | EVM & Smart Contracts #shorts - Complete guide by Crypto_fact30s.",
+      "year": 2024
+    },
+    {
+      "title": "What Is a Smart Contract? | Blockchain Basics #3",
+      "creator": "Adam the Wise Fox",
+      "url": "https://www.youtube.com/watch?v=WDlg_nBlWiY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What Is a Smart Contract? | Blockchain Basics #3 - Complete guide by Adam the Wise Fox.",
+      "year": 2024
+    },
+    {
+      "title": "What Is a Smart Contract? The Vending Machine Explanation (Ethereum) #Shorts",
+      "creator": "Block Story",
+      "url": "https://www.youtube.com/watch?v=jypSz9l78vY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What Is a Smart Contract? The Vending Machine Explanation (Ethereum) #Shorts - Complete guide by Block Story.",
+      "year": 2024
+    },
+    {
+      "title": "Solidity events: what logs record, indexed params & gas tradeoffs",
+      "creator": "Forge College",
+      "url": "https://www.youtube.com/watch?v=T7IDOfpvm-A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Solidity events: what logs record, indexed params & gas tradeoffs - Complete guide by Forge College.",
+      "year": 2024
+    },
+    {
+      "title": "Smart Contracts — Told By Ethereum Himself | Coin Stories #6",
+      "creator": "The Talking Coins",
+      "url": "https://www.youtube.com/watch?v=_eJPPvdFSss",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Smart Contracts — Told By Ethereum Himself | Coin Stories #6 - Complete guide by The Talking Coins.",
+      "year": 2024
+    },
+    {
+      "title": "Solidity Vs Clarity Smart Contract Programming Language #shorts",
+      "creator": "Built on Bitcoin",
+      "url": "https://www.youtube.com/watch?v=1I86cbNzumE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Solidity Vs Clarity Smart Contract Programming Language #shorts - Complete guide by Built on Bitcoin.",
+      "year": 2024
+    },
+    {
+      "title": "Where Does a Contract Keep Your Money?! | EVM & Smart Contracts #shorts",
+      "creator": "Crypto_fact30s",
+      "url": "https://www.youtube.com/watch?v=Vyn8k5ebN-M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Where Does a Contract Keep Your Money?! | EVM & Smart Contracts #shorts - Complete guide by Crypto_fact30s.",
+      "year": 2024
+    },
+    {
+      "title": "Your Contract Hides a Secret Fingerprint?! | EVM & Smart Contracts #shorts",
+      "creator": "Crypto_fact30s",
+      "url": "https://www.youtube.com/watch?v=A9QZAEPqFPs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Your Contract Hides a Secret Fingerprint?! | EVM & Smart Contracts #shorts - Complete guide by Crypto_fact30s.",
+      "year": 2024
+    },
+    {
+      "title": "How I became a 6 figure Smart Contract Developer 🧑‍💻#programming #web3 #technology #tech #code",
+      "creator": "Naz Dumanskyy",
+      "url": "https://www.youtube.com/watch?v=_7RoyCITGjk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How I became a 6 figure Smart Contract Developer 🧑‍💻#programming #web3 #technology #tech #code - Complete guide by Naz Dumanskyy.",
+      "year": 2024
+    },
+    {
+      "title": "Your Contract Hides a Secret Fingerprint?! | EVM & Smart Contracts #shorts",
+      "creator": "Crypto_fact30s",
+      "url": "https://www.youtube.com/watch?v=KdvSycKOsmU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Your Contract Hides a Secret Fingerprint?! | EVM & Smart Contracts #shorts - Complete guide by Crypto_fact30s.",
+      "year": 2024
+    },
+    {
+      "title": "Smart Contracts Explained With a Vending Machine",
+      "creator": "Simple As Five",
+      "url": "https://www.youtube.com/watch?v=FwehpgRFBfg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Smart Contracts Explained With a Vending Machine - Complete guide by Simple As Five.",
+      "year": 2024
+    },
+    {
+      "title": "Smart contracts explained with a vending machine",
+      "creator": "CoinFuturist",
+      "url": "https://www.youtube.com/watch?v=zxvFcmsVSdk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Smart contracts explained with a vending machine - Complete guide by CoinFuturist.",
+      "year": 2024
+    },
+    {
+      "title": "Solidity Programming Tutorial Hindi | Solidity - Ethereum | Code Eater - Blockchain",
+      "creator": "Code Eater",
+      "url": "https://www.youtube.com/watch?v=NqGe942J4Y0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Solidity Programming Tutorial Hindi | Solidity - Ethereum | Code Eater - Blockchain - Complete guide by Code Eater.",
+      "year": 2024
+    },
+    {
+      "title": "Solidity in 100 Seconds",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=kdvVwGrV7ec",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Solidity in 100 Seconds - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "EVM to Solana: Why Porting Smart Contracts Matters",
+      "creator": "Forge College",
+      "url": "https://www.youtube.com/watch?v=tp9Ga4TRepQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "EVM to Solana: Why Porting Smart Contracts Matters - Complete guide by Forge College.",
+      "year": 2024
+    },
+    {
+      "title": "Build a Smart Contract Assignment System on Ethereum | Solidity Tutorial",
+      "creator": "David Paul",
+      "url": "https://www.youtube.com/watch?v=SeT9EbBNt-c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build a Smart Contract Assignment System on Ethereum | Solidity Tutorial - Complete guide by David Paul.",
+      "year": 2024
+    },
+    {
+      "title": "WEB 3 Road Map #coding #programming",
+      "creator": "Neeraj Walia",
+      "url": "https://www.youtube.com/watch?v=A7gf_68vT0w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "WEB 3 Road Map #coding #programming - Complete guide by Neeraj Walia.",
+      "year": 2024
+    },
+    {
+      "title": "Smart Contracts 101 - Create a Simple Ethereum Smart Contract with Solidity",
+      "creator": "Block Explorer",
+      "url": "https://www.youtube.com/watch?v=bNXJNeaYl8Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Smart Contracts 101 - Create a Simple Ethereum Smart Contract with Solidity - Complete guide by Block Explorer.",
+      "year": 2024
+    },
+    {
+      "title": "How To Code Your First Ethereum Smart Contract",
+      "creator": "Dapp University",
+      "url": "https://www.youtube.com/watch?v=ooN6kZ9vqNQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How To Code Your First Ethereum Smart Contract - Complete guide by Dapp University.",
+      "year": 2024
+    },
+    {
+      "title": "Solidity Full Course | Build SecretPay - ETH Escrow DApp with Foundry & Testing",
+      "creator": "CWT",
+      "url": "https://www.youtube.com/watch?v=COs1q250mPo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Solidity Full Course | Build SecretPay - ETH Escrow DApp with Foundry & Testing - Complete guide by CWT.",
+      "year": 2024
+    },
+    {
+      "title": "Ethereum Smart Contracts In Solidity 1 -  State, Functions, Modifiers and Events | Blockchain",
+      "creator": "What The Func? w/ Ed Zynda",
+      "url": "https://www.youtube.com/watch?v=xWKq86PWG0o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ethereum Smart Contracts In Solidity 1 -  State, Functions, Modifiers and Events | Blockchain - Complete guide by What The Func? w/ Ed Zynda.",
+      "year": 2024
+    },
+    {
+      "title": "Create Your First Ethereum Smart Contract In Solidity | Blockchain",
+      "creator": "What The Func? w/ Ed Zynda",
+      "url": "https://www.youtube.com/watch?v=4Taej55zNY4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Create Your First Ethereum Smart Contract In Solidity | Blockchain - Complete guide by What The Func? w/ Ed Zynda.",
+      "year": 2024
+    },
+    {
+      "title": "Free Resources for Learning Web 3 and Blockchain Development",
+      "creator": "Sanjay kumar",
+      "url": "https://www.youtube.com/watch?v=etCB1IRMPV4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Free Resources for Learning Web 3 and Blockchain Development - Complete guide by Sanjay kumar.",
+      "year": 2024
+    },
+    {
+      "title": "Tezos Blockchain Developer Course – Python Web3 Development",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=pHQfw1W7V8s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Tezos Blockchain Developer Course – Python Web3 Development - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Breaking Down the Ultimate, 32-hour Smart Contract Development Course",
+      "creator": "Chainlink",
+      "url": "https://www.youtube.com/watch?v=wXEEfJ5L5jc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Breaking Down the Ultimate, 32-hour Smart Contract Development Course - Complete guide by Chainlink.",
+      "year": 2024
+    },
+    {
+      "title": "Intro to Remix & Solidity | Chainlink Engineering Tutorials",
+      "creator": "Chainlink",
+      "url": "https://www.youtube.com/watch?v=JWJWT9cwFbo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Intro to Remix & Solidity | Chainlink Engineering Tutorials - Complete guide by Chainlink.",
+      "year": 2024
+    },
+    {
+      "title": "Use AI to Instantly Speed Up Bootstrap CSS Development - Genius Hack!",
+      "creator": "Kalman Web Design",
+      "url": "https://www.youtube.com/watch?v=67fcxDrNBa8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Use AI to Instantly Speed Up Bootstrap CSS Development - Genius Hack! - Complete guide by Kalman Web Design.",
+      "year": 2024
+    },
+    {
+      "title": "Vibe Coding Course 1 – What Is Vibe Coding (And Who Cares?)",
+      "creator": "Code Playbook",
+      "url": "https://www.youtube.com/watch?v=KFNfQwmLnS8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Vibe Coding Course 1 – What Is Vibe Coding (And Who Cares?) - Complete guide by Code Playbook.",
+      "year": 2024
+    },
+    {
+      "title": "Top 5 Websites to Learn Web Development (Free & Fast!) #web3 #webdevelopment #frontendcourse #dev",
+      "creator": "Marzouk Rayen",
+      "url": "https://www.youtube.com/watch?v=nZQWwaWOlD8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top 5 Websites to Learn Web Development (Free & Fast!) #web3 #webdevelopment #frontendcourse #dev - Complete guide by Marzouk Rayen.",
+      "year": 2024
+    },
+    {
+      "title": "New Web3 Developer Roadmap for 2026",
+      "creator": "Daulat Hussain",
+      "url": "https://www.youtube.com/watch?v=nf--kiuawOM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "New Web3 Developer Roadmap for 2026 - Complete guide by Daulat Hussain.",
+      "year": 2024
+    },
+    {
+      "title": "How to learn Web3 in 2023 - Full Web3 Development Roadmap",
+      "creator": "Francesco Ciulla",
+      "url": "https://www.youtube.com/watch?v=N0XOyo6TEHo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to learn Web3 in 2023 - Full Web3 Development Roadmap - Complete guide by Francesco Ciulla.",
+      "year": 2024
+    },
+    {
+      "title": "5 free GitHub repos to learn Web3 (and 1 trap that can infect your PC) 🧑‍💻",
+      "creator": "wkalidev",
+      "url": "https://www.youtube.com/watch?v=sWrXXYpznak",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "5 free GitHub repos to learn Web3 (and 1 trap that can infect your PC) 🧑‍💻 - Complete guide by wkalidev.",
+      "year": 2024
+    },
+    {
+      "title": "Here's a cool and easy way to work with colors in your Three.js projects",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=ehkDsePv3W8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Here's a cool and easy way to work with colors in your Three.js projects - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "How to master web3 in 100 days || learn to code || #shorts #programming #developer #web3 #crypto",
+      "creator": "Coding house",
+      "url": "https://www.youtube.com/watch?v=iS4nA5AAkAs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to master web3 in 100 days || learn to code || #shorts #programming #developer #web3 #crypto - Complete guide by Coding house.",
+      "year": 2024
+    },
+    {
+      "title": "Register for Cyfrin Updraft to learn EVERYTHING about web3 development and security",
+      "creator": "Patrick Collins",
+      "url": "https://www.youtube.com/watch?v=IDepydugYV0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Register for Cyfrin Updraft to learn EVERYTHING about web3 development and security - Complete guide by Patrick Collins.",
+      "year": 2024
+    },
+    {
+      "title": "Top 5 Free Web3 Courses to Boost Your Blockchain Developer Skills in 2025",
+      "creator": "InfoTech Empire",
+      "url": "https://www.youtube.com/watch?v=Sz27gorAnSc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top 5 Free Web3 Courses to Boost Your Blockchain Developer Skills in 2025 - Complete guide by InfoTech Empire.",
+      "year": 2024
+    },
+    {
+      "title": "Blockchain & Web3 Roadmap V2",
+      "creator": "Simplilearn",
+      "url": "https://www.youtube.com/watch?v=MP-OmPUVmb8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Blockchain & Web3 Roadmap V2 - Complete guide by Simplilearn.",
+      "year": 2024
+    },
+    {
+      "title": "How to master WEB3 in 2024 (Complete Roadmap and Syllabus)",
+      "creator": "Harkirat Singh",
+      "url": "https://www.youtube.com/watch?v=D5CGlFQbgnk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to master WEB3 in 2024 (Complete Roadmap and Syllabus) - Complete guide by Harkirat Singh.",
+      "year": 2024
+    },
+    {
+      "title": "web3 (Blockchain development) in one video #blockchain #ai #shorts #viral",
+      "creator": "Balajee Mishra",
+      "url": "https://www.youtube.com/watch?v=dA-_FYsSgKM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "web3 (Blockchain development) in one video #blockchain #ai #shorts #viral - Complete guide by Balajee Mishra.",
+      "year": 2024
+    },
+    {
+      "title": "Blockchain Development, Smart Contracts, Solidity, Ethereum, Web3 Development, DApp Development, DeF",
+      "creator": "Web3 Space",
+      "url": "https://www.youtube.com/watch?v=BPh0nTVTcao",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Blockchain Development, Smart Contracts, Solidity, Ethereum, Web3 Development, DApp Development, DeF - Complete guide by Web3 Space.",
+      "year": 2024
+    },
+    {
+      "title": "My top 5 FREE resources to learn coding | #code #codetutorial #saas",
+      "creator": "thinkwithnikhil",
+      "url": "https://www.youtube.com/watch?v=0DcBYTHKkWE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "My top 5 FREE resources to learn coding | #code #codetutorial #saas - Complete guide by thinkwithnikhil.",
+      "year": 2024
+    },
+    {
+      "title": "Top 6 Web3 programming languages you must master by 2023 |@SoluLab #shorts #web3",
+      "creator": "SoluLab",
+      "url": "https://www.youtube.com/watch?v=LuBPvOwSyGY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top 6 Web3 programming languages you must master by 2023 |@SoluLab #shorts #web3 - Complete guide by SoluLab.",
+      "year": 2024
+    },
+    {
+      "title": "Smart Contract Source Code Explained | Web3 Development & DeFi Projects | AntroLab.io",
+      "creator": "Antrolab",
+      "url": "https://www.youtube.com/watch?v=KNYRxwJ3Z8k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Smart Contract Source Code Explained | Web3 Development & DeFi Projects | AntroLab.io - Complete guide by Antrolab.",
+      "year": 2024
+    },
+    {
+      "title": "3 Websites Har Coding Student Ko Pata Honi Chahiye! 🚀",
+      "creator": "NO CAP AI",
+      "url": "https://www.youtube.com/watch?v=OlHVQ9m2v4s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "3 Websites Har Coding Student Ko Pata Honi Chahiye! 🚀 - Complete guide by NO CAP AI.",
+      "year": 2024
+    },
+    {
+      "title": "Blockchain Course 2026 | The Ultimate Web3 Tutorial for Beginners",
+      "creator": "MindMajix",
+      "url": "https://www.youtube.com/watch?v=Jnn-SX5x2yY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Blockchain Course 2026 | The Ultimate Web3 Tutorial for Beginners - Complete guide by MindMajix.",
+      "year": 2024
+    },
+    {
+      "title": "Web3.js Intro · Web3.js · #1 Ethereum Blockchain Developer Crash Course",
+      "creator": "Dapp University",
+      "url": "https://www.youtube.com/watch?v=t3wM5903ty0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Web3.js Intro · Web3.js · #1 Ethereum Blockchain Developer Crash Course - Complete guide by Dapp University.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Smart Contracts · Web3.js · #2 Ethereum Blockchain Development Crash Course",
+      "creator": "Dapp University",
+      "url": "https://www.youtube.com/watch?v=tu92jcqdn6s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Smart Contracts · Web3.js · #2 Ethereum Blockchain Development Crash Course - Complete guide by Dapp University.",
+      "year": 2024
+    },
+    {
+      "title": "RUST : THE NEW ERA LANGUAGE #artificialtechnology #crypto #cryptocurrency #blockchainrevolution",
+      "creator": "Career on Chain",
+      "url": "https://www.youtube.com/watch?v=JWSUmSoAeyg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "RUST : THE NEW ERA LANGUAGE #artificialtechnology #crypto #cryptocurrency #blockchainrevolution - Complete guide by Career on Chain.",
+      "year": 2024
+    },
+    {
+      "title": "Build & Deploy a Solana Decentralized Voting DApp | Rust + Anchor + Web3.js + Next.js | Solana App",
+      "creator": "Daulat Hussain",
+      "url": "https://www.youtube.com/watch?v=G_3xz883Evg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build & Deploy a Solana Decentralized Voting DApp | Rust + Anchor + Web3.js + Next.js | Solana App - Complete guide by Daulat Hussain.",
+      "year": 2024
+    },
+    {
+      "title": "Solana Performance: CPU & Memory Proof-of-Concept in Rust",
+      "creator": "Forge College",
+      "url": "https://www.youtube.com/watch?v=i1JQeheuoNs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Solana Performance: CPU & Memory Proof-of-Concept in Rust - Complete guide by Forge College.",
+      "year": 2024
+    },
+    {
+      "title": "Solana Developer Bootcamp 2026: Learn Blockchain and Full-Stack Crypto Development [Full Course]",
+      "creator": "Solana",
+      "url": "https://www.youtube.com/watch?v=2pcm7ICRJKU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Solana Developer Bootcamp 2026: Learn Blockchain and Full-Stack Crypto Development [Full Course] - Complete guide by Solana.",
+      "year": 2024
+    },
+    {
+      "title": "Rust Tutorial Learn Rust with me - Full Course (With Notes and Project Ideas)",
+      "creator": "Coding With Aaditya",
+      "url": "https://www.youtube.com/watch?v=cABFS6hssq8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Rust Tutorial Learn Rust with me - Full Course (With Notes and Project Ideas) - Complete guide by Coding With Aaditya.",
+      "year": 2024
+    },
+    {
+      "title": "Why is Rust so popular in crypto? 🦀",
+      "creator": "JetBrains",
+      "url": "https://www.youtube.com/watch?v=TB8V6pBs-U4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why is Rust so popular in crypto? 🦀 - Complete guide by JetBrains.",
+      "year": 2024
+    },
+    {
+      "title": "Rust Practice Day 1: Even or Odd Number Checker | Beginner Rust Coding",
+      "creator": "Coding With Aaditya",
+      "url": "https://www.youtube.com/watch?v=J2ONwSEtLiI",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Rust Practice Day 1: Even or Odd Number Checker | Beginner Rust Coding - Complete guide by Coding With Aaditya.",
+      "year": 2024
+    },
+    {
+      "title": "Rust lang blockchain developer content 👩‍💻Solana ecosystem.",
+      "creator": "Alina rust dev",
+      "url": "https://www.youtube.com/watch?v=JJrt3L9czms",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Rust lang blockchain developer content 👩‍💻Solana ecosystem. - Complete guide by Alina rust dev.",
+      "year": 2024
+    },
+    {
+      "title": "Solidity-to-Rust/Anchor Pattern Catalog — Assemble & Publish Capstone",
+      "creator": "Forge College",
+      "url": "https://www.youtube.com/watch?v=qXCOm2fPAJ0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Solidity-to-Rust/Anchor Pattern Catalog — Assemble & Publish Capstone - Complete guide by Forge College.",
+      "year": 2024
+    },
+    {
+      "title": "The Solana Talent Engine #web3 #blockchain #solana #crypto #web3education #rust #development #coding",
+      "creator": "TURBIN3",
+      "url": "https://www.youtube.com/watch?v=kFHH6LFBSkQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Solana Talent Engine #web3 #blockchain #solana #crypto #web3education #rust #development #coding - Complete guide by TURBIN3.",
+      "year": 2024
+    },
+    {
+      "title": "Rust/Anchor: Build Core Program Logic for Solana — EVM to SVM",
+      "creator": "Forge College",
+      "url": "https://www.youtube.com/watch?v=M518C6So3xI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Rust/Anchor: Build Core Program Logic for Solana — EVM to SVM - Complete guide by Forge College.",
+      "year": 2024
+    },
+    {
+      "title": "Solana Deployment: Key Components & Planning Essentials",
+      "creator": "Forge College",
+      "url": "https://www.youtube.com/watch?v=0CG0HAGjbqk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Solana Deployment: Key Components & Planning Essentials - Complete guide by Forge College.",
+      "year": 2024
+    },
+    {
+      "title": "Why You Should Skip Rust and Use Python for Solana Development!\" #solana #dev",
+      "creator": "Crypto Gda",
+      "url": "https://www.youtube.com/watch?v=tz2nOD-Azj4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why You Should Skip Rust and Use Python for Solana Development!\" #solana #dev - Complete guide by Crypto Gda.",
+      "year": 2024
+    },
+    {
+      "title": "Blockchain project for beginners walk-through 👩‍💻 Rust lang, Solana",
+      "creator": "Alina rust dev",
+      "url": "https://www.youtube.com/watch?v=Nj0CCOJxwm4",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Blockchain project for beginners walk-through 👩‍💻 Rust lang, Solana - Complete guide by Alina rust dev.",
+      "year": 2024
+    },
+    {
+      "title": "Borsh Serializers in Rust — Fast, Deterministic Encoding for Solana",
+      "creator": "Forge College",
+      "url": "https://www.youtube.com/watch?v=oi9rnhMH2eY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Borsh Serializers in Rust — Fast, Deterministic Encoding for Solana - Complete guide by Forge College.",
+      "year": 2024
+    },
+    {
+      "title": "Blockchain Skills You Need #blockchain #web3 #solana #rust #coder #vibecoding #solidityprogramming",
+      "creator": "Daulat Hussain",
+      "url": "https://www.youtube.com/watch?v=Q6PDRWl3wCA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Blockchain Skills You Need #blockchain #web3 #solana #rust #coder #vibecoding #solidityprogramming - Complete guide by Daulat Hussain.",
+      "year": 2024
+    },
+    {
+      "title": "Borsh on Solana: Serialize Rust structs for predictable on-chain state",
+      "creator": "Forge College",
+      "url": "https://www.youtube.com/watch?v=MP4SWu6vcho",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Borsh on Solana: Serialize Rust structs for predictable on-chain state - Complete guide by Forge College.",
+      "year": 2024
+    },
+    {
+      "title": "Rust RoadMap #rust #coding #go #solidity #solanablockchain #smartcontract #web3forbeginners #ai",
+      "creator": "Daulat Hussain",
+      "url": "https://www.youtube.com/watch?v=rPfGiX0KgiE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Rust RoadMap #rust #coding #go #solidity #solanablockchain #smartcontract #web3forbeginners #ai - Complete guide by Daulat Hussain.",
+      "year": 2024
+    },
+    {
+      "title": "solidity-to-rust documentation: design decisions for EVM to SVM",
+      "creator": "Forge College",
+      "url": "https://www.youtube.com/watch?v=eBLcCDv7jvk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "solidity-to-rust documentation: design decisions for EVM to SVM - Complete guide by Forge College.",
+      "year": 2024
+    },
+    {
+      "title": "From EVM to SVM: Translate Solidity Patterns to Rust/Anchor",
+      "creator": "Forge College",
+      "url": "https://www.youtube.com/watch?v=W_eX-k4crwY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "From EVM to SVM: Translate Solidity Patterns to Rust/Anchor - Complete guide by Forge College.",
+      "year": 2024
+    },
+    {
+      "title": "Which one do you choose? 🤔#solidity #rust #buidl #cosmos #solana #near",
+      "creator": "Mikhail | The Desk Report",
+      "url": "https://www.youtube.com/watch?v=Ag1IVIlBtwE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Which one do you choose? 🤔#solidity #rust #buidl #cosmos #solana #near - Complete guide by Mikhail | The Desk Report.",
+      "year": 2024
+    },
+    {
+      "title": "Solidity-to-Rust Pattern Catalog — Scope, Metadata & Fidelity Metrics",
+      "creator": "Forge College",
+      "url": "https://www.youtube.com/watch?v=OupJoqs5GJ0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Solidity-to-Rust Pattern Catalog — Scope, Metadata & Fidelity Metrics - Complete guide by Forge College.",
+      "year": 2024
+    },
+    {
+      "title": "How I’d Learn Solana Development in 2026 | Blockchain Developer Roadmap Series Introduction",
+      "creator": "bri",
+      "url": "https://www.youtube.com/watch?v=4mKS99k-bMo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How I’d Learn Solana Development in 2026 | Blockchain Developer Roadmap Series Introduction - Complete guide by bri.",
+      "year": 2024
+    },
+    {
+      "title": "How to Set Up Your Solana Development Environment | Blockchain Development Introduction",
+      "creator": "bri",
+      "url": "https://www.youtube.com/watch?v=_eaiNOeE8Tc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Set Up Your Solana Development Environment | Blockchain Development Introduction - Complete guide by bri.",
+      "year": 2024
+    },
+    {
+      "title": "Rust Solana Tutorial #2 - Hello Solana",
+      "creator": "Coding & Crypto",
+      "url": "https://www.youtube.com/watch?v=51S58xcHHBw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Rust Solana Tutorial #2 - Hello Solana - Complete guide by Coding & Crypto.",
+      "year": 2024
+    },
+    {
+      "title": "Solana modular design for auditability and scalable programs",
+      "creator": "Forge College",
+      "url": "https://www.youtube.com/watch?v=fkpxzGETlFI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Solana modular design for auditability and scalable programs - Complete guide by Forge College.",
+      "year": 2024
+    },
+    {
+      "title": "Rust Solana Tutorial #1 - Solana CLI",
+      "creator": "Coding & Crypto",
+      "url": "https://www.youtube.com/watch?v=CsKbzsN7q1o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Rust Solana Tutorial #1 - Solana CLI - Complete guide by Coding & Crypto.",
+      "year": 2024
+    },
+    {
+      "title": "Rust Crash Course Tutorial for Solana",
+      "creator": "Josh's DevBox",
+      "url": "https://www.youtube.com/watch?v=-AAtfPHEMbA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Rust Crash Course Tutorial for Solana - Complete guide by Josh's DevBox.",
+      "year": 2024
+    },
+    {
+      "title": "Deploy Rust Smart Contract to Solana Blockchain - LIVE Tutorial",
+      "creator": "Daulat Hussain",
+      "url": "https://www.youtube.com/watch?v=iLgU1J7WMQY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Deploy Rust Smart Contract to Solana Blockchain - LIVE Tutorial - Complete guide by Daulat Hussain.",
+      "year": 2024
+    },
+    {
+      "title": "Solana Development: Smart Contract Life Cycle High Level",
+      "creator": "Josh's DevBox",
+      "url": "https://www.youtube.com/watch?v=-7b9zKBwdpo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Solana Development: Smart Contract Life Cycle High Level - Complete guide by Josh's DevBox.",
+      "year": 2024
+    },
+    {
+      "title": "Solana Developer Bootcamp 2024 - Learn Blockchain and Full Stack Web3 Development - Projects 1-9",
+      "creator": "Solana",
+      "url": "https://www.youtube.com/watch?v=amAq-WHAFs8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Solana Developer Bootcamp 2024 - Learn Blockchain and Full Stack Web3 Development - Projects 1-9 - Complete guide by Solana.",
+      "year": 2024
+    },
+    {
+      "title": "Build & Deploy a Solana ICO PreSale DApp | Rust, Anchor, Next.js & Web3.js – Complete Solana Course",
+      "creator": "Daulat Hussain",
+      "url": "https://www.youtube.com/watch?v=Buuhs0yASMQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build & Deploy a Solana ICO PreSale DApp | Rust, Anchor, Next.js & Web3.js – Complete Solana Course - Complete guide by Daulat Hussain.",
+      "year": 2024
+    },
+    {
+      "title": "Create & Deploy Solana ICO / PreSale DApp | Nextjs + Rust Contract + Web3.js | Solana Project Course",
+      "creator": "Daulat Hussain",
+      "url": "https://www.youtube.com/watch?v=J7-o6Nl3udw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Create & Deploy Solana ICO / PreSale DApp | Nextjs + Rust Contract + Web3.js | Solana Project Course - Complete guide by Daulat Hussain.",
+      "year": 2024
+    },
+    {
+      "title": "What is DeFi? (Decentralized Finance Animated)",
+      "creator": "Whiteboard Crypto",
+      "url": "https://www.youtube.com/watch?v=17QRFlml4pA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is DeFi? (Decentralized Finance Animated) - Complete guide by Whiteboard Crypto.",
+      "year": 2024
+    },
+    {
+      "title": "Solana Blockchain Introduction. #learning #blockchain #solana #development #programming #rust",
+      "creator": "Code Your Money",
+      "url": "https://www.youtube.com/watch?v=FxM0gAZY9Uk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Solana Blockchain Introduction. #learning #blockchain #solana #development #programming #rust - Complete guide by Code Your Money.",
+      "year": 2024
+    },
+    {
+      "title": "What Is DeFi? Decentralized Finance #CryptoEducation #CoinLynDigital #YouTubeShorts #CryptoShorts",
+      "creator": "CoinLyn Digital",
+      "url": "https://www.youtube.com/watch?v=8JIWv5tNyoY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What Is DeFi? Decentralized Finance #CryptoEducation #CoinLynDigital #YouTubeShorts #CryptoShorts - Complete guide by CoinLyn Digital.",
+      "year": 2024
+    },
+    {
+      "title": "Solana Blockchain Architecture. #solana #tech #blockchain #coding #learning #rust #technical #",
+      "creator": "Code Your Money",
+      "url": "https://www.youtube.com/watch?v=ase8K0_p9Ig",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Solana Blockchain Architecture. #solana #tech #blockchain #coding #learning #rust #technical # - Complete guide by Code Your Money.",
+      "year": 2024
+    },
+    {
+      "title": "What is DeFi?",
+      "creator": "Dors Coding School",
+      "url": "https://www.youtube.com/watch?v=8fsQDx1AsK0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is DeFi? - Complete guide by Dors Coding School.",
+      "year": 2024
+    },
+    {
+      "title": "Welcome to Decentralized Finance",
+      "creator": "freeCodeCamp Talks",
+      "url": "https://www.youtube.com/watch?v=BQqLThwALV4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Welcome to Decentralized Finance - Complete guide by freeCodeCamp Talks.",
+      "year": 2024
+    },
+    {
+      "title": "Decentralized Finance | DeFi Explained in Hindi | Blockchain",
+      "creator": "5 Minutes Engineering",
+      "url": "https://www.youtube.com/watch?v=qRBoohuUdis",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Decentralized Finance | DeFi Explained in Hindi | Blockchain - Complete guide by 5 Minutes Engineering.",
+      "year": 2024
+    },
+    {
+      "title": "Ivan Soto discusses how decentralized finance is becoming a bigger part of retail trading.",
+      "creator": "Mindset Unfiltered",
+      "url": "https://www.youtube.com/watch?v=LfVG4a25O7o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ivan Soto discusses how decentralized finance is becoming a bigger part of retail trading. - Complete guide by Mindset Unfiltered.",
+      "year": 2024
+    },
+    {
+      "title": "Ivan Soto talks about decentralized finance becoming a larger part of crypto trading.",
+      "creator": "FutureFinanceDaily",
+      "url": "https://www.youtube.com/watch?v=-zXt7lWKiJ0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ivan Soto talks about decentralized finance becoming a larger part of crypto trading. - Complete guide by FutureFinanceDaily.",
+      "year": 2024
+    },
+    {
+      "title": "How Decentralized Finance can win | @moonpayhq CEO, Ivan Soto-Wright",
+      "creator": "Podpod Clips",
+      "url": "https://www.youtube.com/watch?v=woWusBY3Y84",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Decentralized Finance can win | @moonpayhq CEO, Ivan Soto-Wright - Complete guide by Podpod Clips.",
+      "year": 2024
+    },
+    {
+      "title": "What is DeFi | Decentralized Finance Explained | DeFi क्या है | CoinSwitch Kuber",
+      "creator": "CoinSwitch ",
+      "url": "https://www.youtube.com/watch?v=wtLukJZ1tEs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is DeFi | Decentralized Finance Explained | DeFi क्या है | CoinSwitch Kuber - Complete guide by CoinSwitch .",
+      "year": 2024
+    },
+    {
+      "title": "What is DeFi? | Decentralised Finance Tutorial For Beginners | Decentralised Finance | Simplilearn",
+      "creator": "Simplilearn",
+      "url": "https://www.youtube.com/watch?v=SZXwDhcx9uY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "What is DeFi? | Decentralised Finance Tutorial For Beginners | Decentralised Finance | Simplilearn - Complete guide by Simplilearn.",
+      "year": 2024
+    },
+    {
+      "title": "MoonPay CEO Reveals What's Changing in Crypto Trading! 👀",
+      "creator": "FutureFinanceDaily",
+      "url": "https://www.youtube.com/watch?v=0AB66fXe29U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MoonPay CEO Reveals What's Changing in Crypto Trading! 👀 - Complete guide by FutureFinanceDaily.",
+      "year": 2024
+    },
+    {
+      "title": "Defi vs Cefi : The Future of finance ‎⁨@moonpayhq⁩  #shorts",
+      "creator": "zyrex_clips",
+      "url": "https://www.youtube.com/watch?v=5w8erI31pbY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Defi vs Cefi : The Future of finance ‎⁨@moonpayhq⁩  #shorts - Complete guide by zyrex_clips.",
+      "year": 2024
+    },
+    {
+      "title": "Free Intro To DeFi Course – Everything Beginners Need To Get Started",
+      "creator": "Crypto Coach Will",
+      "url": "https://www.youtube.com/watch?v=XECWKosZOvE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Free Intro To DeFi Course – Everything Beginners Need To Get Started - Complete guide by Crypto Coach Will.",
+      "year": 2024
+    },
+    {
+      "title": "MoonPay's CEO on why DeFi will overtake CeFi",
+      "creator": "Scale Theory",
+      "url": "https://www.youtube.com/watch?v=9ud1Ry26fSQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MoonPay's CEO on why DeFi will overtake CeFi - Complete guide by Scale Theory.",
+      "year": 2024
+    },
+    {
+      "title": "DeFi Is Hundreds of Years Old and Started in Japan",
+      "creator": "Berry Lavender",
+      "url": "https://www.youtube.com/watch?v=HfqgVJe3K1w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DeFi Is Hundreds of Years Old and Started in Japan - Complete guide by Berry Lavender.",
+      "year": 2024
+    },
+    {
+      "title": "The Future of Finance: All Products on Blockchain",
+      "creator": "CryptoCompass",
+      "url": "https://www.youtube.com/watch?v=F7E2FnrykQo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Future of Finance: All Products on Blockchain - Complete guide by CryptoCompass.",
+      "year": 2024
+    },
+    {
+      "title": "DeFi Could Change the Future of Finance. @moonpayhq",
+      "creator": "The Clips Ledger",
+      "url": "https://www.youtube.com/watch?v=TVAzcEEuvY4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DeFi Could Change the Future of Finance. @moonpayhq - Complete guide by The Clips Ledger.",
+      "year": 2024
+    },
+    {
+      "title": "DeFi vs CeFi: The Future of Finance 🔮 | Solana, Crypto @moonpayhq #shorts",
+      "creator": "Base clips",
+      "url": "https://www.youtube.com/watch?v=Zekefbsh_BM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DeFi vs CeFi: The Future of Finance 🔮 | Solana, Crypto @moonpayhq #shorts - Complete guide by Base clips.",
+      "year": 2024
+    },
+    {
+      "title": "How a Hacker Washed Billions Through a DeFi Loan",
+      "creator": "My First Million Fan Clips",
+      "url": "https://www.youtube.com/watch?v=nVd6yp1faIw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How a Hacker Washed Billions Through a DeFi Loan - Complete guide by My First Million Fan Clips.",
+      "year": 2024
+    },
+    {
+      "title": "What Decentralized Finance Really Is | BBS 2026 Day 1",
+      "creator": "We Them Media",
+      "url": "https://www.youtube.com/watch?v=tntyIEfRIBQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What Decentralized Finance Really Is | BBS 2026 Day 1 - Complete guide by We Them Media.",
+      "year": 2024
+    },
+    {
+      "title": "What People Don’t Realize About the Future of DeFi | @moonpayhq",
+      "creator": "Startup Signal",
+      "url": "https://www.youtube.com/watch?v=Bs_UHAf3Q0M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What People Don’t Realize About the Future of DeFi | @moonpayhq - Complete guide by Startup Signal.",
+      "year": 2024
+    },
+    {
+      "title": "Ivan Soto Wright Predicts DeFi Will Overtake CeFi @moonpayhq",
+      "creator": "Mindset Vault",
+      "url": "https://www.youtube.com/watch?v=P2ScNjsKj3A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ivan Soto Wright Predicts DeFi Will Overtake CeFi @moonpayhq - Complete guide by Mindset Vault.",
+      "year": 2024
+    },
+    {
+      "title": "Why Does Ivan Think DeFi Will Overtake Traditional Finance?  @moonpay#MoonPay #AI #Crypto #AIAgents",
+      "creator": "Ismail Vali Digest",
+      "url": "https://www.youtube.com/watch?v=NNBv-CufkKE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why Does Ivan Think DeFi Will Overtake Traditional Finance?  @moonpay#MoonPay #AI #Crypto #AIAgents - Complete guide by Ismail Vali Digest.",
+      "year": 2024
+    },
+    {
+      "title": "The IRS Is Coming After Unreported DeFi Crypto Trades",
+      "creator": "Gordon Tax",
+      "url": "https://www.youtube.com/watch?v=nff6cIS-4Os",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The IRS Is Coming After Unreported DeFi Crypto Trades - Complete guide by Gordon Tax.",
+      "year": 2024
+    },
+    {
+      "title": "XRP Is More Than Payments! The Coming DeFi Opportunity on XRPL?",
+      "creator": "Jakee Claver ",
+      "url": "https://www.youtube.com/watch?v=1dN3UTtkpEY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "XRP Is More Than Payments! The Coming DeFi Opportunity on XRPL? - Complete guide by Jakee Claver .",
+      "year": 2024
+    },
+    {
+      "title": "Defi vs Cefi Gone Crazy 🔥#shorts @moonpayhq",
+      "creator": "ThagWorlds",
+      "url": "https://www.youtube.com/watch?v=afe6TqYu5ek",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Defi vs Cefi Gone Crazy 🔥#shorts @moonpayhq - Complete guide by ThagWorlds.",
+      "year": 2024
+    },
+    {
+      "title": "DeFi's biggest weakness is the data it can't see #crypto #defi",
+      "creator": "Global Banking & Finance Review",
+      "url": "https://www.youtube.com/watch?v=QAd2XopJzHo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DeFi's biggest weakness is the data it can't see #crypto #defi - Complete guide by Global Banking & Finance Review.",
+      "year": 2024
+    },
+    {
+      "title": "Ryfinite: Explore the Future of DeFi",
+      "creator": " TheVizrro",
+      "url": "https://www.youtube.com/watch?v=65xaS5t4_tU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ryfinite: Explore the Future of DeFi - Complete guide by  TheVizrro.",
+      "year": 2024
+    },
+    {
+      "title": "Why Is Bitcoin's DeFi Presence So Low?",
+      "creator": "BlockSignalist",
+      "url": "https://www.youtube.com/watch?v=d1Z9M5xdElw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why Is Bitcoin's DeFi Presence So Low? - Complete guide by BlockSignalist.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 1: Introduction to 14.129 Blockchain and Design of Financial Systems",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=n4rlqluNA-Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 1: Introduction to 14.129 Blockchain and Design of Financial Systems - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "Full Course: DeFi Introduction - Learn About Decentralized Finance With Cryptocurrency",
+      "creator": "Start & Grow Your Business",
+      "url": "https://www.youtube.com/watch?v=TiHOf2kB9d4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Full Course: DeFi Introduction - Learn About Decentralized Finance With Cryptocurrency - Complete guide by Start & Grow Your Business.",
+      "year": 2024
+    },
+    {
+      "title": "Decentralized Finance (DeFi) Basics",
+      "creator": "Econ&Fin101",
+      "url": "https://www.youtube.com/watch?v=Yg0ytEOGUnE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Decentralized Finance (DeFi) Basics - Complete guide by Econ&Fin101.",
+      "year": 2024
+    },
+    {
+      "title": "Solidity Blockchain Developer Foundry Full Course 2023",
+      "creator": "Cyfrin Audits",
+      "url": "https://www.youtube.com/playlist?list=PL2-Nvp2Kn0FPH2xU3IbKrrkae-VVXs1vk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Solidity Blockchain Developer Foundry Full Course 2023 - Complete guide by Cyfrin Audits.",
+      "year": 2024
+    },
+    {
+      "title": "Defi course for Beginners 🔥 | Decentralize Finance | English",
+      "creator": "Code Eater Web3",
+      "url": "https://www.youtube.com/watch?v=wZA9UCMcfUI",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Defi course for Beginners 🔥 | Decentralize Finance | English - Complete guide by Code Eater Web3.",
+      "year": 2024
+    },
+    {
+      "title": "Decentralized Finance Simply Explained (live training highlights) #defi",
+      "creator": "Lori-Lee Elliott",
+      "url": "https://www.youtube.com/watch?v=rB0whWtI5_A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Decentralized Finance Simply Explained (live training highlights) #defi - Complete guide by Lori-Lee Elliott.",
+      "year": 2024
+    },
+    {
+      "title": "Decentralized Finance Explained: How DeFi Really Works (Full Guide 2025)",
+      "creator": "Next Vault",
+      "url": "https://www.youtube.com/watch?v=iV1KUBqkibk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Decentralized Finance Explained: How DeFi Really Works (Full Guide 2025) - Complete guide by Next Vault.",
+      "year": 2024
+    },
+    {
+      "title": "Smart Contract Developer, Solidity, and Hardhat",
+      "creator": "Patrick Collins",
+      "url": "https://www.youtube.com/playlist?list=PL4Rj_WH6yLgUNMj5sfJK6cQ2DJUQR6Fkc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Smart Contract Developer, Solidity, and Hardhat - Complete guide by Patrick Collins.",
+      "year": 2024
+    },
+    {
+      "title": "Smart Contract Developer, Solidity, and Brownie",
+      "creator": "Patrick Collins",
+      "url": "https://www.youtube.com/playlist?list=PL4Rj_WH6yLgVP_P-1Jxzu_EfmwXNleM0a",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Smart Contract Developer, Solidity, and Brownie - Complete guide by Patrick Collins.",
+      "year": 2024
+    },
+    {
+      "title": "Solidity Course",
+      "creator": "Daulat Hussain",
+      "url": "https://www.youtube.com/playlist?list=PLWUCKsxdKl0oksYr6IG_wRsaSUySQC0ck",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Solidity Course - Complete guide by Daulat Hussain.",
+      "year": 2024
+    },
+    {
+      "title": "Solidity Full Course",
+      "creator": "Blockchain Vidyaalay",
+      "url": "https://www.youtube.com/playlist?list=PLijwWW8jLAree5Q46dVRQEP8zgIEmUsgx",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Solidity Full Course - Complete guide by Blockchain Vidyaalay.",
+      "year": 2024
+    },
+    {
+      "title": "Solidity full course for beginners in Hindi",
+      "creator": "web3Mantra",
+      "url": "https://www.youtube.com/playlist?list=PLR0uCBk15bq9a__TgfcZ7oA73MTEZ3NOK",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Solidity full course for beginners in Hindi - Complete guide by web3Mantra.",
+      "year": 2024
+    },
+    {
+      "title": "Solidity & Smart Contracts Tutorial 2026 | From Beginner to Pro",
+      "creator": "MuzaDev",
+      "url": "https://www.youtube.com/playlist?list=PLhlclc17DKiXoAz48PeCANwc5i_INzebt",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Solidity & Smart Contracts Tutorial 2026 | From Beginner to Pro - Complete guide by MuzaDev.",
+      "year": 2024
+    },
+    {
+      "title": "Blockchain Tutorial for Beginners",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/playlist?list=PLsyeobzWxl7oY6tZmnZ5S7yTDxyu4zDW-",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Blockchain Tutorial for Beginners - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Blockchain freeCodeCamp",
+      "creator": "Udaya Prakash Nageswaran",
+      "url": "https://www.youtube.com/playlist?list=PLDaaXbH57PDpALNTmB03lq_FNvBKUDhdk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Blockchain freeCodeCamp - Complete guide by Udaya Prakash Nageswaran.",
+      "year": 2024
+    },
+    {
+      "title": "Blockchain Mastery 2026: Zero to Hero | Complete Web3 & dApps Course (Hindi/Urdu) | The Techzeen",
+      "creator": "The Techzeen",
+      "url": "https://www.youtube.com/playlist?list=PL5OhSdfH4uDvKfoYd1GRf5KCu7kvgYSw_",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Blockchain Mastery 2026: Zero to Hero | Complete Web3 & dApps Course (Hindi/Urdu) | The Techzeen - Complete guide by The Techzeen.",
+      "year": 2024
+    },
+    {
+      "title": "Free Blockchain Development Courses",
+      "creator": "Dapp University",
+      "url": "https://www.youtube.com/playlist?list=PLS5SEs8ZftgUNcUVXtn2KXiE1Ui9B5UrY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Free Blockchain Development Courses - Complete guide by Dapp University.",
+      "year": 2024
+    },
+    {
+      "title": "Ethereum Smart Contracts In Solidity",
+      "creator": "What The Func? w/ Ed Zynda",
+      "url": "https://www.youtube.com/playlist?list=PLUMwusiHZZhpf8ItZBkR95ekkMGNKvuNR",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Ethereum Smart Contracts In Solidity - Complete guide by What The Func? w/ Ed Zynda.",
+      "year": 2024
+    },
+    {
+      "title": "Free Course: Developing Ethereum Smart Contracts for Beginners",
+      "creator": "DesignCourse",
+      "url": "https://www.youtube.com/playlist?list=PL0lNJEnwfVVMuX2Ds19Wj_7Mcze3FDJr3",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Free Course: Developing Ethereum Smart Contracts for Beginners - Complete guide by DesignCourse.",
+      "year": 2024
+    },
+    {
+      "title": "freeCodeCamp S2",
+      "creator": "Chainlink",
+      "url": "https://www.youtube.com/playlist?list=PLVP9aGDn-X0RaFosTIMTZss0dYNeXkrA3",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "freeCodeCamp S2 - Complete guide by Chainlink.",
+      "year": 2024
+    },
+    {
+      "title": "Vibe Coding Course (for Beginners)",
+      "creator": "Code Playbook",
+      "url": "https://www.youtube.com/playlist?list=PLkD4ksZgZ-noUIybdspTAuzbl0QKj5uhC",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Vibe Coding Course (for Beginners) - Complete guide by Code Playbook.",
+      "year": 2024
+    },
+    {
+      "title": "Web3.js · Ethereum Blockchain Developer Crash Course",
+      "creator": "Dapp University",
+      "url": "https://www.youtube.com/playlist?list=PLS5SEs8ZftgXlCGXNfzKdq7nGBcIaVOdN",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Web3.js · Ethereum Blockchain Developer Crash Course - Complete guide by Dapp University.",
+      "year": 2024
+    },
+    {
+      "title": "Rust for Solana Blockchain Development – Zero to Advanced🔥",
+      "creator": "Coding With Aaditya",
+      "url": "https://www.youtube.com/playlist?list=PLrGdzzF3kxzyr3SC_P5x_SaPk64ZY_iYH",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Rust for Solana Blockchain Development – Zero to Advanced🔥 - Complete guide by Coding With Aaditya.",
+      "year": 2024
+    },
+    {
+      "title": "Chainlink Developer Workshops",
+      "creator": "Chainlink",
+      "url": "https://www.youtube.com/playlist?list=PLVP9aGDn-X0SPHromvpiGvoNDpH7YErmf",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Chainlink Developer Workshops - Complete guide by Chainlink.",
+      "year": 2024
+    },
+    {
+      "title": "Rust Solana Tutorial",
+      "creator": "Coding & Crypto",
+      "url": "https://www.youtube.com/playlist?list=PLUBKxx7QjtVnU3hkPc8GF1Jh4DE7cf4n1",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Rust Solana Tutorial - Complete guide by Coding & Crypto.",
+      "year": 2024
+    },
+    {
+      "title": "Crash Courses - Web Development",
+      "creator": "Kalman Web Design",
+      "url": "https://www.youtube.com/playlist?list=PLWkMJdKFOPceRskMtJV87yc-f1Em3p5D-",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Crash Courses - Web Development - Complete guide by Kalman Web Design.",
+      "year": 2024
+    },
+    {
+      "title": "Solidity Full Course",
+      "creator": "Code Eater",
+      "url": "https://www.youtube.com/playlist?list=PLgPmWS2dQHW9u6IXZq5t5GMQTpW7JL33i",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Solidity Full Course - Complete guide by Code Eater.",
+      "year": 2024
+    },
+    {
+      "title": "Solana Development Tutorial",
+      "creator": "Josh's DevBox",
+      "url": "https://www.youtube.com/playlist?list=PL53JxaGwWUqCr3xm4qvqbgpJ4Xbs4lCs7",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Solana Development Tutorial - Complete guide by Josh's DevBox.",
+      "year": 2024
+    },
+    {
+      "title": "Solana Crash Course 2026: Learn Solana Development from Scratch",
+      "creator": "bri",
+      "url": "https://www.youtube.com/playlist?list=PLfmLaK4JnnhIzz7d-CKjeMlQ-aI688x9s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Solana Crash Course 2026: Learn Solana Development from Scratch - Complete guide by bri.",
+      "year": 2024
+    },
+    {
+      "title": "Solana Ecosystem Complete Tutorial.",
+      "creator": "Code Your Money",
+      "url": "https://www.youtube.com/playlist?list=PLndmg9UIKNoku3lbeSKyW-RqHt-HRclEu",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Solana Ecosystem Complete Tutorial. - Complete guide by Code Your Money.",
+      "year": 2024
+    }
+  ],
+  "articles": [
+    {
+      "title": "CryptoZombies - Interactive Solidity Game Tutorial",
+      "url": "https://cryptozombies.io/"
+    },
+    {
+      "title": "Solana Official Developer Documentation",
+      "url": "https://docs.solana.com/"
+    },
+    {
+      "title": "Ethers.js Documentation & Quickstart Guide",
+      "url": "https://docs.ethers.org/v6/"
+    },
+    {
+      "title": "Ethereum Official Documentation & Tutorials",
+      "url": "https://ethereum.org/en/developers/docs/"
+    },
+    {
+      "title": "UseWeb3 - Curated Web3 Learning Directory",
+      "url": "https://www.useweb3.xyz/"
+    },
+    {
+      "title": "Foundry - Fast Ethereum Application Development Toolkit",
+      "url": "https://book.getfoundry.sh/"
+    },
+    {
+      "title": "Solidity Official Documentation & Language Spec",
+      "url": "https://docs.soliditylang.org/"
+    },
+    {
+      "title": "OpenZeppelin - Standard Secure Smart Contract Libraries",
+      "url": "https://docs.openzeppelin.com/contracts/"
+    }
+  ]
+}

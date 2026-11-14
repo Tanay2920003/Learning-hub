@@ -1,62 +1,3396 @@
 {
-    "name": "Database Management",
-    "slug": "dbms",
-    "description": "Master databases from relational to NoSQL systems",
-    "icon": "https://img.icons8.com/?size=100&id=DThql4DGG74l&format=png&color=000000",
-    "articles": [
-        {
-            "title": "SQLZoo - Interactive SQL Tutorial",
-            "url": "https://sqlzoo.net/"
-        },
-        {
-            "title": "MongoDB University - Free Courses",
-            "url": "https://university.mongodb.com/"
-        },
-        {
-            "title": "PostgreSQL Tutorial",
-            "url": "https://www.postgresqltutorial.com/"
-        }
-    ],
-    "playlists": [
-        {
-            "title": "DBMS Complete Course",
-            "creator": "Gate Smashers",
-            "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiFAN6I8CuViBuCdJgiOkT2Y",
-            "language": "Hindi",
-            "difficulty": "beginner",
-            "videoCount": 85,
-            "description": "GATE-focused DBMS concepts in Hindi",
-            "year": 2021
-        },
-        {
-            "title": "SQL Tutorial for Beginners",
-            "creator": "Programming with Mosh",
-            "url": "https://www.youtube.com/watch?v=7S_tz1z_5bA",
-            "language": "English",
-            "difficulty": "beginner",
-            "videoCount": 1,
-            "description": "Complete SQL course in one video",
-            "year": 2019
-        },
-        {
-            "title": "MongoDB Complete Course",
-            "creator": "Academind",
-            "url": "https://www.youtube.com/playlist?list=PL55RiY5tL51Dii7WshvSLAvk0NP2sMSPY",
-            "language": "English",
-            "difficulty": "intermediate",
-            "videoCount": 11,
-            "description": "NoSQL MongoDB fundamentals and advanced queries",
-            "year": 2020
-        },
-        {
-            "title": "PostgreSQL Tutorial",
-            "creator": "Amigoscode",
-            "url": "https://www.youtube.com/watch?v=qw--VYLpxG4",
-            "language": "English",
-            "difficulty": "intermediate",
-            "videoCount": 1,
-            "description": "PostgreSQL crash course with practical examples",
-            "year": 2021
-        }
-    ]
+  "name": "Database Management",
+  "slug": "dbms",
+  "description": "Master databases from relational to NoSQL systems",
+  "icon": "dbms",
+  "articles": [
+    {
+      "title": "SQLZoo - Interactive SQL Tutorial",
+      "url": "https://sqlzoo.net/"
+    },
+    {
+      "title": "MongoDB University - Free Courses",
+      "url": "https://university.mongodb.com/"
+    },
+    {
+      "title": "PostgreSQL Tutorial",
+      "url": "https://www.postgresqltutorial.com/"
+    },
+    {
+      "title": "CMU 15-445/645 Database Systems Course",
+      "url": "https://15445.courses.cs.cmu.edu/"
+    },
+    {
+      "title": "Use The Index, Luke! - SQL Indexing Guide",
+      "url": "https://use-the-index-luke.com/"
+    },
+    {
+      "title": "PostgreSQL Official Tutorial",
+      "url": "https://www.postgresql.org/docs/current/tutorial.html"
+    },
+    {
+      "title": "SQLite System Architecture & Design",
+      "url": "https://www.sqlite.org/arch.html"
+    },
+    {
+      "title": "Redis University - Free Redis Courses",
+      "url": "https://university.redis.com/"
+    },
+    {
+      "title": "MongoDB University Learning Center",
+      "url": "https://learn.mongodb.com/"
+    },
+    {
+      "title": "Prisma ORM Guides & Data Modeling",
+      "url": "https://www.prisma.io/docs/guides"
+    },
+    {
+      "title": "PGExercises - Interactive PostgreSQL Exercises",
+      "url": "https://pgexercises.com/"
+    },
+    {
+      "title": "MySQL Official Reference Manual",
+      "url": "https://dev.mysql.com/doc/refman/8.0/en/"
+    },
+    {
+      "title": "Prisma Data Guide - Database Fundamentals",
+      "url": "https://www.prisma.io/dataguide"
+    },
+    {
+      "title": "Redis Official Documentation & Commands",
+      "url": "https://redis.io/docs/"
+    },
+    {
+      "title": "MongoDB Official Manual & University Tutorials",
+      "url": "https://www.mongodb.com/docs/manual/"
+    },
+    {
+      "title": "Select Star SQL - Interactive Learning with Real Data",
+      "url": "https://selectstarsql.com/"
+    },
+    {
+      "title": "PostgreSQL Official Documentation & Manual",
+      "url": "https://www.postgresql.org/docs/"
+    },
+    {
+      "title": "Database Star - SQL & Database Design Tutorials",
+      "url": "https://www.databasestar.com/"
+    },
+    {
+      "title": "SQLite Official Documentation & Architecture",
+      "url": "https://www.sqlite.org/docs.html"
+    }
+  ],
+  "playlists": [
+    {
+      "title": "DBMS Complete Course",
+      "creator": "Gate Smashers",
+      "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiFAN6I8CuViBuCdJgiOkT2Y",
+      "language": "Hindi",
+      "difficulty": "beginner",
+      "videoCount": 85,
+      "description": "GATE-focused DBMS concepts in Hindi",
+      "year": 2021
+    },
+    {
+      "title": "SQL Tutorial for Beginners",
+      "creator": "Programming with Mosh",
+      "url": "https://www.youtube.com/watch?v=7S_tz1z_5bA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Complete SQL course in one video",
+      "year": 2019
+    },
+    {
+      "title": "PostgreSQL Tutorial",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=qw--VYLpxG4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PostgreSQL crash course with practical examples",
+      "year": 2021
+    },
+    {
+      "title": "CMU 15-445 Intro to Database Systems Lectures",
+      "creator": "Andy Pavlo (Carnegie Mellon University)",
+      "url": "https://www.youtube.com/playlist?list=PLSE8ODhjZXjbohkNBWQs_otTrBTrjyohi",
+      "language": "English",
+      "difficulty": "advanced",
+      "videoCount": 26,
+      "description": "In-depth computer science course covering disk storage managers, buffer pools, B+ trees, and concurrency control.",
+      "year": 2023
+    },
+    {
+      "title": "Database Indexing Explained Visually",
+      "creator": "ByteByteGo",
+      "url": "https://www.youtube.com/watch?v=fsG1XaZEa78",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Understand how clustered vs non-clustered indexes, B-Trees, and LSM trees optimize query performance.",
+      "year": 2023
+    },
+    {
+      "title": "Database Sharding and Partitioning Strategies",
+      "creator": "ByteByteGo",
+      "url": "https://www.youtube.com/watch?v=5faMjKuB9bc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn horizontal database sharding, range partitioning, and shard key selection trade-offs.",
+      "year": 2023
+    },
+    {
+      "title": "How I Would Learn SQL (If I Could Start Over in 2025) | #SQL Course 1",
+      "creator": "Data with Baraa",
+      "url": "https://www.youtube.com/watch?v=D_0Veya2XAY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How I Would Learn SQL (If I Could Start Over in 2025) | #SQL Course 1 - Complete guide by Data with Baraa.",
+      "year": 2024
+    },
+    {
+      "title": "SQL Tutorial for Beginners (Complete Course using MySQL)",
+      "creator": "CodeWithHarry",
+      "url": "https://www.youtube.com/watch?v=yE6tIle64tU",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "SQL Tutorial for Beginners (Complete Course using MySQL) - Complete guide by CodeWithHarry.",
+      "year": 2024
+    },
+    {
+      "title": "SQL - Complete Course in 3 Hours | SQL One Shot using MySQL",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=hlGoQC332VM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SQL - Complete Course in 3 Hours | SQL One Shot using MySQL - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "SQL Full Course for Beginners (30 Hours) – From Zero to Hero",
+      "creator": "Data with Baraa",
+      "url": "https://www.youtube.com/watch?v=SSKVgrwhzus",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "SQL Full Course for Beginners (30 Hours) – From Zero to Hero - Complete guide by Data with Baraa.",
+      "year": 2024
+    },
+    {
+      "title": "Relational Database Design – Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=26ls5lNiijk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Relational Database Design – Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "SQL For Web Developers - Complete Database Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=KBDSJU3cGkc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SQL For Web Developers - Complete Database Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Complete SQL course with Practice Labs",
+      "creator": "Chai aur Code",
+      "url": "https://www.youtube.com/watch?v=hi9yINy2Yj4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete SQL course with Practice Labs - Complete guide by Chai aur Code.",
+      "year": 2024
+    },
+    {
+      "title": "Intuitive SQL For Data Analytics - Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=mXW7JHJM34k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Intuitive SQL For Data Analytics - Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Easiest Way To Learn SQL (Even in 2025)",
+      "creator": "Data with Baraa",
+      "url": "https://www.youtube.com/watch?v=h33TJVFXuPo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Easiest Way To Learn SQL (Even in 2025) - Complete guide by Data with Baraa.",
+      "year": 2024
+    },
+    {
+      "title": "🚀 Roadmap to Learn SQL | Beginner to Advanced SQL Topics Explained #sql #coding #webdevelopment",
+      "creator": "CodeBuddy ",
+      "url": "https://www.youtube.com/watch?v=D0QkKi0hzAA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "🚀 Roadmap to Learn SQL | Beginner to Advanced SQL Topics Explained #sql #coding #webdevelopment - Complete guide by CodeBuddy .",
+      "year": 2024
+    },
+    {
+      "title": "Redis Crash Course - the What, Why and How to use Redis as your primary database",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=OqCK95AS-YE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Redis Crash Course - the What, Why and How to use Redis as your primary database - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "SQL Server Performance Essentials – Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=HvxmF0FUwrM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SQL Server Performance Essentials – Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "sql full course | sql server | sql notes | sql tutorial #coding #shorts #sql #mysql #dbms",
+      "creator": "TechBytes with Himanshu",
+      "url": "https://www.youtube.com/watch?v=PNt3lhIO7I4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "sql full course | sql server | sql notes | sql tutorial #coding #shorts #sql #mysql #dbms - Complete guide by TechBytes with Himanshu.",
+      "year": 2024
+    },
+    {
+      "title": "Harvard CS50’s Intro to Databases with SQL – Full University Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=WXk7yDqsKxs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Harvard CS50’s Intro to Databases with SQL – Full University Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Learn SQL basics in 60 seconds from Beau Carnes",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=u1T8yyEEKWY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn SQL basics in 60 seconds from Beau Carnes - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Database Design Course - Learn how to design and plan a database for beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=ztHopE5Wnpc",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Database Design Course - Learn how to design and plan a database for beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Boost Your Resume 10x! Top 5 Free SQL Certificates in 2026",
+      "creator": "Data Logic With Shivam",
+      "url": "https://www.youtube.com/watch?v=qPefmAjJsZE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Boost Your Resume 10x! Top 5 Free SQL Certificates in 2026 - Complete guide by Data Logic With Shivam.",
+      "year": 2024
+    },
+    {
+      "title": "SQL Full Course in Telugu with Free Notes",
+      "creator": "Dodagatta Nihar",
+      "url": "https://www.youtube.com/watch?v=RMYpDkL7IG0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SQL Full Course in Telugu with Free Notes - Complete guide by Dodagatta Nihar.",
+      "year": 2024
+    },
+    {
+      "title": "Here's the easiest way to actually learn SQL online for free! You can be running your first line of",
+      "creator": "Charlotte Chaze | Break Into Tech",
+      "url": "https://www.youtube.com/watch?v=pmSQ5Zk7IHY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Here's the easiest way to actually learn SQL online for free! You can be running your first line of - Complete guide by Charlotte Chaze | Break Into Tech.",
+      "year": 2024
+    },
+    {
+      "title": "Full SQL Course In Hindi - From Zero to HERO (2023)",
+      "creator": "Learn with Utkarsha",
+      "url": "https://www.youtube.com/watch?v=sp0bHp91T5c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Full SQL Course In Hindi - From Zero to HERO (2023) - Complete guide by Learn with Utkarsha.",
+      "year": 2024
+    },
+    {
+      "title": "The Most Comprehensive SQL Training",
+      "creator": "Data Engineer Academy",
+      "url": "https://www.youtube.com/watch?v=obTjahxBD-0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Most Comprehensive SQL Training - Complete guide by Data Engineer Academy.",
+      "year": 2024
+    },
+    {
+      "title": "SQL Full Course for Beginners (Complete Guide For Data Engineers)",
+      "creator": "Ansh Lamba",
+      "url": "https://www.youtube.com/watch?v=YimMzb0mHkI",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "SQL Full Course for Beginners (Complete Guide For Data Engineers) - Complete guide by Ansh Lamba.",
+      "year": 2024
+    },
+    {
+      "title": "5 YouTube Channels to learn SQL",
+      "creator": "Shyju Talks",
+      "url": "https://www.youtube.com/watch?v=W9jdzMdfq2I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "5 YouTube Channels to learn SQL - Complete guide by Shyju Talks.",
+      "year": 2024
+    },
+    {
+      "title": "SQL #coding #sql #trending #viral #shortvideo #dikshacodes #ytshorts @freecodecamp",
+      "creator": "Diksha Codes",
+      "url": "https://www.youtube.com/watch?v=EDsVnW55kU4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SQL #coding #sql #trending #viral #shortvideo #dikshacodes #ytshorts @freecodecamp - Complete guide by Diksha Codes.",
+      "year": 2024
+    },
+    {
+      "title": "SQL Free Online Certificate Course : SQL for Developers, Data Analysts and BI. MySQL for everyone",
+      "creator": "Freshers Camp",
+      "url": "https://www.youtube.com/watch?v=O0i9xbei390",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SQL Free Online Certificate Course : SQL for Developers, Data Analysts and BI. MySQL for everyone - Complete guide by Freshers Camp.",
+      "year": 2024
+    },
+    {
+      "title": "Database DML, SQL Free Certificate Course | Learn SQL | Server #dbms #database #sql #sqlserver",
+      "creator": "Shotkey Things",
+      "url": "https://www.youtube.com/watch?v=v7jmzMIf6Xg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Database DML, SQL Free Certificate Course | Learn SQL | Server #dbms #database #sql #sqlserver - Complete guide by Shotkey Things.",
+      "year": 2024
+    },
+    {
+      "title": "Best Playlist Lear SQL #learning # #viral",
+      "creator": "Nitish Tiwari ",
+      "url": "https://www.youtube.com/watch?v=zpn-ca9l1xI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Best Playlist Lear SQL #learning # #viral - Complete guide by Nitish Tiwari .",
+      "year": 2024
+    },
+    {
+      "title": "You Can’t Be a Real Developer Without Knowing This 💾 #database #coding #code #tech",
+      "creator": "Volkan Erdogan",
+      "url": "https://www.youtube.com/watch?v=E65VfeYp7YI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "You Can’t Be a Real Developer Without Knowing This 💾 #database #coding #code #tech - Complete guide by Volkan Erdogan.",
+      "year": 2024
+    },
+    {
+      "title": "Best FREE SQL Learning Resources",
+      "creator": "Anandan S",
+      "url": "https://www.youtube.com/watch?v=rVVbqr7Lt1Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Best FREE SQL Learning Resources - Complete guide by Anandan S.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Python + SQL in 6 months",
+      "creator": "Andrew Codesmith",
+      "url": "https://www.youtube.com/watch?v=vR1gpaiMZpM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Python + SQL in 6 months - Complete guide by Andrew Codesmith.",
+      "year": 2024
+    },
+    {
+      "title": "Node.js Tutorial for Beginners: Learn Node in 1 Hour",
+      "creator": "Programming with Mosh",
+      "url": "https://www.youtube.com/watch?v=TlB_eWDSMt4",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Node.js Tutorial for Beginners: Learn Node in 1 Hour - Complete guide by Programming with Mosh.",
+      "year": 2024
+    },
+    {
+      "title": "Install SQL Server 2019 Step by Step | Developer Edition | Free Software | Install SSMS",
+      "creator": "kudvenkat",
+      "url": "https://www.youtube.com/watch?v=7GVFYt6_ZFM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Install SQL Server 2019 Step by Step | Developer Edition | Free Software | Install SSMS - Complete guide by kudvenkat.",
+      "year": 2024
+    },
+    {
+      "title": "SQL #2 - What is SQL [By Mosh Hamedani]",
+      "creator": "Coding Codes",
+      "url": "https://www.youtube.com/watch?v=bqgJ6uRMuEM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SQL #2 - What is SQL [By Mosh Hamedani] - Complete guide by Coding Codes.",
+      "year": 2024
+    },
+    {
+      "title": "MySQL: How to create a DATABASE",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=9LQ9rGoGfYQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MySQL: How to create a DATABASE - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "SQL #1 - Introduction [By Mosh Hamedani]",
+      "creator": "Coding Codes",
+      "url": "https://www.youtube.com/watch?v=t60b_MplxAA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SQL #1 - Introduction [By Mosh Hamedani] - Complete guide by Coding Codes.",
+      "year": 2024
+    },
+    {
+      "title": "QA Manual Testing Full Course for Beginners Part-1",
+      "creator": "SDET- QA",
+      "url": "https://www.youtube.com/watch?v=QJqNYhiHysM",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "QA Manual Testing Full Course for Beginners Part-1 - Complete guide by SDET- QA.",
+      "year": 2024
+    },
+    {
+      "title": "MySQL tutorial for beginners (intro + installation) 🐬",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=oPV2sjMG53U",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "MySQL tutorial for beginners (intro + installation) 🐬 - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "5 places to learn SQL for FREE: 1",
+      "creator": "Stephen | Data ",
+      "url": "https://www.youtube.com/watch?v=mQ96jM9gek8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "5 places to learn SQL for FREE: 1 - Complete guide by Stephen | Data .",
+      "year": 2024
+    },
+    {
+      "title": "🔥Learn SQL For Free | SQL for Beginners | Intellipaat #shorts",
+      "creator": "Intellipaat",
+      "url": "https://www.youtube.com/watch?v=tJLtDljE3jc",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "🔥Learn SQL For Free | SQL for Beginners | Intellipaat #shorts - Complete guide by Intellipaat.",
+      "year": 2024
+    },
+    {
+      "title": "5 places to learn SQL for FREE:\r \r 1. Programming with Mosh\r 2. SQLzoo\r 3. W3Schools\r 4. freecodecam",
+      "creator": "Stephen | Data ",
+      "url": "https://www.youtube.com/watch?v=7tu4agIv9EE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "5 places to learn SQL for FREE:\r \r 1. Programming with Mosh\r 2. SQLzoo\r 3. W3Schools\r 4. freecodecam - Complete guide by Stephen | Data .",
+      "year": 2024
+    },
+    {
+      "title": "SQL Full Course for free 🐬",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=5OdVJbNCSso",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SQL Full Course for free 🐬 - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "What is SQL?",
+      "creator": "Bhagwat Shukla",
+      "url": "https://www.youtube.com/watch?v=ANXNydMQ0LA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is SQL? - Complete guide by Bhagwat Shukla.",
+      "year": 2024
+    },
+    {
+      "title": "The Complete Data Analyst Roadmap",
+      "creator": "Programming with Mosh",
+      "url": "https://www.youtube.com/watch?v=YRJbhFLLPyE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Complete Data Analyst Roadmap - Complete guide by Programming with Mosh.",
+      "year": 2024
+    },
+    {
+      "title": "Master POSTGRESQL in ONE VIDEO: Beginner to Advanced Course For Beginners in Hindi | MPrashant",
+      "creator": "MPrashant TECH",
+      "url": "https://www.youtube.com/watch?v=cnzka7kF5Zk",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Master POSTGRESQL in ONE VIDEO: Beginner to Advanced Course For Beginners in Hindi | MPrashant - Complete guide by MPrashant TECH.",
+      "year": 2024
+    },
+    {
+      "title": "Learn SQL from scratch with Programming with Mosh",
+      "creator": "Stephen | Data ",
+      "url": "https://www.youtube.com/watch?v=LCVLuK9gtW0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn SQL from scratch with Programming with Mosh - Complete guide by Stephen | Data .",
+      "year": 2024
+    },
+    {
+      "title": "Lifetime FREE PostgreSQL + Database Branching! 🔥",
+      "creator": "Hexabirds",
+      "url": "https://www.youtube.com/watch?v=RyGGLy8IzcA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lifetime FREE PostgreSQL + Database Branching! 🔥 - Complete guide by Hexabirds.",
+      "year": 2024
+    },
+    {
+      "title": "PostgreSQL Tutorial for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=SpfIwlAYaKk",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "PostgreSQL Tutorial for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "SQL Roadmap 2025 | Skills, Topics & Subtopics to Master SQL",
+      "creator": "TechE",
+      "url": "https://www.youtube.com/watch?v=_9lCQVmqZ9o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SQL Roadmap 2025 | Skills, Topics & Subtopics to Master SQL - Complete guide by TechE.",
+      "year": 2024
+    },
+    {
+      "title": "Which sql db is best to use in your project.#coding #programming #sql #mysql #postgresql",
+      "creator": "Neeraj Walia",
+      "url": "https://www.youtube.com/watch?v=X1O0Ghbct8Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Which sql db is best to use in your project.#coding #programming #sql #mysql #postgresql - Complete guide by Neeraj Walia.",
+      "year": 2024
+    },
+    {
+      "title": "TimescaleDB Course – PostgreSQL for Time-Series Data",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=gYTA8nQN030",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "TimescaleDB Course – PostgreSQL for Time-Series Data - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Learn PostgreSQL Fundamentals | Free Full Course",
+      "creator": "Linuxademy",
+      "url": "https://www.youtube.com/watch?v=9GMpwrDtrMA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn PostgreSQL Fundamentals | Free Full Course - Complete guide by Linuxademy.",
+      "year": 2024
+    },
+    {
+      "title": "MySQL or Mongo dB #coding #programming",
+      "creator": "Neeraj Walia",
+      "url": "https://www.youtube.com/watch?v=ai18sDplQ20",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MySQL or Mongo dB #coding #programming - Complete guide by Neeraj Walia.",
+      "year": 2024
+    },
+    {
+      "title": "Learn PostgreSQL in 40 Minutes (Full Course)",
+      "creator": "RoadsideCoder",
+      "url": "https://www.youtube.com/watch?v=chz_g0VfP4U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn PostgreSQL in 40 Minutes (Full Course) - Complete guide by RoadsideCoder.",
+      "year": 2024
+    },
+    {
+      "title": "PostgreSQL Full course 2026 | Learn PostgreSQL in One Video",
+      "creator": "Sangam Mukherjee",
+      "url": "https://www.youtube.com/watch?v=oQRmL4ry5qw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PostgreSQL Full course 2026 | Learn PostgreSQL in One Video - Complete guide by Sangam Mukherjee.",
+      "year": 2024
+    },
+    {
+      "title": "PostgreSQL learning path..",
+      "creator": "Jonah Ray",
+      "url": "https://www.youtube.com/watch?v=EtxQh7ebuSk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PostgreSQL learning path.. - Complete guide by Jonah Ray.",
+      "year": 2024
+    },
+    {
+      "title": "PostgreSQL Tutorial for Beginners 🚀 Full Course (Step-by-Step) (2026)",
+      "creator": "ProgrammingKnowledge",
+      "url": "https://www.youtube.com/watch?v=u3Xyw6DXm_o",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "PostgreSQL Tutorial for Beginners 🚀 Full Course (Step-by-Step) (2026) - Complete guide by ProgrammingKnowledge.",
+      "year": 2024
+    },
+    {
+      "title": "PostgreSQL Fixes 22-Year-Old Authenticated RCE Bug CVE-2026-6460",
+      "creator": "The Kernel Panic Brief",
+      "url": "https://www.youtube.com/watch?v=JGAjYzLDF6Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PostgreSQL Fixes 22-Year-Old Authenticated RCE Bug CVE-2026-6460 - Complete guide by The Kernel Panic Brief.",
+      "year": 2024
+    },
+    {
+      "title": "PostgreSQL – Introduction | Day 1Starting the journey into PostgreSQL! 🚀@CareerWithCode-y9b",
+      "creator": "CareerWithCode",
+      "url": "https://www.youtube.com/watch?v=HnHdf1vG1JU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PostgreSQL – Introduction | Day 1Starting the journey into PostgreSQL! 🚀@CareerWithCode-y9b - Complete guide by CareerWithCode.",
+      "year": 2024
+    },
+    {
+      "title": "PostgreSQL Patches CVE-2026-6460 to Block RCE Payloads",
+      "creator": "Cyber Threat Daily",
+      "url": "https://www.youtube.com/watch?v=xzonuIJvzSw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PostgreSQL Patches CVE-2026-6460 to Block RCE Payloads - Complete guide by Cyber Threat Daily.",
+      "year": 2024
+    },
+    {
+      "title": "Why everyone uses PostgreSQL now",
+      "creator": "darjus-dev",
+      "url": "https://www.youtube.com/watch?v=7YiqM2V3leg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why everyone uses PostgreSQL now - Complete guide by darjus-dev.",
+      "year": 2024
+    },
+    {
+      "title": "How 2 Simple UPDATEs Freeze PostgreSQL in Production (Deadlock Trap) 💥🗄️ | SQL Quiz #shorts ⚡",
+      "creator": "MochaCat",
+      "url": "https://www.youtube.com/watch?v=2LTnXoC1kZ8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How 2 Simple UPDATEs Freeze PostgreSQL in Production (Deadlock Trap) 💥🗄️ | SQL Quiz #shorts ⚡ - Complete guide by MochaCat.",
+      "year": 2024
+    },
+    {
+      "title": "Postgres Database Power: Data, Events, and Schema Flexibility",
+      "creator": "Mathew Dostal",
+      "url": "https://www.youtube.com/watch?v=qWfM9X_GxR0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Postgres Database Power: Data, Events, and Schema Flexibility - Complete guide by Mathew Dostal.",
+      "year": 2024
+    },
+    {
+      "title": "PostgreSQL: A Short History 👨‍💻",
+      "creator": "Coding with Lewis",
+      "url": "https://www.youtube.com/watch?v=uvthClm8gmc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PostgreSQL: A Short History 👨‍💻 - Complete guide by Coding with Lewis.",
+      "year": 2024
+    },
+    {
+      "title": "Done with Oracle & MS SQL? PostgreSQL Is Next | PostgreSQL Tutorial For Beginners |PostgreSQL Course",
+      "creator": "Aalok Institute",
+      "url": "https://www.youtube.com/watch?v=-NiayWKP0X0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Done with Oracle & MS SQL? PostgreSQL Is Next | PostgreSQL Tutorial For Beginners |PostgreSQL Course - Complete guide by Aalok Institute.",
+      "year": 2024
+    },
+    {
+      "title": "Learn PostgreSQL in 2026! 🔥",
+      "creator": "RoadsideCoder",
+      "url": "https://www.youtube.com/watch?v=h5Kh0qZqu_A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn PostgreSQL in 2026! 🔥 - Complete guide by RoadsideCoder.",
+      "year": 2024
+    },
+    {
+      "title": "PostgreSQL Crash Course: PostgreSQL Installation 101",
+      "creator": "Database Dive",
+      "url": "https://www.youtube.com/watch?v=KZzmiCjXFfA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PostgreSQL Crash Course: PostgreSQL Installation 101 - Complete guide by Database Dive.",
+      "year": 2024
+    },
+    {
+      "title": "PostgreSQL skills that actually land jobs #shorts #careergrowth #database",
+      "creator": "DevSkills",
+      "url": "https://www.youtube.com/watch?v=_VtXmdih56k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PostgreSQL skills that actually land jobs #shorts #careergrowth #database - Complete guide by DevSkills.",
+      "year": 2024
+    },
+    {
+      "title": "Learn PostgreSQL Online from Home | Aalok Institute Live Classes",
+      "creator": "Aalok Institute",
+      "url": "https://www.youtube.com/watch?v=tY0tlKeROSw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn PostgreSQL Online from Home | Aalok Institute Live Classes - Complete guide by Aalok Institute.",
+      "year": 2024
+    },
+    {
+      "title": "Postgres Had a Code Execution Bug Hidden 20 Years",
+      "creator": "Cold Take Tech",
+      "url": "https://www.youtube.com/watch?v=7tOQty8k1w4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Postgres Had a Code Execution Bug Hidden 20 Years - Complete guide by Cold Take Tech.",
+      "year": 2024
+    },
+    {
+      "title": "Why PostgreSQL Allows Duplicate NULLs in a UNIQUE Column 💥🗄️ | Senior SQL Quiz #shorts ⚡",
+      "creator": "MochaCat",
+      "url": "https://www.youtube.com/watch?v=hFMAfIOtFMU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why PostgreSQL Allows Duplicate NULLs in a UNIQUE Column 💥🗄️ | Senior SQL Quiz #shorts ⚡ - Complete guide by MochaCat.",
+      "year": 2024
+    },
+    {
+      "title": "What is Postgres? A database server, explained #postgres #postgresql #database",
+      "creator": "Stormlight Labs",
+      "url": "https://www.youtube.com/watch?v=CzdVGAKqhNk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Postgres? A database server, explained #postgres #postgresql #database - Complete guide by Stormlight Labs.",
+      "year": 2024
+    },
+    {
+      "title": "Databases In-Depth – Complete Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=pPqazMTzNOM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Databases In-Depth – Complete Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "PostgreSQL: What is a Database | Course | 2019",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=XQ_6G0iCyMQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PostgreSQL: What is a Database | Course | 2019 - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "PERN Stack Course - Postgres, Express, React, and Node",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=ldYcgPKEZC8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PERN Stack Course - Postgres, Express, React, and Node - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "PostgreSQL Under the Hood: Why Adding One Column Can Destroy Production Performance",
+      "creator": "Chimox Technology",
+      "url": "https://www.youtube.com/watch?v=rflTk0HfNMM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PostgreSQL Under the Hood: Why Adding One Column Can Destroy Production Performance - Complete guide by Chimox Technology.",
+      "year": 2024
+    },
+    {
+      "title": "PostgreSQL DBA Day1 -  Hardware & Software Requirement and Step by Step Installation.",
+      "creator": "HindiWaleEngineer",
+      "url": "https://www.youtube.com/watch?v=iEoJJH0fLCA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PostgreSQL DBA Day1 -  Hardware & Software Requirement and Step by Step Installation. - Complete guide by HindiWaleEngineer.",
+      "year": 2024
+    },
+    {
+      "title": "PostgreSQL: What is SQL And Relational Database | Course | 2019",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=MZdO1UbTG4U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PostgreSQL: What is SQL And Relational Database | Course | 2019 - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "PostgreSQL Tutorial Full Course 2022",
+      "creator": "Derek Banas",
+      "url": "https://www.youtube.com/watch?v=85pG_pDkITY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PostgreSQL Tutorial Full Course 2022 - Complete guide by Derek Banas.",
+      "year": 2024
+    },
+    {
+      "title": "PostgreSQL in 100 Seconds",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=n2Fluyr3lbc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PostgreSQL in 100 Seconds - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "PostgreSQL DBA Day2 - PostgreSQL Database Clusters, Environment variable setup, Directory Layout",
+      "creator": "HindiWaleEngineer",
+      "url": "https://www.youtube.com/watch?v=_0XJUI02t18",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PostgreSQL DBA Day2 - PostgreSQL Database Clusters, Environment variable setup, Directory Layout - Complete guide by HindiWaleEngineer.",
+      "year": 2024
+    },
+    {
+      "title": "What I do after coming from work at home #pythonprogramming #freecodecamp #github #leetcode",
+      "creator": "Veera Pallapothu",
+      "url": "https://www.youtube.com/watch?v=PsLPocbevRc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What I do after coming from work at home #pythonprogramming #freecodecamp #github #leetcode - Complete guide by Veera Pallapothu.",
+      "year": 2024
+    },
+    {
+      "title": "PostgreSQL Crash Course - Beginner Tutorial",
+      "creator": "NeuralNine",
+      "url": "https://www.youtube.com/watch?v=gySEbKmkvEU",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "PostgreSQL Crash Course - Beginner Tutorial - Complete guide by NeuralNine.",
+      "year": 2024
+    },
+    {
+      "title": "PostgreSQL vs MySQL",
+      "creator": "IBM Technology",
+      "url": "https://www.youtube.com/watch?v=btjBNKP49Rk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PostgreSQL vs MySQL - Complete guide by IBM Technology.",
+      "year": 2024
+    },
+    {
+      "title": "MySQL Database - Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=ER8oKX5myE0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MySQL Database - Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "SQL Question 144 || #shorts #ytshorts #youtubeshorts #sql #interview #reels #mysql @SekharAcademy1",
+      "creator": "Sekhar Academy",
+      "url": "https://www.youtube.com/watch?v=qfm2efUqrEY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SQL Question 144 || #shorts #ytshorts #youtubeshorts #sql #interview #reels #mysql @SekharAcademy1 - Complete guide by Sekhar Academy.",
+      "year": 2024
+    },
+    {
+      "title": "MySQL Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=uWkcxasFWzQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "MySQL Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "SQL Question 109 || #shorts #ytshorts #youtubeshorts #sql #interview #reels #mysql @SekharAcademy1",
+      "creator": "Sekhar Academy",
+      "url": "https://www.youtube.com/watch?v=gWOF-TBrM8U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SQL Question 109 || #shorts #ytshorts #youtubeshorts #sql #interview #reels #mysql @SekharAcademy1 - Complete guide by Sekhar Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Learn PHP and MySQL Free Course for Web Application and Web Development #freecourse #shorts #course",
+      "creator": "Freshers Camp",
+      "url": "https://www.youtube.com/watch?v=lVrVyn5iMiw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn PHP and MySQL Free Course for Web Application and Web Development #freecourse #shorts #course - Complete guide by Freshers Camp.",
+      "year": 2024
+    },
+    {
+      "title": "MySQL Bootcamp Free Online Course : The Complete MySQL Bootcamp | Go from Beginner to Expert #shorts",
+      "creator": "Freshers Camp",
+      "url": "https://www.youtube.com/watch?v=Rckn0INl3Z0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "MySQL Bootcamp Free Online Course : The Complete MySQL Bootcamp | Go from Beginner to Expert #shorts - Complete guide by Freshers Camp.",
+      "year": 2024
+    },
+    {
+      "title": "SQL Question 114 || #shorts #ytshorts #youtubeshorts #sql #interview #reels #mysql @SekharAcademy1",
+      "creator": "Sekhar Academy",
+      "url": "https://www.youtube.com/watch?v=s2izEEnktDc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SQL Question 114 || #shorts #ytshorts #youtubeshorts #sql #interview #reels #mysql @SekharAcademy1 - Complete guide by Sekhar Academy.",
+      "year": 2024
+    },
+    {
+      "title": "SQL Question 124 || #shorts #ytshorts #youtubeshorts #sql #interview #reels #mysql @SekharAcademy1",
+      "creator": "Sekhar Academy",
+      "url": "https://www.youtube.com/watch?v=f5bBVeo97m8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SQL Question 124 || #shorts #ytshorts #youtubeshorts #sql #interview #reels #mysql @SekharAcademy1 - Complete guide by Sekhar Academy.",
+      "year": 2024
+    },
+    {
+      "title": "SQL Question 177 || #shorts #ytshorts #youtubeshorts #sql #interview #reels #mysql @SekharAcademy1",
+      "creator": "Sekhar Academy",
+      "url": "https://www.youtube.com/watch?v=y2iu0Q_2Svk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SQL Question 177 || #shorts #ytshorts #youtubeshorts #sql #interview #reels #mysql @SekharAcademy1 - Complete guide by Sekhar Academy.",
+      "year": 2024
+    },
+    {
+      "title": "📌 Day 9: Free SQL Course for Placements & Interviews! 🚀#30daychallenge #coding #programming #tech",
+      "creator": "Code with Manav",
+      "url": "https://www.youtube.com/watch?v=Epouch2UYU4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "📌 Day 9: Free SQL Course for Placements & Interviews! 🚀#30daychallenge #coding #programming #tech - Complete guide by Code with Manav.",
+      "year": 2024
+    },
+    {
+      "title": "Build a MySQL MCP Server Using Python 🐬 | Connect AI to MySQL | DevDecoded #07",
+      "creator": "DevDecoded",
+      "url": "https://www.youtube.com/watch?v=DvqJZcV10KE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build a MySQL MCP Server Using Python 🐬 | Connect AI to MySQL | DevDecoded #07 - Complete guide by DevDecoded.",
+      "year": 2024
+    },
+    {
+      "title": "Learn MySQL for Free | 20-Hour MySQL Full Course 🚀  #mysql #sql #coding #database",
+      "creator": "CodeWithVivek",
+      "url": "https://www.youtube.com/watch?v=-7mbXYsBjKs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn MySQL for Free | 20-Hour MySQL Full Course 🚀  #mysql #sql #coding #database - Complete guide by CodeWithVivek.",
+      "year": 2024
+    },
+    {
+      "title": "SQL Question 120 || #shorts #ytshorts #youtubeshorts #sql #interview #reels #mysql @SekharAcademy1",
+      "creator": "Sekhar Academy",
+      "url": "https://www.youtube.com/watch?v=Wjj_-jQjYcE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SQL Question 120 || #shorts #ytshorts #youtubeshorts #sql #interview #reels #mysql @SekharAcademy1 - Complete guide by Sekhar Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Free Database and Data science Courses with Python and MySQL #freepythoncourse #mysql #database #sql",
+      "creator": "Gen Z Guru",
+      "url": "https://www.youtube.com/watch?v=HCmoH2S3Faw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Free Database and Data science Courses with Python and MySQL #freepythoncourse #mysql #database #sql - Complete guide by Gen Z Guru.",
+      "year": 2024
+    },
+    {
+      "title": "SQL Full Course In 10 Hours | SQL Tutorial | Complete SQL Course For Beginners | Edureka",
+      "creator": "edureka!",
+      "url": "https://www.youtube.com/watch?v=q_JsgpiuY98",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "SQL Full Course In 10 Hours | SQL Tutorial | Complete SQL Course For Beginners | Edureka - Complete guide by edureka!.",
+      "year": 2024
+    },
+    {
+      "title": "What is MySQL? | Types of Database & How to Create It? | MySQL Tutorial for Beginners",
+      "creator": "WsCube Tech",
+      "url": "https://www.youtube.com/watch?v=nnBMsGrwuUE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "What is MySQL? | Types of Database & How to Create It? | MySQL Tutorial for Beginners - Complete guide by WsCube Tech.",
+      "year": 2024
+    },
+    {
+      "title": "MySQL Full Course for Beginners with Practical [FREE] | Learn MySQL in 3 Hours",
+      "creator": "WsCube Tech",
+      "url": "https://www.youtube.com/watch?v=KKgN_w71x3E",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "MySQL Full Course for Beginners with Practical [FREE] | Learn MySQL in 3 Hours - Complete guide by WsCube Tech.",
+      "year": 2024
+    },
+    {
+      "title": "SQL Question 121 || #shorts #ytshorts #youtubeshorts #sql #interview #reels #mysql @SekharAcademy1",
+      "creator": "Sekhar Academy",
+      "url": "https://www.youtube.com/watch?v=UfwsohSwlKk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SQL Question 121 || #shorts #ytshorts #youtubeshorts #sql #interview #reels #mysql @SekharAcademy1 - Complete guide by Sekhar Academy.",
+      "year": 2024
+    },
+    {
+      "title": "MongoDB Crash Course 2026 (with Handbook)",
+      "creator": "CodeWithHarry",
+      "url": "https://www.youtube.com/watch?v=M1dKYQ7GsTg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MongoDB Crash Course 2026 (with Handbook) - Complete guide by CodeWithHarry.",
+      "year": 2024
+    },
+    {
+      "title": "Top 65 SQL Interview Questions and Answers | SQL Interview Preparation | SQL Training | Edureka",
+      "creator": "edureka!",
+      "url": "https://www.youtube.com/watch?v=-WEpWH1NHGU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top 65 SQL Interview Questions and Answers | SQL Interview Preparation | SQL Training | Edureka - Complete guide by edureka!.",
+      "year": 2024
+    },
+    {
+      "title": "MongoDB with Python Crash Course - Tutorial for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=E-1xI85Zog8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "MongoDB with Python Crash Course - Tutorial for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Relational DBMS Course – Database Concepts, Design & Querying Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=NdeeSEknp58",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Relational DBMS Course – Database Concepts, Design & Querying Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Sample Data for Practice - MongoDB and Mongoose - freeCodeCamp Tutorial",
+      "creator": "Ganesh H",
+      "url": "https://www.youtube.com/watch?v=92JZqyx7nzQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Sample Data for Practice - MongoDB and Mongoose - freeCodeCamp Tutorial - Complete guide by Ganesh H.",
+      "year": 2024
+    },
+    {
+      "title": "MongoDB Complete Course Tutorial in Hindi🔥Free Notes & Projects",
+      "creator": "Thapa Technical",
+      "url": "https://www.youtube.com/watch?v=rU9ZODw5yvU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MongoDB Complete Course Tutorial in Hindi🔥Free Notes & Projects - Complete guide by Thapa Technical.",
+      "year": 2024
+    },
+    {
+      "title": "00 - Introduction to the MongoDB and Mongoose Challenges - freeCodeCamp Tutorial",
+      "creator": "Ganesh H",
+      "url": "https://www.youtube.com/watch?v=NA1w1oWtUe8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "00 - Introduction to the MongoDB and Mongoose Challenges - freeCodeCamp Tutorial - Complete guide by Ganesh H.",
+      "year": 2024
+    },
+    {
+      "title": "SQL Free Online Certificate Course : Essential SQL | Get Started Learning SQL #shorts #freecourse",
+      "creator": "Freshers Camp",
+      "url": "https://www.youtube.com/watch?v=xTmVaqdu7p4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SQL Free Online Certificate Course : Essential SQL | Get Started Learning SQL #shorts #freecourse - Complete guide by Freshers Camp.",
+      "year": 2024
+    },
+    {
+      "title": "Install MongoDB on windows 11 in Hindi ( Step by step )",
+      "creator": "Engineering Digest",
+      "url": "https://www.youtube.com/watch?v=f43Q7SoxPl4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Install MongoDB on windows 11 in Hindi ( Step by step ) - Complete guide by Engineering Digest.",
+      "year": 2024
+    },
+    {
+      "title": "What is MongoDB ?",
+      "creator": "Engineering Digest",
+      "url": "https://www.youtube.com/watch?v=4EjKroJCpFA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is MongoDB ? - Complete guide by Engineering Digest.",
+      "year": 2024
+    },
+    {
+      "title": "SQL Question 125 || #shorts #ytshorts #youtubeshorts #sql #interview #reels #mysql  @SekharAcademy1",
+      "creator": "Sekhar Academy",
+      "url": "https://www.youtube.com/watch?v=DhWIVZQGtbs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SQL Question 125 || #shorts #ytshorts #youtubeshorts #sql #interview #reels #mysql  @SekharAcademy1 - Complete guide by Sekhar Academy.",
+      "year": 2024
+    },
+    {
+      "title": "How to Get a Free MongoDB Certificate #shorts #programming #geeksforgeeks",
+      "creator": "Shalu's Tech Vlogs",
+      "url": "https://www.youtube.com/watch?v=0dRxl8DcGtk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Get a Free MongoDB Certificate #shorts #programming #geeksforgeeks - Complete guide by Shalu's Tech Vlogs.",
+      "year": 2024
+    },
+    {
+      "title": "Which Database Will You Choose? #sheryians #shorts #database #mongodb",
+      "creator": "Sheryians Coding School",
+      "url": "https://www.youtube.com/watch?v=1PUszOOANRg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Which Database Will You Choose? #sheryians #shorts #database #mongodb - Complete guide by Sheryians Coding School.",
+      "year": 2024
+    },
+    {
+      "title": "Learn MongoDB in 1 hour 🍃",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=c2M-rlkkT5o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn MongoDB in 1 hour 🍃 - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "Complete MongoDB Tutorial #1 - What is MongoDB?",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/watch?v=ExcRbA7fy_A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete MongoDB Tutorial #1 - What is MongoDB? - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "MongoDB Introduction Tutorial in Hindi/Urdu",
+      "creator": "YOOBABA",
+      "url": "https://www.youtube.com/watch?v=q1V1A9ZcpKo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MongoDB Introduction Tutorial in Hindi/Urdu - Complete guide by YOOBABA.",
+      "year": 2024
+    },
+    {
+      "title": "CRUD API Tutorial – Node, Express, MongoDB",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=_7UQPve99r4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CRUD API Tutorial – Node, Express, MongoDB - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "MongoDB Installation on Windows Tutorial in Hindi / Urdu",
+      "creator": "YOOBABA",
+      "url": "https://www.youtube.com/watch?v=skBh4ft-IjI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MongoDB Installation on Windows Tutorial in Hindi / Urdu - Complete guide by YOOBABA.",
+      "year": 2024
+    },
+    {
+      "title": "Complete MongoDB Tutorial #2 - Installing MongoDB",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/watch?v=gDOKSgqM-bQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete MongoDB Tutorial #2 - Installing MongoDB - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "Here are the YouTube videos that didn’t waste my time 💻📚 #webdevelopment #development #fullstack",
+      "creator": "Divya Sharma",
+      "url": "https://www.youtube.com/watch?v=KXmsv1xiCsY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Here are the YouTube videos that didn’t waste my time 💻📚 #webdevelopment #development #fullstack - Complete guide by Divya Sharma.",
+      "year": 2024
+    },
+    {
+      "title": "Here are the YouTube videos that didn’t waste my time 💻📚 #webdevelopment #development #fullstack",
+      "creator": "Divya Sharma",
+      "url": "https://www.youtube.com/watch?v=QJeXBjA8s_E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Here are the YouTube videos that didn’t waste my time 💻📚 #webdevelopment #development #fullstack - Complete guide by Divya Sharma.",
+      "year": 2024
+    },
+    {
+      "title": "MongoDB explained in 60 seconds! #wellactuallygirl #mongodb #mernstack #express #react #node #shorts",
+      "creator": "CrioDo",
+      "url": "https://www.youtube.com/watch?v=2-ntRLmtL-4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MongoDB explained in 60 seconds! #wellactuallygirl #mongodb #mernstack #express #react #node #shorts - Complete guide by CrioDo.",
+      "year": 2024
+    },
+    {
+      "title": "Upto 30 LPA MERN Stack Developer Guide🧑‍💻💸 | MongoDB | ExpressJS | ReactJS | NodeJS | GFG",
+      "creator": "GeeksforGeeks",
+      "url": "https://www.youtube.com/watch?v=YO315S77gPQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Upto 30 LPA MERN Stack Developer Guide🧑‍💻💸 | MongoDB | ExpressJS | ReactJS | NodeJS | GFG - Complete guide by GeeksforGeeks.",
+      "year": 2024
+    },
+    {
+      "title": "FREE MongoDB Course 😳 by GeeksforGeeks | Don’t Miss This!",
+      "creator": "Vali TechX",
+      "url": "https://www.youtube.com/watch?v=LpjLOBExSys",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "FREE MongoDB Course 😳 by GeeksforGeeks | Don’t Miss This! - Complete guide by Vali TechX.",
+      "year": 2024
+    },
+    {
+      "title": "What is MongoDB? | NoSQL Database Explained in 30 Seconds | Web Full Stacks #shorts",
+      "creator": "Web Full Stacks",
+      "url": "https://www.youtube.com/watch?v=yWlVIB9ZUhw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is MongoDB? | NoSQL Database Explained in 30 Seconds | Web Full Stacks #shorts - Complete guide by Web Full Stacks.",
+      "year": 2024
+    },
+    {
+      "title": "Day 16 of 90 days challenge #dsa #code #youtube #youtubeshorts @freecodecamp",
+      "creator": "Krishna Rana",
+      "url": "https://www.youtube.com/watch?v=NFOtXVph9fg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Day 16 of 90 days challenge #dsa #code #youtube #youtubeshorts @freecodecamp - Complete guide by Krishna Rana.",
+      "year": 2024
+    },
+    {
+      "title": "AI Agents Fast Database Setup (MongoDB Atlas Ephemeral Clusters)",
+      "creator": "MongoDB for Developers",
+      "url": "https://www.youtube.com/watch?v=qi1e02YmdEg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AI Agents Fast Database Setup (MongoDB Atlas Ephemeral Clusters) - Complete guide by MongoDB for Developers.",
+      "year": 2024
+    },
+    {
+      "title": "Title: MongoDB Data Storage Flow Explained!  | Project to Schema & Model #Shorts #BackendDevelopment",
+      "creator": "Codexa",
+      "url": "https://www.youtube.com/watch?v=eXRV67uidpc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Title: MongoDB Data Storage Flow Explained!  | Project to Schema & Model #Shorts #BackendDevelopment - Complete guide by Codexa.",
+      "year": 2024
+    },
+    {
+      "title": "JavaScript mode with css and JavaScript #freecodecamp #codewithharry #javascript #coding",
+      "creator": "zoha-coder-ib",
+      "url": "https://www.youtube.com/watch?v=Rtl3xCsNz_0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "JavaScript mode with css and JavaScript #freecodecamp #codewithharry #javascript #coding - Complete guide by zoha-coder-ib.",
+      "year": 2024
+    },
+    {
+      "title": "MongoDB Tutorials  #mongodb #youtubshorts  #shotsviral #shortsindia #millionairemindset #viralvideo",
+      "creator": "SAI KUMAR REDDY",
+      "url": "https://www.youtube.com/watch?v=vMvYIIuKinU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MongoDB Tutorials  #mongodb #youtubshorts  #shotsviral #shortsindia #millionairemindset #viralvideo - Complete guide by SAI KUMAR REDDY.",
+      "year": 2024
+    },
+    {
+      "title": "Learn mongo DB in one hour best free course #ai #job #fullstack #students #jobs #freecourse #dev",
+      "creator": "Manish Singh",
+      "url": "https://www.youtube.com/watch?v=Cb1_kJ1Of-g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn mongo DB in one hour best free course #ai #job #fullstack #students #jobs #freecourse #dev - Complete guide by Manish Singh.",
+      "year": 2024
+    },
+    {
+      "title": "How to start coding for beginners #youtube #trending #viral #viralshorts @freecodecamp #tech",
+      "creator": "ALL THINGS",
+      "url": "https://www.youtube.com/watch?v=mieE3JpbVHw",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "How to start coding for beginners #youtube #trending #viral #viralshorts @freecodecamp #tech - Complete guide by ALL THINGS.",
+      "year": 2024
+    },
+    {
+      "title": "🔥 100-Day Full Stack Web Development Challenge | HTML, CSS, JavaScript, ReactJS, NodeJS, MongoDB 🚀",
+      "creator": "Busy Order",
+      "url": "https://www.youtube.com/watch?v=020QY6T7yho",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🔥 100-Day Full Stack Web Development Challenge | HTML, CSS, JavaScript, ReactJS, NodeJS, MongoDB 🚀 - Complete guide by Busy Order.",
+      "year": 2024
+    },
+    {
+      "title": "Full Stack Web Dev Roadmap 2025 – Free Courses Included (MERN Guide) | InfinityXAusaf",
+      "creator": "Ausaf Ul Islam",
+      "url": "https://www.youtube.com/watch?v=n-KGKlyUDSY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Full Stack Web Dev Roadmap 2025 – Free Courses Included (MERN Guide) | InfinityXAusaf - Complete guide by Ausaf Ul Islam.",
+      "year": 2024
+    },
+    {
+      "title": "#01 Introduction to MongoDB | Getting Started with MongoDB | MongoDB Complete Course 2025",
+      "creator": "procademy",
+      "url": "https://www.youtube.com/watch?v=Puc2EjkdycU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#01 Introduction to MongoDB | Getting Started with MongoDB | MongoDB Complete Course 2025 - Complete guide by procademy.",
+      "year": 2024
+    },
+    {
+      "title": "NoSQL Database Tutorial – Full Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=xh4gy1lbL2k",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "NoSQL Database Tutorial – Full Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Master MongoDB in One Video | Complete Beginner to Advanced Course [Hindi]",
+      "creator": "MPrashant TECH",
+      "url": "https://www.youtube.com/watch?v=tww-gbNPOcA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Master MongoDB in One Video | Complete Beginner to Advanced Course [Hindi] - Complete guide by MPrashant TECH.",
+      "year": 2024
+    },
+    {
+      "title": "#02 Install & Configure MongoDB | Getting Started with MongoDB | MongoDB Complete Course 2025",
+      "creator": "procademy",
+      "url": "https://www.youtube.com/watch?v=ruBdvjHYRiQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#02 Install & Configure MongoDB | Getting Started with MongoDB | MongoDB Complete Course 2025 - Complete guide by procademy.",
+      "year": 2024
+    },
+    {
+      "title": "MongoDB Full Tutorial w/ Node.js, Express, & Mongoose",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=4yqu8YF29cU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MongoDB Full Tutorial w/ Node.js, Express, & Mongoose - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "MERN Stack Tutorial with Deployment – Beginner's Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=O3BUHwfHf84",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "MERN Stack Tutorial with Deployment – Beginner's Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "02 Complete local setup to learn Redis",
+      "creator": "Chai aur Code",
+      "url": "https://www.youtube.com/watch?v=UEm0mHeXdxk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "02 Complete local setup to learn Redis - Complete guide by Chai aur Code.",
+      "year": 2024
+    },
+    {
+      "title": "Redis Crash Course",
+      "creator": "Piyush Garg",
+      "url": "https://www.youtube.com/watch?v=Vx2zPMPvmug",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Redis Crash Course - Complete guide by Piyush Garg.",
+      "year": 2024
+    },
+    {
+      "title": "MERN Stack Course - ALSO: Convert Backend to Serverless with MongoDB Realm",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=mrHNSanmqQ4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MERN Stack Course - ALSO: Convert Backend to Serverless with MongoDB Realm - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "01 What is Redis and why it exists",
+      "creator": "Chai aur Code",
+      "url": "https://www.youtube.com/watch?v=5YqP18Gyop0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "01 What is Redis and why it exists - Complete guide by Chai aur Code.",
+      "year": 2024
+    },
+    {
+      "title": "What Happens When 100,000 Users Hit an Expired Redis Key at 00:00?",
+      "creator": "TechViz Architecture",
+      "url": "https://www.youtube.com/watch?v=ZEr0DtZAiYo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What Happens When 100,000 Users Hit an Expired Redis Key at 00:00? - Complete guide by TechViz Architecture.",
+      "year": 2024
+    },
+    {
+      "title": "Redis Course - In-Memory Database Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=XCsS_NVAa1g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Redis Course - In-Memory Database Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Redis Tutorial for Beginners #2 - Making a Redis Database (Redis Cloud)",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/watch?v=yta9xLUGKgM",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Redis Tutorial for Beginners #2 - Making a Redis Database (Redis Cloud) - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "Redis in 100 Seconds",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=G1rOthIU-uo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Redis in 100 Seconds - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "Redis Tutorial for Beginners #1 - What is Redis?",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/watch?v=8sHCdz_tOjk",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Redis Tutorial for Beginners #1 - What is Redis? - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "Day 86/50 Redis Beyond Caching | System Design Interview Preparation Series",
+      "creator": "Coding Decoded",
+      "url": "https://www.youtube.com/watch?v=jYFB8iPvmDw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Day 86/50 Redis Beyond Caching | System Design Interview Preparation Series - Complete guide by Coding Decoded.",
+      "year": 2024
+    },
+    {
+      "title": "Redis Crash Course",
+      "creator": "Web Dev Simplified",
+      "url": "https://www.youtube.com/watch?v=jgpVdJB2sKQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Redis Crash Course - Complete guide by Web Dev Simplified.",
+      "year": 2024
+    },
+    {
+      "title": "Redis Full Course 2026 | Caching, Rate Limiting, Pub/Sub",
+      "creator": "Sangam Mukherjee",
+      "url": "https://www.youtube.com/watch?v=hFNnNVawHhk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Redis Full Course 2026 | Caching, Rate Limiting, Pub/Sub - Complete guide by Sangam Mukherjee.",
+      "year": 2024
+    },
+    {
+      "title": "Redis simple explanation ⚡💥 || what is redis || redis interview question ⁉️",
+      "creator": "Kuldeep Sharma",
+      "url": "https://www.youtube.com/watch?v=j060vKdLfXo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Redis simple explanation ⚡💥 || what is redis || redis interview question ⁉️ - Complete guide by Kuldeep Sharma.",
+      "year": 2024
+    },
+    {
+      "title": "🚀 Redis Crash Course | Master Redis in one video [Hindi]",
+      "creator": "Learn Code With Durgesh",
+      "url": "https://www.youtube.com/watch?v=aqFFghu541I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🚀 Redis Crash Course | Master Redis in one video [Hindi] - Complete guide by Learn Code With Durgesh.",
+      "year": 2024
+    },
+    {
+      "title": "Single-threaded Redis can still use more cores",
+      "creator": "NodePrism",
+      "url": "https://www.youtube.com/watch?v=YkrQ_BaaJxw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Single-threaded Redis can still use more cores - Complete guide by NodePrism.",
+      "year": 2024
+    },
+    {
+      "title": "How Redis Works 🧠 | Why It Answers in Under 1 ms | Tech Explained",
+      "creator": "Learn Coding Visual",
+      "url": "https://www.youtube.com/watch?v=bhfehNvJvyU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Redis Works 🧠 | Why It Answers in Under 1 ms | Tech Explained - Complete guide by Learn Coding Visual.",
+      "year": 2024
+    },
+    {
+      "title": "Redis Cache Interview: Why 'Just Add Redis' Fails [Cache Stampede]",
+      "creator": "Code Story",
+      "url": "https://www.youtube.com/watch?v=goT1IhldqYg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Redis Cache Interview: Why 'Just Add Redis' Fails [Cache Stampede] - Complete guide by Code Story.",
+      "year": 2024
+    },
+    {
+      "title": "Why Is Redis So Fast? Why It Stores Data in RAM Explained",
+      "creator": "EzGeekExplains",
+      "url": "https://www.youtube.com/watch?v=JvoZoVBQre0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why Is Redis So Fast? Why It Stores Data in RAM Explained - Complete guide by EzGeekExplains.",
+      "year": 2024
+    },
+    {
+      "title": "What is Redis in 40sec? Explained in Simple Words #redis #systemdesign #backend #coding",
+      "creator": "CodeWithVivek",
+      "url": "https://www.youtube.com/watch?v=_g55MQdFF_o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Redis in 40sec? Explained in Simple Words #redis #systemdesign #backend #coding - Complete guide by CodeWithVivek.",
+      "year": 2024
+    },
+    {
+      "title": "🥵 Redis: A Hot Target for Hackers Seeking Valuable Data & Code Execution",
+      "creator": "Wiz",
+      "url": "https://www.youtube.com/watch?v=JVU9eqP_s3k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🥵 Redis: A Hot Target for Hackers Seeking Valuable Data & Code Execution - Complete guide by Wiz.",
+      "year": 2024
+    },
+    {
+      "title": "Redis Cache Stampede: 50 Misses, 1 Database Read #shorts  #programming",
+      "creator": "Dev Mode",
+      "url": "https://www.youtube.com/watch?v=dJaqY5av4_k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Redis Cache Stampede: 50 Misses, 1 Database Read #shorts  #programming - Complete guide by Dev Mode.",
+      "year": 2024
+    },
+    {
+      "title": "Redis in Production — Everything You Need in One Video  #redis #cache #coding  #programming",
+      "creator": "Coding With Raj Dave",
+      "url": "https://www.youtube.com/watch?v=rtOq8GX_f8I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Redis in Production — Everything You Need in One Video  #redis #cache #coding  #programming - Complete guide by Coding With Raj Dave.",
+      "year": 2024
+    },
+    {
+      "title": "What Does Redis Do Inside Modern Applications",
+      "creator": "FinMetria",
+      "url": "https://www.youtube.com/watch?v=2XPw17MZMJE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What Does Redis Do Inside Modern Applications - Complete guide by FinMetria.",
+      "year": 2024
+    },
+    {
+      "title": "The Only 3 Redis Resources You Actually Need",
+      "creator": "Coding Simplified",
+      "url": "https://www.youtube.com/watch?v=_K1msBZ_YXA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Only 3 Redis Resources You Actually Need - Complete guide by Coding Simplified.",
+      "year": 2024
+    },
+    {
+      "title": "How does Redis cache work? #learncoding #redis #coding #programming #education #codingblog",
+      "creator": "Code With Mir",
+      "url": "https://www.youtube.com/watch?v=hYJMt6G_Cag",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How does Redis cache work? #learncoding #redis #coding #programming #education #codingblog - Complete guide by Code With Mir.",
+      "year": 2024
+    },
+    {
+      "title": "Redis Deep Dive w/ a Ex-Meta Senior Manager",
+      "creator": "Hello Interview",
+      "url": "https://www.youtube.com/watch?v=fmT5nlEkl3U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Redis Deep Dive w/ a Ex-Meta Senior Manager - Complete guide by Hello Interview.",
+      "year": 2024
+    },
+    {
+      "title": "What is Redis!? (In 30 Seconds) 👩‍💻 #programmer #technology #coder #softwaredeveloper #software",
+      "creator": "Coding with Lewis",
+      "url": "https://www.youtube.com/watch?v=yAEsDR5P5bk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Redis!? (In 30 Seconds) 👩‍💻 #programmer #technology #coder #softwaredeveloper #software - Complete guide by Coding with Lewis.",
+      "year": 2024
+    },
+    {
+      "title": "Redis Cache Explained in 30 Second #shorts #youtube #interview #redis #cache #interview #job #viral",
+      "creator": "Mohit Chhabra",
+      "url": "https://www.youtube.com/watch?v=cYa32svCIT4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Redis Cache Explained in 30 Second #shorts #youtube #interview #redis #cache #interview #job #viral - Complete guide by Mohit Chhabra.",
+      "year": 2024
+    },
+    {
+      "title": "Redis for Beginners | Redis Server, CLI, GET & SET | Lecture 1",
+      "creator": "Sourabh Tembhare",
+      "url": "https://www.youtube.com/watch?v=FMss1zi6RIE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Redis for Beginners | Redis Server, CLI, GET & SET | Lecture 1 - Complete guide by Sourabh Tembhare.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Redis in ONE video",
+      "creator": "6 Pack Programmer",
+      "url": "https://www.youtube.com/watch?v=Y46wlauVH_o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Redis in ONE video - Complete guide by 6 Pack Programmer.",
+      "year": 2024
+    },
+    {
+      "title": "What Is Redis Really About? Why Is It So Popular?",
+      "creator": "ByteByteGo",
+      "url": "https://www.youtube.com/watch?v=z_NbVtbgBJw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What Is Redis Really About? Why Is It So Popular? - Complete guide by ByteByteGo.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Redis, Websockets, Pub Subs and Message queues Bootcamp",
+      "creator": "Harkirat Singh",
+      "url": "https://www.youtube.com/watch?v=IJkYipYNEtI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete Redis, Websockets, Pub Subs and Message queues Bootcamp - Complete guide by Harkirat Singh.",
+      "year": 2024
+    },
+    {
+      "title": "Relational Database ACID Transactions (Explained by Example)",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=pomxJOFVcQs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Relational Database ACID Transactions (Explained by Example) - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Redis String + General Purpose Commands | SET GET MSET KEYS DEL TTL | Redis Course #2",
+      "creator": "Sourabh Tembhare",
+      "url": "https://www.youtube.com/watch?v=ZNC16SIcULQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Redis String + General Purpose Commands | SET GET MSET KEYS DEL TTL | Redis Course #2 - Complete guide by Sourabh Tembhare.",
+      "year": 2024
+    },
+    {
+      "title": "B-Tree vs B+Tree in Production Database Systems",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=a1Z40OC553Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "B-Tree vs B+Tree in Production Database Systems - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Column vs Row Oriented Databases Explained",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=Vw1fCeD06YI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Column vs Row Oriented Databases Explained - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "How to Become a Good Backend Engineer (Fundamentals)",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=V3ZPPPKEipA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Become a Good Backend Engineer (Fundamentals) - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Database Indexing Explained (with PostgreSQL)",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=-qNSXK7s7_w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Database Indexing Explained (with PostgreSQL) - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Advice for beginner backend engineers who just started their new jobs in software companies",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=V3C0VvNrFZ8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Advice for beginner backend engineers who just started their new jobs in software companies - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "What is the TCP 3-Way Handshake and Why Backend Engineers should understand it",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=bW_BILl7n0Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is the TCP 3-Way Handshake and Why Backend Engineers should understand it - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Connection Pooling in PostgresSQL with NodeJS (Performance Numbers)",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=GTeCtIoV2Tw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Connection Pooling in PostgresSQL with NodeJS (Performance Numbers) - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Building a Web API with Express and PostgreSQL to Consume from Browser",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=0JNq46eFuOM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Building a Web API with Express and PostgreSQL to Consume from Browser - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Database Fundamentals",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=02rRgQ1Fqzc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Database Fundamentals - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Layer 4 vs Layer 7 Proxying In Details Explained with Examples",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=ylkAc9wmKhc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Layer 4 vs Layer 7 Proxying In Details Explained with Examples - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Best Practices Working with Billion-row Tables in Databases",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=wj7KEMEkMUE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Best Practices Working with Billion-row Tables in Databases - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "How Databases REALLY Work internally! RAM vs  Disk",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=rQbbsgBIgfE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Databases REALLY Work internally! RAM vs  Disk - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "The History of MongoDB Locking",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=AGCZ8vlwI-U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The History of MongoDB Locking - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "DevOps Explained",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=qWe9YBKSoGQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DevOps Explained - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Postgres is now async by Default",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=uJ2Pa6POVYA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Postgres is now async by Default - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "10 FrontEnd Performance Tips To Improve Your Application (Any Programming Language)",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=mnuYVi5pcfQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "10 FrontEnd Performance Tips To Improve Your Application (Any Programming Language) - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Spin up a lightweight Nodejs docker container running your application",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=vmSMrQ8Ev9w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spin up a lightweight Nodejs docker container running your application - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Kafka Crash Course",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=R873BlNVUB4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Apache Kafka Crash Course - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "select count(*) is expensive",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=Tk2Zj5m3Ncs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "select count(*) is expensive - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "MySQL crashes on 10,000 tables   an interesting bug since fixed",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=hsIfHjWRaK0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MySQL crashes on 10,000 tables   an interesting bug since fixed - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Postgres async worker pool",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=ADXxz8LEY2o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Postgres async worker pool - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "How to tell if a Backend Application is stateless?",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=ho9nKj3lFkU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to tell if a Backend Application is stateless? - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Should you build backend from scratch",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=aujGtj3vm44",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Should you build backend from scratch - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Predictable backend design with long polling and queues",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=LgNNn_fFa9k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Predictable backend design with long polling and queues - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Can NGINX fix this?",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=UHi8k2gn0-c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Can NGINX fix this? - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "What are page tables?",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=YcM2bZDLhk8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What are page tables? - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Page faults",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=lcIWIb7Ch1A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Page faults - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Upgrading to MySQL 8? Watch out for this",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=YQrhWZ_2_Ak",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Upgrading to MySQL 8? Watch out for this - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Databases are just pages of bytes",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=mVzztGo0kZM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Databases are just pages of bytes - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Why MongoDB's _id lookup is fast (internals)",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=-7JPIIISjBU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why MongoDB's _id lookup is fast (internals) - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Why Postgres is Popular",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=1DiVSXsGqoU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why Postgres is Popular - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Memory Management Unit",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=IOjMaoqWk7o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Memory Management Unit - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "PostgreSQL 18 Asynchronous I O",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=__0_Scdbzy4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PostgreSQL 18 Asynchronous I O - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "The core of backend system design",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=1nUnRgawAC8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The core of backend system design - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "A private file descriptor per process",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=fj5FKVCiay4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "A private file descriptor per process - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Blocking I/O = Context switch",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=Gn1S2Om2mAE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Blocking I/O = Context switch - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Offloading CPU Intensive to threads",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=XE87Kkt5wOc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Offloading CPU Intensive to threads - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "How nested loop, hash, and merge joins work.",
+      "creator": "Arpit Bhayani",
+      "url": "https://www.youtube.com/watch?v=-htbah3eCYg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How nested loop, hash, and merge joins work. - Complete guide by Arpit Bhayani.",
+      "year": 2024
+    },
+    {
+      "title": "Virtual memory mappings",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=zajyvSf2YxY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Virtual memory mappings - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Blocked Process gets kicked out",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=AgxHDdaonGw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Blocked Process gets kicked out - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Database Replication Crash Course ( with Postgres 13 )",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=9aFu7APZQmY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Database Replication Crash Course ( with Postgres 13 ) - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "How PostgreSQL parses the query and constructs the Parse Tree?",
+      "creator": "Arpit Bhayani",
+      "url": "https://www.youtube.com/watch?v=m8PtOY3aWL0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How PostgreSQL parses the query and constructs the Parse Tree? - Complete guide by Arpit Bhayani.",
+      "year": 2024
+    },
+    {
+      "title": "How Database Cursors Help in Fetching Large Result sets from your SQL",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=C1Y6P6vDFts",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Database Cursors Help in Fetching Large Result sets from your SQL - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Database Management Systems",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/watch?v=6Iu45VZGQDk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to Database Management Systems - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "DBMS Characteristics",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/watch?v=wClEbCyWryI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DBMS Characteristics - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "The OSI Model - Explained by Example",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=7IS7gigunyI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The OSI Model - Explained by Example - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Stop Using MongoDB for Everything (Here's the Real Trade-off) #shorts  #mongodb #architecture",
+      "creator": "Coding Bug",
+      "url": "https://www.youtube.com/watch?v=NtoHX0fsxKA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Stop Using MongoDB for Everything (Here's the Real Trade-off) #shorts  #mongodb #architecture - Complete guide by Coding Bug.",
+      "year": 2024
+    },
+    {
+      "title": "TCP vs UDP Crash Course",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=qqRYkcta6IE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "TCP vs UDP Crash Course - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "what is a database index?",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=Jemuod4wKWo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "what is a database index? - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "nulls are weird, Postgres15 makes them slightly better",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=NVwCPNSovdE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "nulls are weird, Postgres15 makes them slightly better - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "AI will not replace elite engineers",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=rnJrc1QOFME",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AI will not replace elite engineers - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "you won't forget how postgres works after this",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=q9jixKv4h2I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "you won't forget how postgres works after this - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Postgres is half as fast in Linux 7.0, and we always knew why",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=gO4J5Bkd1Oc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Postgres is half as fast in Linux 7.0, and we always knew why - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "HTTP Pipelining in one minute #shorts",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=ghA9k9wgOSg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "HTTP Pipelining in one minute #shorts - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Fundamentals Of Data Engineering Masterclass",
+      "creator": "Darshil Parmar",
+      "url": "https://www.youtube.com/watch?v=hf2go3E2m8g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Fundamentals Of Data Engineering Masterclass - Complete guide by Darshil Parmar.",
+      "year": 2024
+    },
+    {
+      "title": "Carnegie Mellon University Advanced Database Course Is a GREAT resource for Backend Engineers!",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=Vy_9luYaPRM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Carnegie Mellon University Advanced Database Course Is a GREAT resource for Backend Engineers! - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Idempotent Requests in Microservices (Minute Engineering)",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=w1P7FBBrrig",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Idempotent Requests in Microservices (Minute Engineering) - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Database Systems - Cornell University Course (SQL, NoSQL, Large-Scale Data Analysis)",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=4cWkVbC2bNE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Database Systems - Cornell University Course (SQL, NoSQL, Large-Scale Data Analysis) - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "From Idea to Production-Ready Database Design (No More Mistakes!)",
+      "creator": "Jan Marshal",
+      "url": "https://www.youtube.com/watch?v=lWX5mk2adrg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "From Idea to Production-Ready Database Design (No More Mistakes!) - Complete guide by Jan Marshal.",
+      "year": 2024
+    },
+    {
+      "title": "System Design b kr lena lekin Database Design b practice kr lo ji",
+      "creator": "Chai aur Code",
+      "url": "https://www.youtube.com/watch?v=k4kTzBQeRyQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design b kr lena lekin Database Design b practice kr lo ji - Complete guide by Chai aur Code.",
+      "year": 2024
+    },
+    {
+      "title": "DBMS.#coding #programming #dbms #data #ai",
+      "creator": "Neeraj Walia",
+      "url": "https://www.youtube.com/watch?v=pay-k_LCY0Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DBMS.#coding #programming #dbms #data #ai - Complete guide by Neeraj Walia.",
+      "year": 2024
+    },
+    {
+      "title": "SQL Database App with Windows GUI – Project Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=VX4wl7qIcbA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SQL Database App with Windows GUI – Project Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Vector Databases Full Course for Beginners – Embeddings, Similarity Search & ChromaDB",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=lR931Iz8Z6U",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Vector Databases Full Course for Beginners – Embeddings, Similarity Search & ChromaDB - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Design Software Systems Like a Senior Engineer – Complete Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=soTfFFIQQ8U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Design Software Systems Like a Senior Engineer – Complete Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "SQLite Databases With Python - Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=byHcYRpMgI4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SQLite Databases With Python - Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "SQLite Database for Android - Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=312RhjfetP8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SQLite Database for Android - Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "How to Create a SQLite Database with the Command Line in Windows",
+      "creator": "Coding Under Pressure",
+      "url": "https://www.youtube.com/watch?v=CCBv9vmwr2Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Create a SQLite Database with the Command Line in Windows - Complete guide by Coding Under Pressure.",
+      "year": 2024
+    },
+    {
+      "title": "How to Easily Create a SQLite Database - Create Your First SQLite Database",
+      "creator": "Coding Under Pressure",
+      "url": "https://www.youtube.com/watch?v=XSZE1iiKdSw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Easily Create a SQLite Database - Create Your First SQLite Database - Complete guide by Coding Under Pressure.",
+      "year": 2024
+    },
+    {
+      "title": "Python SQLite Tutorial: Complete Overview - Creating a Database, Table, and Running Queries",
+      "creator": "Corey Schafer",
+      "url": "https://www.youtube.com/watch?v=pd-0G0MigUA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Python SQLite Tutorial: Complete Overview - Creating a Database, Table, and Running Queries - Complete guide by Corey Schafer.",
+      "year": 2024
+    },
+    {
+      "title": "you need to learn SQL RIGHT NOW!! (SQL Tutorial for Beginners)",
+      "creator": "NetworkChuck",
+      "url": "https://www.youtube.com/watch?v=xiUTqnI6xk8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "you need to learn SQL RIGHT NOW!! (SQL Tutorial for Beginners) - Complete guide by NetworkChuck.",
+      "year": 2024
+    },
+    {
+      "title": "Python SQLite tutorial 1 - connecting database (हिंदी)",
+      "creator": "Inderjeet Singh Maan ",
+      "url": "https://www.youtube.com/watch?v=0nfUHecryAY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Python SQLite tutorial 1 - connecting database (हिंदी) - Complete guide by Inderjeet Singh Maan .",
+      "year": 2024
+    },
+    {
+      "title": "SQLite Introduction - Beginners Guide to SQL and Databases",
+      "creator": "Caleb Curry",
+      "url": "https://www.youtube.com/watch?v=8Xyn8R9eKB8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "SQLite Introduction - Beginners Guide to SQL and Databases - Complete guide by Caleb Curry.",
+      "year": 2024
+    },
+    {
+      "title": "How to Make a Clean Architecture Note App (MVVM / CRUD / Jetpack Compose) - Android Studio Tutorial",
+      "creator": "Philipp Lackner",
+      "url": "https://www.youtube.com/watch?v=8YPXv7xKh2w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Make a Clean Architecture Note App (MVVM / CRUD / Jetpack Compose) - Android Studio Tutorial - Complete guide by Philipp Lackner.",
+      "year": 2024
+    },
+    {
+      "title": "Python SQLite tutorial 2  - creating table ( हिंदी )",
+      "creator": "Inderjeet Singh Maan ",
+      "url": "https://www.youtube.com/watch?v=EefoPEjNano",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Python SQLite tutorial 2  - creating table ( हिंदी ) - Complete guide by Inderjeet Singh Maan .",
+      "year": 2024
+    },
+    {
+      "title": "Apache Cassandra Database – Full Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=J-cSy5MeMOA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Apache Cassandra Database – Full Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Fastest Way To Learn SQL",
+      "creator": "Sahil & Sarra",
+      "url": "https://www.youtube.com/watch?v=pKzazzwVEDg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Fastest Way To Learn SQL - Complete guide by Sahil & Sarra.",
+      "year": 2024
+    },
+    {
+      "title": "Why Netflix uses Cassandra and not Mongodb?",
+      "creator": "Sukhad Anand",
+      "url": "https://www.youtube.com/watch?v=S9ydtmK0hyY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why Netflix uses Cassandra and not Mongodb? - Complete guide by Sukhad Anand.",
+      "year": 2024
+    },
+    {
+      "title": "Cassandra in 100 Seconds",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=ziq7FUKpCS8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Cassandra in 100 Seconds - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "Cassandra database #cassandra #nosql #database #sql #backend #systemdesign #softwareengineering #dbs",
+      "creator": "morethancodebase",
+      "url": "https://www.youtube.com/watch?v=WLhQw_yH9Bo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Cassandra database #cassandra #nosql #database #sql #backend #systemdesign #softwareengineering #dbs - Complete guide by morethancodebase.",
+      "year": 2024
+    },
+    {
+      "title": "💾 Introduction to NoSQL Databases Explained",
+      "creator": "Yuvraj ",
+      "url": "https://www.youtube.com/watch?v=VqT0d65ZDdc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "💾 Introduction to NoSQL Databases Explained - Complete guide by Yuvraj .",
+      "year": 2024
+    },
+    {
+      "title": "System design behind Netflix scaling to 100M+ users ⚡Cassandra, NoSQL, scalability",
+      "creator": "Ekta Agrawal",
+      "url": "https://www.youtube.com/watch?v=X1RwafqVf3w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System design behind Netflix scaling to 100M+ users ⚡Cassandra, NoSQL, scalability - Complete guide by Ekta Agrawal.",
+      "year": 2024
+    },
+    {
+      "title": "Cassandra Tutorial - Complete NoSQL Database Course / Apache Cassandra Full Course",
+      "creator": "Alpha Brains Courses",
+      "url": "https://www.youtube.com/watch?v=8g-f9uPzW04",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Cassandra Tutorial - Complete NoSQL Database Course / Apache Cassandra Full Course - Complete guide by Alpha Brains Courses.",
+      "year": 2024
+    },
+    {
+      "title": "What is No SQL?",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=qEhNHOEa5sE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is No SQL? - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Getting Started with NoSQL",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=F1TklaUfKcM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Getting Started with NoSQL - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Alternatives For Mongo DB | Apache Cassandra | CouchBase | Scylla DB | Gokulakrishna",
+      "creator": "Gokulakrishna",
+      "url": "https://www.youtube.com/watch?v=PWqZwnjFeYo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Alternatives For Mongo DB | Apache Cassandra | CouchBase | Scylla DB | Gokulakrishna - Complete guide by Gokulakrishna.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Cassandra vs MongoDB | NoSQL Database Comparison Explained",
+      "creator": "TechE",
+      "url": "https://www.youtube.com/watch?v=GBMN0jDbLF8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Apache Cassandra vs MongoDB | NoSQL Database Comparison Explained - Complete guide by TechE.",
+      "year": 2024
+    },
+    {
+      "title": "Which Database Should You Use? SQL vs NoSQL",
+      "creator": "Sanjay Chandak",
+      "url": "https://www.youtube.com/watch?v=-7TDEoffgyY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Which Database Should You Use? SQL vs NoSQL - Complete guide by Sanjay Chandak.",
+      "year": 2024
+    },
+    {
+      "title": "MongoDB vs Redis vs Cassandra vs Neo4j 🔥 NoSQL Explained #shorts",
+      "creator": "krishnabuildz",
+      "url": "https://www.youtube.com/watch?v=wA9plXctEvo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MongoDB vs Redis vs Cassandra vs Neo4j 🔥 NoSQL Explained #shorts - Complete guide by krishnabuildz.",
+      "year": 2024
+    },
+    {
+      "title": "MongoDB vs Cassandra | Which NoSQL Database is Better? #databaseconcepts #coding",
+      "creator": "Techtutorpro360",
+      "url": "https://www.youtube.com/watch?v=G8J5UezctBs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MongoDB vs Cassandra | Which NoSQL Database is Better? #databaseconcepts #coding - Complete guide by Techtutorpro360.",
+      "year": 2024
+    },
+    {
+      "title": "Postgres vs MongoDB vs Redis vs Cassandra 🤯 | Which Database to Choose? | System Design #shorts",
+      "creator": "Sajal Agarwal",
+      "url": "https://www.youtube.com/watch?v=irdkxE6FJAE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Postgres vs MongoDB vs Redis vs Cassandra 🤯 | Which Database to Choose? | System Design #shorts - Complete guide by Sajal Agarwal.",
+      "year": 2024
+    },
+    {
+      "title": "🛠️ Unlocking the Power of NoSQL Databases! 🚀",
+      "creator": "DIGICROME ACADEMY",
+      "url": "https://www.youtube.com/watch?v=xvMZ6EmmtYU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🛠️ Unlocking the Power of NoSQL Databases! 🚀 - Complete guide by DIGICROME ACADEMY.",
+      "year": 2024
+    },
+    {
+      "title": "SQL vs NoSQL Breakdown",
+      "creator": "Shiva Testing 2",
+      "url": "https://www.youtube.com/watch?v=3htkewU4H3o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SQL vs NoSQL Breakdown - Complete guide by Shiva Testing 2.",
+      "year": 2024
+    },
+    {
+      "title": "Why Apache Cassandra Has NO Master Node (1M Writes/Sec Explained) #shorts",
+      "creator": "Vecktor",
+      "url": "https://www.youtube.com/watch?v=gjUcdoJmaxs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why Apache Cassandra Has NO Master Node (1M Writes/Sec Explained) #shorts - Complete guide by Vecktor.",
+      "year": 2024
+    },
+    {
+      "title": "What Is NoSQL? MongoDB, Redis, Cassandra & Neo4j explained in 30 SEC #shorts #database #ytshorts",
+      "creator": "LetsCodeAndAchieve",
+      "url": "https://www.youtube.com/watch?v=wJMafqARlSI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What Is NoSQL? MongoDB, Redis, Cassandra & Neo4j explained in 30 SEC #shorts #database #ytshorts - Complete guide by LetsCodeAndAchieve.",
+      "year": 2024
+    },
+    {
+      "title": "Top 9 NoSQL Databases You Should Know!",
+      "creator": "NonCoderSuccess",
+      "url": "https://www.youtube.com/watch?v=U4icLzHWniI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top 9 NoSQL Databases You Should Know! - Complete guide by NonCoderSuccess.",
+      "year": 2024
+    },
+    {
+      "title": "What is Cassandra in Big Data Analytics in Hindi",
+      "creator": "Perfect Computer Engineer",
+      "url": "https://www.youtube.com/watch?v=eOv5sty-fvQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Cassandra in Big Data Analytics in Hindi - Complete guide by Perfect Computer Engineer.",
+      "year": 2024
+    },
+    {
+      "title": "This NoSQL Database is Taking Over in 2025! Are You Using It",
+      "creator": "Stack Void",
+      "url": "https://www.youtube.com/watch?v=FjzHzx9SUJw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "This NoSQL Database is Taking Over in 2025! Are You Using It - Complete guide by Stack Void.",
+      "year": 2024
+    },
+    {
+      "title": "Top 4 NoSQL Databases (MongoDB, Cassandra, Elasticsearch, Couchbase) #Shorts #datascience",
+      "creator": "Neural Scientist",
+      "url": "https://www.youtube.com/watch?v=FkmhwquwSL4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top 4 NoSQL Databases (MongoDB, Cassandra, Elasticsearch, Couchbase) #Shorts #datascience - Complete guide by Neural Scientist.",
+      "year": 2024
+    },
+    {
+      "title": "SQL vs NoSQL in 45 Seconds #shorts",
+      "creator": "Built to Break",
+      "url": "https://www.youtube.com/watch?v=s_iXUDUL9yU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SQL vs NoSQL in 45 Seconds #shorts - Complete guide by Built to Break.",
+      "year": 2024
+    },
+    {
+      "title": "Top 3 NoSQL Databases You Should Know in 2026 | Non-Relational DBMS #shorts",
+      "creator": "SCALER",
+      "url": "https://www.youtube.com/watch?v=RfWmMYBqpXk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top 3 NoSQL Databases You Should Know in 2026 | Non-Relational DBMS #shorts - Complete guide by SCALER.",
+      "year": 2024
+    },
+    {
+      "title": "What is Apache Cassandra? | Apache Cassandra Tutorial | Apache Cassandra Introduction | Edureka",
+      "creator": "edureka!",
+      "url": "https://www.youtube.com/watch?v=iDhIjrJ7hG0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Apache Cassandra? | Apache Cassandra Tutorial | Apache Cassandra Introduction | Edureka - Complete guide by edureka!.",
+      "year": 2024
+    },
+    {
+      "title": "Cassandra Basics | NoSQL Tutorial #5",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=VsQ4OuH-K1I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Cassandra Basics | NoSQL Tutorial #5 - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Cassandra | Cassandra Tutorial | Introduction to Cassandra | Cassandra Training | Edureka",
+      "creator": "edureka!",
+      "url": "https://www.youtube.com/watch?v=y-ZqjhvFUhc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Apache Cassandra | Cassandra Tutorial | Introduction to Cassandra | Cassandra Training | Edureka - Complete guide by edureka!.",
+      "year": 2024
+    },
+    {
+      "title": "Cassandra  Tutorial#2 Different types of NoSQL database",
+      "creator": "EqualConnect Coach",
+      "url": "https://www.youtube.com/watch?v=hY50lKMZR8Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Cassandra  Tutorial#2 Different types of NoSQL database - Complete guide by EqualConnect Coach.",
+      "year": 2024
+    },
+    {
+      "title": "Cassandra Tutorial#1 Introduction to  Cassandra NOSQL for beginner",
+      "creator": "EqualConnect Coach",
+      "url": "https://www.youtube.com/watch?v=TlB50JR2UUY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Cassandra Tutorial#1 Introduction to  Cassandra NOSQL for beginner - Complete guide by EqualConnect Coach.",
+      "year": 2024
+    },
+    {
+      "title": "System Design Concepts Course and Interview Prep",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=F2FmTdLtb_4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design Concepts Course and Interview Prep - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Intro to NO SQL - Cassandra | Tutorial for Beginners | Types of NO SQL [Part 2] | Great Learning",
+      "creator": "Great Learning",
+      "url": "https://www.youtube.com/watch?v=ugu6p6bMzfQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Intro to NO SQL - Cassandra | Tutorial for Beginners | Types of NO SQL [Part 2] | Great Learning - Complete guide by Great Learning.",
+      "year": 2024
+    },
+    {
+      "title": "7 Database Paradigms",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=W2Z7fbCLSTw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "7 Database Paradigms - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "Cassandra vs MongoDB vs HBase | Difference Between Popular NoSQL Databases | Edureka",
+      "creator": "edureka!",
+      "url": "https://www.youtube.com/watch?v=QlqylUeqeis",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Cassandra vs MongoDB vs HBase | Difference Between Popular NoSQL Databases | Edureka - Complete guide by edureka!.",
+      "year": 2024
+    },
+    {
+      "title": "SQL Ultimate Course",
+      "creator": "Data with Baraa",
+      "url": "https://www.youtube.com/playlist?list=PLNcg_FV9n7qZY_2eAtUzEUulNjTJREhQe",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "SQL Ultimate Course - Complete guide by Data with Baraa.",
+      "year": 2024
+    },
+    {
+      "title": "Complete SQL Mastery",
+      "creator": "Coding Codes",
+      "url": "https://www.youtube.com/playlist?list=PLOghUv2IDLKHKlkQNuzN8SPLYuVhhLlpa",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Complete SQL Mastery - Complete guide by Coding Codes.",
+      "year": 2024
+    },
+    {
+      "title": "'SQL Tutorial - Full Database Course for Beginners' by freeCodeCamp.org and others",
+      "creator": "Indoolio",
+      "url": "https://www.youtube.com/playlist?list=PLlr2FAlA3LGmVceNeNq7Z0mZIGJOuTlZi",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "'SQL Tutorial - Full Database Course for Beginners' by freeCodeCamp.org and others - Complete guide by Indoolio.",
+      "year": 2024
+    },
+    {
+      "title": "CASSANDRA VS MONGODB | MAJOR DIFFERENCES TO CONSIDER",
+      "creator": "Jelvix | TECH IN 5 MINUTES",
+      "url": "https://www.youtube.com/watch?v=3z2EzILA3Rk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CASSANDRA VS MONGODB | MAJOR DIFFERENCES TO CONSIDER - Complete guide by Jelvix | TECH IN 5 MINUTES.",
+      "year": 2024
+    },
+    {
+      "title": "SQL Course for Beginners [Full Course] by Programming with Mosh, etc",
+      "creator": "ashuhliie",
+      "url": "https://www.youtube.com/playlist?list=PLf44i2m8-_adx946yxmCmPgzg_qpz-BXE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "SQL Course for Beginners [Full Course] by Programming with Mosh, etc - Complete guide by ashuhliie.",
+      "year": 2024
+    },
+    {
+      "title": "SQL Server tutorial for beginners",
+      "creator": "kudvenkat",
+      "url": "https://www.youtube.com/playlist?list=PL08903FB7ACA1C2FB",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "SQL Server tutorial for beginners - Complete guide by kudvenkat.",
+      "year": 2024
+    },
+    {
+      "title": "SQL Course for Beginners [Full Course] (Programming with Mosh) and others",
+      "creator": "huayeye",
+      "url": "https://www.youtube.com/playlist?list=PL9KUWieiqtef8QVxrLmHXIiz7RtKnFSx7",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "SQL Course for Beginners [Full Course] (Programming with Mosh) and others - Complete guide by huayeye.",
+      "year": 2024
+    },
+    {
+      "title": "MySQL tutorial for beginners 🐬",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/playlist?list=PLZPZq0r_RZOMskz6MdsMOgxzheIyjo-BZ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "MySQL tutorial for beginners 🐬 - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "PostgreSQL DBA Full Course",
+      "creator": "HindiWaleEngineer",
+      "url": "https://www.youtube.com/playlist?list=PLCiS1ws9lhBvjVwWeaFB3934ynO1Pjmdc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "PostgreSQL DBA Full Course - Complete guide by HindiWaleEngineer.",
+      "year": 2024
+    },
+    {
+      "title": "PosgresSQL Course",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/playlist?list=PLwvrYc43l1MxAEOI_KwGe8l42uJxMoKeS",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "PosgresSQL Course - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "MySQL Full Free Course by WsCube Tech",
+      "creator": "WsCube Tech",
+      "url": "https://www.youtube.com/playlist?list=PLjVLYmrlmjGeyCPgdHL2vWmEGKxcpsC0E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "MySQL Full Free Course by WsCube Tech - Complete guide by WsCube Tech.",
+      "year": 2024
+    },
+    {
+      "title": "SQL Full Course| SQL Tutorial For Beginners | Edureka",
+      "creator": "edureka!",
+      "url": "https://www.youtube.com/playlist?list=PL9ooVrP1hQOG6DQnOD6ujdCEchaqADfCU",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "SQL Full Course| SQL Tutorial For Beginners | Edureka - Complete guide by edureka!.",
+      "year": 2024
+    },
+    {
+      "title": "MongoDB Playlist in Hindi ( Complete Course 2026 )",
+      "creator": "Engineering Digest",
+      "url": "https://www.youtube.com/playlist?list=PLA3GkZPtsafZydhN4nP0h7hw7PQuLsBv1",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "MongoDB Playlist in Hindi ( Complete Course 2026 ) - Complete guide by Engineering Digest.",
+      "year": 2024
+    },
+    {
+      "title": "Complete MongoDB Tutorial",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9h77dJ-QJlwGlZlTd4ecZOA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Complete MongoDB Tutorial - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "MongoDB and Mongoose - freeCodeCamp",
+      "creator": "Ganesh H",
+      "url": "https://www.youtube.com/playlist?list=PLhGp6N0DI_1QJMb63oecYZ3lLjrF4PnIs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "MongoDB and Mongoose - freeCodeCamp - Complete guide by Ganesh H.",
+      "year": 2024
+    },
+    {
+      "title": "Complete MongoDB (Version 8) Course 2025: Zero to Hero",
+      "creator": "procademy",
+      "url": "https://www.youtube.com/playlist?list=PL1BztTYDF-QPwd9Qg-nxQk1UYtorhzXLc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Complete MongoDB (Version 8) Course 2025: Zero to Hero - Complete guide by procademy.",
+      "year": 2024
+    },
+    {
+      "title": "Redis Chai aur Code",
+      "creator": "AditDrax",
+      "url": "https://www.youtube.com/playlist?list=PLkravDUKJN0JWfllRfj0cEcTn2etynCdO",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Redis Chai aur Code - Complete guide by AditDrax.",
+      "year": 2024
+    },
+    {
+      "title": "MongoDB Tutorial Course for Beginners to Advanced in Hindi / Urdu",
+      "creator": "YOOBABA",
+      "url": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbysebQ-yBd7ZHYGPMuFvvyD",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "MongoDB Tutorial Course for Beginners to Advanced in Hindi / Urdu - Complete guide by YOOBABA.",
+      "year": 2024
+    },
+    {
+      "title": "Redis for Beginners",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9h3V2eqhi8rRdIDJshP-b4P",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Redis for Beginners - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "Database Engineering",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Database Engineering - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Redis Complete Course for Beginners",
+      "creator": "Sourabh Tembhare",
+      "url": "https://www.youtube.com/playlist?list=PLXOv1YQDUaG9QwljUNzLWdwpejOlCJ1Ej",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Redis Complete Course for Beginners - Complete guide by Sourabh Tembhare.",
+      "year": 2024
+    },
+    {
+      "title": "Database Engineering - Hussein Nasser - English Version",
+      "creator": "Free Academy",
+      "url": "https://www.youtube.com/playlist?list=PLpXfHEl2fzl4UXMPcnEy35BMOjnY7pGSo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Database Engineering - Hussein Nasser - English Version - Complete guide by Free Academy.",
+      "year": 2024
+    },
+    {
+      "title": "PostgresSQL",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "PostgresSQL - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Backend Engineering (Intermediate)",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/playlist?list=PLQnljOFTspQWGuRmwojJ6LiV0ejm6eOcs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Backend Engineering (Intermediate) - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Docker",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/playlist?list=PLQnljOFTspQWsD-rakNw1C20c1JI8UR1r",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Docker - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Backend Engineering (Beginner)",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Backend Engineering (Beginner) - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Database Engineering",
+      "creator": "Arpit Bhayani",
+      "url": "https://www.youtube.com/playlist?list=PLsdq-3Z1EPT2C-Da7Jscr7NptGcIZgQ2l",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Database Engineering - Complete guide by Arpit Bhayani.",
+      "year": 2024
+    },
+    {
+      "title": "Minute Engineering",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/playlist?list=PLQnljOFTspQWXxAYDl_qSPXMcKpyH-LML",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Minute Engineering - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Database Management Systems",
+      "creator": "Neso Academy",
+      "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRi_CUQ-FXxgzKQ1dwr_ZJWZ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Database Management Systems - Complete guide by Neso Academy.",
+      "year": 2024
+    },
+    {
+      "title": "The Backend Engineering Show",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/playlist?list=PLQnljOFTspQU0ICDe-cL1EwXC4GDSayKY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "The Backend Engineering Show - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Network Engineering",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Network Engineering - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Backend Engineering (Advanced)",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/playlist?list=PLQnljOFTspQUybacGRk1b_p13dgI-SmcZ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Backend Engineering (Advanced) - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "\"Database Design Course - Learn how to design and plan a database for beginners\" by freeCodeCamp.org",
+      "creator": "lovedjdance",
+      "url": "https://www.youtube.com/playlist?list=PLlsci6Y_M01i1_EdiDwJxsyeCddcpc0nz",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "\"Database Design Course - Learn how to design and plan a database for beginners\" by freeCodeCamp.org - Complete guide by lovedjdance.",
+      "year": 2024
+    },
+    {
+      "title": "Intuitive SQL For Data Analytics - Tutorial by freeCodeCamp.org, etc",
+      "creator": "ddss5419",
+      "url": "https://www.youtube.com/playlist?list=PLHLcniokkE0TvozpcLwQeTMsZZ1vxiIcx",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Intuitive SQL For Data Analytics - Tutorial by freeCodeCamp.org, etc - Complete guide by ddss5419.",
+      "year": 2024
+    },
+    {
+      "title": "SQLite Tutorial",
+      "creator": "Coding Under Pressure",
+      "url": "https://www.youtube.com/playlist?list=PLJJcOjd3n1ZfwZKYMu_JSs0xSejPsQlav",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "SQLite Tutorial - Complete guide by Coding Under Pressure.",
+      "year": 2024
+    },
+    {
+      "title": "Python SQLite3  Tutorials (in Hindi)",
+      "creator": "Inderjeet Singh Maan ",
+      "url": "https://www.youtube.com/playlist?list=PLjC8JXsSUrrgpGPS7twDeOw8Am93vNPvS",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Python SQLite3  Tutorials (in Hindi) - Complete guide by Inderjeet Singh Maan .",
+      "year": 2024
+    },
+    {
+      "title": "'SQLite Database for Android - Full Course' by freeCodeCamp.org and more",
+      "creator": "misskatiek",
+      "url": "https://www.youtube.com/playlist?list=PL6DqNT_Z3uGYaHZv_vzWK74EYNrx45YNY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "'SQLite Database for Android - Full Course' by freeCodeCamp.org and more - Complete guide by misskatiek.",
+      "year": 2024
+    },
+    {
+      "title": "NoSQL Tutorial for Beginners",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/playlist?list=PLsyeobzWxl7r0bn6dzVA8bQNxcx7DRl5F",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "NoSQL Tutorial for Beginners - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Cassandra Tutorial from Basic to Advance Rakesh Malviya",
+      "creator": "EqualConnect Coach",
+      "url": "https://www.youtube.com/playlist?list=PLiLpmqwkwkCtUtXioKVyB0jpcxro0qQAh",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Apache Cassandra Tutorial from Basic to Advance Rakesh Malviya - Complete guide by EqualConnect Coach.",
+      "year": 2024
+    },
+    {
+      "title": "Cassandra Tutorial Videos",
+      "creator": "edureka!",
+      "url": "https://www.youtube.com/playlist?list=PL9ooVrP1hQOGJ4Yz9vbytkRmLaD6weg8k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Cassandra Tutorial Videos - Complete guide by edureka!.",
+      "year": 2024
+    },
+    {
+      "title": "SQL vs NoSQL vs Graph Database Explained with Real World Examples",
+      "creator": "Error Makes Clever",
+      "url": "https://www.youtube.com/watch?v=9PWkz4Dh7Ew",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SQL vs NoSQL vs Graph Database Explained with Real World Examples - Complete guide by Error Makes Clever.",
+      "year": 2024
+    }
+  ]
 }

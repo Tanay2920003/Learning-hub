@@ -1,52 +1,3224 @@
 {
-    "name": "System Design",
-    "slug": "system-design",
-    "description": "Learn to design scalable systems and ace system design interviews",
-    "icon": "https://img.icons8.com/?size=100&id=owhiHVzjr30B&format=png&color=000000",
-    "articles": [
-        {
-            "title": "System Design Primer (GitHub)",
-            "url": "https://github.com/donnemartin/system-design-primer"
-        },
-        {
-            "title": "High Scalability Blog",
-            "url": "http://highscalability.com/"
-        },
-        {
-            "title": "ByteByteGo System Design Newsletter",
-            "url": "https://blog.bytebytego.com/"
-        }
-    ],
-    "playlists": [
-        {
-            "title": "System Design Primer",
-            "creator": "Gaurav Sen",
-            "url": "https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX",
-            "language": "English",
-            "difficulty": "intermediate",
-            "videoCount": 30,
-            "description": "Core system design concepts explained with drawings",
-            "year": 2020
-        },
-        {
-            "title": "System Design Interview",
-            "creator": "TECH DOSE",
-            "url": "https://www.youtube.com/playlist?list=PLVBmR2gZOquWJL7LzVJRmVCzZTtKhSNB_",
-            "language": "English",
-            "difficulty": "intermediate",
-            "videoCount": 27,
-            "description": "Common system design interview questions explained",
-            "year": 2021
-        },
-        {
-            "title": "Designing Data-Intensive Applications",
-            "creator": "Hussein Nasser",
-            "url": "https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K",
-            "language": "English",
-            "difficulty": "advanced",
-            "videoCount": 20,
-            "description": "Deep dives into data systems architecture",
-            "year": 2022
-        }
-    ]
+  "name": "System Design",
+  "slug": "system-design",
+  "description": "Learn to design scalable systems and ace system design interviews",
+  "icon": "system-design",
+  "articles": [
+    {
+      "title": "System Design Primer (GitHub)",
+      "url": "https://github.com/donnemartin/system-design-primer"
+    },
+    {
+      "title": "High Scalability Blog",
+      "url": "http://highscalability.com/"
+    },
+    {
+      "title": "ByteByteGo System Design Newsletter",
+      "url": "https://blog.bytebytego.com/"
+    },
+    {
+      "title": "Netflix Technology Blog",
+      "url": "https://netflixtechblog.com/"
+    },
+    {
+      "title": "AWS Architecture Center & Whitepapers",
+      "url": "https://aws.amazon.com/architecture/"
+    },
+    {
+      "title": "Cloudflare Learning Center - Networking & Distributed Systems",
+      "url": "https://www.cloudflare.com/learning/"
+    },
+    {
+      "title": "Martin Fowler Software Architecture Guides",
+      "url": "https://martinfowler.com/architecture/"
+    },
+    {
+      "title": "Apache Kafka: The Definitive Guide Online Book",
+      "url": "https://www.confluent.io/resources/kafka-the-definitive-guide/"
+    },
+    {
+      "title": "Engineering at Meta Blog",
+      "url": "https://engineering.fb.com/"
+    },
+    {
+      "title": "ByteByteGo System Design Blog & Diagrams",
+      "url": "https://bytebytego.com/"
+    },
+    {
+      "title": "Martin Fowler - Microservices & Software Architecture",
+      "url": "https://martinfowler.com/"
+    }
+  ],
+  "playlists": [
+    {
+      "title": "System Design Primer",
+      "creator": "Gaurav Sen",
+      "url": "https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 30,
+      "description": "Core system design concepts explained with drawings",
+      "year": 2020
+    },
+    {
+      "title": "Designing Data-Intensive Applications",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/playlist?list=PLQnljOFTspQXOkIpdwjsMlVqkIffdqZ2K",
+      "language": "English",
+      "difficulty": "advanced",
+      "videoCount": 20,
+      "description": "Deep dives into data systems architecture",
+      "year": 2022
+    },
+    {
+      "title": "Here's what you should learn first for System Design! #tech #interview",
+      "creator": "Anu Sharma",
+      "url": "https://www.youtube.com/watch?v=7qdHhIPnW6g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Here's what you should learn first for System Design! #tech #interview - Complete guide by Anu Sharma.",
+      "year": 2024
+    },
+    {
+      "title": "System Design for Beginners Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=m8Icp_Cid5o",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "System Design for Beginners Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "System Design Complete Course 2026 | Hindi + English | 10+ Hours | SDE Interview Preparation",
+      "creator": "designKarle - System Design By Shivam Tiwari",
+      "url": "https://www.youtube.com/watch?v=5XmZK5fls5w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design Complete Course 2026 | Hindi + English | 10+ Hours | SDE Interview Preparation - Complete guide by designKarle - System Design By Shivam Tiwari.",
+      "year": 2024
+    },
+    {
+      "title": "System Design Primer ⭐️: How to start with distributed systems?",
+      "creator": "Gaurav Sen",
+      "url": "https://www.youtube.com/watch?v=SqcXvc3ZmRU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design Primer ⭐️: How to start with distributed systems? - Complete guide by Gaurav Sen.",
+      "year": 2024
+    },
+    {
+      "title": "Coding Interviews Be Like",
+      "creator": "Nicholas T.",
+      "url": "https://www.youtube.com/watch?v=kVgy1GSDHG8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Coding Interviews Be Like - Complete guide by Nicholas T..",
+      "year": 2024
+    },
+    {
+      "title": "Introduction To System Design",
+      "creator": "Coder Army",
+      "url": "https://www.youtube.com/watch?v=AK0hu0Zxua4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction To System Design - Complete guide by Coder Army.",
+      "year": 2024
+    },
+    {
+      "title": "Complete System Design Roadmap 2026 | HLD & LLD by Shradha Ma'am",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=CuQmQpvw04I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete System Design Roadmap 2026 | HLD & LLD by Shradha Ma'am - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "How I prepared System Design",
+      "creator": "Sahil & Sarra",
+      "url": "https://www.youtube.com/watch?v=0JSg44zuUTw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How I prepared System Design - Complete guide by Sahil & Sarra.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction To System Design | 💪 Chakde System Design (English Subtitles) Ep. 1",
+      "creator": "Chirag Goel",
+      "url": "https://www.youtube.com/watch?v=sV_4pOGosnU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction To System Design | 💪 Chakde System Design (English Subtitles) Ep. 1 - Complete guide by Chirag Goel.",
+      "year": 2024
+    },
+    {
+      "title": "Best System Design Playlist that helped me crack 50+ LPA Offer. #systemdesign #playlist #coding",
+      "creator": "Mayank Joshi",
+      "url": "https://www.youtube.com/watch?v=BsqQ-7lJLRE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Best System Design Playlist that helped me crack 50+ LPA Offer. #systemdesign #playlist #coding - Complete guide by Mayank Joshi.",
+      "year": 2024
+    },
+    {
+      "title": "OOPs Real-World Examples | OOPs Pillars | Abstraction | Encapsulation",
+      "creator": "Coder Army",
+      "url": "https://www.youtube.com/watch?v=QbGoqAgP_zg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "OOPs Real-World Examples | OOPs Pillars | Abstraction | Encapsulation - Complete guide by Coder Army.",
+      "year": 2024
+    },
+    {
+      "title": "System Design BASICS: Horizontal vs. Vertical Scaling",
+      "creator": "Gaurav Sen",
+      "url": "https://www.youtube.com/watch?v=xpDnVSmNFX0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design BASICS: Horizontal vs. Vertical Scaling - Complete guide by Gaurav Sen.",
+      "year": 2024
+    },
+    {
+      "title": "Best system design resources to prepare for interviews #tech #interview #career #success #system",
+      "creator": "Mahima Hans",
+      "url": "https://www.youtube.com/watch?v=ggyNDS2QSDg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Best system design resources to prepare for interviews #tech #interview #career #success #system - Complete guide by Mahima Hans.",
+      "year": 2024
+    },
+    {
+      "title": "System Design for Beginners (2026)",
+      "creator": "KodeKloud",
+      "url": "https://www.youtube.com/watch?v=SE2KF-vxvS0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "System Design for Beginners (2026) - Complete guide by KodeKloud.",
+      "year": 2024
+    },
+    {
+      "title": "I spent 1000+ hours on System Design, so you don't have to.",
+      "creator": "Anu Sharma",
+      "url": "https://www.youtube.com/watch?v=jc285TeGKAE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I spent 1000+ hours on System Design, so you don't have to. - Complete guide by Anu Sharma.",
+      "year": 2024
+    },
+    {
+      "title": "Cracking Frontend System Design Interview | Front-end | Chakde System Design (English Subtitle)Ep. 2",
+      "creator": "Chirag Goel",
+      "url": "https://www.youtube.com/watch?v=QemIfzcEeMM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Cracking Frontend System Design Interview | Front-end | Chakde System Design (English Subtitle)Ep. 2 - Complete guide by Chirag Goel.",
+      "year": 2024
+    },
+    {
+      "title": "System Design crack karna hai?",
+      "creator": "ezCommit",
+      "url": "https://www.youtube.com/watch?v=5BdYIKUEUWY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design crack karna hai? - Complete guide by ezCommit.",
+      "year": 2024
+    },
+    {
+      "title": "20 MUST-KNOW System Design Concepts For Interviews",
+      "creator": "Vishakha Sadhwani",
+      "url": "https://www.youtube.com/watch?v=ODR2RxO9ANQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "20 MUST-KNOW System Design Concepts For Interviews - Complete guide by Vishakha Sadhwani.",
+      "year": 2024
+    },
+    {
+      "title": "System Design Interview (prep)",
+      "creator": "NextWork",
+      "url": "https://www.youtube.com/watch?v=rTyW2IpINDo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design Interview (prep) - Complete guide by NextWork.",
+      "year": 2024
+    },
+    {
+      "title": "Uber | System Design in 60 Seconds #systemdesigninterview #uber #ridesharing",
+      "creator": "TechPrep",
+      "url": "https://www.youtube.com/watch?v=xMlsVPH_SWA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Uber | System Design in 60 Seconds #systemdesigninterview #uber #ridesharing - Complete guide by TechPrep.",
+      "year": 2024
+    },
+    {
+      "title": "System Design Concepts EVERY Engineer MUST KNOW",
+      "creator": "Vishakha Sadhwani",
+      "url": "https://www.youtube.com/watch?v=b7hfcQUxR_k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design Concepts EVERY Engineer MUST KNOW - Complete guide by Vishakha Sadhwani.",
+      "year": 2024
+    },
+    {
+      "title": "System Design Interview: Notify 50M Users at 12:00 | Notification System Design | Day 6",
+      "creator": "System Design With Param",
+      "url": "https://www.youtube.com/watch?v=5A_tlEoz6t4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design Interview: Notify 50M Users at 12:00 | Notification System Design | Day 6 - Complete guide by System Design With Param.",
+      "year": 2024
+    },
+    {
+      "title": "What is System Design | Frontend System Design",
+      "creator": "Chirag Goel",
+      "url": "https://www.youtube.com/watch?v=jFcCaU3SuxQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is System Design | Frontend System Design - Complete guide by Chirag Goel.",
+      "year": 2024
+    },
+    {
+      "title": "10+ Key Memory & Storage Systems: Crash Course System Design #5",
+      "creator": "ByteByteGo",
+      "url": "https://www.youtube.com/watch?v=lX4CrbXMsNQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "10+ Key Memory & Storage Systems: Crash Course System Design #5 - Complete guide by ByteByteGo.",
+      "year": 2024
+    },
+    {
+      "title": "If I was a beginner in LLD, I would do THIS for interviews! To-The-Point Roadmap",
+      "creator": "Keerti Purswani",
+      "url": "https://www.youtube.com/watch?v=NrAXmQX-XI8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "If I was a beginner in LLD, I would do THIS for interviews! To-The-Point Roadmap - Complete guide by Keerti Purswani.",
+      "year": 2024
+    },
+    {
+      "title": "Everything You Need to Know About DNS: Crash Course System Design #4",
+      "creator": "ByteByteGo",
+      "url": "https://www.youtube.com/watch?v=27r4Bzuj5NQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Everything You Need to Know About DNS: Crash Course System Design #4 - Complete guide by ByteByteGo.",
+      "year": 2024
+    },
+    {
+      "title": "Top 5 System Design problems",
+      "creator": "Sahil & Sarra",
+      "url": "https://www.youtube.com/watch?v=X63h6oVoqas",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top 5 System Design problems - Complete guide by Sahil & Sarra.",
+      "year": 2024
+    },
+    {
+      "title": "System design interview preparation #interview #coding #systemdesign #ai #programming #1m #like",
+      "creator": "Techack",
+      "url": "https://www.youtube.com/watch?v=w2DIsOQNC9A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System design interview preparation #interview #coding #systemdesign #ai #programming #1m #like - Complete guide by Techack.",
+      "year": 2024
+    },
+    {
+      "title": "Still grinding DSA? Make room for system design before your next interview. #viral #codinginterview",
+      "creator": "Kanishk Wagh",
+      "url": "https://www.youtube.com/watch?v=h2eGngJyHBc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Still grinding DSA? Make room for system design before your next interview. #viral #codinginterview - Complete guide by Kanishk Wagh.",
+      "year": 2024
+    },
+    {
+      "title": "🔥 Master These 20 System Design Concepts Before Your FAANG Interview",
+      "creator": "NexusByte Academy",
+      "url": "https://www.youtube.com/watch?v=qI_L4EGneL0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🔥 Master These 20 System Design Concepts Before Your FAANG Interview - Complete guide by NexusByte Academy.",
+      "year": 2024
+    },
+    {
+      "title": "System Design Prep: Cram vs Skim vs Daily. How Long Would You Last?",
+      "creator": "The Coding Gopher",
+      "url": "https://www.youtube.com/watch?v=NSNqzuxTACs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design Prep: Cram vs Skim vs Daily. How Long Would You Last? - Complete guide by The Coding Gopher.",
+      "year": 2024
+    },
+    {
+      "title": "Instagram System Design: Photo Upload, S3, CDN, Feed | System Design Interview 12/25",
+      "creator": "Agnicode Technologies",
+      "url": "https://www.youtube.com/watch?v=LKdOCiC-ZpU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Instagram System Design: Photo Upload, S3, CDN, Feed | System Design Interview 12/25 - Complete guide by Agnicode Technologies.",
+      "year": 2024
+    },
+    {
+      "title": "Design a File Upload Service Like Google Drive | System Design Interview  #systemdesign #drive",
+      "creator": "Commit Bytes",
+      "url": "https://www.youtube.com/watch?v=oBE-fA_lJ3k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Design a File Upload Service Like Google Drive | System Design Interview  #systemdesign #drive - Complete guide by Commit Bytes.",
+      "year": 2024
+    },
+    {
+      "title": "System Design was HARD until I Learned these 30 Concepts",
+      "creator": "Ashish Pratap Singh",
+      "url": "https://www.youtube.com/watch?v=s9Qh9fWeOAk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design was HARD until I Learned these 30 Concepts - Complete guide by Ashish Pratap Singh.",
+      "year": 2024
+    },
+    {
+      "title": "System Design Interview Prep for Beginners (Full Course)",
+      "creator": "KodeKloud",
+      "url": "https://www.youtube.com/watch?v=oz5c88cO5P8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "System Design Interview Prep for Beginners (Full Course) - Complete guide by KodeKloud.",
+      "year": 2024
+    },
+    {
+      "title": "Can you do this Frontend System Design Question? #frontend #systemdesign",
+      "creator": "RoadsideCoder",
+      "url": "https://www.youtube.com/watch?v=fbq_EcNDuow",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Can you do this Frontend System Design Question? #frontend #systemdesign - Complete guide by RoadsideCoder.",
+      "year": 2024
+    },
+    {
+      "title": "System Design interview hack!!       #SystemDesign #BackendEngineering #SoftwareEngineer #TechTok",
+      "creator": "Dietcode",
+      "url": "https://www.youtube.com/watch?v=NVn8QnYW7ts",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design interview hack!!       #SystemDesign #BackendEngineering #SoftwareEngineer #TechTok - Complete guide by Dietcode.",
+      "year": 2024
+    },
+    {
+      "title": "[Front End System Design] - Facebook News Feed",
+      "creator": "Front-End Engineer",
+      "url": "https://www.youtube.com/watch?v=5vyKhm2NTfw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "[Front End System Design] - Facebook News Feed - Complete guide by Front-End Engineer.",
+      "year": 2024
+    },
+    {
+      "title": "[Complete] System Design Roadmap with Videos/Blogs for Everyone - Interviews and Kickstart Career",
+      "creator": "Striver",
+      "url": "https://www.youtube.com/watch?v=3baWzvEDfgU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "[Complete] System Design Roadmap with Videos/Blogs for Everyone - Interviews and Kickstart Career - Complete guide by Striver.",
+      "year": 2024
+    },
+    {
+      "title": "Day 83/50 System Design Framework | System Design Interview Preparation Series",
+      "creator": "Coding Decoded",
+      "url": "https://www.youtube.com/watch?v=YiclYDOXfCw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Day 83/50 System Design Framework | System Design Interview Preparation Series - Complete guide by Coding Decoded.",
+      "year": 2024
+    },
+    {
+      "title": "System Design Architecture Patterns Full Course in 2 Hours [FREE]",
+      "creator": "Cloud X Berry",
+      "url": "https://www.youtube.com/watch?v=TnoW2ZrzUWI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design Architecture Patterns Full Course in 2 Hours [FREE] - Complete guide by Cloud X Berry.",
+      "year": 2024
+    },
+    {
+      "title": "[Front-End System Design] - Pinterest",
+      "creator": "Front-End Engineer",
+      "url": "https://www.youtube.com/watch?v=3MADCVqL534",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "[Front-End System Design] - Pinterest - Complete guide by Front-End Engineer.",
+      "year": 2024
+    },
+    {
+      "title": "AI System Design Interview Cheatsheet!",
+      "creator": "Keerti Purswani",
+      "url": "https://www.youtube.com/watch?v=kuHptZib1tY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AI System Design Interview Cheatsheet! - Complete guide by Keerti Purswani.",
+      "year": 2024
+    },
+    {
+      "title": "Most Important System Design Terms . #SystemDesign  #trending #Coding  #Shorts #viral",
+      "creator": "Coders Lite",
+      "url": "https://www.youtube.com/watch?v=WvopTxjqucA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Most Important System Design Terms . #SystemDesign  #trending #Coding  #Shorts #viral - Complete guide by Coders Lite.",
+      "year": 2024
+    },
+    {
+      "title": "FAANG System Design Interview: Design A Location Based Service (Yelp, Google Places)",
+      "creator": "ByteByteGo",
+      "url": "https://www.youtube.com/watch?v=M4lR_Va97cQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "FAANG System Design Interview: Design A Location Based Service (Yelp, Google Places) - Complete guide by ByteByteGo.",
+      "year": 2024
+    },
+    {
+      "title": "System Design: Design YouTube",
+      "creator": "ByteByteGo",
+      "url": "https://www.youtube.com/watch?v=jWRW2xGMqSw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design: Design YouTube - Complete guide by ByteByteGo.",
+      "year": 2024
+    },
+    {
+      "title": "System Design Interview: A Step-By-Step Guide",
+      "creator": "ByteByteGo",
+      "url": "https://www.youtube.com/watch?v=i7twT3x5yv8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design Interview: A Step-By-Step Guide - Complete guide by ByteByteGo.",
+      "year": 2024
+    },
+    {
+      "title": "What is system design process in software engineering ?",
+      "creator": "Engineering Digest",
+      "url": "https://www.youtube.com/watch?v=43-X22tdxiI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is system design process in software engineering ? - Complete guide by Engineering Digest.",
+      "year": 2024
+    },
+    {
+      "title": "Consistent Hashing | Algorithms You Should Know #1",
+      "creator": "ByteByteGo",
+      "url": "https://www.youtube.com/watch?v=UF9Iqmg94tk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Consistent Hashing | Algorithms You Should Know #1 - Complete guide by ByteByteGo.",
+      "year": 2024
+    },
+    {
+      "title": "How to Crack Any System Design Interview",
+      "creator": "ByteByteGo",
+      "url": "https://www.youtube.com/watch?v=o-k7h2G3Gco",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Crack Any System Design Interview - Complete guide by ByteByteGo.",
+      "year": 2024
+    },
+    {
+      "title": "Monolithic Architecture In Hindi  ( Complete Explanation )",
+      "creator": "Engineering Digest",
+      "url": "https://www.youtube.com/watch?v=z4AUhxIWKSM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Monolithic Architecture In Hindi  ( Complete Explanation ) - Complete guide by Engineering Digest.",
+      "year": 2024
+    },
+    {
+      "title": "System Design | Chapter 1 - Scale From Zero To Millions Of Users",
+      "creator": "BrainBooster",
+      "url": "https://www.youtube.com/watch?v=iXnuWPsiMDE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design | Chapter 1 - Scale From Zero To Millions Of Users - Complete guide by BrainBooster.",
+      "year": 2024
+    },
+    {
+      "title": "How Does a URL Shortener Work?",
+      "creator": "ByteByteGo",
+      "url": "https://www.youtube.com/watch?v=HHUi8F_qAXM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Does a URL Shortener Work? - Complete guide by ByteByteGo.",
+      "year": 2024
+    },
+    {
+      "title": "7 System Design Concepts Explained in 10 Minutes",
+      "creator": "ByteByteGo",
+      "url": "https://www.youtube.com/watch?v=Qd9tJ3H_hPE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "7 System Design Concepts Explained in 10 Minutes - Complete guide by ByteByteGo.",
+      "year": 2024
+    },
+    {
+      "title": "System Design Was HARD - Until You Knew the Trade-Offs",
+      "creator": "ByteByteGo",
+      "url": "https://www.youtube.com/watch?v=1nENigGr-a0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design Was HARD - Until You Knew the Trade-Offs - Complete guide by ByteByteGo.",
+      "year": 2024
+    },
+    {
+      "title": "System design | Chapter 2 - Back-of-the-Envelope Estimation.",
+      "creator": "BrainBooster",
+      "url": "https://www.youtube.com/watch?v=m8elaqpNdwA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System design | Chapter 2 - Back-of-the-Envelope Estimation. - Complete guide by BrainBooster.",
+      "year": 2024
+    },
+    {
+      "title": "Algorithms You Should Know Before System Design Interviews",
+      "creator": "ByteByteGo",
+      "url": "https://www.youtube.com/watch?v=xbgzl2maQUU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Algorithms You Should Know Before System Design Interviews - Complete guide by ByteByteGo.",
+      "year": 2024
+    },
+    {
+      "title": "System Design Interview – BIGGEST Mistakes to Avoid",
+      "creator": "ByteByteGo",
+      "url": "https://www.youtube.com/watch?v=OvufRkoD-D0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design Interview – BIGGEST Mistakes to Avoid - Complete guide by ByteByteGo.",
+      "year": 2024
+    },
+    {
+      "title": "System Design for Beginners",
+      "creator": "Piyush Garg",
+      "url": "https://www.youtube.com/watch?v=lFeYU31TnQ8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "System Design for Beginners - Complete guide by Piyush Garg.",
+      "year": 2024
+    },
+    {
+      "title": "System Design Crash Course - Part 2",
+      "creator": "Piyush Garg",
+      "url": "https://www.youtube.com/watch?v=YuB3OuF3MUE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design Crash Course - Part 2 - Complete guide by Piyush Garg.",
+      "year": 2024
+    },
+    {
+      "title": "Why do Databases fail? AntiPatterns to avoid!",
+      "creator": "Gaurav Sen",
+      "url": "https://www.youtube.com/watch?v=9T-gNZ5bGCw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why do Databases fail? AntiPatterns to avoid! - Complete guide by Gaurav Sen.",
+      "year": 2024
+    },
+    {
+      "title": "How I built an AI Teacher with Vector Databases and ChatGPT",
+      "creator": "Gaurav Sen",
+      "url": "https://www.youtube.com/watch?v=Z3uWleYwOQA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How I built an AI Teacher with Vector Databases and ChatGPT - Complete guide by Gaurav Sen.",
+      "year": 2024
+    },
+    {
+      "title": "Design Tic Tac Toe: Low Level Design Coding Interview Question",
+      "creator": "Gaurav Sen",
+      "url": "https://www.youtube.com/watch?v=gktZsX9Z8Kw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Design Tic Tac Toe: Low Level Design Coding Interview Question - Complete guide by Gaurav Sen.",
+      "year": 2024
+    },
+    {
+      "title": "System Design of Chess: Low-Level Design",
+      "creator": "Gaurav Sen",
+      "url": "https://www.youtube.com/watch?v=I-iZbOVXwxg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design of Chess: Low-Level Design - Complete guide by Gaurav Sen.",
+      "year": 2024
+    },
+    {
+      "title": "AI System Design in 2026",
+      "creator": "Gaurav Sen",
+      "url": "https://www.youtube.com/watch?v=FTMFprsV-wI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AI System Design in 2026 - Complete guide by Gaurav Sen.",
+      "year": 2024
+    },
+    {
+      "title": "Spreading the joy of system design! #education #interviewready #systemdesign",
+      "creator": "Gaurav Sen",
+      "url": "https://www.youtube.com/watch?v=8q2lWTQAhr8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Spreading the joy of system design! #education #interviewready #systemdesign - Complete guide by Gaurav Sen.",
+      "year": 2024
+    },
+    {
+      "title": "20 AI Concepts Explained in 40 Minutes",
+      "creator": "Gaurav Sen",
+      "url": "https://www.youtube.com/watch?v=OYvlznJ4IZQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "20 AI Concepts Explained in 40 Minutes - Complete guide by Gaurav Sen.",
+      "year": 2024
+    },
+    {
+      "title": "Time for SDEs to pivot? #ai",
+      "creator": "Gaurav Sen",
+      "url": "https://www.youtube.com/watch?v=x8d1npeWWUo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Time for SDEs to pivot? #ai - Complete guide by Gaurav Sen.",
+      "year": 2024
+    },
+    {
+      "title": "WHATSAPP System Design: Chat Messaging Systems for Interviews",
+      "creator": "Gaurav Sen",
+      "url": "https://www.youtube.com/watch?v=vvhC64hQZMk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "WHATSAPP System Design: Chat Messaging Systems for Interviews - Complete guide by Gaurav Sen.",
+      "year": 2024
+    },
+    {
+      "title": "Zerodha Stock Broker System Design with @KeertiPurswani",
+      "creator": "Gaurav Sen",
+      "url": "https://www.youtube.com/watch?v=DH2-vDPFiE4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Zerodha Stock Broker System Design with @KeertiPurswani - Complete guide by Gaurav Sen.",
+      "year": 2024
+    },
+    {
+      "title": "UPI System Design Mock Interview with Gaurav Sen & @sudocode",
+      "creator": "Gaurav Sen",
+      "url": "https://www.youtube.com/watch?v=QpLy0_c_RXk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "UPI System Design Mock Interview with Gaurav Sen & @sudocode - Complete guide by Gaurav Sen.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to NoSQL databases",
+      "creator": "Gaurav Sen",
+      "url": "https://www.youtube.com/watch?v=xQnIN9bW0og",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to NoSQL databases - Complete guide by Gaurav Sen.",
+      "year": 2024
+    },
+    {
+      "title": "4 Playlists That Cover 90% of DSA + System Design",
+      "creator": "Barely Shipped",
+      "url": "https://www.youtube.com/watch?v=2g5du9LIMGY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "4 Playlists That Cover 90% of DSA + System Design - Complete guide by Barely Shipped.",
+      "year": 2024
+    },
+    {
+      "title": "8 Most Important System Design Concepts You Should Know",
+      "creator": "ByteByteGo",
+      "url": "https://www.youtube.com/watch?v=BTjxUS_PylA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "8 Most Important System Design Concepts You Should Know - Complete guide by ByteByteGo.",
+      "year": 2024
+    },
+    {
+      "title": "Learn System Design with These Top Resources!🤩",
+      "creator": "Deepanshu Udhwani",
+      "url": "https://www.youtube.com/watch?v=_JXYWkJx5dY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn System Design with These Top Resources!🤩 - Complete guide by Deepanshu Udhwani.",
+      "year": 2024
+    },
+    {
+      "title": "Best System Design Playlist! #systemdesign #coding #interview #job #tips #freshers #sde #faang",
+      "creator": "Mayank Joshi",
+      "url": "https://www.youtube.com/watch?v=vnGGwtCBxjk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Best System Design Playlist! #systemdesign #coding #interview #job #tips #freshers #sde #faang - Complete guide by Mayank Joshi.",
+      "year": 2024
+    },
+    {
+      "title": "System Design Interview Tips ✅ #Shorts #SystemDesign #Interview #SoftwareEngineering",
+      "creator": "Gaurav Sen",
+      "url": "https://www.youtube.com/watch?v=fhVCssGJlR4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design Interview Tips ✅ #Shorts #SystemDesign #Interview #SoftwareEngineering - Complete guide by Gaurav Sen.",
+      "year": 2024
+    },
+    {
+      "title": "1 Hour a Day = System Design Mastered 🧠 | Best FREE Playlist for FAANG & Top Tech Jobs 2026",
+      "creator": "Tripti Gupta",
+      "url": "https://www.youtube.com/watch?v=Oz8PWX4aNWk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1 Hour a Day = System Design Mastered 🧠 | Best FREE Playlist for FAANG & Top Tech Jobs 2026 - Complete guide by Tripti Gupta.",
+      "year": 2024
+    },
+    {
+      "title": "System Design Best FREE Resource 💯 #shorts",
+      "creator": "Siddharth Singh",
+      "url": "https://www.youtube.com/watch?v=-6jHR6RmqXw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design Best FREE Resource 💯 #shorts - Complete guide by Siddharth Singh.",
+      "year": 2024
+    },
+    {
+      "title": "System Design ke Loops me MAT phanso #shorts",
+      "creator": "Tanay Pratap",
+      "url": "https://www.youtube.com/watch?v=_nYdDR_tKrE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design ke Loops me MAT phanso #shorts - Complete guide by Tanay Pratap.",
+      "year": 2024
+    },
+    {
+      "title": "System Design Components List",
+      "creator": "Gaurav Sen",
+      "url": "https://www.youtube.com/watch?v=-2ISAu0EfkY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design Components List - Complete guide by Gaurav Sen.",
+      "year": 2024
+    },
+    {
+      "title": "Best System Design Resources for Interview Prep (2026 Guide)",
+      "creator": "Haseeb Iqbal",
+      "url": "https://www.youtube.com/watch?v=CfTgANwc1gE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Best System Design Resources for Interview Prep (2026 Guide) - Complete guide by Haseeb Iqbal.",
+      "year": 2024
+    },
+    {
+      "title": "System design interview #unboxing #unboxingvideo #asmrunboxing #unboxingstation #unbox",
+      "creator": "Unboxing Station",
+      "url": "https://www.youtube.com/watch?v=IACF4r_Un3s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System design interview #unboxing #unboxingvideo #asmrunboxing #unboxingstation #unbox - Complete guide by Unboxing Station.",
+      "year": 2024
+    },
+    {
+      "title": "How Uber matches drivers in real time.",
+      "creator": "Gaurav Sen",
+      "url": "https://www.youtube.com/watch?v=Mb_CpdowDpk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Uber matches drivers in real time. - Complete guide by Gaurav Sen.",
+      "year": 2024
+    },
+    {
+      "title": "Interview Tip for System Design | Impress your interviewer | Be smart!",
+      "creator": "Keerti Purswani",
+      "url": "https://www.youtube.com/watch?v=4P2dPsAtqaU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Interview Tip for System Design | Impress your interviewer | Be smart! - Complete guide by Keerti Purswani.",
+      "year": 2024
+    },
+    {
+      "title": "Why you should do System Design.",
+      "creator": "Gaurav Sen",
+      "url": "https://www.youtube.com/watch?v=RmuWihm82AY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why you should do System Design. - Complete guide by Gaurav Sen.",
+      "year": 2024
+    },
+    {
+      "title": "This is how Instagram serves 140,000,000,000 reels every day",
+      "creator": "Gaurav Sen",
+      "url": "https://www.youtube.com/watch?v=oWNOvD6pv1k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "This is how Instagram serves 140,000,000,000 reels every day - Complete guide by Gaurav Sen.",
+      "year": 2024
+    },
+    {
+      "title": "YOU DON'T NEED MONEY TO CRACK SYSTEM DESIGN INTERVIEWS 🚀 | 9 FREE RESOURCES",
+      "creator": "Shivansh Mishra",
+      "url": "https://www.youtube.com/watch?v=rCVyeHFxvtw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "YOU DON'T NEED MONEY TO CRACK SYSTEM DESIGN INTERVIEWS 🚀 | 9 FREE RESOURCES - Complete guide by Shivansh Mishra.",
+      "year": 2024
+    },
+    {
+      "title": "Check description for links! Crack system design interviews using these resources!",
+      "creator": "Anamika Gour",
+      "url": "https://www.youtube.com/watch?v=wG6S0W0FApQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Check description for links! Crack system design interviews using these resources! - Complete guide by Anamika Gour.",
+      "year": 2024
+    },
+    {
+      "title": "✅ System Design 2: Design Ticket Booking System like BookMyShow, District / HLD / LLD",
+      "creator": "InterviewWithBunny",
+      "url": "https://www.youtube.com/watch?v=uamf0wRMx5o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "✅ System Design 2: Design Ticket Booking System like BookMyShow, District / HLD / LLD - Complete guide by InterviewWithBunny.",
+      "year": 2024
+    },
+    {
+      "title": "✅ System Design 1: Design Tiny URL (with Advanced Design)/ URL Shortner / Bitly / TinyURL / HLD/ LLD",
+      "creator": "InterviewWithBunny",
+      "url": "https://www.youtube.com/watch?v=Y-BO_4XNw8c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "✅ System Design 1: Design Tiny URL (with Advanced Design)/ URL Shortner / Bitly / TinyURL / HLD/ LLD - Complete guide by InterviewWithBunny.",
+      "year": 2024
+    },
+    {
+      "title": "How Google Maps navigation algorithm works",
+      "creator": "Gaurav Sen",
+      "url": "https://www.youtube.com/watch?v=MjCKNQ0Jh4s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Google Maps navigation algorithm works - Complete guide by Gaurav Sen.",
+      "year": 2024
+    },
+    {
+      "title": "System Design: TINDER as a microservice architecture",
+      "creator": "Gaurav Sen",
+      "url": "https://www.youtube.com/watch?v=tndzLznxq40",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design: TINDER as a microservice architecture - Complete guide by Gaurav Sen.",
+      "year": 2024
+    },
+    {
+      "title": "What are AI Agents?",
+      "creator": "IBM Technology",
+      "url": "https://www.youtube.com/watch?v=F8NKVhkZZWI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What are AI Agents? - Complete guide by IBM Technology.",
+      "year": 2024
+    },
+    {
+      "title": "System design series part - 2 in Hindi",
+      "creator": "Shashank Gaur",
+      "url": "https://www.youtube.com/watch?v=oft9zg2b2Fs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System design series part - 2 in Hindi - Complete guide by Shashank Gaur.",
+      "year": 2024
+    },
+    {
+      "title": "DeepSeek-R1 beats OpenAI benchmarks with Reinforcement Learning",
+      "creator": "Gaurav Sen",
+      "url": "https://www.youtube.com/watch?v=A0nXJ6TvVpo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DeepSeek-R1 beats OpenAI benchmarks with Reinforcement Learning - Complete guide by Gaurav Sen.",
+      "year": 2024
+    },
+    {
+      "title": "How much does a BACKEND SOFTWARE ENGINEER make? #shorts #ytshorts #techjobsin2minutes",
+      "creator": "Tech Stories in 2 Minutes",
+      "url": "https://www.youtube.com/watch?v=naKSTWu-z8I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How much does a BACKEND SOFTWARE ENGINEER make? #shorts #ytshorts #techjobsin2minutes - Complete guide by Tech Stories in 2 Minutes.",
+      "year": 2024
+    },
+    {
+      "title": "1. Roadmap for backend from first principles",
+      "creator": "Sriniously",
+      "url": "https://www.youtube.com/watch?v=0Rwb4Xmlcwc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1. Roadmap for backend from first principles - Complete guide by Sriniously.",
+      "year": 2024
+    },
+    {
+      "title": "The backbone of backend system design",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=wJO1_l-rnFg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The backbone of backend system design - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "2. Walk the path of a true backend engineer",
+      "creator": "Sriniously",
+      "url": "https://www.youtube.com/watch?v=3qFjZbFRSAU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "2. Walk the path of a true backend engineer - Complete guide by Sriniously.",
+      "year": 2024
+    },
+    {
+      "title": "URL Shortener System Design (Explained with Two proposed Designs with Pro and Cons of each)",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=5uX3rDRaHXw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "URL Shortener System Design (Explained with Two proposed Designs with Pro and Cons of each) - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Backend Message Queues Explained In 60 Seconds #shorts",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=zwerYz8U7_M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Backend Message Queues Explained In 60 Seconds #shorts - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Multi-player System Game Design - Pros & Cons of Proposed Designs & System Design Interviews Advice",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=vJ5cOfiJRgM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Multi-player System Game Design - Pros & Cons of Proposed Designs & System Design Interviews Advice - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "The #2 backend skill no one teaches CS students: System Design",
+      "creator": "Nasser_codes",
+      "url": "https://www.youtube.com/watch?v=XciMlzhkgZQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The #2 backend skill no one teaches CS students: System Design - Complete guide by Nasser_codes.",
+      "year": 2024
+    },
+    {
+      "title": "System Design Interview Kaise Crack Karein? 5 Step Framework in Hindi | URL Shortener | EP 05",
+      "creator": "Nexasus Technologies",
+      "url": "https://www.youtube.com/watch?v=jYl3IBXA4S4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design Interview Kaise Crack Karein? 5 Step Framework in Hindi | URL Shortener | EP 05 - Complete guide by Nexasus Technologies.",
+      "year": 2024
+    },
+    {
+      "title": "one request = one h2 stream",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=zJ7VQ-Cp0f4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "one request = one h2 stream - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "ui/ux",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=JuZXhyCOKVQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "ui/ux - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Socket Management in Backend System Design",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=x9iHwoAbwiA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Socket Management in Backend System Design - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Publish-Subscribe Architecture (Explained by Example)",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=O1PgqUqZKTA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Publish-Subscribe Architecture (Explained by Example) - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Someone is always getting blocked",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=hFf9XYR2v1I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Someone is always getting blocked - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "REST API Pros and Cons (Explained by Example)",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=M3XQ6yEC51Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "REST API Pros and Cons (Explained by Example) - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Switching Threads is Faster",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=1akqUYkSugY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Switching Threads is Faster - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Graceful shutdown is needed to scale backends",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=Qpgpty0rbqw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Graceful shutdown is needed to scale backends - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "What threads get from their process",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=VyWzjtbw8KE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What threads get from their process - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "how greedy are your processes? | Linux niceness",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=GsF8R6DBxSg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "how greedy are your processes? | Linux niceness - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "🔥SOLID Principle in Software Engineering in details | DAY 1 | Backend Concepts in Hindi",
+      "creator": "Learn Code With Durgesh",
+      "url": "https://www.youtube.com/watch?v=vBAiCsZE5RQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🔥SOLID Principle in Software Engineering in details | DAY 1 | Backend Concepts in Hindi - Complete guide by Learn Code With Durgesh.",
+      "year": 2024
+    },
+    {
+      "title": "Sync or Async?",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=RIzccIQAVFU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Sync or Async? - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "🔥My Backend Series Challenge | Starting new game changing series - Hindi",
+      "creator": "Learn Code With Durgesh",
+      "url": "https://www.youtube.com/watch?v=oN5xT_2JWuI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🔥My Backend Series Challenge | Starting new game changing series - Hindi - Complete guide by Learn Code With Durgesh.",
+      "year": 2024
+    },
+    {
+      "title": "How CPU Efficient is your App?",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=BTD5I1BMx2Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How CPU Efficient is your App? - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "When Designing a Backend System Minimize the “What If” Questions",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=1a7E0qh48gM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "When Designing a Backend System Minimize the “What If” Questions - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Show your Backend Engineering Skills To Recruiters - Building a Full Backend Portfolio",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=nIracKeqsFk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Show your Backend Engineering Skills To Recruiters - Building a Full Backend Portfolio - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "What are MicroServices? When & Why is it used? | Monolithic vs Microservices Architecture",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=7IFJb-uLEaI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What are MicroServices? When & Why is it used? | Monolithic vs Microservices Architecture - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "What are Microservices?",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=j3XufmvEMiM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What are Microservices? - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "How Microservices Architecture Works in 30 Seconds! ⚡ #shorts #systemdesign",
+      "creator": "auratek",
+      "url": "https://www.youtube.com/watch?v=yA5pHCC6sdo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Microservices Architecture Works in 30 Seconds! ⚡ #shorts #systemdesign - Complete guide by auratek.",
+      "year": 2024
+    },
+    {
+      "title": ".NET Microservices – Full Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=CqCDOosvZIk",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": ".NET Microservices – Full Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Microservices in Nest.js – JavaScript Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=t76UMpwFNs0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Microservices in Nest.js – JavaScript Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Best Website for Learning MicroService Architecture #code #software #ai #systemdesign",
+      "creator": "Rishabh Singh",
+      "url": "https://www.youtube.com/watch?v=8DHIdw6uyDA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Best Website for Learning MicroService Architecture #code #software #ai #systemdesign - Complete guide by Rishabh Singh.",
+      "year": 2024
+    },
+    {
+      "title": "Importance of micro services #microservices #architecture #aws #interview #technology #learning",
+      "creator": "Ankcademy",
+      "url": "https://www.youtube.com/watch?v=ipDCOzVABFw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Importance of micro services #microservices #architecture #aws #interview #technology #learning - Complete guide by Ankcademy.",
+      "year": 2024
+    },
+    {
+      "title": "Microservices Architecture Explained",
+      "creator": "Loopy Logics",
+      "url": "https://www.youtube.com/watch?v=GL-97npXtjc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Microservices Architecture Explained - Complete guide by Loopy Logics.",
+      "year": 2024
+    },
+    {
+      "title": "Lec-15: Microservice Architecture | System Design",
+      "creator": "Gate Smashers",
+      "url": "https://www.youtube.com/watch?v=ygPvw_CX5Zo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lec-15: Microservice Architecture | System Design - Complete guide by Gate Smashers.",
+      "year": 2024
+    },
+    {
+      "title": ".NET Microservices – Full Course",
+      "creator": "Les Jackson",
+      "url": "https://www.youtube.com/watch?v=DgVjEo3OGBI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": ".NET Microservices – Full Course - Complete guide by Les Jackson.",
+      "year": 2024
+    },
+    {
+      "title": "Let's Learn .NET - Microservices",
+      "creator": "dotnet",
+      "url": "https://www.youtube.com/watch?v=sstOXCQ-EG0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Let's Learn .NET - Microservices - Complete guide by dotnet.",
+      "year": 2024
+    },
+    {
+      "title": "Monolithic vs Microservices Architecture 🔥 | System Design Explained | SDE Interview #Shorts",
+      "creator": "Sneha Singh",
+      "url": "https://www.youtube.com/watch?v=M5VwQYXrOKY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Monolithic vs Microservices Architecture 🔥 | System Design Explained | SDE Interview #Shorts - Complete guide by Sneha Singh.",
+      "year": 2024
+    },
+    {
+      "title": "Microservices Architecture Explained #MicroservicesArchitecture #Microservices #SystemDesign",
+      "creator": "Java Guides",
+      "url": "https://www.youtube.com/watch?v=ZqZ2CvFZ5E0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Microservices Architecture Explained #MicroservicesArchitecture #Microservices #SystemDesign - Complete guide by Java Guides.",
+      "year": 2024
+    },
+    {
+      "title": "You Will Never Struggle With Microservices Again",
+      "creator": "Volkan Erdogan",
+      "url": "https://www.youtube.com/watch?v=RzFycOn5Xuo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "You Will Never Struggle With Microservices Again - Complete guide by Volkan Erdogan.",
+      "year": 2024
+    },
+    {
+      "title": "🌐 Understanding Microservice Architecture: The Future of Scalable Systems! 🌐",
+      "creator": "NonCoderSuccess",
+      "url": "https://www.youtube.com/watch?v=e5jugMKHlpI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🌐 Understanding Microservice Architecture: The Future of Scalable Systems! 🌐 - Complete guide by NonCoderSuccess.",
+      "year": 2024
+    },
+    {
+      "title": "Microservices Explained in 60 Seconds 🚀 | Monolith vs Microservices #Microservices #SystemDesign",
+      "creator": "VIRTUAL CODE",
+      "url": "https://www.youtube.com/watch?v=NEZ-aHuMMR0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Microservices Explained in 60 Seconds 🚀 | Monolith vs Microservices #Microservices #SystemDesign - Complete guide by VIRTUAL CODE.",
+      "year": 2024
+    },
+    {
+      "title": "Microservices Explained In 45 Seconds",
+      "creator": "Your Average Tech Bro",
+      "url": "https://www.youtube.com/watch?v=d9HpacNUfHQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Microservices Explained In 45 Seconds - Complete guide by Your Average Tech Bro.",
+      "year": 2024
+    },
+    {
+      "title": "Microservices Architecture Explained #coding #sql #python #webdevelopment #programming #viral #sort",
+      "creator": "CodeBuddy ",
+      "url": "https://www.youtube.com/watch?v=bJcvNOslSR8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Microservices Architecture Explained #coding #sql #python #webdevelopment #programming #viral #sort - Complete guide by CodeBuddy .",
+      "year": 2024
+    },
+    {
+      "title": "How Discord Stores Trillions of Messages | Deep Dive",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/watch?v=xynXjChKkJc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Discord Stores Trillions of Messages | Deep Dive - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Microservices tutorials #aws #microservices #technology #dailytechtips #interview #devops",
+      "creator": "Ankcademy",
+      "url": "https://www.youtube.com/watch?v=RavLhDUzSSc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Microservices tutorials #aws #microservices #technology #dailytechtips #interview #devops - Complete guide by Ankcademy.",
+      "year": 2024
+    },
+    {
+      "title": "Microservices Architecture Explained in 1 Minute. Backend Development | REST API & DB Independence",
+      "creator": "Backend Miles",
+      "url": "https://www.youtube.com/watch?v=SaDtDUNEcgA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Microservices Architecture Explained in 1 Minute. Backend Development | REST API & DB Independence - Complete guide by Backend Miles.",
+      "year": 2024
+    },
+    {
+      "title": "Microservice Architecture Explained in 60 Seconds 🚀 | How Big Apps Scale #systemdesign #RabbitMq",
+      "creator": "Coded Mind",
+      "url": "https://www.youtube.com/watch?v=ysbrTYfOGYg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Microservice Architecture Explained in 60 Seconds 🚀 | How Big Apps Scale #systemdesign #RabbitMq - Complete guide by Coded Mind.",
+      "year": 2024
+    },
+    {
+      "title": "Monolithic vs Microservices Architecture Explained in Hindi | System Design",
+      "creator": "CareerKit - Placement & Interview Prep",
+      "url": "https://www.youtube.com/watch?v=1iDJ9COf03c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Monolithic vs Microservices Architecture Explained in Hindi | System Design - Complete guide by CareerKit - Placement & Interview Prep.",
+      "year": 2024
+    },
+    {
+      "title": "Microservices Architecture ✅ Must Know For Developers ✅ #java #coding",
+      "creator": "CodeSnippet by Chetan",
+      "url": "https://www.youtube.com/watch?v=HCxPhHOqbZg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Microservices Architecture ✅ Must Know For Developers ✅ #java #coding - Complete guide by CodeSnippet by Chetan.",
+      "year": 2024
+    },
+    {
+      "title": "#267 ⚙️ What is Microservice Architecture? | Explained Simply 🚀",
+      "creator": "codewithkg",
+      "url": "https://www.youtube.com/watch?v=9gRR9Os3j2c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#267 ⚙️ What is Microservice Architecture? | Explained Simply 🚀 - Complete guide by codewithkg.",
+      "year": 2024
+    },
+    {
+      "title": "Microservices Best Practices in 40 Seconds 🚀 #coding2026 #webitech #artificialintelligence",
+      "creator": "Developer Guru",
+      "url": "https://www.youtube.com/watch?v=RsmeW-ec-aE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Microservices Best Practices in 40 Seconds 🚀 #coding2026 #webitech #artificialintelligence - Complete guide by Developer Guru.",
+      "year": 2024
+    },
+    {
+      "title": "Microservices Explained in 60 Seconds 🚀 | Backend Architecture #Shorts",
+      "creator": "Code Cracked AI",
+      "url": "https://www.youtube.com/watch?v=eXdQmdL_igc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Microservices Explained in 60 Seconds 🚀 | Backend Architecture #Shorts - Complete guide by Code Cracked AI.",
+      "year": 2024
+    },
+    {
+      "title": "When to choose monolith vs Microservices architecture for your apps or websites? #shorts #irfium",
+      "creator": "Irfium",
+      "url": "https://www.youtube.com/watch?v=KufRO1BYJOs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "When to choose monolith vs Microservices architecture for your apps or websites? #shorts #irfium - Complete guide by Irfium.",
+      "year": 2024
+    },
+    {
+      "title": "How Generative AI Changes Microservices Architecture",
+      "creator": "Architect With Purpose",
+      "url": "https://www.youtube.com/watch?v=BFQHdah5EPw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Generative AI Changes Microservices Architecture - Complete guide by Architect With Purpose.",
+      "year": 2024
+    },
+    {
+      "title": "Microservices Explained in 5 Minutes",
+      "creator": "5 Minutes Tech",
+      "url": "https://www.youtube.com/watch?v=lL_j7ilk7rc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Microservices Explained in 5 Minutes - Complete guide by 5 Minutes Tech.",
+      "year": 2024
+    },
+    {
+      "title": "Micro-Frontends Course - Beginner to Expert",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=lKKsjpH09dU",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Micro-Frontends Course - Beginner to Expert - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "What Are Microservices Really All About? (And When Not To Use It)",
+      "creator": "ByteByteGo",
+      "url": "https://www.youtube.com/watch?v=lTAcCNbJ7KE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What Are Microservices Really All About? (And When Not To Use It) - Complete guide by ByteByteGo.",
+      "year": 2024
+    },
+    {
+      "title": "Serverless and Microservices with C# – Scalable Cloud Applications with Azure and .NET Aspire",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=xHUwGx-ZlTM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Serverless and Microservices with C# – Scalable Cloud Applications with Azure and .NET Aspire - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Microservices vs Monolithic Architecture Explained #microservices #systemdesign #softwareengineering",
+      "creator": "Harshita Verma",
+      "url": "https://www.youtube.com/watch?v=GT14hZN9QL8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Microservices vs Monolithic Architecture Explained #microservices #systemdesign #softwareengineering - Complete guide by Harshita Verma.",
+      "year": 2024
+    },
+    {
+      "title": "Microservices Architecture: 12 Building Blocks in 85 Seconds #shorts",
+      "creator": "oolooroo",
+      "url": "https://www.youtube.com/watch?v=wsE2Ii0itNo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Microservices Architecture: 12 Building Blocks in 85 Seconds #shorts - Complete guide by oolooroo.",
+      "year": 2024
+    },
+    {
+      "title": "Distributed Systems 1.1: Introduction",
+      "creator": "Martin Kleppmann",
+      "url": "https://www.youtube.com/watch?v=UEAMfLPZZhE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Distributed Systems 1.1: Introduction - Complete guide by Martin Kleppmann.",
+      "year": 2024
+    },
+    {
+      "title": "Master Microservices & Event-Driven Architecture: Complete 6-Hour Guide for Beginners to Advanced",
+      "creator": "Akhil Sharma",
+      "url": "https://www.youtube.com/watch?v=FDjmWxETjn8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Master Microservices & Event-Driven Architecture: Complete 6-Hour Guide for Beginners to Advanced - Complete guide by Akhil Sharma.",
+      "year": 2024
+    },
+    {
+      "title": "🚀 Microservices Architecture Explained — The Big Picture 💯",
+      "creator": "CodeSnippet by Chetan",
+      "url": "https://www.youtube.com/watch?v=0WIVBifIux4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🚀 Microservices Architecture Explained — The Big Picture 💯 - Complete guide by CodeSnippet by Chetan.",
+      "year": 2024
+    },
+    {
+      "title": "Microservices Full Course - Learn Microservices in 4 Hours | Microservices Tutorial | Edureka",
+      "creator": "edureka!",
+      "url": "https://www.youtube.com/watch?v=tuJqH3AV0e8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Microservices Full Course - Learn Microservices in 4 Hours | Microservices Tutorial | Edureka - Complete guide by edureka!.",
+      "year": 2024
+    },
+    {
+      "title": "L1: What is a distributed system?",
+      "creator": "Distributed Systems Course",
+      "url": "https://www.youtube.com/watch?v=7VbL89mKK3M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "L1: What is a distributed system? - Complete guide by Distributed Systems Course.",
+      "year": 2024
+    },
+    {
+      "title": "Distributed Systems 1.2: Computer networking",
+      "creator": "Martin Kleppmann",
+      "url": "https://www.youtube.com/watch?v=1F3DEq8ML1U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Distributed Systems 1.2: Computer networking - Complete guide by Martin Kleppmann.",
+      "year": 2024
+    },
+    {
+      "title": "L2: Why build a distributed system?",
+      "creator": "Distributed Systems Course",
+      "url": "https://www.youtube.com/watch?v=pMQzLVK39Kk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "L2: Why build a distributed system? - Complete guide by Distributed Systems Course.",
+      "year": 2024
+    },
+    {
+      "title": "What is Distributed Systems | Introduction | Lec-01 | Bhanu Priya",
+      "creator": "Education 4u",
+      "url": "https://www.youtube.com/watch?v=Azyizl9w2xo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Distributed Systems | Introduction | Lec-01 | Bhanu Priya - Complete guide by Education 4u.",
+      "year": 2024
+    },
+    {
+      "title": "Distributed Systems | Characteristics | Lec-02 | Bhanu Priya",
+      "creator": "Education 4u",
+      "url": "https://www.youtube.com/watch?v=wLzIhhLQlqk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Distributed Systems | Characteristics | Lec-02 | Bhanu Priya - Complete guide by Education 4u.",
+      "year": 2024
+    },
+    {
+      "title": "Distributed Systems: Easy vs Nightmare 🤯 #memes #programming",
+      "creator": "ExceptionHunters: Quizzes, Coding & Tech Memes",
+      "url": "https://www.youtube.com/watch?v=FphnAr8RMo0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Distributed Systems: Easy vs Nightmare 🤯 #memes #programming - Complete guide by ExceptionHunters: Quizzes, Coding & Tech Memes.",
+      "year": 2024
+    },
+    {
+      "title": "OpenTelemetry Course - Understand Software Performance",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=r8UvWSX3KA8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "OpenTelemetry Course - Understand Software Performance - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Distributed Systems be like... #programming",
+      "creator": "CS Jackie",
+      "url": "https://www.youtube.com/watch?v=9PM7F-IaG2U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Distributed Systems be like... #programming - Complete guide by CS Jackie.",
+      "year": 2024
+    },
+    {
+      "title": "Distributed Systems with .NET Core, with Dylan Beattie",
+      "creator": "Codecamp Romania",
+      "url": "https://www.youtube.com/watch?v=CZDyMyML9Ik",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Distributed Systems with .NET Core, with Dylan Beattie - Complete guide by Codecamp Romania.",
+      "year": 2024
+    },
+    {
+      "title": "Why Distributed Systems CANNOT Have It All! (CAP Theorem) ⚖️ #shorts",
+      "creator": "CodeOrbit",
+      "url": "https://www.youtube.com/watch?v=kcvC5jl7aGc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why Distributed Systems CANNOT Have It All! (CAP Theorem) ⚖️ #shorts - Complete guide by CodeOrbit.",
+      "year": 2024
+    },
+    {
+      "title": "Distributed File Storage In Go – Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=IoY6bE--A54",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Distributed File Storage In Go – Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "What is a distributed system?",
+      "creator": "Jin Vincent “Jin” Necesario",
+      "url": "https://www.youtube.com/watch?v=7gSzDhoPAwE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is a distributed system? - Complete guide by Jin Vincent “Jin” Necesario.",
+      "year": 2024
+    },
+    {
+      "title": "Distributed Systems: 10 Concepts Every Backend Dev Must Know",
+      "creator": "VikStack",
+      "url": "https://www.youtube.com/watch?v=Q96upR_3COo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Distributed Systems: 10 Concepts Every Backend Dev Must Know - Complete guide by VikStack.",
+      "year": 2024
+    },
+    {
+      "title": "Database Saved it, so Why is it still missing? #systemdesign",
+      "creator": "Anirudh Jwala",
+      "url": "https://www.youtube.com/watch?v=bV_xvnW6dX0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Database Saved it, so Why is it still missing? #systemdesign - Complete guide by Anirudh Jwala.",
+      "year": 2024
+    },
+    {
+      "title": "Intro to Distributed Systems | sudoCODE",
+      "creator": "sudoCODE",
+      "url": "https://www.youtube.com/watch?v=RzAtVam9LqQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Intro to Distributed Systems | sudoCODE - Complete guide by sudoCODE.",
+      "year": 2024
+    },
+    {
+      "title": "System Design | Apache ZooKeeper Explained: How Distributed Systems Stay in Sync",
+      "creator": "Dietcode",
+      "url": "https://www.youtube.com/watch?v=73IsOYAVnsE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design | Apache ZooKeeper Explained: How Distributed Systems Stay in Sync - Complete guide by Dietcode.",
+      "year": 2024
+    },
+    {
+      "title": "Distributed Systems: How Eventual Consistency Works",
+      "creator": "aashish krishna",
+      "url": "https://www.youtube.com/watch?v=W5ZxelKR7ME",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Distributed Systems: How Eventual Consistency Works - Complete guide by aashish krishna.",
+      "year": 2024
+    },
+    {
+      "title": "Eventual Consistency in Distributed Systems #shorts #sudocode #systemdesign",
+      "creator": "sudoCODE",
+      "url": "https://www.youtube.com/watch?v=8r8pwByL4bY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Eventual Consistency in Distributed Systems #shorts #sudocode #systemdesign - Complete guide by sudoCODE.",
+      "year": 2024
+    },
+    {
+      "title": "Six years old interested in Distributed Systems | Replication",
+      "creator": "Think Software",
+      "url": "https://www.youtube.com/watch?v=I9IdHaDFxvk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Six years old interested in Distributed Systems | Replication - Complete guide by Think Software.",
+      "year": 2024
+    },
+    {
+      "title": "Complete roadmap to learn distributed systems #softwarearchitecture",
+      "creator": "Karan IITgn",
+      "url": "https://www.youtube.com/watch?v=zFVOGBuAtgA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete roadmap to learn distributed systems #softwarearchitecture - Complete guide by Karan IITgn.",
+      "year": 2024
+    },
+    {
+      "title": "What If a Server Crashes? How Distributed Systems Recover",
+      "creator": "Ctrl Z Engineer",
+      "url": "https://www.youtube.com/watch?v=hNnulLnqfZw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What If a Server Crashes? How Distributed Systems Recover - Complete guide by Ctrl Z Engineer.",
+      "year": 2024
+    },
+    {
+      "title": "Day 37/50 Optimising High Cache rate in Distributed system | System Design Interview Series",
+      "creator": "Coding Decoded",
+      "url": "https://www.youtube.com/watch?v=fRVP8qhNCng",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Day 37/50 Optimising High Cache rate in Distributed system | System Design Interview Series - Complete guide by Coding Decoded.",
+      "year": 2024
+    },
+    {
+      "title": "System Design Series — Day 19 What Is a Distributed System? Real-World Example #systemdesign #shorts",
+      "creator": "Learn with Ai",
+      "url": "https://www.youtube.com/watch?v=mqlbPr7F8js",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design Series — Day 19 What Is a Distributed System? Real-World Example #systemdesign #shorts - Complete guide by Learn with Ai.",
+      "year": 2024
+    },
+    {
+      "title": "Unlocking the Secrets of Distributed Computing: The Power of Parallelism",
+      "creator": "Tech Chips",
+      "url": "https://www.youtube.com/watch?v=-UPmMUaGXL0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Unlocking the Secrets of Distributed Computing: The Power of Parallelism - Complete guide by Tech Chips.",
+      "year": 2024
+    },
+    {
+      "title": "Why Failing Fast Saves Distributed Systems",
+      "creator": "Bits to Bytes",
+      "url": "https://www.youtube.com/watch?v=S2g_3gtSPiQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why Failing Fast Saves Distributed Systems - Complete guide by Bits to Bytes.",
+      "year": 2024
+    },
+    {
+      "title": "Decoupling Distributed Systems with Message Queues",
+      "creator": "aashish krishna",
+      "url": "https://www.youtube.com/watch?v=S9y6f015U50",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Decoupling Distributed Systems with Message Queues - Complete guide by aashish krishna.",
+      "year": 2024
+    },
+    {
+      "title": "Learn API development before distributed systems",
+      "creator": "Engineering with Utsav",
+      "url": "https://www.youtube.com/watch?v=d0bGPA595jY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn API development before distributed systems - Complete guide by Engineering with Utsav.",
+      "year": 2024
+    },
+    {
+      "title": "How Google makes distant servers agree on what time it is #tech #coding",
+      "creator": "Sanchit Agrawal",
+      "url": "https://www.youtube.com/watch?v=NtQlAKEJ_nI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Google makes distant servers agree on what time it is #tech #coding - Complete guide by Sanchit Agrawal.",
+      "year": 2024
+    },
+    {
+      "title": "Not Reading in the Dark (Correlation ID, Trace, Metrics) - Distributed Systems 08/11",
+      "creator": "KoThok",
+      "url": "https://www.youtube.com/watch?v=s4ClWJ_6T4A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Not Reading in the Dark (Correlation ID, Trace, Metrics) - Distributed Systems 08/11 - Complete guide by KoThok.",
+      "year": 2024
+    },
+    {
+      "title": "The Shared Budget: Four Lanes, One Back Room (Distributed Systems, part 6)",
+      "creator": "KoThok",
+      "url": "https://www.youtube.com/watch?v=8GLCE7Cprbk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Shared Budget: Four Lanes, One Back Room (Distributed Systems, part 6) - Complete guide by KoThok.",
+      "year": 2024
+    },
+    {
+      "title": "1.1 Define distributed systems and their goals",
+      "creator": "OU Education",
+      "url": "https://www.youtube.com/watch?v=TP__yw30ax4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1.1 Define distributed systems and their goals - Complete guide by OU Education.",
+      "year": 2024
+    },
+    {
+      "title": "Design Patterns for Distributed Systems by Google",
+      "creator": "Gaurav Sen",
+      "url": "https://www.youtube.com/watch?v=A8zJJPhBPro",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Design Patterns for Distributed Systems by Google - Complete guide by Gaurav Sen.",
+      "year": 2024
+    },
+    {
+      "title": "The distributed system lie seniors hate #systemdesign #backend #shorts",
+      "creator": "Devlingo",
+      "url": "https://www.youtube.com/watch?v=he48JuXFozU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The distributed system lie seniors hate #systemdesign #backend #shorts - Complete guide by Devlingo.",
+      "year": 2024
+    },
+    {
+      "title": "Design Leetcode - System Design Interview",
+      "creator": "NeetCodeIO",
+      "url": "https://www.youtube.com/watch?v=NPg2iRtCr-I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Design Leetcode - System Design Interview - Complete guide by NeetCodeIO.",
+      "year": 2024
+    },
+    {
+      "title": "20 System Design Concepts Explained in 10 Minutes",
+      "creator": "NeetCode",
+      "url": "https://www.youtube.com/watch?v=i53Gi_K3o7I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "20 System Design Concepts Explained in 10 Minutes - Complete guide by NeetCode.",
+      "year": 2024
+    },
+    {
+      "title": "Design Youtube - System Design Interview",
+      "creator": "NeetCode",
+      "url": "https://www.youtube.com/watch?v=jPKTo1iGQiE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Design Youtube - System Design Interview - Complete guide by NeetCode.",
+      "year": 2024
+    },
+    {
+      "title": "Design Twitter - System Design Interview",
+      "creator": "NeetCode",
+      "url": "https://www.youtube.com/watch?v=o5n85GRKuzk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Design Twitter - System Design Interview - Complete guide by NeetCode.",
+      "year": 2024
+    },
+    {
+      "title": "Design Google Docs - System Design Interview",
+      "creator": "NeetCodeIO",
+      "url": "https://www.youtube.com/watch?v=9JKBlkwg0yM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Design Google Docs - System Design Interview - Complete guide by NeetCodeIO.",
+      "year": 2024
+    },
+    {
+      "title": "1.2 Types of transparency",
+      "creator": "OU Education",
+      "url": "https://www.youtube.com/watch?v=BtJQK3GWxek",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1.2 Types of transparency - Complete guide by OU Education.",
+      "year": 2024
+    },
+    {
+      "title": "Github System Design Interview",
+      "creator": "NextWork",
+      "url": "https://www.youtube.com/watch?v=qtkSifj_vus",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Github System Design Interview - Complete guide by NextWork.",
+      "year": 2024
+    },
+    {
+      "title": "System Design crack karna hai?",
+      "creator": "Neeraj Walia",
+      "url": "https://www.youtube.com/watch?v=9SbA1Np1a8s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design crack karna hai? - Complete guide by Neeraj Walia.",
+      "year": 2024
+    },
+    {
+      "title": "Design Spotify Top K Songs - System Design Interview",
+      "creator": "NeetCodeIO",
+      "url": "https://www.youtube.com/watch?v=HjazbLlrWxI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Design Spotify Top K Songs - System Design Interview - Complete guide by NeetCodeIO.",
+      "year": 2024
+    },
+    {
+      "title": "🚀 Ace Your System Design Interviews with These 3 Must-Read Books!",
+      "creator": "CodeWithCJ",
+      "url": "https://www.youtube.com/watch?v=iKpkE3c6EJQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🚀 Ace Your System Design Interviews with These 3 Must-Read Books! - Complete guide by CodeWithCJ.",
+      "year": 2024
+    },
+    {
+      "title": "System design humbled me real quick 💀 #systemdesign #leetcode #techinterview #DevInterviewAI",
+      "creator": "Kevin Delicacy",
+      "url": "https://www.youtube.com/watch?v=cBGsvARxSBA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System design humbled me real quick 💀 #systemdesign #leetcode #techinterview #DevInterviewAI - Complete guide by Kevin Delicacy.",
+      "year": 2024
+    },
+    {
+      "title": "Design a URL Shortener (Bitly) - System Design Interview",
+      "creator": "NeetCodeIO",
+      "url": "https://www.youtube.com/watch?v=qSJAvd5Mgio",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Design a URL Shortener (Bitly) - System Design Interview - Complete guide by NeetCodeIO.",
+      "year": 2024
+    },
+    {
+      "title": "Preparing for Software Engineering Interviews? Start With System Design  #coding #programming",
+      "creator": "Nagendra Mohan",
+      "url": "https://www.youtube.com/watch?v=HAKkTvxfiz8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Preparing for Software Engineering Interviews? Start With System Design  #coding #programming - Complete guide by Nagendra Mohan.",
+      "year": 2024
+    },
+    {
+      "title": "Two Sum + Linked List Cycle | Most Asked DSA Interview Questions (Hindi) #Shorts",
+      "creator": "Stack forge",
+      "url": "https://www.youtube.com/watch?v=LuKF7w6bzME",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Two Sum + Linked List Cycle | Most Asked DSA Interview Questions (Hindi) #Shorts - Complete guide by Stack forge.",
+      "year": 2024
+    },
+    {
+      "title": "My student correct me for upi system design #ankitsays #systemdesign #interviews",
+      "creator": "Ankit Jain",
+      "url": "https://www.youtube.com/watch?v=_FIL3caZ4EQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "My student correct me for upi system design #ankitsays #systemdesign #interviews - Complete guide by Ankit Jain.",
+      "year": 2024
+    },
+    {
+      "title": "Every Coding Interview I Failed",
+      "creator": "NeetCodeIO",
+      "url": "https://www.youtube.com/watch?v=vVhjzb7CkmA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Every Coding Interview I Failed - Complete guide by NeetCodeIO.",
+      "year": 2024
+    },
+    {
+      "title": "System Design HARD hai? Bas ye 12 concepts samajh lo 🚀",
+      "creator": "Stack forge",
+      "url": "https://www.youtube.com/watch?v=ARcQvbmCAic",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design HARD hai? Bas ye 12 concepts samajh lo 🚀 - Complete guide by Stack forge.",
+      "year": 2024
+    },
+    {
+      "title": "5 free GitHub repos for coding interview prep (LeetCode, system design)",
+      "creator": "Madhav Somani",
+      "url": "https://www.youtube.com/watch?v=yn0UE8t2Tqw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "5 free GitHub repos for coding interview prep (LeetCode, system design) - Complete guide by Madhav Somani.",
+      "year": 2024
+    },
+    {
+      "title": "My First Coding Interview (capital one)",
+      "creator": "NeetCodeIO",
+      "url": "https://www.youtube.com/watch?v=YUd3PmyaV1E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "My First Coding Interview (capital one) - Complete guide by NeetCodeIO.",
+      "year": 2024
+    },
+    {
+      "title": "Apache Kafka Overview: System Design Interview #leetcode #coding #systemdesigninterview",
+      "creator": "LeetCode Daily ",
+      "url": "https://www.youtube.com/watch?v=JMari3T91PQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Apache Kafka Overview: System Design Interview #leetcode #coding #systemdesigninterview - Complete guide by LeetCode Daily .",
+      "year": 2024
+    },
+    {
+      "title": "System Design Roadmap. Special thanks to @gkcs for helping with this one ♥️",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/watch?v=plG_kKIBD1k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design Roadmap. Special thanks to @gkcs for helping with this one ♥️ - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "Staff Engineers are not Created Equal",
+      "creator": "NeetCodeIO",
+      "url": "https://www.youtube.com/watch?v=0yi18EMxPXg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Staff Engineers are not Created Equal - Complete guide by NeetCodeIO.",
+      "year": 2024
+    },
+    {
+      "title": "Design Google Docs: System Design Interview (Google) #leetcode #systemdesigninterview",
+      "creator": "LeetCode Daily ",
+      "url": "https://www.youtube.com/watch?v=2YDNc0qk6I8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Design Google Docs: System Design Interview (Google) #leetcode #systemdesigninterview - Complete guide by LeetCode Daily .",
+      "year": 2024
+    },
+    {
+      "title": "Link in pinned comment..                                   This is LeetCode… but for System Design 🤯",
+      "creator": "Nittin Bhagat",
+      "url": "https://www.youtube.com/watch?v=KG1VflS8hPk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Link in pinned comment..                                   This is LeetCode… but for System Design 🤯 - Complete guide by Nittin Bhagat.",
+      "year": 2024
+    },
+    {
+      "title": "My Apartment as a Google Engineer",
+      "creator": "NeetCodeIO",
+      "url": "https://www.youtube.com/watch?v=7w9UR85cqOI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "My Apartment as a Google Engineer - Complete guide by NeetCodeIO.",
+      "year": 2024
+    },
+    {
+      "title": "You're Not Alone: Navigating Coding and System Design Interview",
+      "creator": "Interview Monkey",
+      "url": "https://www.youtube.com/watch?v=dC8yJZuIYKc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "You're Not Alone: Navigating Coding and System Design Interview - Complete guide by Interview Monkey.",
+      "year": 2024
+    },
+    {
+      "title": "System Design round in 72 hours #Shorts",
+      "creator": "Dunno kno",
+      "url": "https://www.youtube.com/watch?v=bVwA8RvtigY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design round in 72 hours #Shorts - Complete guide by Dunno kno.",
+      "year": 2024
+    },
+    {
+      "title": "DSA | system design | AI Engineer | Software Engineer",
+      "creator": "Harrycodecraft",
+      "url": "https://www.youtube.com/watch?v=e1Wu87oVjb4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DSA | system design | AI Engineer | Software Engineer - Complete guide by Harrycodecraft.",
+      "year": 2024
+    },
+    {
+      "title": "System Design Mock Interview: Design Leetcode ft. Ex Google Engineer",
+      "creator": "Anubhav Sethi",
+      "url": "https://www.youtube.com/watch?v=QBHTbtWSECg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design Mock Interview: Design Leetcode ft. Ex Google Engineer - Complete guide by Anubhav Sethi.",
+      "year": 2024
+    },
+    {
+      "title": "Are System Design Interviews Flawed?",
+      "creator": "NeetCodeIO",
+      "url": "https://www.youtube.com/watch?v=Q2RIyRd107M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Are System Design Interviews Flawed? - Complete guide by NeetCodeIO.",
+      "year": 2024
+    },
+    {
+      "title": "Stop Building AI Slop – Build High-End Web Apps with AI",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=g3X8JauSWTM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Stop Building AI Slop – Build High-End Web Apps with AI - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Anatomy of a Production App - System Design",
+      "creator": "NeetCode",
+      "url": "https://www.youtube.com/watch?v=akXP6pC0piE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Anatomy of a Production App - System Design - Complete guide by NeetCode.",
+      "year": 2024
+    },
+    {
+      "title": "Coding Interviews in 2026",
+      "creator": "NeetCode",
+      "url": "https://www.youtube.com/watch?v=eTY2Lwnd2fI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Coding Interviews in 2026 - Complete guide by NeetCode.",
+      "year": 2024
+    },
+    {
+      "title": "The Best Engineer I worked with at Google",
+      "creator": "NeetCodeIO",
+      "url": "https://www.youtube.com/watch?v=ugm09VUhM5E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Best Engineer I worked with at Google - Complete guide by NeetCodeIO.",
+      "year": 2024
+    },
+    {
+      "title": "Google system design interview: Design Spotify (with ex-Google EM)",
+      "creator": "IGotAnOffer: Engineering",
+      "url": "https://www.youtube.com/watch?v=_K-eupuDVEc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Google system design interview: Design Spotify (with ex-Google EM) - Complete guide by IGotAnOffer: Engineering.",
+      "year": 2024
+    },
+    {
+      "title": "System Design: Scalability - The Ultimate Guide",
+      "creator": "Hitesh Choudhary",
+      "url": "https://www.youtube.com/watch?v=TXJP0gzCXFQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design: Scalability - The Ultimate Guide - Complete guide by Hitesh Choudhary.",
+      "year": 2024
+    },
+    {
+      "title": "n8n Full Course – Architect Scalable AI Automations from Scratch",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=YY-egxTQirA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "n8n Full Course – Architect Scalable AI Automations from Scratch - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Scalability Simply Explained in 10 Minutes",
+      "creator": "ByteByteGo",
+      "url": "https://www.youtube.com/watch?v=EWS_CIxttVw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Scalability Simply Explained in 10 Minutes - Complete guide by ByteByteGo.",
+      "year": 2024
+    },
+    {
+      "title": "Freecodecamp solution[Responsive web design] step 51 #coding #freecodecamp #codingtutorial",
+      "creator": "Digital Learning Hub",
+      "url": "https://www.youtube.com/watch?v=jBlphtYbqVA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Freecodecamp solution[Responsive web design] step 51 #coding #freecodecamp #codingtutorial - Complete guide by Digital Learning Hub.",
+      "year": 2024
+    },
+    {
+      "title": "Figma Variants – Design a Scalable Mobile App [Full Course]",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=stQ1IZEB2xk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Figma Variants – Design a Scalable Mobile App [Full Course] - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "System Design Series - 3 | What is scalability? #shorts #systemdesign",
+      "creator": "Stuck At Code",
+      "url": "https://www.youtube.com/watch?v=XDphyVs2xCc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design Series - 3 | What is scalability? #shorts #systemdesign - Complete guide by Stuck At Code.",
+      "year": 2024
+    },
+    {
+      "title": "How to Learn System Design 👩‍💻 #developer #softwaredeveloper #code #programming #opensource",
+      "creator": "Coding with Lewis",
+      "url": "https://www.youtube.com/watch?v=sP6UbT7eb24",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Learn System Design 👩‍💻 #developer #softwaredeveloper #code #programming #opensource - Complete guide by Coding with Lewis.",
+      "year": 2024
+    },
+    {
+      "title": "You Will Never Struggle With System Design Again  #coding #systemdesign #programming #interview",
+      "creator": "Volkan Erdogan",
+      "url": "https://www.youtube.com/watch?v=oVTIcq4CGzY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "You Will Never Struggle With System Design Again  #coding #systemdesign #programming #interview - Complete guide by Volkan Erdogan.",
+      "year": 2024
+    },
+    {
+      "title": "6 System Design Concepts Every Developer Should Know! 🚀 #shorts #systemdesign #coding #ai",
+      "creator": "Hack the Code",
+      "url": "https://www.youtube.com/watch?v=nMyY5o1D-ik",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "6 System Design Concepts Every Developer Should Know! 🚀 #shorts #systemdesign #coding #ai - Complete guide by Hack the Code.",
+      "year": 2024
+    },
+    {
+      "title": "You don’t need expensive backend bootcamps to understand System Design!",
+      "creator": "Volkan Erdogan",
+      "url": "https://www.youtube.com/watch?v=1Fznx-PrcKs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "You don’t need expensive backend bootcamps to understand System Design! - Complete guide by Volkan Erdogan.",
+      "year": 2024
+    },
+    {
+      "title": "freeCodeCamp – Learn to Code for Free + Earn Certifications",
+      "creator": "Lena HustleMom",
+      "url": "https://www.youtube.com/watch?v=Y3FhO_sbuGQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "freeCodeCamp – Learn to Code for Free + Earn Certifications - Complete guide by Lena HustleMom.",
+      "year": 2024
+    },
+    {
+      "title": "Free Code Camp Removes Lecture Videos – What You Need to Know",
+      "creator": "The Code Zone Skool",
+      "url": "https://www.youtube.com/watch?v=ZWIv0XHmqs4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Free Code Camp Removes Lecture Videos – What You Need to Know - Complete guide by The Code Zone Skool.",
+      "year": 2024
+    },
+    {
+      "title": "System Design Skills Every Developer Must Know",
+      "creator": "Webistics",
+      "url": "https://www.youtube.com/watch?v=bnTO3CvHOdQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design Skills Every Developer Must Know - Complete guide by Webistics.",
+      "year": 2024
+    },
+    {
+      "title": "How to Build Scalable Web Applications | Complete Tutorial 2025 - Microservices, Cloud Architecture",
+      "creator": "SystemDR - Scalable System Design ",
+      "url": "https://www.youtube.com/watch?v=wVWqSIUXdrw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Build Scalable Web Applications | Complete Tutorial 2025 - Microservices, Cloud Architecture - Complete guide by SystemDR - Scalable System Design .",
+      "year": 2024
+    },
+    {
+      "title": "Freecodecmap solution [Responsive web design]step58 #freecodecamp #python #responsivewebdevelopment",
+      "creator": "Digital Learning Hub",
+      "url": "https://www.youtube.com/watch?v=0BbsIHeNbRc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Freecodecmap solution [Responsive web design]step58 #freecodecamp #python #responsivewebdevelopment - Complete guide by Digital Learning Hub.",
+      "year": 2024
+    },
+    {
+      "title": "@facebook didn’t build React for fun. Scale forced it . #facebook #frontenddevelopment #reactjs",
+      "creator": "HomeSickCoder",
+      "url": "https://www.youtube.com/watch?v=1rZ-2T5tJ9Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "@facebook didn’t build React for fun. Scale forced it . #facebook #frontenddevelopment #reactjs - Complete guide by HomeSickCoder.",
+      "year": 2024
+    },
+    {
+      "title": "Learn to code for free using freecodecamp #shorts #coding #learntocode",
+      "creator": "Abhishek kumar",
+      "url": "https://www.youtube.com/watch?v=T6-vSDpQUuM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn to code for free using freecodecamp #shorts #coding #learntocode - Complete guide by Abhishek kumar.",
+      "year": 2024
+    },
+    {
+      "title": "12-Step Backend Developer Roadmap 2026 | APIs & System Design | #shorts",
+      "creator": "SCALER",
+      "url": "https://www.youtube.com/watch?v=_jH4nJ4KTJc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "12-Step Backend Developer Roadmap 2026 | APIs & System Design | #shorts - Complete guide by SCALER.",
+      "year": 2024
+    },
+    {
+      "title": "Why you should surround yourself with the smartest, most driven people",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=Y9m_Chx1joE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why you should surround yourself with the smartest, most driven people - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Is AI coming for developer jobs? – YK Sugi",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=2l-HYpPp7ng",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Is AI coming for developer jobs? – YK Sugi - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Freecodecamp solution[Responsive Web design] step 14",
+      "creator": "Digital Learning Hub",
+      "url": "https://www.youtube.com/watch?v=MGntgdfSMjk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Freecodecamp solution[Responsive Web design] step 14 - Complete guide by Digital Learning Hub.",
+      "year": 2024
+    },
+    {
+      "title": "Learn High-Level System Design by Coding YouTube – Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=FiXOaYnW64w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn High-Level System Design by Coding YouTube – Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "API Made SIMPLE in JUST a minute! 🙌",
+      "creator": "GeeksforGeeks",
+      "url": "https://www.youtube.com/watch?v=CnMD3q648s4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "API Made SIMPLE in JUST a minute! 🙌 - Complete guide by GeeksforGeeks.",
+      "year": 2024
+    },
+    {
+      "title": "System Design: Scale System From Zero To Million Users | #systemdesign",
+      "creator": "Dev Sense",
+      "url": "https://www.youtube.com/watch?v=ejofP2VKu-4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "System Design: Scale System From Zero To Million Users | #systemdesign - Complete guide by Dev Sense.",
+      "year": 2024
+    },
+    {
+      "title": "REST API explained. #coding #programming #webdevelopment #development #developer",
+      "creator": "Nayan Das",
+      "url": "https://www.youtube.com/watch?v=KHv4EvBH7bY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "REST API explained. #coding #programming #webdevelopment #development #developer - Complete guide by Nayan Das.",
+      "year": 2024
+    },
+    {
+      "title": "GraphQL vs REST: Which is Better for APIs?",
+      "creator": "IBM Technology",
+      "url": "https://www.youtube.com/watch?v=PTfZcN20fro",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GraphQL vs REST: Which is Better for APIs? - Complete guide by IBM Technology.",
+      "year": 2024
+    },
+    {
+      "title": "APIs for Beginners - How to use an API (Full Course / Tutorial)",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=WXsD0ZgxjRw",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "APIs for Beginners - How to use an API (Full Course / Tutorial) - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "REST API vs GraphQL 🚀 | Explained in 60 Seconds",
+      "creator": "Webistics",
+      "url": "https://www.youtube.com/watch?v=8HBVJO9dxbU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "REST API vs GraphQL 🚀 | Explained in 60 Seconds - Complete guide by Webistics.",
+      "year": 2024
+    },
+    {
+      "title": "Rest vs GraphQL #javascript #frontend #backend #api #nextjs #graphql #restapis",
+      "creator": "Kasturi Vats",
+      "url": "https://www.youtube.com/watch?v=FOrc0N5c8xk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Rest vs GraphQL #javascript #frontend #backend #api #nextjs #graphql #restapis - Complete guide by Kasturi Vats.",
+      "year": 2024
+    },
+    {
+      "title": "REST vs GraphQL Explained in 10 Seconds #RESTvsGraphQL #SystemDesign",
+      "creator": "StackBit ",
+      "url": "https://www.youtube.com/watch?v=JkwrgbIn9uk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "REST vs GraphQL Explained in 10 Seconds #RESTvsGraphQL #SystemDesign - Complete guide by StackBit .",
+      "year": 2024
+    },
+    {
+      "title": "GraphQL vs REST API 🤯 | Why Facebook Created GraphQL?",
+      "creator": "Range Full Stack",
+      "url": "https://www.youtube.com/watch?v=k-0EfzqM7dA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GraphQL vs REST API 🤯 | Why Facebook Created GraphQL? - Complete guide by Range Full Stack.",
+      "year": 2024
+    },
+    {
+      "title": "REST API Tha, Phir GraphQL Kyun Aaya? 🤯 | REST API vs GraphQL Explained in Hinglish 🚀",
+      "creator": "CodeByDeepak ",
+      "url": "https://www.youtube.com/watch?v=Qa7oPW_6USU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "REST API Tha, Phir GraphQL Kyun Aaya? 🤯 | REST API vs GraphQL Explained in Hinglish 🚀 - Complete guide by CodeByDeepak .",
+      "year": 2024
+    },
+    {
+      "title": "GraphQL vs REST in 60s: Why Teams Are Ditching REST Endpoints! ⚡ API Design Secrets",
+      "creator": "LearnWithAditya",
+      "url": "https://www.youtube.com/watch?v=9j64Dnx9rc8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GraphQL vs REST in 60s: Why Teams Are Ditching REST Endpoints! ⚡ API Design Secrets - Complete guide by LearnWithAditya.",
+      "year": 2024
+    },
+    {
+      "title": "REST vs GraphQL Explained in 30 Seconds | API Basics Every Developer Must Know",
+      "creator": "Tushar Maji",
+      "url": "https://www.youtube.com/watch?v=YcRJDCn7PaA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "REST vs GraphQL Explained in 30 Seconds | API Basics Every Developer Must Know - Complete guide by Tushar Maji.",
+      "year": 2024
+    },
+    {
+      "title": "REST vs GraphQL: One Screen, Then a Million Viewers",
+      "creator": "Codez Up",
+      "url": "https://www.youtube.com/watch?v=WjtF6aqL5LA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "REST vs GraphQL: One Screen, Then a Million Viewers - Complete guide by Codez Up.",
+      "year": 2024
+    },
+    {
+      "title": "REST vs GraphQL vs gRPC: Which API wins in system design interviews?",
+      "creator": "Hello Interview",
+      "url": "https://www.youtube.com/watch?v=Q3f5jmIwN3Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "REST vs GraphQL vs gRPC: Which API wins in system design interviews? - Complete guide by Hello Interview.",
+      "year": 2024
+    },
+    {
+      "title": "REST API vs GraphQL Explained in 47 Seconds! #Shorts",
+      "creator": "DevInFrames",
+      "url": "https://www.youtube.com/watch?v=IFZhAI6hKy0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "REST API vs GraphQL Explained in 47 Seconds! #Shorts - Complete guide by DevInFrames.",
+      "year": 2024
+    },
+    {
+      "title": "REST vs GraphQL Explained in 40 Seconds | API Development",
+      "creator": "FullTechStack",
+      "url": "https://www.youtube.com/watch?v=KGN0tqxBwxA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "REST vs GraphQL Explained in 40 Seconds | API Development - Complete guide by FullTechStack.",
+      "year": 2024
+    },
+    {
+      "title": "REST vs GraphQL: Which API Should You Choose?",
+      "creator": "TechGik",
+      "url": "https://www.youtube.com/watch?v=WcnggPo04Cg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "REST vs GraphQL: Which API Should You Choose? - Complete guide by TechGik.",
+      "year": 2024
+    },
+    {
+      "title": "REST API vs GraphQL – What Should You Use in 2025?",
+      "creator": "Code & Cloud",
+      "url": "https://www.youtube.com/watch?v=uz_WbtqjvsI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "REST API vs GraphQL – What Should You Use in 2025? - Complete guide by Code & Cloud.",
+      "year": 2024
+    },
+    {
+      "title": "What is GraphQL? – A Beginner’s Guide in 60 Seconds! 🚀",
+      "creator": "LearnIT",
+      "url": "https://www.youtube.com/watch?v=0TSajs_zzZA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "What is GraphQL? – A Beginner’s Guide in 60 Seconds! 🚀 - Complete guide by LearnIT.",
+      "year": 2024
+    },
+    {
+      "title": "REST vs GraphQL vs gRPC: Which API When?",
+      "creator": "The 60-Second Architect",
+      "url": "https://www.youtube.com/watch?v=QV4gxl9gFBQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "REST vs GraphQL vs gRPC: Which API When? - Complete guide by The 60-Second Architect.",
+      "year": 2024
+    },
+    {
+      "title": "REST vs GraphQL vs gRPC — Explained Fast",
+      "creator": "JasPreet | DevOps & Backend",
+      "url": "https://www.youtube.com/watch?v=sfSb-kh53WI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "REST vs GraphQL vs gRPC — Explained Fast - Complete guide by JasPreet | DevOps & Backend.",
+      "year": 2024
+    },
+    {
+      "title": "6 Common Ways to Build APIs",
+      "creator": "Amigoscode",
+      "url": "https://www.youtube.com/watch?v=7bsr9ot1ILY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "6 Common Ways to Build APIs - Complete guide by Amigoscode.",
+      "year": 2024
+    },
+    {
+      "title": "REST API vs GraphQL vs WebSockets Explained!",
+      "creator": "Kshitij Explains",
+      "url": "https://www.youtube.com/watch?v=a9pQoEWeUpo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "REST API vs GraphQL vs WebSockets Explained! - Complete guide by Kshitij Explains.",
+      "year": 2024
+    },
+    {
+      "title": "Rest vs Graphql, why is it being used more, the tradeoff. #coding #restapis #graphql #api #program",
+      "creator": "CodeWithAditya",
+      "url": "https://www.youtube.com/watch?v=dv_Elmbupl4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Rest vs Graphql, why is it being used more, the tradeoff. #coding #restapis #graphql #api #program - Complete guide by CodeWithAditya.",
+      "year": 2024
+    },
+    {
+      "title": "Rest vs GraphQL | When to use which. #systemdesign",
+      "creator": "Tanish Arora",
+      "url": "https://www.youtube.com/watch?v=ABqBm5qm8g8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Rest vs GraphQL | When to use which. #systemdesign - Complete guide by Tanish Arora.",
+      "year": 2024
+    },
+    {
+      "title": "REST vs GraphQL vs gRPC Explained! 🚀 | System Design 101 #SystemDesign #RESTAPI #GraphQL #grpc",
+      "creator": "Hack the Code",
+      "url": "https://www.youtube.com/watch?v=LpafbDP4kJM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "REST vs GraphQL vs gRPC Explained! 🚀 | System Design 101 #SystemDesign #RESTAPI #GraphQL #grpc - Complete guide by Hack the Code.",
+      "year": 2024
+    },
+    {
+      "title": "API Design and Architecture  - Backend Engineering Intro (1 Hour)",
+      "creator": "Caleb Curry",
+      "url": "https://www.youtube.com/watch?v=XvFmUE-36Kc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "API Design and Architecture  - Backend Engineering Intro (1 Hour) - Complete guide by Caleb Curry.",
+      "year": 2024
+    },
+    {
+      "title": "How to Design APIs Like a Senior Engineer (REST, GraphQL, Auth, Security)",
+      "creator": "Hayk Simonyan",
+      "url": "https://www.youtube.com/watch?v=7iHl71nt49o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Design APIs Like a Senior Engineer (REST, GraphQL, Auth, Security) - Complete guide by Hayk Simonyan.",
+      "year": 2024
+    },
+    {
+      "title": "REST API vs GraphQL Explained in 45 Seconds! ⚡ #shorts",
+      "creator": "Rupesh Goyal",
+      "url": "https://www.youtube.com/watch?v=fpfBpzrkWlU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "REST API vs GraphQL Explained in 45 Seconds! ⚡ #shorts - Complete guide by Rupesh Goyal.",
+      "year": 2024
+    },
+    {
+      "title": "All Types of APIs Explained in 12 Minutes | REST, GraphQL, WebSockets & More",
+      "creator": "Harshita Verma",
+      "url": "https://www.youtube.com/watch?v=P9RgGEWJE7I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "All Types of APIs Explained in 12 Minutes | REST, GraphQL, WebSockets & More - Complete guide by Harshita Verma.",
+      "year": 2024
+    },
+    {
+      "title": "APIs for Beginners - How to use an API (Full Course / Tutorial)",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=GZvSYJDk-us",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "APIs for Beginners - How to use an API (Full Course / Tutorial) - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "How to Design APIs Like a Senior Engineer (REST, GraphQL, Auth, Security)",
+      "creator": "Hayk Simonyan",
+      "url": "https://www.youtube.com/watch?v=Rrd6xkyjPB8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Design APIs Like a Senior Engineer (REST, GraphQL, Auth, Security) - Complete guide by Hayk Simonyan.",
+      "year": 2024
+    },
+    {
+      "title": "Build REST APIs in .NET 9 – Full Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=38GNKtclDdE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Build REST APIs in .NET 9 – Full Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "The Art of Web API Design",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=hEj61QV0wdg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Art of Web API Design - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "REST API Design Like a Senior Engineer (REST, GraphQL, Networking, Pagination, Auth, Security)",
+      "creator": "System Design Lab",
+      "url": "https://www.youtube.com/watch?v=BvtIqaiabJA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "REST API Design Like a Senior Engineer (REST, GraphQL, Networking, Pagination, Auth, Security) - Complete guide by System Design Lab.",
+      "year": 2024
+    },
+    {
+      "title": "What is a REST API?",
+      "creator": "IBM Technology",
+      "url": "https://www.youtube.com/watch?v=lsMQRaeKNDk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is a REST API? - Complete guide by IBM Technology.",
+      "year": 2024
+    },
+    {
+      "title": "System Design Full Course",
+      "creator": "Coder Army",
+      "url": "https://www.youtube.com/playlist?list=PLQEaRBV9gAFvzp6XhcNFpk1WdOcyVo9qT",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "System Design Full Course - Complete guide by Coder Army.",
+      "year": 2024
+    },
+    {
+      "title": "Frontend System Design | Chakde System Design 💪",
+      "creator": "Chirag Goel",
+      "url": "https://www.youtube.com/playlist?list=PL4CFloQ4GGWICE0Tz6iXKfN3XWkXRlboU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Frontend System Design | Chakde System Design 💪 - Complete guide by Chirag Goel.",
+      "year": 2024
+    },
+    {
+      "title": "'System Design Concepts Course and Interview Prep' by freeCodeCamp.org and more",
+      "creator": "jaspyrnyte",
+      "url": "https://www.youtube.com/playlist?list=PLtT_HXzmruUtrvB58Mr_pxMRGuVNC0Fnn",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "'System Design Concepts Course and Interview Prep' by freeCodeCamp.org and more - Complete guide by jaspyrnyte.",
+      "year": 2024
+    },
+    {
+      "title": "System Design Fundamentals",
+      "creator": "ByteByteGo",
+      "url": "https://www.youtube.com/playlist?list=PLCRMIe5FDPsd0gVs500xeOewfySTsmEjf",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "System Design Fundamentals - Complete guide by ByteByteGo.",
+      "year": 2024
+    },
+    {
+      "title": "System Design Playlist in Hindi",
+      "creator": "Engineering Digest",
+      "url": "https://www.youtube.com/playlist?list=PLA3GkZPtsafZdyC5iucNM_uhqGJ5yFNUM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "System Design Playlist in Hindi - Complete guide by Engineering Digest.",
+      "year": 2024
+    },
+    {
+      "title": "System Design (Volume - 1) By Alex Xu",
+      "creator": "BrainBooster",
+      "url": "https://www.youtube.com/playlist?list=PLa5knmSCeutcg0bUPRqn39c4oyWa0VbCM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "System Design (Volume - 1) By Alex Xu - Complete guide by BrainBooster.",
+      "year": 2024
+    },
+    {
+      "title": "Front-End System Design",
+      "creator": "Front-End Engineer",
+      "url": "https://www.youtube.com/playlist?list=PLI9W87-Dqn7j_x6QtR6sUjycJR7nQLBqT",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Front-End System Design - Complete guide by Front-End Engineer.",
+      "year": 2024
+    },
+    {
+      "title": "System Design Interview",
+      "creator": "ByteByteGo",
+      "url": "https://www.youtube.com/playlist?list=PLCRMIe5FDPseVvwzRiCQBmNOVUIZSSkP8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "System Design Interview - Complete guide by ByteByteGo.",
+      "year": 2024
+    },
+    {
+      "title": "System Design",
+      "creator": "Piyush Garg",
+      "url": "https://www.youtube.com/playlist?list=PLinedj3B30sBlBWRox2V2tg9QJ2zr4M3o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "System Design - Complete guide by Piyush Garg.",
+      "year": 2024
+    },
+    {
+      "title": "System Design concepts Gaurav Sen",
+      "creator": "Prashant Jyoti",
+      "url": "https://www.youtube.com/playlist?list=PLSLKQmDu5k9Rx3RRfMzs-AZuNPl2zZqVs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "System Design concepts Gaurav Sen - Complete guide by Prashant Jyoti.",
+      "year": 2024
+    },
+    {
+      "title": "System design concepts Gaurav Sen",
+      "creator": "NEERAJ GUPTA",
+      "url": "https://www.youtube.com/playlist?list=PLh6nSyFpy2ORV9svNsXD6waT44mLc6HWK",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "System design concepts Gaurav Sen - Complete guide by NEERAJ GUPTA.",
+      "year": 2024
+    },
+    {
+      "title": "System Design Shorts",
+      "creator": "Gaurav Sen",
+      "url": "https://www.youtube.com/playlist?list=PLMCXHnjXnTnteVBQIKevQkq6c6I7weiZb",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "System Design Shorts - Complete guide by Gaurav Sen.",
+      "year": 2024
+    },
+    {
+      "title": "System Design: TINDER as a microservice architecture by Gaurav Sen, etc",
+      "creator": "sdslama",
+      "url": "https://www.youtube.com/playlist?list=PL5CSCutPjJ6HI-V1gVRWGUmyVtyDIhAWS",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "System Design: TINDER as a microservice architecture by Gaurav Sen, etc - Complete guide by sdslama.",
+      "year": 2024
+    },
+    {
+      "title": "WHATSAPP System Design: Chat Messaging Systems for Interviews (Gaurav Sen) and more",
+      "creator": "sunielfox",
+      "url": "https://www.youtube.com/playlist?list=PLiNTNcqWA1W-pcnumKHSCv6GD9ndB7OK3",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "WHATSAPP System Design: Chat Messaging Systems for Interviews (Gaurav Sen) and more - Complete guide by sunielfox.",
+      "year": 2024
+    },
+    {
+      "title": "System Design Interview Question",
+      "creator": "InterviewWithBunny",
+      "url": "https://www.youtube.com/playlist?list=PLPtUyMfD0mNJDZg50fg2CptjLBavHot47",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "System Design Interview Question - Complete guide by InterviewWithBunny.",
+      "year": 2024
+    },
+    {
+      "title": "A.I. Engineering Playlist",
+      "creator": "Gaurav Sen",
+      "url": "https://www.youtube.com/playlist?list=PLMCXHnjXnTnt-aA0yHoa6QcVdQ0Mu3g9j",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "A.I. Engineering Playlist - Complete guide by Gaurav Sen.",
+      "year": 2024
+    },
+    {
+      "title": "Gaurav Sen design only",
+      "creator": "VK K",
+      "url": "https://www.youtube.com/playlist?list=PL9QCVNONY_cS9yQN7LoaPKU5z5udH47nH",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Gaurav Sen design only - Complete guide by VK K.",
+      "year": 2024
+    },
+    {
+      "title": "Backend from first principles",
+      "creator": "Sriniously",
+      "url": "https://www.youtube.com/playlist?list=PLui3EUkuMTPgZcV0QhQrOcwMPcBCcd_Q1",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Backend from first principles - Complete guide by Sriniously.",
+      "year": 2024
+    },
+    {
+      "title": "System Designs",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/playlist?list=PLQnljOFTspQXSevtRqvMNycWfHM7cXc3d",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "System Designs - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "50 Backend Concepts | Backend System Design and Interview Preparation",
+      "creator": "Learn Code With Durgesh",
+      "url": "https://www.youtube.com/playlist?list=PL0zysOflRCelEgoXpARFjrMFJD7chtnQY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "50 Backend Concepts | Backend System Design and Interview Preparation - Complete guide by Learn Code With Durgesh.",
+      "year": 2024
+    },
+    {
+      "title": "Software Architecture",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Software Architecture - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Distributed Systems lecture series",
+      "creator": "Martin Kleppmann",
+      "url": "https://www.youtube.com/playlist?list=PLeKd45zvjcDFUEv_ohr_HdUFe97RItdiB",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Distributed Systems lecture series - Complete guide by Martin Kleppmann.",
+      "year": 2024
+    },
+    {
+      "title": ".NET Microservices/Microservices .NET/Microservice Architecture with ASP.NET Core  - Les Jackson/dotnet/DevMentors/dotnet - English Version",
+      "creator": "Free Academy",
+      "url": "https://www.youtube.com/playlist?list=PLpXfHEl2fzl7a7p4ntTmdjmNSD1iEYXrm",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": ".NET Microservices/Microservices .NET/Microservice Architecture with ASP.NET Core  - Les Jackson/dotnet/DevMentors/dotnet - English Version - Complete guide by Free Academy.",
+      "year": 2024
+    },
+    {
+      "title": "OS Fundamentals",
+      "creator": "Hussein Nasser",
+      "url": "https://www.youtube.com/playlist?list=PLQnljOFTspQU2bFV-N5Ix-Qg9A3WAik7N",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "OS Fundamentals - Complete guide by Hussein Nasser.",
+      "year": 2024
+    },
+    {
+      "title": "Distributed Systems (www.distributedsystemscourse.com)",
+      "creator": "Distributed Systems Course",
+      "url": "https://www.youtube.com/playlist?list=PLOE1GTZ5ouRPbpTnrZ3Wqjamfwn_Q5Y9A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Distributed Systems (www.distributedsystemscourse.com) - Complete guide by Distributed Systems Course.",
+      "year": 2024
+    },
+    {
+      "title": "Distributed Systems",
+      "creator": "Education 4u",
+      "url": "https://www.youtube.com/playlist?list=PLrjkTql3jnm9FEOXHA_qjR-TMODlaIk-W",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Distributed Systems - Complete guide by Education 4u.",
+      "year": 2024
+    },
+    {
+      "title": "Distributed Systems",
+      "creator": "OU Education",
+      "url": "https://www.youtube.com/playlist?list=PLROvODCYkEM_ybgd2jKgDfu7qS1TNGWcA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Distributed Systems - Complete guide by OU Education.",
+      "year": 2024
+    },
+    {
+      "title": "System Design",
+      "creator": "NeetCode",
+      "url": "https://www.youtube.com/playlist?list=PLot-Xpze53le35rQuIbRET3YwEtrcJfdt",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "System Design - Complete guide by NeetCode.",
+      "year": 2024
+    },
+    {
+      "title": "Low Level Design",
+      "creator": "Gaurav Sen",
+      "url": "https://www.youtube.com/playlist?list=PLMCXHnjXnTnvQVh7WsgZ8SurU1O2v_UM7",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Low Level Design - Complete guide by Gaurav Sen.",
+      "year": 2024
+    }
+  ]
 }

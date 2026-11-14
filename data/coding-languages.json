@@ -1,126 +1,4282 @@
 {
-    "name": "Coding Languages",
-    "slug": "coding-languages",
-    "description": "Build strong programming fundamentals across popular languages like C, C++, Java, JavaScript, TypeScript, Python, Go, and Rust.",
-    "icon": "https://img.icons8.com/?size=100&id=CaDHTq3bTEI9&format=png&color=000000",
-    "articles": [
-        {
-            "title": "C: Learn-C.org Interactive Tutorial",
-            "url": "https://www.learn-c.org/"
-        },
-        {
-            "title": "Java: W3Schools Java Tutorials",
-            "url": "https://www.w3schools.com/java/"
-        },
-        {
-            "title": "Python: Official Python Tutorial",
-            "url": "https://docs.python.org/3/tutorial/"
-        },
-        {
-            "title": "Python: Automate the Boring Stuff",
-            "url": "https://automatetheboringstuff.com/"
-        },
-        {
-            "title": "C++: LearnCpp.com",
-            "url": "https://www.learncpp.com/"
-        },
-        {
-            "title": "JavaScript: JavaScript.info",
-            "url": "https://javascript.info/"
-        },
-        {
-            "title": "TypeScript: Official Handbook",
-            "url": "https://www.typescriptlang.org/docs/handbook/intro.html"
-        },
-        {
-            "title": "Go: A Tour of Go",
-            "url": "https://go.dev/tour/"
-        },
-        {
-            "title": "Rust: The Rust Programming Language",
-            "url": "https://doc.rust-lang.org/book/"
-        }
-    ],
-    "playlists": [
-        {
-            "title": "C Language Tutorial for Beginners",
-            "creator": "Apna College",
-            "url": "https://youtu.be/irqbmMNs2Bo?si=jiTnQMVjYwJnaEYI",
-            "language": "English, Hindi",
-            "difficulty": "beginner",
-            "videoCount": 10,
-            "description": "A beginner-friendly introduction to C programming fundamentals.",
-            "year": 2026
-        },
-        {
-            "title": "Java OneShot in 2 Hours",
-            "creator": "Apna College",
-            "url": "https://youtu.be/UmnCZ7-9yDY?si=FlK5apLkPP35JwdL",
-            "language": "English, Hindi",
-            "difficulty": "beginner",
-            "videoCount": 2,
-            "description": "A fast-track beginner course covering core Java concepts.",
-            "year": 2026
-        },
-        {
-            "title": "Python for Everybody",
-            "creator": "freeCodeCamp",
-            "url": "https://www.youtube.com/playlist?list=PLlRFEj9H3Oj7Bp8-DfGpfAfDBiblRfl5p",
-            "language": "English",
-            "difficulty": "beginner",
-            "videoCount": 14,
-            "description": "A practical beginner-friendly Python series from the ground up.",
-            "year": 2020
-        },
-        {
-            "title": "Advanced Python",
-            "creator": "Tech With Tim",
-            "url": "https://www.youtube.com/playlist?list=PLzMcBGfZo4-kwmIcMDdXSuy_wSqtU-xDP",
-            "language": "English",
-            "difficulty": "advanced",
-            "videoCount": 17,
-            "description": "Advanced Python topics including generators, decorators, and more.",
-            "year": 2021
-        },
-        {
-            "title": "C++ Full Course for free",
-            "creator": "freeCodeCamp",
-            "url": "https://www.youtube.com/watch?v=vLnPwxZdW4Y",
-            "language": "English",
-            "difficulty": "beginner",
-            "videoCount": 1,
-            "description": "A full beginner course that covers the foundations of modern C++.",
-            "year": 2019
-        },
-        {
-            "title": "JavaScript Full Course for Beginners",
-            "creator": "freeCodeCamp",
-            "url": "https://www.youtube.com/watch?v=PkZNo7MFNFg",
-            "language": "English",
-            "difficulty": "beginner",
-            "videoCount": 1,
-            "description": "A complete beginner-friendly JavaScript course covering core language concepts.",
-            "year": 2018
-        },
-        {
-            "title": "TypeScript Course for Beginners",
-            "creator": "freeCodeCamp",
-            "url": "https://www.youtube.com/watch?v=30LWjhZzg50",
-            "language": "English",
-            "difficulty": "beginner",
-            "videoCount": 1,
-            "description": "A practical introduction to TypeScript syntax, types, and tooling.",
-            "year": 2022
-        },
-        {
-            "title": "QuickReference all programming languages",
-            "creator": "quickref.me",
-            "url": "https://quickref.me/",
-            "language": "English",
-            "difficulty": "beginner",
-            "videoCount": 0,
-            "description": "",
-            "year": 2026
-        }
-    ]
+  "name": "Coding Languages",
+  "slug": "coding-languages",
+  "description": "Build strong programming fundamentals across popular languages like C, C++, Java, JavaScript, TypeScript, Python, Go, and Rust.",
+  "icon": "coding-languages",
+  "articles": [
+    {
+      "title": "C: Learn-C.org Interactive Tutorial",
+      "url": "https://www.learn-c.org/"
+    },
+    {
+      "title": "Java: W3Schools Java Tutorials",
+      "url": "https://www.w3schools.com/java/"
+    },
+    {
+      "title": "Python: Official Python Tutorial",
+      "url": "https://docs.python.org/3/tutorial/"
+    },
+    {
+      "title": "Python: Automate the Boring Stuff",
+      "url": "https://automatetheboringstuff.com/"
+    },
+    {
+      "title": "C++: LearnCpp.com",
+      "url": "https://www.learncpp.com/"
+    },
+    {
+      "title": "JavaScript: JavaScript.info",
+      "url": "https://javascript.info/"
+    },
+    {
+      "title": "TypeScript: Official Handbook",
+      "url": "https://www.typescriptlang.org/docs/handbook/intro.html"
+    },
+    {
+      "title": "Go: A Tour of Go",
+      "url": "https://go.dev/tour/"
+    },
+    {
+      "title": "Rust: The Rust Programming Language",
+      "url": "https://doc.rust-lang.org/book/"
+    },
+    {
+      "title": "Kotlin by Example",
+      "url": "https://play.kotlinlang.org/byExample/overview"
+    },
+    {
+      "title": "Learn X in Y Minutes",
+      "url": "https://learnxinyminutes.com/"
+    },
+    {
+      "title": "Exercism - 70+ Programming Language Tracks",
+      "url": "https://exercism.org/"
+    },
+    {
+      "title": "Rustlings Hands-on Exercises",
+      "url": "https://github.com/rust-lang/rustlings"
+    },
+    {
+      "title": "Learn Go with Tests",
+      "url": "https://quii.gitbook.io/learn-go-with-tests/"
+    },
+    {
+      "title": "Go by Example - Hands-on Code Snippets",
+      "url": "https://gobyexample.com/"
+    },
+    {
+      "title": "Lua Official Reference Manual",
+      "url": "https://www.lua.org/manual/5.4/"
+    },
+    {
+      "title": "Microsoft Learn C# Documentation & Tutorials",
+      "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+    },
+    {
+      "title": "Ruby Official Documentation & Guides",
+      "url": "https://www.ruby-lang.org/en/documentation/"
+    },
+    {
+      "title": "Kotlin by Example & Official Documentation",
+      "url": "https://kotlinlang.org/docs/home.html"
+    },
+    {
+      "title": "Elixir Official Getting Started Guide",
+      "url": "https://elixir-lang.org/getting-started/introduction.html"
+    },
+    {
+      "title": "PHP The Right Way - Modern Best Practices",
+      "url": "https://phptherightway.com/"
+    },
+    {
+      "title": "Rust by Example",
+      "url": "https://doc.rust-lang.org/rust-by-example/"
+    },
+    {
+      "title": "Swift.org - The Swift Programming Language",
+      "url": "https://www.swift.org/documentation/"
+    }
+  ],
+  "playlists": [
+    {
+      "title": "C Language Tutorial for Beginners",
+      "creator": "Apna College",
+      "url": "https://youtu.be/irqbmMNs2Bo?si=jiTnQMVjYwJnaEYI",
+      "language": "English, Hindi",
+      "difficulty": "beginner",
+      "videoCount": 10,
+      "description": "A beginner-friendly introduction to C programming fundamentals.",
+      "year": 2026
+    },
+    {
+      "title": "Java OneShot in 2 Hours",
+      "creator": "Apna College",
+      "url": "https://youtu.be/UmnCZ7-9yDY?si=FlK5apLkPP35JwdL",
+      "language": "English, Hindi",
+      "difficulty": "beginner",
+      "videoCount": 2,
+      "description": "A fast-track beginner course covering core Java concepts.",
+      "year": 2026
+    },
+    {
+      "title": "Python for Everybody",
+      "creator": "freeCodeCamp",
+      "url": "https://www.youtube.com/playlist?list=PLlRFEj9H3Oj7Bp8-DfGpfAfDBiblRfl5p",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 14,
+      "description": "A practical beginner-friendly Python series from the ground up.",
+      "year": 2020
+    },
+    {
+      "title": "Advanced Python",
+      "creator": "Tech With Tim",
+      "url": "https://www.youtube.com/playlist?list=PLzMcBGfZo4-kwmIcMDdXSuy_wSqtU-xDP",
+      "language": "English",
+      "difficulty": "advanced",
+      "videoCount": 17,
+      "description": "Advanced Python topics including generators, decorators, and more.",
+      "year": 2021
+    },
+    {
+      "title": "C++ Full Course for free",
+      "creator": "freeCodeCamp",
+      "url": "https://www.youtube.com/watch?v=vLnPwxZdW4Y",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "A full beginner course that covers the foundations of modern C++.",
+      "year": 2019
+    },
+    {
+      "title": "JavaScript Full Course for Beginners",
+      "creator": "freeCodeCamp",
+      "url": "https://www.youtube.com/watch?v=PkZNo7MFNFg",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "A complete beginner-friendly JavaScript course covering core language concepts.",
+      "year": 2018
+    },
+    {
+      "title": "TypeScript Course for Beginners",
+      "creator": "freeCodeCamp",
+      "url": "https://www.youtube.com/watch?v=30LWjhZzg50",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "A practical introduction to TypeScript syntax, types, and tooling.",
+      "year": 2022
+    },
+    {
+      "title": "QuickReference all programming languages",
+      "creator": "quickref.me",
+      "url": "https://quickref.me/",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 0,
+      "description": "",
+      "year": 2026
+    },
+    {
+      "title": "Rust Crash Course for Beginners",
+      "creator": "Traversy Media",
+      "url": "https://www.youtube.com/watch?v=zF34dRivLOw",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Get started with Rust syntax, variables, memory model, ownership, and building CLI utilities.",
+      "year": 2022
+    },
+    {
+      "title": "Go Programming by Example",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=YS4e4q9oBaU",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "A comprehensive introductory guide to Golang syntax, pointers, interfaces, concurrency, and web services.",
+      "year": 2021
+    },
+    {
+      "title": "Kotlin Crash Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=F9UC9DY-vIU",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn Kotlin fundamentals, null safety, lambdas, higher-order functions, and object-oriented syntax.",
+      "year": 2022
+    },
+    {
+      "title": "Swift Programming Tutorial for Beginners",
+      "creator": "CodeWithChris",
+      "url": "https://www.youtube.com/watch?v=comQ1-x2a1Q",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Introduction to Swift syntax, optionals, control flow, functions, and structs for iOS development.",
+      "year": 2023
+    },
+    {
+      "title": "🔥 Complete Golang Roadmap 2026 🚀 | Learn Go Language Step by Step",
+      "creator": "Coding Dialect",
+      "url": "https://www.youtube.com/watch?v=LpoAnnNHhMI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🔥 Complete Golang Roadmap 2026 🚀 | Learn Go Language Step by Step - Complete guide by Coding Dialect.",
+      "year": 2024
+    },
+    {
+      "title": "The Future of Coding—Rust, Go, or Python? #shorts",
+      "creator": "AWS Developers",
+      "url": "https://www.youtube.com/watch?v=EpVBvbptT3A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Future of Coding—Rust, Go, or Python? #shorts - Complete guide by AWS Developers.",
+      "year": 2024
+    },
+    {
+      "title": "Top languages in 2024.#coding #programming #languages #2024 #javascript #python #go #rust #swift",
+      "creator": "Neeraj Walia",
+      "url": "https://www.youtube.com/watch?v=EO2jSW5Yzwk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top languages in 2024.#coding #programming #languages #2024 #javascript #python #go #rust #swift - Complete guide by Neeraj Walia.",
+      "year": 2024
+    },
+    {
+      "title": "Getting Started with Go | Installing and Writing Your First Program",
+      "creator": "Code & Learn",
+      "url": "https://www.youtube.com/watch?v=eSrr4YT24Y4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Getting Started with Go | Installing and Writing Your First Program - Complete guide by Code & Learn.",
+      "year": 2024
+    },
+    {
+      "title": "Golang is not in high demand",
+      "creator": "Ladderly",
+      "url": "https://www.youtube.com/watch?v=O4YPS1xa3aI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Golang is not in high demand - Complete guide by Ladderly.",
+      "year": 2024
+    },
+    {
+      "title": "Should I learn go language ? 🤔🤔",
+      "creator": "Studytonight with Abhishek",
+      "url": "https://www.youtube.com/watch?v=z4s_WI_AMhY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Should I learn go language ? 🤔🤔 - Complete guide by Studytonight with Abhishek.",
+      "year": 2024
+    },
+    {
+      "title": "What is GoLang used for?",
+      "creator": "techwithtimdaily",
+      "url": "https://www.youtube.com/watch?v=lVXBTpZy4qo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is GoLang used for? - Complete guide by techwithtimdaily.",
+      "year": 2024
+    },
+    {
+      "title": "Build a Full Stack Movie Streaming App in Go – Golang, React, MongoDB, OpenAI API Project Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=jBf7of9JTV8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build a Full Stack Movie Streaming App in Go – Golang, React, MongoDB, OpenAI API Project Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Golang Placements |Best Coding language | WORKFLOWFORU.. #coding #c #programming #python #developer",
+      "creator": "WorkFlow  For You",
+      "url": "https://www.youtube.com/watch?v=4QPbFp8B4wM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Golang Placements |Best Coding language | WORKFLOWFORU.. #coding #c #programming #python #developer - Complete guide by WorkFlow  For You.",
+      "year": 2024
+    },
+    {
+      "title": "Rust Or Go #coding #programming",
+      "creator": "Neeraj Walia",
+      "url": "https://www.youtube.com/watch?v=HnmJMKtuJPU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Rust Or Go #coding #programming - Complete guide by Neeraj Walia.",
+      "year": 2024
+    },
+    {
+      "title": "Who will win 🥇-  C++ vs Go language #cpp #cppprogramming #go #golang",
+      "creator": "Proto Coders Point",
+      "url": "https://www.youtube.com/watch?v=LP0I1ShoIi8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Who will win 🥇-  C++ vs Go language #cpp #cppprogramming #go #golang - Complete guide by Proto Coders Point.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Golang in 5 Steps | Beginner to Mastery",
+      "creator": "Travis Media",
+      "url": "https://www.youtube.com/watch?v=AXS6CMgRLMk",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn Golang in 5 Steps | Beginner to Mastery - Complete guide by Travis Media.",
+      "year": 2024
+    },
+    {
+      "title": "Primitive Data Types in Go | A Comprehensive Guide to Booleans, Strings, and Numbers",
+      "creator": "Code & Learn",
+      "url": "https://www.youtube.com/watch?v=WFbiye5eUyw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Primitive Data Types in Go | A Comprehensive Guide to Booleans, Strings, and Numbers - Complete guide by Code & Learn.",
+      "year": 2024
+    },
+    {
+      "title": "Go Programming – Golang Course with Bonus Projects",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=un6ZyFkqFKo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Go Programming – Golang Course with Bonus Projects - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Go lang demand in pak.#coding #programming #golang #mern #javascript",
+      "creator": "Neeraj Walia",
+      "url": "https://www.youtube.com/watch?v=6_xTXLk1vb8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Go lang demand in pak.#coding #programming #golang #mern #javascript - Complete guide by Neeraj Walia.",
+      "year": 2024
+    },
+    {
+      "title": "Go Takes Over TypeScript",
+      "creator": "Cloudaffle",
+      "url": "https://www.youtube.com/watch?v=RQYxIFHcMrY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Go Takes Over TypeScript - Complete guide by Cloudaffle.",
+      "year": 2024
+    },
+    {
+      "title": "4 Must-Read Books to Master Go (Golang) 🚀📚",
+      "creator": "Mustafa Özyurt",
+      "url": "https://www.youtube.com/watch?v=YNuhuo4QpJw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "4 Must-Read Books to Master Go (Golang) 🚀📚 - Complete guide by Mustafa Özyurt.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Go language in 4 steps | Go programming tips | GoLang #shortsvideo #shorts #golang #golanguage",
+      "creator": "Avinash Dalvi",
+      "url": "https://www.youtube.com/watch?v=cSuW45REzzE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Go language in 4 steps | Go programming tips | GoLang #shortsvideo #shorts #golang #golanguage - Complete guide by Avinash Dalvi.",
+      "year": 2024
+    },
+    {
+      "title": "janet on golang #programming #golang",
+      "creator": "Janet A. Carr",
+      "url": "https://www.youtube.com/watch?v=B2dotfOd7EI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "janet on golang #programming #golang - Complete guide by Janet A. Carr.",
+      "year": 2024
+    },
+    {
+      "title": "Golang vs Python  - HTPMR  @High_Tech_PM_Raja",
+      "creator": "High Tech PM Raja",
+      "url": "https://www.youtube.com/watch?v=fn776OK6SJQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Golang vs Python  - HTPMR  @High_Tech_PM_Raja - Complete guide by High Tech PM Raja.",
+      "year": 2024
+    },
+    {
+      "title": "Why everyone is talking about Go Language in 2026. #ai #golang #code #software #coding",
+      "creator": "Rishabh Singh",
+      "url": "https://www.youtube.com/watch?v=D6YbXySK9nE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why everyone is talking about Go Language in 2026. #ai #golang #code #software #coding - Complete guide by Rishabh Singh.",
+      "year": 2024
+    },
+    {
+      "title": "💻 Learn Coding for Free | Top YouTube Channels to Master Programming 🚀",
+      "creator": "Reenu Suryawanshi | skills & career",
+      "url": "https://www.youtube.com/watch?v=komaJCTba6A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "💻 Learn Coding for Free | Top YouTube Channels to Master Programming 🚀 - Complete guide by Reenu Suryawanshi | skills & career.",
+      "year": 2024
+    },
+    {
+      "title": "I learned the Go Programming Language 👩‍💻 #coding #coder #programming #software #technology",
+      "creator": "Coding with Lewis",
+      "url": "https://www.youtube.com/watch?v=vhPaUbU-V0A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I learned the Go Programming Language 👩‍💻 #coding #coder #programming #software #technology - Complete guide by Coding with Lewis.",
+      "year": 2024
+    },
+    {
+      "title": "Master Golang in One Video | Complete Go Course + Real-world API Project in Hindi | Coder's Gyan",
+      "creator": "Coder's Gyan",
+      "url": "https://www.youtube.com/watch?v=yZgwW6Yuc_E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Master Golang in One Video | Complete Go Course + Real-world API Project in Hindi | Coder's Gyan - Complete guide by Coder's Gyan.",
+      "year": 2024
+    },
+    {
+      "title": "Go and React Full Stack App – Go Tutorial for Node Developers",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=lNd7XlXwlho",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Go and React Full Stack App – Go Tutorial for Node Developers - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "3 BEST WEBSITES TO LEARN GOLANG | LEARN GO PROGRAMMING FOR BEGINNERS #shorts",
+      "creator": "Raghu Vamsi Coding",
+      "url": "https://www.youtube.com/watch?v=VgOVmV4enXw",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "3 BEST WEBSITES TO LEARN GOLANG | LEARN GO PROGRAMMING FOR BEGINNERS #shorts - Complete guide by Raghu Vamsi Coding.",
+      "year": 2024
+    },
+    {
+      "title": "Why did the dev go broke?",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=1SKV4B_WPkg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why did the dev go broke? - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Ken Thompson: Why did we create Golang?",
+      "creator": "Mastery Learning",
+      "url": "https://www.youtube.com/watch?v=c-P5R0aMylM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ken Thompson: Why did we create Golang? - Complete guide by Mastery Learning.",
+      "year": 2024
+    },
+    {
+      "title": "Go Programming - Full Course",
+      "creator": "Tech With Tim",
+      "url": "https://www.youtube.com/watch?v=V-lI7AmusGs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Go Programming - Full Course - Complete guide by Tech With Tim.",
+      "year": 2024
+    },
+    {
+      "title": "Golang Full Course 2026",
+      "creator": "Sangam Mukherjee",
+      "url": "https://www.youtube.com/watch?v=DR4QhvIlFfQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Golang Full Course 2026 - Complete guide by Sangam Mukherjee.",
+      "year": 2024
+    },
+    {
+      "title": "Learn GO Fast: Full Tutorial",
+      "creator": "Alex Mux",
+      "url": "https://www.youtube.com/watch?v=8uiZC0l4Ajw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn GO Fast: Full Tutorial - Complete guide by Alex Mux.",
+      "year": 2024
+    },
+    {
+      "title": "Golang Tutorial for Beginners | Full Go Course",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=yyUHQIec83I",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Golang Tutorial for Beginners | Full Go Course - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Golang Programming Language Full Course 🔥| Hello world #princebhai",
+      "creator": "Hello World",
+      "url": "https://www.youtube.com/watch?v=w2noCpc4ieM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Golang Programming Language Full Course 🔥| Hello world #princebhai - Complete guide by Hello World.",
+      "year": 2024
+    },
+    {
+      "title": "Everything I did to become an expert in Golang (you can do this too)",
+      "creator": "Melkey",
+      "url": "https://www.youtube.com/watch?v=wr8gJMj3ODw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Everything I did to become an expert in Golang (you can do this too) - Complete guide by Melkey.",
+      "year": 2024
+    },
+    {
+      "title": "Golang course for beginners 🔥 #30daysofgolang",
+      "creator": "Hello World",
+      "url": "https://www.youtube.com/watch?v=nRBnJCbhhVw",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Golang course for beginners 🔥 #30daysofgolang - Complete guide by Hello World.",
+      "year": 2024
+    },
+    {
+      "title": "Go in 100 Seconds",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=446E-r0rXHI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Go in 100 Seconds - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Go Programming by Building 11 Projects – Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=jFfo23yIWac",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Go Programming by Building 11 Projects – Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Go (Golang) Crash Course: The Complete Language Tour",
+      "creator": "Coding with Patrik",
+      "url": "https://www.youtube.com/watch?v=85xEdlKojL4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Go (Golang) Crash Course: The Complete Language Tour - Complete guide by Coding with Patrik.",
+      "year": 2024
+    },
+    {
+      "title": "Rust vs Haskell: Which has the steeper learning curve? #programming #softwaredevelopment #bashbunni",
+      "creator": "bashbunni",
+      "url": "https://www.youtube.com/watch?v=-0dZv23KhCg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Rust vs Haskell: Which has the steeper learning curve? #programming #softwaredevelopment #bashbunni - Complete guide by bashbunni.",
+      "year": 2024
+    },
+    {
+      "title": "Aprende Go - Curso de Golang desde cero",
+      "creator": "freeCodeCamp Español",
+      "url": "https://www.youtube.com/watch?v=L_yYVEC8GZo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Aprende Go - Curso de Golang desde cero - Complete guide by freeCodeCamp Español.",
+      "year": 2024
+    },
+    {
+      "title": "Rust is not for beginners. #coding #programming #rust #shorts",
+      "creator": "ezCommit",
+      "url": "https://www.youtube.com/watch?v=18ZUnmMaKQk",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Rust is not for beginners. #coding #programming #rust #shorts - Complete guide by ezCommit.",
+      "year": 2024
+    },
+    {
+      "title": "Welcome to series on GO programming language",
+      "creator": "Hitesh Choudhary",
+      "url": "https://www.youtube.com/watch?v=JoJ8Sw5Yb4c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Welcome to series on GO programming language - Complete guide by Hitesh Choudhary.",
+      "year": 2024
+    },
+    {
+      "title": "Before you start with golang",
+      "creator": "Hitesh Choudhary",
+      "url": "https://www.youtube.com/watch?v=F3klnY_r8FU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Before you start with golang - Complete guide by Hitesh Choudhary.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Rust Programming - Complete Course 🦀",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=BpPEoZW5IiY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Rust Programming - Complete Course 🦀 - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Linus Torvalds Explaining C and Rust #rust #programming",
+      "creator": "Rohit Singh",
+      "url": "https://www.youtube.com/watch?v=vPYMZie__aM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Linus Torvalds Explaining C and Rust #rust #programming - Complete guide by Rohit Singh.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Rust with one Easy Trick",
+      "creator": "The PrimeTime",
+      "url": "https://www.youtube.com/watch?v=-if38ssDN7c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Rust with one Easy Trick - Complete guide by The PrimeTime.",
+      "year": 2024
+    },
+    {
+      "title": "Rust Tutorial for Beginners - Full Course (With Notes and Project Ideas)",
+      "creator": "Harkirat Singh",
+      "url": "https://www.youtube.com/watch?v=qP7LzZqGh30",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Rust Tutorial for Beginners - Full Course (With Notes and Project Ideas) - Complete guide by Harkirat Singh.",
+      "year": 2024
+    },
+    {
+      "title": "Rust being used in Ransomware",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=BZ28o5oXMvE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Rust being used in Ransomware - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "Rust Programming Full Course  | Learn ⚙️ in 2024 | #rustprogramming #rust",
+      "creator": "BekBrace",
+      "url": "https://www.youtube.com/watch?v=rQ_J9WH6CGk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Rust Programming Full Course  | Learn ⚙️ in 2024 | #rustprogramming #rust - Complete guide by BekBrace.",
+      "year": 2024
+    },
+    {
+      "title": "Rust Programming Course for Beginners - Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=MsocPEZBd-M",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Rust Programming Course for Beginners - Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Rust is like ancient runes to js dev #coding #programming #javascript #python",
+      "creator": "CodeVenture",
+      "url": "https://www.youtube.com/watch?v=nc6lYL0phjc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Rust is like ancient runes to js dev #coding #programming #javascript #python - Complete guide by CodeVenture.",
+      "year": 2024
+    },
+    {
+      "title": "Rust Vs Python",
+      "creator": "Rust Spot",
+      "url": "https://www.youtube.com/watch?v=zPhP5n9DCS8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Rust Vs Python - Complete guide by Rust Spot.",
+      "year": 2024
+    },
+    {
+      "title": "The Rust vs C plus plus  Debate #coding #programming #javascript #python",
+      "creator": "CodeVenture",
+      "url": "https://www.youtube.com/watch?v=smMp2xGxmW4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Rust vs C plus plus  Debate #coding #programming #javascript #python - Complete guide by CodeVenture.",
+      "year": 2024
+    },
+    {
+      "title": "Rust vs Python Parellel programming #rustlang #rustprogramming #coding #python",
+      "creator": "Dario",
+      "url": "https://www.youtube.com/watch?v=0xcFyb7fuOA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Rust vs Python Parellel programming #rustlang #rustprogramming #coding #python - Complete guide by Dario.",
+      "year": 2024
+    },
+    {
+      "title": "Rust mein to allowed nhi hai......#coding #programming #rust #reference #trending",
+      "creator": "Neeraj Walia",
+      "url": "https://www.youtube.com/watch?v=e5rlUd9Baqk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Rust mein to allowed nhi hai......#coding #programming #rust #reference #trending - Complete guide by Neeraj Walia.",
+      "year": 2024
+    },
+    {
+      "title": "Why Beginners Should AVOID Rust #programming #coding #software",
+      "creator": "Low Level",
+      "url": "https://www.youtube.com/watch?v=w9VvbeOoXsA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Why Beginners Should AVOID Rust #programming #coding #software - Complete guide by Low Level.",
+      "year": 2024
+    },
+    {
+      "title": "25 Best YouTube Channels to Learn Coding in 2025 | Learn C++, Python, Java, JavaScript & More 🚀",
+      "creator": "Kushal Kode",
+      "url": "https://www.youtube.com/watch?v=znZHyr-Zwu8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "25 Best YouTube Channels to Learn Coding in 2025 | Learn C++, Python, Java, JavaScript & More 🚀 - Complete guide by Kushal Kode.",
+      "year": 2024
+    },
+    {
+      "title": "Linus Torvalds not going to be the one who manages the RUST code • Play to your strengths",
+      "creator": "Couch Programmer",
+      "url": "https://www.youtube.com/watch?v=gCGSqG_9mVc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Linus Torvalds not going to be the one who manages the RUST code • Play to your strengths - Complete guide by Couch Programmer.",
+      "year": 2024
+    },
+    {
+      "title": "Should You Learn Rust or Golang? #programming #shorts",
+      "creator": "Melkey",
+      "url": "https://www.youtube.com/watch?v=x-IxAXuFvmU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Should You Learn Rust or Golang? #programming #shorts - Complete guide by Melkey.",
+      "year": 2024
+    },
+    {
+      "title": "Best YouTube channel for Coders",
+      "creator": "CodewithPrashant ",
+      "url": "https://www.youtube.com/watch?v=aH_h7eTP6Lg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Best YouTube channel for Coders - Complete guide by CodewithPrashant .",
+      "year": 2024
+    },
+    {
+      "title": "Why developers love Rust #coding #programming #csmajors",
+      "creator": "Arjay McCandless",
+      "url": "https://www.youtube.com/watch?v=6HXaQhyKFcM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why developers love Rust #coding #programming #csmajors - Complete guide by Arjay McCandless.",
+      "year": 2024
+    },
+    {
+      "title": "Javascript vs Rust.....#coding #programming #rust #javascript #rust",
+      "creator": "Neeraj Walia",
+      "url": "https://www.youtube.com/watch?v=w-KYT5cPelA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Javascript vs Rust.....#coding #programming #rust #javascript #rust - Complete guide by Neeraj Walia.",
+      "year": 2024
+    },
+    {
+      "title": "Rust Programming - No Inheritance",
+      "creator": "Jeremy Chone",
+      "url": "https://www.youtube.com/watch?v=Fze6w1LbDmc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Rust Programming - No Inheritance - Complete guide by Jeremy Chone.",
+      "year": 2024
+    },
+    {
+      "title": "my process for learning the Rust Programming Language",
+      "creator": "You Suck at Programming",
+      "url": "https://www.youtube.com/watch?v=a_FDwmvHkFM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "my process for learning the Rust Programming Language - Complete guide by You Suck at Programming.",
+      "year": 2024
+    },
+    {
+      "title": "Getting Started with Rust | Rust Book",
+      "creator": "Piyush Garg",
+      "url": "https://www.youtube.com/watch?v=unRhxbFULII",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Getting Started with Rust | Rust Book - Complete guide by Piyush Garg.",
+      "year": 2024
+    },
+    {
+      "title": "How I feel about programming languages with no explanation",
+      "creator": "Josh Teaches Code",
+      "url": "https://www.youtube.com/watch?v=CT5e5cYZM78",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How I feel about programming languages with no explanation - Complete guide by Josh Teaches Code.",
+      "year": 2024
+    },
+    {
+      "title": "14 Best FREE Coding Platforms for Beginners 2026 — HTML to SQL 🔥 #shorts",
+      "creator": "Ricky Oscar",
+      "url": "https://www.youtube.com/watch?v=IpglBIGDZgs",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "14 Best FREE Coding Platforms for Beginners 2026 — HTML to SQL 🔥 #shorts - Complete guide by Ricky Oscar.",
+      "year": 2024
+    },
+    {
+      "title": "Rust 101 Crash Course: Learn Rust (6 HOURS!) + 19 Practice Exercises | Zero To Mastery",
+      "creator": "Zero To Mastery",
+      "url": "https://www.youtube.com/watch?v=lzKeecy4OmQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Rust 101 Crash Course: Learn Rust (6 HOURS!) + 19 Practice Exercises | Zero To Mastery - Complete guide by Zero To Mastery.",
+      "year": 2024
+    },
+    {
+      "title": "Learn the Rust programming language - Course for beginners",
+      "creator": "Francesco Ciulla",
+      "url": "https://www.youtube.com/watch?v=gAX3Zj-JGE0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn the Rust programming language - Course for beginners - Complete guide by Francesco Ciulla.",
+      "year": 2024
+    },
+    {
+      "title": "How I’d learn Rust (If I could start over)",
+      "creator": "Let's Get Rusty",
+      "url": "https://www.youtube.com/watch?v=DhiHhQimSa4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How I’d learn Rust (If I could start over) - Complete guide by Let's Get Rusty.",
+      "year": 2024
+    },
+    {
+      "title": "Programming a Guessing Game | Rust Book",
+      "creator": "Piyush Garg",
+      "url": "https://www.youtube.com/watch?v=aFdQj43a-dE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Programming a Guessing Game | Rust Book - Complete guide by Piyush Garg.",
+      "year": 2024
+    },
+    {
+      "title": "Rust Installation, Hello World, Hello Cargo -  Full Crash Rust Tutorial for Beginners",
+      "creator": "Francesco Ciulla",
+      "url": "https://www.youtube.com/watch?v=R33h77nrMqc",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Rust Installation, Hello World, Hello Cargo -  Full Crash Rust Tutorial for Beginners - Complete guide by Francesco Ciulla.",
+      "year": 2024
+    },
+    {
+      "title": "Web3 Course Walkthrough on freeCodeCamp.org (Rust, Blockchain Development, and Smart Contracts)",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=hDfkyF8U-pw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Web3 Course Walkthrough on freeCodeCamp.org (Rust, Blockchain Development, and Smart Contracts) - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Variables, Shadowing, Constants in Rust -  Full Crash Rust Tutorial for Beginners",
+      "creator": "Francesco Ciulla",
+      "url": "https://www.youtube.com/watch?v=6Ag0MZUlvBE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Variables, Shadowing, Constants in Rust -  Full Crash Rust Tutorial for Beginners - Complete guide by Francesco Ciulla.",
+      "year": 2024
+    },
+    {
+      "title": "Rust Ruined My Career (I Can't Go Back)",
+      "creator": "Let's Get Rusty",
+      "url": "https://www.youtube.com/watch?v=B2gmKy3pHkw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Rust Ruined My Career (I Can't Go Back) - Complete guide by Let's Get Rusty.",
+      "year": 2024
+    },
+    {
+      "title": "I Tried to Learn Rust",
+      "creator": "commonLuke",
+      "url": "https://www.youtube.com/watch?v=_2xQog4EBzg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I Tried to Learn Rust - Complete guide by commonLuke.",
+      "year": 2024
+    },
+    {
+      "title": "ULTIMATE Rust Lang Tutorial! - Getting Started",
+      "creator": "Let's Get Rusty",
+      "url": "https://www.youtube.com/watch?v=OX9HJsJUDxA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "ULTIMATE Rust Lang Tutorial! - Getting Started - Complete guide by Let's Get Rusty.",
+      "year": 2024
+    },
+    {
+      "title": "Torvalds Speaks: Rust's Impact on the Linux Kernel",
+      "creator": "Mastery Learning",
+      "url": "https://www.youtube.com/watch?v=YyRVOGxRKLg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Torvalds Speaks: Rust's Impact on the Linux Kernel - Complete guide by Mastery Learning.",
+      "year": 2024
+    },
+    {
+      "title": "Programming a Guessing Game in Rust!",
+      "creator": "Let's Get Rusty",
+      "url": "https://www.youtube.com/watch?v=H0xBSbnQYds",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Programming a Guessing Game in Rust! - Complete guide by Let's Get Rusty.",
+      "year": 2024
+    },
+    {
+      "title": "Why you should NOT learn Rust as your next programming language",
+      "creator": "Francesco Ciulla",
+      "url": "https://www.youtube.com/watch?v=7-KwlmLfgsg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why you should NOT learn Rust as your next programming language - Complete guide by Francesco Ciulla.",
+      "year": 2024
+    },
+    {
+      "title": "🦀 Master Rust Programming #1 | Intro, Setup, Variables, Control Flow & Functions | Full Course 2025🚀",
+      "creator": "BlockDev",
+      "url": "https://www.youtube.com/watch?v=qOh0TK-Rt1U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🦀 Master Rust Programming #1 | Intro, Setup, Variables, Control Flow & Functions | Full Course 2025🚀 - Complete guide by BlockDev.",
+      "year": 2024
+    },
+    {
+      "title": "🦀Master Rust Programming #2 | Ownership, Borrowing, References, Slices & Structs | Full Course 2025🚀",
+      "creator": "BlockDev",
+      "url": "https://www.youtube.com/watch?v=2J9nYgrSTDg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🦀Master Rust Programming #2 | Ownership, Borrowing, References, Slices & Structs | Full Course 2025🚀 - Complete guide by BlockDev.",
+      "year": 2024
+    },
+    {
+      "title": "Print | Learn Rust part 2",
+      "creator": "Smart Contract Programmer",
+      "url": "https://www.youtube.com/watch?v=zlK4f7gjXhk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Print | Learn Rust part 2 - Complete guide by Smart Contract Programmer.",
+      "year": 2024
+    },
+    {
+      "title": "Hello Rust | Learn Rust part 1",
+      "creator": "Smart Contract Programmer",
+      "url": "https://www.youtube.com/watch?v=wq56EAYZqGg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Hello Rust | Learn Rust part 1 - Complete guide by Smart Contract Programmer.",
+      "year": 2024
+    },
+    {
+      "title": "CUDA Programming Course – High-Performance Computing with GPUs",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=86FAWCzIe_4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CUDA Programming Course – High-Performance Computing with GPUs - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Rust Course 2026 – Complete Rust Programming for Beginners",
+      "creator": "Codynn",
+      "url": "https://www.youtube.com/watch?v=tS1PFlTmpuU",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Rust Course 2026 – Complete Rust Programming for Beginners - Complete guide by Codynn.",
+      "year": 2024
+    },
+    {
+      "title": "C# course Introduction – Beginner Friendly Tutorial – Csharp programming 2026",
+      "creator": "CodeWithSalar",
+      "url": "https://www.youtube.com/watch?v=Iz5TZ820hqQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "C# course Introduction – Beginner Friendly Tutorial – Csharp programming 2026 - Complete guide by CodeWithSalar.",
+      "year": 2024
+    },
+    {
+      "title": "Learn C# Programming – Full Course with Mini-Projects",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=YrtFtdTTfv0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn C# Programming – Full Course with Mini-Projects - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "C# Introduction – Beginner Friendly Tutorial – Csharp programming 2026",
+      "creator": "CodeWithSalar",
+      "url": "https://www.youtube.com/watch?v=IxQwO6VxPug",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "C# Introduction – Beginner Friendly Tutorial – Csharp programming 2026 - Complete guide by CodeWithSalar.",
+      "year": 2024
+    },
+    {
+      "title": "C# Full Course 2025 | Basic to Advanced in One Video",
+      "creator": "Shiva Gautam",
+      "url": "https://www.youtube.com/watch?v=ZPxrO1F5JZg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C# Full Course 2025 | Basic to Advanced in One Video - Complete guide by Shiva Gautam.",
+      "year": 2024
+    },
+    {
+      "title": "Why C# is the Coolest Programming Language Ever? 😎 | C++ | Microsoft |  Anders Hejlsberg | #shorts",
+      "creator": "SCALER",
+      "url": "https://www.youtube.com/watch?v=LxciRHJaGXY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why C# is the Coolest Programming Language Ever? 😎 | C++ | Microsoft |  Anders Hejlsberg | #shorts - Complete guide by SCALER.",
+      "year": 2024
+    },
+    {
+      "title": "Free Foundational C# Certification from Microsoft – Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=6GQAE7iLOhY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Free Foundational C# Certification from Microsoft – Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Advanced C# Programming Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=YT8s-90oDC0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Advanced C# Programming Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Master Design Patterns & SOLID Principles in C# - Full OOP Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=rylaiB2uH2A",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Master Design Patterns & SOLID Principles in C# - Full OOP Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "C# Tutorial In Hindi",
+      "creator": "CodeWithHarry",
+      "url": "https://www.youtube.com/watch?v=SuLiu5AK9Ps",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C# Tutorial In Hindi - Complete guide by CodeWithHarry.",
+      "year": 2024
+    },
+    {
+      "title": "Hello World! [Pt 2] | C# for Beginners",
+      "creator": "dotnet",
+      "url": "https://www.youtube.com/watch?v=HFLALzkcjLM",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Hello World! [Pt 2] | C# for Beginners - Complete guide by dotnet.",
+      "year": 2024
+    },
+    {
+      "title": "4 Amazing FREE Online Courses to learn C#",
+      "creator": "Creative Tim Tutorials",
+      "url": "https://www.youtube.com/watch?v=WQoGHig4GT0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "4 Amazing FREE Online Courses to learn C# - Complete guide by Creative Tim Tutorials.",
+      "year": 2024
+    },
+    {
+      "title": "What is C#? [Pt 1] | C# for Beginners",
+      "creator": "dotnet",
+      "url": "https://www.youtube.com/watch?v=9THmGiSPjBQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "What is C#? [Pt 1] | C# for Beginners - Complete guide by dotnet.",
+      "year": 2024
+    },
+    {
+      "title": "Every Programmer Should Watch This! 🚨 Best Free Courses in 1 Video 🔥",
+      "creator": "NeuralNinjaaa",
+      "url": "https://www.youtube.com/watch?v=mlfcojhSZqA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Every Programmer Should Watch This! 🚨 Best Free Courses in 1 Video 🔥 - Complete guide by NeuralNinjaaa.",
+      "year": 2024
+    },
+    {
+      "title": "Mastering C#",
+      "creator": "Justin P Barnett",
+      "url": "https://www.youtube.com/watch?v=DI9fsrx5Ly4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Mastering C# - Complete guide by Justin P Barnett.",
+      "year": 2024
+    },
+    {
+      "title": "Foundational C# Certification with freeCodeCamp #dotnet #coding #csharp",
+      "creator": "dotnet",
+      "url": "https://www.youtube.com/watch?v=Cth12yR7Ojs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Foundational C# Certification with freeCodeCamp #dotnet #coding #csharp - Complete guide by dotnet.",
+      "year": 2024
+    },
+    {
+      "title": "Learn C# for FREE! 🚀 Complete 22-Part Beginner Course",
+      "creator": "A.S. Sharpdev",
+      "url": "https://www.youtube.com/watch?v=XtyHFlxIpho",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn C# for FREE! 🚀 Complete 22-Part Beginner Course - Complete guide by A.S. Sharpdev.",
+      "year": 2024
+    },
+    {
+      "title": "How it feels writing your first program in C# versus python…",
+      "creator": "LeMaster Tech",
+      "url": "https://www.youtube.com/watch?v=SdKpZ7WxDxo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How it feels writing your first program in C# versus python… - Complete guide by LeMaster Tech.",
+      "year": 2024
+    },
+    {
+      "title": "4 Unity C# Coding Tips!",
+      "creator": "Contraband",
+      "url": "https://www.youtube.com/watch?v=F10piBoNLr8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "4 Unity C# Coding Tips! - Complete guide by Contraband.",
+      "year": 2024
+    },
+    {
+      "title": "Learn C# .NET in 3 Hours?! #csharp #crashcourse #dotnet",
+      "creator": "Coderversity",
+      "url": "https://www.youtube.com/watch?v=pEgojENA_sk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn C# .NET in 3 Hours?! #csharp #crashcourse #dotnet - Complete guide by Coderversity.",
+      "year": 2024
+    },
+    {
+      "title": "example 1 using C# Output display || speed coding short video || you try it #coding #\"C#\" #codecamp",
+      "creator": "Code Camp",
+      "url": "https://www.youtube.com/watch?v=dpDdvg0xHi8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "example 1 using C# Output display || speed coding short video || you try it #coding #\"C#\" #codecamp - Complete guide by Code Camp.",
+      "year": 2024
+    },
+    {
+      "title": "C# programming",
+      "creator": "Code Versity",
+      "url": "https://www.youtube.com/watch?v=APanXOeBHYU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C# programming - Complete guide by Code Versity.",
+      "year": 2024
+    },
+    {
+      "title": "My freecodecamp Story #shorts",
+      "creator": "web boss",
+      "url": "https://www.youtube.com/watch?v=ItgzgFaPTp0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "My freecodecamp Story #shorts - Complete guide by web boss.",
+      "year": 2024
+    },
+    {
+      "title": "C# free certification challenge. #csharp #dotnet #developer",
+      "creator": "OZKARY",
+      "url": "https://www.youtube.com/watch?v=SIaxH5ZmR_E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C# free certification challenge. #csharp #dotnet #developer - Complete guide by OZKARY.",
+      "year": 2024
+    },
+    {
+      "title": "Learn C# FREE Tutorial Course Beginner to Advanced! [2026 - 12 HOURS]",
+      "creator": "Code Monkey",
+      "url": "https://www.youtube.com/watch?v=qZpMX8Re_2Q",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn C# FREE Tutorial Course Beginner to Advanced! [2026 - 12 HOURS] - Complete guide by Code Monkey.",
+      "year": 2024
+    },
+    {
+      "title": "C# fundamentals recap! #csharp #buildinpublic #backenddeveloper #codingjourney #softwareengineer",
+      "creator": "Alvin Sanchez | Software & Garage",
+      "url": "https://www.youtube.com/watch?v=lOwyk0iN29k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C# fundamentals recap! #csharp #buildinpublic #backenddeveloper #codingjourney #softwareengineer - Complete guide by Alvin Sanchez | Software & Garage.",
+      "year": 2024
+    },
+    {
+      "title": "Free Learn Asp.Net Framework And .Net Core Using Programming Language C# | .Net Tutorials In Hindi",
+      "creator": "Tech EngineerAI",
+      "url": "https://www.youtube.com/watch?v=NqdIjMaxU9A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Free Learn Asp.Net Framework And .Net Core Using Programming Language C# | .Net Tutorials In Hindi - Complete guide by Tech EngineerAI.",
+      "year": 2024
+    },
+    {
+      "title": "C# Full Course in 10 Days using W3Schools | Day-1 of W3Schools C# Tutorial",
+      "creator": "Learn with W3Schools",
+      "url": "https://www.youtube.com/watch?v=9hJPzq4ntAE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C# Full Course in 10 Days using W3Schools | Day-1 of W3Schools C# Tutorial - Complete guide by Learn with W3Schools.",
+      "year": 2024
+    },
+    {
+      "title": "C# Full Course in 10 Days using W3Schools | Day-2 of W3Schools C# Tutorial",
+      "creator": "Learn with W3Schools",
+      "url": "https://www.youtube.com/watch?v=U4SseX1xh3U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C# Full Course in 10 Days using W3Schools | Day-2 of W3Schools C# Tutorial - Complete guide by Learn with W3Schools.",
+      "year": 2024
+    },
+    {
+      "title": "Part 2 - C# Tutorial - Reading and writing to a console.avi",
+      "creator": "kudvenkat",
+      "url": "https://www.youtube.com/watch?v=6QcHJ33YrYk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Part 2 - C# Tutorial - Reading and writing to a console.avi - Complete guide by kudvenkat.",
+      "year": 2024
+    },
+    {
+      "title": "Part 1 - C# Tutorial - Introduction.avi",
+      "creator": "kudvenkat",
+      "url": "https://www.youtube.com/watch?v=SXmVym6L8dw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Part 1 - C# Tutorial - Introduction.avi - Complete guide by kudvenkat.",
+      "year": 2024
+    },
+    {
+      "title": "C# Tutorial 1 - Introduction | First C# Program | C# Vs Java | C# Tutorial in Hindi for Beginners",
+      "creator": "Easy Engineering Classes",
+      "url": "https://www.youtube.com/watch?v=tOA_8E-_Urw",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "C# Tutorial 1 - Introduction | First C# Program | C# Vs Java | C# Tutorial in Hindi for Beginners - Complete guide by Easy Engineering Classes.",
+      "year": 2024
+    },
+    {
+      "title": "C# if – if else – if else if ladder – EECTutorials | C# Tutorial for Beginners in Hindi",
+      "creator": "Easy Engineering Classes",
+      "url": "https://www.youtube.com/watch?v=zCMHl0UGimE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "C# if – if else – if else if ladder – EECTutorials | C# Tutorial for Beginners in Hindi - Complete guide by Easy Engineering Classes.",
+      "year": 2024
+    },
+    {
+      "title": "C# Full Course : C# Tutorial for Beginners",
+      "creator": "Derek Banas",
+      "url": "https://www.youtube.com/watch?v=M5ugY7fWydE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "C# Full Course : C# Tutorial for Beginners - Complete guide by Derek Banas.",
+      "year": 2024
+    },
+    {
+      "title": "Kotlin Course For Beginners – Full Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=nqK3oJ682mQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Kotlin Course For Beginners – Full Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Create a C# Application from Start to Finish - Complete Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=wfWxdh-_k_4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Create a C# Application from Start to Finish - Complete Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "ASP.NET Core Full Course For Beginners (.NET 8)",
+      "creator": "Julio Casal",
+      "url": "https://www.youtube.com/watch?v=AhAxLiGC7Pc",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "ASP.NET Core Full Course For Beginners (.NET 8) - Complete guide by Julio Casal.",
+      "year": 2024
+    },
+    {
+      "title": "Full 2025 Kotlin Crash Course For Beginners",
+      "creator": "Philipp Lackner",
+      "url": "https://www.youtube.com/watch?v=dzUc9vrsldM",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Full 2025 Kotlin Crash Course For Beginners - Complete guide by Philipp Lackner.",
+      "year": 2024
+    },
+    {
+      "title": "Kotlin - Complete Course From Scratch | CheezyCode Tutorial #0",
+      "creator": "Cheezy Code",
+      "url": "https://www.youtube.com/watch?v=NosAkIKgA4Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kotlin - Complete Course From Scratch | CheezyCode Tutorial #0 - Complete guide by Cheezy Code.",
+      "year": 2024
+    },
+    {
+      "title": "What is Kotlin? Introduction To Kotlin Tutorial | CheezyCode #1",
+      "creator": "Cheezy Code",
+      "url": "https://www.youtube.com/watch?v=vhfzN69ALpY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Kotlin? Introduction To Kotlin Tutorial | CheezyCode #1 - Complete guide by Cheezy Code.",
+      "year": 2024
+    },
+    {
+      "title": "Android & Kotlin Development Masterclass – Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=blKkRoZPxLc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Android & Kotlin Development Masterclass – Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Kotlin Programming – Full Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=EExSSotojVI",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn Kotlin Programming – Full Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Android App Development Tutorial for Beginners - Kotlin - Hindi -  #2",
+      "creator": "Neat Roots",
+      "url": "https://www.youtube.com/watch?v=AOzkQcFAUco",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Android App Development Tutorial for Beginners - Kotlin - Hindi -  #2 - Complete guide by Neat Roots.",
+      "year": 2024
+    },
+    {
+      "title": "Build and Publish an Android App - Full Course with Kotlin",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=C2DBDZKkLss",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build and Publish an Android App - Full Course with Kotlin - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction of Mobile Apps - Android App Development Course in Hindi #1",
+      "creator": "Neat Roots",
+      "url": "https://www.youtube.com/watch?v=2fp4K21Hsy8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction of Mobile Apps - Android App Development Course in Hindi #1 - Complete guide by Neat Roots.",
+      "year": 2024
+    },
+    {
+      "title": "How to Download & Install Kotlin on Windows ? | #kotlin #kotlincourse #androidstudio @cstechtube",
+      "creator": "CS TechTube",
+      "url": "https://www.youtube.com/watch?v=QQA2HW3YSfk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Download & Install Kotlin on Windows ? | #kotlin #kotlincourse #androidstudio @cstechtube - Complete guide by CS TechTube.",
+      "year": 2024
+    },
+    {
+      "title": "Kotlin Full course for Beginner [FREE] | Kotlin App development Course | @cstechtube",
+      "creator": "CS TechTube",
+      "url": "https://www.youtube.com/watch?v=qXIxUSIYxS0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Kotlin Full course for Beginner [FREE] | Kotlin App development Course | @cstechtube - Complete guide by CS TechTube.",
+      "year": 2024
+    },
+    {
+      "title": "The Complete Kotlin Course | Beginner to Pro",
+      "creator": "Programming with Alex",
+      "url": "https://www.youtube.com/watch?v=WiM11KIE-sw",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "The Complete Kotlin Course | Beginner to Pro - Complete guide by Programming with Alex.",
+      "year": 2024
+    },
+    {
+      "title": "Android Development Full Course for Beginners (2026) | Kotlin & Jetpack Compose",
+      "creator": "Neat Roots",
+      "url": "https://www.youtube.com/watch?v=4O56p2h9Srw",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Android Development Full Course for Beginners (2026) | Kotlin & Jetpack Compose - Complete guide by Neat Roots.",
+      "year": 2024
+    },
+    {
+      "title": "Kotlin in 100 Seconds",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=xT8oP0wy-A0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kotlin in 100 Seconds - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "Android Development Course - Build Native Apps with Kotlin Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=Iz08OTTjR04",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Android Development Course - Build Native Apps with Kotlin Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "How to Install Android Studio on Windows | Mission Android 2026",
+      "creator": "Neat Roots",
+      "url": "https://www.youtube.com/watch?v=FGi8mcc2tGw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Install Android Studio on Windows | Mission Android 2026 - Complete guide by Neat Roots.",
+      "year": 2024
+    },
+    {
+      "title": "Desktop app with Kotlin & Compose UI. Dialog for Alert settings #coding",
+      "creator": "Dmitri Chernysh - Android Mobile Dev",
+      "url": "https://www.youtube.com/watch?v=Ec_WIAYdTFc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Desktop app with Kotlin & Compose UI. Dialog for Alert settings #coding - Complete guide by Dmitri Chernysh - Android Mobile Dev.",
+      "year": 2024
+    },
+    {
+      "title": "Kotlin & Android Development Course: Build a Quiz Application",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=kNghEbknLs8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kotlin & Android Development Course: Build a Quiz Application - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "The coolest thing you ever developed in Kotlin? #software #questions #developer #Kotlin",
+      "creator": "Kotlin by JetBrains",
+      "url": "https://www.youtube.com/watch?v=f73UGMnoR30",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The coolest thing you ever developed in Kotlin? #software #questions #developer #Kotlin - Complete guide by Kotlin by JetBrains.",
+      "year": 2024
+    },
+    {
+      "title": "Android Programming Course - Kotlin, Jetpack Compose UI, Graph Data Structures & Algorithms",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=bo_LP6QOUio",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Android Programming Course - Kotlin, Jetpack Compose UI, Graph Data Structures & Algorithms - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Jetpack Compose Canvas | KMP | Kotlin",
+      "creator": "Faysal Hossain",
+      "url": "https://www.youtube.com/watch?v=rC_6rJFqr-c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Jetpack Compose Canvas | KMP | Kotlin - Complete guide by Faysal Hossain.",
+      "year": 2024
+    },
+    {
+      "title": "1 - What you will learn in this course and how is it structured",
+      "creator": "Droid Dev Hub ",
+      "url": "https://www.youtube.com/watch?v=jIgCPcAlDKI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1 - What you will learn in this course and how is it structured - Complete guide by Droid Dev Hub .",
+      "year": 2024
+    },
+    {
+      "title": "5 years of Kotlin on Android #Shorts",
+      "creator": "Android Developers",
+      "url": "https://www.youtube.com/watch?v=PhqMvUQURc4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "5 years of Kotlin on Android #Shorts - Complete guide by Android Developers.",
+      "year": 2024
+    },
+    {
+      "title": "2 - Thanks a lot for taking the course",
+      "creator": "Droid Dev Hub ",
+      "url": "https://www.youtube.com/watch?v=XQqWJD53xLM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "2 - Thanks a lot for taking the course - Complete guide by Droid Dev Hub .",
+      "year": 2024
+    },
+    {
+      "title": "W3Schools KOTLIN Tutorial for Absolute Beginners | Learn Kotlin Programming using W3Schools( Part-1)",
+      "creator": "Learn with W3Schools",
+      "url": "https://www.youtube.com/watch?v=hctsIYSikRM",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "W3Schools KOTLIN Tutorial for Absolute Beginners | Learn Kotlin Programming using W3Schools( Part-1) - Complete guide by Learn with W3Schools.",
+      "year": 2024
+    },
+    {
+      "title": "Kotlin Full Course for Beginners [FREE] | Android Kotlin Tutorial | Learn Kotlin in 6 Hours",
+      "creator": "WsCube Tech",
+      "url": "https://www.youtube.com/watch?v=FlBhpm9aRUg",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Kotlin Full Course for Beginners [FREE] | Android Kotlin Tutorial | Learn Kotlin in 6 Hours - Complete guide by WsCube Tech.",
+      "year": 2024
+    },
+    {
+      "title": "What is Kotlin? Explained in 30 secs  #ytshorts #shorts  #kotlin",
+      "creator": "Studytonight with Abhishek",
+      "url": "https://www.youtube.com/watch?v=a9Se7tyjfEQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Kotlin? Explained in 30 secs  #ytshorts #shorts  #kotlin - Complete guide by Studytonight with Abhishek.",
+      "year": 2024
+    },
+    {
+      "title": "W3Schools KOTLIN Tutorial for Absolute Beginners | Kotlin Variables+Data Type using W3Schools Part-2",
+      "creator": "Learn with W3Schools",
+      "url": "https://www.youtube.com/watch?v=A5G9PT4ehpg",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "W3Schools KOTLIN Tutorial for Absolute Beginners | Kotlin Variables+Data Type using W3Schools Part-2 - Complete guide by Learn with W3Schools.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Programming for Free: 25 Best YouTube Channels From Beginner to Developer #programming #coding",
+      "creator": "D2K Channel",
+      "url": "https://www.youtube.com/watch?v=clBC30UV3ZI",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn Programming for Free: 25 Best YouTube Channels From Beginner to Developer #programming #coding - Complete guide by D2K Channel.",
+      "year": 2024
+    },
+    {
+      "title": "My Android Dev Journey with Kotlin | 100 Days of Code Day 43 | #androiddevelopers #codingnewbie",
+      "creator": "Abhinav'life",
+      "url": "https://www.youtube.com/watch?v=v4oWPqJxAT4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "My Android Dev Journey with Kotlin | 100 Days of Code Day 43 | #androiddevelopers #codingnewbie - Complete guide by Abhinav'life.",
+      "year": 2024
+    },
+    {
+      "title": "Java vs Kotlin for Android App Development | Mobile App Development | Programming | @SCALER",
+      "creator": "SCALER",
+      "url": "https://www.youtube.com/watch?v=Tgg7s8vgHRM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java vs Kotlin for Android App Development | Mobile App Development | Programming | @SCALER - Complete guide by SCALER.",
+      "year": 2024
+    },
+    {
+      "title": "Day 34 |Finished Kotlin Basics in 30 Days | Now I'm Learning Android Dev (100 Days of Code) #coding",
+      "creator": "Abhinav'life",
+      "url": "https://www.youtube.com/watch?v=_IIDEwWJFQg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Day 34 |Finished Kotlin Basics in 30 Days | Now I'm Learning Android Dev (100 Days of Code) #coding - Complete guide by Abhinav'life.",
+      "year": 2024
+    },
+    {
+      "title": "Finished Kotlin Basics in 32 #codingsecrets #codingnewbie #codementor #devlife #dailydev",
+      "creator": "Abhinav'life",
+      "url": "https://www.youtube.com/watch?v=zUhesjHTsto",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Finished Kotlin Basics in 32 #codingsecrets #codingnewbie #codementor #devlife #dailydev - Complete guide by Abhinav'life.",
+      "year": 2024
+    },
+    {
+      "title": "Android App Development Free Course : Android Course Build 3 Applications from Scratch with Java",
+      "creator": "Freshers Camp",
+      "url": "https://www.youtube.com/watch?v=DcBoY2QshNo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Android App Development Free Course : Android Course Build 3 Applications from Scratch with Java - Complete guide by Freshers Camp.",
+      "year": 2024
+    },
+    {
+      "title": "Android Development Roadmap #softwaredev #computerprogrammer #coding",
+      "creator": "Devslopes",
+      "url": "https://www.youtube.com/watch?v=W1Uoi3uvLMc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Android Development Roadmap #softwaredev #computerprogrammer #coding - Complete guide by Devslopes.",
+      "year": 2024
+    },
+    {
+      "title": "Java vs Kotlin #shorts",
+      "creator": "IT Developer",
+      "url": "https://www.youtube.com/watch?v=MMrxcaf-cB4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Java vs Kotlin #shorts - Complete guide by IT Developer.",
+      "year": 2024
+    },
+    {
+      "title": "TOP 3 FREE WEBSITES TO LEARN KOTLIN | BEST COURSES KOTLIN FOR BEGINNERS #shorts #coding",
+      "creator": "Raghu Vamsi Coding",
+      "url": "https://www.youtube.com/watch?v=w06py419aY8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "TOP 3 FREE WEBSITES TO LEARN KOTLIN | BEST COURSES KOTLIN FOR BEGINNERS #shorts #coding - Complete guide by Raghu Vamsi Coding.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter VS Kotlin #coding #codingforbeginners #codingbasics #DSA #sdevelopers #sde",
+      "creator": "Kabirosky",
+      "url": "https://www.youtube.com/watch?v=mtVeJKS64d4",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Flutter VS Kotlin #coding #codingforbeginners #codingbasics #DSA #sdevelopers #sde - Complete guide by Kabirosky.",
+      "year": 2024
+    },
+    {
+      "title": "Android Development Free Online Course : Become an Android Developer from Scratch#shorts #freecourse",
+      "creator": "Freshers Camp",
+      "url": "https://www.youtube.com/watch?v=7ZdWRPuKCtc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Android Development Free Online Course : Become an Android Developer from Scratch#shorts #freecourse - Complete guide by Freshers Camp.",
+      "year": 2024
+    },
+    {
+      "title": "Swift Programming Tutorial – Full Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=8Xg7E9shq0U",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Swift Programming Tutorial – Full Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "iOS Development Free Online Course : iOS Development Kickstart | Craft Your First App With SwiftUI",
+      "creator": "Freshers Camp",
+      "url": "https://www.youtube.com/watch?v=GrfARoAZkBc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "iOS Development Free Online Course : iOS Development Kickstart | Craft Your First App With SwiftUI - Complete guide by Freshers Camp.",
+      "year": 2024
+    },
+    {
+      "title": "I started learning Swift and SwiftUI as my first programming language",
+      "creator": "Mario Duch",
+      "url": "https://www.youtube.com/watch?v=f8Aq36YRNeg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I started learning Swift and SwiftUI as my first programming language - Complete guide by Mario Duch.",
+      "year": 2024
+    },
+    {
+      "title": "SwiftUI Course for Beginners – Create an iOS App from Scratch",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=-VC3hIEL7eQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "SwiftUI Course for Beginners – Create an iOS App from Scratch - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "SwiftUI Sheet & Navigation #swiftuideveloper #iosui #swift #programming",
+      "creator": "Code with Sergio ",
+      "url": "https://www.youtube.com/watch?v=kqiG7k3JeXE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "SwiftUI Sheet & Navigation #swiftuideveloper #iosui #swift #programming - Complete guide by Code with Sergio .",
+      "year": 2024
+    },
+    {
+      "title": "Swift in 100 Seconds",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=nAchMctX4YA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Swift in 100 Seconds - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "Secret Website! 🤫 Learn Coding for Free with Certificate",
+      "creator": "Hidden Tech Hub",
+      "url": "https://www.youtube.com/watch?v=G1FdPQvDUEY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Secret Website! 🤫 Learn Coding for Free with Certificate - Complete guide by Hidden Tech Hub.",
+      "year": 2024
+    },
+    {
+      "title": "just go to freeCodeCamp.org and start there #programming #coding #developerlife #freecodecamp",
+      "creator": "Stevan Freeborn",
+      "url": "https://www.youtube.com/watch?v=yi3V_wLchkE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "just go to freeCodeCamp.org and start there #programming #coding #developerlife #freecodecamp - Complete guide by Stevan Freeborn.",
+      "year": 2024
+    },
+    {
+      "title": "Welcome SwiftUI #swiftui #swift #programming",
+      "creator": "Code with Sergio ",
+      "url": "https://www.youtube.com/watch?v=ghEkisvF0Bo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Welcome SwiftUI #swiftui #swift #programming - Complete guide by Code with Sergio .",
+      "year": 2024
+    },
+    {
+      "title": "coding journey so far in freecodecamp.org ^_^",
+      "creator": "SVSH",
+      "url": "https://www.youtube.com/watch?v=bN-I2aJh7pU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "coding journey so far in freecodecamp.org ^_^ - Complete guide by SVSH.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Swift for free with the best resources! | Tarang Sultania  #swift #programming #coding #code",
+      "creator": "Tarang Sultania",
+      "url": "https://www.youtube.com/watch?v=nUSAJWR29VI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Swift for free with the best resources! | Tarang Sultania  #swift #programming #coding #code - Complete guide by Tarang Sultania.",
+      "year": 2024
+    },
+    {
+      "title": "Developers Are FREAKING OUT Over This! 🤯 (freeCodeCamp: freeCodeCamp.org's open-) #shorts #coding",
+      "creator": "CodeCraftVerse",
+      "url": "https://www.youtube.com/watch?v=8RVQev85CaY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Developers Are FREAKING OUT Over This! 🤯 (freeCodeCamp: freeCodeCamp.org's open-) #shorts #coding - Complete guide by CodeCraftVerse.",
+      "year": 2024
+    },
+    {
+      "title": "Swift Programming… Without A Mac!",
+      "creator": "Cocoatype",
+      "url": "https://www.youtube.com/watch?v=mFveE5NMPPw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Swift Programming… Without A Mac! - Complete guide by Cocoatype.",
+      "year": 2024
+    },
+    {
+      "title": "13 Learn coding for free with nonprofit organization Free Code Camp",
+      "creator": "Tech Career Booster",
+      "url": "https://www.youtube.com/watch?v=XZ_q4wPaWDs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "13 Learn coding for free with nonprofit organization Free Code Camp - Complete guide by Tech Career Booster.",
+      "year": 2024
+    },
+    {
+      "title": "html full course, css full course, html css full course #coding #python #programming #javascript",
+      "creator": "Online Tutorial ",
+      "url": "https://www.youtube.com/watch?v=8hxqRrqX1JE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "html full course, css full course, html css full course #coding #python #programming #javascript - Complete guide by Online Tutorial .",
+      "year": 2024
+    },
+    {
+      "title": "Top 5 Coding websites which help you to code 10x better #w3schools #codecamp #freecodecamp #coding",
+      "creator": "Swift Code Hub",
+      "url": "https://www.youtube.com/watch?v=GISDPe_FKbE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top 5 Coding websites which help you to code 10x better #w3schools #codecamp #freecodecamp #coding - Complete guide by Swift Code Hub.",
+      "year": 2024
+    },
+    {
+      "title": "कोडिंग सीखें  बेहतरीन मुफ्त संसाधन! Best free coding resources",
+      "creator": "ALITE-Tech HINDI",
+      "url": "https://www.youtube.com/watch?v=AWfRXCcdYw4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "कोडिंग सीखें  बेहतरीन मुफ्त संसाधन! Best free coding resources - Complete guide by ALITE-Tech HINDI.",
+      "year": 2024
+    },
+    {
+      "title": "Swift in 30s: Ranges #Shorts #fueepz",
+      "creator": "Fueepz",
+      "url": "https://www.youtube.com/watch?v=g695VjZOSTI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Swift in 30s: Ranges #Shorts #fueepz - Complete guide by Fueepz.",
+      "year": 2024
+    },
+    {
+      "title": "freeCodeCamp.org",
+      "creator": "Alejandro Paños",
+      "url": "https://www.youtube.com/watch?v=k78rYJfQ9P4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "freeCodeCamp.org - Complete guide by Alejandro Paños.",
+      "year": 2024
+    },
+    {
+      "title": "How YOU can learn to Code for free #coding #programming #python #free",
+      "creator": "GYORIX",
+      "url": "https://www.youtube.com/watch?v=V9Y3nXvrULg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How YOU can learn to Code for free #coding #programming #python #free - Complete guide by GYORIX.",
+      "year": 2024
+    },
+    {
+      "title": "html full course, css full course, html css full course #coding #python #html #css #js #javascript",
+      "creator": "Online Tutorial ",
+      "url": "https://www.youtube.com/watch?v=Y8FC7okxvs0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "html full course, css full course, html css full course #coding #python #html #css #js #javascript - Complete guide by Online Tutorial .",
+      "year": 2024
+    },
+    {
+      "title": "What is the FASTEST way to learn LEARN SWIFT for FREE?",
+      "creator": "Swiftful Thinking",
+      "url": "https://www.youtube.com/watch?v=4rccLUs5ndg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is the FASTEST way to learn LEARN SWIFT for FREE? - Complete guide by Swiftful Thinking.",
+      "year": 2024
+    },
+    {
+      "title": "iOS Development Course - Use Swift 5 and UIKit to Build a Netflix Clone",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=KCgYDCKqato",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "iOS Development Course - Use Swift 5 and UIKit to Build a Netflix Clone - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Swift for Beginners 2026 - Lesson 2 - Print Output",
+      "creator": "CodeWithChris",
+      "url": "https://www.youtube.com/watch?v=4UngKMf0T84",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn Swift for Beginners 2026 - Lesson 2 - Print Output - Complete guide by CodeWithChris.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Swift for Beginners 2026 - Lesson 1 - Intro to Swift",
+      "creator": "CodeWithChris",
+      "url": "https://www.youtube.com/watch?v=H3kgN0TuLVc",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn Swift for Beginners 2026 - Lesson 1 - Intro to Swift - Complete guide by CodeWithChris.",
+      "year": 2024
+    },
+    {
+      "title": "Should you learn C#?",
+      "creator": "techwithtimdaily",
+      "url": "https://www.youtube.com/watch?v=gOL05mfoG48",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Should you learn C#? - Complete guide by techwithtimdaily.",
+      "year": 2024
+    },
+    {
+      "title": "Computer & Technology Basics Course for Absolute Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=y2kg3MOk1sY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Computer & Technology Basics Course for Absolute Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Tutorial 01: Introduction to Swift Programming language for IOS | Hello World Program in XCode Swift",
+      "creator": "Fahad Hussain",
+      "url": "https://www.youtube.com/watch?v=sAvs0itMqi0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Tutorial 01: Introduction to Swift Programming language for IOS | Hello World Program in XCode Swift - Complete guide by Fahad Hussain.",
+      "year": 2024
+    },
+    {
+      "title": "Swift Programming Tutorial | FULL COURSE | Absolute Beginner",
+      "creator": "Sean Allen",
+      "url": "https://www.youtube.com/watch?v=CwA1VWP0Ldw",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Swift Programming Tutorial | FULL COURSE | Absolute Beginner - Complete guide by Sean Allen.",
+      "year": 2024
+    },
+    {
+      "title": "How To Make a Website With WordPress (Beginners Tutorial)",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=O79pJ7qXwoE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "How To Make a Website With WordPress (Beginners Tutorial) - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "PHP Programming Language Tutorial - Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=OK_JCtrrv-c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PHP Programming Language Tutorial - Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "SQL Tutorial - Full Database Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "SQL Tutorial - Full Database Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Swift Programming Tutorial for Beginners (Full Tutorial)",
+      "creator": "CodeWithChris",
+      "url": "https://www.youtube.com/watch?v=Ulp1Kimblg0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Swift Programming Tutorial for Beginners (Full Tutorial) - Complete guide by CodeWithChris.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Swift Programming Language in Hindi for Beginners #1 || Coding || IOS Development",
+      "creator": "TechPro Developers",
+      "url": "https://www.youtube.com/watch?v=BGOS6JLo0Pg",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Introduction to Swift Programming Language in Hindi for Beginners #1 || Coding || IOS Development - Complete guide by TechPro Developers.",
+      "year": 2024
+    },
+    {
+      "title": "Variables and Data types in Swift in Hindi #2 || Swift Programming Language || Best Playlist",
+      "creator": "TechPro Developers",
+      "url": "https://www.youtube.com/watch?v=MhyfK8eHpos",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Variables and Data types in Swift in Hindi #2 || Swift Programming Language || Best Playlist - Complete guide by TechPro Developers.",
+      "year": 2024
+    },
+    {
+      "title": "Tutorial 02: Variable and Data Types in Swift | Integer Float Double Character Boolean Var Let Swift",
+      "creator": "Fahad Hussain",
+      "url": "https://www.youtube.com/watch?v=wD13vIg5oCY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Tutorial 02: Variable and Data Types in Swift | Integer Float Double Character Boolean Var Let Swift - Complete guide by Fahad Hussain.",
+      "year": 2024
+    },
+    {
+      "title": "2 | How to Install a Local Server for PHP | 2023 | Learn PHP Full Course for Beginners",
+      "creator": "Dani Krossing",
+      "url": "https://www.youtube.com/watch?v=GRqw0pBwewY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "2 | How to Install a Local Server for PHP | 2023 | Learn PHP Full Course for Beginners - Complete guide by Dani Krossing.",
+      "year": 2024
+    },
+    {
+      "title": "PHP Full Course for free 🐘",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=zZ6vybT1HQs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PHP Full Course for free 🐘 - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "1 | Introduction to PHP Programming for Beginners | 2023 | Learn PHP Full Course for Beginners",
+      "creator": "Dani Krossing",
+      "url": "https://www.youtube.com/watch?v=m52ljs78S24",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "1 | Introduction to PHP Programming for Beginners | 2023 | Learn PHP Full Course for Beginners - Complete guide by Dani Krossing.",
+      "year": 2024
+    },
+    {
+      "title": "Use PHP to Create an MVC Framework - Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=6ERdu4k62wI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Use PHP to Create an MVC Framework - Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "PHP Fundamentals [FULL COURSE]",
+      "creator": "Laravel",
+      "url": "https://www.youtube.com/watch?v=EX3qQqdm16I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PHP Fundamentals [FULL COURSE] - Complete guide by Laravel.",
+      "year": 2024
+    },
+    {
+      "title": "Web Applications for Everybody Course - Dr. Chuck Teaches HTML, PHP, SQL, CSS, JavaScript, and more!",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=xr6uZDRTna0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Web Applications for Everybody Course - Dr. Chuck Teaches HTML, PHP, SQL, CSS, JavaScript, and more! - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "PHP in 100 Seconds",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=a7_WFUlFS94",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PHP in 100 Seconds - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "🔥 PHP Full Course 2025 - Learn PHP from Scratch | PHP Tutorial for Beginners 🚀",
+      "creator": "Dani Krossing",
+      "url": "https://www.youtube.com/watch?v=l4_Vn-sTBL8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "🔥 PHP Full Course 2025 - Learn PHP from Scratch | PHP Tutorial for Beginners 🚀 - Complete guide by Dani Krossing.",
+      "year": 2024
+    },
+    {
+      "title": "PHP Full Course for free (with login system)",
+      "creator": "NPC Codes",
+      "url": "https://www.youtube.com/watch?v=0kMOQboRBTc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PHP Full Course for free (with login system) - Complete guide by NPC Codes.",
+      "year": 2024
+    },
+    {
+      "title": "Google Calendar Clone Tutorial – PHP, MySQL, JavaScript, HTML, and CSS",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=pHMtbdGoP_g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Google Calendar Clone Tutorial – PHP, MySQL, JavaScript, HTML, and CSS - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "PHP Installing Xampp Server in Hindi / Urdu",
+      "creator": "YOOBABA",
+      "url": "https://www.youtube.com/watch?v=PeAFYfVGL68",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PHP Installing Xampp Server in Hindi / Urdu - Complete guide by YOOBABA.",
+      "year": 2024
+    },
+    {
+      "title": "PHP Introduction Tutorial in Hindi / Urdu",
+      "creator": "YOOBABA",
+      "url": "https://www.youtube.com/watch?v=a_qREkJ78f4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PHP Introduction Tutorial in Hindi / Urdu - Complete guide by YOOBABA.",
+      "year": 2024
+    },
+    {
+      "title": "PHP Tutorial for Beginners - PHP Crash Course (2025)",
+      "creator": "The Codeholic",
+      "url": "https://www.youtube.com/watch?v=ny4-hGENWVk",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "PHP Tutorial for Beginners - PHP Crash Course (2025) - Complete guide by The Codeholic.",
+      "year": 2024
+    },
+    {
+      "title": "PHP Training for Beginners | Full Roadmap with HTML, CSS & JavaScript | Learn PHP | @CBitss.",
+      "creator": "CBitss",
+      "url": "https://www.youtube.com/watch?v=dbYHZEQJPxg",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "PHP Training for Beginners | Full Roadmap with HTML, CSS & JavaScript | Learn PHP | @CBitss. - Complete guide by CBitss.",
+      "year": 2024
+    },
+    {
+      "title": "PHP in 2026 : Should You Learn it? | PHP Programming Pros & Cons | Programming Language | #shorts",
+      "creator": "SCALER",
+      "url": "https://www.youtube.com/watch?v=OiiMQ1a49tk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PHP in 2026 : Should You Learn it? | PHP Programming Pros & Cons | Programming Language | #shorts - Complete guide by SCALER.",
+      "year": 2024
+    },
+    {
+      "title": "PHP Programming Full Course for Beginners | Learn PHP Step by Step #jilasfer #trendingshorts",
+      "creator": "JILASFER",
+      "url": "https://www.youtube.com/watch?v=LCuRPwInW4Q",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "PHP Programming Full Course for Beginners | Learn PHP Step by Step #jilasfer #trendingshorts - Complete guide by JILASFER.",
+      "year": 2024
+    },
+    {
+      "title": "Php Tutorial in Hindi #1 Introduction | Why should you learn PHP",
+      "creator": "Code Step By Step",
+      "url": "https://www.youtube.com/watch?v=D4DXbRsQAOA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Php Tutorial in Hindi #1 Introduction | Why should you learn PHP - Complete guide by Code Step By Step.",
+      "year": 2024
+    },
+    {
+      "title": "Free PHP with MySQL Certificate Course : PHP with MySQL | Build Complete Tours and Travel Website",
+      "creator": "Freshers Camp",
+      "url": "https://www.youtube.com/watch?v=JsQHYThuRbg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Free PHP with MySQL Certificate Course : PHP with MySQL | Build Complete Tours and Travel Website - Complete guide by Freshers Camp.",
+      "year": 2024
+    },
+    {
+      "title": "PHP in 60 Seconds: The Basics #php #project #technology",
+      "creator": "Dave Hollingworth",
+      "url": "https://www.youtube.com/watch?v=bXTspwWR9uY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PHP in 60 Seconds: The Basics #php #project #technology - Complete guide by Dave Hollingworth.",
+      "year": 2024
+    },
+    {
+      "title": "Dr Chuck Paid Coursea Course is Now FREE Forever | Thanks to freecodecamp ❤",
+      "creator": "TECH_ED",
+      "url": "https://www.youtube.com/watch?v=tj3TF04s5v8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Dr Chuck Paid Coursea Course is Now FREE Forever | Thanks to freecodecamp ❤ - Complete guide by TECH_ED.",
+      "year": 2024
+    },
+    {
+      "title": "PHP interview preparation ||  Php Patten part 05 || Code Camp BD #2023  #php",
+      "creator": "Code Camp BD",
+      "url": "https://www.youtube.com/watch?v=59rjVd2K6Ak",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PHP interview preparation ||  Php Patten part 05 || Code Camp BD #2023  #php - Complete guide by Code Camp BD.",
+      "year": 2024
+    },
+    {
+      "title": "PHP: Not a programming language",
+      "creator": "CodeWithHarry",
+      "url": "https://www.youtube.com/watch?v=lzlhNBpDeps",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PHP: Not a programming language - Complete guide by CodeWithHarry.",
+      "year": 2024
+    },
+    {
+      "title": "Let's see freeCodeCamp courses together. #youtubemadeforyou #freecodecamp #webdevelopmentguide",
+      "creator": "Habeebah Aleilo",
+      "url": "https://www.youtube.com/watch?v=f7Qri0RkZiI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Let's see freeCodeCamp courses together. #youtubemadeforyou #freecodecamp #webdevelopmentguide - Complete guide by Habeebah Aleilo.",
+      "year": 2024
+    },
+    {
+      "title": "Codecademy vs. Free Code Camp: Which Website is Best for Learning Coding? | DSO Tech",
+      "creator": "Apna Coder",
+      "url": "https://www.youtube.com/watch?v=NQ_nweTcUdE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Codecademy vs. Free Code Camp: Which Website is Best for Learning Coding? | DSO Tech - Complete guide by Apna Coder.",
+      "year": 2024
+    },
+    {
+      "title": "Java And PHP Free Online Certificate Course : Java And PHP Complete Course For Java And PHP Beginner",
+      "creator": "Freshers Camp",
+      "url": "https://www.youtube.com/watch?v=vNkJ5bWFptk",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Java And PHP Free Online Certificate Course : Java And PHP Complete Course For Java And PHP Beginner - Complete guide by Freshers Camp.",
+      "year": 2024
+    },
+    {
+      "title": "Free JavaScript And PHP Programming Course : JavaScript And PHP Programming Complete Course #shorts",
+      "creator": "Freshers Camp",
+      "url": "https://www.youtube.com/watch?v=pKuZ-U-5nbA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Free JavaScript And PHP Programming Course : JavaScript And PHP Programming Complete Course #shorts - Complete guide by Freshers Camp.",
+      "year": 2024
+    },
+    {
+      "title": "PHP with MySQL Free Course : Build 7 PHP and MySQL Projects #shorts #freeonline #course #freecourse",
+      "creator": "Freshers Camp",
+      "url": "https://www.youtube.com/watch?v=o8HZkZz8AlI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PHP with MySQL Free Course : Build 7 PHP and MySQL Projects #shorts #freeonline #course #freecourse - Complete guide by Freshers Camp.",
+      "year": 2024
+    },
+    {
+      "title": "Free Java And PHP Certificate Course : Java And PHP Complete Course For Beginners #short #reels",
+      "creator": "Freshers Camp",
+      "url": "https://www.youtube.com/watch?v=dpw-gghwwy0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Free Java And PHP Certificate Course : Java And PHP Complete Course For Beginners #short #reels - Complete guide by Freshers Camp.",
+      "year": 2024
+    },
+    {
+      "title": "Full stack Developer in 200 days",
+      "creator": "MyCodeShala",
+      "url": "https://www.youtube.com/watch?v=sUeHnD1Wguo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Full stack Developer in 200 days - Complete guide by MyCodeShala.",
+      "year": 2024
+    },
+    {
+      "title": "PHP for Fun - #php_interview #shortsfeed #shortsviral #shorts #short #youtubeshorts #code_camp_bd",
+      "creator": "Code Camp BD",
+      "url": "https://www.youtube.com/watch?v=Y6X-EE-JyB4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PHP for Fun - #php_interview #shortsfeed #shortsviral #shorts #short #youtubeshorts #code_camp_bd - Complete guide by Code Camp BD.",
+      "year": 2024
+    },
+    {
+      "title": "PHP Can Do This Without an IF?! ✨ (? : and ??) #php #coding #programming",
+      "creator": "Ali Ghanbarzadeh",
+      "url": "https://www.youtube.com/watch?v=mIFS249GLh8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PHP Can Do This Without an IF?! ✨ (? : and ??) #php #coding #programming - Complete guide by Ali Ghanbarzadeh.",
+      "year": 2024
+    },
+    {
+      "title": "MySQL with PHP Free Certificate Course : Build Amazing Streaming Service #shorts #short #course",
+      "creator": "Freshers Camp",
+      "url": "https://www.youtube.com/watch?v=unOOujN0uFU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MySQL with PHP Free Certificate Course : Build Amazing Streaming Service #shorts #short #course - Complete guide by Freshers Camp.",
+      "year": 2024
+    },
+    {
+      "title": "Hacking script in python , simple program.                              #freecodecamp",
+      "creator": "CHARLES THE BULLET EATER.",
+      "url": "https://www.youtube.com/watch?v=FaLQNnMvDho",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Hacking script in python , simple program.                              #freecodecamp - Complete guide by CHARLES THE BULLET EATER..",
+      "year": 2024
+    },
+    {
+      "title": "PHP Hello World Program - PHP #shorts 01 🚀 PHP Echo",
+      "creator": "Code Camp BD",
+      "url": "https://www.youtube.com/watch?v=1FjH1EuA9_s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "PHP Hello World Program - PHP #shorts 01 🚀 PHP Echo - Complete guide by Code Camp BD.",
+      "year": 2024
+    },
+    {
+      "title": "Laravel PHP Framework Tutorial - Full Course for Beginners (2019)",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=ImtZ5yENzgE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Laravel PHP Framework Tutorial - Full Course for Beginners (2019) - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Laravel by Building a Medium Clone – Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=MG1kt_wiIz0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Laravel by Building a Medium Clone – Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Full Golang Tutorial - Learn Go by Building a TodoList App",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=XCZWyN9ZbEQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Full Golang Tutorial - Learn Go by Building a TodoList App - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "PHP For Beginners | 3+ Hour Crash Course",
+      "creator": "Traversy Media",
+      "url": "https://www.youtube.com/watch?v=BUCiSSyIGGU",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "PHP For Beginners | 3+ Hour Crash Course - Complete guide by Traversy Media.",
+      "year": 2024
+    },
+    {
+      "title": "If I would start DevOps from 0 - How would I start and what would I learn",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=Cpy20DnIDTI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "If I would start DevOps from 0 - How would I start and what would I learn - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "GitHub Actions Tutorial - Basic Concepts and CI/CD Pipeline with Docker",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=R8_veQiYBjI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GitHub Actions Tutorial - Basic Concepts and CI/CD Pipeline with Docker - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "What is DevOps? REALLY understand it | DevOps vs SRE",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=0yWAtQ6wYNM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is DevOps? REALLY understand it | DevOps vs SRE - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "CI/CD with JetBrains TeamCity | TeamCity Tutorial",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=zqi4fDF-S60",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CI/CD with JetBrains TeamCity | TeamCity Tutorial - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Git Explained in 25 Mins | Git and GitHub Tutorial",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=8944biinHgE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git Explained in 25 Mins | Git and GitHub Tutorial - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours]",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=X48VuDVv0do",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours] - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "What is DevSecOps? DevSecOps explained in 8 Mins",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=nrhxNNH5lt0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is DevSecOps? DevSecOps explained in 8 Mins - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Networking Concepts Every DevOps Engineer Must Know",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=w0SQGCt-6Ro",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Networking Concepts Every DevOps Engineer Must Know - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "JavaScript Tutorial for Beginners [JS Crash Course]",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=FtaQSdrl7YA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "JavaScript Tutorial for Beginners [JS Crash Course] - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "This tiny computer changes EVERYTHING",
+      "creator": "Jeff Geerling",
+      "url": "https://www.youtube.com/watch?v=X4blR5Ua3S0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "This tiny computer changes EVERYTHING - Complete guide by Jeff Geerling.",
+      "year": 2024
+    },
+    {
+      "title": "Go (Golang) Tutorial #1 - Introduction & Setup",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/watch?v=etSN4X_fCnM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Go (Golang) Tutorial #1 - Introduction & Setup - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "Python Tutorial for Beginners - Learn Python in 5 Hours [FULL COURSE]",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=t8pPdKYpowI",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Python Tutorial for Beginners - Learn Python in 5 Hours [FULL COURSE] - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Every Networking Concept Explained In 20 Minutes",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=xj_GjnD4uyI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Every Networking Concept Explained In 20 Minutes - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Go (Golang) Tutorial #2 - Your First Go File",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/watch?v=RI9ngRqn9N4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Go (Golang) Tutorial #2 - Your First Go File - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "A Guide of how to get started in IT - Top IT Career Paths",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=XmWkcePhf84",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "A Guide of how to get started in IT - Top IT Career Paths - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Golang Tutorial #1 - An Introduction to Go Programming",
+      "creator": "Tech With Tim",
+      "url": "https://www.youtube.com/watch?v=75lJDVT1h0s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Golang Tutorial #1 - An Introduction to Go Programming - Complete guide by Tech With Tim.",
+      "year": 2024
+    },
+    {
+      "title": "Beginner to T-SQL [Full Course]",
+      "creator": "Pragmatic Works",
+      "url": "https://www.youtube.com/watch?v=cACat4KNncg",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Beginner to T-SQL [Full Course] - Complete guide by Pragmatic Works.",
+      "year": 2024
+    },
+    {
+      "title": "Golang Tutorial #2 - Variables & Data Types",
+      "creator": "Tech With Tim",
+      "url": "https://www.youtube.com/watch?v=pM0-CMysa_M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Golang Tutorial #2 - Variables & Data Types - Complete guide by Tech With Tim.",
+      "year": 2024
+    },
+    {
+      "title": "Kafka Tutorial for Beginners | Everything you need to get started",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=QkdkLdMBuL0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Kafka Tutorial for Beginners | Everything you need to get started - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Terraform explained in 15 mins | Terraform Tutorial for Beginners",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=l5k1ai_GBDE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Terraform explained in 15 mins | Terraform Tutorial for Beginners - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "YT - Learning Golang from TechWorld with Nana - V1 - S2",
+      "creator": "Learning in Public",
+      "url": "https://www.youtube.com/watch?v=sG6NpPAVb_Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "YT - Learning Golang from TechWorld with Nana - V1 - S2 - Complete guide by Learning in Public.",
+      "year": 2024
+    },
+    {
+      "title": "Rust in 100 Seconds",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=5C_HPTJg5ek",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Rust in 100 Seconds - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "Rust for Dummies in 12 Minutes",
+      "creator": "Let's Get Rusty",
+      "url": "https://www.youtube.com/watch?v=0y6RKiIk6cs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Rust for Dummies in 12 Minutes - Complete guide by Let's Get Rusty.",
+      "year": 2024
+    },
+    {
+      "title": "0: Your first program in Rust (How to install Rust)",
+      "creator": "Rustfully",
+      "url": "https://www.youtube.com/watch?v=jpjo1HW5Fnk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "0: Your first program in Rust (How to install Rust) - Complete guide by Rustfully.",
+      "year": 2024
+    },
+    {
+      "title": "1: Getting started with Rust",
+      "creator": "Rustfully",
+      "url": "https://www.youtube.com/watch?v=vo-XbN7fq7Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1: Getting started with Rust - Complete guide by Rustfully.",
+      "year": 2024
+    },
+    {
+      "title": "Install the Rust Toolchain on an Ubuntu Linux Server 🦀",
+      "creator": "Trevor Sullivan",
+      "url": "https://www.youtube.com/watch?v=lTjGt17bQ3k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Install the Rust Toolchain on an Ubuntu Linux Server 🦀 - Complete guide by Trevor Sullivan.",
+      "year": 2024
+    },
+    {
+      "title": "Noob vs. Pro in C# - String Comparison Done Right ✅️",
+      "creator": "SharpCode Academy",
+      "url": "https://www.youtube.com/watch?v=MUC5n27RO_w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Noob vs. Pro in C# - String Comparison Done Right ✅️ - Complete guide by SharpCode Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Rust Tutorial #2 - Using Rust Tools (cargo, rustfmt)",
+      "creator": "Tech With Tim",
+      "url": "https://www.youtube.com/watch?v=gvgBUY8iNO4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Rust Tutorial #2 - Using Rust Tools (cargo, rustfmt) - Complete guide by Tech With Tim.",
+      "year": 2024
+    },
+    {
+      "title": "Beginner's Guide to Rust Data Types and Variables 🦀",
+      "creator": "Trevor Sullivan",
+      "url": "https://www.youtube.com/watch?v=MJrBLTHJPCo",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Beginner's Guide to Rust Data Types and Variables 🦀 - Complete guide by Trevor Sullivan.",
+      "year": 2024
+    },
+    {
+      "title": "Rust Tutorial #1 - Introduction To Rust Programming",
+      "creator": "Tech With Tim",
+      "url": "https://www.youtube.com/watch?v=T_KrYLW4jw8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Rust Tutorial #1 - Introduction To Rust Programming - Complete guide by Tech With Tim.",
+      "year": 2024
+    },
+    {
+      "title": "C# classes 📦",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=9V5B3dNoVIA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C# classes 📦 - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "C# objects 🧍‍♂️",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=heoTab1e41A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C# objects 🧍‍♂️ - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "Learn C# in 10 Seconds! 🚀 #Shorts #CSharp #trendingshorts #viral",
+      "creator": "JILASFER",
+      "url": "https://www.youtube.com/watch?v=6RICO0vydqg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn C# in 10 Seconds! 🚀 #Shorts #CSharp #trendingshorts #viral - Complete guide by JILASFER.",
+      "year": 2024
+    },
+    {
+      "title": "Playing with data and C# #brocode #coding #code",
+      "creator": "RayStrikerXx",
+      "url": "https://www.youtube.com/watch?v=oqbyRX297Ng",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Playing with data and C# #brocode #coding #code - Complete guide by RayStrikerXx.",
+      "year": 2024
+    },
+    {
+      "title": "C# Switch Statements Explained in Hindi 🔥 | Case, Break & Default | EP 08 #shorts #dotnetstandard",
+      "creator": "CODEDECODED",
+      "url": "https://www.youtube.com/watch?v=Ytaw5PC2PtQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C# Switch Statements Explained in Hindi 🔥 | Case, Break & Default | EP 08 #shorts #dotnetstandard - Complete guide by CODEDECODED.",
+      "year": 2024
+    },
+    {
+      "title": "Noob vs. Pro || C#",
+      "creator": "SharpCode Academy",
+      "url": "https://www.youtube.com/watch?v=eGIdJTvB7Jc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Noob vs. Pro || C# - Complete guide by SharpCode Academy.",
+      "year": 2024
+    },
+    {
+      "title": "C# Basic #brocode",
+      "creator": "RayStrikerXx",
+      "url": "https://www.youtube.com/watch?v=3Oitk4Ar2sg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C# Basic #brocode - Complete guide by RayStrikerXx.",
+      "year": 2024
+    },
+    {
+      "title": "c sharp hello world program",
+      "creator": "Code With Ahmed",
+      "url": "https://www.youtube.com/watch?v=X93DnM0AyxU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "c sharp hello world program - Complete guide by Code With Ahmed.",
+      "year": 2024
+    },
+    {
+      "title": "Use C# in VS Code!",
+      "creator": "Visual Studio Code",
+      "url": "https://www.youtube.com/watch?v=DDNCmgmrmtI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Use C# in VS Code! - Complete guide by Visual Studio Code.",
+      "year": 2024
+    },
+    {
+      "title": "Create Your First C# Script - Unity C# Scripting Tutorial",
+      "creator": "Charger Games",
+      "url": "https://www.youtube.com/watch?v=d-wXetXgkl4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Create Your First C# Script - Unity C# Scripting Tutorial - Complete guide by Charger Games.",
+      "year": 2024
+    },
+    {
+      "title": "C# getters & setters 🔒",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=8FmE_-QXg3Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C# getters & setters 🔒 - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "C# methods 📞",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=IPpEefuFiVM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C# methods 📞 - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "C# Important Keywords Explained 🔥 | ref vs out vs in | var, dynamic, const, readonly | C# Interview",
+      "creator": "Ambrish Singh Official ",
+      "url": "https://www.youtube.com/watch?v=EZYRpiA60m0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C# Important Keywords Explained 🔥 | ref vs out vs in | var, dynamic, const, readonly | C# Interview - Complete guide by Ambrish Singh Official .",
+      "year": 2024
+    },
+    {
+      "title": "Recursion in C#: Understanding Recursive Methods #devologist",
+      "creator": "devologist",
+      "url": "https://www.youtube.com/watch?v=tmdSs6FiqCw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Recursion in C#: Understanding Recursive Methods #devologist - Complete guide by devologist.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Ruby on Rails - Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=fmyvWz5TUWg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Ruby on Rails - Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Ruby Programming Language - Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=t_ispmWmdjY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ruby Programming Language - Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Ruby on Rails: a framework for scale",
+      "creator": "Hitesh Choudhary",
+      "url": "https://www.youtube.com/watch?v=UMauTsfoI8E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ruby on Rails: a framework for scale - Complete guide by Hitesh Choudhary.",
+      "year": 2024
+    },
+    {
+      "title": "Ruby on Rails in 100 Seconds",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=2DvrRadXwWY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ruby on Rails in 100 Seconds - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "Ruby on Rails Developer Salary in Pakistan 2025 | Scope & Jobs Explained",
+      "creator": "Sohaib Scripts",
+      "url": "https://www.youtube.com/watch?v=l9ESCXVY97k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ruby on Rails Developer Salary in Pakistan 2025 | Scope & Jobs Explained - Complete guide by Sohaib Scripts.",
+      "year": 2024
+    },
+    {
+      "title": "RAG Fundamentals and Advanced Techniques – Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=ea2W8IogX80",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "RAG Fundamentals and Advanced Techniques – Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Ruby on Rails | Why It Still Matters After 20 Years!",
+      "creator": "Better Stack",
+      "url": "https://www.youtube.com/watch?v=uoJSR7_hVTs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ruby on Rails | Why It Still Matters After 20 Years! - Complete guide by Better Stack.",
+      "year": 2024
+    },
+    {
+      "title": "Ruby in 100 Seconds",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=UYm0kfnRTJk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ruby in 100 Seconds - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "Internship experience #ruby #rails #odin #internship",
+      "creator": "Code Cafe",
+      "url": "https://www.youtube.com/watch?v=Yf4jYvgdgXA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Internship experience #ruby #rails #odin #internship - Complete guide by Code Cafe.",
+      "year": 2024
+    },
+    {
+      "title": "Learn React JS - Full Course for Beginners - Tutorial 2019",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=DLX62G4lc44",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn React JS - Full Course for Beginners - Tutorial 2019 - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "What is Ruby and what is it used for?",
+      "creator": "Creative Tim Tutorials",
+      "url": "https://www.youtube.com/watch?v=kDJLAgRN6Zw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Ruby and what is it used for? - Complete guide by Creative Tim Tutorials.",
+      "year": 2024
+    },
+    {
+      "title": "Build an API using Ruby on Rails",
+      "creator": "Rails Pro",
+      "url": "https://www.youtube.com/watch?v=5pr1zCYqK00",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build an API using Ruby on Rails - Complete guide by Rails Pro.",
+      "year": 2024
+    },
+    {
+      "title": "React Tutorial: Build an e-commerce site from scratch using React and Netlify",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=wPQ1-33teR4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "React Tutorial: Build an e-commerce site from scratch using React and Netlify - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "How DHH Built Ruby on Rails Using Lessons from PHP & J2EE #podcast #RubyOnRails #DHH  #TypeCraft",
+      "creator": "Abdulrasaq Mustapha",
+      "url": "https://www.youtube.com/watch?v=KttPSWcvFt4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How DHH Built Ruby on Rails Using Lessons from PHP & J2EE #podcast #RubyOnRails #DHH  #TypeCraft - Complete guide by Abdulrasaq Mustapha.",
+      "year": 2024
+    },
+    {
+      "title": "Full Stack Ruby on Rails Development Bootcamp in Hindi - Introduction",
+      "creator": "APPSIMPACT Academy Hindi",
+      "url": "https://www.youtube.com/watch?v=-zv9HKx5M0g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Full Stack Ruby on Rails Development Bootcamp in Hindi - Introduction - Complete guide by APPSIMPACT Academy Hindi.",
+      "year": 2024
+    },
+    {
+      "title": "Ruby Basics - Part 1 in Hindi",
+      "creator": "APPSIMPACT Academy Hindi",
+      "url": "https://www.youtube.com/watch?v=Z-Kw4JgIeAs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ruby Basics - Part 1 in Hindi - Complete guide by APPSIMPACT Academy Hindi.",
+      "year": 2024
+    },
+    {
+      "title": "Ruby on Rails Full Course 2026 🚀 | Zero to Hero Backend Development | Episode 0",
+      "creator": "AI With Shubhank",
+      "url": "https://www.youtube.com/watch?v=JCGyWw3lDZw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ruby on Rails Full Course 2026 🚀 | Zero to Hero Backend Development | Episode 0 - Complete guide by AI With Shubhank.",
+      "year": 2024
+    },
+    {
+      "title": "Full Stack Ruby on Rails Development Bootcamp",
+      "creator": "APPSIMPACT Academy",
+      "url": "https://www.youtube.com/watch?v=UU09eguVzFE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Full Stack Ruby on Rails Development Bootcamp - Complete guide by APPSIMPACT Academy.",
+      "year": 2024
+    },
+    {
+      "title": "How to install Ruby on Rails setup in Ubuntu 22.04 LTS (Urdu / Hindi)",
+      "creator": "Code With Naqvi",
+      "url": "https://www.youtube.com/watch?v=bT0DP3i3tlw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to install Ruby on Rails setup in Ubuntu 22.04 LTS (Urdu / Hindi) - Complete guide by Code With Naqvi.",
+      "year": 2024
+    },
+    {
+      "title": "Coding नहीं आती? 😱 Ruby on Rails से 10 Min में App बना लो! 🚀",
+      "creator": "AI With Shubhank",
+      "url": "https://www.youtube.com/watch?v=UAhA0utshWw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Coding नहीं आती? 😱 Ruby on Rails से 10 Min में App बना लो! 🚀 - Complete guide by AI With Shubhank.",
+      "year": 2024
+    },
+    {
+      "title": "How to start Ruby on Rails as a beginner?",
+      "creator": "Code With Naqvi",
+      "url": "https://www.youtube.com/watch?v=lpHMIHaOLuM",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "How to start Ruby on Rails as a beginner? - Complete guide by Code With Naqvi.",
+      "year": 2024
+    },
+    {
+      "title": "Beginner's Guide to Installing Ruby on Rails - by Typecraft",
+      "creator": "Ruby on Rails",
+      "url": "https://www.youtube.com/watch?v=oEDkhfsFMTg",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Beginner's Guide to Installing Ruby on Rails - by Typecraft - Complete guide by Ruby on Rails.",
+      "year": 2024
+    },
+    {
+      "title": "Rails New, a Ruby on Rails tutorial for beginners with Typecraft",
+      "creator": "Ruby on Rails",
+      "url": "https://www.youtube.com/watch?v=gkEeSEPyFiY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Rails New, a Ruby on Rails tutorial for beginners with Typecraft - Complete guide by Ruby on Rails.",
+      "year": 2024
+    },
+    {
+      "title": "Ruby on Rails - Part 1 | Ruby on Rails Tutorial | Ruby on Rails Course | Ruby on Rails Full Course",
+      "creator": "upGrad Knowledgehut",
+      "url": "https://www.youtube.com/watch?v=HMotb6naTe0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ruby on Rails - Part 1 | Ruby on Rails Tutorial | Ruby on Rails Course | Ruby on Rails Full Course - Complete guide by upGrad Knowledgehut.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction To Ruby",
+      "creator": "APPSIMPACT Academy",
+      "url": "https://www.youtube.com/watch?v=BblDZc_Q_Ug",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction To Ruby - Complete guide by APPSIMPACT Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Ruby on Rails - Part 2 | Ruby on Rails Tutorial | Ruby on Rails Course | Ruby on Rails Full Course",
+      "creator": "upGrad Knowledgehut",
+      "url": "https://www.youtube.com/watch?v=ktCaivRMJrA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ruby on Rails - Part 2 | Ruby on Rails Tutorial | Ruby on Rails Course | Ruby on Rails Full Course - Complete guide by upGrad Knowledgehut.",
+      "year": 2024
+    },
+    {
+      "title": "Dart Programming Tutorial - Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=Ej_Pcr4uC2Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Dart Programming Tutorial - Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "SQL Tutorial for Beginners (and Technical Interview Questions Solved)",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=-fW2X7fh7Yg",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "SQL Tutorial for Beginners (and Technical Interview Questions Solved) - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Is PHP a BAD programming language? 🤔👩‍💻 #technology #programming #software #career",
+      "creator": "Coding with Lewis",
+      "url": "https://www.youtube.com/watch?v=gsJqe_Ry2Ec",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Is PHP a BAD programming language? 🤔👩‍💻 #technology #programming #software #career - Complete guide by Coding with Lewis.",
+      "year": 2024
+    },
+    {
+      "title": "Dart Crash Course #1 - What is Dart?",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/watch?v=QGqMJzywasg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Dart Crash Course #1 - What is Dart? - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "Dart Explained In 60 Seconds | The Multiplatform Programming Language Behind Flutter #fullstack",
+      "creator": "Tanner",
+      "url": "https://www.youtube.com/watch?v=Gf6ARKHhm5k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Dart Explained In 60 Seconds | The Multiplatform Programming Language Behind Flutter #fullstack - Complete guide by Tanner.",
+      "year": 2024
+    },
+    {
+      "title": "Dart Crash Course #2 - Dart Basics",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/watch?v=NStlixg1RNw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Dart Crash Course #2 - Dart Basics - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "DART COMPLETE COURSE UPDATE #coding #FLUTTERMASTER",
+      "creator": "Code Hero",
+      "url": "https://www.youtube.com/watch?v=xusM7EOHkLo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DART COMPLETE COURSE UPDATE #coding #FLUTTERMASTER - Complete guide by Code Hero.",
+      "year": 2024
+    },
+    {
+      "title": "Dart Programming for Flutter: Beginners Tutorial [ FREE COURSE ] Overview",
+      "creator": "Smartherd",
+      "url": "https://www.youtube.com/watch?v=5rtujDjt50I",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Dart Programming for Flutter: Beginners Tutorial [ FREE COURSE ] Overview - Complete guide by Smartherd.",
+      "year": 2024
+    },
+    {
+      "title": "What is Dart Programming Language?  The Language Behind Flutter! #Shorts",
+      "creator": "Edure Learning",
+      "url": "https://www.youtube.com/watch?v=E5UbRgceeFE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Dart Programming Language?  The Language Behind Flutter! #Shorts - Complete guide by Edure Learning.",
+      "year": 2024
+    },
+    {
+      "title": "Dart Installation: Setup DartPad or Intellij IDEA for Windows, Mac or Linux #1.2",
+      "creator": "Smartherd",
+      "url": "https://www.youtube.com/watch?v=j_RIqUuqQXs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Dart Installation: Setup DartPad or Intellij IDEA for Windows, Mac or Linux #1.2 - Complete guide by Smartherd.",
+      "year": 2024
+    },
+    {
+      "title": "Dart in 100 Seconds",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=NrO0CJCbYLA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Dart in 100 Seconds - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter and Dart Explained in Detail | Learn Flutter",
+      "creator": "Code Pie",
+      "url": "https://www.youtube.com/watch?v=CwFDGrtGrDE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Flutter and Dart Explained in Detail | Learn Flutter - Complete guide by Code Pie.",
+      "year": 2024
+    },
+    {
+      "title": "Why should you learn flutter in 2024",
+      "creator": "Beyond Programming",
+      "url": "https://www.youtube.com/watch?v=HVvoIDiXQOk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why should you learn flutter in 2024 - Complete guide by Beyond Programming.",
+      "year": 2024
+    },
+    {
+      "title": "Dart full course video is now published",
+      "creator": "Code Hero",
+      "url": "https://www.youtube.com/watch?v=xwY_ZUkoTqc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Dart full course video is now published - Complete guide by Code Hero.",
+      "year": 2024
+    },
+    {
+      "title": "Why is Dart programming important for Flutter? #shorts",
+      "creator": "WsCube Tech",
+      "url": "https://www.youtube.com/watch?v=ps430pJeiho",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why is Dart programming important for Flutter? #shorts - Complete guide by WsCube Tech.",
+      "year": 2024
+    },
+    {
+      "title": "Hello World in Dart Programming Language | #shorts #flutter",
+      "creator": "Coding with Bharath",
+      "url": "https://www.youtube.com/watch?v=iAxvorHfKVc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Hello World in Dart Programming Language | #shorts #flutter - Complete guide by Coding with Bharath.",
+      "year": 2024
+    },
+    {
+      "title": "Why Dart Compiles Your Code Twice",
+      "creator": "Ghost Codes",
+      "url": "https://www.youtube.com/watch?v=FIAPm1Td2vg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why Dart Compiles Your Code Twice - Complete guide by Ghost Codes.",
+      "year": 2024
+    },
+    {
+      "title": "Type Safety in Dart | Dart Programming Language | #darttutorial  In Hindi | #dart #typesafety",
+      "creator": "Arvind Programming",
+      "url": "https://www.youtube.com/watch?v=pO7PXgplWfQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Type Safety in Dart | Dart Programming Language | #darttutorial  In Hindi | #dart #typesafety - Complete guide by Arvind Programming.",
+      "year": 2024
+    },
+    {
+      "title": "freeCodeCamp: free coding lessons from zero",
+      "creator": "pablodev",
+      "url": "https://www.youtube.com/watch?v=mE12eF38j3Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "freeCodeCamp: free coding lessons from zero - Complete guide by pablodev.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Tutorial for Beginners – Build This in 60s!",
+      "creator": "Yaqoob Developer",
+      "url": "https://www.youtube.com/watch?v=phAh_iAhuWs",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Flutter Tutorial for Beginners – Build This in 60s! - Complete guide by Yaqoob Developer.",
+      "year": 2024
+    },
+    {
+      "title": "Dart vs JavaScript |  Which One Should You Learn #dart #javascript",
+      "creator": "AVR EdTech Services",
+      "url": "https://www.youtube.com/watch?v=UyvIAmGJpk0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Dart vs JavaScript |  Which One Should You Learn #dart #javascript - Complete guide by AVR EdTech Services.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Tutorial for Beginners – Build This in 60s!",
+      "creator": "Yaqoob Developer",
+      "url": "https://www.youtube.com/watch?v=DQaY81t4Nk8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Flutter Tutorial for Beginners – Build This in 60s! - Complete guide by Yaqoob Developer.",
+      "year": 2024
+    },
+    {
+      "title": "Dart Course In Hindi | Comments in dart language in hindi | Dart language full course in hindi",
+      "creator": "Flutter with Nikhil",
+      "url": "https://www.youtube.com/watch?v=Ur-FIb241b4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Dart Course In Hindi | Comments in dart language in hindi | Dart language full course in hindi - Complete guide by Flutter with Nikhil.",
+      "year": 2024
+    },
+    {
+      "title": "What is Dart programming? Dart Programming Language #flutter #shorts",
+      "creator": "TutorialsFreak",
+      "url": "https://www.youtube.com/watch?v=bS9ymmBD6v8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Dart programming? Dart Programming Language #flutter #shorts - Complete guide by TutorialsFreak.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Roadmap | Flutter | Dart | Mobile App development | Flutter for beginners",
+      "creator": "Muhammad Ali",
+      "url": "https://www.youtube.com/watch?v=YoJY_LRzQKw",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Flutter Roadmap | Flutter | Dart | Mobile App development | Flutter for beginners - Complete guide by Muhammad Ali.",
+      "year": 2024
+    },
+    {
+      "title": "You’ve Seen in Dart… Most Beginners Fail This Interview 😬 #coding #shorts",
+      "creator": "Mobile Dev Shorts AI",
+      "url": "https://www.youtube.com/watch?v=66M9tnCs1fs",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "You’ve Seen in Dart… Most Beginners Fail This Interview 😬 #coding #shorts - Complete guide by Mobile Dev Shorts AI.",
+      "year": 2024
+    },
+    {
+      "title": "Dart course in Hindi | Data types, Variables, String, int, double, num and var in dart programming",
+      "creator": "Flutter with Nikhil",
+      "url": "https://www.youtube.com/watch?v=rkJgWe5w--o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Dart course in Hindi | Data types, Variables, String, int, double, num and var in dart programming - Complete guide by Flutter with Nikhil.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Course - Full Tutorial for Beginners (Build iOS and Android Apps)",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=pTJJsmejUOQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Flutter Course - Full Tutorial for Beginners (Build iOS and Android Apps) - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "DART Tutorial for Beginners (2026) | Learn Flutter Dart Programming in 4 Hours with Practical",
+      "creator": "WsCube Tech",
+      "url": "https://www.youtube.com/watch?v=71xacArT_70",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "DART Tutorial for Beginners (2026) | Learn Flutter Dart Programming in 4 Hours with Practical - Complete guide by WsCube Tech.",
+      "year": 2024
+    },
+    {
+      "title": "Dart Programming Tutorial - Full Course - Project Based",
+      "creator": "Mahdi Mirzadeh",
+      "url": "https://www.youtube.com/watch?v=c-ydMfJNfyY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Dart Programming Tutorial - Full Course - Project Based - Complete guide by Mahdi Mirzadeh.",
+      "year": 2024
+    },
+    {
+      "title": "Part-1 Introduction To Dart & Roadmap || Dart Programming Tutorials in Hindi/Urdu",
+      "creator": "The Tech Brothers",
+      "url": "https://www.youtube.com/watch?v=bRm9nswlDrc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Part-1 Introduction To Dart & Roadmap || Dart Programming Tutorials in Hindi/Urdu - Complete guide by The Tech Brothers.",
+      "year": 2024
+    },
+    {
+      "title": "Master Dart FAST: The Only Guide You Need for Apps 💻",
+      "creator": "Code Hero",
+      "url": "https://www.youtube.com/watch?v=x5MkWMjOtY0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Master Dart FAST: The Only Guide You Need for Apps 💻 - Complete guide by Code Hero.",
+      "year": 2024
+    },
+    {
+      "title": "Dart Programming in 4 hours | Full beginners tutorial",
+      "creator": "Giraffe Academy",
+      "url": "https://www.youtube.com/watch?v=5xlVP04905w",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Dart Programming in 4 hours | Full beginners tutorial - Complete guide by Giraffe Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Part-2 What is programming || Dart Programming Tutorials in Hindi/Urdu",
+      "creator": "The Tech Brothers",
+      "url": "https://www.youtube.com/watch?v=w-HKBnUz1Iw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Part-2 What is programming || Dart Programming Tutorials in Hindi/Urdu - Complete guide by The Tech Brothers.",
+      "year": 2024
+    },
+    {
+      "title": "The Complete Dart & Flutter Developer Course | Full Tutorial For Beginners to Advanced",
+      "creator": "Rivaan Ranawat",
+      "url": "https://www.youtube.com/watch?v=CzRQ9mnmh44",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "The Complete Dart & Flutter Developer Course | Full Tutorial For Beginners to Advanced - Complete guide by Rivaan Ranawat.",
+      "year": 2024
+    },
+    {
+      "title": "Dart Crash Course for Beginners in Hindi - Learn Dart in One Video (2026)",
+      "creator": "Neat Roots",
+      "url": "https://www.youtube.com/watch?v=2Dv28R7p70o",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Dart Crash Course for Beginners in Hindi - Learn Dart in One Video (2026) - Complete guide by Neat Roots.",
+      "year": 2024
+    },
+    {
+      "title": "Learn The Dart Programming Language - Complete Free Course!",
+      "creator": "John Elder",
+      "url": "https://www.youtube.com/watch?v=JZukfxvc7Mc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn The Dart Programming Language - Complete Free Course! - Complete guide by John Elder.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to OOP & Roadmap || Dart OOP Tutorials For Beginners in Hindi/Urdu",
+      "creator": "The Tech Brothers",
+      "url": "https://www.youtube.com/watch?v=Ow20XapS7Y8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Introduction to OOP & Roadmap || Dart OOP Tutorials For Beginners in Hindi/Urdu - Complete guide by The Tech Brothers.",
+      "year": 2024
+    },
+    {
+      "title": "Flutter Series Part 02 | Learn Dart Complete Course 2026 (Beginner to Advanced)",
+      "creator": "WsCube AI & Tech School",
+      "url": "https://www.youtube.com/watch?v=NftHOCT04Pk",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Flutter Series Part 02 | Learn Dart Complete Course 2026 (Beginner to Advanced) - Complete guide by WsCube AI & Tech School.",
+      "year": 2024
+    },
+    {
+      "title": "Rust Programming Language",
+      "creator": "Piyush Garg",
+      "url": "https://www.youtube.com/playlist?list=PLinedj3B30sA_M0oxCRgFzPzEMX3CSfT5",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Rust Programming Language - Complete guide by Piyush Garg.",
+      "year": 2024
+    },
+    {
+      "title": "Let's go with golang",
+      "creator": "Hitesh Choudhary",
+      "url": "https://www.youtube.com/playlist?list=PLRAV69dS1uWQGDQoBYMZWKjzuhCaOnBpa",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Let's go with golang - Complete guide by Hitesh Choudhary.",
+      "year": 2024
+    },
+    {
+      "title": "The Complete GoLang Course",
+      "creator": "Code & Learn",
+      "url": "https://www.youtube.com/playlist?list=PLq3etM-zISamTauFTO5-G5dqBN07ckzTk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "The Complete GoLang Course - Complete guide by Code & Learn.",
+      "year": 2024
+    },
+    {
+      "title": "#2 What is null safety in Dart ? Dart OOP Tutorials For Beginners in Hindi/Urdu",
+      "creator": "The Tech Brothers",
+      "url": "https://www.youtube.com/watch?v=TfdSdjNzHxE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "#2 What is null safety in Dart ? Dart OOP Tutorials For Beginners in Hindi/Urdu - Complete guide by The Tech Brothers.",
+      "year": 2024
+    },
+    {
+      "title": "Complete GoLang Series in Hindi",
+      "creator": "Hello World",
+      "url": "https://www.youtube.com/playlist?list=PLzjZaW71kMwSEVpdbHPr0nPo5zdzbDulm",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Complete GoLang Series in Hindi - Complete guide by Hello World.",
+      "year": 2024
+    },
+    {
+      "title": "Rust Crash Course Tutorial for Beginners",
+      "creator": "Francesco Ciulla",
+      "url": "https://www.youtube.com/playlist?list=PLPoSdR46FgI412aItyJhj2bF66cudB6Qs",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Rust Crash Course Tutorial for Beginners - Complete guide by Francesco Ciulla.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Rust",
+      "creator": "Smart Contract Programmer",
+      "url": "https://www.youtube.com/playlist?list=PLO5VPQH6OWdXR8NlZt0jRbC39W_IyzS-v",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Learn Rust - Complete guide by Smart Contract Programmer.",
+      "year": 2024
+    },
+    {
+      "title": "The Rust Lang Book",
+      "creator": "Let's Get Rusty",
+      "url": "https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "The Rust Lang Book - Complete guide by Let's Get Rusty.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Rust Programming Course 2025 - From Beginner to Advanced",
+      "creator": "BlockDev",
+      "url": "https://www.youtube.com/playlist?list=PLV3QhAYKd93s12-mwAUpwr8-PJul-vld-",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Complete Rust Programming Course 2025 - From Beginner to Advanced - Complete guide by BlockDev.",
+      "year": 2024
+    },
+    {
+      "title": "C# for Beginners",
+      "creator": "dotnet",
+      "url": "https://www.youtube.com/playlist?list=PLdo4fOcmZ0oULFjxrOagaERVAMbmG20Xe",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "C# for Beginners - Complete guide by dotnet.",
+      "year": 2024
+    },
+    {
+      "title": "C# Full Course For Beginners - 2026",
+      "creator": "CodeWithSalar",
+      "url": "https://www.youtube.com/playlist?list=PLbDsRCGLbN1_RvB1Sznr7smvKlF2ak4w0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "C# Full Course For Beginners - 2026 - Complete guide by CodeWithSalar.",
+      "year": 2024
+    },
+    {
+      "title": "FreeCodeCamp C# playlist",
+      "creator": "Christian Shalom",
+      "url": "https://www.youtube.com/playlist?list=PLKQntbLW9e0lRy_Z2d01VKoGONvO7wS_O",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "FreeCodeCamp C# playlist - Complete guide by Christian Shalom.",
+      "year": 2024
+    },
+    {
+      "title": "W3Schools C# Full Course",
+      "creator": "Learn with W3Schools",
+      "url": "https://www.youtube.com/playlist?list=PLImps_mlpW34-weJockr3FSw7UM5dStfg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "W3Schools C# Full Course - Complete guide by Learn with W3Schools.",
+      "year": 2024
+    },
+    {
+      "title": "c# tutorial for beginners",
+      "creator": "kudvenkat",
+      "url": "https://www.youtube.com/playlist?list=PLAC325451207E3105",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "c# tutorial for beginners - Complete guide by kudvenkat.",
+      "year": 2024
+    },
+    {
+      "title": "Kotlin Beginner Tutorials Hindi | Complete Series",
+      "creator": "Cheezy Code",
+      "url": "https://www.youtube.com/playlist?list=PLRKyZvuMYSIMW3-rSOGCkPlO1z_IYJy3G",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Kotlin Beginner Tutorials Hindi | Complete Series - Complete guide by Cheezy Code.",
+      "year": 2024
+    },
+    {
+      "title": "C# Tutorial in Hindi for Beginners",
+      "creator": "Easy Engineering Classes",
+      "url": "https://www.youtube.com/playlist?list=PLV8vIYTIdSnYTYr0bmIbfzYii0YQSPocB",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "C# Tutorial in Hindi for Beginners - Complete guide by Easy Engineering Classes.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Kotlin Mastery Course For Android App Development in Hindi From CS Techtube",
+      "creator": "CS TechTube",
+      "url": "https://www.youtube.com/playlist?list=PLB5RANN-c-wdbTwQKmbzh3AgEIOZcSAbE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Complete Kotlin Mastery Course For Android App Development in Hindi From CS Techtube - Complete guide by CS TechTube.",
+      "year": 2024
+    },
+    {
+      "title": "'C# Tutorial - Full Course for Beginners' (freeCodeCamp.org) and more",
+      "creator": "missnadal",
+      "url": "https://www.youtube.com/playlist?list=PLYQvEJq27SMLgmyrMsslz1KLiXIUv_oQk",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "'C# Tutorial - Full Course for Beginners' (freeCodeCamp.org) and more - Complete guide by missnadal.",
+      "year": 2024
+    },
+    {
+      "title": "FreeCodeCamp Kotlin Videos",
+      "creator": "Rigan Burnwal",
+      "url": "https://www.youtube.com/playlist?list=PLBewgZ0s8b7-b6Ux5xrrozYMl4qiulQlL",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "FreeCodeCamp Kotlin Videos - Complete guide by Rigan Burnwal.",
+      "year": 2024
+    },
+    {
+      "title": "Android App Development Course in Kotlin - Zero to Android Champion",
+      "creator": "Neat Roots",
+      "url": "https://www.youtube.com/playlist?list=PLUhfM8afLE_NQbVaoIEhceR9npbY57Pdg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Android App Development Course in Kotlin - Zero to Android Champion - Complete guide by Neat Roots.",
+      "year": 2024
+    },
+    {
+      "title": "The Complete Android 14  Kotlin Development Masterclas",
+      "creator": "Droid Dev Hub ",
+      "url": "https://www.youtube.com/playlist?list=PLti2cUZX-C8c25FXmBb5pvvjStboKqPYx",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "The Complete Android 14  Kotlin Development Masterclas - Complete guide by Droid Dev Hub .",
+      "year": 2024
+    },
+    {
+      "title": "W3Schools KOTLIN Full Course",
+      "creator": "Learn with W3Schools",
+      "url": "https://www.youtube.com/playlist?list=PLImps_mlpW35o8Go71ncaY1P_MGOB2PQv",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "W3Schools KOTLIN Full Course - Complete guide by Learn with W3Schools.",
+      "year": 2024
+    },
+    {
+      "title": "Android Development Course (Mission Android 2026)",
+      "creator": "Neat Roots",
+      "url": "https://www.youtube.com/playlist?list=PLUhfM8afLE_MOoV5jIAj4UTJ3o43LEmoc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Android Development Course (Mission Android 2026) - Complete guide by Neat Roots.",
+      "year": 2024
+    },
+    {
+      "title": "'How To Make a Website With WordPress (Beginners Tutorial)' (freeCodeCamp.org), etc",
+      "creator": "sonehati",
+      "url": "https://www.youtube.com/playlist?list=PL8uBuHFYNfMPCclISZZaY4cHosOqBwGfT",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "'How To Make a Website With WordPress (Beginners Tutorial)' (freeCodeCamp.org), etc - Complete guide by sonehati.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Swift for Beginners 2026 Course",
+      "creator": "CodeWithChris",
+      "url": "https://www.youtube.com/playlist?list=PLMRqhzcHGw1bVghYq_TAiPeoKaBVlOJu5",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Learn Swift for Beginners 2026 Course - Complete guide by CodeWithChris.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Python - Full Course for Beginners [Tutorial] by freeCodeCamp.org and others",
+      "creator": "squirtt7",
+      "url": "https://www.youtube.com/playlist?list=PLjXip30LFf5W0YFO55XsXYF76iHNkkFfd",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Learn Python - Full Course for Beginners [Tutorial] by freeCodeCamp.org and others - Complete guide by squirtt7.",
+      "year": 2024
+    },
+    {
+      "title": "Swift Programming For IOS From Scratch | Swift Programming Tutorial For Beginners",
+      "creator": "Fahad Hussain",
+      "url": "https://www.youtube.com/playlist?list=PLtCBuHKmdxOd9kxsru5t_MFvDj5o5GdDl",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Swift Programming For IOS From Scratch | Swift Programming Tutorial For Beginners - Complete guide by Fahad Hussain.",
+      "year": 2024
+    },
+    {
+      "title": "Computer & Technology Basics Course for Absolute Beginners by freeCodeCamp.org and others",
+      "creator": "kevisama",
+      "url": "https://www.youtube.com/playlist?list=PL_bDPCn_6dfzbaOwLMuRKBW7kN8YlJFv_",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Computer & Technology Basics Course for Absolute Beginners by freeCodeCamp.org and others - Complete guide by kevisama.",
+      "year": 2024
+    },
+    {
+      "title": "PHP Course for Beginners",
+      "creator": "Dani Krossing",
+      "url": "https://www.youtube.com/playlist?list=PL0eyrZgxdwhwwQQZA79OzYwl5ewA7HQih",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "PHP Course for Beginners - Complete guide by Dani Krossing.",
+      "year": 2024
+    },
+    {
+      "title": "SQL Tutorial - Full Database Course for Beginners (freeCodeCamp.org), ...",
+      "creator": "pigfreezer",
+      "url": "https://www.youtube.com/playlist?list=PLdrw8-ZQM-_rMVndY8BCyeOdX4xmiy17Q",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "SQL Tutorial - Full Database Course for Beginners (freeCodeCamp.org), ... - Complete guide by pigfreezer.",
+      "year": 2024
+    },
+    {
+      "title": "✅ PHP Tutorial in Hindi / Urdu",
+      "creator": "YOOBABA",
+      "url": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbyrzCMJOFzLnf_-_5E_dkzs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "✅ PHP Tutorial in Hindi / Urdu - Complete guide by YOOBABA.",
+      "year": 2024
+    },
+    {
+      "title": "Swift Programming Languages in Hindi || Free IOS Development Course || Swift in Hindi for Beginners || trending",
+      "creator": "TechPro Developers",
+      "url": "https://www.youtube.com/playlist?list=PLFhuYVkr0uHuK0vDiL9_R6VzhE6KCjvpf",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Swift Programming Languages in Hindi || Free IOS Development Course || Swift in Hindi for Beginners || trending - Complete guide by TechPro Developers.",
+      "year": 2024
+    },
+    {
+      "title": "HTML Full Course - Build a Website Tutorial by freeCodeCamp.org, etc",
+      "creator": "lodelane",
+      "url": "https://www.youtube.com/playlist?list=PLr8oPyuhiXO-NfwwMFoAziJFtKpMuYYi3",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "HTML Full Course - Build a Website Tutorial by freeCodeCamp.org, etc - Complete guide by lodelane.",
+      "year": 2024
+    },
+    {
+      "title": "Php tutorial for beginners full in Hindi",
+      "creator": "Code Step By Step",
+      "url": "https://www.youtube.com/playlist?list=PL8p2I9GklV44cSOlKzB_0TrzxEgwfvicK",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Php tutorial for beginners full in Hindi - Complete guide by Code Step By Step.",
+      "year": 2024
+    },
+    {
+      "title": "CI/CD Tutorials",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/playlist?list=PLy7NrYWoggjzSIlwxeBbcgfAdYoxCIrM2",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "CI/CD Tutorials - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "DevOps Concepts explained",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/playlist?list=PLy7NrYWoggjwV7qC4kmgbgtFBsqkrsefG",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "DevOps Concepts explained - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Courses",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/playlist?list=PLy7NrYWoggjxtN4YbSMYFFdpaxb-fR4zC",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Courses - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Full Golang Tutorial - Learn Go by Building a TodoList App (TechWorld with Nana), ...",
+      "creator": "swift914",
+      "url": "https://www.youtube.com/playlist?list=PLcw-mvllEhm940GCStyjeQGuLreQsYWtz",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Full Golang Tutorial - Learn Go by Building a TodoList App (TechWorld with Nana), ... - Complete guide by swift914.",
+      "year": 2024
+    },
+    {
+      "title": "IT Fundamentals",
+      "creator": "TechWorld with Nana",
+      "url": "https://www.youtube.com/playlist?list=PLy7NrYWoggjzDAxOxWazuVSsndW3fUinz",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "IT Fundamentals - Complete guide by TechWorld with Nana.",
+      "year": 2024
+    },
+    {
+      "title": "Python Tutorial for Beginners - Learn Python in 5 Hours [FULL COURSE] (TechWorld with Nana), etc",
+      "creator": "Unnormal",
+      "url": "https://www.youtube.com/playlist?list=PLfPjwShFgFxPdXD6RZxbYFGrXA0U3-R_m",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Python Tutorial for Beginners - Learn Python in 5 Hours [FULL COURSE] (TechWorld with Nana), etc - Complete guide by Unnormal.",
+      "year": 2024
+    },
+    {
+      "title": "Go Tutorial (Golang) for Beginners",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gC88BEo9czgyS72A3doDeM",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Go Tutorial (Golang) for Beginners - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "Golang Tutorials",
+      "creator": "Tech With Tim",
+      "url": "https://www.youtube.com/playlist?list=PLzMcBGfZo4-mtY_SE3HuzQJzuj4VlUG0q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Golang Tutorials - Complete guide by Tech With Tim.",
+      "year": 2024
+    },
+    {
+      "title": "Rust for beginners (2025)",
+      "creator": "Rustfully",
+      "url": "https://www.youtube.com/playlist?list=PLAscMa3kKhHjBYOTrT20kpYMNQX95KU6i",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Rust for beginners (2025) - Complete guide by Rustfully.",
+      "year": 2024
+    },
+    {
+      "title": "Rust Programming Tutorial 🦀",
+      "creator": "Trevor Sullivan",
+      "url": "https://www.youtube.com/playlist?list=PLDbRgZ0OOEpUkWDGqp91ODn0dk7LPBAUL",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Rust Programming Tutorial 🦀 - Complete guide by Trevor Sullivan.",
+      "year": 2024
+    },
+    {
+      "title": "Rust Programming Tutorial",
+      "creator": "Tech With Tim",
+      "url": "https://www.youtube.com/playlist?list=PLzMcBGfZo4-nyLTlSRBvo0zjSnCnqjHYQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Rust Programming Tutorial - Complete guide by Tech With Tim.",
+      "year": 2024
+    },
+    {
+      "title": "C# OOP Brocode",
+      "creator": "Aeid Atlas",
+      "url": "https://www.youtube.com/playlist?list=PLw5loFxj_xUqPApRqaa6nR1jn7GnUjOcL",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "C# OOP Brocode - Complete guide by Aeid Atlas.",
+      "year": 2024
+    },
+    {
+      "title": "'Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours]' (TechWorld with Nana), ...",
+      "creator": "goldilocks228",
+      "url": "https://www.youtube.com/playlist?list=PLiXHDiYTJIjB84TpkB7YZvDTd38-lIU1_",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "'Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours]' (TechWorld with Nana), ... - Complete guide by goldilocks228.",
+      "year": 2024
+    },
+    {
+      "title": "Full Stack Development in Ruby on Rails - Hindi",
+      "creator": "APPSIMPACT Academy Hindi",
+      "url": "https://www.youtube.com/playlist?list=PLSfx1NJkuWPWlVjFy5datW4Y-54ltIFw7",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Full Stack Development in Ruby on Rails - Hindi - Complete guide by APPSIMPACT Academy Hindi.",
+      "year": 2024
+    },
+    {
+      "title": "Ruby on Rails Full Course 2026 🚀 | Zero to Hero Web Development | Backend Mastery",
+      "creator": "AI With Shubhank",
+      "url": "https://www.youtube.com/playlist?list=PLtxvRKlvLAjf_5tuY3lUTAe9SHa_i8XBE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Ruby on Rails Full Course 2026 🚀 | Zero to Hero Web Development | Backend Mastery - Complete guide by AI With Shubhank.",
+      "year": 2024
+    },
+    {
+      "title": "Full Stack Ruby on Rails Development Bootcamp",
+      "creator": "APPSIMPACT Academy",
+      "url": "https://www.youtube.com/playlist?list=PL6SEI86zExmsdxwsyEQcFpF9DWmvttPPu",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Full Stack Ruby on Rails Development Bootcamp - Complete guide by APPSIMPACT Academy.",
+      "year": 2024
+    },
+    {
+      "title": "React Tutorials",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbkArDMazoARtNz1aMwNWmvC",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "React Tutorials - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Ruby on Rails Full Course",
+      "creator": "upGrad Knowledgehut",
+      "url": "https://www.youtube.com/playlist?list=PLsikuZM13-0zOytkeVGSKk4VTTgE8x1ns",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Ruby on Rails Full Course - Complete guide by upGrad Knowledgehut.",
+      "year": 2024
+    },
+    {
+      "title": "Ruby on Rails Course | Urdu / Hindi",
+      "creator": "Code With Naqvi",
+      "url": "https://www.youtube.com/playlist?list=PL9WbyKqkuCAYT-IPvo5PxR_hijMuR1RCB",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Ruby on Rails Course | Urdu / Hindi - Complete guide by Code With Naqvi.",
+      "year": 2024
+    },
+    {
+      "title": "Rails New, a beginner's Ruby on Rails tutorial with Typecraft",
+      "creator": "Ruby on Rails",
+      "url": "https://www.youtube.com/playlist?list=PLHFP2OPUpCeZcPutT9yn4-e0bMmrn5Gd1",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Rails New, a beginner's Ruby on Rails tutorial with Typecraft - Complete guide by Ruby on Rails.",
+      "year": 2024
+    },
+    {
+      "title": "Ruby Comprehensive Courses",
+      "creator": "Scandureanul",
+      "url": "https://www.youtube.com/playlist?list=PL_EzhIKp343lBMH4UuklrMRL_WkilGoXe",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Ruby Comprehensive Courses - Complete guide by Scandureanul.",
+      "year": 2024
+    },
+    {
+      "title": "Dart Crash Course",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9iVGY3ppchN9kIauln8IiEh",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Dart Crash Course - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "Dart Full course in Hindi (Dart for flutter)",
+      "creator": "Flutter with Nikhil",
+      "url": "https://www.youtube.com/playlist?list=PLIvrWfnyzgHerMB1sWR3ufqe-A-pKKU_7",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Dart Full course in Hindi (Dart for flutter) - Complete guide by Flutter with Nikhil.",
+      "year": 2024
+    },
+    {
+      "title": "'SQL Tutorial - Full Database Course for Beginners' by freeCodeCamp.org and more",
+      "creator": "teengetaway",
+      "url": "https://www.youtube.com/playlist?list=PL13eGWMVfbjBaebtmUn-xgMXjF1blrOmP",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "'SQL Tutorial - Full Database Course for Beginners' by freeCodeCamp.org and more - Complete guide by teengetaway.",
+      "year": 2024
+    },
+    {
+      "title": "Dart Crash Course",
+      "creator": "Vandad Nahavandipoor",
+      "url": "https://www.youtube.com/playlist?list=PL6yRaaP0WPkVLSOchfoIA0ZXySz4eSYV2",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Dart Crash Course - Complete guide by Vandad Nahavandipoor.",
+      "year": 2024
+    },
+    {
+      "title": "Dart Tutorial for Beginners: Basics and Fundamentals for Flutter",
+      "creator": "Smartherd",
+      "url": "https://www.youtube.com/playlist?list=PLlxmoA0rQ-LyHW9voBdNo4gEEIh0SjG-q",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Dart Tutorial for Beginners: Basics and Fundamentals for Flutter - Complete guide by Smartherd.",
+      "year": 2024
+    },
+    {
+      "title": "Dart Programming Master Course Tutorials In Hindi/Urdu",
+      "creator": "The Tech Brothers",
+      "url": "https://www.youtube.com/playlist?list=PLFyjjoCMAPtwqUyUJF-2bNheo8J7wJuFZ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Dart Programming Master Course Tutorials In Hindi/Urdu - Complete guide by The Tech Brothers.",
+      "year": 2024
+    },
+    {
+      "title": "Dart OOP Full Course For Beginners",
+      "creator": "The Tech Brothers",
+      "url": "https://www.youtube.com/playlist?list=PLFyjjoCMAPtwxAmI5XCUzGdyfGQkvTLY2",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Dart OOP Full Course For Beginners - Complete guide by The Tech Brothers.",
+      "year": 2024
+    },
+    {
+      "title": "Want to learn Dart programming language for free? #shorts",
+      "creator": "WsCube Tech",
+      "url": "https://www.youtube.com/watch?v=IYzBg4yej0g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Want to learn Dart programming language for free? #shorts - Complete guide by WsCube Tech.",
+      "year": 2024
+    }
+  ]
 }

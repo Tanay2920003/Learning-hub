@@ -1,20 +1,25 @@
-import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 import { GlobalSearch } from "@/components/GlobalSearch";
-import { getGlobalSearchItems } from "@/lib/search";
-import { cn } from "@/lib/utils";
+import { FloatingNav } from "@/components/FloatingNav";
+import { YouTubeBottomNav } from "@/components/YouTubeBottomNav";
+import { Footer } from "@/components/Footer";
+import { getBaseSearchItems } from "@/lib/search";
 
-const geist = Geist({
-  subsets: ["latin"],
-  variable: "--font-sans",
-});
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+  viewportFit: "cover",
+  themeColor: "#090a0f",
+};
 
 export const metadata: Metadata = {
-  title: "Learning Hub - Premium Learning Resources",
-  description: "Access the best learning resources in one beautiful interface - Roadmap.sh, W3Schools, Web.dev, and Microsoft Learn",
-  keywords: ["learning", "development", "programming", "tutorials", "courses"],
+  title: "Learning Hub - Developer Learning Resources",
+  description:
+    "A free, open-source curated directory of developer learning resources — roadmaps, YouTube playlists, articles, and community tools. Not affiliated with YouTube or Google.",
+  keywords: ["learning", "development", "programming", "tutorials", "courses", "roadmaps", "open source"],
   icons: {
     icon: [
       { url: '/logo.svg', type: 'image/svg+xml' },
@@ -28,13 +33,18 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const searchItems = await getGlobalSearchItems();
+  const baseSearchItems = await getBaseSearchItems();
 
   return (
-    <html lang="en" className={cn("dark", geist.variable)} suppressHydrationWarning>
-      <body className="font-sans antialiased min-h-screen bg-background text-foreground selection:bg-blue-500/30">
-          {children}
-          <GlobalSearch items={searchItems} />
+    <html lang="en" className="dark" suppressHydrationWarning>
+      <body className="font-sans antialiased min-h-screen bg-black text-foreground selection:bg-blue-500/30 flex flex-col justify-between">
+          <div className="flex-1">
+            {children}
+          </div>
+          <Footer />
+          <FloatingNav />
+          <YouTubeBottomNav />
+          <GlobalSearch items={baseSearchItems} />
       </body>
     </html>
   );

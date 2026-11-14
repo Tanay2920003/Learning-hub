@@ -1,32 +1,2304 @@
 {
-    "name": "Github",
-    "slug": "github",
-    "description": "Github Complete",
-    "icon": "https://img.icons8.com/fluency/96/github.png",
-    "articles": [
-        {
-            "title": "GitHub Docs - Getting Started",
-            "url": "https://docs.github.com/en/get-started"
-        },
-        {
-            "title": "GitHub Learning Lab",
-            "url": "https://lab.github.com/"
-        },
-        {
-            "title": "Oh My Git! - Interactive Git Game",
-            "url": "https://ohmygit.org/"
-        }
-    ],
-    "playlists": [
-        {
-            "title": "Git and GitHub for Beginners - Crash Course",
-            "creator": "Creator",
-            "url": "https://www.youtube.com/watch?v=RGOj5yH7evk&t=425s",
-            "language": "English",
-            "difficulty": "beginner",
-            "videoCount": 1,
-            "description": "",
-            "year": 2021
-        }
-    ]
+  "name": "Github",
+  "slug": "github",
+  "description": "Github Complete",
+  "icon": "github",
+  "articles": [
+    {
+      "title": "GitHub Docs - Getting Started",
+      "url": "https://docs.github.com/en/get-started"
+    },
+    {
+      "title": "Oh My Git! - Interactive Git Game",
+      "url": "https://ohmygit.org/"
+    },
+    {
+      "title": "GitHub Skills - Interactive Hands-on Labs",
+      "url": "https://skills.github.com/"
+    },
+    {
+      "title": "Pro Git Book by Scott Chacon and Ben Straub",
+      "url": "https://git-scm.com/book/en/v2"
+    },
+    {
+      "title": "Learn Git Branching - Visual Interactive Playground",
+      "url": "https://learngitbranching.js.org/"
+    },
+    {
+      "title": "GitHub Flow Official Collaboration Guide",
+      "url": "https://docs.github.com/en/get-started/using-github/github-flow"
+    },
+    {
+      "title": "Git Flight Rules - Practical Solutions for Common Scenarios",
+      "url": "https://github.com/k88hudson/git-flight-rules"
+    },
+    {
+      "title": "First Contributions - Hands-on Open Source Tutorial",
+      "url": "https://firstcontributions.github.io/"
+    },
+    {
+      "title": "GitHub CLI Official Manual",
+      "url": "https://cli.github.com/manual/"
+    },
+    {
+      "title": "GitHub Actions Documentation & Community Workflows",
+      "url": "https://docs.github.com/en/actions"
+    },
+    {
+      "title": "Oh Shit, Git!?! - Practical Recipes to Fix Mistakes",
+      "url": "https://ohshitgit.com/"
+    }
+  ],
+  "playlists": [
+    {
+      "title": "Git and GitHub for Beginners - Crash Course",
+      "creator": "Creator",
+      "url": "https://www.youtube.com/watch?v=RGOj5yH7evk&t=425s",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "",
+      "year": 2021
+    },
+    {
+      "title": "The Missing Semester of Your CS Education (Git & Shell)",
+      "creator": "MIT CSAIL",
+      "url": "https://www.youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 11,
+      "description": "Master practical developer tools: command line, version control with Git, vim, data wrangling, and debugging.",
+      "year": 2020
+    },
+    {
+      "title": "Git and GitHub Crash Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Complete beginner tutorial covering repositories, staging, committing, branching, remotes, and pull requests.",
+      "year": 2021
+    },
+    {
+      "title": "Git Branching and Merging Deep Dive",
+      "creator": "Corey Schafer",
+      "url": "https://www.youtube.com/watch?v=oPpnCh7InLY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Thorough walkthrough of branching strategies, merge conflicts, fast-forward merges, and clean commit trees.",
+      "year": 2020
+    },
+    {
+      "title": "Git Merge vs Rebase Explained Visually",
+      "creator": "ByteByteGo",
+      "url": "https://www.youtube.com/watch?v=0chZFIZLR_0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Clear animated explanation of how merge commits differ from rebasing and when to use each strategy.",
+      "year": 2023
+    },
+    {
+      "title": "Kunal Kushwaha Explains How to Get a Remote Job via Open Source",
+      "creator": "Sanskar Goyal",
+      "url": "https://www.youtube.com/watch?v=2oTidCGwWuA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kunal Kushwaha Explains How to Get a Remote Job via Open Source - Complete guide by Sanskar Goyal.",
+      "year": 2024
+    },
+    {
+      "title": "Complete git and Github course in Hindi",
+      "creator": "Chai aur Code",
+      "url": "https://www.youtube.com/watch?v=q8EevlEpQ2A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete git and Github course in Hindi - Complete guide by Chai aur Code.",
+      "year": 2024
+    },
+    {
+      "title": "GitHub Foundations Certification Course – Pass the exam in 10 hours!",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=Jdc0i7RcBv8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GitHub Foundations Certification Course – Pass the exam in 10 hours! - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Git for Professionals Tutorial - Tools & Concepts for Mastering Version Control with Git",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=Uszj_k0DGsg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git for Professionals Tutorial - Tools & Concepts for Mastering Version Control with Git - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Git and GitHub Tutorial for Beginners",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=Ez8F0nW6S-w",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Complete Git and GitHub Tutorial for Beginners - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Git & GitHub Tutorial: Beginner to PRO",
+      "creator": "Cloud With VarJosh",
+      "url": "https://www.youtube.com/watch?v=DJAy5vdvPIQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Complete Git & GitHub Tutorial: Beginner to PRO - Complete guide by Cloud With VarJosh.",
+      "year": 2024
+    },
+    {
+      "title": "QUIT Struggling with Git! My 3.5-Hour GitHub Blueprint (Beginner to Pro)",
+      "creator": "Rahul Wagh",
+      "url": "https://www.youtube.com/watch?v=GTFaLDXag08",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "QUIT Struggling with Git! My 3.5-Hour GitHub Blueprint (Beginner to Pro) - Complete guide by Rahul Wagh.",
+      "year": 2024
+    },
+    {
+      "title": "Git & GitHub For First Year Students (What Actually Matters)",
+      "creator": "Not Your College",
+      "url": "https://www.youtube.com/watch?v=BnEFaIfcwOU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git & GitHub For First Year Students (What Actually Matters) - Complete guide by Not Your College.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Git and GitHub Tutorial For Data Engineers [2025]",
+      "creator": "Ansh Lamba",
+      "url": "https://www.youtube.com/watch?v=Kr8l7rQGwNs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete Git and GitHub Tutorial For Data Engineers [2025] - Complete guide by Ansh Lamba.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Git and GitHub Tutorial for Beginners 2025 || Zero to Hero Git Master Class #sdet #devops",
+      "creator": "Tech with Jatin",
+      "url": "https://www.youtube.com/watch?v=MuZySo5lF8E",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Complete Git and GitHub Tutorial for Beginners 2025 || Zero to Hero Git Master Class #sdet #devops - Complete guide by Tech with Jatin.",
+      "year": 2024
+    },
+    {
+      "title": "Git & GitHub: Introduction to Git & GitHub",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=vR-y_2zWrIE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git & GitHub: Introduction to Git & GitHub - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Git – Full Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=zTjRZNkhiEU",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn Git – Full Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Git Tutorial for Beginners: Learn Git in One Video",
+      "creator": "CodeWithHarry",
+      "url": "https://www.youtube.com/watch?v=AB3J8ufDYHQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Git Tutorial for Beginners: Learn Git in One Video - Complete guide by CodeWithHarry.",
+      "year": 2024
+    },
+    {
+      "title": "Git & GitHub: Branching and the GitHub Workflow",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=2GO1a1vgNrc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git & GitHub: Branching and the GitHub Workflow - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Git & GitHub Crash Course for Beginners [2026]",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=mAFoROnOfHs",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Git & GitHub Crash Course for Beginners [2026] - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Why git and github is important | #coding #programming #ezsnippet #shorts",
+      "creator": "ezCommit",
+      "url": "https://www.youtube.com/watch?v=zdKrXyW_DqI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why git and github is important | #coding #programming #ezsnippet #shorts - Complete guide by ezCommit.",
+      "year": 2024
+    },
+    {
+      "title": "Git & GitHub A to Z | From Zero Knowledge to Confident Developer + Certificate",
+      "creator": "Saumya Singh",
+      "url": "https://www.youtube.com/watch?v=RwS3zlFJczA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git & GitHub A to Z | From Zero Knowledge to Confident Developer + Certificate - Complete guide by Saumya Singh.",
+      "year": 2024
+    },
+    {
+      "title": "Git vs GitHub Explained in 2026 🚀 | What's the Difference? | Beginner Guide",
+      "creator": "Indian Code Stack ",
+      "url": "https://www.youtube.com/watch?v=V3IyOutTeEo",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Git vs GitHub Explained in 2026 🚀 | What's the Difference? | Beginner Guide - Complete guide by Indian Code Stack .",
+      "year": 2024
+    },
+    {
+      "title": "What Is The Difference Between Git and GitHub? #tech #git #techexplained",
+      "creator": "Tiff In Tech",
+      "url": "https://www.youtube.com/watch?v=dVcNG7stnU4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What Is The Difference Between Git and GitHub? #tech #git #techexplained - Complete guide by Tiff In Tech.",
+      "year": 2024
+    },
+    {
+      "title": "🚀 Git & GitHub Full Course in 5 Hours | Complete Beginner to Advanced Tutorial | Ashok IT",
+      "creator": "Ashok IT",
+      "url": "https://www.youtube.com/watch?v=fUdHTZcfoDY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "🚀 Git & GitHub Full Course in 5 Hours | Complete Beginner to Advanced Tutorial | Ashok IT - Complete guide by Ashok IT.",
+      "year": 2024
+    },
+    {
+      "title": "GitHub Full Tutorial for Beginners!  Learn Git & GitHub in One Video | Free Course",
+      "creator": "Kiran Sagar",
+      "url": "https://www.youtube.com/watch?v=VasYm9PyKxM",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "GitHub Full Tutorial for Beginners!  Learn Git & GitHub in One Video | Free Course - Complete guide by Kiran Sagar.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Git & GitHub in Under 90 Minutes! 3 YouTube Videos You Need",
+      "creator": "Harshit Yadav",
+      "url": "https://www.youtube.com/watch?v=wCI5JNP-W5c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Git & GitHub in Under 90 Minutes! 3 YouTube Videos You Need - Complete guide by Harshit Yadav.",
+      "year": 2024
+    },
+    {
+      "title": "🧑‍💻 Git & GitHub Explained in Simple Steps! 🔥 | Software Development",
+      "creator": "Bright Future HUB",
+      "url": "https://www.youtube.com/watch?v=VqTxSc6r7K0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🧑‍💻 Git & GitHub Explained in Simple Steps! 🔥 | Software Development - Complete guide by Bright Future HUB.",
+      "year": 2024
+    },
+    {
+      "title": "Git and GitHub in One Shot | Complete Tutorial for Beginners",
+      "creator": "College Wallah",
+      "url": "https://www.youtube.com/watch?v=Ra6b_mcdxYY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Git and GitHub in One Shot | Complete Tutorial for Beginners - Complete guide by College Wallah.",
+      "year": 2024
+    },
+    {
+      "title": "Git vs GitHub vs GitLab vs SourceTree for Tech Beginners!",
+      "creator": "Sajjaad Khader",
+      "url": "https://www.youtube.com/watch?v=ZdoVdGuZH04",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Git vs GitHub vs GitLab vs SourceTree for Tech Beginners! - Complete guide by Sajjaad Khader.",
+      "year": 2024
+    },
+    {
+      "title": "What is Git & GitHub? Explained in 60 Seconds!",
+      "creator": "Bharat yadav",
+      "url": "https://www.youtube.com/watch?v=YOXuQN_X5Tw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Git & GitHub? Explained in 60 Seconds! - Complete guide by Bharat yadav.",
+      "year": 2024
+    },
+    {
+      "title": "GitHub Full Course | for Beginners 2026",
+      "creator": "Website Learners",
+      "url": "https://www.youtube.com/watch?v=ZbrufHI9l7o",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "GitHub Full Course | for Beginners 2026 - Complete guide by Website Learners.",
+      "year": 2024
+    },
+    {
+      "title": "What are Git and GitHub?",
+      "creator": "freeCodeCamp Shorts",
+      "url": "https://www.youtube.com/watch?v=jmWh4DLA0tc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What are Git and GitHub? - Complete guide by freeCodeCamp Shorts.",
+      "year": 2024
+    },
+    {
+      "title": "Learn the basics of Git in 60 seconds with Beau Carnes",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=ZldNCx4AvEM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn the basics of Git in 60 seconds with Beau Carnes - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Git, GitHub & GitHub Actions EXPLAINED",
+      "creator": "Vishakha Sadhwani",
+      "url": "https://www.youtube.com/watch?v=_gwG06fvOzc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git, GitHub & GitHub Actions EXPLAINED - Complete guide by Vishakha Sadhwani.",
+      "year": 2024
+    },
+    {
+      "title": "Best Git & GitHub Resources for Beginners 💻 | Learn Git the Right Way #codinglife",
+      "creator": "CHAMP by Arpit",
+      "url": "https://www.youtube.com/watch?v=x9-mrbfb9Ks",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Best Git & GitHub Resources for Beginners 💻 | Learn Git the Right Way #codinglife - Complete guide by CHAMP by Arpit.",
+      "year": 2024
+    },
+    {
+      "title": "Git for Beginners: A Complete Guide to Version Control",
+      "creator": "Coding Inspiration",
+      "url": "https://www.youtube.com/watch?v=xCd3FXNgeVM",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Git for Beginners: A Complete Guide to Version Control - Complete guide by Coding Inspiration.",
+      "year": 2024
+    },
+    {
+      "title": "Git vs GitHub Explained 🚀 | 3 Commands Every Beginner Should Know",
+      "creator": "CodeWithJeru",
+      "url": "https://www.youtube.com/watch?v=kILRp5J3thQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Git vs GitHub Explained 🚀 | 3 Commands Every Beginner Should Know - Complete guide by CodeWithJeru.",
+      "year": 2024
+    },
+    {
+      "title": "Git vs GitHub Explained in 30 Seconds | Difference Between Git and GitHub #Shorts #viral",
+      "creator": "Data Decoded",
+      "url": "https://www.youtube.com/watch?v=IWGb9vBtJGM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git vs GitHub Explained in 30 Seconds | Difference Between Git and GitHub #Shorts #viral - Complete guide by Data Decoded.",
+      "year": 2024
+    },
+    {
+      "title": "Git and GitHub Explained for Beginners | Complete Beginner's Guide",
+      "creator": "CloudOps",
+      "url": "https://www.youtube.com/watch?v=JM0ER0--YEU",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Git and GitHub Explained for Beginners | Complete Beginner's Guide - Complete guide by CloudOps.",
+      "year": 2024
+    },
+    {
+      "title": "How to Install and Setup Git on Your Computer ⚡ | Git & GitHub EP 05",
+      "creator": "Latish Adwani",
+      "url": "https://www.youtube.com/watch?v=2maWb0nLob8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Install and Setup Git on Your Computer ⚡ | Git & GitHub EP 05 - Complete guide by Latish Adwani.",
+      "year": 2024
+    },
+    {
+      "title": "Git Commands developers should know PART 1 #freecodecamp #programming #variables #dev",
+      "creator": "oma Amos",
+      "url": "https://www.youtube.com/watch?v=DNyYEDelfcE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git Commands developers should know PART 1 #freecodecamp #programming #variables #dev - Complete guide by oma Amos.",
+      "year": 2024
+    },
+    {
+      "title": "Why Git & GitHub Were Created? | Git vs GitHub Explained 🚀",
+      "creator": "Range Full Stack",
+      "url": "https://www.youtube.com/watch?v=7g101KU04T4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why Git & GitHub Were Created? | Git vs GitHub Explained 🚀 - Complete guide by Range Full Stack.",
+      "year": 2024
+    },
+    {
+      "title": "What Is Git & Github ? #coding #shorts #softwareengineer",
+      "creator": "College Wallah",
+      "url": "https://www.youtube.com/watch?v=f_hGkPwhwV0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What Is Git & Github ? #coding #shorts #softwareengineer - Complete guide by College Wallah.",
+      "year": 2024
+    },
+    {
+      "title": "Git & GitHub Complete Roadmap | From Beginner to Advanced #shorts",
+      "creator": "NA Tech Solutions",
+      "url": "https://www.youtube.com/watch?v=ahPbp3uVV7w",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Git & GitHub Complete Roadmap | From Beginner to Advanced #shorts - Complete guide by NA Tech Solutions.",
+      "year": 2024
+    },
+    {
+      "title": "Git Tutorial for Beginners: Learn Git in 1 Hour",
+      "creator": "Programming with Mosh",
+      "url": "https://www.youtube.com/watch?v=8JJ101D3knE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Git Tutorial for Beginners: Learn Git in 1 Hour - Complete guide by Programming with Mosh.",
+      "year": 2024
+    },
+    {
+      "title": "3 GitHub Repositories to Master Programming for FREE 🚀💻",
+      "creator": "EasywebAI",
+      "url": "https://www.youtube.com/watch?v=9HlEBnB9oxc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "3 GitHub Repositories to Master Programming for FREE 🚀💻 - Complete guide by EasywebAI.",
+      "year": 2024
+    },
+    {
+      "title": "Git vs GitHub Explained in 60 Seconds 🚀 | Difference Between Git and GitHub #shorts",
+      "creator": "Intellipaat",
+      "url": "https://www.youtube.com/watch?v=xzf60TjRcQA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git vs GitHub Explained in 60 Seconds 🚀 | Difference Between Git and GitHub #shorts - Complete guide by Intellipaat.",
+      "year": 2024
+    },
+    {
+      "title": "Resources to ace your Git & Github",
+      "creator": "Devlearningcorner",
+      "url": "https://www.youtube.com/watch?v=x-H_zUUDfgo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Resources to ace your Git & Github - Complete guide by Devlearningcorner.",
+      "year": 2024
+    },
+    {
+      "title": "The Only GitHub Guide You’ll Ever Need",
+      "creator": "corbin",
+      "url": "https://www.youtube.com/watch?v=pJYOG6klqj8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Only GitHub Guide You’ll Ever Need - Complete guide by corbin.",
+      "year": 2024
+    },
+    {
+      "title": "Git is Dead!",
+      "creator": "Piyush Garg",
+      "url": "https://www.youtube.com/watch?v=-Jw4AjRHq8c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git is Dead! - Complete guide by Piyush Garg.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Git and Github Tutorial for Beginners",
+      "creator": "Vivek Mishra",
+      "url": "https://www.youtube.com/watch?v=aednoyn-KvY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Complete Git and Github Tutorial for Beginners - Complete guide by Vivek Mishra.",
+      "year": 2024
+    },
+    {
+      "title": "An Introduction to Terminal and CLI | Git and GitHub Fundamentals | Ep.01",
+      "creator": "Anurag Singh ProCodrr",
+      "url": "https://www.youtube.com/watch?v=3WQu7iWHAhI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "An Introduction to Terminal and CLI | Git and GitHub Fundamentals | Ep.01 - Complete guide by Anurag Singh ProCodrr.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Git and GitHub Tutorial",
+      "creator": "Kunal Kushwaha",
+      "url": "https://www.youtube.com/watch?v=apGV9Kg7ics",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete Git and GitHub Tutorial - Complete guide by Kunal Kushwaha.",
+      "year": 2024
+    },
+    {
+      "title": "How I would learn to code (If I could start over)",
+      "creator": "CodeWithHarry",
+      "url": "https://www.youtube.com/watch?v=kI6YZA9ZL6c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How I would learn to code (If I could start over) - Complete guide by CodeWithHarry.",
+      "year": 2024
+    },
+    {
+      "title": "Git and Version Control | Git and GitHub Fundamentals | Hindi | Ep.02",
+      "creator": "Anurag Singh ProCodrr",
+      "url": "https://www.youtube.com/watch?v=LdeNFQMI42o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git and Version Control | Git and GitHub Fundamentals | Hindi | Ep.02 - Complete guide by Anurag Singh ProCodrr.",
+      "year": 2024
+    },
+    {
+      "title": "E1 - GitHub Actions: Write your first workflow with GitHub APIs || Beginner friendly tutorial",
+      "creator": "glich.stream",
+      "url": "https://www.youtube.com/watch?v=-hVG9z0fCac",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "E1 - GitHub Actions: Write your first workflow with GitHub APIs || Beginner friendly tutorial - Complete guide by glich.stream.",
+      "year": 2024
+    },
+    {
+      "title": "Complete GitHub Actions Course - From BEGINNER to PRO",
+      "creator": "DevOps Directive",
+      "url": "https://www.youtube.com/watch?v=Xwpi0ITkL3U",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Complete GitHub Actions Course - From BEGINNER to PRO - Complete guide by DevOps Directive.",
+      "year": 2024
+    },
+    {
+      "title": "Course Preview | GH-200 | Automate your workflow with GitHub Actions",
+      "creator": "Microsoft Learn",
+      "url": "https://www.youtube.com/watch?v=wuHiemCckNo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Course Preview | GH-200 | Automate your workflow with GitHub Actions - Complete guide by Microsoft Learn.",
+      "year": 2024
+    },
+    {
+      "title": "E2 - GitHub Actions: Build continuous integration (CI) pipelines || Beginner Friendly",
+      "creator": "glich.stream",
+      "url": "https://www.youtube.com/watch?v=Ftq1yFwPJQ4",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "E2 - GitHub Actions: Build continuous integration (CI) pipelines || Beginner Friendly - Complete guide by glich.stream.",
+      "year": 2024
+    },
+    {
+      "title": "What is GitHub Actions | Build Your First Workflow from Scratch",
+      "creator": "Cloud With VarJosh",
+      "url": "https://www.youtube.com/watch?v=w4c_NIjO3XI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is GitHub Actions | Build Your First Workflow from Scratch - Complete guide by Cloud With VarJosh.",
+      "year": 2024
+    },
+    {
+      "title": "GitHub Actions Certification – Full Course to PASS the Exam",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=Tz7FsunBbfQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GitHub Actions Certification – Full Course to PASS the Exam - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "GitHub Actions Triggers & Runners Explained | Events, Contexts & Hosted Runners",
+      "creator": "Cloud With VarJosh",
+      "url": "https://www.youtube.com/watch?v=zpDH_tfOOqc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GitHub Actions Triggers & Runners Explained | Events, Contexts & Hosted Runners - Complete guide by Cloud With VarJosh.",
+      "year": 2024
+    },
+    {
+      "title": "Course Introduction | GH-200 | Episode 1",
+      "creator": "Microsoft Learn",
+      "url": "https://www.youtube.com/watch?v=8m9JBtGFMp8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Course Introduction | GH-200 | Episode 1 - Complete guide by Microsoft Learn.",
+      "year": 2024
+    },
+    {
+      "title": "AI वाला CI/CD Pipeline 🔥 GitHub Actions अब खुद करेगा Analysis",
+      "creator": "The DevOps Hut",
+      "url": "https://www.youtube.com/watch?v=f7PfC9ScT4c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AI वाला CI/CD Pipeline 🔥 GitHub Actions अब खुद करेगा Analysis - Complete guide by The DevOps Hut.",
+      "year": 2024
+    },
+    {
+      "title": "GitHub Actions: Getting Started Tutorial for Beginners",
+      "creator": "TechTrapture",
+      "url": "https://www.youtube.com/watch?v=zH8hz_21x_0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "GitHub Actions: Getting Started Tutorial for Beginners - Complete guide by TechTrapture.",
+      "year": 2024
+    },
+    {
+      "title": "GitHub Actions Tutorial - Deploy Node.js Application with CI CD and GitHub Actions",
+      "creator": "Piyush Garg",
+      "url": "https://www.youtube.com/watch?v=y7S2oSjJ8PA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GitHub Actions Tutorial - Deploy Node.js Application with CI CD and GitHub Actions - Complete guide by Piyush Garg.",
+      "year": 2024
+    },
+    {
+      "title": "GitHub Actions Explained in 30s",
+      "creator": "Kritika & Pranav | Programmer Couple",
+      "url": "https://www.youtube.com/watch?v=LPzBMaDWQ6s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GitHub Actions Explained in 30s - Complete guide by Kritika & Pranav | Programmer Couple.",
+      "year": 2024
+    },
+    {
+      "title": "Jenkins vs Github actions!! Which one is best for you #githubactions #cicd #jenkins #devops",
+      "creator": "Cloud with Shruti",
+      "url": "https://www.youtube.com/watch?v=XNqG_6huUOw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Jenkins vs Github actions!! Which one is best for you #githubactions #cicd #jenkins #devops - Complete guide by Cloud with Shruti.",
+      "year": 2024
+    },
+    {
+      "title": "GitHub Actions Tutorial: Using Variables ,Secrets and Inputs in GitHub Actions for Secure Automation",
+      "creator": "TechTrapture",
+      "url": "https://www.youtube.com/watch?v=mmwn24JxvnU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GitHub Actions Tutorial: Using Variables ,Secrets and Inputs in GitHub Actions for Secure Automation - Complete guide by TechTrapture.",
+      "year": 2024
+    },
+    {
+      "title": "Setup Self-Hosted GitHub Actions Runner on AKS: Complete Guide",
+      "creator": "The DevOps Hut",
+      "url": "https://www.youtube.com/watch?v=CzvXp5A1Qko",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Setup Self-Hosted GitHub Actions Runner on AKS: Complete Guide - Complete guide by The DevOps Hut.",
+      "year": 2024
+    },
+    {
+      "title": "🚀 Don't Miss These 5 GitHub Repos! 🤯 | Every Developer Should Know These 🔥",
+      "creator": "Sahil khan Sorakayalapeta",
+      "url": "https://www.youtube.com/watch?v=8FjC8ZaZ1Xc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🚀 Don't Miss These 5 GitHub Repos! 🤯 | Every Developer Should Know These 🔥 - Complete guide by Sahil khan Sorakayalapeta.",
+      "year": 2024
+    },
+    {
+      "title": "5 Benefits of learning GitHub Actions Certifications #shorts",
+      "creator": "KodeKloud",
+      "url": "https://www.youtube.com/watch?v=d7k6IC0GCJw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "5 Benefits of learning GitHub Actions Certifications #shorts - Complete guide by KodeKloud.",
+      "year": 2024
+    },
+    {
+      "title": "Push Karo, Website LIVE! GitHub Actions Se Auto Deploy 🤯 #Shorts",
+      "creator": "Aman Gupt",
+      "url": "https://www.youtube.com/watch?v=x5uCMRT9zNQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Push Karo, Website LIVE! GitHub Actions Se Auto Deploy 🤯 #Shorts - Complete guide by Aman Gupt.",
+      "year": 2024
+    },
+    {
+      "title": "DevOps with GitLab CI Course - Build Pipelines and Deploy to AWS",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=PGyhBwLyK2U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DevOps with GitLab CI Course - Build Pipelines and Deploy to AWS - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Run Codex in GitHub Actions with openai/codex-action@v1",
+      "creator": "AI crash courses",
+      "url": "https://www.youtube.com/watch?v=JurPlCsbDfQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Run Codex in GitHub Actions with openai/codex-action@v1 - Complete guide by AI crash courses.",
+      "year": 2024
+    },
+    {
+      "title": "GitHub Actions lockfiles: do they make your pipeline safe?",
+      "creator": "Stackgram",
+      "url": "https://www.youtube.com/watch?v=OPeOX7uu6jg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GitHub Actions lockfiles: do they make your pipeline safe? - Complete guide by Stackgram.",
+      "year": 2024
+    },
+    {
+      "title": "GitHub Actions Workflow: Self Hosted Runners #devopsengineer #workflows",
+      "creator": "Sakshi Gautam",
+      "url": "https://www.youtube.com/watch?v=dpq996xo-G4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GitHub Actions Workflow: Self Hosted Runners #devopsengineer #workflows - Complete guide by Sakshi Gautam.",
+      "year": 2024
+    },
+    {
+      "title": "Jenkins vs GitHub Actions ⚡ 4 Key Differences Explained | CI/CD Tools #shorts",
+      "creator": "The Curious Coder",
+      "url": "https://www.youtube.com/watch?v=tyH87h9y-o0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Jenkins vs GitHub Actions ⚡ 4 Key Differences Explained | CI/CD Tools #shorts - Complete guide by The Curious Coder.",
+      "year": 2024
+    },
+    {
+      "title": "Save Codex Security reports and upload SARIF from GitHub Actions",
+      "creator": "AI crash courses",
+      "url": "https://www.youtube.com/watch?v=m_7Fy15jWDs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Save Codex Security reports and upload SARIF from GitHub Actions - Complete guide by AI crash courses.",
+      "year": 2024
+    },
+    {
+      "title": "This FREE GitHub Tool Makes Your AI Coder Work Like a Senior Engineer",
+      "creator": "Hyuga Labs",
+      "url": "https://www.youtube.com/watch?v=r-VcOWtD6ss",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "This FREE GitHub Tool Makes Your AI Coder Work Like a Senior Engineer - Complete guide by Hyuga Labs.",
+      "year": 2024
+    },
+    {
+      "title": "GitHub Actions Supply Chain Attack Fix with Commit SHA Pinning (Hindi)",
+      "creator": "SP Nexa DevOps",
+      "url": "https://www.youtube.com/watch?v=ePQNmOA_neU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GitHub Actions Supply Chain Attack Fix with Commit SHA Pinning (Hindi) - Complete guide by SP Nexa DevOps.",
+      "year": 2024
+    },
+    {
+      "title": "Stop Secrets and Prompt Injection in Pull Requests | GitHub Actions + VS Code MCP",
+      "creator": "Vrymdor™",
+      "url": "https://www.youtube.com/watch?v=LLayUqtRDSg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Stop Secrets and Prompt Injection in Pull Requests | GitHub Actions + VS Code MCP - Complete guide by Vrymdor™.",
+      "year": 2024
+    },
+    {
+      "title": "What Is Version Control Explained in 30 Seconds #github #githubactions #githublearning #githubpages",
+      "creator": "Smart Architectural Programming",
+      "url": "https://www.youtube.com/watch?v=eHoDhNZCwmU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What Is Version Control Explained in 30 Seconds #github #githubactions #githublearning #githubpages - Complete guide by Smart Architectural Programming.",
+      "year": 2024
+    },
+    {
+      "title": "What Is GitHub Explained Simply #github #githubactions #githublearning #githubpages #githubcopilot",
+      "creator": "Smart Architectural Programming",
+      "url": "https://www.youtube.com/watch?v=l72G6VTlMdI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What Is GitHub Explained Simply #github #githubactions #githublearning #githubpages #githubcopilot - Complete guide by Smart Architectural Programming.",
+      "year": 2024
+    },
+    {
+      "title": "🚨 4,837 GitHub Accounts HACKED! 61,000+ Repos Targeted!",
+      "creator": "Ari Vector",
+      "url": "https://www.youtube.com/watch?v=LWHcgHWJrZY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🚨 4,837 GitHub Accounts HACKED! 61,000+ Repos Targeted! - Complete guide by Ari Vector.",
+      "year": 2024
+    },
+    {
+      "title": "What is GitHub Actions? 🐙 #github #coding #programming",
+      "creator": "Tom Shaw",
+      "url": "https://www.youtube.com/watch?v=Rm0bfyXZMq0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is GitHub Actions? 🐙 #github #coding #programming - Complete guide by Tom Shaw.",
+      "year": 2024
+    },
+    {
+      "title": "CI/CD Tutorial using GitHub Actions - Automated Testing & Automated Deployments",
+      "creator": "Tom Shaw",
+      "url": "https://www.youtube.com/watch?v=YLtlz88zrLg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CI/CD Tutorial using GitHub Actions - Automated Testing & Automated Deployments - Complete guide by Tom Shaw.",
+      "year": 2024
+    },
+    {
+      "title": "3 Free GitHub Repos That Replace a Coding Bootcamp",
+      "creator": "EasywebAI",
+      "url": "https://www.youtube.com/watch?v=MeWj1ZkfWDU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "3 Free GitHub Repos That Replace a Coding Bootcamp - Complete guide by EasywebAI.",
+      "year": 2024
+    },
+    {
+      "title": "GitHub Actions & DevSecOps in One Shot | Full CICD Project",
+      "creator": "TrainWithShubham",
+      "url": "https://www.youtube.com/watch?v=Y0aKw5AfUj8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GitHub Actions & DevSecOps in One Shot | Full CICD Project - Complete guide by TrainWithShubham.",
+      "year": 2024
+    },
+    {
+      "title": "Get Certified with GitHub |Earn Free GitHub Certificate Voucher | #githubtutorial #freecertificate",
+      "creator": "Pallavi WebMaster",
+      "url": "https://www.youtube.com/watch?v=nIif-tvGmIA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Get Certified with GitHub |Earn Free GitHub Certificate Voucher | #githubtutorial #freecertificate - Complete guide by Pallavi WebMaster.",
+      "year": 2024
+    },
+    {
+      "title": "Contributing To Open Source – Beginner's Guide",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=mklEhT_RLos",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Contributing To Open Source – Beginner's Guide - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Guide to Open Source - How to Contribute",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=yzeVMecydCE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete Guide to Open Source - How to Contribute - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Your First Open Source Contribution in 5 Steps (2026 Software Engineering Job Shortcut)",
+      "creator": "Aditya Dewaskar",
+      "url": "https://www.youtube.com/watch?v=00qES-ZlL-Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Your First Open Source Contribution in 5 Steps (2026 Software Engineering Job Shortcut) - Complete guide by Aditya Dewaskar.",
+      "year": 2024
+    },
+    {
+      "title": "Open Source Crash Course - Beginner Guide to Open Source",
+      "creator": "Piyush Garg",
+      "url": "https://www.youtube.com/watch?v=o6xikISiz2w",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Open Source Crash Course - Beginner Guide to Open Source - Complete guide by Piyush Garg.",
+      "year": 2024
+    },
+    {
+      "title": "Need some coding experience? Contribute to Open Source.",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=HihwnUepmdg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Need some coding experience? Contribute to Open Source. - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "The *truth* about open source",
+      "creator": "Alberta Tech",
+      "url": "https://www.youtube.com/watch?v=Ya5xbfyp4Xs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The *truth* about open source - Complete guide by Alberta Tech.",
+      "year": 2024
+    },
+    {
+      "title": "How to find good open source projects to contribute to - from Tapas Adhikary",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=cw02dMpWStI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to find good open source projects to contribute to - from Tapas Adhikary - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "How contributing to Open Source can lead to tech jobs",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=FHBBaSUQk1Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How contributing to Open Source can lead to tech jobs - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "The Open-Source Curriculum Developers Are Returning To — freeCodeCamp #github #opensource #coding",
+      "creator": "Repo Rundown",
+      "url": "https://www.youtube.com/watch?v=0DniouwTZZ4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Open-Source Curriculum Developers Are Returning To — freeCodeCamp #github #opensource #coding - Complete guide by Repo Rundown.",
+      "year": 2024
+    },
+    {
+      "title": "Best YouTube Channels to Learn Git & GitHub | Free Git Tutorial for Beginners 2026 #freecodecamp",
+      "creator": "LearnWithSumit7",
+      "url": "https://www.youtube.com/watch?v=W5JqkHs-qDA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Best YouTube Channels to Learn Git & GitHub | Free Git Tutorial for Beginners 2026 #freecodecamp - Complete guide by LearnWithSumit7.",
+      "year": 2024
+    },
+    {
+      "title": "What motivates people to keep contributing to open source projects?",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=F-d5DyFo3Cg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What motivates people to keep contributing to open source projects? - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Contributing to Open Source will change your Life | How to Start? | Ali Solanki",
+      "creator": "Ali Solanki",
+      "url": "https://www.youtube.com/watch?v=v2X51AVgl3o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Contributing to Open Source will change your Life | How to Start? | Ali Solanki - Complete guide by Ali Solanki.",
+      "year": 2024
+    },
+    {
+      "title": "EXPLORE A NEW GITHUB PROJECT",
+      "creator": "GitPulse",
+      "url": "https://www.youtube.com/watch?v=LKqD7uFisos",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "EXPLORE A NEW GITHUB PROJECT - Complete guide by GitPulse.",
+      "year": 2024
+    },
+    {
+      "title": "BEST OPENSOURCE PROJECT TO CONTRIBUTE TO.",
+      "creator": "ezSnippet",
+      "url": "https://www.youtube.com/watch?v=-a3twnKeWAU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "BEST OPENSOURCE PROJECT TO CONTRIBUTE TO. - Complete guide by ezSnippet.",
+      "year": 2024
+    },
+    {
+      "title": "Open Source Projects for Beginners | How to Contribute to Open Source Ft. Saumya Singh, SWE Red Hat",
+      "creator": "SCALER",
+      "url": "https://www.youtube.com/watch?v=Is7ElvQanG0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Open Source Projects for Beginners | How to Contribute to Open Source Ft. Saumya Singh, SWE Red Hat - Complete guide by SCALER.",
+      "year": 2024
+    },
+    {
+      "title": "If you can contribute to an open source project and collaborate with others, you can work anywhere",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=5e9J47H9EFE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "If you can contribute to an open source project and collaborate with others, you can work anywhere - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "3 GitHub Repos Every Beginner Developer Needs (Free & Open Source)",
+      "creator": "NazoByte",
+      "url": "https://www.youtube.com/watch?v=hXFOXkmt_NE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "3 GitHub Repos Every Beginner Developer Needs (Free & Open Source) - Complete guide by NazoByte.",
+      "year": 2024
+    },
+    {
+      "title": "How to Contribute to Open Source projects as a Beginner| GSOC | Git Hub | Open Source",
+      "creator": "GeeksforGeeks",
+      "url": "https://www.youtube.com/watch?v=QKQDFSVB0Z0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "How to Contribute to Open Source projects as a Beginner| GSOC | Git Hub | Open Source - Complete guide by GeeksforGeeks.",
+      "year": 2024
+    },
+    {
+      "title": "🚀 3 TIPS To Contribute To Open Source 🔥  #remotejobs #coding #opensource",
+      "creator": "Sanskar Goyal",
+      "url": "https://www.youtube.com/watch?v=yLAy2MVuD70",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🚀 3 TIPS To Contribute To Open Source 🔥  #remotejobs #coding #opensource - Complete guide by Sanskar Goyal.",
+      "year": 2024
+    },
+    {
+      "title": "Day 1: Open Source Contributions | BootCamp",
+      "creator": "Piyush Garg",
+      "url": "https://www.youtube.com/watch?v=tlJVWvzOnlw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Day 1: Open Source Contributions | BootCamp - Complete guide by Piyush Garg.",
+      "year": 2024
+    },
+    {
+      "title": "Sabko open source krna h lekin…",
+      "creator": "Chai aur Code",
+      "url": "https://www.youtube.com/watch?v=1RowPEZDXgs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Sabko open source krna h lekin… - Complete guide by Chai aur Code.",
+      "year": 2024
+    },
+    {
+      "title": "Why you should support your favorite open source projects",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=7lEWtEG3vd0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why you should support your favorite open source projects - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "5 Free Resources to Learn Coding in 2024 💻",
+      "creator": "code with US",
+      "url": "https://www.youtube.com/watch?v=j6X_bSK3T7U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "5 Free Resources to Learn Coding in 2024 💻 - Complete guide by code with US.",
+      "year": 2024
+    },
+    {
+      "title": "🚀is this best github repo ever : Master Coding for FREE! freeCodeCamp #coding #freecodecamp #github",
+      "creator": "moyibr",
+      "url": "https://www.youtube.com/watch?v=5M4c6ZzwAAM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🚀is this best github repo ever : Master Coding for FREE! freeCodeCamp #coding #freecodecamp #github - Complete guide by moyibr.",
+      "year": 2024
+    },
+    {
+      "title": "5 beginners friendly github projects | Github repositories",
+      "creator": "codedecks",
+      "url": "https://www.youtube.com/watch?v=MmlXzkomnqg",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "5 beginners friendly github projects | Github repositories - Complete guide by codedecks.",
+      "year": 2024
+    },
+    {
+      "title": "How to crack GSOC in 4 easy Steps | Google Summer Of Code  #googlesummerofcode #gsoc2027",
+      "creator": "CodeWithPavan",
+      "url": "https://www.youtube.com/watch?v=4OuePu4T88k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to crack GSOC in 4 easy Steps | Google Summer Of Code  #googlesummerofcode #gsoc2027 - Complete guide by CodeWithPavan.",
+      "year": 2024
+    },
+    {
+      "title": "How to Earn with Open Source Contributions",
+      "creator": "Piyush Garg",
+      "url": "https://www.youtube.com/watch?v=9AkfNuc_SZ4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Earn with Open Source Contributions - Complete guide by Piyush Garg.",
+      "year": 2024
+    },
+    {
+      "title": "GSoC 2026 Complete Roadmap | How to Get Selected in Google Summer of Code (Step-by-Step Guide)",
+      "creator": "Saumya Singh",
+      "url": "https://www.youtube.com/watch?v=viU_64adkEo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GSoC 2026 Complete Roadmap | How to Get Selected in Google Summer of Code (Step-by-Step Guide) - Complete guide by Saumya Singh.",
+      "year": 2024
+    },
+    {
+      "title": "How to build your own learning path using Open Source with Kunal Kushwaha [Podcast #200]",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=VgBQ0yBSjfM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to build your own learning path using Open Source with Kunal Kushwaha [Podcast #200] - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Open Source for Beginners | How to Contribute to Open Source",
+      "creator": "Saumya Singh",
+      "url": "https://www.youtube.com/watch?v=2do4WZ0e8UU",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Open Source for Beginners | How to Contribute to Open Source - Complete guide by Saumya Singh.",
+      "year": 2024
+    },
+    {
+      "title": "Contributing to open source has many benefits - but it doesn't guarantee you a job",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=4RGkpzTJjfg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Contributing to open source has many benefits - but it doesn't guarantee you a job - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Day 2: Git Branches and Pull Requests | Open Source Bootcamp",
+      "creator": "Piyush Garg",
+      "url": "https://www.youtube.com/watch?v=mMl_Eegy3bQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Day 2: Git Branches and Pull Requests | Open Source Bootcamp - Complete guide by Piyush Garg.",
+      "year": 2024
+    },
+    {
+      "title": "Contributing to Open Source Can Change Your Life - Here’s How to Do It",
+      "creator": "Learn Fast Make Things",
+      "url": "https://www.youtube.com/watch?v=CML6vfKjQss",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Contributing to Open Source Can Change Your Life - Here’s How to Do It - Complete guide by Learn Fast Make Things.",
+      "year": 2024
+    },
+    {
+      "title": "Git Crash Course #1 - Introduction & Setup",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/watch?v=4okmgMzPwZ8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git Crash Course #1 - Introduction & Setup - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "How to Get Started with Contributing to Open Source",
+      "creator": "AssemblyAI",
+      "url": "https://www.youtube.com/watch?v=RGd5cOXpCQw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Get Started with Contributing to Open Source - Complete guide by AssemblyAI.",
+      "year": 2024
+    },
+    {
+      "title": "Git & GitHub Crash Course For Beginners",
+      "creator": "Traversy Media",
+      "url": "https://www.youtube.com/watch?v=SWYqp7iY_Tc",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Git & GitHub Crash Course For Beginners - Complete guide by Traversy Media.",
+      "year": 2024
+    },
+    {
+      "title": "Git & GitHub Crash Course 2025",
+      "creator": "Traversy Media",
+      "url": "https://www.youtube.com/watch?v=vA5TTz6BXhY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git & GitHub Crash Course 2025 - Complete guide by Traversy Media.",
+      "year": 2024
+    },
+    {
+      "title": "Git Crash Course #2 - Command Line Basics",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/watch?v=jYaAgmPeiqE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git Crash Course #2 - Command Line Basics - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "How to Find Good First Issues in Open Source?",
+      "creator": "Kunal Kushwaha",
+      "url": "https://www.youtube.com/watch?v=ZIkkPzTuOXw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Find Good First Issues in Open Source? - Complete guide by Kunal Kushwaha.",
+      "year": 2024
+    },
+    {
+      "title": "Git For Beginners",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=vwj89i2FmG0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Git For Beginners - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Git and GitHub Tutorial #2 - What is Github | Git Workflow Basics",
+      "creator": "Software Testing Mentor",
+      "url": "https://www.youtube.com/watch?v=PlS52sKf014",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git and GitHub Tutorial #2 - What is Github | Git Workflow Basics - Complete guide by Software Testing Mentor.",
+      "year": 2024
+    },
+    {
+      "title": "#1 Git and GitHub Tutorial for Beginners || Crash Course 🔥 (Part 1)",
+      "creator": "Smart Programming",
+      "url": "https://www.youtube.com/watch?v=i3DQB1YbkRI",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "#1 Git and GitHub Tutorial for Beginners || Crash Course 🔥 (Part 1) - Complete guide by Smart Programming.",
+      "year": 2024
+    },
+    {
+      "title": "#2 Git Commands Cheat Sheet 🚀 | Complete Git & GitHub Crash Course (Part 2) – Hands-on Guide",
+      "creator": "Smart Programming",
+      "url": "https://www.youtube.com/watch?v=AxBOsJtHUCc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#2 Git Commands Cheat Sheet 🚀 | Complete Git & GitHub Crash Course (Part 2) – Hands-on Guide - Complete guide by Smart Programming.",
+      "year": 2024
+    },
+    {
+      "title": "CI/CD Made Simple: Build a Real Pipeline",
+      "creator": "Traversy Media",
+      "url": "https://www.youtube.com/watch?v=B7GM6F3BP6A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CI/CD Made Simple: Build a Real Pipeline - Complete guide by Traversy Media.",
+      "year": 2024
+    },
+    {
+      "title": "DevOps Crash Course (Docker, Terraform, and Github Actions)",
+      "creator": "Traversy Media",
+      "url": "https://www.youtube.com/watch?v=OXE2a8dqIAI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DevOps Crash Course (Docker, Terraform, and Github Actions) - Complete guide by Traversy Media.",
+      "year": 2024
+    },
+    {
+      "title": "What Is Git? Save Every Version of Your Project #shorts  #technology #git  #github",
+      "creator": "SimpleDevOps",
+      "url": "https://www.youtube.com/watch?v=b6pVuO1N-dY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What Is Git? Save Every Version of Your Project #shorts  #technology #git  #github - Complete guide by SimpleDevOps.",
+      "year": 2024
+    },
+    {
+      "title": "Master Git & GitHub | Part 2 | Fundamentals",
+      "creator": "Sheryians Coding School",
+      "url": "https://www.youtube.com/watch?v=ylVQ_lBaqvY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Master Git & GitHub | Part 2 | Fundamentals - Complete guide by Sheryians Coding School.",
+      "year": 2024
+    },
+    {
+      "title": "GitHub Crash Course: Git & GitHub Explained for Developers 🐙💻",
+      "creator": "Algorithmswithpeter",
+      "url": "https://www.youtube.com/watch?v=4anxiijvJRY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GitHub Crash Course: Git & GitHub Explained for Developers 🐙💻 - Complete guide by Algorithmswithpeter.",
+      "year": 2024
+    },
+    {
+      "title": "Git in 30 Seconds ⚡#shorts #github",
+      "creator": "DevDaily",
+      "url": "https://www.youtube.com/watch?v=5TwqaYXktiA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git in 30 Seconds ⚡#shorts #github - Complete guide by DevDaily.",
+      "year": 2024
+    },
+    {
+      "title": "Master Git & GitHub | Part 1",
+      "creator": "Sheryians Coding School",
+      "url": "https://www.youtube.com/watch?v=Oq6nxXD-MZc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Master Git & GitHub | Part 1 - Complete guide by Sheryians Coding School.",
+      "year": 2024
+    },
+    {
+      "title": "Git & GitHub Tutorial | Visualized Git Course for Beginner & Professional Developers in 2024",
+      "creator": "JavaScript Mastery",
+      "url": "https://www.youtube.com/watch?v=S7XpTAnSDL4",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Git & GitHub Tutorial | Visualized Git Course for Beginner & Professional Developers in 2024 - Complete guide by JavaScript Mastery.",
+      "year": 2024
+    },
+    {
+      "title": "10 Git Commands That Will Save Your Job",
+      "creator": "Kshitij Explains",
+      "url": "https://www.youtube.com/watch?v=2UuqfU6NnQc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "10 Git Commands That Will Save Your Job - Complete guide by Kshitij Explains.",
+      "year": 2024
+    },
+    {
+      "title": "What exactly is Git?! #tech",
+      "creator": "Tiff In Tech",
+      "url": "https://www.youtube.com/watch?v=_Bhc-Jrj8nM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What exactly is Git?! #tech - Complete guide by Tiff In Tech.",
+      "year": 2024
+    },
+    {
+      "title": "You Will Never Struggle With Git & GitHub Again 🚀 #git #github #coding #tech #python",
+      "creator": "Volkan Erdogan",
+      "url": "https://www.youtube.com/watch?v=YpLFE2GThBk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "You Will Never Struggle With Git & GitHub Again 🚀 #git #github #coding #tech #python - Complete guide by Volkan Erdogan.",
+      "year": 2024
+    },
+    {
+      "title": "What Is Git? The Time Machine Every Developer Needs #shorts #git #github #githubtutorial",
+      "creator": "Tech Layers",
+      "url": "https://www.youtube.com/watch?v=4czSnWvlG9I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What Is Git? The Time Machine Every Developer Needs #shorts #git #github #githubtutorial - Complete guide by Tech Layers.",
+      "year": 2024
+    },
+    {
+      "title": "Git and GitHub Tutorial #1 - What is Git | Introduction to Git",
+      "creator": "Software Testing Mentor",
+      "url": "https://www.youtube.com/watch?v=-aOtytNgL80",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git and GitHub Tutorial #1 - What is Git | Introduction to Git - Complete guide by Software Testing Mentor.",
+      "year": 2024
+    },
+    {
+      "title": "git basics aata hai kya?",
+      "creator": "Chai aur Code",
+      "url": "https://www.youtube.com/watch?v=G_XZpiXpTvY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "git basics aata hai kya? - Complete guide by Chai aur Code.",
+      "year": 2024
+    },
+    {
+      "title": "🔥 10 Git Commands You Probably Don't Know! #git #github #viralshort #codingvibes",
+      "creator": "BobbyTheCoder",
+      "url": "https://www.youtube.com/watch?v=CPd6obRjK-8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🔥 10 Git Commands You Probably Don't Know! #git #github #viralshort #codingvibes - Complete guide by BobbyTheCoder.",
+      "year": 2024
+    },
+    {
+      "title": "5 Git Commands Every Developer Should Know 🧯 #Git #Programming #TechShorts",
+      "creator": "aryanjsx",
+      "url": "https://www.youtube.com/watch?v=CLk0JuccIZs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "5 Git Commands Every Developer Should Know 🧯 #Git #Programming #TechShorts - Complete guide by aryanjsx.",
+      "year": 2024
+    },
+    {
+      "title": "Free Git and GitHub crash course",
+      "creator": "Stephen | Data ",
+      "url": "https://www.youtube.com/watch?v=t-y2DpeNohs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Free Git and GitHub crash course - Complete guide by Stephen | Data .",
+      "year": 2024
+    },
+    {
+      "title": "git merge vs git rebase: kya use karein? 🔀📏 #git #shorts",
+      "creator": "DevOps-with-umesh",
+      "url": "https://www.youtube.com/watch?v=9bsH_GpDGIA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "git merge vs git rebase: kya use karein? 🔀📏 #git #shorts - Complete guide by DevOps-with-umesh.",
+      "year": 2024
+    },
+    {
+      "title": "Git explained simply",
+      "creator": "CubePath Labs En",
+      "url": "https://www.youtube.com/watch?v=1eEhlZBig_I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git explained simply - Complete guide by CubePath Labs En.",
+      "year": 2024
+    },
+    {
+      "title": "What is Git in 45 Seconds? (The 3 Trees) 🌲 #Shorts",
+      "creator": "devibe",
+      "url": "https://www.youtube.com/watch?v=WFIN96rN3Bw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Git in 45 Seconds? (The 3 Trees) 🌲 #Shorts - Complete guide by devibe.",
+      "year": 2024
+    },
+    {
+      "title": "Git Reset vs Git Revert: What's the Difference?",
+      "creator": "GitFlowX",
+      "url": "https://www.youtube.com/watch?v=0SCVLG1pP6c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git Reset vs Git Revert: What's the Difference? - Complete guide by GitFlowX.",
+      "year": 2024
+    },
+    {
+      "title": "Top 10 Git Commands Every Developer Should Know",
+      "creator": "CodeKia",
+      "url": "https://www.youtube.com/watch?v=2MbvJ-kyOJs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top 10 Git Commands Every Developer Should Know - Complete guide by CodeKia.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Git Commands in 1 Day 2026! 3 Free Essential Resources",
+      "creator": "Data Logic With Shivam",
+      "url": "https://www.youtube.com/watch?v=oiMR50FEA9M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Git Commands in 1 Day 2026! 3 Free Essential Resources - Complete guide by Data Logic With Shivam.",
+      "year": 2024
+    },
+    {
+      "title": "Git basics in 60 seconds! | ThePrimeagen",
+      "creator": "MasterDotDev",
+      "url": "https://www.youtube.com/watch?v=KjusL9BBZ7U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git basics in 60 seconds! | ThePrimeagen - Complete guide by MasterDotDev.",
+      "year": 2024
+    },
+    {
+      "title": "How Git Works: Explained in 4 Minutes",
+      "creator": "ByteByteGo",
+      "url": "https://www.youtube.com/watch?v=e9lnsKot_SQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Git Works: Explained in 4 Minutes - Complete guide by ByteByteGo.",
+      "year": 2024
+    },
+    {
+      "title": "Git Crash Course - Full Tutorial For Beginners",
+      "creator": "NeuralNine",
+      "url": "https://www.youtube.com/watch?v=yatvk0IqX84",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Git Crash Course - Full Tutorial For Beginners - Complete guide by NeuralNine.",
+      "year": 2024
+    },
+    {
+      "title": "What is Git | Introduction | Distributed version control | Advantages | Kaliyona | In Kannada",
+      "creator": "Kaliyona - ಕಲಿಯೋಣ",
+      "url": "https://www.youtube.com/watch?v=lGlrx5snwuc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Git | Introduction | Distributed version control | Advantages | Kaliyona | In Kannada - Complete guide by Kaliyona - ಕಲಿಯೋಣ.",
+      "year": 2024
+    },
+    {
+      "title": "Advanced Git Tutorial - Interactive Rebase, Cherry-Picking, Reflog, Submodules and more",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=qsTthZi23VE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Advanced Git Tutorial - Interactive Rebase, Cherry-Picking, Reflog, Submodules and more - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Git And GitHub For Beginners",
+      "creator": "Rohit Negi",
+      "url": "https://www.youtube.com/watch?v=OWp3F9VlUT0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Git And GitHub For Beginners - Complete guide by Rohit Negi.",
+      "year": 2024
+    },
+    {
+      "title": "Git Merge Vs Rebase - Detailed Tutorial in Hindi (हिंदी) with Fast-forward merging and cherry-pick",
+      "creator": "Code with RSV",
+      "url": "https://www.youtube.com/watch?v=6-hXmUIQzeg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git Merge Vs Rebase - Detailed Tutorial in Hindi (हिंदी) with Fast-forward merging and cherry-pick - Complete guide by Code with RSV.",
+      "year": 2024
+    },
+    {
+      "title": "Git Tutorial: Rebasing & Merging",
+      "creator": "GitKraken",
+      "url": "https://www.youtube.com/watch?v=a_msiOrYLgM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git Tutorial: Rebasing & Merging - Complete guide by GitKraken.",
+      "year": 2024
+    },
+    {
+      "title": "Installation & Setup | git init | git status | Command Line | Version Control | Kaliyona |In Kannada",
+      "creator": "Kaliyona - ಕಲಿಯೋಣ",
+      "url": "https://www.youtube.com/watch?v=cReL_ZzeWiQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Installation & Setup | git init | git status | Command Line | Version Control | Kaliyona |In Kannada - Complete guide by Kaliyona - ಕಲಿಯೋಣ.",
+      "year": 2024
+    },
+    {
+      "title": "Git & GitHub: Rebasing",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=PBtApBmgc1M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git & GitHub: Rebasing - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Git Merge vs Rebase: What Happens to Your Commits?",
+      "creator": "TechGik",
+      "url": "https://www.youtube.com/watch?v=XK8hecqcD0Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git Merge vs Rebase: What Happens to Your Commits? - Complete guide by TechGik.",
+      "year": 2024
+    },
+    {
+      "title": "Git Merge VS Rebase In REAL TIME | DevOps Shack",
+      "creator": "DevOps Shack",
+      "url": "https://www.youtube.com/watch?v=7B_km8LrkJw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git Merge VS Rebase In REAL TIME | DevOps Shack - Complete guide by DevOps Shack.",
+      "year": 2024
+    },
+    {
+      "title": "Git Merge vs Git Rebase: What's the Difference?",
+      "creator": "GitFlowX",
+      "url": "https://www.youtube.com/watch?v=qidixcGbo4g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git Merge vs Git Rebase: What's the Difference? - Complete guide by GitFlowX.",
+      "year": 2024
+    },
+    {
+      "title": "Git Merge vs Rebase: The secret to a clean commit history",
+      "creator": "Before You Merge",
+      "url": "https://www.youtube.com/watch?v=kQw3ka3jVUM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git Merge vs Rebase: The secret to a clean commit history - Complete guide by Before You Merge.",
+      "year": 2024
+    },
+    {
+      "title": "Git Merge vs Git Rebase Explained Simply 🔥",
+      "creator": "arun_programming",
+      "url": "https://www.youtube.com/watch?v=Dwiir4jsruc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git Merge vs Git Rebase Explained Simply 🔥 - Complete guide by arun_programming.",
+      "year": 2024
+    },
+    {
+      "title": "Merge or Rebase? Developers STILL Get This Wrong 😭 #shorts #youtubeshorts #viral #coding #github",
+      "creator": "CodeDhara",
+      "url": "https://www.youtube.com/watch?v=O9YvCwXUcOA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Merge or Rebase? Developers STILL Get This Wrong 😭 #shorts #youtubeshorts #viral #coding #github - Complete guide by CodeDhara.",
+      "year": 2024
+    },
+    {
+      "title": "Git Merge vs Rebase: The Difference Every Developer Must Know 🔀🔥",
+      "creator": "Algorithmswithpeter",
+      "url": "https://www.youtube.com/watch?v=3iXwxdo2eJE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git Merge vs Rebase: The Difference Every Developer Must Know 🔀🔥 - Complete guide by Algorithmswithpeter.",
+      "year": 2024
+    },
+    {
+      "title": "Git Merge vs Rebase ⚡ | Which One Should You Use?",
+      "creator": "Webistics",
+      "url": "https://www.youtube.com/watch?v=uUIxSqCdOBE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git Merge vs Rebase ⚡ | Which One Should You Use? - Complete guide by Webistics.",
+      "year": 2024
+    },
+    {
+      "title": "git rebase vs git merge: The Key Differences! - 16",
+      "creator": "Distributed Systems",
+      "url": "https://www.youtube.com/watch?v=mfhWv2P9KLI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "git rebase vs git merge: The Key Differences! - 16 - Complete guide by Distributed Systems.",
+      "year": 2024
+    },
+    {
+      "title": "Git Merge vs Git Rebase Explained in 6 Minutes | When to Use Which? 🤯",
+      "creator": "DEVLORE",
+      "url": "https://www.youtube.com/watch?v=n5Pahn0VMQI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git Merge vs Git Rebase Explained in 6 Minutes | When to Use Which? 🤯 - Complete guide by DEVLORE.",
+      "year": 2024
+    },
+    {
+      "title": "Git & GitHub: Merging",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=tYOl25gyuvk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git & GitHub: Merging - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "👉 Git Merge vs Rebase Explained in 15 Seconds 🔥",
+      "creator": "Android Career Lab",
+      "url": "https://www.youtube.com/watch?v=BvlJonb_pY0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "👉 Git Merge vs Rebase Explained in 15 Seconds 🔥 - Complete guide by Android Career Lab.",
+      "year": 2024
+    },
+    {
+      "title": "Git Merge vs. Rebase Explained in 30 Seconds! 💻",
+      "creator": "Tech Career Lab",
+      "url": "https://www.youtube.com/watch?v=T-AWyummPPI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git Merge vs. Rebase Explained in 30 Seconds! 💻 - Complete guide by Tech Career Lab.",
+      "year": 2024
+    },
+    {
+      "title": "Git Merge vs Git Rebase Comparison for Software Engineering Workflows",
+      "creator": "LOUIS PYTHON",
+      "url": "https://www.youtube.com/watch?v=H3BacRBeeE0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git Merge vs Git Rebase Comparison for Software Engineering Workflows - Complete guide by LOUIS PYTHON.",
+      "year": 2024
+    },
+    {
+      "title": "Git merge vs rebase in 30 seconds #shorts",
+      "creator": "Gigma Incorporation",
+      "url": "https://www.youtube.com/watch?v=wZV6bfvFH30",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git merge vs rebase in 30 seconds #shorts - Complete guide by Gigma Incorporation.",
+      "year": 2024
+    },
+    {
+      "title": "Git Merge vs Git Rebase #interview #github #codinginterviewquestions",
+      "creator": "Tech Guy Abhishek",
+      "url": "https://www.youtube.com/watch?v=9dR7bXfWYz4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git Merge vs Git Rebase #interview #github #codinginterviewquestions - Complete guide by Tech Guy Abhishek.",
+      "year": 2024
+    },
+    {
+      "title": "Git Merge vs Rebase Explained in 30 Seconds",
+      "creator": "Coco Coding",
+      "url": "https://www.youtube.com/watch?v=heFBGfEjR7Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git Merge vs Rebase Explained in 30 Seconds - Complete guide by Coco Coding.",
+      "year": 2024
+    },
+    {
+      "title": "Git — Merge vs Rebase #git #versioncontrol",
+      "creator": "Tech With Vishal",
+      "url": "https://www.youtube.com/watch?v=_um53SxWG88",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git — Merge vs Rebase #git #versioncontrol - Complete guide by Tech With Vishal.",
+      "year": 2024
+    },
+    {
+      "title": "Git Merge vs Rebase: What's the Difference?",
+      "creator": "Code On Fingertips",
+      "url": "https://www.youtube.com/watch?v=7nAEueIw_k8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git Merge vs Rebase: What's the Difference? - Complete guide by Code On Fingertips.",
+      "year": 2024
+    },
+    {
+      "title": "Git Merge vs Rebase Explained in Hindi | Git Interview Question",
+      "creator": "CareerKit - Placement & Interview Prep",
+      "url": "https://www.youtube.com/watch?v=MnU4u1ds2h4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git Merge vs Rebase Explained in Hindi | Git Interview Question - Complete guide by CareerKit - Placement & Interview Prep.",
+      "year": 2024
+    },
+    {
+      "title": "Git rebase vs Git merge | Explained in under a minute",
+      "creator": "RavGeek",
+      "url": "https://www.youtube.com/watch?v=D2aZkC11WO4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git rebase vs Git merge | Explained in under a minute - Complete guide by RavGeek.",
+      "year": 2024
+    },
+    {
+      "title": "Git Merge vs Git Rebase#Git #GitMerge #GitRebase #Programming #devTrack",
+      "creator": "Dev Track",
+      "url": "https://www.youtube.com/watch?v=QslfS7X0a2Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git Merge vs Git Rebase#Git #GitMerge #GitRebase #Programming #devTrack - Complete guide by Dev Track.",
+      "year": 2024
+    },
+    {
+      "title": "Git: Rebase vs Merge: choose the right history strategy",
+      "creator": "Everything code",
+      "url": "https://www.youtube.com/watch?v=WlHBNRnx_HE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git: Rebase vs Merge: choose the right history strategy - Complete guide by Everything code.",
+      "year": 2024
+    },
+    {
+      "title": "Git: Merge, Rebase, and Fast-Forward Explained",
+      "creator": "YouRails",
+      "url": "https://www.youtube.com/watch?v=HTsLS2MosBM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git: Merge, Rebase, and Fast-Forward Explained - Complete guide by YouRails.",
+      "year": 2024
+    },
+    {
+      "title": "Git Merge vs Git Rebase - What is Better?",
+      "creator": "Monsterlessons Academy",
+      "url": "https://www.youtube.com/watch?v=yAPeRwPIyNQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git Merge vs Git Rebase - What is Better? - Complete guide by Monsterlessons Academy.",
+      "year": 2024
+    },
+    {
+      "title": "Git Tutorial for Beginners | Part 4: Merge, Rebase & Commit Mastery",
+      "creator": "Codecademy",
+      "url": "https://www.youtube.com/watch?v=KiV2D7RaQ48",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Git Tutorial for Beginners | Part 4: Merge, Rebase & Commit Mastery - Complete guide by Codecademy.",
+      "year": 2024
+    },
+    {
+      "title": "Git Branches Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=e2IbNHi4uCI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Git Branches Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "New GitHub CLI Crash Course - First Look",
+      "creator": "Mehul Mohan",
+      "url": "https://www.youtube.com/watch?v=BRAG1Kj4-Ss",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "New GitHub CLI Crash Course - First Look - Complete guide by Mehul Mohan.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Git Rebase in 6 minutes // explained with live animations!",
+      "creator": "The Modern Coder",
+      "url": "https://www.youtube.com/watch?v=f1wnYdLEpgI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Git Rebase in 6 minutes // explained with live animations! - Complete guide by The Modern Coder.",
+      "year": 2024
+    },
+    {
+      "title": "Getting started with GitHub Copilot CLI | Tutorial for beginners",
+      "creator": "GitHub",
+      "url": "https://www.youtube.com/watch?v=BDxRhhs36ns",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Getting started with GitHub Copilot CLI | Tutorial for beginners - Complete guide by GitHub.",
+      "year": 2024
+    },
+    {
+      "title": "Ultimate GitHub Copilot CLI tutorial for beginners",
+      "creator": "GitHub",
+      "url": "https://www.youtube.com/watch?v=rheqk-L7Yes",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Ultimate GitHub Copilot CLI tutorial for beginners - Complete guide by GitHub.",
+      "year": 2024
+    },
+    {
+      "title": "GitHub Copilot CLI in Action: Getting Started",
+      "creator": "Dan Wahlin",
+      "url": "https://www.youtube.com/watch?v=fgHk28xljYw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GitHub Copilot CLI in Action: Getting Started - Complete guide by Dan Wahlin.",
+      "year": 2024
+    },
+    {
+      "title": "How to use agents, skills, and instructions in Copilot CLI | Tutorial for beginners",
+      "creator": "GitHub",
+      "url": "https://www.youtube.com/watch?v=-yKALFS5ewY",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "How to use agents, skills, and instructions in Copilot CLI | Tutorial for beginners - Complete guide by GitHub.",
+      "year": 2024
+    },
+    {
+      "title": "Interactive vs non-interactive modes | Copilot CLI for beginners",
+      "creator": "GitHub",
+      "url": "https://www.youtube.com/watch?v=bdIJkGr2NV0",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Interactive vs non-interactive modes | Copilot CLI for beginners - Complete guide by GitHub.",
+      "year": 2024
+    },
+    {
+      "title": "AI-Assisted Coding Tutorial – OpenClaw, GitHub Copilot, Claude Code, CodeRabbit, Gemini CLI",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=wlpBCazAY9Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "AI-Assisted Coding Tutorial – OpenClaw, GitHub Copilot, Claude Code, CodeRabbit, Gemini CLI - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "GitHub CLI (gh) Full Tutorial | Manage GitHub from Terminal (Hands-On)",
+      "creator": "Amitabh Soni",
+      "url": "https://www.youtube.com/watch?v=UBu1P7G7T8U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GitHub CLI (gh) Full Tutorial | Manage GitHub from Terminal (Hands-On) - Complete guide by Amitabh Soni.",
+      "year": 2024
+    },
+    {
+      "title": "Git and Github Freecodecamp",
+      "creator": "Soham Chatterjee",
+      "url": "https://www.youtube.com/playlist?list=PLLJ1hZKyeCH1I8dP0UNTpWoIhsl6KpVbu",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Git and Github Freecodecamp - Complete guide by Soham Chatterjee.",
+      "year": 2024
+    },
+    {
+      "title": "Make use of GitHub CLI to open any GitHub repo in the web browser from your terminal! #github #linux",
+      "creator": "Yankee Maharjan",
+      "url": "https://www.youtube.com/watch?v=pRUYIgvYQcg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Make use of GitHub CLI to open any GitHub repo in the web browser from your terminal! #github #linux - Complete guide by Yankee Maharjan.",
+      "year": 2024
+    },
+    {
+      "title": "Github CLI is all you need 🔥",
+      "creator": "Thapa Technical",
+      "url": "https://www.youtube.com/watch?v=8Iljd2rZEIA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Github CLI is all you need 🔥 - Complete guide by Thapa Technical.",
+      "year": 2024
+    },
+    {
+      "title": "'Git and GitHub for Beginners - Crash Course' (freeCodeCamp.org), etc",
+      "creator": "folklove",
+      "url": "https://www.youtube.com/playlist?list=PLHl_hx3mxZAKsCOLZx6uO1vLiQHXiHkgW",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "'Git and GitHub for Beginners - Crash Course' (freeCodeCamp.org), etc - Complete guide by folklove.",
+      "year": 2024
+    },
+    {
+      "title": "What is the GitHub CLI?",
+      "creator": "GitHub",
+      "url": "https://www.youtube.com/watch?v=uy_PEGgUF4U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is the GitHub CLI? - Complete guide by GitHub.",
+      "year": 2024
+    },
+    {
+      "title": "Git & GitHub",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Git & GitHub - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Git and GitHub Fundamentals in 6 Hours",
+      "creator": "Anurag Singh ProCodrr",
+      "url": "https://www.youtube.com/playlist?list=PLfEr2kn3s-brBO7d9irTRvClcjiNhzczH",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Git and GitHub Fundamentals in 6 Hours - Complete guide by Anurag Singh ProCodrr.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Git and GitHub Tutorial for Beginners by Apna College, etc",
+      "creator": "flytome",
+      "url": "https://www.youtube.com/playlist?list=PLMSNxvR49560VlBuhg0YMC-YXndsTAVCN",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Complete Git and GitHub Tutorial for Beginners by Apna College, etc - Complete guide by flytome.",
+      "year": 2024
+    },
+    {
+      "title": "GitHub Actions: The Full Course - Learn by Doing!",
+      "creator": "glich.stream",
+      "url": "https://www.youtube.com/playlist?list=PLArH6NjfKsUhvGHrpag7SuPumMzQRhUKY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "GitHub Actions: The Full Course - Learn by Doing! - Complete guide by glich.stream.",
+      "year": 2024
+    },
+    {
+      "title": "GitHub Actions: Basics to Production Course",
+      "creator": "Cloud With VarJosh",
+      "url": "https://www.youtube.com/playlist?list=PLmPit9IIdzwThF00pAAvktjkVtL7APhD5",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "GitHub Actions: Basics to Production Course - Complete guide by Cloud With VarJosh.",
+      "year": 2024
+    },
+    {
+      "title": "Mastering GitHub Actions",
+      "creator": "TechTrapture",
+      "url": "https://www.youtube.com/playlist?list=PLLrA_pU9-Gz2GnvKN0kzVfIZVEUApgjTN",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Mastering GitHub Actions - Complete guide by TechTrapture.",
+      "year": 2024
+    },
+    {
+      "title": "GH-200: Automate your workflow with GitHub Actions",
+      "creator": "Microsoft Learn",
+      "url": "https://www.youtube.com/playlist?list=PLahhVEj9XNTd5N_seZDoRXVIn6N1qAp-_",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "GH-200: Automate your workflow with GitHub Actions - Complete guide by Microsoft Learn.",
+      "year": 2024
+    },
+    {
+      "title": "Open Source Contributions Guide",
+      "creator": "Piyush Garg",
+      "url": "https://www.youtube.com/playlist?list=PLinedj3B30sBsmRRL8XyTGadjRGkzRPb7",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Open Source Contributions Guide - Complete guide by Piyush Garg.",
+      "year": 2024
+    },
+    {
+      "title": "GitHub Actions Full Course in Hindi | Beginner to Advanced",
+      "creator": "The DevOps Hut",
+      "url": "https://www.youtube.com/playlist?list=PLuPIV9rRH1xol9KJRpcDQ_DMhEkm48Uzy",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "GitHub Actions Full Course in Hindi | Beginner to Advanced - Complete guide by The DevOps Hut.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Git and GitHub Tutorial for Beginners",
+      "creator": "Smart Programming",
+      "url": "https://www.youtube.com/playlist?list=PLlhM4lkb2sEijMDkb-AEUO-kzDdqxMuxS",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Complete Git and GitHub Tutorial for Beginners - Complete guide by Smart Programming.",
+      "year": 2024
+    },
+    {
+      "title": "Git Crash Course",
+      "creator": "Net Ninja",
+      "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9j2pbmcA93DR1A3m7VEgSxK",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Git Crash Course - Complete guide by Net Ninja.",
+      "year": 2024
+    },
+    {
+      "title": "Master Git & Github Series",
+      "creator": "Sheryians Coding School",
+      "url": "https://www.youtube.com/playlist?list=PLbtI3_MArDOlJ4036mWiUKaQToUS8MZVu",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Master Git & Github Series - Complete guide by Sheryians Coding School.",
+      "year": 2024
+    },
+    {
+      "title": "Git & GitHub Complete Course for Open Source | Hackathons & GSoC 2026",
+      "creator": "Saumya Singh",
+      "url": "https://www.youtube.com/playlist?list=PLTV_nsuD2lf4Ry8MAsKSGcWXWUYDvBMsT",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Git & GitHub Complete Course for Open Source | Hackathons & GSoC 2026 - Complete guide by Saumya Singh.",
+      "year": 2024
+    },
+    {
+      "title": "Open Source BootCamp - Master Open Source Contributions",
+      "creator": "Piyush Garg",
+      "url": "https://www.youtube.com/playlist?list=PLinedj3B30sAT6CotNj0iffhRV89SkNK9",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Open Source BootCamp - Master Open Source Contributions - Complete guide by Piyush Garg.",
+      "year": 2024
+    },
+    {
+      "title": "GIT TUTORIAL -  Git and GitHub Crash Course For Beginners",
+      "creator": "Software Testing Mentor",
+      "url": "https://www.youtube.com/playlist?list=PLL34mf651faO4IjVNu8LRoN6QOxYM6VlZ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "GIT TUTORIAL -  Git and GitHub Crash Course For Beginners - Complete guide by Software Testing Mentor.",
+      "year": 2024
+    },
+    {
+      "title": "GitHub Copilot CLI for Beginners",
+      "creator": "GitHub",
+      "url": "https://www.youtube.com/playlist?list=PL0lo9MOBetEHvO-spzKBAITkkTqv4RvNl",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "GitHub Copilot CLI for Beginners - Complete guide by GitHub.",
+      "year": 2024
+    },
+    {
+      "title": "Git Crash Course: Learn Git Fundamentals - Add, Commit, Pull, Push, Branch, Merge, GitHub | In Kannada | Kaliyona",
+      "creator": "Kaliyona - ಕಲಿಯೋಣ",
+      "url": "https://www.youtube.com/playlist?list=PLC0zv4Ub7CwrObOlLDiId73GZIxyRzRAl",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Git Crash Course: Learn Git Fundamentals - Add, Commit, Pull, Push, Branch, Merge, GitHub | In Kannada | Kaliyona - Complete guide by Kaliyona - ಕಲಿಯೋಣ.",
+      "year": 2024
+    }
+  ]
 }

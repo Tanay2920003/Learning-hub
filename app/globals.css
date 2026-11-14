@@ -5,64 +5,87 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: oklch(0.10 0 0);
+  --background: oklch(0 0 0);
   --foreground: oklch(0.985 0 0);
-  --card: oklch(0.13 0 0);
+  --card: oklch(0.12 0.005 285.8);
   --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.13 0 0);
+  --popover: oklch(0.14 0.005 285.8);
   --popover-foreground: oklch(0.985 0 0);
   --primary: oklch(0.985 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.20 0 0);
+  --primary-foreground: oklch(0.12 0 0);
+  --secondary: oklch(0.18 0.005 285.8);
   --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.20 0 0);
-  --muted-foreground: oklch(0.65 0 0);
-  --accent: oklch(0.20 0 0);
+  --muted: oklch(0.18 0.005 285.8);
+  --muted-foreground: oklch(0.60 0 0);
+  --accent: oklch(0.20 0.005 285.8);
   --accent-foreground: oklch(0.985 0 0);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.985 0 0);
-  --border: oklch(0.22 0 0);
-  --input: oklch(0.22 0 0);
+  --border: oklch(0.24 0 0 / 0.4);
+  --input: oklch(0.24 0 0 / 0.5);
   --ring: oklch(0.556 0 0);
-  --radius: 0.625rem;
+  --radius: 0.875rem;
 
-  /* Brand colors */
-  --brand-violet: #7c3aed;
-  --brand-indigo: #4f46e5;
-  --brand-cyan: #06b6d4;
-  --brand-emerald: #10b981;
-  --brand-rose: #f43f5e;
-  --brand-amber: #f59e0b;
-  --brand-sky: #0ea5e9;
-  --brand-pink: #ec4899;
+  /* Apple SF System Colors */
+  --sf-blue: #2997ff;
+  --sf-purple: #bf5af2;
+  --sf-indigo: #5e5ce6;
+  --sf-cyan: #64d2ff;
+  --sf-teal: #63e6e2;
+  --sf-green: #30d158;
+  --sf-orange: #ff9f0a;
+  --sf-rose: #ff375f;
+  --sf-yellow: #ffd60a;
 
-  --chart-1: oklch(0.809 0.105 251.813);
-  --chart-2: oklch(0.623 0.214 259.815);
-  --chart-3: oklch(0.546 0.245 262.881);
-  --chart-4: oklch(0.488 0.243 264.376);
-  --chart-5: oklch(0.424 0.199 265.638);
+  /* YouTube App Design Tokens */
+  --yt-red: #ff0000;
+  --yt-red-hover: #cc0000;
+  --yt-canvas: #0f0f0f;
+  --yt-surface: #181818;
+  --yt-surface-hover: #232323;
+  --yt-border: #282828;
+  --yt-border-light: #383838;
+  --yt-pill: #272727;
+  --yt-pill-hover: #3f3f3f;
+  --yt-badge-bg: rgba(0, 0, 0, 0.82);
+
+  /* Legacy brand compatibility mapped to Apple system palette */
+  --brand-violet: #bf5af2;
+  --brand-indigo: #5e5ce6;
+  --brand-cyan: #64d2ff;
+  --brand-emerald: #30d158;
+  --brand-rose: #ff375f;
+  --brand-amber: #ff9f0a;
+  --brand-sky: #2997ff;
+  --brand-pink: #ff375f;
+
+  --chart-1: oklch(0.70 0.15 250);
+  --chart-2: oklch(0.65 0.18 290);
+  --chart-3: oklch(0.75 0.16 150);
+  --chart-4: oklch(0.70 0.17 40);
+  --chart-5: oklch(0.65 0.20 20);
 }
 
 .dark {
-  --background: oklch(0.10 0 0);
+  --background: oklch(0 0 0);
   --foreground: oklch(0.985 0 0);
-  --card: oklch(0.13 0 0);
+  --card: oklch(0.12 0.005 285.8);
   --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.13 0 0);
+  --popover: oklch(0.14 0.005 285.8);
   --popover-foreground: oklch(0.985 0 0);
   --primary: oklch(0.985 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.20 0 0);
+  --primary-foreground: oklch(0.12 0 0);
+  --secondary: oklch(0.18 0.005 285.8);
   --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.20 0 0);
-  --muted-foreground: oklch(0.65 0 0);
-  --accent: oklch(0.20 0 0);
+  --muted: oklch(0.18 0.005 285.8);
+  --muted-foreground: oklch(0.60 0 0);
+  --accent: oklch(0.20 0.005 285.8);
   --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.396 0.141 25.723);
-  --destructive-foreground: oklch(0.637 0.237 25.331);
-  --border: oklch(0.22 0 0);
-  --input: oklch(0.22 0 0);
-  --ring: oklch(0.446 0 0);
+  --destructive: oklch(0.50 0.20 25);
+  --destructive-foreground: oklch(0.95 0 0);
+  --border: oklch(0.24 0 0 / 0.4);
+  --input: oklch(0.24 0 0 / 0.5);
+  --ring: oklch(0.45 0 0);
 }
 
 @theme inline {
@@ -90,59 +113,110 @@
   --color-chart-3: var(--chart-3);
   --color-chart-4: var(--chart-4);
   --color-chart-5: var(--chart-5);
-  --radius-sm: calc(var(--radius) - 4px);
-  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 6px);
+  --radius-md: calc(var(--radius) - 3px);
   --radius-lg: var(--radius);
-  --radius-xl: calc(var(--radius) + 4px);
+  --radius-xl: calc(var(--radius) + 6px);
+  --radius-2xl: calc(var(--radius) + 12px);
+  --radius-3xl: calc(var(--radius) + 18px);
 }
 
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
+  html {
+    color-scheme: dark;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
   body {
-    @apply bg-background text-foreground antialiased;
+    @apply bg-black text-foreground antialiased;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    letter-spacing: -0.011em;
+    background-color: #000000;
   }
 }
 
-/* Gradient text utility */
+/* Apple Materials & Glassmorphism */
+.apple-glass {
+  background: rgba(18, 18, 22, 0.72);
+  backdrop-filter: blur(24px) saturate(190%);
+  -webkit-backdrop-filter: blur(24px) saturate(190%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.apple-glass-elevated {
+  background: rgba(26, 26, 30, 0.75);
+  backdrop-filter: blur(30px) saturate(200%);
+  -webkit-backdrop-filter: blur(30px) saturate(200%);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.15), 0 24px 48px -12px rgba(0, 0, 0, 0.6);
+}
+
+.apple-card {
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.08);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.apple-card:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.14);
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.15), 0 16px 36px -10px rgba(0, 0, 0, 0.5);
+}
+
+.apple-specular {
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.12);
+}
+
+/* Apple Typography Highlights */
+.apple-text-gradient {
+  background: linear-gradient(180deg, #ffffff 15%, rgba(255, 255, 255, 0.65) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.apple-subtext {
+  color: rgba(255, 255, 255, 0.56);
+  letter-spacing: -0.01em;
+}
+
+/* Gradient text with Apple SF Colors */
 .gradient-text {
-  background: linear-gradient(135deg, #7c3aed 0%, #4f46e5 30%, #06b6d4 65%, #10b981 100%);
+  background: linear-gradient(135deg, #2997ff 0%, #bf5af2 50%, #64d2ff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
 .gradient-text-warm {
-  background: linear-gradient(135deg, #f59e0b 0%, #f43f5e 50%, #ec4899 100%);
+  background: linear-gradient(135deg, #ff9f0a 0%, #ff375f 50%, #bf5af2 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
-/* Glowing border utility */
-.glow-violet {
-  box-shadow: 0 0 20px rgba(124, 58, 237, 0.25), 0 0 40px rgba(124, 58, 237, 0.08);
-}
-.glow-cyan {
-  box-shadow: 0 0 20px rgba(6, 182, 212, 0.25), 0 0 40px rgba(6, 182, 212, 0.08);
-}
-.glow-emerald {
-  box-shadow: 0 0 20px rgba(16, 185, 129, 0.25), 0 0 40px rgba(16, 185, 129, 0.08);
+/* Soft atmospheric lighting */
+.apple-hero-glow {
+  background-image:
+    radial-gradient(ellipse 65% 55% at 50% 0%, rgba(41, 151, 255, 0.12) 0%, transparent 70%),
+    radial-gradient(ellipse 50% 40% at 20% 20%, rgba(191, 90, 242, 0.08) 0%, transparent 60%),
+    radial-gradient(ellipse 45% 35% at 80% 25%, rgba(100, 210, 255, 0.08) 0%, transparent 60%);
 }
 
-/* Animated gradient background for hero */
 .hero-bg-grid {
   background-image:
-    radial-gradient(ellipse 80% 60% at 20% -10%, rgba(124, 58, 237, 0.12) 0%, transparent 60%),
-    radial-gradient(ellipse 60% 50% at 80% 10%, rgba(6, 182, 212, 0.10) 0%, transparent 60%),
-    radial-gradient(ellipse 50% 40% at 50% 100%, rgba(16, 185, 129, 0.08) 0%, transparent 60%);
+    radial-gradient(ellipse 70% 50% at 50% -10%, rgba(41, 151, 255, 0.13) 0%, transparent 60%),
+    radial-gradient(ellipse 45% 35% at 15% 20%, rgba(191, 90, 242, 0.08) 0%, transparent 55%),
+    radial-gradient(ellipse 45% 35% at 85% 20%, rgba(48, 209, 88, 0.06) 0%, transparent 55%);
 }
 
-/* Scrollbar */
+/* Apple Minimalist Scrollbar */
 ::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
+  width: 7px;
+  height: 7px;
 }
 
 ::-webkit-scrollbar-track {
@@ -150,12 +224,16 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #7c3aed44, #4f46e544);
+  background: rgba(255, 255, 255, 0.16);
   border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(180deg, #7c3aed88, #4f46e588);
+  background: rgba(255, 255, 255, 0.3);
+  border: 2px solid transparent;
+  background-clip: padding-box;
 }
 
 /* Hide scrollbar for horizontal scroll rows */
@@ -167,24 +245,83 @@
   scrollbar-width: none;
 }
 
-/* Pulse animation for live indicator */
-@keyframes live-pulse {
+/* Pulsing live dot */
+@keyframes apple-pulse {
   0%, 100% { opacity: 1; transform: scale(1); }
-  50% { opacity: 0.6; transform: scale(1.3); }
+  50% { opacity: 0.5; transform: scale(1.15); }
 }
 
 .live-dot {
-  animation: live-pulse 2s ease-in-out infinite;
+  animation: apple-pulse 2.4s ease-in-out infinite;
 }
 
-/* Card hover shimmer */
-@keyframes shimmer {
-  0% { background-position: -200% center; }
-  100% { background-position: 200% center; }
+/* ─── YouTube App UI System ─────────────────────────────────── */
+.yt-canvas {
+  background-color: var(--yt-canvas);
 }
 
-.shimmer-border:hover {
-  background-image: linear-gradient(90deg, transparent, rgba(124,58,237,0.15), transparent);
-  background-size: 200% 100%;
-  animation: shimmer 1.5s ease-in-out infinite;
+.yt-card {
+  background-color: var(--yt-surface);
+  border: 1px solid var(--yt-border);
+  transition: all 0.2s cubic-bezier(0.2, 0, 0, 1);
 }
+
+.yt-card:hover {
+  background-color: var(--yt-surface-hover);
+  border-color: var(--yt-border-light);
+}
+
+.yt-pill-btn {
+  background-color: var(--yt-pill);
+  color: #ffffff;
+  border-radius: 9999px;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+
+.yt-pill-btn:hover {
+  background-color: var(--yt-pill-hover);
+}
+
+.yt-pill-btn.active {
+  background-color: #ffffff;
+  color: #0f0f0f;
+  font-weight: 600;
+}
+
+.yt-duration-badge {
+  background-color: var(--yt-badge-bg);
+  backdrop-filter: blur(4px);
+  color: #ffffff;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  padding: 0.15rem 0.45rem;
+  border-radius: 0.375rem;
+  letter-spacing: 0.025em;
+}
+
+.yt-play-btn {
+  background-color: var(--yt-red);
+  color: #ffffff;
+  transition: all 0.2s ease;
+}
+
+.yt-play-btn:hover {
+  background-color: var(--yt-red-hover);
+  transform: scale(1.05);
+}
+
+/* YouTube search bar focus state */
+.yt-search-wrapper {
+  background: #121212;
+  border: 1px solid #303030;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.yt-search-wrapper:focus-within {
+  border-color: #1c62b9;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+

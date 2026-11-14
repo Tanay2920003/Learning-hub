@@ -1,72 +1,4510 @@
 {
-    "name": "Data Structures & Algorithms",
-    "slug": "dsa",
-    "description": "Master the fundamentals of computer science with curated DSA playlists",
-    "icon": "https://img.icons8.com/?size=100&id=0S7sN3qwRXW9&format=png&color=000000",
-    "articles": [
-        {
-            "title": "VisuAlgo - Visualizing Data Structures and Algorithms",
-            "url": "https://visualgo.net/en"
-        },
-        {
-            "title": "GeeksforGeeks DSA Course",
-            "url": "https://www.geeksforgeeks.org/learn-data-structures-and-algorithms-dsa-tutorial-for-placement-preparation/"
-        },
-        {
-            "title": "LeetCode Explore Cards",
-            "url": "https://leetcode.com/explore/"
-        }
-    ],
-    "playlists": [
-        {
-            "title": "Striver's A2Z DSA Course",
-            "creator": "take U forward",
-            "url": "https://www.youtube.com/playlist?list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz",
-            "language": "English",
-            "difficulty": "beginner",
-            "videoCount": 456,
-            "description": "Complete DSA roadmap from arrays to graphs with problem-solving",
-            "year": 2023
-        },
-        {
-            "title": "DSA in Java",
-            "creator": "Kunal Kushwaha",
-            "url": "https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ",
-            "language": "English",
-            "difficulty": "beginner",
-            "videoCount": 59,
-            "description": "DSA fundamentals with Java implementation, beginner-friendly",
-            "year": 2022
-        },
-        {
-            "title": "C++ & DSA Complete Course",
-            "creator": "Apna College",
-            "url": "https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ",
-            "language": "Hindi",
-            "difficulty": "beginner",
-            "videoCount": 186,
-            "description": "C++ programming and DSA from scratch in Hindi",
-            "year": 2022
-        },
-        {
-            "title": "Advanced Algorithms",
-            "creator": "Abdul Bari",
-            "url": "https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O",
-            "language": "English",
-            "difficulty": "advanced",
-            "videoCount": 83,
-            "description": "Deep dive into algorithms with mathematical analysis",
-            "year": 2018
-        },
-        {
-            "title": "Dynamic Programming Patterns",
-            "creator": "Aditya Verma",
-            "url": "https://www.youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go",
-            "language": "Hindi",
-            "difficulty": "intermediate",
-            "videoCount": 54,
-            "description": "Master DP with pattern-based approach",
-            "year": 2020
-        }
-    ]
+  "name": "Data Structures & Algorithms",
+  "slug": "dsa",
+  "description": "Master the fundamentals of computer science with curated DSA playlists",
+  "icon": "dsa",
+  "articles": [
+    {
+      "title": "VisuAlgo - Visualizing Data Structures and Algorithms",
+      "url": "https://visualgo.net/en"
+    },
+    {
+      "title": "LeetCode Explore Cards",
+      "url": "https://leetcode.com/explore/"
+    },
+    {
+      "title": "NeetCode 150 Practice Roadmap",
+      "url": "https://neetcode.io/practice"
+    },
+    {
+      "title": "Tech Interview Handbook",
+      "url": "https://www.techinterviewhandbook.org/"
+    },
+    {
+      "title": "Algorithm Visualizer Interactive Platform",
+      "url": "https://algorithm-visualizer.org/"
+    },
+    {
+      "title": "CP-Algorithms - Competitive Programming Algorithms",
+      "url": "https://cp-algorithms.com/"
+    },
+    {
+      "title": "Blind 75 LeetCode Curated List",
+      "url": "https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions"
+    },
+    {
+      "title": "GeeksforGeeks Curated DSA Practice Sheet",
+      "url": "https://www.geeksforgeeks.org/dsa-sheet-by-love-babbar/"
+    },
+    {
+      "title": "LeetCode - Coding Interview Practice & Problem Set",
+      "url": "https://leetcode.com/problemset/"
+    },
+    {
+      "title": "NeetCode.io - Structured DSA Practice Roadmaps",
+      "url": "https://neetcode.io/"
+    },
+    {
+      "title": "Tech Interview Handbook - Algorithmic Patterns",
+      "url": "https://www.techinterviewhandbook.org/coding-interview-study-plan/"
+    },
+    {
+      "title": "GeeksforGeeks - Data Structures & Algorithms",
+      "url": "https://www.geeksforgeeks.org/fundamentals-of-algorithms/"
+    },
+    {
+      "title": "Striver SDE Sheet - Top Coding Interview Questions",
+      "url": "https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/"
+    },
+    {
+      "title": "Big-O Cheat Sheet - Time & Space Complexities",
+      "url": "https://www.bigocheatsheet.com/"
+    },
+    {
+      "title": "HackerRank - Problem Solving and Algorithms Practice",
+      "url": "https://www.hackerrank.com/domains/algorithms"
+    }
+  ],
+  "playlists": [
+    {
+      "title": "Striver's A2Z DSA Course",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/playlist?list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 456,
+      "description": "Complete DSA roadmap from arrays to graphs with problem-solving",
+      "year": 2023
+    },
+    {
+      "title": "DSA in Java",
+      "creator": "Kunal Kushwaha",
+      "url": "https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 59,
+      "description": "DSA fundamentals with Java implementation, beginner-friendly",
+      "year": 2022
+    },
+    {
+      "title": "C++ & DSA Complete Course",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ",
+      "language": "Hindi",
+      "difficulty": "beginner",
+      "videoCount": 186,
+      "description": "C++ programming and DSA from scratch in Hindi",
+      "year": 2022
+    },
+    {
+      "title": "Advanced Algorithms",
+      "creator": "Abdul Bari",
+      "url": "https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O",
+      "language": "English",
+      "difficulty": "advanced",
+      "videoCount": 83,
+      "description": "Deep dive into algorithms with mathematical analysis",
+      "year": 2018
+    },
+    {
+      "title": "Dynamic Programming Patterns",
+      "creator": "Aditya Verma",
+      "url": "https://www.youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go",
+      "language": "Hindi",
+      "difficulty": "intermediate",
+      "videoCount": 54,
+      "description": "Master DP with pattern-based approach",
+      "year": 2020
+    },
+    {
+      "title": "MIT 6.006 Introduction to Algorithms",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 24,
+      "description": "Rigorous foundational university course on algorithms, data structures, sorting, graphs, and dynamic programming.",
+      "year": 2011
+    },
+    {
+      "title": "Data Structures Easy to Advanced",
+      "creator": "William Fiset",
+      "url": "https://www.youtube.com/playlist?list=PLDV1Zeh2NRsB6SWUrDFW2RmDotAfPbeHu",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 35,
+      "description": "In-depth visual lectures and implementation walkthroughs of priority queues, union find, segment trees, and fenwick trees.",
+      "year": 2020
+    },
+    {
+      "title": "1. Introduction to Algorithms",
+      "creator": "Abdul Bari",
+      "url": "https://www.youtube.com/watch?v=0IAPZzGSbME",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1. Introduction to Algorithms - Complete guide by Abdul Bari.",
+      "year": 2024
+    },
+    {
+      "title": "Abdul Bari Sir Ki Salary kitni Hai? #Shorts #GfG",
+      "creator": "GeeksforGeeks GATE",
+      "url": "https://www.youtube.com/watch?v=Jq2SJ9MvN1Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Abdul Bari Sir Ki Salary kitni Hai? #Shorts #GfG - Complete guide by GeeksforGeeks GATE.",
+      "year": 2024
+    },
+    {
+      "title": "1.1 Priori Analysis and Posteriori Testing",
+      "creator": "Abdul Bari",
+      "url": "https://www.youtube.com/watch?v=-JTq1BFBwmo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1.1 Priori Analysis and Posteriori Testing - Complete guide by Abdul Bari.",
+      "year": 2024
+    },
+    {
+      "title": "Abdul bari......",
+      "creator": "Ezsniippet",
+      "url": "https://www.youtube.com/watch?v=-8o54bojNi8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Abdul bari...... - Complete guide by Ezsniippet.",
+      "year": 2024
+    },
+    {
+      "title": "👀 Abdul Bari saving the lives of Computer Science students every semester #Shorts #coding",
+      "creator": "Ainul Md Razib",
+      "url": "https://www.youtube.com/watch?v=Cp7To5K5cEI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "👀 Abdul Bari saving the lives of Computer Science students every semester #Shorts #coding - Complete guide by Ainul Md Razib.",
+      "year": 2024
+    },
+    {
+      "title": "WhAT's next in GfG when Khaleel sir & Abdul Baari sir UNITED",
+      "creator": "GeeksforGeeks GATE",
+      "url": "https://www.youtube.com/watch?v=7JIo_WFZajs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "WhAT's next in GfG when Khaleel sir & Abdul Baari sir UNITED - Complete guide by GeeksforGeeks GATE.",
+      "year": 2024
+    },
+    {
+      "title": "Best DSA playlist on YouTube | how to start DSA #coding #datastructures #dsa",
+      "creator": "Dropper's Diary",
+      "url": "https://www.youtube.com/watch?v=VAMn-WKvl6U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Best DSA playlist on YouTube | how to start DSA #coding #datastructures #dsa - Complete guide by Dropper's Diary.",
+      "year": 2024
+    },
+    {
+      "title": "Abdul Bari 👾🫰🏻#coding #programming #abdulbari #programmingmemes #computerscience er",
+      "creator": "Lanna Codes",
+      "url": "https://www.youtube.com/watch?v=C8p9uhyIvz4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Abdul Bari 👾🫰🏻#coding #programming #abdulbari #programmingmemes #computerscience er - Complete guide by Lanna Codes.",
+      "year": 2024
+    },
+    {
+      "title": "Why Recursion Important In Data Structure || Complete DSA by Abdul Bari #abdulbari #dsa",
+      "creator": "Learn Xpress",
+      "url": "https://www.youtube.com/watch?v=HSjiB-Favf4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Why Recursion Important In Data Structure || Complete DSA by Abdul Bari #abdulbari #dsa - Complete guide by Learn Xpress.",
+      "year": 2024
+    },
+    {
+      "title": "5 Free Playlists to Master DSA 🚀 | Crack Coding Interviews Fast 🔥 #shorts #DSA #programming #crack",
+      "creator": "Code Leos",
+      "url": "https://www.youtube.com/watch?v=UHfaRYFb5Tk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "5 Free Playlists to Master DSA 🚀 | Crack Coding Interviews Fast 🔥 #shorts #DSA #programming #crack - Complete guide by Code Leos.",
+      "year": 2024
+    },
+    {
+      "title": "💥Abdul Bari DSA course on Udemy - this course covers all the topics starting from basic #dsa #code",
+      "creator": "Hire Easi",
+      "url": "https://www.youtube.com/watch?v=yQjlQV4J4fk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "💥Abdul Bari DSA course on Udemy - this course covers all the topics starting from basic #dsa #code - Complete guide by Hire Easi.",
+      "year": 2024
+    },
+    {
+      "title": "Best Teacher for DSA 🔥🌟|| For Beginners || DAY- 101",
+      "creator": "LearningAlgo",
+      "url": "https://www.youtube.com/watch?v=-RWBrkMRib8",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Best Teacher for DSA 🔥🌟|| For Beginners || DAY- 101 - Complete guide by LearningAlgo.",
+      "year": 2024
+    },
+    {
+      "title": "Androrithms will kill Algorithms",
+      "creator": "Bari Science Lab",
+      "url": "https://www.youtube.com/watch?v=Ion25e-IRkU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Androrithms will kill Algorithms - Complete guide by Bari Science Lab.",
+      "year": 2024
+    },
+    {
+      "title": "This is your professors favorite professor!",
+      "creator": "TechChiran",
+      "url": "https://www.youtube.com/watch?v=Q24TW0jzJm0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "This is your professors favorite professor! - Complete guide by TechChiran.",
+      "year": 2024
+    },
+    {
+      "title": "1. Before we Start",
+      "creator": "rish현",
+      "url": "https://www.youtube.com/watch?v=X7G-ee4r0OY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1. Before we Start - Complete guide by rish현.",
+      "year": 2024
+    },
+    {
+      "title": "2. Essential C and C++ Concepts",
+      "creator": "rish현",
+      "url": "https://www.youtube.com/watch?v=x-en7EF8gTY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "2. Essential C and C++ Concepts - Complete guide by rish현.",
+      "year": 2024
+    },
+    {
+      "title": "Youtube resources to practise DSA",
+      "creator": "AlgoCamp",
+      "url": "https://www.youtube.com/watch?v=6kalzm9vYd0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Youtube resources to practise DSA - Complete guide by AlgoCamp.",
+      "year": 2024
+    },
+    {
+      "title": "1.1 : Instructor’s Note — [Abdul Bari] Java Course",
+      "creator": "Hacktrickz",
+      "url": "https://www.youtube.com/watch?v=MAebu0g6hUc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1.1 : Instructor’s Note — [Abdul Bari] Java Course - Complete guide by Hacktrickz.",
+      "year": 2024
+    },
+    {
+      "title": "if you think DSA is tough then you've not seen the MESSIAH OF DSA 👨‍💻👇Comment favourite DSA teacher",
+      "creator": "Code Digest With Harsh 🌎",
+      "url": "https://www.youtube.com/watch?v=djMtqccCBl0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "if you think DSA is tough then you've not seen the MESSIAH OF DSA 👨‍💻👇Comment favourite DSA teacher - Complete guide by Code Digest With Harsh 🌎.",
+      "year": 2024
+    },
+    {
+      "title": "Abdul Bari Milgaya 😂 seems like our real voiceovers  😆  #abdulbari   #viral #funnymemes #memers",
+      "creator": "Sania Saeed Khan",
+      "url": "https://www.youtube.com/watch?v=_4TKlW-dtdI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Abdul Bari Milgaya 😂 seems like our real voiceovers  😆  #abdulbari   #viral #funnymemes #memers - Complete guide by Sania Saeed Khan.",
+      "year": 2024
+    },
+    {
+      "title": "sir Abdul bari Sahab made a permanent place every hard working student❤the real hero||balochistan p",
+      "creator": "balochistan proud",
+      "url": "https://www.youtube.com/watch?v=jVFgJckYPn4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "sir Abdul bari Sahab made a permanent place every hard working student❤the real hero||balochistan p - Complete guide by balochistan proud.",
+      "year": 2024
+    },
+    {
+      "title": "C Programming Memory Layout Explained | Stack, Heap, Data Segment By Abdul Bari sir",
+      "creator": "GeeksforGeeks GATE",
+      "url": "https://www.youtube.com/watch?v=ttNtVcfGqEA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C Programming Memory Layout Explained | Stack, Heap, Data Segment By Abdul Bari sir - Complete guide by GeeksforGeeks GATE.",
+      "year": 2024
+    },
+    {
+      "title": "Top 5 algorithms for interviews",
+      "creator": "Sahil & Sarra",
+      "url": "https://www.youtube.com/watch?v=PjiH9yQZYa0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top 5 algorithms for interviews - Complete guide by Sahil & Sarra.",
+      "year": 2024
+    },
+    {
+      "title": "4 DSA resources in 60 seconds (I’m jealous) #codewithme #computersciencemajors",
+      "creator": "Jameel | Full Stack Developer",
+      "url": "https://www.youtube.com/watch?v=CXIIbVudtug",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "4 DSA resources in 60 seconds (I’m jealous) #codewithme #computersciencemajors - Complete guide by Jameel | Full Stack Developer.",
+      "year": 2024
+    },
+    {
+      "title": "🔥 Recursion Full course BY ABDUL BARI",
+      "creator": "RAKIB",
+      "url": "https://www.youtube.com/watch?v=ETiZpSajasI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🔥 Recursion Full course BY ABDUL BARI - Complete guide by RAKIB.",
+      "year": 2024
+    },
+    {
+      "title": "💻 Preparing for coding interviews? 🚀 Don’t miss these DSA channels! 🧠🔥",
+      "creator": "AlgoVisualsWeekly",
+      "url": "https://www.youtube.com/watch?v=-tbKmuwKc04",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "💻 Preparing for coding interviews? 🚀 Don’t miss these DSA channels! 🧠🔥 - Complete guide by AlgoVisualsWeekly.",
+      "year": 2024
+    },
+    {
+      "title": "Merge sort / divide and conquer algorithm/ #datastructure #algorithm #shorts #abdulbari",
+      "creator": "How to crack Java Interview",
+      "url": "https://www.youtube.com/watch?v=NwQ9yA4059o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Merge sort / divide and conquer algorithm/ #datastructure #algorithm #shorts #abdulbari - Complete guide by How to crack Java Interview.",
+      "year": 2024
+    },
+    {
+      "title": "1.2 : Download & Install JDK — [Abdul Bari] Java  Course",
+      "creator": "Hacktrickz",
+      "url": "https://www.youtube.com/watch?v=vTztiMTRTVM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1.2 : Download & Install JDK — [Abdul Bari] Java  Course - Complete guide by Hacktrickz.",
+      "year": 2024
+    },
+    {
+      "title": "01 – Introduction to C++ | [Abdul Bari] C++ Programming",
+      "creator": "Hacktrickz",
+      "url": "https://www.youtube.com/watch?v=Z1YszXJt8C8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "01 – Introduction to C++ | [Abdul Bari] C++ Programming - Complete guide by Hacktrickz.",
+      "year": 2024
+    },
+    {
+      "title": "Merging By Abdul Bari",
+      "creator": "MomoJoy Kids",
+      "url": "https://www.youtube.com/watch?v=Eo9nXHF_cEA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Merging By Abdul Bari - Complete guide by MomoJoy Kids.",
+      "year": 2024
+    },
+    {
+      "title": "001 Introduction to Graphs",
+      "creator": "Thành Nguyễn",
+      "url": "https://www.youtube.com/watch?v=AV0qlnUcDW4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "001 Introduction to Graphs - Complete guide by Thành Nguyễn.",
+      "year": 2024
+    },
+    {
+      "title": "3. Greedy Method -  Introduction",
+      "creator": "Abdul Bari",
+      "url": "https://www.youtube.com/watch?v=ARvQcqJ_-NY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "3. Greedy Method -  Introduction - Complete guide by Abdul Bari.",
+      "year": 2024
+    },
+    {
+      "title": "1.5.2 Time Complexity Example #2",
+      "creator": "Abdul Bari",
+      "url": "https://www.youtube.com/watch?v=9SgLBjXqwd4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1.5.2 Time Complexity Example #2 - Complete guide by Abdul Bari.",
+      "year": 2024
+    },
+    {
+      "title": "02 – Essential Fundamentals | [Abdul Bari] C++ Programming",
+      "creator": "Hacktrickz",
+      "url": "https://www.youtube.com/watch?v=Tv8GdpqdmfE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "02 – Essential Fundamentals | [Abdul Bari] C++ Programming - Complete guide by Hacktrickz.",
+      "year": 2024
+    },
+    {
+      "title": "002 Representation of Undirected Graph",
+      "creator": "Thành Nguyễn",
+      "url": "https://www.youtube.com/watch?v=SLxt6YTzorA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "002 Representation of Undirected Graph - Complete guide by Thành Nguyễn.",
+      "year": 2024
+    },
+    {
+      "title": "6.1 N Queens Problem using Backtracking",
+      "creator": "Abdul Bari",
+      "url": "https://www.youtube.com/watch?v=xFv_Hl4B83A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "6.1 N Queens Problem using Backtracking - Complete guide by Abdul Bari.",
+      "year": 2024
+    },
+    {
+      "title": "3.1 Knapsack Problem - Greedy Method",
+      "creator": "Abdul Bari",
+      "url": "https://www.youtube.com/watch?v=oTTzNMHM05I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "3.1 Knapsack Problem - Greedy Method - Complete guide by Abdul Bari.",
+      "year": 2024
+    },
+    {
+      "title": "Merge Sort Algorithm - Hindi",
+      "creator": "Abdul Bari",
+      "url": "https://www.youtube.com/watch?v=zXhWPrMLXGo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Merge Sort Algorithm - Hindi - Complete guide by Abdul Bari.",
+      "year": 2024
+    },
+    {
+      "title": "4.1 MultiStage Graph - Dynamic Programming",
+      "creator": "Abdul Bari",
+      "url": "https://www.youtube.com/watch?v=9iE9Mj4m8jk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "4.1 MultiStage Graph - Dynamic Programming - Complete guide by Abdul Bari.",
+      "year": 2024
+    },
+    {
+      "title": "6 Introduction to Backtracking - Brute Force Approach",
+      "creator": "Abdul Bari",
+      "url": "https://www.youtube.com/watch?v=DKCbsiDBN6c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "6 Introduction to Backtracking - Brute Force Approach - Complete guide by Abdul Bari.",
+      "year": 2024
+    },
+    {
+      "title": "4 Principle  of Optimality  - Dynamic Programming introduction",
+      "creator": "Abdul Bari",
+      "url": "https://www.youtube.com/watch?v=5dRGRueKU3M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "4 Principle  of Optimality  - Dynamic Programming introduction - Complete guide by Abdul Bari.",
+      "year": 2024
+    },
+    {
+      "title": "1.5.1 Time Complexity #1",
+      "creator": "Abdul Bari",
+      "url": "https://www.youtube.com/watch?v=9TlHvipP5yA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1.5.1 Time Complexity #1 - Complete guide by Abdul Bari.",
+      "year": 2024
+    },
+    {
+      "title": "2.1.1 Recurrence Relation (T(n)= T(n-1) + 1) #1",
+      "creator": "Abdul Bari",
+      "url": "https://www.youtube.com/watch?v=4V30R3I1vLI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "2.1.1 Recurrence Relation (T(n)= T(n-1) + 1) #1 - Complete guide by Abdul Bari.",
+      "year": 2024
+    },
+    {
+      "title": "2 Divide And Conquer",
+      "creator": "Abdul Bari",
+      "url": "https://www.youtube.com/watch?v=2Rr2tW9zvRg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "2 Divide And Conquer - Complete guide by Abdul Bari.",
+      "year": 2024
+    },
+    {
+      "title": "Data Structures and Algorithms Full Course 📈",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=CBYHwZcbD-s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data Structures and Algorithms Full Course 📈 - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "How To Learn DSA In 1 Week | Data Structure And Algorithms #codenewbies #coding #freecodecamp",
+      "creator": "Code With Aneesh",
+      "url": "https://www.youtube.com/watch?v=ZYp019TdBn8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How To Learn DSA In 1 Week | Data Structure And Algorithms #codenewbies #coding #freecodecamp - Complete guide by Code With Aneesh.",
+      "year": 2024
+    },
+    {
+      "title": "1.4 Frequency Count Method",
+      "creator": "Abdul Bari",
+      "url": "https://www.youtube.com/watch?v=1U3Uwct45IY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1.4 Frequency Count Method - Complete guide by Abdul Bari.",
+      "year": 2024
+    },
+    {
+      "title": "1.3 How Write and Analyze Algorithm",
+      "creator": "Abdul Bari",
+      "url": "https://www.youtube.com/watch?v=xGYsEqe9Vl0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1.3 How Write and Analyze Algorithm - Complete guide by Abdul Bari.",
+      "year": 2024
+    },
+    {
+      "title": "I was bad at Data Structures and Algorithms. Then I did this.",
+      "creator": "Andrew Codesmith",
+      "url": "https://www.youtube.com/watch?v=7kf1SACqlRw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "I was bad at Data Structures and Algorithms. Then I did this. - Complete guide by Andrew Codesmith.",
+      "year": 2024
+    },
+    {
+      "title": "Day-2: JavaScript Algorithms and Data Structures #javascriptframework #freecodecamp",
+      "creator": "Anuj Chaudhary",
+      "url": "https://www.youtube.com/watch?v=WzBN4NlXQfE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Day-2: JavaScript Algorithms and Data Structures #javascriptframework #freecodecamp - Complete guide by Anuj Chaudhary.",
+      "year": 2024
+    },
+    {
+      "title": "Day-6: JavaScript Algorithms and Data Structures #javascriptframework #freecodecamp",
+      "creator": "Anuj Chaudhary",
+      "url": "https://www.youtube.com/watch?v=KpQBPrE11HA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Day-6: JavaScript Algorithms and Data Structures #javascriptframework #freecodecamp - Complete guide by Anuj Chaudhary.",
+      "year": 2024
+    },
+    {
+      "title": "The Best Book To Learn Algorithms From For Computer Science",
+      "creator": "Siddhant Dubey",
+      "url": "https://www.youtube.com/watch?v=NgoXCJk_o7I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The Best Book To Learn Algorithms From For Computer Science - Complete guide by Siddhant Dubey.",
+      "year": 2024
+    },
+    {
+      "title": "Learn the basics of Data Structures in 60 seconds with Beau Carnes.",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=mrRfPVm9nAY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn the basics of Data Structures in 60 seconds with Beau Carnes. - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Day-3: JavaScript Algorithms and Data Structures #javascriptframework #freecodecamp",
+      "creator": "Anuj Chaudhary",
+      "url": "https://www.youtube.com/watch?v=L-k5qh6Z6lM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Day-3: JavaScript Algorithms and Data Structures #javascriptframework #freecodecamp - Complete guide by Anuj Chaudhary.",
+      "year": 2024
+    },
+    {
+      "title": "Data Structures and Algorithms in Python - Full Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=pkYVOmU3MgA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Data Structures and Algorithms in Python - Full Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Day-7: JavaScript Algorithms and Data Structures #javascriptframework #freecodecamp",
+      "creator": "Anuj Chaudhary",
+      "url": "https://www.youtube.com/watch?v=6fnhFVT0q4s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Day-7: JavaScript Algorithms and Data Structures #javascriptframework #freecodecamp - Complete guide by Anuj Chaudhary.",
+      "year": 2024
+    },
+    {
+      "title": "Fastest Way to Learn DSA | Full Roadmap",
+      "creator": "Maddy Zhang",
+      "url": "https://www.youtube.com/watch?v=3mpavnlrXQM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Fastest Way to Learn DSA | Full Roadmap - Complete guide by Maddy Zhang.",
+      "year": 2024
+    },
+    {
+      "title": "Data Structures and Algorithms using Python | Mega Video | DSA in Python in 1 video",
+      "creator": "CampusX",
+      "url": "https://www.youtube.com/watch?v=f9Aje_cN_CY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data Structures and Algorithms using Python | Mega Video | DSA in Python in 1 video - Complete guide by CampusX.",
+      "year": 2024
+    },
+    {
+      "title": "Big O notation - Data Structures & Algorithms Tutorial #2 | Measuring time complexity",
+      "creator": "codebasics",
+      "url": "https://www.youtube.com/watch?v=IR_S8BC8KI0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Big O notation - Data Structures & Algorithms Tutorial #2 | Measuring time complexity - Complete guide by codebasics.",
+      "year": 2024
+    },
+    {
+      "title": "Data Structures and Algorithms in JavaScript - Full Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=t2CEgPsws3U",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Data Structures and Algorithms in JavaScript - Full Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Data Structures & Algorithms Tutorial in Python #1 - What are data structures?",
+      "creator": "codebasics",
+      "url": "https://www.youtube.com/watch?v=_t2GVaQasRY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data Structures & Algorithms Tutorial in Python #1 - What are data structures? - Complete guide by codebasics.",
+      "year": 2024
+    },
+    {
+      "title": "Day-5: JavaScript Algorithms and Data Structures #javascriptframework #freecodecamp",
+      "creator": "Anuj Chaudhary",
+      "url": "https://www.youtube.com/watch?v=MHKiS2nSf0o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Day-5: JavaScript Algorithms and Data Structures #javascriptframework #freecodecamp - Complete guide by Anuj Chaudhary.",
+      "year": 2024
+    },
+    {
+      "title": "Dynamic Programming with Java – Learn to Solve Algorithmic Problems & Coding Challenges",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=oFkDldu3C_4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Dynamic Programming with Java – Learn to Solve Algorithmic Problems & Coding Challenges - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Dynamic Programming - Learn to Solve Algorithmic Problems & Coding Challenges",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=oBt53YbR9Kk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Dynamic Programming - Learn to Solve Algorithmic Problems & Coding Challenges - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Dynamic Programming with Animations – Full Course for Beginners",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=66hDgWottdA",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Learn Dynamic Programming with Animations – Full Course for Beginners - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Dynamic Programming | Introduction",
+      "creator": "Aditya Verma",
+      "url": "https://www.youtube.com/watch?v=nqowUJzG-iM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Dynamic Programming | Introduction - Complete guide by Aditya Verma.",
+      "year": 2024
+    },
+    {
+      "title": "Striver's Dynamic Programming Series | The ULTIMATE | The BIGGEST | Teaser  #shorts",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/watch?v=FfXoiwwnxFw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Striver's Dynamic Programming Series | The ULTIMATE | The BIGGEST | Teaser  #shorts - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "You Will Never Struggle With Data Structures & Algorithms Again",
+      "creator": "Volkan Erdogan",
+      "url": "https://www.youtube.com/watch?v=WFOat6VlU54",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "You Will Never Struggle With Data Structures & Algorithms Again - Complete guide by Volkan Erdogan.",
+      "year": 2024
+    },
+    {
+      "title": "2 Types of knapsack",
+      "creator": "Aditya Verma",
+      "url": "https://www.youtube.com/watch?v=l02UxPYRmCQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "2 Types of knapsack - Complete guide by Aditya Verma.",
+      "year": 2024
+    },
+    {
+      "title": "DP 1. Introduction to Dynamic Programming | Memoization | Tabulation | Space Optimization Techniques",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/watch?v=tyB0ztf0DNY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DP 1. Introduction to Dynamic Programming | Memoization | Tabulation | Space Optimization Techniques - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "Dynamic Programming lecture coming soon #bts",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=B8V44u_esS0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Dynamic Programming lecture coming soon #bts - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "4 Steps to Solve Any Dynamic Programming (DP) Problem",
+      "creator": "Greg Hogg",
+      "url": "https://www.youtube.com/watch?v=uUjFL0C-vY0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "4 Steps to Solve Any Dynamic Programming (DP) Problem - Complete guide by Greg Hogg.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Dynamic Programming | DP Series - Lecture 1",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=uBA8DkCBdco",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete Dynamic Programming | DP Series - Lecture 1 - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "Complete Dynamic Programming | Dynamic Programming Part 1",
+      "creator": "College Wallah",
+      "url": "https://www.youtube.com/watch?v=ZWYhqDaNc28",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete Dynamic Programming | Dynamic Programming Part 1 - Complete guide by College Wallah.",
+      "year": 2024
+    },
+    {
+      "title": "Google asked this Dynamic Programming (DP) Problem - Can You Solve It?",
+      "creator": "Nishant Chahar",
+      "url": "https://www.youtube.com/watch?v=franD2Ih9hA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Google asked this Dynamic Programming (DP) Problem - Can You Solve It? - Complete guide by Nishant Chahar.",
+      "year": 2024
+    },
+    {
+      "title": "DYNAMIC PROGRAMMING ULTIMATE COURSE OVERVIEW | CP Course | EP 89",
+      "creator": "Luv",
+      "url": "https://www.youtube.com/watch?v=xeeo6nhq9IY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DYNAMIC PROGRAMMING ULTIMATE COURSE OVERVIEW | CP Course | EP 89 - Complete guide by Luv.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Dynamic Programming | Tutorial | CP Course | EP 90",
+      "creator": "Luv",
+      "url": "https://www.youtube.com/watch?v=u7DdPBAJttU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to Dynamic Programming | Tutorial | CP Course | EP 90 - Complete guide by Luv.",
+      "year": 2024
+    },
+    {
+      "title": "Dynamic Programming Part 2: Tabulation, Knapsack and LCS (The Final Boss)",
+      "creator": "Tech Dastaan",
+      "url": "https://www.youtube.com/watch?v=STkLe-OzPeg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Dynamic Programming Part 2: Tabulation, Knapsack and LCS (The Final Boss) - Complete guide by Tech Dastaan.",
+      "year": 2024
+    },
+    {
+      "title": "Dynamic Programming - Full Course for Tech Interviews",
+      "creator": "Alvin The Programmer",
+      "url": "https://www.youtube.com/watch?v=YH7ZbV-MFoU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Dynamic Programming - Full Course for Tech Interviews - Complete guide by Alvin The Programmer.",
+      "year": 2024
+    },
+    {
+      "title": "But, what is Virtual Memory?",
+      "creator": "Tech With Nikola",
+      "url": "https://www.youtube.com/watch?v=A9WLYbE0p-I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "But, what is Virtual Memory? - Complete guide by Tech With Nikola.",
+      "year": 2024
+    },
+    {
+      "title": "Dynamic Programming Explained in 30s 🧠 | Interview Preparation 🚀 #day38 #dsa #shorts",
+      "creator": "BytesByMuskan",
+      "url": "https://www.youtube.com/watch?v=2tXdPGz__68",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Dynamic Programming Explained in 30s 🧠 | Interview Preparation 🚀 #day38 #dsa #shorts - Complete guide by BytesByMuskan.",
+      "year": 2024
+    },
+    {
+      "title": "Learn These FREE Courses & Level Up  FAST in 2025! 🚀💻 #shorts #coding #learning #skills #freecourses",
+      "creator": "Code Leos",
+      "url": "https://www.youtube.com/watch?v=cm5cBqrG6WM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn These FREE Courses & Level Up  FAST in 2025! 🚀💻 #shorts #coding #learning #skills #freecourses - Complete guide by Code Leos.",
+      "year": 2024
+    },
+    {
+      "title": "Dynamic Programming Explained 💻 Calculate Once, Reuse Forever! | SE Engineering AOA | Nitin Sir",
+      "creator": "RKDEMY ENGINEERING",
+      "url": "https://www.youtube.com/watch?v=nvokP9yZFrI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Dynamic Programming Explained 💻 Calculate Once, Reuse Forever! | SE Engineering AOA | Nitin Sir - Complete guide by RKDEMY ENGINEERING.",
+      "year": 2024
+    },
+    {
+      "title": "Clear dynamic programming instantly 💀 . #codebossad #software #jobsuccess #4u #trend",
+      "creator": "careerwithkk",
+      "url": "https://www.youtube.com/watch?v=dSkxKEWo4vc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Clear dynamic programming instantly 💀 . #codebossad #software #jobsuccess #4u #trend - Complete guide by careerwithkk.",
+      "year": 2024
+    },
+    {
+      "title": "Dynamic Programming Explained, Part 1: Memoization and Overlapping Subproblems",
+      "creator": "Tech Dastaan",
+      "url": "https://www.youtube.com/watch?v=CIT6qtprE0k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Dynamic Programming Explained, Part 1: Memoization and Overlapping Subproblems - Complete guide by Tech Dastaan.",
+      "year": 2024
+    },
+    {
+      "title": "DP = Dynamic Programming | #engineering #developers #coding #softwaredevelopers",
+      "creator": "CrioDo",
+      "url": "https://www.youtube.com/watch?v=LudL8UJx8bk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DP = Dynamic Programming | #engineering #developers #coding #softwaredevelopers - Complete guide by CrioDo.",
+      "year": 2024
+    },
+    {
+      "title": "Dynamic Programming",
+      "creator": "SkillYaan | Deepali Shinde",
+      "url": "https://www.youtube.com/watch?v=JT9I4TCjoPg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Dynamic Programming - Complete guide by SkillYaan | Deepali Shinde.",
+      "year": 2024
+    },
+    {
+      "title": "You don’t need expensive coding bootcamps to understand data structures and algorithms.",
+      "creator": "Volkan Erdogan",
+      "url": "https://www.youtube.com/watch?v=PQxyUty-AcY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "You don’t need expensive coding bootcamps to understand data structures and algorithms. - Complete guide by Volkan Erdogan.",
+      "year": 2024
+    },
+    {
+      "title": "How to Spot Dynamic Programming Problems in DSA 🚀 | DP Made Simple #dp #dsa #ctobhaiya",
+      "creator": "CTO Bhaiya",
+      "url": "https://www.youtube.com/watch?v=CCh8ufCZP0Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Spot Dynamic Programming Problems in DSA 🚀 | DP Made Simple #dp #dsa #ctobhaiya - Complete guide by CTO Bhaiya.",
+      "year": 2024
+    },
+    {
+      "title": "What's the BEST Way to Start Coding in 2026?",
+      "creator": "Vishwam Solanki",
+      "url": "https://www.youtube.com/watch?v=akxBT10A37s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What's the BEST Way to Start Coding in 2026? - Complete guide by Vishwam Solanki.",
+      "year": 2024
+    },
+    {
+      "title": "😂  #coding#java #technology #javax #software #npm #install  #basic #freecodecamp #code #reactjs",
+      "creator": "Code-Dixa",
+      "url": "https://www.youtube.com/watch?v=GnigxPxKKJs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "😂  #coding#java #technology #javax #software #npm #install  #basic #freecodecamp #code #reactjs - Complete guide by Code-Dixa.",
+      "year": 2024
+    },
+    {
+      "title": "⚡ Abdul Bari Sir – The C Programming Genius!",
+      "creator": "GeeksforGeeks GATE English",
+      "url": "https://www.youtube.com/watch?v=IpqirURm_Nc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "⚡ Abdul Bari Sir – The C Programming Genius! - Complete guide by GeeksforGeeks GATE English.",
+      "year": 2024
+    },
+    {
+      "title": "You’ll Never Be Confused by Dynamic Programming Again 🚀 #leetcode #coding #programming  #python",
+      "creator": "Volkan Erdogan",
+      "url": "https://www.youtube.com/watch?v=ltmCcsJlb7c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "You’ll Never Be Confused by Dynamic Programming Again 🚀 #leetcode #coding #programming  #python - Complete guide by Volkan Erdogan.",
+      "year": 2024
+    },
+    {
+      "title": "DP vs Recursion: The Fibonacci Problem #coding #python #algorithms #programming #computerscience",
+      "creator": "Hriday Sen",
+      "url": "https://www.youtube.com/watch?v=JZMMUwdn-yI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DP vs Recursion: The Fibonacci Problem #coding #python #algorithms #programming #computerscience - Complete guide by Hriday Sen.",
+      "year": 2024
+    },
+    {
+      "title": "DSA Python Course 2026 - Data Structures & Algorithms Using Python - Part 1 [Hindi] | Code & Debug",
+      "creator": "Code and Debug",
+      "url": "https://www.youtube.com/watch?v=OtYEY2htIjM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DSA Python Course 2026 - Data Structures & Algorithms Using Python - Part 1 [Hindi] | Code & Debug - Complete guide by Code and Debug.",
+      "year": 2024
+    },
+    {
+      "title": "#7 Best Youtube Channels to Learn Coding 👌",
+      "creator": "Gyan Portal",
+      "url": "https://www.youtube.com/watch?v=ONuD8WPDBcM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#7 Best Youtube Channels to Learn Coding 👌 - Complete guide by Gyan Portal.",
+      "year": 2024
+    },
+    {
+      "title": "Time and Space Complexity? - DSA Python Course - Part 2 [Hindi] | Code & Debug",
+      "creator": "Code and Debug",
+      "url": "https://www.youtube.com/watch?v=bLm0wgPU-6A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Time and Space Complexity? - DSA Python Course - Part 2 [Hindi] | Code & Debug - Complete guide by Code and Debug.",
+      "year": 2024
+    },
+    {
+      "title": "Learn programming fundamentals first. Then you can use AI to help you become more efficient.",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=MZVyASCY8sQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn programming fundamentals first. Then you can use AI to help you become more efficient. - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Data Structures and Algorithms using Java",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=xWLxhF3b5P8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data Structures and Algorithms using Java - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Dynamic Programming in One Shot | Competitive Programming Full Course | Lecture 8",
+      "creator": "College Wallah",
+      "url": "https://www.youtube.com/watch?v=YUAs6_QRQrc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Dynamic Programming in One Shot | Competitive Programming Full Course | Lecture 8 - Complete guide by College Wallah.",
+      "year": 2024
+    },
+    {
+      "title": "DP 2. Climbing Stairs | 1D Dynamic Programming",
+      "creator": "Shradha Khapra",
+      "url": "https://www.youtube.com/watch?v=3GzA0mz6wp0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DP 2. Climbing Stairs | 1D Dynamic Programming - Complete guide by Shradha Khapra.",
+      "year": 2024
+    },
+    {
+      "title": "DSA Free Course | Dynamic Programming In One Shot | DSA | DP In One Shot",
+      "creator": "GeeksforGeeks",
+      "url": "https://www.youtube.com/watch?v=Z8USYkiRvZw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DSA Free Course | Dynamic Programming In One Shot | DSA | DP In One Shot - Complete guide by GeeksforGeeks.",
+      "year": 2024
+    },
+    {
+      "title": "Recursion in Programming - Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=IJDJ0kBx2LM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Recursion in Programming - Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 1: Algorithmic Thinking, Peak Finding",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=HtSuA80QTyo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 1: Algorithmic Thinking, Peak Finding - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "2. Data Structures and Dynamic Arrays",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=CHhwJjR0mZA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "2. Data Structures and Dynamic Arrays - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 2: Models of Computation, Document Distance",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=Zc54gFhdpLA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 2: Models of Computation, Document Distance - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "Lec 1 | MIT 6.046J / 18.410J Introduction to Algorithms (SMA 5503), Fall 2005",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=JPyuH4qXLZ0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lec 1 | MIT 6.046J / 18.410J Introduction to Algorithms (SMA 5503), Fall 2005 - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "1. Algorithms and Computation",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=ZA-tUyM_y7s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1. Algorithms and Computation - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "CodeCamp Day 14 | Unleashing the Power of Dynamic Programming",
+      "creator": "GeeksforGeeks",
+      "url": "https://www.youtube.com/watch?v=imnKxqlITf8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "CodeCamp Day 14 | Unleashing the Power of Dynamic Programming - Complete guide by GeeksforGeeks.",
+      "year": 2024
+    },
+    {
+      "title": "Dynamic Programming – 0/1 Knapsack Problem Tutorial",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=hagBB17_hvg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Dynamic Programming – 0/1 Knapsack Problem Tutorial - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 1: Introduction to CS and Programming Using Python",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=xAcTmDO6NTI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 1: Introduction to CS and Programming Using Python - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "Lec 2 | MIT 6.046J / 18.410J Introduction to Algorithms (SMA 5503), Fall 2005",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=whjt_N9uYFI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lec 2 | MIT 6.046J / 18.410J Introduction to Algorithms (SMA 5503), Fall 2005 - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 2: Strings, Input/Output, and Branching",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=UdEX0E9lIQM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 2: Strings, Input/Output, and Branching - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "Recitation 1: Asymptotic Complexity, Peak Finding",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=P7frcB_-g4w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Recitation 1: Asymptotic Complexity, Peak Finding - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "2. Reasoning: Goal Trees and Problem Solving",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=PNKj529yY5c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "2. Reasoning: Goal Trees and Problem Solving - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "1. Introduction and Scope",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=TjZBTDzGeGg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1. Introduction and Scope - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "2. Divide & Conquer: Convex Hull, Median Finding",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=EzeYI7p9MjU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "2. Divide & Conquer: Convex Hull, Median Finding - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "1. Course Overview, Interval Scheduling",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=2P-yW7LQr08",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1. Course Overview, Interval Scheduling - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "Do You Still Need to Learn Python in the Age of AI?",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=5B4OiFm48Tw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Do You Still Need to Learn Python in the Age of AI? - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "How to effectively learn Algorithms",
+      "creator": "NeetCode",
+      "url": "https://www.youtube.com/watch?v=R5IB1ugud1Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to effectively learn Algorithms - Complete guide by NeetCode.",
+      "year": 2024
+    },
+    {
+      "title": "Learn DSA Visually (Free: NUS, NeetCode, MIT)",
+      "creator": "Devlearningcorner",
+      "url": "https://www.youtube.com/watch?v=s-EzEkQmEY0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn DSA Visually (Free: NUS, NeetCode, MIT) - Complete guide by Devlearningcorner.",
+      "year": 2024
+    },
+    {
+      "title": "Free MIT Deep Learning Course: 9 Lectures + 3 Labs",
+      "creator": "Sujay Nadkarni",
+      "url": "https://www.youtube.com/watch?v=fcTQGHM9zAc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Free MIT Deep Learning Course: 9 Lectures + 3 Labs - Complete guide by Sujay Nadkarni.",
+      "year": 2024
+    },
+    {
+      "title": "MIT Professor explaining Dijkstra Algorithm",
+      "creator": "Yashwant Pathak",
+      "url": "https://www.youtube.com/watch?v=sNxWLIgUiQs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MIT Professor explaining Dijkstra Algorithm - Complete guide by Yashwant Pathak.",
+      "year": 2024
+    },
+    {
+      "title": "MIT Just Explained Algorithms So Clearly… You Can’t Forget It 👇",
+      "creator": "mdscae",
+      "url": "https://www.youtube.com/watch?v=aDcIwuekgyI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MIT Just Explained Algorithms So Clearly… You Can’t Forget It 👇 - Complete guide by mdscae.",
+      "year": 2024
+    },
+    {
+      "title": "100+ Free MIT courses for students! #shorts",
+      "creator": "Campus Core",
+      "url": "https://www.youtube.com/watch?v=lYRqkXrYFuA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "100+ Free MIT courses for students! #shorts - Complete guide by Campus Core.",
+      "year": 2024
+    },
+    {
+      "title": "Unlock Free MIT Online Courses 2024-2025🌐 | Data Science, AI & More!",
+      "creator": "OpGuru",
+      "url": "https://www.youtube.com/watch?v=f8nCEyv-WPs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Unlock Free MIT Online Courses 2024-2025🌐 | Data Science, AI & More! - Complete guide by OpGuru.",
+      "year": 2024
+    },
+    {
+      "title": "Two Loops Can Still Be Linear | Big O",
+      "creator": "Mrs. Tech",
+      "url": "https://www.youtube.com/watch?v=uMFQyuGbpYg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Two Loops Can Still Be Linear | Big O - Complete guide by Mrs. Tech.",
+      "year": 2024
+    },
+    {
+      "title": "What's an Algorithm in Mathematics?? | Easy Step by Step Explanation for Beginners",
+      "creator": "Mathematics Clinic by Master Chris",
+      "url": "https://www.youtube.com/watch?v=6SihcQN0yJc",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "What's an Algorithm in Mathematics?? | Easy Step by Step Explanation for Beginners - Complete guide by Mathematics Clinic by Master Chris.",
+      "year": 2024
+    },
+    {
+      "title": "Merge Sort Algorithm | Fully Animated | ELU DSA",
+      "creator": "EduLinkUp",
+      "url": "https://www.youtube.com/watch?v=6_7a2jMMjrA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Merge Sort Algorithm | Fully Animated | ELU DSA - Complete guide by EduLinkUp.",
+      "year": 2024
+    },
+    {
+      "title": "Merge Sort: Split, Compare, Merge | Logic in Motion",
+      "creator": "Logic in Motion",
+      "url": "https://www.youtube.com/watch?v=opyy8CJS7Wo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Merge Sort: Split, Compare, Merge | Logic in Motion - Complete guide by Logic in Motion.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 2 : Analysis of Insertion Sort",
+      "creator": "Introduction to Algorithms and Analysis",
+      "url": "https://www.youtube.com/watch?v=C8Rkor-adeA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 2 : Analysis of Insertion Sort - Complete guide by Introduction to Algorithms and Analysis.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 1 : Insertion sort",
+      "creator": "Introduction to Algorithms and Analysis",
+      "url": "https://www.youtube.com/watch?v=oZgbwa8lvDE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 1 : Insertion sort - Complete guide by Introduction to Algorithms and Analysis.",
+      "year": 2024
+    },
+    {
+      "title": "Recitation 2: Python Cost Model, Document Distance",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=QFcyt8fgQMU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Recitation 2: Python Cost Model, Document Distance - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "Uncovering the Pros and Cons of MIT OpenCourseWare",
+      "creator": "Sophy ",
+      "url": "https://www.youtube.com/watch?v=BgGjvUq9Mx4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Uncovering the Pros and Cons of MIT OpenCourseWare - Complete guide by Sophy .",
+      "year": 2024
+    },
+    {
+      "title": "How to MASTER Data Structures and Algorithms PART 1",
+      "creator": "Tech With Tim",
+      "url": "https://www.youtube.com/watch?v=NvxP_oNOVAE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to MASTER Data Structures and Algorithms PART 1 - Complete guide by Tech With Tim.",
+      "year": 2024
+    },
+    {
+      "title": "Selection Sort Algorithm Explained with 3D Animation 🤯 | Visual DSA #Shorts",
+      "creator": "CodeMotion",
+      "url": "https://www.youtube.com/watch?v=JEpe50PSDeo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Selection Sort Algorithm Explained with 3D Animation 🤯 | Visual DSA #Shorts - Complete guide by CodeMotion.",
+      "year": 2024
+    },
+    {
+      "title": "💻 MASTER DATA STRUCTURES & ALGORITHMS–BUILD LOGIC, CRACK CODING INTERVIEWS & BECOME INDUSTRY-READY!",
+      "creator": "MIE Gurukul",
+      "url": "https://www.youtube.com/watch?v=Dus1XGUTSSU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "💻 MASTER DATA STRUCTURES & ALGORITHMS–BUILD LOGIC, CRACK CODING INTERVIEWS & BECOME INDUSTRY-READY! - Complete guide by MIE Gurukul.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Algorithms - Problem Session 1: Asymptotic Behavior of Functions and Double-ended...",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=IPSaG9RRc-k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to Algorithms - Problem Session 1: Asymptotic Behavior of Functions and Double-ended... - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "Algorithms Course - Graph Theory Tutorial from a Google Engineer",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=09_LlHjoEiY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Algorithms Course - Graph Theory Tutorial from a Google Engineer - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Problem Session 2 (MIT 6.006 Introduction to Algorithms, Spring 2020)",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/watch?v=KlQiwkhLBg0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Problem Session 2 (MIT 6.006 Introduction to Algorithms, Spring 2020) - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "Cracking Algorithms-Short video of MIT 6.006 Introduction to Algorithms, Spring 2020 lecture no. 1",
+      "creator": "abhithe Bornfighter",
+      "url": "https://www.youtube.com/watch?v=u1UG3WWrl4A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Cracking Algorithms-Short video of MIT 6.006 Introduction to Algorithms, Spring 2020 lecture no. 1 - Complete guide by abhithe Bornfighter.",
+      "year": 2024
+    },
+    {
+      "title": "Graph Theory Algorithms",
+      "creator": "WilliamFiset",
+      "url": "https://www.youtube.com/watch?v=DgXR2OWQnLc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Graph Theory Algorithms - Complete guide by WilliamFiset.",
+      "year": 2024
+    },
+    {
+      "title": "Graph Theory Introduction",
+      "creator": "WilliamFiset",
+      "url": "https://www.youtube.com/watch?v=eQA-m22wjTQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Graph Theory Introduction - Complete guide by WilliamFiset.",
+      "year": 2024
+    },
+    {
+      "title": "Graph theory full course for Beginners",
+      "creator": "Academic Lesson",
+      "url": "https://www.youtube.com/watch?v=sWsXBY19o8I",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Graph theory full course for Beginners - Complete guide by Academic Lesson.",
+      "year": 2024
+    },
+    {
+      "title": "GRAPH Data Structure | What is Graph? | DSA Course | GeeksforGeeks",
+      "creator": "GeeksforGeeks",
+      "url": "https://www.youtube.com/watch?v=gTsoyORhqkg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GRAPH Data Structure | What is Graph? | DSA Course | GeeksforGeeks - Complete guide by GeeksforGeeks.",
+      "year": 2024
+    },
+    {
+      "title": "Graph Data Structure | Tutorial for Graphs in Data Structures",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=59fUtYYz7ZU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Graph Data Structure | Tutorial for Graphs in Data Structures - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "Graph Search Algorithms in 100 Seconds - And Beyond with JS",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=cWNEl4HE2OE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Graph Search Algorithms in 100 Seconds - And Beyond with JS - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "Graph Practice Problems | Graph Data Structure | DSA Course | GeeksforGeeks",
+      "creator": "GeeksforGeeks",
+      "url": "https://www.youtube.com/watch?v=pCmsQVHYXK0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Graph Practice Problems | Graph Data Structure | DSA Course | GeeksforGeeks - Complete guide by GeeksforGeeks.",
+      "year": 2024
+    },
+    {
+      "title": "10 weird algorithms every developer should know",
+      "creator": "Fireship",
+      "url": "https://www.youtube.com/watch?v=SmyPTnlqhlk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "10 weird algorithms every developer should know - Complete guide by Fireship.",
+      "year": 2024
+    },
+    {
+      "title": "7 Graph Algorithms Every DSA Beginner Should Know 🔥 | Python DSA #Shorts",
+      "creator": "Bharath_._builds",
+      "url": "https://www.youtube.com/watch?v=5Wk7favniwQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "7 Graph Algorithms Every DSA Beginner Should Know 🔥 | Python DSA #Shorts - Complete guide by Bharath_._builds.",
+      "year": 2024
+    },
+    {
+      "title": "Algorithms: Solve 'Recursive Staircase' Using Recursion",
+      "creator": "HackerRank",
+      "url": "https://www.youtube.com/watch?v=eREiwuvzaUM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Algorithms: Solve 'Recursive Staircase' Using Recursion - Complete guide by HackerRank.",
+      "year": 2024
+    },
+    {
+      "title": "Lec 37 BFS",
+      "creator": "NPTEL - Indian Institute of Science, Bengaluru",
+      "url": "https://www.youtube.com/watch?v=fD9Q8uRVOZo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lec 37 BFS - Complete guide by NPTEL - Indian Institute of Science, Bengaluru.",
+      "year": 2024
+    },
+    {
+      "title": "Graph Algorithm Running Behind Your Apps! #dsa #datastructures #graph #shorts",
+      "creator": "R tech knowledge",
+      "url": "https://www.youtube.com/watch?v=odCYXHFbsnM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Graph Algorithm Running Behind Your Apps! #dsa #datastructures #graph #shorts - Complete guide by R tech knowledge.",
+      "year": 2024
+    },
+    {
+      "title": "Graph Algorithms",
+      "creator": "Linija808",
+      "url": "https://www.youtube.com/watch?v=502_sVotXhI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Graph Algorithms - Complete guide by Linija808.",
+      "year": 2024
+    },
+    {
+      "title": "Lec 36 Strong Connected Components Part 4",
+      "creator": "NPTEL - Indian Institute of Science, Bengaluru",
+      "url": "https://www.youtube.com/watch?v=CciN5QTXTjU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lec 36 Strong Connected Components Part 4 - Complete guide by NPTEL - Indian Institute of Science, Bengaluru.",
+      "year": 2024
+    },
+    {
+      "title": "All DSA Concepts in One Glance 🤯 #shorts",
+      "creator": "Akash",
+      "url": "https://www.youtube.com/watch?v=uiwDciZAhbE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "All DSA Concepts in One Glance 🤯 #shorts - Complete guide by Akash.",
+      "year": 2024
+    },
+    {
+      "title": "Algorithm every developer should learn | Full stack development |  CodeMarch 🤩",
+      "creator": "codemarch",
+      "url": "https://www.youtube.com/watch?v=1NfJmabP15A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Algorithm every developer should learn | Full stack development |  CodeMarch 🤩 - Complete guide by codemarch.",
+      "year": 2024
+    },
+    {
+      "title": "How to setup VS code for DSA and CP | Input / Output split format",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/watch?v=h3uDCJ5mvgw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to setup VS code for DSA and CP | Input / Output split format - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "DSA complete roadmap #computerprogrammer #codeprep #softwareengineer #coding #coders #programming",
+      "creator": "The X",
+      "url": "https://www.youtube.com/watch?v=uAz4_nIAyHQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DSA complete roadmap #computerprogrammer #codeprep #softwareengineer #coding #coders #programming - Complete guide by The X.",
+      "year": 2024
+    },
+    {
+      "title": "Kruskal's Algorithm | Minimum Spanning Tree (MST) | A&ADS #Shorts @Thepie006",
+      "creator": "The pie",
+      "url": "https://www.youtube.com/watch?v=Pti-pYE4zQo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Kruskal's Algorithm | Minimum Spanning Tree (MST) | A&ADS #Shorts @Thepie006 - Complete guide by The pie.",
+      "year": 2024
+    },
+    {
+      "title": "GeeksForGeeks Free Courses Launched 🔥 Learn From GFG FREE DSA, AI, Web Development, Data Science",
+      "creator": "CodeTalkShubham",
+      "url": "https://www.youtube.com/watch?v=3r0PGPT1n3A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "GeeksForGeeks Free Courses Launched 🔥 Learn From GFG FREE DSA, AI, Web Development, Data Science - Complete guide by CodeTalkShubham.",
+      "year": 2024
+    },
+    {
+      "title": "Don't watch my A2Z DSA Course",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/watch?v=0bHoB32fuj0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Don't watch my A2Z DSA Course - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "Maang interview question 🔥🔥   #leetcode #faang #java #hustlersalgorithm #graphs",
+      "creator": "TechBits by Vismay",
+      "url": "https://www.youtube.com/watch?v=B1ejFI6k17Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Maang interview question 🔥🔥   #leetcode #faang #java #hustlersalgorithm #graphs - Complete guide by TechBits by Vismay.",
+      "year": 2024
+    },
+    {
+      "title": "Did you know that Dijkstra came up with his famous algorithm in about 20 minutes?",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=_kNabHEZQlo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Did you know that Dijkstra came up with his famous algorithm in about 20 minutes? - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Find Second Largest Element in Array | Remove duplicates from Sorted Array | Arrays Intro Video",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/watch?v=37E9ckMDdTk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Find Second Largest Element in Array | Remove duplicates from Sorted Array | Arrays Intro Video - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "L1. Introduction to Stack and Queue | Implementation using Data Structures",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/watch?v=tqQ5fTamIN4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "L1. Introduction to Stack and Queue | Implementation using Data Structures - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "Rotate Array by K places | Union, Intersection of Sorted Arrays | Move Zeros to End | Arrays Part-2",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/watch?v=wvcQg43_V8U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Rotate Array by K places | Union, Intersection of Sorted Arrays | Move Zeros to End | Arrays Part-2 - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "JAVA DSA for Beginners | Learn Data Structures & Algorithms with Java",
+      "creator": "UrbanCode Training",
+      "url": "https://www.youtube.com/watch?v=rBriMJXLZjg",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "JAVA DSA for Beginners | Learn Data Structures & Algorithms with Java - Complete guide by UrbanCode Training.",
+      "year": 2024
+    },
+    {
+      "title": "L2. Check for Balanced Parentheses | Stack and Queue",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/watch?v=xwjS0iZhw4I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "L2. Check for Balanced Parentheses | Stack and Queue - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "L2. Must Know Tricks in Bit Manipulation | Swap two numbers without third variable",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/watch?v=nttpF8kwgd4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "L2. Must Know Tricks in Bit Manipulation | Swap two numbers without third variable - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "L1. Introduction to Bit Manipulation | 1's 2's Compliment | Bit Operators",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/watch?v=qQd-ViW7bfk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "L1. Introduction to Bit Manipulation | 1's 2's Compliment | Bit Operators - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "Re 2. Problems on Recursion | Strivers A2Z DSA Course",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/watch?v=un6PLygfXrA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Re 2. Problems on Recursion | Strivers A2Z DSA Course - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "L1. Introduction to Sliding Window and 2 Pointers | Templates | Patterns",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/watch?v=9kdHxplyl5I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "L1. Introduction to Sliding Window and 2 Pointers | Templates | Patterns - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "Re 1. Introduction to Recursion | Recursion Tree | Stack Space | Strivers A2Z DSA Course",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/watch?v=yVdKa8dnKiE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Re 1. Introduction to Recursion | Recursion Tree | Stack Space | Strivers A2Z DSA Course - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "Paid LinkedList Bootcamp - Launch Video",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/watch?v=cg6JGiXhQ9c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Paid LinkedList Bootcamp - Launch Video - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "L1. Introduction to LinkedList | Traversal | Length | Search an Element",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/watch?v=Nq7ok-OyEpg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "L1. Introduction to LinkedList | Traversal | Length | Search an Element - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "L2. Maximum Points You Can Obtain from Cards | 2 Pointers and Sliding Window Playlist",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/watch?v=pBWCOCS636U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "L2. Maximum Points You Can Obtain from Cards | 2 Pointers and Sliding Window Playlist - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "How much revenue did TUF+ do?#trending #viralshorts #tech #takeuforward #striver #dsa",
+      "creator": "Pulkit Chhabra",
+      "url": "https://www.youtube.com/watch?v=UjcFM6p6Wcc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How much revenue did TUF+ do?#trending #viralshorts #tech #takeuforward #striver #dsa - Complete guide by Pulkit Chhabra.",
+      "year": 2024
+    },
+    {
+      "title": "@Aman Dhattarwal Vs Striver Controversy   Apna College Aman Dhattarwal Shorts Facts #shorts",
+      "creator": "dsa lover",
+      "url": "https://www.youtube.com/watch?v=_-U6mRFkKuI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "@Aman Dhattarwal Vs Striver Controversy   Apna College Aman Dhattarwal Shorts Facts #shorts - Complete guide by dsa lover.",
+      "year": 2024
+    },
+    {
+      "title": "How to prepare DSA for Placements ? Placement Series - Ep-1",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/watch?v=OjOcpf3eVas",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to prepare DSA for Placements ? Placement Series - Ep-1 - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "Shradha didi Reply to Striver 🔥 | Driver vs Apna college Controversy #shorts #coding",
+      "creator": "Coding Basics",
+      "url": "https://www.youtube.com/watch?v=XDMkjO4zTZ0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Shradha didi Reply to Striver 🔥 | Driver vs Apna college Controversy #shorts #coding - Complete guide by Coding Basics.",
+      "year": 2024
+    },
+    {
+      "title": "Forgetting previous problems?",
+      "creator": "Striver",
+      "url": "https://www.youtube.com/watch?v=PNJIwZweChU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Forgetting previous problems? - Complete guide by Striver.",
+      "year": 2024
+    },
+    {
+      "title": "L1. Introduction to Trees | Types of Trees",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/watch?v=_ANrF3FJm7I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "L1. Introduction to Trees | Types of Trees - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "G-1. Introduction to Graph | Types | Different Conventions Used",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/watch?v=M3_pLsDdeuU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "G-1. Introduction to Graph | Types | Different Conventions Used - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "G-2. Graph Representation in C++ | Two Ways to Represent",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/watch?v=3oI-34aPMWM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "G-2. Graph Representation in C++ | Two Ways to Represent - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "both are my guru🙏🙏....@takeUforward @striver_79 👑#striver #dsa",
+      "creator": "teza1753s",
+      "url": "https://www.youtube.com/watch?v=XOgZlcWOiTI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "both are my guru🙏🙏....@takeUforward @striver_79 👑#striver #dsa - Complete guide by teza1753s.",
+      "year": 2024
+    },
+    {
+      "title": "L2. Lemonade Change | Greedy Algorithm Playlist",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/watch?v=n_tmibEhO6Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "L2. Lemonade Change | Greedy Algorithm Playlist - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "L2. Binary Tree Representation in C++",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/watch?v=ctCpP0RFDFc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "L2. Binary Tree Representation in C++ - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "Striver : Importance of DSA #shorts #shortvideo #software #coding #podcast #interview #engineering",
+      "creator": "Software Podcast Shorts",
+      "url": "https://www.youtube.com/watch?v=gG51xJg0Dq0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Striver : Importance of DSA #shorts #shortvideo #software #coding #podcast #interview #engineering - Complete guide by Software Podcast Shorts.",
+      "year": 2024
+    },
+    {
+      "title": "L1. Assign Cookies | Greedy Algorithm Playlist",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/watch?v=DIX2p7vb9co",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "L1. Assign Cookies | Greedy Algorithm Playlist - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "How To Learn Ft. Striver #striver #techtalkswithharkirat",
+      "creator": "Surya",
+      "url": "https://www.youtube.com/watch?v=UbWgZiEh-EM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How To Learn Ft. Striver #striver #techtalkswithharkirat - Complete guide by Surya.",
+      "year": 2024
+    },
+    {
+      "title": "Are you really giving your best? #motivation #coding #placements",
+      "creator": "Striver",
+      "url": "https://www.youtube.com/watch?v=HoJ0uJSwU1E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Are you really giving your best? #motivation #coding #placements - Complete guide by Striver.",
+      "year": 2024
+    },
+    {
+      "title": "Striver tuf+ scam | tuf | tuf+ | tuf+ review",
+      "creator": "Anuj Jain",
+      "url": "https://www.youtube.com/watch?v=pWMFs625oD8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Striver tuf+ scam | tuf | tuf+ | tuf+ review - Complete guide by Anuj Jain.",
+      "year": 2024
+    },
+    {
+      "title": "Top Reasons to Buy TUF+ | Striver DSA | takeUforward #dsa #tufplus",
+      "creator": "Chavi Sharma",
+      "url": "https://www.youtube.com/watch?v=BisCClk58fI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top Reasons to Buy TUF+ | Striver DSA | takeUforward #dsa #tufplus - Complete guide by Chavi Sharma.",
+      "year": 2024
+    },
+    {
+      "title": "Choose which life you want after college",
+      "creator": "Striver",
+      "url": "https://www.youtube.com/watch?v=SPuA5lNPh9I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Choose which life you want after college - Complete guide by Striver.",
+      "year": 2024
+    },
+    {
+      "title": "Striver, the LEGEND :)",
+      "creator": "corpXplay",
+      "url": "https://www.youtube.com/watch?v=DGxqASuPzwE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Striver, the LEGEND :) - Complete guide by corpXplay.",
+      "year": 2024
+    },
+    {
+      "title": "Indian CS Teachers = GOATS | #codewithharry #computerscience #striver #dsa #engineering #coding #fyp",
+      "creator": "CS with Arjun",
+      "url": "https://www.youtube.com/watch?v=YhhQaIdcJz0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Indian CS Teachers = GOATS | #codewithharry #computerscience #striver #dsa #engineering #coding #fyp - Complete guide by CS with Arjun.",
+      "year": 2024
+    },
+    {
+      "title": "Striver taunting Love Babbar | take U forward | CodeHelp | Prim's Algorithm | Minimum Spanning Tree",
+      "creator": "Pritish Srivastava",
+      "url": "https://www.youtube.com/watch?v=GLCoTI2WgkE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Striver taunting Love Babbar | take U forward | CodeHelp | Prim's Algorithm | Minimum Spanning Tree - Complete guide by Pritish Srivastava.",
+      "year": 2024
+    },
+    {
+      "title": "Complete DSA roadmap, Start form Today & get ready to crack your dream company 😜#datastructure #dsa",
+      "creator": "Kunal coding ",
+      "url": "https://www.youtube.com/watch?v=pkviHIOk2g0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Complete DSA roadmap, Start form Today & get ready to crack your dream company 😜#datastructure #dsa - Complete guide by Kunal coding .",
+      "year": 2024
+    },
+    {
+      "title": "#striver #takeuforward #motivator",
+      "creator": "the_dark_horse",
+      "url": "https://www.youtube.com/watch?v=WwuEYf4E8K4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#striver #takeuforward #motivator - Complete guide by the_dark_horse.",
+      "year": 2024
+    },
+    {
+      "title": "Striver at DTU!!! #striver #dsa #coding #students #studentvlog #dtu #fest #tech #studentlife #shorts",
+      "creator": "Sumit Singh [ DTU ]",
+      "url": "https://www.youtube.com/watch?v=cVvLgwkCxBc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Striver at DTU!!! #striver #dsa #coding #students #studentvlog #dtu #fest #tech #studentlife #shorts - Complete guide by Sumit Singh [ DTU ].",
+      "year": 2024
+    },
+    {
+      "title": "🚀 Striver A2Z Sheet Explained in 5 Minutes | Complete DSA Roadmap",
+      "creator": "Itnaa_easy",
+      "url": "https://www.youtube.com/watch?v=LKXEGTnQT88",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🚀 Striver A2Z Sheet Explained in 5 Minutes | Complete DSA Roadmap - Complete guide by Itnaa_easy.",
+      "year": 2024
+    },
+    {
+      "title": "DSA or Development?",
+      "creator": "Striver",
+      "url": "https://www.youtube.com/watch?v=5kEe3VLh-6w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DSA or Development? - Complete guide by Striver.",
+      "year": 2024
+    },
+    {
+      "title": "👉 How to Solve Striver Sheet Properly (Most People Do It Wrong)",
+      "creator": "Vishal Unplugged",
+      "url": "https://www.youtube.com/watch?v=_TSs80pPWlk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "👉 How to Solve Striver Sheet Properly (Most People Do It Wrong) - Complete guide by Vishal Unplugged.",
+      "year": 2024
+    },
+    {
+      "title": "💬 Comment “LINK” if you’re starting 👇...#apnacollege #striver #ctobhaiya #dsa",
+      "creator": "CTO Bhaiya (SHORTS)",
+      "url": "https://www.youtube.com/watch?v=bATauvfI5kk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "💬 Comment “LINK” if you’re starting 👇...#apnacollege #striver #ctobhaiya #dsa - Complete guide by CTO Bhaiya (SHORTS).",
+      "year": 2024
+    },
+    {
+      "title": "@striver_79’s daily schedule #podcast #striver #takeuforward",
+      "creator": "Pulkit Chhabra",
+      "url": "https://www.youtube.com/watch?v=cGlSEVvlUPc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "@striver_79’s daily schedule #podcast #striver #takeuforward - Complete guide by Pulkit Chhabra.",
+      "year": 2024
+    },
+    {
+      "title": "This is when life of @striver_79 changed! #shorts #striver #amazon #dsa",
+      "creator": "Pulkit Chhabra",
+      "url": "https://www.youtube.com/watch?v=J3cLppN_5z4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "This is when life of @striver_79 changed! #shorts #striver #amazon #dsa - Complete guide by Pulkit Chhabra.",
+      "year": 2024
+    },
+    {
+      "title": "it's over for y'all💀@takeUforward  #DSA #CodingMeme #Striver #TakeUForward #viral #reels #shorts",
+      "creator": "Nitin Verma ",
+      "url": "https://www.youtube.com/watch?v=dEkFxPMAtGA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "it's over for y'all💀@takeUforward  #DSA #CodingMeme #Striver #TakeUForward #viral #reels #shorts - Complete guide by Nitin Verma .",
+      "year": 2024
+    },
+    {
+      "title": "Launching Binary Search Bootcamp - C++, Java, Python, Notes, Contest, Doubt Support 🔥",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/watch?v=_NT69eLpqks",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Launching Binary Search Bootcamp - C++, Java, Python, Notes, Contest, Doubt Support 🔥 - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "BS-1. Binary Search Introduction | Real Life Example | Iterative | Recursive | Overflow Cases",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/watch?v=MHf6awe89xw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "BS-1. Binary Search Introduction | Real Life Example | Iterative | Recursive | Overflow Cases - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "Master Algorithm & Asymptotic Notations | Big O, Big Ω & Big Θ Explained with Examples 🔥",
+      "creator": "RADHIKA'S CODE HUB",
+      "url": "https://www.youtube.com/watch?v=NUxwy-GYgdw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Master Algorithm & Asymptotic Notations | Big O, Big Ω & Big Θ Explained with Examples 🔥 - Complete guide by RADHIKA'S CODE HUB.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 02: Introduction to FlowCharts and PseudoCode in Programming",
+      "creator": "Coder Army",
+      "url": "https://www.youtube.com/watch?v=H_9MSvTL74g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Lecture 02: Introduction to FlowCharts and PseudoCode in Programming - Complete guide by Coder Army.",
+      "year": 2024
+    },
+    {
+      "title": "Basic Maths for DSA | Euclidean Algorithm | Strivers A2Z DSA Course",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/watch?v=1xNbjMdbjug",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Basic Maths for DSA | Euclidean Algorithm | Strivers A2Z DSA Course - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "Lecture 01: Introduction To Programming for Beginners",
+      "creator": "Coder Army",
+      "url": "https://www.youtube.com/watch?v=y3OOaXrFy-Q",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Lecture 01: Introduction To Programming for Beginners - Complete guide by Coder Army.",
+      "year": 2024
+    },
+    {
+      "title": "L1. Implement TRIE | INSERT | SEARCH | STARTSWITH",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/watch?v=dBGUmUQhjaM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "L1. Implement TRIE | INSERT | SEARCH | STARTSWITH - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "L2. Implement Trie-2 | INSERT | countWordsEqualTo() | countWordsStartingWith() | C++ | Java",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/watch?v=K5pcpkEMCN0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "L2. Implement Trie-2 | INSERT | countWordsEqualTo() | countWordsStartingWith() | C++ | Java - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "C++ Basics in One Shot - Strivers A2Z DSA Course - L1",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/watch?v=EAR7De6Goz4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "C++ Basics in One Shot - Strivers A2Z DSA Course - L1 - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "Binary Tree in Data Structures | All about Binary Tree | DSA Course",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=-DzowlcaUmE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Binary Tree in Data Structures | All about Binary Tree | DSA Course - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "How to solve (almost) any binary tree coding problem",
+      "creator": "Inside code",
+      "url": "https://www.youtube.com/watch?v=s2Yyk3qdy3o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to solve (almost) any binary tree coding problem - Complete guide by Inside code.",
+      "year": 2024
+    },
+    {
+      "title": "Binary Tree Algorithms for Technical Interviews - Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=fAAZixBzIAI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Binary Tree Algorithms for Technical Interviews - Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "DSA In Java | Binary Tree 01 | Java in One Shot | Binary in Java",
+      "creator": "GeeksforGeeks",
+      "url": "https://www.youtube.com/watch?v=xpyAAGIezVA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "DSA In Java | Binary Tree 01 | Java in One Shot | Binary in Java - Complete guide by GeeksforGeeks.",
+      "year": 2024
+    },
+    {
+      "title": "Preorder Binary Tree Traversal #Shorts #GfG #BinaryTree",
+      "creator": "GeeksforGeeks",
+      "url": "https://www.youtube.com/watch?v=Wqe3hoLd5v4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Preorder Binary Tree Traversal #Shorts #GfG #BinaryTree - Complete guide by GeeksforGeeks.",
+      "year": 2024
+    },
+    {
+      "title": "L2. Print all Divisors of a Number | Maths Playlist",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/watch?v=Ae_Ag_saG9s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "L2. Print all Divisors of a Number | Maths Playlist - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "Build Binary Trees Like a Pro #python #algorithms",
+      "creator": "Systems Architecture Hub",
+      "url": "https://www.youtube.com/watch?v=L0abDD1QSVQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Build Binary Trees Like a Pro #python #algorithms - Complete guide by Systems Architecture Hub.",
+      "year": 2024
+    },
+    {
+      "title": "Facebook ALWAYS Asks this Coding Question! Diameter of Binary Tree - Leetcode 543",
+      "creator": "Greg Hogg",
+      "url": "https://www.youtube.com/watch?v=1hOK8jtxG_w",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Facebook ALWAYS Asks this Coding Question! Diameter of Binary Tree - Leetcode 543 - Complete guide by Greg Hogg.",
+      "year": 2024
+    },
+    {
+      "title": "The fastest way to check binary tree equality #python #coding #algorithms",
+      "creator": "Systems Architecture Hub",
+      "url": "https://www.youtube.com/watch?v=XpB9fuMGrtA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The fastest way to check binary tree equality #python #coding #algorithms - Complete guide by Systems Architecture Hub.",
+      "year": 2024
+    },
+    {
+      "title": "The 3 Levels of Binary Trees | Standard, Binary Search Trees (BST) and Self-Balancing (AVL)",
+      "creator": "Greg Hogg",
+      "url": "https://www.youtube.com/watch?v=VV-KdD9nbpc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The 3 Levels of Binary Trees | Standard, Binary Search Trees (BST) and Self-Balancing (AVL) - Complete guide by Greg Hogg.",
+      "year": 2024
+    },
+    {
+      "title": "Easy Google Interview Question! | Symmetric Binary Tree - Leetcode 101",
+      "creator": "Greg Hogg",
+      "url": "https://www.youtube.com/watch?v=JodJZjJtECE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Easy Google Interview Question! | Symmetric Binary Tree - Leetcode 101 - Complete guide by Greg Hogg.",
+      "year": 2024
+    },
+    {
+      "title": "Binary Trees in Data Structures | Tree Traversal | DSA Placement Series",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=eKJrXBCRuNQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Binary Trees in Data Structures | Tree Traversal | DSA Placement Series - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "L.84 Height of a Binary Tree | Count of Nodes in a Binary Tree",
+      "creator": "Apna College",
+      "url": "https://www.youtube.com/watch?v=7tzHzN_Ehus",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "L.84 Height of a Binary Tree | Count of Nodes in a Binary Tree - Complete guide by Apna College.",
+      "year": 2024
+    },
+    {
+      "title": "Mo's Algorithm on Trees in 30 Seconds #shorts",
+      "creator": "Code Like Lily",
+      "url": "https://www.youtube.com/watch?v=IBrHAiN_QXA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Mo's Algorithm on Trees in 30 Seconds #shorts - Complete guide by Code Like Lily.",
+      "year": 2024
+    },
+    {
+      "title": "Leetcode 104 - Maximum Depth Of Binary Tree (Height)",
+      "creator": "Greg Hogg",
+      "url": "https://www.youtube.com/watch?v=IasSl-hIHAc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Leetcode 104 - Maximum Depth Of Binary Tree (Height) - Complete guide by Greg Hogg.",
+      "year": 2024
+    },
+    {
+      "title": "Types of Binary Trees in DSA 🌳 | Complete, Perfect, Full, Skewed & Degenerate Binary Trees Explained",
+      "creator": "CP Geeks",
+      "url": "https://www.youtube.com/watch?v=Su87Lc4C03M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Types of Binary Trees in DSA 🌳 | Complete, Perfect, Full, Skewed & Degenerate Binary Trees Explained - Complete guide by CP Geeks.",
+      "year": 2024
+    },
+    {
+      "title": "Level Order Traversal (BFS) Explained in 22 Seconds | Binary Tree #shorts",
+      "creator": "AlgoVisualized",
+      "url": "https://www.youtube.com/watch?v=0MgPbqGO8Sk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Level Order Traversal (BFS) Explained in 22 Seconds | Binary Tree #shorts - Complete guide by AlgoVisualized.",
+      "year": 2024
+    },
+    {
+      "title": "Binary Tree Made Easy WithThis Trick 🚀 #Shorts #PhysicsWallah #DSA",
+      "creator": "College Wallah",
+      "url": "https://www.youtube.com/watch?v=Td-XOrU2id8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Binary Tree Made Easy WithThis Trick 🚀 #Shorts #PhysicsWallah #DSA - Complete guide by College Wallah.",
+      "year": 2024
+    },
+    {
+      "title": "LeetCode 102 - Binary Tree Level Order Traversal | Python | Visually Explained",
+      "creator": "Hello Byte",
+      "url": "https://www.youtube.com/watch?v=72lrZYE-CP8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "LeetCode 102 - Binary Tree Level Order Traversal | Python | Visually Explained - Complete guide by Hello Byte.",
+      "year": 2024
+    },
+    {
+      "title": "Binary Tree Traversal explained by Leetcode Peter 🤓 #cs",
+      "creator": "Bitflip",
+      "url": "https://www.youtube.com/watch?v=5gi4UWtzsZE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Binary Tree Traversal explained by Leetcode Peter 🤓 #cs - Complete guide by Bitflip.",
+      "year": 2024
+    },
+    {
+      "title": "The algorithm that made binary trees usable",
+      "creator": "Boot dev",
+      "url": "https://www.youtube.com/watch?v=3iAi-lrWucU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The algorithm that made binary trees usable - Complete guide by Boot dev.",
+      "year": 2024
+    },
+    {
+      "title": "Forget Tree Traversal Orders? This SIMPLE Visual Fixes It | ExamAdda",
+      "creator": "ExamAdda Tech",
+      "url": "https://www.youtube.com/watch?v=GLbFNtE__ec",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Forget Tree Traversal Orders? This SIMPLE Visual Fixes It | ExamAdda - Complete guide by ExamAdda Tech.",
+      "year": 2024
+    },
+    {
+      "title": "Binary Tree Diameter (Python) — One-DFS Depth Trick (3m)",
+      "creator": "DevPrep Daily",
+      "url": "https://www.youtube.com/watch?v=K07hcrMgrIA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Binary Tree Diameter (Python) — One-DFS Depth Trick (3m) - Complete guide by DevPrep Daily.",
+      "year": 2024
+    },
+    {
+      "title": "LeetCode 236 - Lowest Common Ancestor of a Binary Tree | Python | Visually Explained",
+      "creator": "Hello Byte",
+      "url": "https://www.youtube.com/watch?v=BTBdGf0WbN8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "LeetCode 236 - Lowest Common Ancestor of a Binary Tree | Python | Visually Explained - Complete guide by Hello Byte.",
+      "year": 2024
+    },
+    {
+      "title": "insertion in Binary Search Tree | #shorts #dsa #datastructure #cse #tree #csit #computerscience",
+      "creator": "Visualcoders",
+      "url": "https://www.youtube.com/watch?v=A-JHpMyPHCs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "insertion in Binary Search Tree | #shorts #dsa #datastructure #cse #tree #csit #computerscience - Complete guide by Visualcoders.",
+      "year": 2024
+    },
+    {
+      "title": "How to create a binary tree #dsa #placement #google #interview #interviewready",
+      "creator": "Code Memory ",
+      "url": "https://www.youtube.com/watch?v=4cOr7VbTv0U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to create a binary tree #dsa #placement #google #interview #interviewready - Complete guide by Code Memory .",
+      "year": 2024
+    },
+    {
+      "title": "Binary Tree Level Order Traversal | BFS + Queue | DSA for Beginners  #codingforbeginners #dsa",
+      "creator": "Dinke4Leetcode",
+      "url": "https://www.youtube.com/watch?v=yf3-zfQb2yQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Binary Tree Level Order Traversal | BFS + Queue | DSA for Beginners  #codingforbeginners #dsa - Complete guide by Dinke4Leetcode.",
+      "year": 2024
+    },
+    {
+      "title": "BFS for Binary Trees - Level Order Traversal Leetcode 102",
+      "creator": "Greg Hogg",
+      "url": "https://www.youtube.com/watch?v=OdJQ2MIcRiA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "BFS for Binary Trees - Level Order Traversal Leetcode 102 - Complete guide by Greg Hogg.",
+      "year": 2024
+    },
+    {
+      "title": "Big-O Notation - For Coding Interviews",
+      "creator": "NeetCode",
+      "url": "https://www.youtube.com/watch?v=BgLTDT03QtU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Big-O Notation - For Coding Interviews - Complete guide by NeetCode.",
+      "year": 2024
+    },
+    {
+      "title": "Announcing the FREE ka TREE SERIES  #shorts",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/watch?v=OYqYEM1bMK8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Announcing the FREE ka TREE SERIES  #shorts - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "Binary Search Tree: Traversal & Height - Beau teaches JavaScript",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=Aagf3RyK3Lw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Binary Search Tree: Traversal & Height - Beau teaches JavaScript - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "How to Create a Binary Search Tree in Python..",
+      "creator": "PrograMind",
+      "url": "https://www.youtube.com/watch?v=Ti4Wyoew7ks",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Create a Binary Search Tree in Python.. - Complete guide by PrograMind.",
+      "year": 2024
+    },
+    {
+      "title": "The most efficient way to check for subtrees #coding #python #algorithms",
+      "creator": "Systems Architecture Hub",
+      "url": "https://www.youtube.com/watch?v=HDXa3YWN4E0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The most efficient way to check for subtrees #coding #python #algorithms - Complete guide by Systems Architecture Hub.",
+      "year": 2024
+    },
+    {
+      "title": "Binary Trees in One Shot | Complete DSA in Java for Beginners",
+      "creator": "College Wallah",
+      "url": "https://www.youtube.com/watch?v=ThQ7dGtBdAE",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Binary Trees in One Shot | Complete DSA in Java for Beginners - Complete guide by College Wallah.",
+      "year": 2024
+    },
+    {
+      "title": "Learn Binary search trees in 20 minutes 🔍",
+      "creator": "Bro Code",
+      "url": "https://www.youtube.com/watch?v=Gt2yBZAhsGM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn Binary search trees in 20 minutes 🔍 - Complete guide by Bro Code.",
+      "year": 2024
+    },
+    {
+      "title": "Binary Tree and Binary Search Tree in Python | DSA in Python for Beginners | Lecture 8",
+      "creator": "College Wallah",
+      "url": "https://www.youtube.com/watch?v=W2WQBT8qu3Q",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Binary Tree and Binary Search Tree in Python | DSA in Python for Beginners | Lecture 8 - Complete guide by College Wallah.",
+      "year": 2024
+    },
+    {
+      "title": "Two Sum - Leetcode 1 - HashMap - Python",
+      "creator": "NeetCode",
+      "url": "https://www.youtube.com/watch?v=KLlXCFG5TnA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Two Sum - Leetcode 1 - HashMap - Python - Complete guide by NeetCode.",
+      "year": 2024
+    },
+    {
+      "title": "NeetCode vs Grind 75 vs Blind 75: Which DSA Sheet Should You Follow?",
+      "creator": "Intervue",
+      "url": "https://www.youtube.com/watch?v=dKiUK0_TZYU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "NeetCode vs Grind 75 vs Blind 75: Which DSA Sheet Should You Follow? - Complete guide by Intervue.",
+      "year": 2024
+    },
+    {
+      "title": "Sliding Window: Best Time to Buy and Sell Stock - Leetcode 121 - Python",
+      "creator": "NeetCode",
+      "url": "https://www.youtube.com/watch?v=1pkOgXD63yU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Sliding Window: Best Time to Buy and Sell Stock - Leetcode 121 - Python - Complete guide by NeetCode.",
+      "year": 2024
+    },
+    {
+      "title": "Blind 75 #06: Maximum Product Subarray | LeetCode Interview Prep",
+      "creator": "Elite Solutions",
+      "url": "https://www.youtube.com/watch?v=a_rwWb1CU04",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Blind 75 #06: Maximum Product Subarray | LeetCode Interview Prep - Complete guide by Elite Solutions.",
+      "year": 2024
+    },
+    {
+      "title": "His LeetCode Study Method is INSANE",
+      "creator": "Coding Jesus (getcracked.io)",
+      "url": "https://www.youtube.com/watch?v=KGcpSF_zB0U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "His LeetCode Study Method is INSANE - Complete guide by Coding Jesus (getcracked.io).",
+      "year": 2024
+    },
+    {
+      "title": "What is Blind 75?",
+      "creator": "Ladderly",
+      "url": "https://www.youtube.com/watch?v=SH2HPLCIoAM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What is Blind 75? - Complete guide by Ladderly.",
+      "year": 2024
+    },
+    {
+      "title": "How I would learn Leetcode if I could start over",
+      "creator": "NeetCodeIO",
+      "url": "https://www.youtube.com/watch?v=aHZW7TuY_yo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How I would learn Leetcode if I could start over - Complete guide by NeetCodeIO.",
+      "year": 2024
+    },
+    {
+      "title": "Yes, I was also Bad at LeetCode",
+      "creator": "NeetCodeIO",
+      "url": "https://www.youtube.com/watch?v=08UFXI1YT6U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Yes, I was also Bad at LeetCode - Complete guide by NeetCodeIO.",
+      "year": 2024
+    },
+    {
+      "title": "Valid Anagram - Leetcode 242 - Python",
+      "creator": "NeetCode",
+      "url": "https://www.youtube.com/watch?v=9UtInBqnCgA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Valid Anagram - Leetcode 242 - Python - Complete guide by NeetCode.",
+      "year": 2024
+    },
+    {
+      "title": "Blind 75 #05: Maximum Subarray | LeetCode Interview Prep",
+      "creator": "Elite Solutions",
+      "url": "https://www.youtube.com/watch?v=MJ_gejTRXRM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Blind 75 #05: Maximum Subarray | LeetCode Interview Prep - Complete guide by Elite Solutions.",
+      "year": 2024
+    },
+    {
+      "title": "Contains Duplicate - Leetcode 217 - Python",
+      "creator": "NeetCode",
+      "url": "https://www.youtube.com/watch?v=3OamzN90kPg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Contains Duplicate - Leetcode 217 - Python - Complete guide by NeetCode.",
+      "year": 2024
+    },
+    {
+      "title": "Please don't use VSCode",
+      "creator": "NeetCodeIO",
+      "url": "https://www.youtube.com/watch?v=AEkA_5K8sh4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Please don't use VSCode - Complete guide by NeetCodeIO.",
+      "year": 2024
+    },
+    {
+      "title": "Blind 75 Leetcode Problems For Interviews  #softwaredeveloper #codinginterview",
+      "creator": "Tarun Khandagare",
+      "url": "https://www.youtube.com/watch?v=3T9UKx0JZ04",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Blind 75 Leetcode Problems For Interviews  #softwaredeveloper #codinginterview - Complete guide by Tarun Khandagare.",
+      "year": 2024
+    },
+    {
+      "title": "Stop Grinding LeetCode. Do This Instead.",
+      "creator": "Kevin Naughton Jr.",
+      "url": "https://www.youtube.com/watch?v=CE-j42lrLX4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Stop Grinding LeetCode. Do This Instead. - Complete guide by Kevin Naughton Jr..",
+      "year": 2024
+    },
+    {
+      "title": "These 75 Questions Keep Repeating in Coding Interviews | Blind 75 LeetCode 🚀#dsa #tech #explorepage",
+      "creator": "Anjalisharma0s ",
+      "url": "https://www.youtube.com/watch?v=J77eJ0X3EaQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "These 75 Questions Keep Repeating in Coding Interviews | Blind 75 LeetCode 🚀#dsa #tech #explorepage - Complete guide by Anjalisharma0s .",
+      "year": 2024
+    },
+    {
+      "title": "LeetCode 70: Climbing Stairs Is Just Fibonacci",
+      "creator": "Curious Vector",
+      "url": "https://www.youtube.com/watch?v=h_DodSFAzog",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "LeetCode 70: Climbing Stairs Is Just Fibonacci - Complete guide by Curious Vector.",
+      "year": 2024
+    },
+    {
+      "title": "7.1 Find Minimum in Rotated Sorted Array | Blind 75",
+      "creator": "algo_wefx",
+      "url": "https://www.youtube.com/watch?v=NdGux8bgT0Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "7.1 Find Minimum in Rotated Sorted Array | Blind 75 - Complete guide by algo_wefx.",
+      "year": 2024
+    },
+    {
+      "title": "Blind 75 #04: Product of Array Except Self | LeetCode Interview Prep",
+      "creator": "Elite Solutions",
+      "url": "https://www.youtube.com/watch?v=opK6Wum0rEw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Blind 75 #04: Product of Array Except Self | LeetCode Interview Prep - Complete guide by Elite Solutions.",
+      "year": 2024
+    },
+    {
+      "title": "Day 2: Leetcode Blind 75 Problem Solving Challenge #Leetcode75Hard",
+      "creator": "The Engineer Guy 2.0",
+      "url": "https://www.youtube.com/watch?v=ALlonMGCPPg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Day 2: Leetcode Blind 75 Problem Solving Challenge #Leetcode75Hard - Complete guide by The Engineer Guy 2.0.",
+      "year": 2024
+    },
+    {
+      "title": "The LeetCode grind, as a sea shanty 🏴‍☠️ #shorts",
+      "creator": "OneTapApply",
+      "url": "https://www.youtube.com/watch?v=m-gIAJPS_58",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The LeetCode grind, as a sea shanty 🏴‍☠️ #shorts - Complete guide by OneTapApply.",
+      "year": 2024
+    },
+    {
+      "title": "Coding interviews have gotten Harder",
+      "creator": "NeetCodeIO",
+      "url": "https://www.youtube.com/watch?v=woxnhw72oWI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Coding interviews have gotten Harder - Complete guide by NeetCodeIO.",
+      "year": 2024
+    },
+    {
+      "title": "Day 1: Leetcode Blind 75 Problem Solving Challenge #Leetcode75Hard",
+      "creator": "The Engineer Guy 2.0",
+      "url": "https://www.youtube.com/watch?v=q5WZsb142rc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Day 1: Leetcode Blind 75 Problem Solving Challenge #Leetcode75Hard - Complete guide by The Engineer Guy 2.0.",
+      "year": 2024
+    },
+    {
+      "title": "LeetCode 75 Sort Colors: Famous Interview Question, Dutch Flag Trick (Hindi) #shorts",
+      "creator": "CrackSDE",
+      "url": "https://www.youtube.com/watch?v=Bz0nMAN-GCg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "LeetCode 75 Sort Colors: Famous Interview Question, Dutch Flag Trick (Hindi) #shorts - Complete guide by CrackSDE.",
+      "year": 2024
+    },
+    {
+      "title": "8.1 Search in Rotated Sorted Array | Blind 75",
+      "creator": "algo_wefx",
+      "url": "https://www.youtube.com/watch?v=RfvcvX2Vvsw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "8.1 Search in Rotated Sorted Array | Blind 75 - Complete guide by algo_wefx.",
+      "year": 2024
+    },
+    {
+      "title": "🔥 Blind 75 – Day 5 problem#leetcode #dsa #coding #java #placements #faang #programming #developers",
+      "creator": "code_with_chinnu",
+      "url": "https://www.youtube.com/watch?v=N3RdlXxguqM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🔥 Blind 75 – Day 5 problem#leetcode #dsa #coding #java #placements #faang #programming #developers - Complete guide by code_with_chinnu.",
+      "year": 2024
+    },
+    {
+      "title": "LeetCode Roadmap",
+      "creator": "NeetCodeIO",
+      "url": "https://www.youtube.com/watch?v=6OTddCfpCDo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "LeetCode Roadmap - Complete guide by NeetCodeIO.",
+      "year": 2024
+    },
+    {
+      "title": "Blind 75 #03: Contains Duplicate | LeetCode Interview Prep",
+      "creator": "Elite Solutions",
+      "url": "https://www.youtube.com/watch?v=0IMkMSTkrOE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Blind 75 #03: Contains Duplicate | LeetCode Interview Prep - Complete guide by Elite Solutions.",
+      "year": 2024
+    },
+    {
+      "title": "5.2 Maximum Subarray | Blind 75",
+      "creator": "algo_wefx",
+      "url": "https://www.youtube.com/watch?v=zm3aP3hQUgQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "5.2 Maximum Subarray | Blind 75 - Complete guide by algo_wefx.",
+      "year": 2024
+    },
+    {
+      "title": "LeetCode Is Dead at Top AI Companies 💀 #coding  #ai",
+      "creator": "Abhishek Garg",
+      "url": "https://www.youtube.com/watch?v=kxGbe216R0A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "LeetCode Is Dead at Top AI Companies 💀 #coding  #ai - Complete guide by Abhishek Garg.",
+      "year": 2024
+    },
+    {
+      "title": "BLIND 75 SHEET DSA PROBLEM THAT EVERYONE MUST SOLVE #python #dsa #motivation #javascript #success",
+      "creator": "learnwithmonk",
+      "url": "https://www.youtube.com/watch?v=YU13rS5yLmw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "BLIND 75 SHEET DSA PROBLEM THAT EVERYONE MUST SOLVE #python #dsa #motivation #javascript #success - Complete guide by learnwithmonk.",
+      "year": 2024
+    },
+    {
+      "title": "Neetcode 150 Course - All Coding Interview Questions Solved",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=T0u5nwSA0w0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Neetcode 150 Course - All Coding Interview Questions Solved - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Leetcode - The Path to Enlightenment",
+      "creator": "NeetCodeIO",
+      "url": "https://www.youtube.com/watch?v=VHZDxOmRthE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Leetcode - The Path to Enlightenment - Complete guide by NeetCodeIO.",
+      "year": 2024
+    },
+    {
+      "title": "Blind 75 LeetCode Java | Full Coding Interview Course",
+      "creator": "Destination Engineer (Formally Destination FAANG)",
+      "url": "https://www.youtube.com/watch?v=PieZjz2Pyhw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Blind 75 LeetCode Java | Full Coding Interview Course - Complete guide by Destination Engineer (Formally Destination FAANG).",
+      "year": 2024
+    },
+    {
+      "title": "Most Common Concepts for Coding Interviews",
+      "creator": "NeetCode",
+      "url": "https://www.youtube.com/watch?v=UrcwDOEBzZE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Most Common Concepts for Coding Interviews - Complete guide by NeetCode.",
+      "year": 2024
+    },
+    {
+      "title": "Learning LeetCode Live... NeetCode Blind 75.. (Revision)",
+      "creator": "Abhimanyu",
+      "url": "https://www.youtube.com/watch?v=eOoaUafmXZE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learning LeetCode Live... NeetCode Blind 75.. (Revision) - Complete guide by Abhimanyu.",
+      "year": 2024
+    },
+    {
+      "title": "Neetcode Blind 75 Problem List",
+      "creator": "avalanche breakdown",
+      "url": "https://www.youtube.com/watch?v=Xce2vrcoFSs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Neetcode Blind 75 Problem List - Complete guide by avalanche breakdown.",
+      "year": 2024
+    },
+    {
+      "title": "NeetCode 150 Part 1 | Coding Interview Problems Explained",
+      "creator": "Destination Engineer (Formally Destination FAANG)",
+      "url": "https://www.youtube.com/watch?v=3-mZwU87Ttw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "NeetCode 150 Part 1 | Coding Interview Problems Explained - Complete guide by Destination Engineer (Formally Destination FAANG).",
+      "year": 2024
+    },
+    {
+      "title": "1  Two Sum: (Leetcode Easy in Hindi)",
+      "creator": "DSA & AI by Aman Shekhar",
+      "url": "https://www.youtube.com/watch?v=2bW19siSQ-g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1  Two Sum: (Leetcode Easy in Hindi) - Complete guide by DSA & AI by Aman Shekhar.",
+      "year": 2024
+    },
+    {
+      "title": "NeetCode Blind 75 – Contains Duplicate | Easy Python Solution (Explained)",
+      "creator": "AishTech",
+      "url": "https://www.youtube.com/watch?v=N9dvSQ3Wy6U",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "NeetCode Blind 75 – Contains Duplicate | Easy Python Solution (Explained) - Complete guide by AishTech.",
+      "year": 2024
+    },
+    {
+      "title": "10  Counting Bits : (Leetcode Easy in Hindi)",
+      "creator": "DSA & AI by Aman Shekhar",
+      "url": "https://www.youtube.com/watch?v=ndLu-4QJxl0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "10  Counting Bits : (Leetcode Easy in Hindi) - Complete guide by DSA & AI by Aman Shekhar.",
+      "year": 2024
+    },
+    {
+      "title": "Top 6 Coding Interview Concepts (Data Structures & Algorithms)",
+      "creator": "NeetCode",
+      "url": "https://www.youtube.com/watch?v=ft0owvS5tQA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top 6 Coding Interview Concepts (Data Structures & Algorithms) - Complete guide by NeetCode.",
+      "year": 2024
+    },
+    {
+      "title": "Learning LeetCode Live... NeetCode Blind 75.. (stack)",
+      "creator": "Abhimanyu",
+      "url": "https://www.youtube.com/watch?v=KU33HQyvqvE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learning LeetCode Live... NeetCode Blind 75.. (stack) - Complete guide by Abhimanyu.",
+      "year": 2024
+    },
+    {
+      "title": "Master Technical Interviews – Full Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=-LVmKNvflnY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Master Technical Interviews – Full Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Top 10 Javascript Algorithms to Prepare for Coding Interviews",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=ufBbWIyKY2E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top 10 Javascript Algorithms to Prepare for Coding Interviews - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "The *secret* to coding Interviews 🤫",
+      "creator": "Alberta Tech",
+      "url": "https://www.youtube.com/watch?v=zVMai5l1gWg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The *secret* to coding Interviews 🤫 - Complete guide by Alberta Tech.",
+      "year": 2024
+    },
+    {
+      "title": "MASTER your coding interview",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=iAHQopLuZ4Q",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "MASTER your coding interview - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Python Algorithms for Interviews",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=p65AHm9MX80",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Python Algorithms for Interviews - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Coding interviews in 2024 (*realistic*)",
+      "creator": "Alberta Tech",
+      "url": "https://www.youtube.com/watch?v=5UGnvrx44rQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Coding interviews in 2024 (*realistic*) - Complete guide by Alberta Tech.",
+      "year": 2024
+    },
+    {
+      "title": "Greedy Algorithms Tutorial – Solve Coding Challenges",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=bC7o8P_Ste4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Greedy Algorithms Tutorial – Solve Coding Challenges - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "9 FREE Resources to Crack Coding Interviews 🚀 | DSA Roadmap for Beginners #coding #codinglife",
+      "creator": "Shivansh Mishra",
+      "url": "https://www.youtube.com/watch?v=k3Xfx346ieM",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "9 FREE Resources to Crack Coding Interviews 🚀 | DSA Roadmap for Beginners #coding #codinglife - Complete guide by Shivansh Mishra.",
+      "year": 2024
+    },
+    {
+      "title": "Most Asked Array Rotation Interview Question 🔥 #shorts",
+      "creator": "Praneeta Bisen",
+      "url": "https://www.youtube.com/watch?v=14AqbPXexzU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Most Asked Array Rotation Interview Question 🔥 #shorts - Complete guide by Praneeta Bisen.",
+      "year": 2024
+    },
+    {
+      "title": "Top 5 Free Websites to Master Coding Challenges in 2025!",
+      "creator": "Study with Focus",
+      "url": "https://www.youtube.com/watch?v=qtzFQwDvXH4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Top 5 Free Websites to Master Coding Challenges in 2025! - Complete guide by Study with Focus.",
+      "year": 2024
+    },
+    {
+      "title": "Crack Coding Interviews | Find Duplicates in Array | #shorts",
+      "creator": "Praneeta Bisen",
+      "url": "https://www.youtube.com/watch?v=63tcy1IS84I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Crack Coding Interviews | Find Duplicates in Array | #shorts - Complete guide by Praneeta Bisen.",
+      "year": 2024
+    },
+    {
+      "title": "LeetCode may be frustrating, but it all comes down to the core concept: DSA.",
+      "creator": "freeCodeCamp Shorts",
+      "url": "https://www.youtube.com/watch?v=qdM5E1GV5uE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "LeetCode may be frustrating, but it all comes down to the core concept: DSA. - Complete guide by freeCodeCamp Shorts.",
+      "year": 2024
+    },
+    {
+      "title": "🔥 Top 5 DSA Patterns Every Student Must Know for Coding Interviews  #javabydeepak #datastructures",
+      "creator": "Smart Programming",
+      "url": "https://www.youtube.com/watch?v=KSJ7P5uWF3g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🔥 Top 5 DSA Patterns Every Student Must Know for Coding Interviews  #javabydeepak #datastructures - Complete guide by Smart Programming.",
+      "year": 2024
+    },
+    {
+      "title": "coding interviews need this 😭  #coding #developer #leetcode #interviewtips",
+      "creator": "Dami Reyes",
+      "url": "https://www.youtube.com/watch?v=yBHNV23wI68",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "coding interviews need this 😭  #coding #developer #leetcode #interviewtips - Complete guide by Dami Reyes.",
+      "year": 2024
+    },
+    {
+      "title": "how the PROS solve leetcode and technical interview problems!",
+      "creator": "Sajjaad Khader",
+      "url": "https://www.youtube.com/watch?v=S2jFi9Pfg-o",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "how the PROS solve leetcode and technical interview problems! - Complete guide by Sajjaad Khader.",
+      "year": 2024
+    },
+    {
+      "title": "Most asked interview questions #coding #interview #reactjs #trending #viral @freecodecamp",
+      "creator": "Diksha Codes",
+      "url": "https://www.youtube.com/watch?v=kuBx6d_C1SA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Most asked interview questions #coding #interview #reactjs #trending #viral @freecodecamp - Complete guide by Diksha Codes.",
+      "year": 2024
+    },
+    {
+      "title": "subscribe for more  !!",
+      "creator": "CS with Arjun",
+      "url": "https://www.youtube.com/watch?v=R0ZP1ZdrzUQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "subscribe for more  !! - Complete guide by CS with Arjun.",
+      "year": 2024
+    },
+    {
+      "title": "🔥Frequently Asked Algorithms in FAANG Interviews | Crack Your Coding Round! #shorts #simplilearn",
+      "creator": "Simplilearn",
+      "url": "https://www.youtube.com/watch?v=lvGrAPO8d8Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🔥Frequently Asked Algorithms in FAANG Interviews | Crack Your Coding Round! #shorts #simplilearn - Complete guide by Simplilearn.",
+      "year": 2024
+    },
+    {
+      "title": "Day 13 of My 100 days of Leetcode Journey. NeetCode Java Apna College FreeCodeCamp AI DSA #coding",
+      "creator": "A Software Developer ",
+      "url": "https://www.youtube.com/watch?v=YHMloAePHzM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Day 13 of My 100 days of Leetcode Journey. NeetCode Java Apna College FreeCodeCamp AI DSA #coding - Complete guide by A Software Developer .",
+      "year": 2024
+    },
+    {
+      "title": "Freecodecamp Courses | Learn to Code",
+      "creator": "Techackode ",
+      "url": "https://www.youtube.com/watch?v=hqW0KnMQ8Ec",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Freecodecamp Courses | Learn to Code - Complete guide by Techackode .",
+      "year": 2024
+    },
+    {
+      "title": "#freecodecamp #tutorial #udemy #coursera #techcareer #softwarejobs #jobinterview #remotework #for",
+      "creator": "Dlganix",
+      "url": "https://www.youtube.com/watch?v=L6b7TFCBH-E",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "#freecodecamp #tutorial #udemy #coursera #techcareer #softwarejobs #jobinterview #remotework #for - Complete guide by Dlganix.",
+      "year": 2024
+    },
+    {
+      "title": "Understanding == vs === in JavaScript | Front End Interview Questions Shorts",
+      "creator": "CodeCrafters",
+      "url": "https://www.youtube.com/watch?v=jKsjFmdYEhk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Understanding == vs === in JavaScript | Front End Interview Questions Shorts - Complete guide by CodeCrafters.",
+      "year": 2024
+    },
+    {
+      "title": "10 Common Coding Interview Problems - Solved!",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=Peq4GCPNC5c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "10 Common Coding Interview Problems - Solved! - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "practice coding with these websites #coding",
+      "creator": "Tech with Ramjan",
+      "url": "https://www.youtube.com/watch?v=c18ra4sKW-k",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "practice coding with these websites #coding - Complete guide by Tech with Ramjan.",
+      "year": 2024
+    },
+    {
+      "title": "Deep Learning Interview Prep Course",
+      "creator": "freeCodeCamp.org",
+      "url": "https://www.youtube.com/watch?v=BAregq0sdyY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Deep Learning Interview Prep Course - Complete guide by freeCodeCamp.org.",
+      "year": 2024
+    },
+    {
+      "title": "Data Structures and Algorithms using Python | Full Course | DSA in Python in 1 video",
+      "creator": "Coding With Sagar",
+      "url": "https://www.youtube.com/watch?v=mj4kU-XDI3I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data Structures and Algorithms using Python | Full Course | DSA in Python in 1 video - Complete guide by Coding With Sagar.",
+      "year": 2024
+    },
+    {
+      "title": "Let's Solve This Leetcode Coding Interview Question - JavaScript Interviews",
+      "creator": "Cybernatico",
+      "url": "https://www.youtube.com/watch?v=ltK_DbiQb_I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Let's Solve This Leetcode Coding Interview Question - JavaScript Interviews - Complete guide by Cybernatico.",
+      "year": 2024
+    },
+    {
+      "title": "Data structures introduction",
+      "creator": "WilliamFiset",
+      "url": "https://www.youtube.com/watch?v=Qmt0QwzEmh0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data structures introduction - Complete guide by WilliamFiset.",
+      "year": 2024
+    },
+    {
+      "title": "Binary Tree Practice Roadmap and Detailed Lecture By Raghav Sir !! #binarytrees #dsa",
+      "creator": "College Wallah",
+      "url": "https://www.youtube.com/watch?v=YeXrCdGN0Lc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Binary Tree Practice Roadmap and Detailed Lecture By Raghav Sir !! #binarytrees #dsa - Complete guide by College Wallah.",
+      "year": 2024
+    },
+    {
+      "title": "Longest Common Prefix (LCP) array",
+      "creator": "WilliamFiset",
+      "url": "https://www.youtube.com/watch?v=53VIWj8ksyI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Longest Common Prefix (LCP) array - Complete guide by WilliamFiset.",
+      "year": 2024
+    },
+    {
+      "title": "Binary Search Tree Introduction",
+      "creator": "WilliamFiset",
+      "url": "https://www.youtube.com/watch?v=JfSdGQdAzq8",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Binary Search Tree Introduction - Complete guide by WilliamFiset.",
+      "year": 2024
+    },
+    {
+      "title": "Binary Search Tree Insertion",
+      "creator": "WilliamFiset",
+      "url": "https://www.youtube.com/watch?v=LwpLXm3eb6A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Binary Search Tree Insertion - Complete guide by WilliamFiset.",
+      "year": 2024
+    },
+    {
+      "title": "Suffix array introduction",
+      "creator": "WilliamFiset",
+      "url": "https://www.youtube.com/watch?v=zqKlL3ZpTqs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Suffix array introduction - Complete guide by WilliamFiset.",
+      "year": 2024
+    },
+    {
+      "title": "Abstract data types",
+      "creator": "WilliamFiset",
+      "url": "https://www.youtube.com/watch?v=2USMAwcRWHE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Abstract data types - Complete guide by WilliamFiset.",
+      "year": 2024
+    },
+    {
+      "title": "Magic Cows | Dynamic Programming | Adhoc | Interview problem",
+      "creator": "WilliamFiset",
+      "url": "https://www.youtube.com/watch?v=_tur2nPkIKo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Magic Cows | Dynamic Programming | Adhoc | Interview problem - Complete guide by WilliamFiset.",
+      "year": 2024
+    },
+    {
+      "title": "1.1 Arrays in Data Structure | Declaration, Initialization, Memory representation",
+      "creator": "Jenny's Lectures CS IT",
+      "url": "https://www.youtube.com/watch?v=AT14lCXuMKI",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1.1 Arrays in Data Structure | Declaration, Initialization, Memory representation - Complete guide by Jenny's Lectures CS IT.",
+      "year": 2024
+    },
+    {
+      "title": "Time Complexity and Big O Notation (with notes)",
+      "creator": "CodeWithHarry",
+      "url": "https://www.youtube.com/watch?v=vgSKOMsjLbc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Time Complexity and Big O Notation (with notes) - Complete guide by CodeWithHarry.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Data Structures & Algorithms",
+      "creator": "CodeWithHarry",
+      "url": "https://www.youtube.com/watch?v=5_5oE5lgrhw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to Data Structures & Algorithms - Complete guide by CodeWithHarry.",
+      "year": 2024
+    },
+    {
+      "title": "1.2 Array Operations - Traversal, Insertion | Explanation with C Program | DSA Course",
+      "creator": "Jenny's Lectures CS IT",
+      "url": "https://www.youtube.com/watch?v=Bnjbun-hiBk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1.2 Array Operations - Traversal, Insertion | Explanation with C Program | DSA Course - Complete guide by Jenny's Lectures CS IT.",
+      "year": 2024
+    },
+    {
+      "title": "Tiling problems [1/2] | Dynamic Programming",
+      "creator": "WilliamFiset",
+      "url": "https://www.youtube.com/watch?v=gQszF5qdZ-0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Tiling problems [1/2] | Dynamic Programming - Complete guide by WilliamFiset.",
+      "year": 2024
+    },
+    {
+      "title": "Learn DSA with These Resources 📚",
+      "creator": "GradByte",
+      "url": "https://www.youtube.com/watch?v=_C4bv201qVY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Learn DSA with These Resources 📚 - Complete guide by GradByte.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to tree algorithms | Graph Theory",
+      "creator": "WilliamFiset",
+      "url": "https://www.youtube.com/watch?v=1XC3p2zBK34",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Introduction to tree algorithms | Graph Theory - Complete guide by WilliamFiset.",
+      "year": 2024
+    },
+    {
+      "title": "The DSA Questions That Actually Get You Hired  #microsoft #coding #datastructures #fyp  #interview",
+      "creator": "Waris Chugh",
+      "url": "https://www.youtube.com/watch?v=wrUdmv3St9Y",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "The DSA Questions That Actually Get You Hired  #microsoft #coding #datastructures #fyp  #interview - Complete guide by Waris Chugh.",
+      "year": 2024
+    },
+    {
+      "title": "Beginner tree algorithms | Graph Theory",
+      "creator": "WilliamFiset",
+      "url": "https://www.youtube.com/watch?v=0qgaIMqOEVs",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Beginner tree algorithms | Graph Theory - Complete guide by WilliamFiset.",
+      "year": 2024
+    },
+    {
+      "title": "Best DSA Playlist on YouTube 🔥 | Best Dsa course | Best Playlist for DSA on Youtube",
+      "creator": "College Buddy",
+      "url": "https://www.youtube.com/watch?v=L1ScylhIECY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Best DSA Playlist on YouTube 🔥 | Best Dsa course | Best Playlist for DSA on Youtube - Complete guide by College Buddy.",
+      "year": 2024
+    },
+    {
+      "title": "Best YouTube Channels for DSA 🔥✨ | DSA Free Resources | #shorts #short #lmt",
+      "creator": "Last moment tuitions",
+      "url": "https://www.youtube.com/watch?v=spk0xYw6Svk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Best YouTube Channels for DSA 🔥✨ | DSA Free Resources | #shorts #short #lmt - Complete guide by Last moment tuitions.",
+      "year": 2024
+    },
+    {
+      "title": "Bubble Sort Algorithm in Python | Step-by-Step DSA Animation",
+      "creator": "LogicLoop Labs",
+      "url": "https://www.youtube.com/watch?v=sZRIFXedvxc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Bubble Sort Algorithm in Python | Step-by-Step DSA Animation - Complete guide by LogicLoop Labs.",
+      "year": 2024
+    },
+    {
+      "title": "Master DSA Playlists on YouTube  || Data Structures and algorithms #dsa #algorithm #datastructures",
+      "creator": "Code with Patel",
+      "url": "https://www.youtube.com/watch?v=eZolmvwSYkE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Master DSA Playlists on YouTube  || Data Structures and algorithms #dsa #algorithm #datastructures - Complete guide by Code with Patel.",
+      "year": 2024
+    },
+    {
+      "title": "Don't Start With Data Structures and Algorithm Before You Watch This | DSA Quick Guide | #shorts",
+      "creator": "SCALER",
+      "url": "https://www.youtube.com/watch?v=oybFmYrZSjQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Don't Start With Data Structures and Algorithm Before You Watch This | DSA Quick Guide | #shorts - Complete guide by SCALER.",
+      "year": 2024
+    },
+    {
+      "title": "Ultimate DSA Course from Basic to Mastery | Roadmap & Launching Soon 🚀",
+      "creator": "technik von indra",
+      "url": "https://www.youtube.com/watch?v=NrxEYAoGehE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Ultimate DSA Course from Basic to Mastery | Roadmap & Launching Soon 🚀 - Complete guide by technik von indra.",
+      "year": 2024
+    },
+    {
+      "title": "How Data Structures Actually Work",
+      "creator": "knowpop_tv",
+      "url": "https://www.youtube.com/watch?v=zC_uEquJrx0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How Data Structures Actually Work - Complete guide by knowpop_tv.",
+      "year": 2024
+    },
+    {
+      "title": "Coding🔴Master Data Structure Instantly🤯❤️",
+      "creator": "Curious Freaks",
+      "url": "https://www.youtube.com/watch?v=mnxwFfGU9B0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Coding🔴Master Data Structure Instantly🤯❤️ - Complete guide by Curious Freaks.",
+      "year": 2024
+    },
+    {
+      "title": "Is YouTube Enough for DSA? 🤔 Free DSA Playlist vs Structured Learning  #javadsa  #frontlinesedutech",
+      "creator": "Frontlines EduTech",
+      "url": "https://www.youtube.com/watch?v=lij3QQF-AOg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Is YouTube Enough for DSA? 🤔 Free DSA Playlist vs Structured Learning  #javadsa  #frontlinesedutech - Complete guide by Frontlines EduTech.",
+      "year": 2024
+    },
+    {
+      "title": "🚀 LINKED LIST EXPLAINED IN 30 SECONDS! | Data Structures & Algorithms #shorts  #dsa #education",
+      "creator": "Codenixa ",
+      "url": "https://www.youtube.com/watch?v=pTVcnNLM25c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "🚀 LINKED LIST EXPLAINED IN 30 SECONDS! | Data Structures & Algorithms #shorts  #dsa #education - Complete guide by Codenixa .",
+      "year": 2024
+    },
+    {
+      "title": "Coding 365 Series with Jacob 🚀",
+      "creator": "CodingWithJacob",
+      "url": "https://www.youtube.com/watch?v=BzJFM5czDSc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Coding 365 Series with Jacob 🚀 - Complete guide by CodingWithJacob.",
+      "year": 2024
+    },
+    {
+      "title": "Data Structure | Lecture 1 | Introduction of DS | Vishvadeep Gothi",
+      "creator": "Unacademy Computer Science",
+      "url": "https://www.youtube.com/watch?v=ibcGYcSewTs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data Structure | Lecture 1 | Introduction of DS | Vishvadeep Gothi - Complete guide by Unacademy Computer Science.",
+      "year": 2024
+    },
+    {
+      "title": "Linear Search Explained | Find Any Element Step by Step! #Shorts #algorithms #dsa #Linearsearch",
+      "creator": "AlgoRythm ",
+      "url": "https://www.youtube.com/watch?v=THd7uitd4A4",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Linear Search Explained | Find Any Element Step by Step! #Shorts #algorithms #dsa #Linearsearch - Complete guide by AlgoRythm .",
+      "year": 2024
+    },
+    {
+      "title": "Time & Space Complexity - Big O Notation - DSA Course in Python Lecture 1",
+      "creator": "Greg Hogg",
+      "url": "https://www.youtube.com/watch?v=aWKEBEg55ps",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Time & Space Complexity - Big O Notation - DSA Course in Python Lecture 1 - Complete guide by Greg Hogg.",
+      "year": 2024
+    },
+    {
+      "title": "Data Structure | Lecture-1 | Algorithm & Analysis of Algorithm | Vishvadeep Gothi",
+      "creator": "Unacademy Computer Science",
+      "url": "https://www.youtube.com/watch?v=a1pGmAJMj_I",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Data Structure | Lecture-1 | Algorithm & Analysis of Algorithm | Vishvadeep Gothi - Complete guide by Unacademy Computer Science.",
+      "year": 2024
+    },
+    {
+      "title": "Python Full Course For Beginners: Zero to Hero in 3 Hours",
+      "creator": "Greg Hogg",
+      "url": "https://www.youtube.com/watch?v=NakyjvSrTIQ",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 1,
+      "description": "Python Full Course For Beginners: Zero to Hero in 3 Hours - Complete guide by Greg Hogg.",
+      "year": 2024
+    },
+    {
+      "title": "1.1 Amortized Analysis | Introduction with Examples | Advanced Data Structures | Algorithms",
+      "creator": "Uzair Javed Akhtar",
+      "url": "https://www.youtube.com/watch?v=WIabUqbOFP0",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "1.1 Amortized Analysis | Introduction with Examples | Advanced Data Structures | Algorithms - Complete guide by Uzair Javed Akhtar.",
+      "year": 2024
+    },
+    {
+      "title": "L-1.1: Introduction to Algorithm & Syllabus Discussion for GATE/NET & Placements Preparation | DAA",
+      "creator": "Gate Smashers",
+      "url": "https://www.youtube.com/watch?v=u8JZ9gU5o4g",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "L-1.1: Introduction to Algorithm & Syllabus Discussion for GATE/NET & Placements Preparation | DAA - Complete guide by Gate Smashers.",
+      "year": 2024
+    },
+    {
+      "title": "What are Data Structures?",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=iZmDcfTtcNg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "What are Data Structures? - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Abstract Data Types | DSA",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/watch?v=wy0TPi9M7VM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "Abstract Data Types | DSA - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Algorithms by Abdul Bari",
+      "creator": "Code with Alleyanto",
+      "url": "https://www.youtube.com/playlist?list=PLEouKpnYLW8Gk4w7pe8F5J5UNNIkljZWn",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Algorithms by Abdul Bari - Complete guide by Code with Alleyanto.",
+      "year": 2024
+    },
+    {
+      "title": "DSA by Abdul Bari [using C and C++]",
+      "creator": "rish현",
+      "url": "https://www.youtube.com/playlist?list=PL03of0rPCur_NZ9Rr4w1a5RDMU2qegBQl",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "DSA by Abdul Bari [using C and C++] - Complete guide by rish현.",
+      "year": 2024
+    },
+    {
+      "title": "DSA - Abdul Bari",
+      "creator": "Will Massey",
+      "url": "https://www.youtube.com/playlist?list=PLAXnLdrLnQpRcveZTtD644gM9uzYqJCwr",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "DSA - Abdul Bari - Complete guide by Will Massey.",
+      "year": 2024
+    },
+    {
+      "title": "L-1.2: What is Algorithm | How to Analyze an Algorithm | Priori vs Posteriori Analysis | DAA",
+      "creator": "Gate Smashers",
+      "url": "https://www.youtube.com/watch?v=itbkP50iggM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "L-1.2: What is Algorithm | How to Analyze an Algorithm | Priori vs Posteriori Analysis | DAA - Complete guide by Gate Smashers.",
+      "year": 2024
+    },
+    {
+      "title": "[Abdul Bari] Learn Core Java Programming - Beginner to Master",
+      "creator": "Gate2Tech",
+      "url": "https://www.youtube.com/playlist?list=PLxoiCo5tGquAJrS9clf5vwo438N9XYDy4",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "[Abdul Bari] Learn Core Java Programming - Beginner to Master - Complete guide by Gate2Tech.",
+      "year": 2024
+    },
+    {
+      "title": "[Abdul Bari] Learn Core Java Programming - Beginner to Master",
+      "creator": "Hacktrickz",
+      "url": "https://www.youtube.com/playlist?list=PLsr8vTgyLdy-WNORNT1AkYpxJBCuk9mAd",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "[Abdul Bari] Learn Core Java Programming - Beginner to Master - Complete guide by Hacktrickz.",
+      "year": 2024
+    },
+    {
+      "title": "[Abdul Bari] Learn C++ Programming – Beginner to Advance | Full Course (Deep Dive in C++)",
+      "creator": "Hacktrickz",
+      "url": "https://www.youtube.com/playlist?list=PLsr8vTgyLdy-LdXfLYZeskO2ERvsjjbk7",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "[Abdul Bari] Learn C++ Programming – Beginner to Advance | Full Course (Deep Dive in C++) - Complete guide by Hacktrickz.",
+      "year": 2024
+    },
+    {
+      "title": "Graphs by Abdul Bari",
+      "creator": "Shubhanshu Kumar",
+      "url": "https://www.youtube.com/playlist?list=PLydVRO-Y2TQmxJvYFLQqv5tSTK7IAG0VF",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Graphs by Abdul Bari - Complete guide by Shubhanshu Kumar.",
+      "year": 2024
+    },
+    {
+      "title": "Dynamic Programming (DP) Abdul Bari",
+      "creator": "Rayyan Merchant",
+      "url": "https://www.youtube.com/playlist?list=PLJULIlvhz0rE83NKhnq7acXYIeA0o1dXb",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Dynamic Programming (DP) Abdul Bari - Complete guide by Rayyan Merchant.",
+      "year": 2024
+    },
+    {
+      "title": "Time Complexity (Abdul Bari)",
+      "creator": "Pirate King",
+      "url": "https://www.youtube.com/playlist?list=PLKEhaiVaGhXIBTDi4EKKQT7lomRtFqFSB",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Time Complexity (Abdul Bari) - Complete guide by Pirate King.",
+      "year": 2024
+    },
+    {
+      "title": "Back Tracking Abdul Bari",
+      "creator": "Divyansh",
+      "url": "https://www.youtube.com/playlist?list=PLGq9jf3A_hHCe2w7jmjKAUiyg_bfoGzH1",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Back Tracking Abdul Bari - Complete guide by Divyansh.",
+      "year": 2024
+    },
+    {
+      "title": "sorting by abdul bari",
+      "creator": "Abhiraj Jha",
+      "url": "https://www.youtube.com/playlist?list=PLh5y06Vy2PBsojg6zHyhD0bg132AHtYMN",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "sorting by abdul bari - Complete guide by Abhiraj Jha.",
+      "year": 2024
+    },
+    {
+      "title": "Greedy Algo Abdul bari",
+      "creator": "Devesh Singh",
+      "url": "https://www.youtube.com/playlist?list=PL8zDQ1C22qvvwdkPj1uXLpwzcYDJtjnze",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Greedy Algo Abdul bari - Complete guide by Devesh Singh.",
+      "year": 2024
+    },
+    {
+      "title": "DSA - Abdul Bari",
+      "creator": "Jonathan Blackwell",
+      "url": "https://www.youtube.com/playlist?list=PLfqBHhcvlW7-SOGCl7TJxZ4426qBCmCpc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "DSA - Abdul Bari - Complete guide by Jonathan Blackwell.",
+      "year": 2024
+    },
+    {
+      "title": "Data Structures And Algorithms In Python",
+      "creator": "codebasics",
+      "url": "https://www.youtube.com/playlist?list=PLeo1K3hjS3uu_n_a__MI_KktGTLYopZ12",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Data Structures And Algorithms In Python - Complete guide by codebasics.",
+      "year": 2024
+    },
+    {
+      "title": "Time Complexity Analysis | Abdul Bari",
+      "creator": "Byte Breakdown",
+      "url": "https://www.youtube.com/playlist?list=PLepRVAscJb6hLEJu77Y9jon8e8S4iUYAg",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Time Complexity Analysis | Abdul Bari - Complete guide by Byte Breakdown.",
+      "year": 2024
+    },
+    {
+      "title": "\"Algorithms and Data Structures Tutorial - Full Course for Beginners\" (freeCodeCamp.org), ...",
+      "creator": "flytome",
+      "url": "https://www.youtube.com/playlist?list=PLMSNxvR49560IniI3AMeNyf4m174vK4Mm",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "\"Algorithms and Data Structures Tutorial - Full Course for Beginners\" (freeCodeCamp.org), ... - Complete guide by flytome.",
+      "year": 2024
+    },
+    {
+      "title": "Reccurense Relations by Abdul Bari",
+      "creator": "V I R U S",
+      "url": "https://www.youtube.com/playlist?list=PLPGw-ZD97tXcoR1F6ZrjArSsv076IAo-L",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Reccurense Relations by Abdul Bari - Complete guide by V I R U S.",
+      "year": 2024
+    },
+    {
+      "title": "Dynamic Programming Playlist | Interview Questions | Recursion | Tabulation | Striver | C++ | Java | DSA | Placements",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/playlist?list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Dynamic Programming Playlist | Interview Questions | Recursion | Tabulation | Striver | C++ | Java | DSA | Placements - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "Dynamic Programming(DP) Course | Playlist",
+      "creator": "Luv",
+      "url": "https://www.youtube.com/playlist?list=PLauivoElc3gimdmLcIIpafEkzGs4tCQmi",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Dynamic Programming(DP) Course | Playlist - Complete guide by Luv.",
+      "year": 2024
+    },
+    {
+      "title": "Data Structures and Algorithms with Python | Free DSA with Python Course",
+      "creator": "Code and Debug",
+      "url": "https://www.youtube.com/playlist?list=PLhR2IpV1b2FwWwviBHRrR118YAaSlyhTU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Data Structures and Algorithms with Python | Free DSA with Python Course - Complete guide by Code and Debug.",
+      "year": 2024
+    },
+    {
+      "title": "'Dynamic Programming - Learn to Solve Algorithmic Problems & Coding Challenges' by freeCodeCamp.org",
+      "creator": "Emha667",
+      "url": "https://www.youtube.com/playlist?list=PLgGYrRWFWcBbIXONBMYMdXqXvCnPcbP0T",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "'Dynamic Programming - Learn to Solve Algorithmic Problems & Coding Challenges' by freeCodeCamp.org - Complete guide by Emha667.",
+      "year": 2024
+    },
+    {
+      "title": "MIT 6.006 Introduction to Algorithms, Spring 2020",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/playlist?list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "MIT 6.006 Introduction to Algorithms, Spring 2020 - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "'Dynamic Programming - Learn to Solve Algorithmic Problems & Coding Challenges' (freeCodeCamp.org) a",
+      "creator": "milkajunior",
+      "url": "https://www.youtube.com/playlist?list=PLJBLmpl1Kq4FWqAF6pq3b90lTlzwKOv1M",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "'Dynamic Programming - Learn to Solve Algorithmic Problems & Coding Challenges' (freeCodeCamp.org) a - Complete guide by milkajunior.",
+      "year": 2024
+    },
+    {
+      "title": "MIT 6.006 Introduction to Algorithms, Fall 2011",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "MIT 6.006 Introduction to Algorithms, Fall 2011 - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "MIT 6.006 Introduction to Algorithms, Fall 2011 - Lectures and Recitations in correct order",
+      "creator": "Efebur",
+      "url": "https://www.youtube.com/playlist?list=PLqWrBq3I1tCsMpuBFlyJ_WWj6v9ET60uZ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "MIT 6.006 Introduction to Algorithms, Fall 2011 - Lectures and Recitations in correct order - Complete guide by Efebur.",
+      "year": 2024
+    },
+    {
+      "title": "MIT 6.046J / 18.410J Introduction to Algorithms (SMA 5503),",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/playlist?list=PL8B24C31197EC371C",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "MIT 6.046J / 18.410J Introduction to Algorithms (SMA 5503), - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "MIT 6.100L Introduction to CS and Programming using Python, Fall 2022",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/playlist?list=PLUl4u3cNGP62A-ynp6v6-LGBCzeH3VAQB",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "MIT 6.100L Introduction to CS and Programming using Python, Fall 2022 - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "MIT 6.034 Artificial Intelligence, Fall 2010",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/playlist?list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "MIT 6.034 Artificial Intelligence, Fall 2010 - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "MIT 6.046J Design and Analysis of Algorithms, Spring 2015",
+      "creator": "MIT OpenCourseWare",
+      "url": "https://www.youtube.com/playlist?list=PLUl4u3cNGP6317WaSNfmCvGym2ucw3oGp",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "MIT 6.046J Design and Analysis of Algorithms, Spring 2015 - Complete guide by MIT OpenCourseWare.",
+      "year": 2024
+    },
+    {
+      "title": "MIT 6.006 Introduction to Algorithms, Spring 2020 - MIT OpenCourseWare  - English Version",
+      "creator": "Free Academy",
+      "url": "https://www.youtube.com/playlist?list=PLpXfHEl2fzl5TnW-VnU5oN83gWU_hBqCA",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "MIT 6.006 Introduction to Algorithms, Spring 2020 - MIT OpenCourseWare  - English Version - Complete guide by Free Academy.",
+      "year": 2024
+    },
+    {
+      "title": "MIT 6.006 Introduction to Algorithms, Fall 2011",
+      "creator": "Igor Mihálik",
+      "url": "https://www.youtube.com/playlist?list=PL_AF6NmCuV7bWaMJBKQgxggx2qpHvFpOh",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "MIT 6.006 Introduction to Algorithms, Fall 2011 - Complete guide by Igor Mihálik.",
+      "year": 2024
+    },
+    {
+      "title": "MIT OpenCourseWare - 6.006 Intro to Algorithms Recitation, Fall 2011",
+      "creator": "Learning",
+      "url": "https://www.youtube.com/playlist?list=PLCUgzOB7zhAXwoDTPqyNUeXf2QeW3lV6B",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "MIT OpenCourseWare - 6.006 Intro to Algorithms Recitation, Fall 2011 - Complete guide by Learning.",
+      "year": 2024
+    },
+    {
+      "title": "MIT Introduction to Algorithms, ordered properly (6.006, Fall 2011)",
+      "creator": "katsunoppo",
+      "url": "https://www.youtube.com/playlist?list=PLYgOQCAper65TSRhALYGwFWehehqfrz2f",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "MIT Introduction to Algorithms, ordered properly (6.006, Fall 2011) - Complete guide by katsunoppo.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to algorithms and analysis",
+      "creator": "Introduction to Algorithms and Analysis",
+      "url": "https://www.youtube.com/playlist?list=PLxR_6l4pE6quoVjSj_ShLfIftUpd_e5yo",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Introduction to algorithms and analysis - Complete guide by Introduction to Algorithms and Analysis.",
+      "year": 2024
+    },
+    {
+      "title": "Graph Theory Playlist",
+      "creator": "WilliamFiset",
+      "url": "https://www.youtube.com/playlist?list=PLDV1Zeh2NRsDGO4--qE8yH72HFL1Km93P",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Graph Theory Playlist - Complete guide by WilliamFiset.",
+      "year": 2024
+    },
+    {
+      "title": "Graph Algorithms for Technical Interviews - Full Course by freeCodeCamp.org and more",
+      "creator": "unfair23",
+      "url": "https://www.youtube.com/playlist?list=PLeqLdLgBDV7IjImwuc7qieG0ZV6C5bQZ2",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Graph Algorithms for Technical Interviews - Full Course by freeCodeCamp.org and more - Complete guide by unfair23.",
+      "year": 2024
+    },
+    {
+      "title": "'Graph Algorithms for Technical Interviews - Full Course' (freeCodeCamp.org), etc",
+      "creator": "VanessaCasillas",
+      "url": "https://www.youtube.com/playlist?list=PLWAPsBbCQ-R3HQTboI4kXeqTv-e5gfM5f",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "'Graph Algorithms for Technical Interviews - Full Course' (freeCodeCamp.org), etc - Complete guide by VanessaCasillas.",
+      "year": 2024
+    },
+    {
+      "title": "Graph | Data Structures & Algorithms | Programming Tutorials | GeeksforGeeks",
+      "creator": "GeeksforGeeks",
+      "url": "https://www.youtube.com/playlist?list=PLqM7alHXFySEaZgcg7uRYJFBnYMLti-nh",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Graph | Data Structures & Algorithms | Programming Tutorials | GeeksforGeeks - Complete guide by GeeksforGeeks.",
+      "year": 2024
+    },
+    {
+      "title": "\"Graph Algorithms for Technical Interviews - Full Course\" (freeCodeCamp.org), ...",
+      "creator": "clumsyblonde55",
+      "url": "https://www.youtube.com/playlist?list=PLctu2Y_3wUScEa3M0eN9kM6vPXqgoi1HC",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "\"Graph Algorithms for Technical Interviews - Full Course\" (freeCodeCamp.org), ... - Complete guide by clumsyblonde55.",
+      "year": 2024
+    },
+    {
+      "title": "\"Algorithms Course - Graph Theory Tutorial from a Google Engineer\" (freeCodeCamp.org), etc",
+      "creator": "missnadal",
+      "url": "https://www.youtube.com/playlist?list=PLYQvEJq27SMK0w884rVApA1eNJuR6TF-A",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "\"Algorithms Course - Graph Theory Tutorial from a Google Engineer\" (freeCodeCamp.org), etc - Complete guide by missnadal.",
+      "year": 2024
+    },
+    {
+      "title": "'Graph Algorithms for Technical Interviews - Full Course' by freeCodeCamp.org and others",
+      "creator": "keeskrokket",
+      "url": "https://www.youtube.com/playlist?list=PLCYMKcIMR1hii9PnG1DvcfW0R1ZpY9Xxs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "'Graph Algorithms for Technical Interviews - Full Course' by freeCodeCamp.org and others - Complete guide by keeskrokket.",
+      "year": 2024
+    },
+    {
+      "title": "Bit Manipulation Playlist | Language Independent Course",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/playlist?list=PLgUwDviBIf0rnqh8QsJaHyIX7KUiaPUv7",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Bit Manipulation Playlist | Language Independent Course - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "Algorithms freecodecamp",
+      "creator": "Mohamed Zahran",
+      "url": "https://www.youtube.com/playlist?list=PLR69o5h4xAwUgZHf8Y6V-KukXHBlbAcc1",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Algorithms freecodecamp - Complete guide by Mohamed Zahran.",
+      "year": 2024
+    },
+    {
+      "title": "Introduction to Graph Algorithms",
+      "creator": "NPTEL - Indian Institute of Science, Bengaluru",
+      "url": "https://www.youtube.com/playlist?list=PLgMDNELGJ1CajIGnWor0zilGWhxAfunZx",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Introduction to Graph Algorithms - Complete guide by NPTEL - Indian Institute of Science, Bengaluru.",
+      "year": 2024
+    },
+    {
+      "title": "Arrays Playlist | Basics to Advanced | C++/Java/Python | DSA | Placements",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/playlist?list=PLgUwDviBIf0rENwdL0nEH0uGom9no0nyB",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Arrays Playlist | Basics to Advanced | C++/Java/Python | DSA | Placements - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "Two Pointer and Sliding Window Playlist | Language Independent Course",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/playlist?list=PLgUwDviBIf0q7vrFA_HEWcqRqMpCXzYAL",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Two Pointer and Sliding Window Playlist | Language Independent Course - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "Recursion (Basics to Advanced) and Bactracking Series",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/playlist?list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Recursion (Basics to Advanced) and Bactracking Series - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "Graph Series by Striver | C++ | Java | Interview Centric | Algorithms | Problems",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/playlist?list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Graph Series by Striver | C++ | Java | Interview Centric | Algorithms | Problems - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "Linked List | Beginner to Advanced for FAANG and PBC Interview Rounds",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/playlist?list=PLgUwDviBIf0rAuz8tVcM0AymmhTRsfaLU",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Linked List | Beginner to Advanced for FAANG and PBC Interview Rounds - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "MIT 6.006 Introduction to Algorithms, Fall 2011",
+      "creator": "Techie Codes",
+      "url": "https://www.youtube.com/playlist?list=PL-Kr3GVEnsV3bhhD4QlcCiKTzUdQpPMdc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "MIT 6.006 Introduction to Algorithms, Fall 2011 - Complete guide by Techie Codes.",
+      "year": 2024
+    },
+    {
+      "title": "Binary Search Beginner to Advanced | C++, Java, Python | Notes + Contest",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/playlist?list=PLgUwDviBIf0pMFMWuuvDNMAkoQFi-h0ZF",
+      "language": "English",
+      "difficulty": "beginner",
+      "videoCount": 15,
+      "description": "Binary Search Beginner to Advanced | C++, Java, Python | Notes + Contest - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "Striver Tree Series",
+      "creator": "Anmol Pal",
+      "url": "https://www.youtube.com/playlist?list=PLkjdNRgDmcc0Pom5erUBU4ZayeU9AyRRu",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Striver Tree Series - Complete guide by Anmol Pal.",
+      "year": 2024
+    },
+    {
+      "title": "Greedy Algorithm Playlist | Language Independent Series",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/playlist?list=PLgUwDviBIf0rF1w2Koyh78zafB0cz7tea",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Greedy Algorithm Playlist | Language Independent Series - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "Striver's Graph Series | Playlist for people who have limited time",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/playlist?list=PLgUwDviBIf0rGEWe64KWas0Nryn7SCRWw",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Striver's Graph Series | Playlist for people who have limited time - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "Maths Playlist | Language Independent Course",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/playlist?list=PLgUwDviBIf0oFON1SRGcMqMIhiZ4EXx_F",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Maths Playlist | Language Independent Course - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "DSA Playlist in C++",
+      "creator": "Coder Army",
+      "url": "https://www.youtube.com/playlist?list=PLQEaRBV9gAFu4ovJ41PywklqI7IyXwr01",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "DSA Playlist in C++ - Complete guide by Coder Army.",
+      "year": 2024
+    },
+    {
+      "title": "Binary Trees | Complete Playlist",
+      "creator": "Shradha Khapra",
+      "url": "https://www.youtube.com/playlist?list=PLGjplNEQ1it-W0hmxxAB1P2XP2fZiYuUu",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Binary Trees | Complete Playlist - Complete guide by Shradha Khapra.",
+      "year": 2024
+    },
+    {
+      "title": "Stack and Queue Playlist | Language Independent Series",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/playlist?list=PLgUwDviBIf0pOd5zvVVSzgpo6BaCpHT9c",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Stack and Queue Playlist | Language Independent Series - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "Recursion in Programming - Full Course (freeCodeCamp.org), etc",
+      "creator": "ScienceFictions",
+      "url": "https://www.youtube.com/playlist?list=PLTPd36ECVIxbPNZDiIjNckN7UD1hkRjKQ",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Recursion in Programming - Full Course (freeCodeCamp.org), etc - Complete guide by ScienceFictions.",
+      "year": 2024
+    },
+    {
+      "title": "Binary Trees | Binary Search Trees | C++ | Java | Data Structures and Algorithms | Placements",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/playlist?list=PLgUwDviBIf0q8Hkd7bK2Bpryj2xVJk8Vk",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Binary Trees | Binary Search Trees | C++ | Java | Data Structures and Algorithms | Placements - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "Leetcode BLIND-75 Solutions",
+      "creator": "NeetCode",
+      "url": "https://www.youtube.com/playlist?list=PLot-Xpze53ldVwtstag2TL4HQhAnC8ATf",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Leetcode BLIND-75 Solutions - Complete guide by NeetCode.",
+      "year": 2024
+    },
+    {
+      "title": "Neetcode Blind 75",
+      "creator": "Thomas Truong",
+      "url": "https://www.youtube.com/playlist?list=PLLtHpVb3CSKvGk6kJIa1cS4Rn6RVFnUlE",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Neetcode Blind 75 - Complete guide by Thomas Truong.",
+      "year": 2024
+    },
+    {
+      "title": "Leetcode Blind-75: Java Solution (in Hindi)",
+      "creator": "DSA & AI by Aman Shekhar",
+      "url": "https://www.youtube.com/playlist?list=PLqTJGmwga4OAMdj3er4ssyXXds0dKKHKM",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Leetcode Blind-75: Java Solution (in Hindi) - Complete guide by DSA & AI by Aman Shekhar.",
+      "year": 2024
+    },
+    {
+      "title": "Dynamic Programming",
+      "creator": "WilliamFiset",
+      "url": "https://www.youtube.com/playlist?list=PLDV1Zeh2NRsAsbafOroUBnNV8fhZa7P4u",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Dynamic Programming - Complete guide by WilliamFiset.",
+      "year": 2024
+    },
+    {
+      "title": "Suffix array playlist",
+      "creator": "WilliamFiset",
+      "url": "https://www.youtube.com/playlist?list=PLDV1Zeh2NRsCQ_Educ7GCNs3mvzpXhHW5",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Suffix array playlist - Complete guide by WilliamFiset.",
+      "year": 2024
+    },
+    {
+      "title": "Data Structures and Algorithms Course in Hindi",
+      "creator": "CodeWithHarry",
+      "url": "https://www.youtube.com/playlist?list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Data Structures and Algorithms Course in Hindi - Complete guide by CodeWithHarry.",
+      "year": 2024
+    },
+    {
+      "title": "Binary Search Tree Playlist",
+      "creator": "WilliamFiset",
+      "url": "https://www.youtube.com/playlist?list=PLDV1Zeh2NRsCYY48kOkeLQ-cg9-eqInzs",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Binary Search Tree Playlist - Complete guide by WilliamFiset.",
+      "year": 2024
+    },
+    {
+      "title": "Data Structures and Algorithms",
+      "creator": "Jenny's Lectures CS IT",
+      "url": "https://www.youtube.com/playlist?list=PLdo5W4Nhv31bbKJzrsKfMpo_grxuLl8LU",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Data Structures and Algorithms - Complete guide by Jenny's Lectures CS IT.",
+      "year": 2024
+    },
+    {
+      "title": "Tree Algorithms",
+      "creator": "WilliamFiset",
+      "url": "https://www.youtube.com/playlist?list=PLDV1Zeh2NRsDfGc8rbQ0_58oEZQVtvoIc",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Tree Algorithms - Complete guide by WilliamFiset.",
+      "year": 2024
+    },
+    {
+      "title": "Data Structure by Vishwadeep Gothi Sir | Unacademy Computer Science",
+      "creator": "Aditya Mukherjee",
+      "url": "https://www.youtube.com/playlist?list=PLTPI8RAm0JQwjcu_SzYRr6jWoS09WaJ4B",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Data Structure by Vishwadeep Gothi Sir | Unacademy Computer Science - Complete guide by Aditya Mukherjee.",
+      "year": 2024
+    },
+    {
+      "title": "Trie Series | Striver",
+      "creator": "take U forward",
+      "url": "https://www.youtube.com/playlist?list=PLgUwDviBIf0pcIDCZnxhv0LkHf5KzG9zp",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Trie Series | Striver - Complete guide by take U forward.",
+      "year": 2024
+    },
+    {
+      "title": "Data Structures & Algorithms in Python - The Complete Pathway",
+      "creator": "Greg Hogg",
+      "url": "https://www.youtube.com/playlist?list=PLKYEe2WisBTFEr6laH5bR2J19j7sl5O8R",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Data Structures & Algorithms in Python - The Complete Pathway - Complete guide by Greg Hogg.",
+      "year": 2024
+    },
+    {
+      "title": "Advanced Data Structures",
+      "creator": "Uzair Javed Akhtar",
+      "url": "https://www.youtube.com/playlist?list=PLv9sD0fPjvSHqIOLTIvHJWjkdH0IdzmXT",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Advanced Data Structures - Complete guide by Uzair Javed Akhtar.",
+      "year": 2024
+    },
+    {
+      "title": "Data Structures By Vishwadeep",
+      "creator": "Kuldeep Siraswar (Kuldeep Saini)",
+      "url": "https://www.youtube.com/playlist?list=PLIC0AxWOdm5BvHpI_AtPqqjoADnSqcYgp",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Data Structures By Vishwadeep - Complete guide by Kuldeep Siraswar (Kuldeep Saini).",
+      "year": 2024
+    },
+    {
+      "title": "Data Structures and Algorithm",
+      "creator": "Telusko",
+      "url": "https://www.youtube.com/playlist?list=PLsyeobzWxl7rF6HYJBTNuXy3CNxDkDl3V",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Data Structures and Algorithm - Complete guide by Telusko.",
+      "year": 2024
+    },
+    {
+      "title": "Design and Analysis of algorithms (DAA)",
+      "creator": "Gate Smashers",
+      "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiHcmS4i14bI0VrMbZTUvlTa",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 15,
+      "description": "Design and Analysis of algorithms (DAA) - Complete guide by Gate Smashers.",
+      "year": 2024
+    },
+    {
+      "title": "How to Actually Get Good at DSA",
+      "creator": "WisWis",
+      "url": "https://www.youtube.com/watch?v=P5Bsy_t4S7s",
+      "language": "English",
+      "difficulty": "intermediate",
+      "videoCount": 1,
+      "description": "How to Actually Get Good at DSA - Complete guide by WisWis.",
+      "year": 2024
+    }
+  ]
 }
