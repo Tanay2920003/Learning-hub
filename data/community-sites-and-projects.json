@@ -5,6 +5,10 @@
   "icon": "community-sites-and-projects",
   "articles": [
     {
+      "title": "Resource Planet - Chinese AI and Programming References",
+      "url": "https://resources.packscena.com/categories/ai/"
+    },
+    {
       "title": "BBD College Papers - Academic Resources & Student Community",
       "url": "https://bbd-collegepapers-studio.vercel.app"
     },
